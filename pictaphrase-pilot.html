@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pictaphrase Pilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBF6EE; --card:#FFFFFF; --ink:#1F1A17; --muted:#6E655D; --line:#E9DFD2;
+  --brand:#F2542D; --brand-ink:#FFFFFF; --sun:#FFC857; --mint:#2EC4A6; --plum:#5B3E96;
+  --ok:#1E9E6A; --warn:#E39B12; --bad:#D64545; --shadow:0 10px 30px rgba(60,40,20,.10);
+  --fs:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16130F; --card:#221D18; --ink:#F5EFE6; --muted:#B3A898; --line:#3A322A;
+    --shadow:0 10px 30px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{ --bg:#16130F; --card:#221D18; --ink:#F5EFE6; --muted:#B3A898; --line:#3A322A; --shadow:0 10px 30px rgba(0,0,0,.4);}
+body.big{ --fs:20px; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:var(--fs);line-height:1.45}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;margin:0}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo .mark{width:40px;height:40px;border-radius:12px;background:var(--brand);display:grid;place-items:center;color:#fff;font-family:Fraunces;font-weight:800;font-size:22px;transform:rotate(-6deg)}
+.logo h1{font-size:26px}
+.logo small{display:block;color:var(--muted);font-family:Inter;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+button,.btn{font:inherit;border:0;border-radius:12px;padding:10px 16px;cursor:pointer;font-weight:600;background:var(--line);color:var(--ink)}
+button.primary{background:var(--brand);color:var(--brand-ink)}
+button.ghost{background:transparent;border:1.5px solid var(--line)}
+button:disabled{opacity:.5;cursor:not-allowed}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:16px}
+label{font-weight:600;font-size:.9em;display:block;margin-bottom:6px}
+input,select{font:inherit;width:100%;padding:11px 12px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.note{color:var(--muted);font-size:.85em}
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.cat{border:2px solid var(--line);border-radius:16px;padding:14px;cursor:pointer;background:var(--card);text-align:left}
+.cat.sel{border-color:var(--brand);box-shadow:0 0 0 3px color-mix(in srgb,var(--brand) 25%,transparent)}
+.cat .emo{font-size:28px}
+.cat b{display:block;margin-top:4px}
+.cat span{color:var(--muted);font-size:.82em}
+.seg{display:flex;background:var(--line);border-radius:12px;padding:4px;gap:4px}
+.seg button{flex:1;background:transparent;padding:8px}
+.seg button.on{background:var(--card);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.game{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;align-items:start}
+@media (max-width:760px){.game{grid-template-columns:1fr}}
+.frame{aspect-ratio:1/1;border-radius:20px;overflow:hidden;background:repeating-linear-gradient(45deg,var(--line) 0 10px,transparent 10px 20px);display:grid;place-items:center;position:relative;border:1px solid var(--line)}
+.frame img{width:100%;height:100%;object-fit:cover;display:block}
+.spinner{width:46px;height:46px;border-radius:50%;border:5px solid var(--line);border-top-color:var(--brand);animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loadtxt{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:var(--muted);font-weight:600}
+.pill{display:inline-block;padding:4px 10px;border-radius:999px;background:var(--line);font-size:.8em;font-weight:600}
+.blanks{font-family:ui-monospace,Menlo,monospace;font-size:1.25em;letter-spacing:.12em;word-spacing:.5em;margin:10px 0;line-height:1.8}
+.feedback{min-height:28px;font-weight:700;margin-top:10px}
+.feedback.ok{color:var(--ok)} .feedback.close{color:var(--warn)} .feedback.bad{color:var(--bad)}
+.diff span{padding:1px 4px;border-radius:6px;margin-right:2px}
+.diff .w-ok{background:color-mix(in srgb,var(--ok) 18%,transparent)}
+.diff .w-bad{background:color-mix(in srgb,var(--bad) 20%,transparent);text-decoration:line-through}
+.diff .w-miss{background:color-mix(in srgb,var(--warn) 25%,transparent)}
+.score{display:flex;gap:10px;flex-wrap:wrap}
+.score div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 12px}
+.score b{font-size:1.2em}
+.hidden{display:none!important}
+details summary{cursor:pointer;font-weight:600}
+pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:.8em;color:var(--muted)}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:12px}
+.progress i{display:block;height:100%;background:var(--mint);width:0;transition:width .3s}
+.err{color:var(--bad);font-weight:600;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><div class="mark">P</div><div><h1>Pictaphrase</h1><small>Pilot · see it, say it</small></div></div>
+    <div class="toolbar">
+      <button class="ghost" id="bigBtn" title="Larger text for easier reading">A+ Large text</button>
+      <button class="ghost" id="setBtn">⚙ Settings</button>
+    </div>
+  </header>
+
+  <!-- SETTINGS -->
+  <section class="card grid" id="settings">
+    <h2>Connect your OpenAI key</h2>
+    <p class="note">Your key stays in this browser tab and is sent only to api.openai.com. It is never saved unless you tick "remember". Images cost roughly $0.005–$0.05 each depending on model and quality.</p>
+    <div class="row">
+      <div><label for="key">OpenAI API key</label><input id="key" type="password" placeholder="sk-..." autocomplete="off"></div>
+      <div><label for="imgModel">Image model</label><input id="imgModel" value="gpt-image-1-mini"></div>
+      <div><label for="quality">Image quality</label>
+        <select id="quality"><option value="low">Low (cheapest, fine for testing)</option><option value="medium" selected>Medium</option><option value="high">High</option></select></div>
+      <div><label for="txtModel">Text model (only for custom categories)</label><input id="txtModel" value="gpt-4.1-mini"></div>
+    </div>
+    <label style="display:flex;gap:8px;align-items:center;font-weight:500"><input type="checkbox" id="remember" style="width:auto"> Remember key on this computer</label>
+    <div><button class="primary" id="saveKey">Save &amp; continue</button> <button class="ghost" id="demoBtn">Play without images (text demo)</button></div>
+    <div class="err" id="keyErr"></div>
+  </section>
+
+  <!-- SETUP -->
+  <section class="card grid hidden" id="setup">
+    <h2>Pick a category</h2>
+    <div class="cats" id="cats"></div>
+    <div class="hidden" id="customBox">
+      <label for="customCat">Type any category</label>
+      <input id="customCat" placeholder="e.g. Famous movie lines, Hebrew idioms, Space facts, Our office jokes">
+      <p class="note">The AI writes 6 puzzles for this category, then draws them.</p>
+    </div>
+    <div class="row">
+      <div><label>Difficulty</label>
+        <div class="seg" id="diff"><button data-d="easy" class="on">Easy</button><button data-d="medium">Medium</button><button data-d="hard">Hard</button></div>
+      </div>
+      <div><label for="rounds">Rounds</label><select id="rounds"><option>3</option><option selected>5</option><option>8</option></select></div>
+    </div>
+    <div><button class="primary" id="startBtn">Start game ▶</button></div>
+    <div class="err" id="setupErr"></div>
+  </section>
+
+  <!-- GAME -->
+  <section class="hidden" id="game">
+    <div class="game">
+      <div>
+        <div class="frame" id="frame"><div class="spinner"></div><div class="loadtxt">Painting your puzzle…</div></div>
+        <div class="progress"><i id="prog"></i></div>
+      </div>
+      <div class="card grid">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap">
+          <span class="pill" id="catPill">Category</span><span class="pill" id="roundPill">1 / 5</span>
+        </div>
+        <h3 id="question">What phrase is this?</h3>
+        <div class="blanks" id="blanks"></div>
+        <div class="note" id="hint"></div>
+        <form id="guessForm" class="grid" autocomplete="off">
+          <input id="guess" placeholder="Type your answer…" aria-label="Your answer">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="primary" type="submit">Check</button>
+            <button class="ghost" type="button" id="hintBtn">Hint</button>
+            <button class="ghost" type="button" id="skipBtn">Reveal</button>
+          </div>
+        </form>
+        <div class="feedback" id="fb"></div>
+        <div class="diff" id="diffOut"></div>
+        <button class="primary hidden" id="nextBtn">Next ▶</button>
+        <div class="score">
+          <div>Score <b id="score">0</b></div><div>Streak <b id="streak">0</b></div><div>Tries left <b id="tries">3</b></div>
+        </div>
+        <details><summary>Behind the scenes (prompt sent to the image AI)</summary><pre id="promptOut"></pre></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- END -->
+  <section class="card grid hidden" id="end" style="text-align:center">
+    <h2 id="endTitle">Nice game!</h2>
+    <p id="endText"></p>
+    <div><button class="primary" id="againBtn">Play again</button> <button class="ghost" id="saveBtn">Download this pack (replay free)</button></div>
+  </section>
+</div>
+
+<script>
+/* ---------- PROMPT RECIPE: the core of image clarity ---------- */
+const STYLE = "Simple, bold, friendly flat cartoon illustration. One clear central scene, plain soft pastel background, bright saturated colors, thick clean outlines, big readable shapes, nothing cluttered. Absolutely no text, no letters, no words, no numbers, no captions, no signs, no speech bubbles anywhere in the image.";
+const KIDS_STYLE = "Children's picture-book illustration, cute and friendly, one simple scene showing exactly the action described, plain background, bright colors. Absolutely no text, letters or words in the image.";
+
+/* mode: 'phrase' = fuzzy match, 'who' = guess the person, 'exact' = kids grammar */
+const PACKS = {
+  idioms:{name:"Idioms & Sayings",emo:"💬",desc:"Everyday expressions",mode:"phrase",q:"What saying is this?",items:[
+    {a:"glass half empty",alt:["the glass is half empty","glass is half empty","half empty glass"],hint:"How a pessimist sees things",scene:"A gloomy man frowning down at a clear drinking glass filled exactly halfway with water, the empty upper half of the glass highlighted with a soft glow."},
+    {a:"raining cats and dogs",alt:["its raining cats and dogs","it's raining cats and dogs"],hint:"Very heavy weather",scene:"Cartoon cats and dogs falling from dark rain clouds onto a city street like raindrops, surprised people holding umbrellas."},
+    {a:"piece of cake",alt:["a piece of cake"],hint:"Something very easy",scene:"A relaxed smiling person giving a thumbs-up with one hand and holding a single slice of strawberry cake on a plate in the other, next to a finished easy puzzle."},
+    {a:"break the ice",alt:["breaking the ice"],hint:"Starting a conversation",scene:"Two shy people at a party standing on either side of a giant block of ice, one of them cracking it in half with a small hammer while both smile."},
+    {a:"elephant in the room",alt:["the elephant in the room"],hint:"The obvious thing nobody mentions",scene:"A huge grey elephant standing in the middle of a small cozy living room while a family on the sofa looks away and pretends not to notice it."},
+    {a:"spill the beans",alt:["spilled the beans","spilling the beans"],hint:"Reveal a secret",scene:"A person accidentally knocking over a big glass jar of beans, beans spilling across a table, friends gasping with hands over their mouths."},
+    {a:"once in a blue moon",alt:["blue moon"],hint:"Very rarely",scene:"An enormous bright blue full moon glowing over a quiet small town at night, a single person on a rooftop staring up at it in amazement."},
+    {a:"cold feet",alt:["getting cold feet","get cold feet"],hint:"Nervous before a big step",scene:"A nervous groom in a suit standing at a wedding altar with his bare feet in a bucket full of ice cubes, shivering."},
+    {a:"bite off more than you can chew",alt:["bit off more than he could chew","bite off more than i can chew"],hint:"Taking on too much",scene:"A person with wide eyes trying to bite into a gigantic sandwich that is three times bigger than their head."},
+    {a:"couch potato",alt:["a couch potato"],hint:"Someone who never leaves the sofa",scene:"A cute potato character with arms and legs lounging lazily on a sofa, holding a TV remote, surrounded by snacks."}
+  ]},
+  bible:{name:"Bible Stories",emo:"📖",desc:"Famous scenes & phrases",mode:"phrase",q:"Which Bible story is this?",items:[
+    {a:"noahs ark",alt:["noah's ark","noah and the ark","the ark","noah"],hint:"Two of every animal",scene:"A giant wooden boat on a hill with pairs of animals (elephants, giraffes, lions) walking up a ramp two by two, dark rain clouds gathering, a bearded old man welcoming them."},
+    {a:"david and goliath",alt:["david vs goliath","david versus goliath"],hint:"A small hero, a giant enemy",scene:"A small young shepherd boy swinging a sling, facing an enormous armored giant warrior with a spear, on a rocky battlefield."},
+    {a:"parting of the red sea",alt:["parting the red sea","the red sea","red sea","moses parts the red sea","moses"],hint:"A path through the water",scene:"A man in robes raising a wooden staff while two towering walls of ocean water stand on either side of a dry path, crowds of people walking through."},
+    {a:"jonah and the whale",alt:["jonah","jonah and the big fish"],hint:"Three days inside",scene:"A surprised man in robes sitting inside the open mouth of a giant friendly whale in the middle of the ocean."},
+    {a:"tower of babel",alt:["babel","the tower of babel"],hint:"A tower to the heavens",scene:"A very tall spiral stone tower reaching up into the clouds, tiny builders on it looking confused at each other, unable to understand one another."},
+    {a:"adam and eve",alt:["garden of eden","the garden of eden"],hint:"The first garden",scene:"A man and a woman wearing simple leaf garments in a lush paradise garden, a green snake coiled around a tree full of red apples."},
+    {a:"the good samaritan",alt:["good samaritan"],hint:"Helping a stranger on the road",scene:"A kind traveler kneeling to bandage an injured man lying beside a dusty desert road, his donkey waiting, while two other travelers walk away in the distance."},
+    {a:"daniel in the lions den",alt:["daniel in the lion's den","daniel and the lions","lions den","daniel"],hint:"A night with big cats",scene:"A calm man in robes sitting peacefully in a stone pit surrounded by sleeping lions."}
+  ]},
+  who:{name:"Who Said It?",emo:"🎭",desc:"Famous quotes & their speakers",mode:"who",q:"Who said it?",items:[
+    {a:"shakespeare",quote:"“To be, or not to be”",alt:["william shakespeare","hamlet"],hint:"An English playwright",scene:"A pale young prince dressed in black on a theater stage, holding up a human skull and staring at it thoughtfully, red stage curtains behind him."},
+    {a:"julius caesar",quote:"“I came, I saw, I conquered”",alt:["caesar"],hint:"A Roman ruler",scene:"A proud ancient Roman general wearing a laurel wreath and red cape, riding a white horse, with Roman legion soldiers and banners behind him."},
+    {a:"archimedes",quote:"“Eureka!”",alt:[],hint:"A Greek mathematician in the bath",scene:"An excited old ancient Greek man with a beard, wrapped in a towel, leaping out of an overflowing bathtub with water splashing everywhere."},
+    {a:"sherlock holmes",quote:"“Elementary, my dear Watson”",alt:["sherlock","holmes"],hint:"A famous fictional detective",scene:"A Victorian detective in a deerstalker hat and long coat holding a big magnifying glass, a friend with a mustache beside him, foggy London street."},
+    {a:"neil armstrong",quote:"“That's one small step for man…”",alt:["armstrong"],hint:"First on the Moon",scene:"An astronaut boot stepping onto the grey dusty lunar surface leaving a footprint, the Earth glowing in the black sky, an American flag planted nearby. The astronaut's face is not visible."},
+    {a:"marie antoinette",quote:"“Let them eat cake”",alt:["antoinette"],hint:"A French queen (supposedly)",scene:"An 18th century French queen with a tall powdered wig and lavish gown on a palace balcony, cheerfully offering a fancy cake to a crowd of hungry peasants below."}
+  ]},
+  kids:{name:"Kids English",emo:"🧒",desc:"Write the full sentence correctly",mode:"exact",q:"Write a sentence about the picture:",items:[
+    {a:"The cat is sleeping on the bed.",alt:["A cat is sleeping on the bed.","The cat is sleeping on a bed."],hint:"Who? What is it doing? Where?",scene:"An orange cat curled up fast asleep on a neatly made bed."},
+    {a:"The boy is eating an apple.",alt:["A boy is eating an apple."],hint:"Use 'an' before a vowel sound",scene:"A smiling boy taking a big bite of a shiny red apple."},
+    {a:"Two dogs are playing in the park.",alt:["The dogs are playing in the park.","Two dogs are playing at the park."],hint:"More than one dog → 'are'",scene:"Two happy puppies playing tug-of-war with a rope in a sunny green park."},
+    {a:"The girl is reading a book.",alt:["A girl is reading a book."],hint:"What is she holding?",scene:"A girl sitting under a tree reading an open book."},
+    {a:"The bird is sitting in the tree.",alt:["A bird is sitting in the tree.","The bird is sitting on the tree.","A bird is sitting on the tree."],hint:"Where is the bird?",scene:"A small blue bird sitting on a branch of a leafy tree."},
+    {a:"The baby is drinking milk.",alt:["A baby is drinking milk."],hint:"What is in the bottle?",scene:"A happy baby holding and drinking from a bottle of milk."}
+  ]},
+  custom:{name:"Any Category…",emo:"✨",desc:"Type it, AI builds it",mode:"phrase",q:"What is this?",items:[]}
+};
+
+/* ---------- STATE ---------- */
+let KEY="", DEMO=false, pick="idioms", diffLevel="easy", deck=[], idx=0, score=0, streak=0, tries=3, hintsShown=0, solved=false;
+const imgCache = {}; // answer -> dataURL
+const $ = s => document.querySelector(s);
+try{ const k=localStorage.getItem("pp_key"); if(k){ $("#key").value=k; $("#remember").checked=true; } }catch(e){}
+
+/* ---------- UI wiring ---------- */
+$("#bigBtn").onclick=()=>document.body.classList.toggle("big");
+$("#setBtn").onclick=()=>show("settings");
+function show(id){ ["settings","setup","game","end"].forEach(s=>$("#"+s).classList.toggle("hidden",s!==id)); window.scrollTo(0,0); }
+
+$("#saveKey").onclick=()=>{
+  const k=$("#key").value.trim();
+  if(!k.startsWith("sk-")){ $("#keyErr").textContent="That doesn't look like an OpenAI key (it should start with sk-)."; return; }
+  KEY=k; DEMO=false; $("#keyErr").textContent="";
+  try{ $("#remember").checked ? localStorage.setItem("pp_key",k) : localStorage.removeItem("pp_key"); }catch(e){}
+  show("setup");
+};
+$("#demoBtn").onclick=()=>{ DEMO=true; show("setup"); };
+
+const catsEl=$("#cats");
+Object.entries(PACKS).forEach(([id,p])=>{
+  const b=document.createElement("button"); b.className="cat"+(id===pick?" sel":""); b.dataset.id=id;
+  b.innerHTML=`<div class="emo">${p.emo}</div><b>${p.name}</b><span>${p.desc}</span>`;
+  b.onclick=()=>{ pick=id; document.querySelectorAll(".cat").forEach(c=>c.classList.toggle("sel",c.dataset.id===id)); $("#customBox").classList.toggle("hidden",id!=="custom"); };
+  catsEl.appendChild(b);
+});
+document.querySelectorAll("#diff button").forEach(b=>b.onclick=()=>{ diffLevel=b.dataset.d; document.querySelectorAll("#diff button").forEach(x=>x.classList.toggle("on",x===b)); });
+
+$("#startBtn").onclick=startGame;
+$("#againBtn").onclick=()=>show("setup");
+$("#nextBtn").onclick=()=>{ idx++; idx<deck.length ? renderRound() : endGame(); };
+$("#skipBtn").onclick=()=>reveal(false);
+$("#hintBtn").onclick=()=>{ hintsShown++; renderHints(); };
+$("#guessForm").onsubmit=e=>{ e.preventDefault(); checkGuess(); };
+$("#saveBtn").onclick=downloadPack;
+
+/* ---------- GAME FLOW ---------- */
+async function startGame(){
+  $("#setupErr").textContent="";
+  const n=+$("#rounds").value;
+  if(pick==="custom"){
+    const cat=$("#customCat").value.trim();
+    if(!cat){ $("#setupErr").textContent="Type a category first."; return; }
+    if(DEMO){ $("#setupErr").textContent="Custom categories need your API key."; return; }
+    $("#startBtn").disabled=true; $("#startBtn").textContent="Writing puzzles…";
+    try{ PACKS.custom.items = await makeCustomPack(cat); PACKS.custom.name=cat; }
+    catch(e){ $("#setupErr").textContent="Couldn't create the category: "+e.message; $("#startBtn").disabled=false; $("#startBtn").textContent="Start game ▶"; return; }
+    $("#startBtn").disabled=false; $("#startBtn").textContent="Start game ▶";
+  }
+  const pack=PACKS[pick];
+  deck=[...pack.items].sort(()=>Math.random()-.5).slice(0,n).map(it=>({...it,mode:pack.mode,q:pack.q,cat:pack.name}));
+  idx=0; score=0; streak=0;
+  show("game"); renderRound();
+  prefetch(1); // draw the next one in the background
+}
+
+function renderRound(){
+  const it=deck[idx]; solved=false; tries = diffLevel==="hard"?2:3; hintsShown = diffLevel==="easy"?1:0;
+  $("#catPill").textContent=it.cat; $("#roundPill").textContent=`${idx+1} / ${deck.length}`;
+  $("#question").textContent = it.mode==="who" ? `Who said ${it.quote}?` : it.q;
+  $("#guess").value=""; $("#guess").disabled=false; $("#fb").textContent=""; $("#fb").className="feedback"; $("#diffOut").innerHTML="";
+  $("#nextBtn").classList.add("hidden"); $("#guessForm").querySelector("button[type=submit]").disabled=false;
+  $("#prog").style.width = (idx/deck.length*100)+"%";
+  updateScore(); renderHints();
+  $("#promptOut").textContent = buildPrompt(it);
+  loadImage(it);
+  prefetch(idx+1);
+  setTimeout(()=>$("#guess").focus(),50);
+}
+
+function renderHints(){
+  const it=deck[idx]; const target = it.a;
+  // letter blanks
+  let blanks="";
+  if(it.mode!=="exact"){
+    const words=target.replace(/[^a-zA-Z' ]/g,"").split(" ");
+    blanks = words.map(w=>{
+      if(diffLevel==="easy") return w[0].toUpperCase()+"_".repeat(w.length-1).split("").join("");
+      if(diffLevel==="medium") return "_".repeat(w.length);
+      return "";
+    }).join("  ");
+    if(diffLevel==="hard") blanks="";
+  } else {
+    blanks = diffLevel==="hard" ? "" : `${target.split(" ").length} words`;
+  }
+  $("#blanks").textContent = blanks;
+  $("#hint").textContent = hintsShown>0 ? "💡 "+it.hint : "";
+}
+
+function buildPrompt(it){
+  return `${it.mode==="exact"?KIDS_STYLE:STYLE}\n\nScene: ${it.scene}`;
+}
+
+async function loadImage(it){
+  const frame=$("#frame");
+  if(DEMO){ frame.innerHTML=`<div style="padding:28px;text-align:center"><div style="font-size:54px">🖼️</div><p class="note">Text demo — no image generated.<br>Scene the AI would draw:</p><p><i>${it.scene}</i></p></div>`; return; }
+  if(imgCache[it.a] && imgCache[it.a]!=="pending"){ frame.innerHTML=`<img alt="Puzzle image" src="${imgCache[it.a]}">`; return; }
+  frame.innerHTML=`<div class="spinner"></div><div class="loadtxt">Painting your puzzle…</div>`;
+  try{
+    const url = await getImage(it);
+    if(deck[idx]===it) frame.innerHTML=`<img alt="Puzzle image" src="${url}">`;
+  }catch(e){
+    if(deck[idx]===it) frame.innerHTML=`<div style="padding:24px;text-align:center"><p class="err">Image failed: ${escapeHtml(e.message)}</p><p class="note">Check your key, billing, or model name in Settings.</p></div>`;
+  }
+}
+
+const inflight={};
+function getImage(it){
+  if(imgCache[it.a] && imgCache[it.a]!=="pending") return Promise.resolve(imgCache[it.a]);
+  if(inflight[it.a]) return inflight[it.a];
+  inflight[it.a] = generateImage(buildPrompt(it)).then(u=>{ imgCache[it.a]=u; return u; }).finally(()=>delete inflight[it.a]);
+  return inflight[it.a];
+}
+function prefetch(i){ if(!DEMO && deck[i]) getImage(deck[i]).catch(()=>{}); }
+
+/* ---------- OpenAI calls ---------- */
+async function generateImage(prompt){
+  const model=$("#imgModel").value.trim();
+  const body={model,prompt,n:1,size:"1024x1024"};
+  if(/^gpt-image/.test(model)) body.quality=$("#quality").value;
+  if(/^dall-e/.test(model)) body.response_format="b64_json";
+  const r=await fetch("https://api.openai.com/v1/images/generations",{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+KEY},body:JSON.stringify(body)});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok) throw new Error(j.error?.message || ("HTTP "+r.status));
+  const d=j.data?.[0]; if(!d) throw new Error("No image returned");
+  return d.b64_json ? "data:image/png;base64,"+d.b64_json : d.url;
+}
+
+async function makeCustomPack(cat){
+  const sys=`You create puzzles for a picture-guessing game. For the category the user gives, return JSON {"items":[...]} with exactly 6 items. Each item: "a" (the answer: a well-known phrase, title, saying or name, 1-6 words, that most adults would recognize), "alt" (array of 1-4 other acceptable spellings or wordings), "hint" (short clue under 8 words that does NOT contain the answer words), "scene" (one vivid, LITERAL, concrete scene an illustrator could draw so a typical person would guess the answer: one main subject, exaggerate the key visual clue, describe characters generically, never real living people's faces, never trademarked characters, and never mention or depict any written words). Avoid anything offensive.`;
+  const r=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+KEY},
+    body:JSON.stringify({model:$("#txtModel").value.trim(),response_format:{type:"json_object"},messages:[{role:"system",content:sys},{role:"user",content:"Category: "+cat}]})});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok) throw new Error(j.error?.message || ("HTTP "+r.status));
+  const items=JSON.parse(j.choices[0].message.content).items;
+  if(!Array.isArray(items)||!items.length) throw new Error("No puzzles returned");
+  return items.map(x=>({a:String(x.a),alt:x.alt||[],hint:x.hint||"",scene:x.scene}));
+}
+
+/* ---------- ANSWER CHECKING ---------- */
+function norm(s,keepArticles){
+  s=s.toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+  if(!keepArticles) s=s.replace(/^(the|a|an) /,"");
+  return s;
+}
+function lev(a,b){ const m=a.length,n=b.length; if(!m) return n; if(!n) return m; let p=[...Array(n+1).keys()];
+  for(let i=1;i<=m;i++){ const c=[i]; for(let j=1;j<=n;j++) c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); p=c; } return p[n]; }
+function sim(a,b){ return 1 - lev(a,b)/Math.max(a.length,b.length,1); }
+
+function checkGuess(){
+  if(solved) return;
+  const it=deck[idx]; const g=$("#guess").value.trim(); if(!g) return;
+  const fb=$("#fb");
+  if(it.mode==="exact"){
+    const ok=[it.a,...it.alt].some(t=>norm(t,true)===norm(g,true));
+    if(ok){ return win(); }
+    const best=[it.a,...it.alt].sort((x,y)=>sim(norm(y,true),norm(g,true))-sim(norm(x,true),norm(g,true)))[0];
+    $("#diffOut").innerHTML = wordDiff(best,g);
+    tries--; fb.className="feedback close"; fb.textContent = tries>0 ? "Almost! Check the highlighted words." : "";
+    if(tries<=0) reveal(false); updateScore(); return;
+  }
+  const targets=[it.a,...it.alt].map(t=>norm(t));
+  const best=Math.max(...targets.map(t=>sim(t,norm(g))));
+  if(best>=0.85) return win();
+  tries--;
+  if(best>=0.6){ fb.className="feedback close"; fb.textContent="So close! Check your spelling or wording."; }
+  else { fb.className="feedback bad"; fb.textContent= tries>0 ? "Not quite — try again." : ""; if(tries===1 && hintsShown===0){ hintsShown=1; renderHints(); } }
+  if(tries<=0) reveal(false);
+  updateScore();
+}
+function wordDiff(target,guess){
+  const t=norm(target,true).split(" "), g=norm(guess,true).split(" ");
+  const out=[]; const len=Math.max(t.length,g.length);
+  for(let i=0;i<len;i++){
+    if(t[i]===g[i]) out.push(`<span class="w-ok">${t[i]}</span>`);
+    else { if(g[i]) out.push(`<span class="w-bad">${escapeHtml(g[i])}</span>`); if(t[i]) out.push(`<span class="w-miss">?</span>`); }
+  }
+  return out.join(" ");
+}
+function win(){
+  const pts = ({easy:10,medium:20,hard:30})[diffLevel] - hintsShown*3 + (diffLevel==="easy"?3:0);
+  score+=Math.max(pts,5); streak++; solved=true;
+  $("#fb").className="feedback ok"; $("#fb").textContent=["Got it! 🎉","Brilliant! ✨","Nailed it! 🙌","Yes! 🌟"][Math.floor(Math.random()*4)]+"  — "+display(deck[idx]);
+  finishRound();
+}
+function reveal(){ solved=true; streak=0; $("#fb").className="feedback bad"; $("#fb").textContent="The answer was: "+display(deck[idx]); finishRound(); }
+function display(it){ return it.mode==="who" ? titleCase(it.a) : (it.mode==="exact"? it.a : "“"+titleCase(it.a)+"”"); }
+function finishRound(){ $("#guess").disabled=true; $("#guessForm").querySelector("button[type=submit]").disabled=true; $("#nextBtn").classList.remove("hidden"); $("#nextBtn").focus(); updateScore(); }
+function updateScore(){ $("#score").textContent=score; $("#streak").textContent=streak; $("#tries").textContent=Math.max(tries,0); }
+function endGame(){
+  $("#prog").style.width="100%";
+  show("end");
+  $("#endTitle").textContent = score>=deck.length*15 ? "Superstar! 🏆" : "Nice game! 🎉";
+  $("#endText").textContent = `You scored ${score} points across ${deck.length} pictures in ${PACKS[pick].name} (${diffLevel}).`;
+}
+
+/* ---------- Save pack so images can be replayed without paying again ---------- */
+function downloadPack(){
+  const data={category:PACKS[pick].name,mode:PACKS[pick].mode,created:new Date().toISOString(),items:deck.map(it=>({...it,image:imgCache[it.a]||null}))};
+  const blob=new Blob([JSON.stringify(data)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`pictaphrase-pack-${pick}.json`; a.click();
+}
+
+function titleCase(s){ return s.replace(/\b\w/g,c=>c.toUpperCase()); }
+function escapeHtml(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+if($("#key").value) { /* key remembered: stay on settings so user sees it, one click to continue */ }
+</script>
+</body>
+</html>

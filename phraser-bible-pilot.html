@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phraser Bible Pilot</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FAF7F2; --card:#FFFFFF; --ink:#22201C; --muted:#6F6A62; --line:#E7E1D7;
+  --accent:#B5562E; --accent-ink:#FFFFFF; --soft:#F3EDE4;
+  --ok:#2E7D5B; --warn:#A56A00; --bad:#B23A3A;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#171512; --card:#211E1A; --ink:#F2EDE5; --muted:#ABA393; --line:#36312A; --soft:#2A2621;
+    --accent:#D9774B; --ok:#5CC08F; --warn:#E0A63A; --bad:#E26B6B;
+  }
+}
+:root[data-theme="dark"]{ --bg:#171512; --card:#211E1A; --ink:#F2EDE5; --muted:#ABA393; --line:#36312A; --soft:#2A2621; --accent:#D9774B; --ok:#5CC08F; --warn:#E0A63A; --bad:#E26B6B; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.45}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:700;margin:0}
+.wrap{max-width:560px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:24px;letter-spacing:-.01em}
+.brand span{color:var(--accent)}
+.icon-btn{background:none;border:0;color:var(--muted);font:inherit;font-size:15px;cursor:pointer;padding:10px 6px;min-height:44px}
+.screen{display:flex;flex-direction:column;gap:14px}
+.hidden{display:none!important}
+.title{font-size:30px;line-height:1.15}
+.sub{color:var(--muted);margin:0 0 8px}
+.choice{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;background:var(--card);color:var(--ink);border:1.5px solid var(--line);border-radius:16px;padding:20px;font:inherit;cursor:pointer;min-height:72px;transition:border-color .15s, transform .15s}
+.choice:hover{border-color:var(--accent);transform:translateY(-1px)}
+.choice b{font-size:20px;font-weight:600;display:block}
+.choice small{color:var(--muted);font-size:14px}
+.choice .arrow{color:var(--accent);font-size:22px}
+.back{align-self:flex-start;background:none;border:0;color:var(--muted);font:inherit;cursor:pointer;padding:8px 0;min-height:44px}
+.btn{font:inherit;font-weight:600;border:0;border-radius:14px;padding:14px 20px;cursor:pointer;min-height:50px}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+label{font-weight:600;font-size:14px;display:block;margin-bottom:6px}
+input,select{font:inherit;width:100%;padding:14px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+.note{color:var(--muted);font-size:14px}
+.err{color:var(--bad);font-weight:600;font-size:15px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row > *{flex:1 1 auto}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.pill{background:var(--soft);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.frame{aspect-ratio:1/1;width:100%;border-radius:20px;overflow:hidden;background:var(--soft);display:grid;place-items:center;position:relative}
+.frame img{width:100%;height:100%;object-fit:cover;display:block}
+.spinner{width:42px;height:42px;border-radius:50%;border:4px solid var(--line);border-top-color:var(--accent);animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loadtxt{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:var(--muted);font-size:14px}
+.q{font-size:24px}
+.blanks{font-family:ui-monospace,Menlo,monospace;font-size:20px;letter-spacing:.14em;word-spacing:.5em}
+.hint{color:var(--muted)}
+.answers{display:grid;gap:10px}
+.answers .btn{background:var(--card);border:1.5px solid var(--line);color:var(--ink);font-size:20px;min-height:64px}
+.answers .btn.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--card))}
+.answers .btn.wrong{border-color:var(--bad);opacity:.6}
+.fb{min-height:26px;font-weight:600}
+.fb.ok{color:var(--ok)} .fb.close{color:var(--warn)} .fb.bad{color:var(--bad)}
+.mic.on{background:var(--bad);color:#fff;border-color:var(--bad)}
+.score{display:flex;gap:16px;color:var(--muted);font-size:15px}
+.score b{color:var(--ink)}
+.end{text-align:center;padding-top:20px}
+.big{font-size:56px;font-family:Fraunces,Georgia,serif;font-weight:700;color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Phras<span>er</span></div>
+    <button class="icon-btn" id="setBtn">Settings</button>
+  </header>
+
+  <!-- KEY -->
+  <section class="screen" id="s-key">
+    <h1 class="title">Connect your OpenAI key</h1>
+    <p class="sub">The key stays in this browser and is sent only to OpenAI to draw the pictures. Each picture costs roughly 1–5 cents.</p>
+    <div><label for="key">OpenAI API key</label><input id="key" type="password" placeholder="sk-..." autocomplete="off"></div>
+    <div class="row">
+      <div><label for="imgModel">Image model</label><input id="imgModel" value="gpt-image-1-mini"></div>
+      <div><label for="quality">Quality</label><select id="quality"><option value="low">Low (cheapest)</option><option value="medium" selected>Medium</option><option value="high">High</option></select></div>
+    </div>
+    <label style="display:flex;gap:8px;align-items:center;font-weight:500"><input type="checkbox" id="remember" style="width:auto"> Remember on this computer</label>
+    <div class="row"><button class="btn primary" id="saveKey">Continue</button><button class="btn ghost" id="demoBtn">Try without pictures</button></div>
+    <div class="err" id="keyErr"></div>
+  </section>
+
+  <!-- AGE -->
+  <section class="screen hidden" id="s-age">
+    <h1 class="title">Who's playing?</h1>
+    <p class="sub">Pick an age range. It sets how hard the puzzles are.</p>
+    <button class="choice" data-age="k"><span><b>Ages 4–8</b><small>Pick from three answers</small></span><span class="arrow">→</span></button>
+    <button class="choice" data-age="t"><span><b>Ages 9–13</b><small>Type or say it, with letter hints</small></span><span class="arrow">→</span></button>
+    <button class="choice" data-age="a"><span><b>Ages 14+</b><small>Type or say it</small></span><span class="arrow">→</span></button>
+    <button class="choice" data-age="e"><span><b>Experts</b><small>Lesser-known stories, no letter hints</small></span><span class="arrow">→</span></button>
+  </section>
+
+  <!-- CATEGORY -->
+  <section class="screen hidden" id="s-cat">
+    <button class="back" data-go="s-age">← Age</button>
+    <h1 class="title">Choose a category</h1>
+    <p class="sub" id="ageLabel"></p>
+    <button class="choice" data-cat="stories"><span><b>Stories</b><small>Name the Bible story</small></span><span class="arrow">→</span></button>
+    <button class="choice" data-cat="phrases"><span><b>Phrases</b><small>Sayings that come from the Bible</small></span><span class="arrow">→</span></button>
+    <button class="choice" data-cat="characters"><span><b>Characters</b><small>Who is in the picture?</small></span><span class="arrow">→</span></button>
+  </section>
+
+  <!-- GAME -->
+  <section class="screen hidden" id="s-game">
+    <div class="top">
+      <button class="back" id="quitBtn">← Categories</button>
+      <span class="pill" id="roundPill">1 / 5</span>
+    </div>
+    <div class="bar"><i id="prog"></i></div>
+    <div class="frame" id="frame"></div>
+    <h2 class="q" id="question"></h2>
+    <div class="blanks" id="blanks"></div>
+    <div class="hint" id="hint"></div>
+
+    <div class="answers hidden" id="choices"></div>
+
+    <form id="guessForm" class="screen" autocomplete="off" style="gap:10px">
+      <input id="guess" placeholder="Your answer" aria-label="Your answer">
+      <div class="row">
+        <button class="btn primary" type="submit" id="checkBtn">Check</button>
+        <button class="btn ghost mic hidden" type="button" id="micBtn">🎤 Say it</button>
+        <button class="btn ghost" type="button" id="hintBtn">Hint</button>
+      </div>
+    </form>
+
+    <div class="fb" id="fb"></div>
+    <div class="row">
+      <button class="btn ghost" type="button" id="revealBtn">Show answer</button>
+      <button class="btn primary hidden" id="nextBtn">Next →</button>
+    </div>
+    <div class="score"><span>Score <b id="score">0</b></span><span>Tries left <b id="tries">3</b></span></div>
+  </section>
+
+  <!-- END -->
+  <section class="screen hidden end" id="s-end">
+    <div class="big" id="endScore">0</div>
+    <h1 class="title" id="endTitle">Well done!</h1>
+    <p class="sub" id="endText"></p>
+    <div class="row"><button class="btn primary" id="againBtn">Play again</button><button class="btn ghost" id="otherBtn">Other category</button></div>
+  </section>
+</div>
+
+<script>
+/* ---------- Image style rules ---------- */
+const RESPECT = "Respectful and reverent. Never depict God. Holy figures are shown from behind or at a distance, faces not in focus. Absolutely no text, letters, words, numbers or signs anywhere in the image.";
+const STYLE = {
+  k: "Warm children's picture-book illustration, soft rounded shapes, bright friendly colors, one simple clear scene, plain background. " + RESPECT,
+  t: "Clean, colorful storybook illustration, one clear central scene, simple background, bold readable shapes. " + RESPECT,
+  a: "Detailed, clean illustration in a classic storybook style, one clear central scene, natural colors. " + RESPECT,
+  e: "Rich, detailed classical illustration with a painterly feel, one central scene, historically plausible ancient Near Eastern setting. " + RESPECT
+};
+
+/* ---------- Content: [answer, alternates, hint, scene, level 1-4] ---------- */
+const BANK = {
+  stories:{ q:"Which Bible story is this?", items:[
+    ["noahs ark",["noah's ark","noah and the ark","the ark","noah"],"Two of every animal","A big wooden boat on a grassy hill, pairs of animals (elephants, giraffes, lions) walking up a ramp two by two, a kind bearded old man welcoming them, rain clouds gathering.",1],
+    ["david and goliath",["david vs goliath","david versus goliath"],"A small boy, a giant enemy","A small shepherd boy holding a sling, facing a huge armored giant warrior with a spear in a rocky valley.",1],
+    ["jonah and the whale",["jonah","jonah and the big fish"],"Three days inside","A surprised man in robes sitting inside the open mouth of a giant friendly whale in the middle of the ocean.",1],
+    ["daniel in the lions den",["daniel in the lion's den","daniel and the lions","lions den","daniel"],"A night with big cats","A calm man in robes sitting peacefully in a stone pit surrounded by sleeping lions.",1],
+    ["baby moses in the basket",["baby moses","moses in the basket","moses in the river","moses"],"A baby floats on the river","A baby sleeping in a woven basket floating among tall reeds on a calm river, a young girl peeking from behind the reeds.",1],
+    ["parting of the red sea",["parting the red sea","red sea","the red sea","moses parts the red sea","crossing the red sea"],"A path through the water","A man in robes raising a wooden staff while two towering walls of sea water stand on either side of a dry path, crowds of people walking through.",2],
+    ["tower of babel",["the tower of babel","babel"],"A tower to the sky","A very tall spiral stone tower reaching into the clouds, tiny builders on it looking confused at each other.",2],
+    ["josephs coat of many colors",["joseph's coat","joseph's coat of many colors","coat of many colors","coat of many colours","joseph and his coat","joseph"],"A colorful gift from a father","A proud young man wearing a long robe striped in many bright colors, his older brothers behind him frowning with arms crossed.",2],
+    ["walls of jericho",["the walls of jericho","battle of jericho","fall of jericho","jericho"],"Trumpets bring them down","Ancient stone city walls crumbling and falling while men in robes blow ram's horn trumpets and an army marches around the city.",3],
+    ["the prodigal son",["prodigal son","the lost son"],"A son comes home","An elderly father running with open arms to hug a ragged, thin young man returning along a dusty road toward a farmhouse, pigs in a pen in the background.",3],
+    ["samson and delilah",["samson"],"Strength in his hair","A muscular man with very long hair asleep on a couch, a woman beside him holding scissors, a lamp-lit ancient room.",3],
+    ["jacobs ladder",["jacob's ladder","jacob's dream","jacobs dream"],"A dream at Bethel","A man sleeping on the ground with his head on a stone, above him a glowing staircase reaching into the starry sky with winged figures going up and down.",4],
+    ["gideons fleece",["gideon's fleece","gideon and the fleece","gideon"],"Wet one night, dry the next","A man kneeling at dawn beside a sheep's wool fleece on a threshing floor, the fleece soaked with dew while the ground around it is dry.",4],
+    ["balaams donkey",["balaam's donkey","balaam and the donkey","the talking donkey","balaam"],"An animal that spoke","A donkey lying down on a narrow path between vineyard walls, turning its head to speak to its startled rider, a shining winged figure with a sword blocking the path.",4],
+    ["elijah and the chariot of fire",["chariot of fire","elijah taken to heaven","elijah"],"Taken up in a whirlwind","A chariot of fire pulled by fiery horses rising into the sky in a whirlwind, an old man in it, another man on the ground below holding a cloak.",4],
+    ["the valley of dry bones",["valley of dry bones","dry bones","ezekiel and the dry bones","ezekiel"],"Bones come to life","A wide desert valley full of scattered bones beginning to join together and stand up, a prophet in robes on a rock watching in awe.",4]
+  ]},
+  phrases:{ q:"Which Bible saying is this?", items:[
+    ["two by two",["two by two animals"],"How the animals walked onto the boat","Pairs of cute animals walking side by side in a line: two zebras, two elephants, two bunnies.",1],
+    ["let there be light",[],"The first words of creation","A dark empty world with the first beams of bright golden light bursting across the sky and shining on the earth.",1],
+    ["love your neighbor",["love your neighbour","love thy neighbor","love thy neighbour"],"Be kind to the people next door","Two neighbors smiling and hugging over a garden fence between two houses, one handing the other a basket of fruit.",1],
+    ["the good samaritan",["good samaritan","a good samaritan"],"Helping a stranger","A kind traveler kneeling to bandage an injured man beside a desert road, his donkey waiting.",1],
+    ["the rainbow promise",["rainbow","a rainbow","the rainbow","gods promise","god's promise"],"A sign in the sky after the flood","A bright rainbow over a big wooden boat resting on a mountain after rain, animals coming out happily.",1],
+    ["the salt of the earth",["salt of the earth"],"Good, honest people","Friendly farmers and workers standing in a field while a giant salt shaker sprinkles salt over the land.",2],
+    ["turn the other cheek",[],"Don't hit back","A calm man gently turning his face to the side while an angry man stands before him with a raised hand.",2],
+    ["a wolf in sheeps clothing",["wolf in sheep's clothing","a wolf in sheep's clothing","wolf in sheeps clothing"],"Danger in disguise","A sly wolf wearing a fluffy white sheep costume among a flock of real sheep, its wolf ears and tail peeking out.",2],
+    ["go the extra mile",["going the extra mile","the extra mile"],"Do more than asked","A man cheerfully carrying a heavy pack past a roadside stone marker on a long road, continuing far beyond it.",3],
+    ["the blind leading the blind",["blind leading the blind"],"Neither knows the way","A line of men wearing blindfolds holding each other's shoulders, the first one about to step into a ditch.",3],
+    ["a drop in the bucket",["drop in the bucket","a drop in a bucket"],"Too small to matter","A single water drop falling into a huge, almost empty wooden bucket, a person looking at it with a sigh.",3],
+    ["by the skin of your teeth",["by the skin of my teeth","skin of your teeth"],"Only just escaping","A man hanging at the edge of a cliff gripping a tiny branch with his teeth, eyes wide, barely holding on.",3],
+    ["the writing on the wall",["writing on the wall","handwriting on the wall"],"A warning of doom","At a lavish ancient royal feast, a mysterious glowing hand draws glowing abstract swirls on a palace wall, the king and guests frozen in fear. The marks are abstract shapes, not letters.",4],
+    ["feet of clay",[],"A hidden weakness in someone great","A huge gleaming statue with a gold head, silver chest and bronze body, standing on cracking feet of crumbling clay.",4],
+    ["the patience of job",["patience of job"],"Enduring great hardship","A man sitting calmly on an ash heap wrapped in a simple cloth, peaceful and patient, his ruined house behind him.",4],
+    ["a still small voice",["still small voice","the still small voice"],"Not in the wind, nor the fire","A prophet at the mouth of a mountain cave after a storm, wind and fire fading behind him, leaning forward to listen to a gentle breeze.",4],
+    ["nothing new under the sun",["there is nothing new under the sun"],"Everything has been done before","A bored wise king sitting under a bright sun, watching people repeat the same everyday activities again and again.",4]
+  ]},
+  characters:{ q:"Who is this Bible character?", items:[
+    ["noah",[],"He built a giant boat","A kind old man with a long white beard holding a hammer, a giant half-built wooden boat behind him and a dove on his shoulder.",1],
+    ["david",["king david"],"A shepherd who became king","A young shepherd boy playing a harp on a hillside, sheep around him, a sling hanging from his belt.",1],
+    ["moses",[],"He led his people out of Egypt","An old man with a long beard and a wooden staff holding two blank stone tablets on a mountaintop.",1],
+    ["adam and eve",["adam","eve","eve and adam"],"The first people","A man and a woman wearing simple leaf garments in a lush garden, a green snake coiled around a tree full of red fruit.",1],
+    ["jonah",[],"He ran away by boat","A worried man on a small wooden ship in a storm, a giant whale tail rising from the waves behind him.",1],
+    ["joseph",[],"He could explain dreams","A young man in a bright striped robe standing beside an Egyptian pharaoh on a throne, pointing at seven fat cows and seven thin cows.",2],
+    ["samson",[],"The strongest man","A very strong man with very long hair pushing apart two huge stone pillars of a temple.",2],
+    ["esther",["queen esther"],"A brave queen who saved her people","A brave young queen with a crown kneeling before a Persian king on his throne, who holds out a golden scepter to her.",2],
+    ["ruth",["ruth and naomi"],"Where you go, I will go","A young woman gathering stalks of barley in a golden field, an older woman resting nearby.",3],
+    ["elijah",[],"Fed by ravens","A prophet sitting by a small brook in a ravine while black ravens bring him bread in their beaks.",3],
+    ["solomon",["king solomon"],"The wisest king","A wise young king on a golden throne raising his hand while two women argue before him over a baby, a guard holding a sword.",3],
+    ["zacchaeus",["zaccheus","zacheus"],"A short man climbed a tree","A short man in fine robes sitting up in a sycamore tree, peering down over a crowd on the road below.",4],
+    ["nehemiah",[],"He rebuilt Jerusalem's walls","A man directing workers rebuilding a broken city wall, each worker holding a tool in one hand and a sword in the other.",4],
+    ["gideon",[],"Torches hidden in jars","Men on a dark hill each holding a trumpet and smashing clay jars to reveal blazing torches.",4],
+    ["methuselah",[],"The oldest man ever recorded","An extremely old man with a white beard reaching the floor, surrounded by many generations of his family.",4],
+    ["lots wife",["lot's wife"],"She looked back","A woman turned into a pillar of white salt on a desert road, looking back toward a burning city, her family hurrying away ahead.",4]
+  ]}
+};
+
+const AGES = {
+  k:{label:"Ages 4–8", levels:[1], tries:3, mode:"choice", pts:10},
+  t:{label:"Ages 9–13", levels:[1,2], tries:3, mode:"type", blanks:"first", pts:15},
+  a:{label:"Ages 14+", levels:[2,3], tries:3, mode:"type", blanks:"blank", pts:20},
+  e:{label:"Experts", levels:[3,4], tries:2, mode:"type", blanks:"none", pts:30}
+};
+const CAT_NAMES = {stories:"Stories", phrases:"Phrases", characters:"Characters"};
+const ROUNDS = 5;
+
+/* ---------- State ---------- */
+let KEY="", DEMO=false, age="k", cat="stories", deck=[], idx=0, score=0, tries=3, hintUsed=false, solved=false;
+const imgCache={}, inflight={};
+const $=s=>document.querySelector(s);
+try{ const k=localStorage.getItem("phraser_key"); if(k){ $("#key").value=k; $("#remember").checked=true; } }catch(e){}
+
+function show(id){ document.querySelectorAll(".screen[id^='s-']").forEach(s=>s.classList.toggle("hidden",s.id!==id)); window.scrollTo(0,0); }
+
+/* ---------- Navigation ---------- */
+$("#setBtn").onclick=()=>show("s-key");
+$("#saveKey").onclick=()=>{
+  const k=$("#key").value.trim();
+  if(!k.startsWith("sk-")){ $("#keyErr").textContent="That doesn't look like an OpenAI key (it starts with sk-)."; return; }
+  KEY=k; DEMO=false; $("#keyErr").textContent="";
+  try{ $("#remember").checked ? localStorage.setItem("phraser_key",k) : localStorage.removeItem("phraser_key"); }catch(e){}
+  show("s-age");
+};
+$("#demoBtn").onclick=()=>{ DEMO=true; show("s-age"); };
+document.querySelectorAll("[data-age]").forEach(b=>b.onclick=()=>{ age=b.dataset.age; $("#ageLabel").textContent=AGES[age].label; show("s-cat"); });
+document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{ cat=b.dataset.cat; startGame(); });
+document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>show(b.dataset.go));
+$("#quitBtn").onclick=()=>{ stopMic(); show("s-cat"); };
+$("#againBtn").onclick=startGame;
+$("#otherBtn").onclick=()=>show("s-cat");
+
+/* ---------- Game ---------- */
+function startGame(){
+  const A=AGES[age], pool=BANK[cat].items.filter(it=>A.levels.includes(it[4]));
+  deck=shuffle(pool).slice(0,ROUNDS).map(([a,alt,hint,scene])=>({a,alt,hint,scene}));
+  idx=0; score=0; show("s-game"); renderRound();
+}
+function renderRound(){
+  const A=AGES[age], it=deck[idx];
+  solved=false; tries=A.tries; hintUsed=false;
+  $("#roundPill").textContent=`${CAT_NAMES[cat]} · ${idx+1} / ${deck.length}`;
+  $("#prog").style.width=(idx/deck.length*100)+"%";
+  $("#question").textContent=BANK[cat].q;
+  $("#hint").textContent=""; $("#fb").textContent=""; $("#fb").className="fb";
+  $("#nextBtn").classList.add("hidden"); $("#revealBtn").classList.remove("hidden");
+  $("#blanks").textContent=blanksFor(it.a, A.blanks);
+  const isChoice=A.mode==="choice";
+  $("#choices").classList.toggle("hidden",!isChoice);
+  $("#guessForm").classList.toggle("hidden",isChoice);
+  if(isChoice) renderChoices(it);
+  else { $("#guess").value=""; $("#guess").disabled=false; $("#checkBtn").disabled=false; $("#hintBtn").disabled=false; setTimeout(()=>$("#guess").focus(),50); }
+  updateScore(); loadImage(it); prefetch(idx+1);
+}
+function blanksFor(ans, mode){
+  if(!mode||mode==="none") return "";
+  const words=pretty(ans).split(" ");
+  return words.map(w=>mode==="first" ? w[0]+"_".repeat(Math.max(w.length-1,0)) : "_".repeat(w.length)).join("  ");
+}
+function renderChoices(it){
+  const lv=AGES[age].levels;
+  const others=shuffle(BANK[cat].items.filter(x=>lv.includes(x[4])).map(x=>x[0]).filter(a=>a!==it.a)).slice(0,2);
+  const opts=shuffle([it.a,...others]);
+  const box=$("#choices"); box.innerHTML="";
+  opts.forEach(o=>{
+    const b=document.createElement("button"); b.className="btn"; b.textContent=pretty(o);
+    b.onclick=()=>{
+      if(solved) return;
+      if(o===it.a){ b.classList.add("right"); win(); }
+      else { b.classList.add("wrong"); b.disabled=true; tries--; updateScore();
+        $("#fb").className="fb bad"; $("#fb").textContent= tries>0 ? "Not that one. Try again!" : "";
+        if(!hintUsed){ hintUsed=true; $("#hint").textContent="Hint: "+it.hint; }
+        if(tries<=0) reveal(); }
+    };
+    box.appendChild(b);
+  });
+}
+$("#guessForm").onsubmit=e=>{ e.preventDefault(); checkGuess($("#guess").value); };
+$("#hintBtn").onclick=()=>{ hintUsed=true; $("#hint").textContent="Hint: "+deck[idx].hint; };
+$("#revealBtn").onclick=()=>reveal();
+$("#nextBtn").onclick=()=>{ idx++; idx<deck.length ? renderRound() : endGame(); };
+
+function checkGuess(g){
+  if(solved) return; g=(g||"").trim(); if(!g) return;
+  const it=deck[idx];
+  const best=Math.max(...[it.a,...it.alt].map(t=>sim(norm(t),norm(g))));
+  if(best>=0.85) return win();
+  tries--; updateScore();
+  const fb=$("#fb");
+  if(best>=0.6){ fb.className="fb close"; fb.textContent="So close! Check the spelling."; }
+  else { fb.className="fb bad"; fb.textContent= tries>0 ? "Not quite. Try again." : ""; }
+  if(tries===1 && !hintUsed){ hintUsed=true; $("#hint").textContent="Hint: "+it.hint; }
+  if(tries<=0) reveal();
+}
+function win(){
+  const A=AGES[age]; solved=true;
+  score+=Math.max(A.pts-(hintUsed?Math.round(A.pts/3):0),5);
+  $("#fb").className="fb ok"; $("#fb").textContent=pick(["Yes! ","Well done! ","Correct! ","Brilliant! "])+pretty(deck[idx].a);
+  finish();
+}
+function reveal(){ solved=true; $("#fb").className="fb bad"; $("#fb").textContent="The answer: "+pretty(deck[idx].a); finish(); }
+function finish(){
+  stopMic(); updateScore();
+  $("#guess").disabled=true; $("#checkBtn").disabled=true; $("#hintBtn").disabled=true;
+  document.querySelectorAll("#choices .btn").forEach(b=>b.disabled=true);
+  $("#revealBtn").classList.add("hidden"); $("#nextBtn").classList.remove("hidden"); $("#nextBtn").focus();
+}
+function updateScore(){ $("#score").textContent=score; $("#tries").textContent=Math.max(tries,0); }
+function endGame(){
+  show("s-end");
+  const max=deck.length*AGES[age].pts;
+  $("#endScore").textContent=score;
+  $("#endTitle").textContent= score>=max*0.7 ? "Excellent!" : score>=max*0.4 ? "Well done!" : "Good try!";
+  $("#endText").textContent=`${CAT_NAMES[cat]} · ${AGES[age].label} · ${deck.length} pictures`;
+}
+
+/* ---------- Images ---------- */
+function promptFor(it){ return STYLE[age]+"\n\nScene: "+it.scene; }
+function cacheKey(it){ return age+"|"+it.a; }
+async function loadImage(it){
+  const f=$("#frame");
+  if(DEMO){ f.innerHTML=`<div style="padding:24px;text-align:center"><p class="note">Picture preview off. The AI would draw:</p><p><i>${esc(it.scene)}</i></p></div>`; return; }
+  const k=cacheKey(it);
+  if(imgCache[k]){ f.innerHTML=`<img alt="Puzzle picture" src="${imgCache[k]}">`; return; }
+  f.innerHTML=`<div class="spinner"></div><div class="loadtxt">Painting the picture…</div>`;
+  try{ const u=await getImage(it); if(deck[idx]===it) f.innerHTML=`<img alt="Puzzle picture" src="${u}">`; }
+  catch(e){ if(deck[idx]===it) f.innerHTML=`<div style="padding:24px;text-align:center"><p class="err">Picture failed: ${esc(e.message)}</p><p class="note">Check your key, billing or model name in Settings.</p></div>`; }
+}
+function getImage(it){
+  const k=cacheKey(it);
+  if(imgCache[k]) return Promise.resolve(imgCache[k]);
+  if(inflight[k]) return inflight[k];
+  inflight[k]=generateImage(promptFor(it)).then(u=>{ imgCache[k]=u; return u; }).finally(()=>delete inflight[k]);
+  return inflight[k];
+}
+function prefetch(i){ if(!DEMO && deck[i]) getImage(deck[i]).catch(()=>{}); }
+async function generateImage(prompt){
+  const model=$("#imgModel").value.trim();
+  const body={model,prompt,n:1,size:"1024x1024"};
+  if(/^gpt-image/.test(model)) body.quality=$("#quality").value;
+  if(/^dall-e/.test(model)) body.response_format="b64_json";
+  const r=await fetch("https://api.openai.com/v1/images/generations",{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+KEY},body:JSON.stringify(body)});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok) throw new Error(j.error?.message||("HTTP "+r.status));
+  const d=j.data?.[0]; if(!d) throw new Error("No image returned");
+  return d.b64_json ? "data:image/png;base64,"+d.b64_json : d.url;
+}
+
+/* ---------- Voice answers (Chrome / Edge / Safari) ---------- */
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition; let rec=null;
+if(SR){
+  $("#micBtn").classList.remove("hidden");
+  $("#micBtn").onclick=()=>{
+    if(rec){ stopMic(); return; }
+    rec=new SR(); rec.lang="en-US"; rec.interimResults=false; rec.maxAlternatives=3;
+    $("#micBtn").classList.add("on"); $("#micBtn").textContent="■ Listening…";
+    rec.onresult=e=>{ const alts=[...e.results[0]].map(a=>a.transcript); $("#guess").value=alts[0];
+      const it=deck[idx]; const hit=alts.find(t=>[it.a,...it.alt].some(x=>sim(norm(x),norm(t))>=0.85));
+      checkGuess(hit||alts[0]); };
+    rec.onerror=()=>stopMic(); rec.onend=()=>stopMic();
+    try{ rec.start(); }catch(e){ stopMic(); }
+  };
+}
+function stopMic(){ if(rec){ try{rec.stop();}catch(e){} rec=null; } $("#micBtn").classList.remove("on"); $("#micBtn").textContent="🎤 Say it"; }
+
+/* ---------- Helpers ---------- */
+function norm(s){ return s.toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim().replace(/^(the|a|an) /,""); }
+function lev(a,b){ const m=a.length,n=b.length; if(!m) return n; if(!n) return m; let p=[...Array(n+1).keys()];
+  for(let i=1;i<=m;i++){ const c=[i]; for(let j=1;j<=n;j++) c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); p=c; } return p[n]; }
+function sim(a,b){ return 1-lev(a,b)/Math.max(a.length,b.length,1); }
+const FIX={"noahs":"Noah's","lions":"Lion's","josephs":"Joseph's","jacobs":"Jacob's","gideons":"Gideon's","balaams":"Balaam's","sheeps":"Sheep's","lots":"Lot's"};
+const SMALL=["and","of","the","in","a","on","by","your","to","under"];
+function pretty(s){ return s.split(" ").map((w,i)=>FIX[w]||(i>0&&SMALL.includes(w)?w:w[0].toUpperCase()+w.slice(1))).join(" "); }
+function shuffle(a){ a=[...a]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+</script>
+</body>
+</html>
