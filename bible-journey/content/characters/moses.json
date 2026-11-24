@@ -1,0 +1,3508 @@
+{
+  "id": "moses",
+  "name": "Moses",
+  "epithet": "Nine chapters. A life to discover.",
+  "epithetKids": "Nine picture adventures.",
+  "tilemap": {
+    "width": 20,
+    "height": 15,
+    "tiles": [
+      [
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "rock",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "rock",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "rock",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree"
+      ]
+    ]
+  },
+  "stops": [
+    {
+      "id": "life-moses-1",
+      "title": "Chapter 1",
+      "shortTitle": "Chapter 1",
+      "solvedTitle": "Baby Moses in the Basket",
+      "tile": {
+        "x": 3,
+        "y": 11
+      },
+      "signTile": {
+        "x": 3,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 4,
+          "y": 11
+        },
+        {
+          "x": 5,
+          "y": 11
+        },
+        {
+          "x": 6,
+          "y": 11
+        },
+        {
+          "x": 7,
+          "y": 11
+        },
+        {
+          "x": 8,
+          "y": 11
+        },
+        {
+          "x": 9,
+          "y": 11
+        }
+      ],
+      "passage": {
+        "a": "Moses' mother makes a waterproof basket and places her baby inside it, among the reeds at the edge of the Nile. His sister watches from a distance. Pharaoh's daughter finds him and feels sorry for him. His sister helps bring their mother to care for the baby. Several people's kindness helps keep little Moses safe.",
+        "b": "To protect her son from Pharaoh's order against Hebrew baby boys, Moses' mother places him in a papyrus basket among the reeds along the Nile. His sister watches from a distance. Pharaoh's daughter recognizes a Hebrew baby and shows compassion. His sister offers to find someone to nurse him and brings his own mother. Later, Moses becomes the son of Pharaoh's daughter.",
+        "c": "Moses' early life unfolds under Pharaoh's decree against Hebrew boys. His mother places him in a waterproofed papyrus basket among reeds at the Nile's bank while his sister watches. Pharaoh's daughter recognizes him as a Hebrew child and has compassion on him. The sister arranges for his mother to nurse him; later he becomes the daughter's son. The actions of these women join practical resourcefulness with care for a vulnerable life."
+      },
+      "source": "Exodus 2:1–10",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses' mother makes a waterproof basket and places her baby inside it, among the reeds at the edge of the Nile. His sister watches from a distance. Pharaoh's daughter finds him and feels sorry for him. His sister helps bring their mother to care for the baby. Several people's kindness helps keep little Moses safe.",
+        "b": "To protect her son from Pharaoh's order against Hebrew baby boys, Moses' mother places him in a papyrus basket among the reeds along the Nile. His sister watches from a distance. Pharaoh's daughter recognizes a Hebrew baby and shows compassion. His sister offers to find someone to nurse him and brings his own mother. Later, Moses becomes the son of Pharaoh's daughter.",
+        "c": "Moses' early life unfolds under Pharaoh's decree against Hebrew boys. His mother places him in a waterproofed papyrus basket among reeds at the Nile's bank while his sister watches. Pharaoh's daughter recognizes him as a Hebrew child and has compassion on him. The sister arranges for his mother to nurse him; later he becomes the daughter's son. The actions of these women join practical resourcefulness with care for a vulnerable life."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-1",
+          "category": "stories",
+          "answer": "Moses in the Basket",
+          "aliases": [
+            "Baby Moses",
+            "Baby Moses in the Basket",
+            "Baby Moses in the Nile",
+            "Moses' Basket",
+            "Moses's Basket",
+            "the Rescue of Moses",
+            "Pharaoh's daughter finds Moses",
+            "finding baby Moses",
+            "Moses in a basket",
+            "Moses in the reeds",
+            "Moses in a papyrus basket",
+            "Moses rescued from the Nile"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Pharaoh's daughter",
+            "basket",
+            "Miriam"
+          ],
+          "textHint": "Look at the small woven container and the reeds by the water.",
+          "moral": "What small act of attention or care could make a difference in someone else's life?",
+          "source": "Exodus 2:1–10",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0202.htm",
+          "images": {
+            "kids": [
+              "journey-6691388bc8766076.webp",
+              "journey-9bf4ea97fd7b4302.webp",
+              "journey-f4fb3433543fb27f.webp",
+              "journey-e469dd0b18dae6d1.webp"
+            ],
+            "teen": [
+              "journey-9b0c2b3d2dfd77ab.webp",
+              "journey-ce72f4b71fe032e6.webp",
+              "journey-05a273682a2ee577.webp",
+              "journey-04cec9b6737192bd.webp"
+            ],
+            "classic": [
+              "journey-8a0eaac8c4480a2b.webp",
+              "journey-ee8a77f6d2c0350b.webp",
+              "journey-4cc4f1e55a08f5dc.webp",
+              "journey-b59471f307fe423f.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water."
+            ],
+            "teen": [
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water."
+            ],
+            "classic": [
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water.",
+              "Look at the small woven container and the reeds by the water."
+            ]
+          },
+          "choicesKids": [
+            "Moses in the Basket",
+            "Burning Bush",
+            "The Exodus",
+            "Gathering Manna"
+          ],
+          "choiceLabelsKids": [
+            "Moses in the Basket",
+            "Burning Bush",
+            "The Exodus",
+            "Gathering Manna"
+          ],
+          "choicePicturesKids": [
+            "journey-e469dd0b18dae6d1.webp",
+            "journey-3b5bc4081f88b196.webp",
+            "journey-5cac6b1edfcf91e5.webp",
+            "journey-bfd3b027abe6fc6f.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A waterproofed papyrus basket and reeds hint at a mother's plan to protect her child.",
+              "The basket among the reeds and a girl watching from a distance bring the Nile scene into view.",
+              "Pharaoh's daughter discovering the basket connects the clues with the rescue of Moses.",
+              "The baby in the open basket, Pharaoh's daughter, and his watching sister complete the scene."
+            ],
+            "b": [
+              "A waterproofed papyrus basket and reeds hint at a mother's plan to protect her child.",
+              "The basket among the reeds and a girl watching from a distance bring the Nile scene into view.",
+              "Pharaoh's daughter discovering the basket connects the clues with the rescue of Moses.",
+              "The baby in the open basket, Pharaoh's daughter, and his watching sister complete the scene."
+            ],
+            "c": [
+              "A waterproofed papyrus basket and reeds hint at a mother's plan to protect her child.",
+              "The basket among the reeds and a girl watching from a distance bring the Nile scene into view.",
+              "Pharaoh's daughter discovering the basket connects the clues with the rescue of Moses.",
+              "The baby in the open basket, Pharaoh's daughter, and his watching sister complete the scene."
+            ]
+          },
+          "discovery": "Pharaoh's daughter knew the baby was Hebrew and still chose to care for him. His basket was placed among the reeds at the Nile's edge; the passage does not describe his mother sending it drifting down the river.",
+          "reflection": "What small act of attention or care could make a difference in someone else's life?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Where was Moses' basket placed?",
+            "options": [
+              "On top of a mountain",
+              "Among the reeds at the edge of the Nile",
+              "In the middle of the desert",
+              "High in a tree"
+            ],
+            "answer": 1,
+            "explanation": "His mother placed the basket among the reeds beside the Nile, and his sister watched from a distance."
+          },
+          {
+            "prompt": "Who found Moses in the basket?",
+            "options": [
+              "The Queen of Sheba",
+              "Noah's wife",
+              "Pharaoh's daughter",
+              "Ruth"
+            ],
+            "answer": 2,
+            "explanation": "Pharaoh's daughter saw the basket, opened it, and felt compassion for the baby."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did Moses' sister offer to do?",
+            "options": [
+              "Find a woman to nurse the baby",
+              "Build a large ship",
+              "Move the basket into the desert",
+              "Take the baby to another palace"
+            ],
+            "answer": 0,
+            "explanation": "She offered to find a Hebrew woman to nurse him, then brought his own mother."
+          },
+          {
+            "prompt": "Which action shows compassion?",
+            "options": [
+              "Leaving the basket alone",
+              "Hiding all the reeds",
+              "Sending the sister away from the Nile",
+              "Pharaoh's daughter caring for the baby she found"
+            ],
+            "answer": 3,
+            "explanation": "She cared for the child even though she recognized him as one of the Hebrew babies."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Where does the passage say the papyrus basket was placed?",
+            "options": [
+              "In the middle of the sea",
+              "Among the reeds along the Nile's bank",
+              "Inside the palace",
+              "Attached to a chariot"
+            ],
+            "answer": 1,
+            "explanation": "Exodus 2:3 places it among the reeds at the bank. A basket drifting down the river is an addition often made in retellings."
+          },
+          {
+            "prompt": "What do the actions of Moses' mother, his sister, and Pharaoh's daughter show together?",
+            "options": [
+              "Only someone with high status can help",
+              "The baby grew up alone",
+              "Initiative and compassion can work together to save a life",
+              "Pharaoh's daughter did not know the baby's origins"
+            ],
+            "answer": 2,
+            "explanation": "The mother protects, the sister makes a practical connection, and Pharaoh's daughter shows compassion despite knowing the baby's Hebrew identity."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-1-bonus-1",
+          "item": "jar",
+          "title": "Beside the Nile",
+          "prompt": "Who watched baby Moses from a distance beside the Nile?",
+          "options": [
+            "His sister",
+            "Pharaoh",
+            "A shepherd"
+          ],
+          "answer": 0,
+          "explanation": "Moses’ sister stood at a distance to see what would happen to him."
+        },
+        {
+          "id": "life-moses-1-bonus-2",
+          "item": "lamp",
+          "title": "The Baby Among the Reeds",
+          "prompt": "Who found Moses in the basket among the reeds?",
+          "options": [
+            "A shepherd",
+            "Pharaoh’s daughter",
+            "Pharaoh"
+          ],
+          "answer": 1,
+          "explanation": "Pharaoh’s daughter found Moses in the basket and took pity on him."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "משה בתיבה",
+        "aliases": [
+          "תיבת משה",
+          "הצלת משה",
+          "הצלת משה מהיאור",
+          "בת פרעה מצאה את משה",
+          "משה בתבת גומא",
+          "משה בתיבת גומא",
+          "משה בתיבה ביאור",
+          "מציאת משה בתיבה",
+          "בת פרעה מוצאת את משה",
+          "משה התינוק בתיבה"
+        ],
+        "passage": {
+          "a": "אמו של משה הכינה תיבת גומא מוגנת והניחה אותו בתוכה בין הקנים שעל שפת היאור. אחותו השגיחה מרחוק. בת פרעה מצאה את התינוק וריחמה עליו, ואחותו עזרה להביא אליו את אמו. כך כמה מעשי דאגה שמרו על משה הקטן.",
+          "b": "כדי להגן על בנה מפני גזרת פרעה, אמו של משה הניחה אותו בתיבת גומא בין קני הסוף שעל שפת היאור. אחותו צפתה מרחוק. בת פרעה זיהתה שהוא ילד עברי ובחרה לחמול עליו. בזכות יוזמת אחותו, אמו נשכרה להיניק אותו; בהמשך גדל אצל בת פרעה.",
+          "c": "סיפור לידת משה מתרחש בצל גזרת פרעה. אמו מניחה אותו בתיבת גומא אטומה בין קני הסוף על שפת היאור, ואחותו משגיחה. בת פרעה מכירה בזהותו העברית ובכל זאת חומלת עליו. האחות מציעה מינקת ומביאה את אמו; לאחר שגדל הוא נעשה לבנה של בת פרעה. הצלתו נשענת על תושייה וחמלה של כמה נשים."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "איפה הונחה התיבה של משה?",
+              "options": [
+                "על ראש הר",
+                "בין הקנים שעל שפת היאור",
+                "באמצע המדבר",
+                "על עץ גבוה"
+              ],
+              "answer": 1,
+              "explanation": "התיבה הונחה בין קני הסוף על שפת היאור, ואחותו של משה השגיחה מרחוק."
+            },
+            {
+              "prompt": "מי מצאה את משה בתיבה?",
+              "options": [
+                "מלכת שבא",
+                "אשת נח",
+                "בת פרעה",
+                "רות"
+              ],
+              "answer": 2,
+              "explanation": "בת פרעה ראתה את התיבה, פתחה אותה וריחמה על התינוק."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה הציעה אחות משה לבת פרעה?",
+              "options": [
+                "להביא אישה שתיניק את התינוק",
+                "לבנות ספינה גדולה",
+                "להעביר את התיבה למדבר",
+                "לקחת את התינוק לארמון אחר"
+              ],
+              "answer": 0,
+              "explanation": "האחות הציעה להביא מינקת מן העבריות, והביאה את אמו של משה."
+            },
+            {
+              "prompt": "איזה מעשה בסיפור מבטא חמלה?",
+              "options": [
+                "השארת התיבה לבדה",
+                "הסתרת כל קני הסוף",
+                "הרחקת האחות מהיאור",
+                "הדאגה של בת פרעה לתינוק שמצאה"
+              ],
+              "answer": 3,
+              "explanation": "בת פרעה ריחמה על התינוק אף שזיהתה שהוא מילדי העברים."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מה מספר הכתוב על המיקום של תיבת הגומא?",
+              "options": [
+                "היא נשלחה לאמצע הים",
+                "היא הונחה בסוף על שפת היאור",
+                "היא הוסתרה בארמון",
+                "היא נקשרה למרכבה"
+              ],
+              "answer": 1,
+              "explanation": "שמות ב׳, ג׳ ממקם את התיבה בסוף על שפת היאור; הפלגה חופשית באמצע הנהר היא תוספת אפשרית של איורים."
+            },
+            {
+              "prompt": "מה מדגיש הרצף של פעולות האם, האחות ובת פרעה?",
+              "options": [
+                "שרק בעלת מעמד יכולה להשפיע",
+                "שהתינוק גדל לבדו",
+                "שיוזמה וחמלה יכולות להצטרף להצלת חיים",
+                "שהזהות העברית לא נודעה לבת פרעה"
+              ],
+              "answer": 2,
+              "explanation": "האם מגינה, האחות מתווכת ובת פרעה חומלת למרות הכרתה במוצאו של התינוק."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-6",
+      "title": "Chapter 2",
+      "shortTitle": "Chapter 2",
+      "solvedTitle": "Moses at the Well in Midian",
+      "tile": {
+        "x": 9,
+        "y": 11
+      },
+      "signTile": {
+        "x": 9,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 10,
+          "y": 11
+        },
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 12,
+          "y": 11
+        },
+        {
+          "x": 13,
+          "y": 11
+        },
+        {
+          "x": 14,
+          "y": 11
+        },
+        {
+          "x": 15,
+          "y": 11
+        }
+      ],
+      "passage": {
+        "a": "Moses reaches a new land called Midian and sits beside a well. Seven sisters come to get water for their father’s flock, but other shepherds push them away. Moses steps in to help and waters their animals. When the sisters get home early, their father asks them to invite the traveler to eat. Moses stays in Midian, marries Zipporah, and starts a family. A simple act of help opens the way to a new home.",
+        "b": "After fleeing Egypt, Moses arrives in Midian. At a well, seven daughters of the local priest draw water for their father’s flock. Other shepherds drive them away, so Moses helps them and waters the animals. Their father, called Reuel in this chapter, welcomes him for a meal. Moses stays, marries Zipporah, and names their son Gershom to remember his life as a stranger in another land. Help and hospitality create a place to begin again.",
+        "c": "Moses flees Pharaoh after killing an Egyptian who was beating a Hebrew man. The story leaves that troubling act in view. In Midian, he sits by a well and intervenes when shepherds drive away the seven daughters of the local priest. He also draws water for their flock. Their father, named Reuel here, invites him to eat. Moses stays, marries Zipporah, and names their son Gershom in remembrance of being a stranger in a foreign land. Welcome and family do not erase his experience of displacement."
+      },
+      "source": "Exodus 2:15–22",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses reaches a new land called Midian and sits beside a well. Seven sisters come to get water for their father’s flock, but other shepherds push them away. Moses steps in to help and waters their animals. When the sisters get home early, their father asks them to invite the traveler to eat. Moses stays in Midian, marries Zipporah, and starts a family. A simple act of help opens the way to a new home.",
+        "b": "After fleeing Egypt, Moses arrives in Midian. At a well, seven daughters of the local priest draw water for their father’s flock. Other shepherds drive them away, so Moses helps them and waters the animals. Their father, called Reuel in this chapter, welcomes him for a meal. Moses stays, marries Zipporah, and names their son Gershom to remember his life as a stranger in another land. Help and hospitality create a place to begin again.",
+        "c": "Moses flees Pharaoh after killing an Egyptian who was beating a Hebrew man. The story leaves that troubling act in view. In Midian, he sits by a well and intervenes when shepherds drive away the seven daughters of the local priest. He also draws water for their flock. Their father, named Reuel here, invites him to eat. Moses stays, marries Zipporah, and names their son Gershom in remembrance of being a stranger in a foreign land. Welcome and family do not erase his experience of displacement."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-6",
+          "category": "stories",
+          "answer": "Moses at the Well",
+          "aliases": [
+            "Moses in Midian",
+            "Moses at the well in Midian",
+            "Moses helps the shepherdesses",
+            "Moses helps Jethro’s daughters",
+            "Moses helps Jethro's daughters",
+            "Moses waters the flock",
+            "Moses and Zipporah at the well"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Midian",
+            "well",
+            "Zipporah"
+          ],
+          "textHint": "Look at the water, the flock, and the people who need help.",
+          "moral": "What small act could help someone feel less alone?",
+          "source": "Exodus 2:15–22",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0202.htm",
+          "images": {
+            "kids": [
+              "journey-c500e78aa4cdd29c.webp",
+              "journey-81c9fc1e8a936c40.webp",
+              "journey-1645d04c23726a9d.webp",
+              "journey-8f0620f1c1f82d56.webp"
+            ],
+            "teen": [
+              "journey-ed0d8e3880c3ba52.webp",
+              "journey-2530c9dbcadf5a35.webp",
+              "journey-602de998d33ffa01.webp",
+              "journey-e37363bdb1861a11.webp"
+            ],
+            "classic": [
+              "journey-530e6c51218160f4.webp",
+              "journey-296f2bf5d7a54bf7.webp",
+              "journey-4562343e7eae698c.webp",
+              "journey-f3af1b12e6234132.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help."
+            ],
+            "teen": [
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help."
+            ],
+            "classic": [
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help.",
+              "Look at the water, the flock, and the people who need help."
+            ]
+          },
+          "choicesKids": [
+            "Moses and Aaron Before Pharaoh",
+            "Parting of the Red Sea",
+            "Mount Sinai",
+            "Moses at the Well"
+          ],
+          "choiceLabelsKids": [
+            "Moses and Aaron Before Pharaoh",
+            "Parting of the Red Sea",
+            "Mount Sinai",
+            "Moses at the Well"
+          ],
+          "choicePicturesKids": [
+            "journey-b3253a8a7eb10a82.webp",
+            "journey-222c02baccb7fbe3.webp",
+            "journey-d7a83930be26e746.webp",
+            "journey-8f0620f1c1f82d56.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A rope, a water jar, and a desert trough hint at a meeting place.",
+              "Shepherdesses and their flock show why water matters here.",
+              "A traveler helps fill the trough while other shepherds move away.",
+              "Moses draws water for the seven sisters’ flock at the well in Midian."
+            ],
+            "b": [
+              "A rope, a water jar, and a desert trough hint at a meeting place.",
+              "Shepherdesses and their flock show why water matters here.",
+              "A traveler helps fill the trough while other shepherds move away.",
+              "Moses draws water for the seven sisters’ flock at the well in Midian."
+            ],
+            "c": [
+              "A rope, a water jar, and a desert trough hint at a meeting place.",
+              "Shepherdesses and their flock show why water matters here.",
+              "A traveler helps fill the trough while other shepherds move away.",
+              "Moses draws water for the seven sisters’ flock at the well in Midian."
+            ]
+          },
+          "discovery": "The sisters’ father is called Reuel in this chapter. Moses does more than intervene: he draws water and tends to the flock’s needs.",
+          "reflection": "What small act could help someone feel less alone?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Why did the sisters come to the well?",
+            "options": [
+              "To look for a crown",
+              "To water their flock",
+              "To build a palace",
+              "To paint the sea"
+            ],
+            "answer": 1,
+            "explanation": "They drew water and filled the troughs for their father’s animals."
+          },
+          {
+            "prompt": "What did Moses do when the shepherds pushed the sisters away?",
+            "options": [
+              "He hid in a tent",
+              "He took all the animals",
+              "He helped them and watered the flock",
+              "He sailed away"
+            ],
+            "answer": 2,
+            "explanation": "Moses stepped in to help and made sure the animals had water."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "How did the sisters’ father respond when he heard about Moses?",
+            "options": [
+              "He asked them to invite Moses to eat",
+              "He sent the sisters to Egypt",
+              "He closed the well",
+              "He ordered a tower built"
+            ],
+            "answer": 0,
+            "explanation": "Reuel asked why they had left the man behind and told them to invite him to a meal."
+          },
+          {
+            "prompt": "What does the name Gershom recall in this story?",
+            "options": [
+              "A sea voyage",
+              "The kingdom of Egypt",
+              "The color of the flock",
+              "Living as a stranger in another land"
+            ],
+            "answer": 3,
+            "explanation": "Moses connects his son’s name with his own experience of living in a foreign land."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What did Moses do beyond confronting the shepherds?",
+            "options": [
+              "He built a new city",
+              "He drew water and watered the flock",
+              "He appointed the sisters as judges",
+              "He handed out gold"
+            ],
+            "answer": 1,
+            "explanation": "The sisters report that he drew water for them and gave their animals water."
+          },
+          {
+            "prompt": "What tension remains between Moses’ welcome and his son’s name?",
+            "options": [
+              "Water and fire",
+              "Strength and wealth",
+              "A new home and the memory of being a stranger",
+              "Kingship and trade"
+            ],
+            "answer": 2,
+            "explanation": "Moses builds a family in Midian while Gershom’s name preserves his experience of displacement."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-6-bonus-1",
+          "item": "jar",
+          "title": "The Sisters at the Well",
+          "prompt": "Why did the seven sisters come to the well in Midian?",
+          "options": [
+            "To build a house",
+            "To pick fruit",
+            "To draw water for the flock"
+          ],
+          "answer": 2,
+          "explanation": "The sisters came to draw water for their father’s flock."
+        },
+        {
+          "id": "life-moses-6-bonus-2",
+          "item": "staff",
+          "title": "The Shepherds and the Sisters",
+          "prompt": "What did Moses do when the shepherds drove the sisters away from the well?",
+          "options": [
+            "Helped them and watered the flock",
+            "Went to the palace",
+            "Took the flock for himself"
+          ],
+          "answer": 0,
+          "explanation": "Moses stepped in to help the sisters and watered their flock."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "משה בבאר מדיין",
+        "aliases": [
+          "משה ליד הבאר",
+          "משה בבאר",
+          "משה במדיין",
+          "משה עוזר לבנות יתרו",
+          "משה ובנות יתרו",
+          "משה משקה את הצאן",
+          "באר מדיין",
+          "משה מציל את בנות יתרו",
+          "משה וציפורה בבאר"
+        ],
+        "passage": {
+          "a": "משה הגיע לארץ מדיין והתיישב ליד באר. שבע אחיות באו לשאוב מים בשביל הצאן של אביהן, אבל רועים אחרים הרחיקו אותן. משה קם לעזור והשקה את הצאן שלהן. כשהאחיות חזרו הביתה מוקדם, אביהן ביקש להזמין את האורח לאכול. משה נשאר במדיין, נשא את ציפורה והקים משפחה. במקום זר התחילה דרך חדשה, בעזרה פשוטה ליד המים.",
+          "b": "לאחר שברח ממצרים, משה הגיע למדיין וישב ליד באר. שבע בנותיו של כהן מדיין שאבו מים לצאן אביהן, אך רועים גירשו אותן. משה התערב, עזר להן וגם השקה את הצאן. אביהן, הנקרא בפרק רעואל, הזמין אותו לאכול. משה נשאר בביתו, נשא את ציפורה וקרא לבנו גרשום, מתוך תחושת היותו גר בארץ זרה. זו תחנה של הגנה על חלשות, הכנסת אורחים ובניית חיים חדשים.",
+          "c": "משה בורח מפרעה אחרי שהרג מצרי שהכה איש עברי; הכתוב אינו מוחק את המעשה הקשה מראשית דרכו. במדיין הוא מתיישב ליד באר. כששבע בנות כהן מדיין מגורשות בידי רועים, הוא נחלץ לעזרתן ומשקה את צאנן. האב, הקרוי כאן רעואל, מזמין את הזר לאכול. משה נשאר, נושא את ציפורה וקורא לבנו גרשום לזכר היותו גר בארץ נוכרייה. העזרה בבאר פותחת קשרים חדשים, אך השם שניתן לבן משמר את חוויית העקירה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "למה באו האחיות לבאר?",
+              "options": [
+                "לחפש כתר",
+                "להשקות את הצאן",
+                "לבנות ארמון",
+                "לצייר ים"
+              ],
+              "answer": 1,
+              "explanation": "האחיות שאבו מים ומילאו את השקתות בשביל הצאן של אביהן."
+            },
+            {
+              "prompt": "מה עשה משה כשהרועים הרחיקו את האחיות?",
+              "options": [
+                "הסתתר באוהל",
+                "לקח את כל הצאן",
+                "עזר להן והשקה את הצאן",
+                "הפליג בסירה"
+              ],
+              "answer": 2,
+              "explanation": "משה קם לעזרתן וגם דאג להשקות את הצאן."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "איך הגיב האב כששמע על העזרה שקיבלו בנותיו?",
+              "options": [
+                "ביקש להזמין את משה לאכול",
+                "שלח את הבנות למצרים",
+                "סגר את הבאר",
+                "דרש לבנות מגדל"
+              ],
+              "answer": 0,
+              "explanation": "רעואל שאל מדוע השאירו את האיש ליד הבאר וביקש לקרוא לו לאכול."
+            },
+            {
+              "prompt": "מה מזכיר השם גרשום בסיפור?",
+              "options": [
+                "מסע בים",
+                "מלכות מצרים",
+                "צבע של צאן",
+                "חיים כגר בארץ זרה"
+              ],
+              "answer": 3,
+              "explanation": "משה קושר את השם גרשום לחוויית היותו גר בארץ נוכרייה."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה פרט מתאר את עזרתו של משה מעבר להתערבות מול הרועים?",
+              "options": [
+                "הוא בונה עיר חדשה",
+                "הוא שואב ומשקה את הצאן",
+                "הוא ממנה את האחיות לשופטות",
+                "הוא מחלק זהב"
+              ],
+              "answer": 1,
+              "explanation": "הבנות מספרות שמשה גם דלה להן מים והשקה את הצאן."
+            },
+            {
+              "prompt": "איזה מתח נשמר בין הכנסת האורחים לבין שם בנו של משה?",
+              "options": [
+                "מים מול אש",
+                "כוח מול עושר",
+                "בית חדש לצד זיכרון הזרות",
+                "מלוכה מול מסחר"
+              ],
+              "answer": 2,
+              "explanation": "משה מקים משפחה במדיין, ובכל זאת השם גרשום מנציח את תחושת היותו זר."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-2",
+      "title": "Chapter 3",
+      "shortTitle": "Chapter 3",
+      "solvedTitle": "The Burning Bush",
+      "tile": {
+        "x": 15,
+        "y": 11
+      },
+      "signTile": {
+        "x": 15,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 15,
+          "y": 10
+        },
+        {
+          "x": 15,
+          "y": 9
+        },
+        {
+          "x": 15,
+          "y": 8
+        },
+        {
+          "x": 15,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "Moses is a shepherd in Midian. Near Mount Horeb, he sees something amazing: a bush is on fire, but it does not burn up! He stops to look and takes off his sandals on the holy ground. God calls him to help lead the Israelites out of Egypt. Moses is worried, but he will not have to do everything alone.",
+        "b": "After leaving Egypt, Moses builds a life in Midian and tends his father-in-law Jethro's flock. Near Horeb, he notices a bush burning without being consumed. God calls his name, tells him to remove his sandals on holy ground, and sends him to lead the Israelites out of Egypt. Moses raises questions and fears. His brother Aaron will help him speak.",
+        "c": "While tending Jethro's flock near Horeb, Moses turns aside to investigate a bush that burns without being consumed. His attention leads to an encounter: God calls him by name, tells him to remove his sandals, and sends him to Pharaoh. Moses does not respond with instant confidence. His questions, doubts, and need for Aaron's help are part of the account of his calling."
+      },
+      "source": "Exodus 3–4",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses is a shepherd in Midian. Near Mount Horeb, he sees something amazing: a bush is on fire, but it does not burn up! He stops to look and takes off his sandals on the holy ground. God calls him to help lead the Israelites out of Egypt. Moses is worried, but he will not have to do everything alone.",
+        "b": "After leaving Egypt, Moses builds a life in Midian and tends his father-in-law Jethro's flock. Near Horeb, he notices a bush burning without being consumed. God calls his name, tells him to remove his sandals on holy ground, and sends him to lead the Israelites out of Egypt. Moses raises questions and fears. His brother Aaron will help him speak.",
+        "c": "While tending Jethro's flock near Horeb, Moses turns aside to investigate a bush that burns without being consumed. His attention leads to an encounter: God calls him by name, tells him to remove his sandals, and sends him to Pharaoh. Moses does not respond with instant confidence. His questions, doubts, and need for Aaron's help are part of the account of his calling."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-2",
+          "category": "stories",
+          "answer": "Burning Bush",
+          "aliases": [
+            "the Burning Bush",
+            "Moses and the Burning Bush",
+            "the bush that did not burn up",
+            "the bush that was not consumed",
+            "Moses at the Burning Bush"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "bush",
+            "shepherd",
+            "Horeb"
+          ],
+          "textHint": "Notice the sandals, the light, and a plant that is still alive.",
+          "moral": "How can asking questions and accepting help make it possible to begin a difficult task?",
+          "source": "Exodus 3–4",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0203.htm",
+          "images": {
+            "kids": [
+              "journey-b3bf419555e77eb3.webp",
+              "journey-50410dca947ef229.webp",
+              "journey-90c3ae7b74bdfa78.webp",
+              "journey-3b5bc4081f88b196.webp"
+            ],
+            "teen": [
+              "journey-e5fb1afe6833c957.webp",
+              "journey-c533314d0a6afd0e.webp",
+              "journey-6515e5a2805dbd08.webp",
+              "journey-a25dc6c2ce60fd19.webp"
+            ],
+            "classic": [
+              "journey-c7ac72a28025907c.webp",
+              "journey-2d93894a6787bb69.webp",
+              "journey-8a6e4d8bd7ec1a7f.webp",
+              "journey-cc4730610b4da300.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive."
+            ],
+            "teen": [
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive."
+            ],
+            "classic": [
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive.",
+              "Notice the sandals, the light, and a plant that is still alive."
+            ]
+          },
+          "choicesKids": [
+            "Gathering Manna",
+            "Joshua Becomes the Leader",
+            "Burning Bush",
+            "The Exodus"
+          ],
+          "choiceLabelsKids": [
+            "Gathering Manna",
+            "Joshua Becomes the Leader",
+            "Burning Bush",
+            "The Exodus"
+          ],
+          "choicePicturesKids": [
+            "journey-bfd3b027abe6fc6f.webp",
+            "journey-a9f86dbf88885dc7.webp",
+            "journey-3b5bc4081f88b196.webp",
+            "journey-5cac6b1edfcf91e5.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Sandals, a shepherd's staff, and unusual light near a bush hint at an encounter on holy ground.",
+              "A shepherd notices a bush that is burning yet remains intact.",
+              "The unconsumed bush and Moses removing his sandals connect two details from the encounter.",
+              "Barefoot Moses, the flock, and the intact burning bush reveal the scene of his calling."
+            ],
+            "b": [
+              "Sandals, a shepherd's staff, and unusual light near a bush hint at an encounter on holy ground.",
+              "A shepherd notices a bush that is burning yet remains intact.",
+              "The unconsumed bush and Moses removing his sandals connect two details from the encounter.",
+              "Barefoot Moses, the flock, and the intact burning bush reveal the scene of his calling."
+            ],
+            "c": [
+              "Sandals, a shepherd's staff, and unusual light near a bush hint at an encounter on holy ground.",
+              "A shepherd notices a bush that is burning yet remains intact.",
+              "The unconsumed bush and Moses removing his sandals connect two details from the encounter.",
+              "Barefoot Moses, the flock, and the intact burning bush reveal the scene of his calling."
+            ]
+          },
+          "discovery": "The unusual detail is not simply a bush on fire. It keeps burning without being consumed. Moses stops to look more closely before he receives his mission.",
+          "reflection": "How can asking questions and accepting help make it possible to begin a difficult task?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "What was special about the bush Moses saw?",
+            "options": [
+              "It was made of stone",
+              "It floated down the river",
+              "It was burning but did not burn up",
+              "It grew sandals"
+            ],
+            "answer": 2,
+            "explanation": "The bush was on fire, but the fire did not destroy it."
+          },
+          {
+            "prompt": "What was Moses told to take off?",
+            "options": [
+              "His sandals",
+              "All the sheep's wool",
+              "His hair",
+              "His belt"
+            ],
+            "answer": 0,
+            "explanation": "God told him to remove his sandals because he was standing on holy ground."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What work was Moses doing before he saw the bush?",
+            "options": [
+              "Building towers",
+              "Fishing in the Nile",
+              "Trading goods at the palace",
+              "Tending Jethro's flock"
+            ],
+            "answer": 3,
+            "explanation": "Moses was caring for the flock of his father-in-law Jethro and had led it toward Horeb."
+          },
+          {
+            "prompt": "How did Moses respond to his mission?",
+            "options": [
+              "He asked no questions",
+              "He voiced questions and concerns",
+              "He announced that he was already Egypt's king",
+              "He sent the flock to Pharaoh"
+            ],
+            "answer": 1,
+            "explanation": "Moses questioned how he could fulfill the task. The story makes room for uncertainty and the need for help."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What first leads Moses to turn aside and investigate?",
+            "options": [
+              "The bush burns without being consumed",
+              "Gold lies beneath the bush",
+              "A letter arrives from Pharaoh",
+              "The entire flock disappears"
+            ],
+            "answer": 0,
+            "explanation": "The passage draws attention to the contrast between the flames and the bush remaining unconsumed."
+          },
+          {
+            "prompt": "Who is appointed to help Moses speak during the mission?",
+            "options": [
+              "Joshua",
+              "Pharaoh's daughter",
+              "His brother Aaron",
+              "Balaam"
+            ],
+            "answer": 2,
+            "explanation": "Exodus 4 gives Aaron a speaking role alongside Moses. Accepting responsibility can include accepting a partner's help."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-2-bonus-1",
+          "item": "staff",
+          "title": "Moses Near Horeb",
+          "prompt": "What was Moses doing before he saw the burning bush?",
+          "options": [
+            "Building a palace",
+            "Tending a flock",
+            "Fishing in the Nile"
+          ],
+          "answer": 1,
+          "explanation": "Moses was tending a flock when he saw the bush near Horeb."
+        },
+        {
+          "id": "life-moses-2-bonus-2",
+          "item": "lamp",
+          "title": "Beside the Bush",
+          "prompt": "What was Moses told to take off as he stood beside the bush?",
+          "options": [
+            "His belt",
+            "His cloak",
+            "His sandals"
+          ],
+          "answer": 2,
+          "explanation": "Moses was told to take off his sandals because he was standing on holy ground."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "הסנה הבוער",
+        "aliases": [
+          "סנה בוער",
+          "הסנה שאיננו אוכל",
+          "הסנה שאינו נאכל",
+          "משה והסנה הבוער",
+          "סיפור הסנה הבוער"
+        ],
+        "passage": {
+          "a": "משה היה רועה צאן במדיין. ליד הר חורב הוא ראה שיח שבער באש, אבל נשאר שלם! משה עצר להתבונן והסיר את נעליו במקום הקדוש. אלוהים קרא לו לעזור לבני ישראל לצאת ממצרים. משה חשש, אבל לא היה צריך לעשות הכול לבדו.",
+          "b": "לאחר שעזב את מצרים והקים משפחה במדיין, משה רעה את צאן יתרו. ליד חורב הבחין בסנה שבער בלי להיאכל באש. הוא התקרב, הסיר את נעליו ושמע את הקריאה להוציא את בני ישראל ממצרים. משה הביע ספקות ושאלות; אהרן הצטרף אליו לשליחות.",
+          "c": "משה, רועה צאן יתרו במדיין, מבחין בחורב בסנה הבוער ואיננו נאכל. הפנייה שלו להתבונן מובילה לקריאה בשמו ולדרישה להסיר את נעליו על אדמת קודש. הוא נשלח אל פרעה להוציא את בני ישראל, אך אינו מציג ביטחון מיידי: שאלותיו וחששותיו הם חלק מן הסיפור, ואהרן נועד לסייע לו בדיבור."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מה היה מיוחד בשיח שמשה ראה?",
+              "options": [
+                "הוא היה עשוי אבן",
+                "הוא שט בנהר",
+                "הוא בער ונשאר שלם",
+                "הוא הצמיח סנדלים"
+              ],
+              "answer": 2,
+              "explanation": "הסנה בער באש, אך האש לא כילתה אותו."
+            },
+            {
+              "prompt": "מה התבקש משה להסיר?",
+              "options": [
+                "את נעליו",
+                "את כל צמר הכבשים",
+                "את שערו",
+                "את חגורתו"
+              ],
+              "answer": 0,
+              "explanation": "משה התבקש להסיר את נעליו כי עמד על אדמת קודש."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "באיזו מלאכה עסק משה לפני המפגש בסנה?",
+              "options": [
+                "בניית מגדלים",
+                "דיג ביאור",
+                "מסחר בארמון",
+                "רעיית צאן יתרו"
+              ],
+              "answer": 3,
+              "explanation": "משה רעה את צאן יתרו חותנו, והוביל אותו אל אזור חורב."
+            },
+            {
+              "prompt": "כיצד הגיב משה לשליחות?",
+              "options": [
+                "לא שאל דבר",
+                "העלה שאלות וחששות",
+                "הכריז שהוא כבר מלך מצרים",
+                "שלח את הצאן אל פרעה"
+              ],
+              "answer": 1,
+              "explanation": "משה שאל איך יוכל למלא את השליחות. הסיפור מאפשר מקום לחשש ולבקשת עזרה."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מה הביא את משה לסור ולהתבונן בסנה?",
+              "options": [
+                "הפער בין האש לבין הסנה שאינו נאכל",
+                "ערמת זהב מתחת לשיח",
+                "מכתב מפרעה",
+                "היעלמות כל הצאן"
+              ],
+              "answer": 0,
+              "explanation": "הכתוב מדגיש את המראה החריג: הסנה בוער באש ובכל זאת איננו נאכל."
+            },
+            {
+              "prompt": "מי נועד לסייע למשה בדיבור בשליחות?",
+              "options": [
+                "יהושע",
+                "בת פרעה",
+                "אהרן אחיו",
+                "בלעם"
+              ],
+              "answer": 2,
+              "explanation": "בשמות ד׳ מתואר שאהרן ידבר אל העם לצד משה; קבלת תפקיד יכולה לכלול שותפות ועזרה."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-7",
+      "title": "Chapter 4",
+      "shortTitle": "Chapter 4",
+      "solvedTitle": "Moses and Aaron Before Pharaoh",
+      "tile": {
+        "x": 15,
+        "y": 7
+      },
+      "signTile": {
+        "x": 15,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 14,
+          "y": 7
+        },
+        {
+          "x": 13,
+          "y": 7
+        },
+        {
+          "x": 12,
+          "y": 7
+        },
+        {
+          "x": 11,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 7
+        },
+        {
+          "x": 9,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "Moses and his brother Aaron go to Pharaoh together. They ask him to let the Israelites travel into the wilderness to celebrate and worship God. Pharaoh says no. He even makes their brickmaking work harder: now they must collect their own straw. This is a difficult beginning. Freedom will take more than one meeting, and Moses and Aaron must keep caring about the people who are hurting.",
+        "b": "Moses and Aaron ask Pharaoh to let the people hold a festival for God in the wilderness. Pharaoh rejects their request and the authority behind it. That same day, he stops supplying straw for bricks but keeps the required number of bricks unchanged. Their first meeting is no victory. It exposes a sharp imbalance of power and makes life harder for the people. Leadership will require persistence and attention to the costs others bear.",
+        "c": "In Exodus 5, Moses and Aaron speak in the name of Israel’s God and call for the people to be released for a festival in the wilderness. Pharaoh refuses and treats their request as a disruption of labor. He withdraws the straw supply while keeping the brick quota unchanged. Resistance brings economic pressure and accusations against those seeking relief. This is an early stage of the confrontation: the staff miracle and the eventual departure still lie ahead. The chapter asks how leaders respond when a justified demand first brings harsher conditions."
+      },
+      "source": "Exodus 5:1–9",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses and his brother Aaron go to Pharaoh together. They ask him to let the Israelites travel into the wilderness to celebrate and worship God. Pharaoh says no. He even makes their brickmaking work harder: now they must collect their own straw. This is a difficult beginning. Freedom will take more than one meeting, and Moses and Aaron must keep caring about the people who are hurting.",
+        "b": "Moses and Aaron ask Pharaoh to let the people hold a festival for God in the wilderness. Pharaoh rejects their request and the authority behind it. That same day, he stops supplying straw for bricks but keeps the required number of bricks unchanged. Their first meeting is no victory. It exposes a sharp imbalance of power and makes life harder for the people. Leadership will require persistence and attention to the costs others bear.",
+        "c": "In Exodus 5, Moses and Aaron speak in the name of Israel’s God and call for the people to be released for a festival in the wilderness. Pharaoh refuses and treats their request as a disruption of labor. He withdraws the straw supply while keeping the brick quota unchanged. Resistance brings economic pressure and accusations against those seeking relief. This is an early stage of the confrontation: the staff miracle and the eventual departure still lie ahead. The chapter asks how leaders respond when a justified demand first brings harsher conditions."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-7",
+          "category": "stories",
+          "answer": "Moses and Aaron Before Pharaoh",
+          "aliases": [
+            "Moses before Pharaoh",
+            "Moses and Aaron meet Pharaoh",
+            "Moses confronts Pharaoh",
+            "let my people go",
+            "Moses and Aaron ask Pharaoh",
+            "Moses and Aaron in Pharaoh’s court",
+            "Moses and Aaron in Pharaoh's court"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Aaron",
+            "Pharaoh",
+            "Egypt"
+          ],
+          "textHint": "Who is speaking, and who has the power to say no?",
+          "moral": "How can you speak up for someone while still listening to what they need?",
+          "source": "Exodus 5:1–9",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0205.htm",
+          "images": {
+            "kids": [
+              "journey-3ebd89c24f1658ad.webp",
+              "journey-af6d2d5daa907d97.webp",
+              "journey-e60a0023fdd3e999.webp",
+              "journey-b3253a8a7eb10a82.webp"
+            ],
+            "teen": [
+              "journey-bbf0e215a1caca89.webp",
+              "journey-9560c241449e34e4.webp",
+              "journey-079345922a4551c0.webp",
+              "journey-9a2b66da24fb13b8.webp"
+            ],
+            "classic": [
+              "journey-e05ec6718a242891.webp",
+              "journey-d3a83f795437b363.webp",
+              "journey-a44baa3059c36b2e.webp",
+              "journey-ea7f7c4852f8768c.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?"
+            ],
+            "teen": [
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?"
+            ],
+            "classic": [
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?",
+              "Who is speaking, and who has the power to say no?"
+            ]
+          },
+          "choicesKids": [
+            "Joshua Becomes the Leader",
+            "Moses and Aaron Before Pharaoh",
+            "Burning Bush",
+            "The Exodus"
+          ],
+          "choiceLabelsKids": [
+            "Joshua Becomes the Leader",
+            "Moses and Aaron Before Pharaoh",
+            "Burning Bush",
+            "The Exodus"
+          ],
+          "choicePicturesKids": [
+            "journey-a9f86dbf88885dc7.webp",
+            "journey-b3253a8a7eb10a82.webp",
+            "journey-3b5bc4081f88b196.webp",
+            "journey-5cac6b1edfcf91e5.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Mud bricks and straw beside an Egyptian column hint at labor and power.",
+              "Two plainly dressed messengers enter an Egyptian court.",
+              "The brothers speak to a ruler seated on his throne.",
+              "Moses and Aaron ask Pharaoh to let the people go, and he refuses."
+            ],
+            "b": [
+              "Mud bricks and straw beside an Egyptian column hint at labor and power.",
+              "Two plainly dressed messengers enter an Egyptian court.",
+              "The brothers speak to a ruler seated on his throne.",
+              "Moses and Aaron ask Pharaoh to let the people go, and he refuses."
+            ],
+            "c": [
+              "Mud bricks and straw beside an Egyptian column hint at labor and power.",
+              "Two plainly dressed messengers enter an Egyptian court.",
+              "The brothers speak to a ruler seated on his throne.",
+              "Moses and Aaron ask Pharaoh to let the people go, and he refuses."
+            ]
+          },
+          "discovery": "This meeting in Exodus 5 centers on a demand and a refusal. The staff miracle belongs to a later encounter, in Exodus 7.",
+          "reflection": "How can you speak up for someone while still listening to what they need?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who went with Moses to Pharaoh?",
+            "options": [
+              "Joshua",
+              "Noah",
+              "His brother Aaron",
+              "David"
+            ],
+            "answer": 2,
+            "explanation": "Aaron joined Moses, and they spoke to Pharaoh together."
+          },
+          {
+            "prompt": "How did Pharaoh respond?",
+            "options": [
+              "He refused and made the work harder",
+              "He opened every gate at once",
+              "He gave the people a palace",
+              "He joined them for a walk"
+            ],
+            "answer": 0,
+            "explanation": "Pharaoh said no and ordered harsher conditions for making bricks."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did Moses and Aaron ask for in this chapter?",
+            "options": [
+              "A crown for Moses",
+              "Permission for the people to celebrate God in the wilderness",
+              "A new ship",
+              "A throne for Aaron"
+            ],
+            "answer": 1,
+            "explanation": "They asked Pharaoh to let the people hold a festival for God in the wilderness."
+          },
+          {
+            "prompt": "What did Pharaoh change about brickmaking?",
+            "options": [
+              "He ended all work",
+              "He lowered the quota",
+              "He replaced bricks with stones",
+              "He stopped supplying straw but kept the quota"
+            ],
+            "answer": 3,
+            "explanation": "The people had to find their own straw and still make the same number of bricks."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which detail shows that the workload increased without a lower production target?",
+            "options": [
+              "Fewer palaces were needed",
+              "All workers were freed",
+              "The straw supply ended, but the brick quota stayed",
+              "Bricks were replaced by gifts"
+            ],
+            "answer": 2,
+            "explanation": "Workers had to gather their own straw while meeting the same brick quota."
+          },
+          {
+            "prompt": "Which statement fits the biblical sequence?",
+            "options": [
+              "The staff miracle happens later",
+              "The sea divides at this meeting",
+              "The people have already reached Sinai",
+              "Pharaoh agrees immediately"
+            ],
+            "answer": 0,
+            "explanation": "Exodus 5 gives the demand and the refusal. The staff miracle comes in Exodus 7."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-7-bonus-1",
+          "item": "seal",
+          "title": "The Meeting with Pharaoh",
+          "prompt": "Who went with Moses to speak to Pharaoh?",
+          "options": [
+            "His brother Aaron",
+            "Jethro",
+            "Joshua"
+          ],
+          "answer": 0,
+          "explanation": "Moses and his brother Aaron went together to ask Pharaoh to let the people go."
+        },
+        {
+          "id": "life-moses-7-bonus-2",
+          "item": "jar",
+          "title": "Pharaoh’s Order About Bricks",
+          "prompt": "What did Pharaoh order the workers to gather for themselves to make bricks?",
+          "options": [
+            "Wool",
+            "Straw",
+            "Olive leaves"
+          ],
+          "answer": 1,
+          "explanation": "Pharaoh stopped supplying straw but still demanded the same number of bricks."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "משה ואהרן לפני פרעה",
+        "aliases": [
+          "משה ואהרון לפני פרעה",
+          "משה לפני פרעה",
+          "משה ואהרן מול פרעה",
+          "משה ואהרון מול פרעה",
+          "שלח את עמי",
+          "משה ואהרן אצל פרעה",
+          "משה ואהרון אצל פרעה"
+        ],
+        "passage": {
+          "a": "משה ואחיו אהרן באו יחד אל פרעה. הם ביקשו שיאפשר לבני ישראל לצאת אל המדבר כדי לחגוג ולעבוד את אלוהים. פרעה סירב. במקום להקל על העם הוא הקשה את עבודת הכנת הלבנים: עכשיו היו צריכים גם לאסוף בעצמם את התבן. זו הייתה התחלה קשה. משה ואהרן למדו שהדרך לשחרור לא תהיה מהירה, ושחשוב להמשיך לדאוג למי שסובלים.",
+          "b": "משה ואהרן התייצבו לפני פרעה וביקשו לשלח את העם לחוג לאלוהים במדבר. פרעה דחה את הבקשה וסירב להכיר בסמכות שמכוחה דיברו. באותו יום הורה שלא לספק עוד תבן לייצור לבנים, בלי להפחית את המכסה. הפגישה הראשונה אינה ניצחון: היא חושפת פערי כוח ואף מכבידה על העם. השליחות תדרוש התמדה, אחריות והקשבה למחיר שאחרים נושאים.",
+          "c": "בשמות ה׳ משה ואהרן דורשים בשם אלוהי ישראל לשלח את העם לחוג במדבר. פרעה משיב בסירוב ומציג את הבקשה כהפרעה לעבודה. הוא מבטל את אספקת התבן, אך מותיר את מכסת הלבנים על כנה. כך המפגש חושף את מנגנון השעבוד: התנגדות נענית בהכבדה כלכלית ובשלילת אמינות המבקשים. זהו שלב מוקדם בעימות; אין כאן עדיין מופת המטה או שחרור מיידי. הנהגה נבחנת גם בתוצאות הקשות של פעולה צודקת."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי הלך עם משה אל פרעה?",
+              "options": [
+                "יהושע",
+                "נח",
+                "אהרן אחיו",
+                "דוד"
+              ],
+              "answer": 2,
+              "explanation": "אהרן הצטרף למשה, ושניהם דיברו אל פרעה."
+            },
+            {
+              "prompt": "איך הגיב פרעה לבקשה?",
+              "options": [
+                "סירב והקשה את העבודה",
+                "פתח מיד את כל השערים",
+                "נתן לעם ארמון",
+                "יצא עם העם לטיול"
+              ],
+              "answer": 0,
+              "explanation": "פרעה לא הסכים ואף הורה להכביד על עבודת הכנת הלבנים."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה ביקשו משה ואהרן בפרק הזה?",
+              "options": [
+                "כתר למשה",
+                "לשלח את העם לחגוג לאלוהים במדבר",
+                "לבנות ספינה",
+                "למנות את אהרן למלך"
+              ],
+              "answer": 1,
+              "explanation": "הבקשה היא לצאת אל המדבר לחוג לאלוהים."
+            },
+            {
+              "prompt": "מה שינה פרעה בעבודת הלבנים?",
+              "options": [
+                "ביטל את כל העבודה",
+                "הקטין את המכסה",
+                "החליף לבנים באבנים",
+                "הפסיק לספק תבן והשאיר את המכסה"
+              ],
+              "answer": 3,
+              "explanation": "העם נדרש להשיג את התבן בעצמו, אך לייצר אותה כמות לבנים."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה פרט מלמד שהעבודה הוכבדה בלי שינוי ביעד הייצור?",
+              "options": [
+                "מספר הארמונות ירד",
+                "כל הפועלים שוחררו",
+                "אספקת התבן בוטלה והמכסה נשארה",
+                "הלבנים הוחלפו במתנות"
+              ],
+              "answer": 2,
+              "explanation": "פרעה דרש אותה מכסת לבנים אף שהפועלים נאלצו להשיג תבן בעצמם."
+            },
+            {
+              "prompt": "מה נכון לגבי הרצף המקראי?",
+              "options": [
+                "מופת המטה מופיע מאוחר יותר",
+                "בפגישה הזאת הים נבקע",
+                "העם כבר הגיע לסיני",
+                "פרעה נענה מיד"
+              ],
+              "answer": 0,
+              "explanation": "המפגש בשמות ה׳ עוסק בדרישה ובתגובה; מופת המטה מופיע בשמות ז׳."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-3",
+      "title": "Chapter 5",
+      "shortTitle": "Chapter 5",
+      "solvedTitle": "The Exodus",
+      "tile": {
+        "x": 9,
+        "y": 7
+      },
+      "signTile": {
+        "x": 9,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "Moses and Aaron ask Pharaoh to free the Israelites from slavery. After the plagues in Egypt, the time to leave finally comes. Families pack in a hurry. They take dough that has not had time to rise. Moses leads them out of Egypt, beginning a new life of freedom.",
+        "b": "Moses and Aaron repeatedly call on Pharaoh to release the Israelites. After the ten plagues, Pharaoh tells them to leave. The people hurry out, carrying dough before it has risen and kneading bowls wrapped in clothing on their shoulders. Freedom from slavery begins a new journey; it does not mean every difficulty is over.",
+        "c": "Moses and Aaron confront Pharaoh over the Israelites' bondage. After the ten plagues, the command to leave comes during the night. Families depart from Rameses for Succoth with dough that had not risen and kneading bowls wrapped in their clothing. The memory of leaving slavery becomes central to Passover and the people's shared identity, while the work of living together in freedom still lies ahead."
+      },
+      "source": "Exodus 7–12, especially 12:31–39",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses and Aaron ask Pharaoh to free the Israelites from slavery. After the plagues in Egypt, the time to leave finally comes. Families pack in a hurry. They take dough that has not had time to rise. Moses leads them out of Egypt, beginning a new life of freedom.",
+        "b": "Moses and Aaron repeatedly call on Pharaoh to release the Israelites. After the ten plagues, Pharaoh tells them to leave. The people hurry out, carrying dough before it has risen and kneading bowls wrapped in clothing on their shoulders. Freedom from slavery begins a new journey; it does not mean every difficulty is over.",
+        "c": "Moses and Aaron confront Pharaoh over the Israelites' bondage. After the ten plagues, the command to leave comes during the night. Families depart from Rameses for Succoth with dough that had not risen and kneading bowls wrapped in their clothing. The memory of leaving slavery becomes central to Passover and the people's shared identity, while the work of living together in freedom still lies ahead."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-3",
+          "category": "stories",
+          "answer": "The Exodus",
+          "aliases": [
+            "Exodus",
+            "leaving Egypt",
+            "the Israelites leave Egypt",
+            "the Exodus from Egypt",
+            "Moses leads the Israelites out of Egypt",
+            "Moses leads his people out of Egypt",
+            "escape from Egypt",
+            "the Israelites leaving Egypt",
+            "the departure from Egypt",
+            "freedom from Egypt"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Egypt",
+            "Pharaoh",
+            "Passover",
+            "Aaron"
+          ],
+          "textHint": "Look at what the families carry as they leave their homes.",
+          "moral": "What responsibilities come after the first brave step toward freedom?",
+          "source": "Exodus 7–12, especially 12:31–39",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0212.htm",
+          "images": {
+            "kids": [
+              "journey-c8aeb1a16e4e3dde.webp",
+              "journey-0345e5fce1a67be8.webp",
+              "journey-796d31a446ca49e5.webp",
+              "journey-5cac6b1edfcf91e5.webp"
+            ],
+            "teen": [
+              "journey-1426005fa7021c8e.webp",
+              "journey-60bf657642a5f3a3.webp",
+              "journey-a9b360107f3f5d6a.webp",
+              "journey-9b15ebf9d0fac7d3.webp"
+            ],
+            "classic": [
+              "journey-21dd28fb69ecbb30.webp",
+              "journey-51ade38b76946d99.webp",
+              "journey-01ca775ab33eac44.webp",
+              "journey-171926de0ea0a5ac.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes."
+            ],
+            "teen": [
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes."
+            ],
+            "classic": [
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes.",
+              "Look at what the families carry as they leave their homes."
+            ]
+          },
+          "choicesKids": [
+            "The Exodus",
+            "Moses and Aaron Before Pharaoh",
+            "Parting of the Red Sea",
+            "Gathering Manna"
+          ],
+          "choiceLabelsKids": [
+            "The Exodus",
+            "Moses and Aaron Before Pharaoh",
+            "Parting of the Red Sea",
+            "Gathering Manna"
+          ],
+          "choicePicturesKids": [
+            "journey-5cac6b1edfcf91e5.webp",
+            "journey-b3253a8a7eb10a82.webp",
+            "journey-222c02baccb7fbe3.webp",
+            "journey-bfd3b027abe6fc6f.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A wrapped dough bowl and walking staff hint at hurried preparations for a journey.",
+              "Families leaving Egyptian homes with bundles suggest a shared departure.",
+              "Moses and Aaron leading families with dough connect the scene with leaving Egypt.",
+              "The people passing through the pictured city gates toward the wilderness reveal the Exodus."
+            ],
+            "b": [
+              "A wrapped dough bowl and walking staff hint at hurried preparations for a journey.",
+              "Families leaving Egyptian homes with bundles suggest a shared departure.",
+              "Moses and Aaron leading families with dough connect the scene with leaving Egypt.",
+              "The people passing through the pictured city gates toward the wilderness reveal the Exodus."
+            ],
+            "c": [
+              "A wrapped dough bowl and walking staff hint at hurried preparations for a journey.",
+              "Families leaving Egyptian homes with bundles suggest a shared departure.",
+              "Moses and Aaron leading families with dough connect the scene with leaving Egypt.",
+              "The people passing through the pictured city gates toward the wilderness reveal the Exodus."
+            ]
+          },
+          "discovery": "Leaving Egypt and crossing the Red Sea are two different stages. First, the families depart in haste with dough that has not risen. Later, they reach the sea.",
+          "reflection": "What responsibilities come after the first brave step toward freedom?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who left Egypt with Moses?",
+            "options": [
+              "The Israelites and their families",
+              "Only Pharaoh",
+              "Only fish",
+              "Only soldiers from Babel"
+            ],
+            "answer": 0,
+            "explanation": "The Israelites left together, including families and children."
+          },
+          {
+            "prompt": "Why didn't the dough have time to rise?",
+            "options": [
+              "They had forgotten how to bake",
+              "It was made of stone",
+              "They put it in water",
+              "They had to leave in a hurry"
+            ],
+            "answer": 3,
+            "explanation": "The people left so quickly that they took their dough before it had risen."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "Who stood beside Moses when he faced Pharaoh?",
+            "options": [
+              "Noah",
+              "Aaron",
+              "Joseph",
+              "Joshua"
+            ],
+            "answer": 1,
+            "explanation": "Moses' brother Aaron shared the mission of speaking to Pharaoh."
+          },
+          {
+            "prompt": "Which detail shows how quickly the people left?",
+            "options": [
+              "They built a new palace",
+              "They planted fields along the road",
+              "They carried dough before it had risen",
+              "They waited for the next harvest"
+            ],
+            "answer": 2,
+            "explanation": "Exodus 12 describes dough that had not risen and kneading bowls wrapped in clothing."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which sequence follows the biblical account?",
+            "options": [
+              "Sea crossing, Moses' birth, departure from Egypt",
+              "Departure from Egypt, burning bush, Joshua's appointment",
+              "Joshua's appointment, plagues, departure from Egypt",
+              "Mission to Pharaoh, plagues, departure from Egypt"
+            ],
+            "answer": 3,
+            "explanation": "The confrontations with Pharaoh and the plagues precede the departure. The sea crossing follows later."
+          },
+          {
+            "prompt": "What do dough that has not risen and wrapped kneading bowls help convey?",
+            "options": [
+              "The haste of departure and the practical needs of traveling families",
+              "The building of the Temple",
+              "The end of all the people's travels",
+              "The families' decision to remain in Egypt"
+            ],
+            "answer": 0,
+            "explanation": "These household details present freedom as a real departure involving food, equipment, and family life."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-3-bonus-1",
+          "item": "staff",
+          "title": "Food for Leaving Egypt",
+          "prompt": "What food did the families take when they hurried out of Egypt?",
+          "options": [
+            "Bread that was already baked",
+            "Fish from the Nile",
+            "Dough that had not risen yet"
+          ],
+          "answer": 2,
+          "explanation": "The families left in a hurry and took their dough before it had time to rise."
+        },
+        {
+          "id": "life-moses-3-bonus-2",
+          "item": "lamp",
+          "title": "The Families Leave",
+          "prompt": "Who left Egypt with Moses?",
+          "options": [
+            "The Israelites and their families",
+            "Pharaoh alone",
+            "Only Egypt’s soldiers"
+          ],
+          "answer": 0,
+          "explanation": "The Israelites and their families left Egypt to begin a new journey."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "יציאת מצרים",
+        "aliases": [
+          "יציאה ממצרים",
+          "בני ישראל יוצאים ממצרים",
+          "יציאת בני ישראל ממצרים",
+          "משה מוציא את העם ממצרים",
+          "משה מוציא את בני ישראל ממצרים",
+          "שחרור בני ישראל ממצרים"
+        ],
+        "passage": {
+          "a": "משה ואהרן ביקשו מפרעה לשחרר את בני ישראל מעבודתם הקשה. אחרי המכות במצרים הגיע הזמן לצאת. המשפחות ארזו במהירות ולקחו איתן בצק שעדיין לא הספיק לתפוח. משה הוביל אותן אל דרך חדשה של חירות.",
+          "b": "משה ואהרן חזרו אל פרעה ודרשו לשחרר את בני ישראל. לאחר עשר המכות פרעה הורה להם לצאת. העם מיהר ולקח את בצקו לפני שהחמיץ, כשקערות הבצק צרורות בבגדים על הכתפיים. היציאה מן השעבוד הייתה התחלה של מסע, ולא סיומם של כל הקשיים.",
+          "c": "משה ואהרן ניצבים מול פרעה בתביעה לשחרר את בני ישראל. לאחר עשר המכות מגיעה הוראת היציאה בלילה. משפחות העם נושאות בצק שטרם החמיץ ומשארות צרורות בבגדיהן, ויוצאות מרעמסס לסוכות. זיכרון היציאה מעבדות לחירות נעשה יסוד מרכזי בפסח ובזהות העם; המעבר לחיים עצמאיים דורש עוד דרך ארוכה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי יצא ממצרים עם משה?",
+              "options": [
+                "בני ישראל ומשפחותיהם",
+                "רק פרעה",
+                "רק דגים",
+                "רק חיילי בבל"
+              ],
+              "answer": 0,
+              "explanation": "בני ישראל יצאו ממצרים, ובהם משפחות וילדים."
+            },
+            {
+              "prompt": "למה הבצק לא הספיק לתפוח?",
+              "options": [
+                "כי שכחו איך לאפות",
+                "כי הוא היה עשוי אבן",
+                "כי הניחו אותו במים",
+                "כי מיהרו לצאת"
+              ],
+              "answer": 3,
+              "explanation": "היציאה הייתה מהירה, והבצק נלקח לפני שהחמיץ."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מי עמד לצד משה מול פרעה?",
+              "options": [
+                "נח",
+                "אהרן",
+                "יוסף",
+                "יהושע"
+              ],
+              "answer": 1,
+              "explanation": "אהרן אחיו של משה היה שותף לשליחות מול פרעה."
+            },
+            {
+              "prompt": "איזה פרט ממחיש את החיפזון ביציאה?",
+              "options": [
+                "בניית ארמון חדש",
+                "נטיעת שדות בדרך",
+                "נשיאת הבצק לפני שהחמיץ",
+                "המתנה לקציר הבא"
+              ],
+              "answer": 2,
+              "explanation": "שמות י״ב מתאר את נשיאת הבצק לפני שהחמיץ ואת המשארות הצרורות בבגדים."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה רצף תואם את הסיפור?",
+              "options": [
+                "חציית הים, לידת משה, יציאה ממצרים",
+                "יציאה ממצרים, הסנה, מינוי יהושע",
+                "מינוי יהושע, המכות, יציאה ממצרים",
+                "שליחות מול פרעה, המכות, יציאת מצרים"
+              ],
+              "answer": 3,
+              "explanation": "המפגש עם פרעה והמכות קודמים ליציאה. חציית הים מופיעה בהמשך הדרך."
+            },
+            {
+              "prompt": "מה מסמלים בצק שלא החמיץ ומשארות צרורות בבגדים?",
+              "options": [
+                "את מהירות היציאה ואת נשיאת צורכי החיים לדרך",
+                "את בניית בית המקדש",
+                "את סיום כל נדודי העם",
+                "את הישארות המשפחות במצרים"
+              ],
+              "answer": 0,
+              "explanation": "הפרטים הביתיים מציגים חירות גם כיציאה ממשית של משפחות, עם מזון וציוד בסיסי."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-4",
+      "title": "Chapter 6",
+      "shortTitle": "Chapter 6",
+      "solvedTitle": "The Parting of the Red Sea",
+      "tile": {
+        "x": 3,
+        "y": 7
+      },
+      "signTile": {
+        "x": 3,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "The Israelites reach the sea and are afraid there is nowhere to go. Moses tells them not to be afraid. At God's command, he stretches out his hand over the sea. The waters part, and the people cross on dry ground with water on both sides. Their journey continues through the wilderness, and later they reach Mount Sinai.",
+        "b": "The sea is ahead of the Israelites, and Egypt's army is behind them. Moses urges them not to be afraid and stretches out his hand at God's command. A strong east wind blows through the night. The waters part, and the people cross on dry ground. Life in the wilderness continues afterward, with new needs, manna for food, and eventually the covenant at Mount Sinai.",
+        "c": "At the sea, the Israelites face both a natural barrier and the pursuing Egyptian army. God directs Moses to stretch out his hand, and the passage describes a strong east wind, divided waters, and a crossing on dry ground between walls of water. Rescue from pursuit is one stage of the journey. The challenges of daily provision, manna, and the covenant at Sinai follow as the people learn to live as a community."
+      },
+      "source": "Exodus 14; later events: Exodus 16, 19–20",
+      "sensitive": false,
+      "learned": {
+        "a": "The Israelites reach the sea and are afraid there is nowhere to go. Moses tells them not to be afraid. At God's command, he stretches out his hand over the sea. The waters part, and the people cross on dry ground with water on both sides. Their journey continues through the wilderness, and later they reach Mount Sinai.",
+        "b": "The sea is ahead of the Israelites, and Egypt's army is behind them. Moses urges them not to be afraid and stretches out his hand at God's command. A strong east wind blows through the night. The waters part, and the people cross on dry ground. Life in the wilderness continues afterward, with new needs, manna for food, and eventually the covenant at Mount Sinai.",
+        "c": "At the sea, the Israelites face both a natural barrier and the pursuing Egyptian army. God directs Moses to stretch out his hand, and the passage describes a strong east wind, divided waters, and a crossing on dry ground between walls of water. Rescue from pursuit is one stage of the journey. The challenges of daily provision, manna, and the covenant at Sinai follow as the people learn to live as a community."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-4",
+          "category": "stories",
+          "answer": "Parting of the Red Sea",
+          "aliases": [
+            "the Parting of the Red Sea",
+            "Crossing the Red Sea",
+            "the Red Sea crossing",
+            "Moses parts the Red Sea",
+            "the Israelites cross the Red Sea",
+            "parting of the Sea of Reeds",
+            "crossing the Sea of Reeds",
+            "the Sea of Reeds crossing",
+            "crossing the sea",
+            "parting the sea",
+            "Moses crossing the Red Sea",
+            "the crossing of the Red Sea",
+            "the parting of the sea"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "sea",
+            "Red Sea",
+            "the Red Sea",
+            "the Exodus",
+            "Exodus",
+            "Sea of Reeds"
+          ],
+          "textHint": "Notice where the people can walk and what stands on either side.",
+          "moral": "When the way forward seems blocked, how might people help one another take the next step?",
+          "source": "Exodus 14; later events: Exodus 16, 19–20",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0214.htm",
+          "images": {
+            "kids": [
+              "journey-69a14a53bbfdf039.webp",
+              "journey-bee3d0e5c8eee04a.webp",
+              "journey-544b3d2daa4311ab.webp",
+              "journey-222c02baccb7fbe3.webp"
+            ],
+            "teen": [
+              "journey-35653246c1949c1d.webp",
+              "journey-d42111c2eb45df5a.webp",
+              "journey-d427381ac91fb1b6.webp",
+              "journey-7dccfc17d84a2e66.webp"
+            ],
+            "classic": [
+              "journey-f6436ebcd5d2d613.webp",
+              "journey-2fb9819cf71d721f.webp",
+              "journey-6852e0cd26ab5cbe.webp",
+              "journey-121b862eb911b0f3.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side."
+            ],
+            "teen": [
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side."
+            ],
+            "classic": [
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side.",
+              "Notice where the people can walk and what stands on either side."
+            ]
+          },
+          "choicesKids": [
+            "The Exodus",
+            "Moses at the Well",
+            "Moses in the Basket",
+            "Parting of the Red Sea"
+          ],
+          "choiceLabelsKids": [
+            "The Exodus",
+            "Moses at the Well",
+            "Moses in the Basket",
+            "Parting of the Red Sea"
+          ],
+          "choicePicturesKids": [
+            "journey-5cac6b1edfcf91e5.webp",
+            "journey-8f0620f1c1f82d56.webp",
+            "journey-e469dd0b18dae6d1.webp",
+            "journey-222c02baccb7fbe3.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Wind across the water and a strip of exposed ground hint at a path beginning to open.",
+              "A dry corridor between water on both sides gives a more specific clue to the parting sea.",
+              "Families entering that corridor connect the scene with the Israelites' journey.",
+              "Moses and the people crossing on dry ground between walls of water reveal the Red Sea crossing."
+            ],
+            "b": [
+              "Wind across the water and a strip of exposed ground hint at a path beginning to open.",
+              "A dry corridor between water on both sides gives a more specific clue to the parting sea.",
+              "Families entering that corridor connect the scene with the Israelites' journey.",
+              "Moses and the people crossing on dry ground between walls of water reveal the Red Sea crossing."
+            ],
+            "c": [
+              "Wind across the water and a strip of exposed ground hint at a path beginning to open.",
+              "A dry corridor between water on both sides gives a more specific clue to the parting sea.",
+              "Families entering that corridor connect the scene with the Israelites' journey.",
+              "Moses and the people crossing on dry ground between walls of water reveal the Red Sea crossing."
+            ]
+          },
+          "discovery": "Exodus describes a strong east wind blowing all night as well as water standing like walls on both sides. The journey to Sinai happens later. The familiar English title is the Red Sea; Sea of Reeds is another rendering of the Hebrew name.",
+          "reflection": "When the way forward seems blocked, how might people help one another take the next step?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "How did the Israelites travel through the sea?",
+            "options": [
+              "In golden boats",
+              "On a dry path",
+              "On clouds",
+              "Across an iron bridge"
+            ],
+            "answer": 1,
+            "explanation": "The story says they walked through the sea on dry ground."
+          },
+          {
+            "prompt": "Where was the water as they crossed?",
+            "options": [
+              "Only inside jars",
+              "Above Mount Sinai",
+              "On the right and left of the path",
+              "Inside Moses' basket"
+            ],
+            "answer": 2,
+            "explanation": "The water stood like walls on both sides of the people."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What kind of wind does the account describe?",
+            "options": [
+              "A strong east wind",
+              "Only a light breeze from the north",
+              "No wind at all",
+              "A wind that blew only inside a tent"
+            ],
+            "answer": 0,
+            "explanation": "Exodus 14:21 describes a strong east wind blowing through the night."
+          },
+          {
+            "prompt": "What came later in the journey, after the sea crossing?",
+            "options": [
+              "An immediate return to Pharaoh's palace",
+              "The end of every wilderness difficulty",
+              "Pharaoh becoming their leader",
+              "Life in the wilderness and then the gathering at Mount Sinai"
+            ],
+            "answer": 3,
+            "explanation": "The wilderness journey continued after the sea. The people reached Sinai in the third month after leaving Egypt."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which description appears explicitly in Exodus 14?",
+            "options": [
+              "Moses constructs a stone bridge",
+              "The people cross on dry ground with water like walls on either side",
+              "The people sail across in ships",
+              "The sea remains dry for a full year"
+            ],
+            "answer": 1,
+            "explanation": "The account combines a strong wind, divided waters, and dry ground. It describes neither a bridge nor a voyage in ships."
+          },
+          {
+            "prompt": "Which distinction helps clarify the larger journey?",
+            "options": [
+              "The departure, crossing, and Sinai all happen at once",
+              "The crossing removes the need for responsibility",
+              "Rescue at the sea is a stage on the way to community and covenant",
+              "At Sinai the people return to working for Pharaoh"
+            ],
+            "answer": 2,
+            "explanation": "Release from slavery, rescue at the sea, and life together in the wilderness are connected but distinct stages."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-4-bonus-1",
+          "item": "jar",
+          "title": "The People Cross the Sea",
+          "prompt": "What did the Israelites walk on as they crossed through the sea?",
+          "options": [
+            "A wooden bridge",
+            "Dry ground",
+            "Ice"
+          ],
+          "answer": 1,
+          "explanation": "The waters parted, and the Israelites walked through the sea on dry ground."
+        },
+        {
+          "id": "life-moses-4-bonus-2",
+          "item": "staff",
+          "title": "Between the Waters",
+          "prompt": "Where was the water while the Israelites walked through the sea?",
+          "options": [
+            "Only above their heads",
+            "Only behind them",
+            "On both sides of the path"
+          ],
+          "answer": 2,
+          "explanation": "The water stood like a wall on each side as the people crossed on dry ground."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "קריעת ים סוף",
+        "aliases": [
+          "בקיעת ים סוף",
+          "חציית ים סוף",
+          "משה קורע את ים סוף",
+          "קריעת הים",
+          "מעבר ים סוף",
+          "בני ישראל חוצים את ים סוף",
+          "משה חוצה את ים סוף",
+          "חציית הים"
+        ],
+        "passage": {
+          "a": "בני ישראל הגיעו אל הים ופחדו שאין לאן ללכת. משה עודד אותם, ובמצוות אלוהים נטה את ידו על הים. המים נבקעו והעם עבר בדרך יבשה, עם מים משני הצדדים. הדרך המשיכה במדבר, ובהמשך הגיע העם להר סיני.",
+          "b": "הים היה לפני בני ישראל וצבא מצרים מאחוריהם. משה קרא לעם לא לפחד, ובמצוות אלוהים נטה את ידו על הים. רוח קדים עזה נשבה בלילה, המים נבקעו והעם עבר ביבשה. לאחר החצייה נמשכו חיי המדבר: התמודדות עם מחסור, קבלת המן, ובהמשך הברית ומעמד הר סיני.",
+          "c": "על שפת הים ניצבים בני ישראל בין מכשול טבעי לבין המרדף המצרי. הכתוב מתאר את נטיית ידו של משה, רוח הקדים העזה ואת מעבר העם ביבשה בין חומות מים. החצייה מצילה מן המרדף, אך אינה מסיימת את תהליך בניית העם. בהמשך מתווספים התמודדות עם צורכי היומיום, המן והברית בסיני."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "על מה הלכו בני ישראל בתוך הים?",
+              "options": [
+                "על סירות זהב",
+                "על דרך יבשה",
+                "על עננים",
+                "על גשר ברזל"
+              ],
+              "answer": 1,
+              "explanation": "הכתוב מספר שבני ישראל עברו בתוך הים ביבשה."
+            },
+            {
+              "prompt": "איפה היו המים בזמן המעבר?",
+              "options": [
+                "רק בתוך כדים",
+                "מעל הר סיני",
+                "מימין ומשמאל לדרך",
+                "בתוך התיבה של משה"
+              ],
+              "answer": 2,
+              "explanation": "המים מתוארים כחומה מימינם ומשמאלם של העוברים."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "איזו רוח מתוארת בסיפור פתיחת הדרך?",
+              "options": [
+                "רוח קדים עזה",
+                "רוח קלה מן הצפון בלבד",
+                "אין שום רוח בסיפור",
+                "רוח שנשבה רק בתוך אוהל"
+              ],
+              "answer": 0,
+              "explanation": "שמות י״ד, כ״א מתאר רוח קדים עזה שנשבה כל הלילה."
+            },
+            {
+              "prompt": "מה הגיע בהמשך המסע, לאחר חציית הים?",
+              "options": [
+                "חזרה מידית לארמון פרעה",
+                "סיום כל הקשיים במדבר",
+                "מינוי פרעה למנהיג העם",
+                "חיי המדבר ובהמשך מעמד הר סיני"
+              ],
+              "answer": 3,
+              "explanation": "אחרי הים נמשך המסע במדבר, ובחודש השלישי הגיע העם למדבר סיני."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה תיאור מופיע במפורש בשמות י״ד?",
+              "options": [
+                "משה בונה גשר אבן",
+                "העם חוצה ביבשה והמים כחומה משני צדדיו",
+                "העם מפליג בספינות",
+                "הים מתייבש לשנה שלמה"
+              ],
+              "answer": 1,
+              "explanation": "הסיפור משלב רוח עזה, בקיעת מים ומעבר ביבשה; אין בו בניית גשר או הפלגה."
+            },
+            {
+              "prompt": "איזו הבחנה מועילה להבנת מסע העם?",
+              "options": [
+                "היציאה, הים וסיני הם אותו רגע",
+                "החצייה מבטלת את הצורך באחריות",
+                "ההצלה בים היא שלב בדרך לחיי קהילה וברית",
+                "בסיני העם חוזר לעבוד אצל פרעה"
+              ],
+              "answer": 2,
+              "explanation": "היציאה משעבוד, ההצלה בים ובניית הקהילה במדבר הם שלבים שונים של המסע."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-8",
+      "title": "Chapter 7",
+      "shortTitle": "Chapter 7",
+      "solvedTitle": "Gathering Manna",
+      "tile": {
+        "x": 3,
+        "y": 3
+      },
+      "signTile": {
+        "x": 3,
+        "y": 2
+      },
+      "pathToNext": [
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 5,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "The Israelites worry about having enough food in the wilderness. One morning, after the dew lifts, they find something small and white on the ground. They do not know what it is. Moses explains that God has given them food, and they call it manna. Each family gathers enough for the people at home. On the sixth day, they gather twice as much so they can rest on the Sabbath. They are learning about enough, trust, and rest.",
+        "b": "In the Wilderness of Sin, the people complain that they lack food. In the morning they find fine flakes on the ground after the dew clears. They ask what it is, and Moses explains that it is the food God has provided. They call it manna. Each household gathers what it needs. On ordinary days, none is to be saved for the next morning. The sixth day is different: a double portion provides for the Sabbath. Daily food becomes a lesson in trust and responsibility.",
+        "c": "Exodus 16 describes the community’s anxiety about food in the Wilderness of Sin and a response of quail in the evening and manna in the morning. Once the dew lifts, a fine substance lies on the ground. Moses directs households to gather according to the number of people and their needs, without keeping ordinary portions overnight. A double portion on the sixth day supplies the Sabbath, when gathering stops. The account links daily provision with limits on stockpiling and a shared rhythm of rest."
+      },
+      "source": "Exodus 16",
+      "sensitive": false,
+      "learned": {
+        "a": "The Israelites worry about having enough food in the wilderness. One morning, after the dew lifts, they find something small and white on the ground. They do not know what it is. Moses explains that God has given them food, and they call it manna. Each family gathers enough for the people at home. On the sixth day, they gather twice as much so they can rest on the Sabbath. They are learning about enough, trust, and rest.",
+        "b": "In the Wilderness of Sin, the people complain that they lack food. In the morning they find fine flakes on the ground after the dew clears. They ask what it is, and Moses explains that it is the food God has provided. They call it manna. Each household gathers what it needs. On ordinary days, none is to be saved for the next morning. The sixth day is different: a double portion provides for the Sabbath. Daily food becomes a lesson in trust and responsibility.",
+        "c": "Exodus 16 describes the community’s anxiety about food in the Wilderness of Sin and a response of quail in the evening and manna in the morning. Once the dew lifts, a fine substance lies on the ground. Moses directs households to gather according to the number of people and their needs, without keeping ordinary portions overnight. A double portion on the sixth day supplies the Sabbath, when gathering stops. The account links daily provision with limits on stockpiling and a shared rhythm of rest."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-8",
+          "category": "stories",
+          "answer": "Gathering Manna",
+          "aliases": [
+            "manna in the wilderness",
+            "manna in the desert",
+            "the manna",
+            "manna from heaven",
+            "collecting manna",
+            "bread from heaven",
+            "manna"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "wilderness",
+            "bread"
+          ],
+          "textHint": "Look at the ground and what the families are collecting.",
+          "moral": "How do we know when we have enough, and how do we leave room for other people’s needs?",
+          "source": "Exodus 16",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0216.htm",
+          "images": {
+            "kids": [
+              "journey-1638ef082091a678.webp",
+              "journey-757c943cd2ddc4c3.webp",
+              "journey-b26a1ea771915116.webp",
+              "journey-bfd3b027abe6fc6f.webp"
+            ],
+            "teen": [
+              "journey-6405f85a1cafbd12.webp",
+              "journey-3fadcfed80665727.webp",
+              "journey-69484ce0170cf026.webp",
+              "journey-2a0874c55a631a51.webp"
+            ],
+            "classic": [
+              "journey-0dacf4631758456d.webp",
+              "journey-0491509b3ae5dc88.webp",
+              "journey-9a952b68ccc718e1.webp",
+              "journey-ade5931548a7aa1d.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting."
+            ],
+            "teen": [
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting."
+            ],
+            "classic": [
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting.",
+              "Look at the ground and what the families are collecting."
+            ]
+          },
+          "choicesKids": [
+            "Moses at the Well",
+            "Mount Sinai",
+            "Gathering Manna",
+            "The Exodus"
+          ],
+          "choiceLabelsKids": [
+            "Moses at the Well",
+            "Mount Sinai",
+            "Gathering Manna",
+            "The Exodus"
+          ],
+          "choicePicturesKids": [
+            "journey-8f0620f1c1f82d56.webp",
+            "journey-d7a83930be26e746.webp",
+            "journey-bfd3b027abe6fc6f.webp",
+            "journey-5cac6b1edfcf91e5.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A small bowl and dew on desert ground suggest a morning task.",
+              "Fine white flakes appear on the ground beside the camp.",
+              "A family gathers the small white food into a bowl.",
+              "Families gather manna as Moses explains how to collect what they need."
+            ],
+            "b": [
+              "A small bowl and dew on desert ground suggest a morning task.",
+              "Fine white flakes appear on the ground beside the camp.",
+              "A family gathers the small white food into a bowl.",
+              "Families gather manna as Moses explains how to collect what they need."
+            ],
+            "c": [
+              "A small bowl and dew on desert ground suggest a morning task.",
+              "Fine white flakes appear on the ground beside the camp.",
+              "A family gathers the small white food into a bowl.",
+              "Families gather manna as Moses explains how to collect what they need."
+            ]
+          },
+          "discovery": "Manna is described as fine material on the ground, not as ready-made loaves falling from the sky. A double portion on the sixth day provides for the Sabbath.",
+          "reflection": "How do we know when we have enough, and how do we leave room for other people’s needs?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "When did the people gather manna?",
+            "options": [
+              "In the middle of the night",
+              "In the morning",
+              "Only in winter",
+              "After reaching the sea"
+            ],
+            "answer": 1,
+            "explanation": "Manna appeared on the ground in the morning after the dew lifted."
+          },
+          {
+            "prompt": "Why did they gather twice as much on the sixth day?",
+            "options": [
+              "To build a tower",
+              "To paint their tents",
+              "So they could rest on the Sabbath",
+              "To fill the Nile"
+            ],
+            "answer": 2,
+            "explanation": "The double portion provided food for the Sabbath, the day of rest."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What determined how much each household gathered?",
+            "options": [
+              "The number of people and what they needed",
+              "The length of Moses’ staff",
+              "The height of the tent",
+              "The color of their clothes"
+            ],
+            "answer": 0,
+            "explanation": "The instruction connected each household’s portion with the people it needed to feed."
+          },
+          {
+            "prompt": "What made the sixth day different?",
+            "options": [
+              "There was no food",
+              "Manna turned to stone",
+              "Everyone returned to Egypt",
+              "They gathered twice as much for the Sabbath"
+            ],
+            "answer": 3,
+            "explanation": "A double portion prepared the households for the day without gathering."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What was the exception to the rule against keeping manna overnight?",
+            "options": [
+              "Every night in the wilderness",
+              "The portion kept from the sixth day for the Sabbath",
+              "Every wealthy household’s portion",
+              "The day they reached the sea"
+            ],
+            "answer": 1,
+            "explanation": "The sixth day’s extra portion was kept for the Sabbath, when gathering stopped."
+          },
+          {
+            "prompt": "How does the manna story connect food with time?",
+            "options": [
+              "Food appears once a year",
+              "Every day follows exactly the same rule",
+              "Daily gathering fits a weekly rhythm of rest",
+              "Each family chooses a different Sabbath"
+            ],
+            "answer": 2,
+            "explanation": "Daily provision is joined to a shared cycle of preparation and Sabbath rest."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-8-bonus-1",
+          "item": "jar",
+          "title": "Manna at the Camp",
+          "prompt": "When did the Israelites find manna on the ground?",
+          "options": [
+            "In the morning",
+            "In the middle of the night",
+            "At sunset"
+          ],
+          "answer": 0,
+          "explanation": "In the morning, after the dew lifted, the Israelites found manna on the ground."
+        },
+        {
+          "id": "life-moses-8-bonus-2",
+          "item": "lamp",
+          "title": "Manna on the Sixth Day",
+          "prompt": "Why did the people gather twice as much manna on the sixth day?",
+          "options": [
+            "To make bricks",
+            "To have food for the Sabbath too",
+            "To fill the well"
+          ],
+          "answer": 1,
+          "explanation": "They gathered a double portion on the sixth day so they could rest on the Sabbath without gathering food."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "ליקוט המן",
+        "aliases": [
+          "המן במדבר",
+          "מן במדבר",
+          "ירידת המן",
+          "לקיטת המן",
+          "איסוף המן",
+          "לחם מן השמים",
+          "המן",
+          "מן מהשמים"
+        ],
+        "passage": {
+          "a": "במדבר בני ישראל דאגו שאין להם מספיק אוכל. בבוקר, אחרי שהטל עלה, הם מצאו על האדמה דבר דק ולבן שלא הכירו. הם שאלו מהו, ומשה הסביר שזה המזון שאלוהים נתן להם. קראו לו מן. כל משפחה אספה לפי מספר האנשים שלה. ביום השישי אספו פי שניים, כדי שיוכלו לנוח בשבת. לומדים לקחת את מה שצריך ולחשוב גם על מנוחה.",
+          "b": "במדבר סין העם התלונן על מחסור במזון. בבוקר נחשף על הקרקע חומר דק ככפור, והאנשים שלא הכירו אותו שאלו מהו. משה הסביר שזה הלחם שניתן להם; שמו מן. הליקוט נעשה לפי צורכי כל בית. בימים רגילים לא היה צריך לשמור עד הבוקר, וביום השישי נאספה מנה כפולה לקראת השבת. המזון היומי נעשה גם שיעור באמון, בגבולות ובאחריות למשק הבית.",
+          "c": "שמות ט״ז מתאר את דאגת העם למזון במדבר סין ואת המענה באמצעות שליו בערב ומן בבוקר. לאחר עליית הטל מתגלה על פני הקרקע דבר דק ככפור. משה קובע ליקוט לפי מספר הנפשות וצורכיהן, ללא אגירה ליום הבא בימות החול. היום השישי יוצא מן הכלל: מנה כפולה נשמרת לשבת, שבה אין ליקוט. המן אינו רק פתרון לרעב; סדרי החלוקה והמנוחה מלמדים כיצד תלות יומית יכולה לעצב חיי קהילה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מתי ליקטו את המן?",
+              "options": [
+                "באמצע הלילה",
+                "בבוקר",
+                "רק בחורף",
+                "אחרי שהגיעו לים"
+              ],
+              "answer": 1,
+              "explanation": "המן הופיע על הקרקע בבוקר, לאחר שהטל עלה."
+            },
+            {
+              "prompt": "למה אספו ביום השישי מנה כפולה?",
+              "options": [
+                "כדי לבנות מגדל",
+                "כדי לצבוע אוהלים",
+                "כדי לנוח בשבת",
+                "כדי למלא את היאור"
+              ],
+              "answer": 2,
+              "explanation": "המנה הכפולה הספיקה גם לשבת, יום המנוחה."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "לפי מה נקבעה כמות המן לכל בית?",
+              "options": [
+                "מספר הנפשות וצורכיהן",
+                "גודל המטה של משה",
+                "גובה האוהל",
+                "צבע הבגדים"
+              ],
+              "answer": 0,
+              "explanation": "ההוראה היא ללקט לפי מספר האנשים בבית ולפי צורכי האכילה."
+            },
+            {
+              "prompt": "במה היה היום השישי שונה?",
+              "options": [
+                "לא הופיע מזון",
+                "המן הפך לאבן",
+                "כולם חזרו למצרים",
+                "ליקטו פי שניים לקראת שבת"
+              ],
+              "answer": 3,
+              "explanation": "ביום השישי הוכנה מנה כפולה, בניגוד לליקוט היומי הרגיל."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מה היה החריג לאיסור להשאיר מן עד הבוקר?",
+              "options": [
+                "כל לילה במדבר",
+                "המנה שנשמרה מיום שישי לשבת",
+                "כל מנה של אדם עשיר",
+                "היום שבו הגיעו לים"
+              ],
+              "answer": 1,
+              "explanation": "המנה הכפולה של היום השישי נשמרה לשבת, שבה אין ליקוט."
+            },
+            {
+              "prompt": "איזה קשר יוצר סיפור המן בין מזון לזמן?",
+              "options": [
+                "מזון מגיע רק פעם בשנה",
+                "אין הבדל בין הימים",
+                "ליקוט יומי ומחזור שבועי של מנוחה",
+                "כל משפחה קובעת שבת אחרת"
+              ],
+              "answer": 2,
+              "explanation": "המן מחבר בין סיפוק הצורך היומי לבין הכנה משותפת ליום המנוחה."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-9",
+      "title": "Chapter 8",
+      "shortTitle": "Chapter 8",
+      "solvedTitle": "At Mount Sinai",
+      "tile": {
+        "x": 9,
+        "y": 3
+      },
+      "signTile": {
+        "x": 9,
+        "y": 2
+      },
+      "pathToNext": [
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 11,
+          "y": 3
+        },
+        {
+          "x": 12,
+          "y": 3
+        },
+        {
+          "x": 13,
+          "y": 3
+        },
+        {
+          "x": 14,
+          "y": 3
+        },
+        {
+          "x": 15,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "The Israelites camp facing Mount Sinai. Moses helps them get ready for a special meeting, and the people stay at the foot of the mountain behind a boundary. A thick cloud covers the mountain, and they hear thunder and a loud horn. They hear the commandments: worship God, remember the Sabbath, honor parents, and respect other people’s lives and belongings. The people are frightened, and Moses speaks to them. Being free also means caring about how we live together.",
+        "b": "After leaving Egypt, the Israelites camp before Mount Sinai. They are invited into a covenant and agree to listen. Moses prepares them and sets a boundary around the mountain. Cloud, thunder, and the sound of a horn accompany the giving of the commandments. These join faith, Sabbath rest, and responsibility toward others. Frightened by the encounter, the people ask Moses to speak for them. Freedom now involves a shared commitment, as well as release from Pharaoh’s power.",
+        "c": "In Exodus 19, Israel camps before Sinai and responds to an invitation into covenant. Preparation includes consecration and boundaries around the mountain; cloud, fire, smoke, and a powerful horn accompany the encounter. In Exodus 20, the commandments begin by recalling release from slavery. Loyalty to God is joined with Sabbath rest, honoring parents, and limits on harm to neighbors and social trust. The people stand at a distance and ask Moses to mediate. The account gives freedom a shared moral framework while acknowledging fear and human limits."
+      },
+      "source": "Exodus 19–20",
+      "sensitive": false,
+      "learned": {
+        "a": "The Israelites camp facing Mount Sinai. Moses helps them get ready for a special meeting, and the people stay at the foot of the mountain behind a boundary. A thick cloud covers the mountain, and they hear thunder and a loud horn. They hear the commandments: worship God, remember the Sabbath, honor parents, and respect other people’s lives and belongings. The people are frightened, and Moses speaks to them. Being free also means caring about how we live together.",
+        "b": "After leaving Egypt, the Israelites camp before Mount Sinai. They are invited into a covenant and agree to listen. Moses prepares them and sets a boundary around the mountain. Cloud, thunder, and the sound of a horn accompany the giving of the commandments. These join faith, Sabbath rest, and responsibility toward others. Frightened by the encounter, the people ask Moses to speak for them. Freedom now involves a shared commitment, as well as release from Pharaoh’s power.",
+        "c": "In Exodus 19, Israel camps before Sinai and responds to an invitation into covenant. Preparation includes consecration and boundaries around the mountain; cloud, fire, smoke, and a powerful horn accompany the encounter. In Exodus 20, the commandments begin by recalling release from slavery. Loyalty to God is joined with Sabbath rest, honoring parents, and limits on harm to neighbors and social trust. The people stand at a distance and ask Moses to mediate. The account gives freedom a shared moral framework while acknowledging fear and human limits."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-9",
+          "category": "stories",
+          "answer": "Mount Sinai",
+          "aliases": [
+            "at Mount Sinai",
+            "the giving of the Torah",
+            "giving of the Torah",
+            "the Ten Commandments",
+            "receiving the Ten Commandments",
+            "the covenant at Sinai",
+            "Moses at Mount Sinai",
+            "the revelation at Sinai"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Sinai",
+            "mountain",
+            "Torah"
+          ],
+          "textHint": "Look at the mountain, the gathered people, and the clouds.",
+          "moral": "What rule helps a group become safer and kinder for everyone?",
+          "source": "Exodus 19–20",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0219.htm",
+          "images": {
+            "kids": [
+              "journey-ef747a81957357f0.webp",
+              "journey-d819bbcb3b6f1315.webp",
+              "journey-45991153fc81477b.webp",
+              "journey-d7a83930be26e746.webp"
+            ],
+            "teen": [
+              "journey-fdec6d43544e5e9d.webp",
+              "journey-2cbc0461b698a443.webp",
+              "journey-a0d0aca9cedcb429.webp",
+              "journey-51f619a0a5ea4d99.webp"
+            ],
+            "classic": [
+              "journey-d8a7e8ee0bad8f34.webp",
+              "journey-393fa9d05ee5e5f9.webp",
+              "journey-7034d5a92f058019.webp",
+              "journey-e4254e7019af9cde.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds."
+            ],
+            "teen": [
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds."
+            ],
+            "classic": [
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds.",
+              "Look at the mountain, the gathered people, and the clouds."
+            ]
+          },
+          "choicesKids": [
+            "Joshua Becomes the Leader",
+            "Mount Sinai",
+            "Burning Bush",
+            "Gathering Manna"
+          ],
+          "choiceLabelsKids": [
+            "Joshua Becomes the Leader",
+            "Mount Sinai",
+            "Burning Bush",
+            "Gathering Manna"
+          ],
+          "choicePicturesKids": [
+            "journey-a9f86dbf88885dc7.webp",
+            "journey-d7a83930be26e746.webp",
+            "journey-3b5bc4081f88b196.webp",
+            "journey-bfd3b027abe6fc6f.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Boundary stones and tents facing a mountain suggest preparation.",
+              "A thick cloud and smoke cover the mountain beyond the camp.",
+              "The people gather behind the boundary as Moses leads them forward.",
+              "Moses and the people stand at Sinai before the smoking mountain and distant lightning."
+            ],
+            "b": [
+              "Boundary stones and tents facing a mountain suggest preparation.",
+              "A thick cloud and smoke cover the mountain beyond the camp.",
+              "The people gather behind the boundary as Moses leads them forward.",
+              "Moses and the people stand at Sinai before the smoking mountain and distant lightning."
+            ],
+            "c": [
+              "Boundary stones and tents facing a mountain suggest preparation.",
+              "A thick cloud and smoke cover the mountain beyond the camp.",
+              "The people gather behind the boundary as Moses leads them forward.",
+              "Moses and the people stand at Sinai before the smoking mountain and distant lightning."
+            ]
+          },
+          "discovery": "These chapters describe the Sinai encounter and the commandments. God gives Moses the two stone tablets later, in Exodus 31, so the tablets are not pictured here.",
+          "reflection": "What rule helps a group become safer and kinder for everyone?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Where did the people stand?",
+            "options": [
+              "In the Nile",
+              "Inside Pharaoh’s palace",
+              "At the foot of the mountain, beyond the boundary",
+              "On a ship"
+            ],
+            "answer": 2,
+            "explanation": "Moses brought them to the foot of the mountain, where they kept the boundary."
+          },
+          {
+            "prompt": "Which instruction is part of the commandments?",
+            "options": [
+              "Forget the Sabbath",
+              "Build a tall tower",
+              "Return to Egypt",
+              "Honor your father and mother"
+            ],
+            "answer": 3,
+            "explanation": "Honoring one’s parents is included in the commandments."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did the frightened people ask for?",
+            "options": [
+              "For Moses to speak to them and mediate",
+              "For Pharaoh to return",
+              "To carry the mountain away",
+              "To trade the wilderness for the sea"
+            ],
+            "answer": 0,
+            "explanation": "The people asked Moses to speak to them, while he approached the thick cloud."
+          },
+          {
+            "prompt": "What connects Sinai with the departure from Egypt?",
+            "options": [
+              "Freedom removes every responsibility",
+              "Freedom comes with a shared commitment",
+              "Only one person is allowed to listen",
+              "The journey returns to its starting point"
+            ],
+            "answer": 1,
+            "explanation": "The commandments recall freedom from slavery and offer a framework for living together."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What memory opens the commandments in Exodus 20?",
+            "options": [
+              "Building the ark",
+              "Release from slavery in Egypt",
+              "Joseph’s dream",
+              "The fall of Jericho"
+            ],
+            "answer": 1,
+            "explanation": "God identifies the relationship through the act of bringing Israel out of slavery in Egypt."
+          },
+          {
+            "prompt": "Which sequence matters here?",
+            "options": [
+              "There is no cloud at Sinai",
+              "Moses is absent",
+              "Hearing the commandments comes before receiving the stone tablets",
+              "The people stand in Pharaoh’s palace"
+            ],
+            "answer": 2,
+            "explanation": "These chapters describe the encounter and the commandments; the tablets are given to Moses later, in Exodus 31."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-9-bonus-1",
+          "item": "seal",
+          "title": "The People at Mount Sinai",
+          "prompt": "Where did the people stand during the gathering at Mount Sinai?",
+          "options": [
+            "On the mountaintop",
+            "In Pharaoh’s palace",
+            "At the foot of the mountain, behind the boundary"
+          ],
+          "answer": 2,
+          "explanation": "The people stood at the foot of the mountain and stayed behind the boundary."
+        },
+        {
+          "id": "life-moses-9-bonus-2",
+          "item": "lamp",
+          "title": "Sounds at the Mountain",
+          "prompt": "What sound did the people hear at Mount Sinai along with the thunder?",
+          "options": [
+            "The sound of a horn",
+            "Palace bells ringing",
+            "Sailors singing"
+          ],
+          "answer": 0,
+          "explanation": "The account of Mount Sinai describes thunder and the loud sound of a horn."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "מעמד הר סיני",
+        "aliases": [
+          "הר סיני",
+          "מתן תורה",
+          "מתן התורה",
+          "עשרת הדברות",
+          "קבלת התורה",
+          "הברית בסיני",
+          "משה בהר סיני"
+        ],
+        "passage": {
+          "a": "בני ישראל חנו מול הר סיני. משה הכין אותם למפגש מיוחד, והעם נשאר למרגלות ההר, מעבר לגבול שנקבע. ענן כבד כיסה את ההר, ונשמעו רעמים וקול שופר. העם שמע את הדברות: לעבוד את אלוהים, לזכור את השבת, לכבד הורים ולשמור על חיי אחרים ועל רכושם. אנשים פחדו, ומשה דיבר אליהם. החירות מביאה גם אחריות לחיים המשותפים.",
+          "b": "אחרי היציאה ממצרים בני ישראל הגיעו למדבר סיני וחנו מול ההר. הם נקראו לברית והביעו נכונות להקשיב. משה הכין את העם וקבע גבול סביב ההר. ענן, רעמים וקול שופר ליוו את המעמד, ובו נשמעו הדברות, המחברות אמונה, שבת ואחריות לאחר. העם נרתע וביקש ממשה לתווך. סיני מציע לחירות מסגרת של מחויבות, ולא רק יציאה משליטת פרעה.",
+          "c": "בשמות י״ט בני ישראל חונים מול סיני ונענים להזמנה לברית. ההכנה כוללת התקדשות וגבולות סביב ההר; המעמד מלווה בענן, אש, עשן וקול שופר. הדברות בשמות כ׳ נפתחות בזיכרון היציאה מבית העבדים ומחברות נאמנות לאלוהים עם שבת, כיבוד הורים ואיסורים על פגיעה בחיי הזולת ובאמון החברתי. העם עומד מרחוק ומבקש את תיווכו של משה. חירות מתעצבת כאן באמצעות מחויבות משותפת, תוך הכרה בפחד ובפער שבין התגלות ליכולת האנושית לשאת אותה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "איפה עמד העם במעמד?",
+              "options": [
+                "בתוך היאור",
+                "בארמון פרעה",
+                "למרגלות ההר מעבר לגבול שנקבע",
+                "על ספינה"
+              ],
+              "answer": 2,
+              "explanation": "משה הוציא את העם אל תחתית ההר, והם שמרו על הגבול."
+            },
+            {
+              "prompt": "איזו מצווה מופיעה בדברות?",
+              "options": [
+                "לשכוח את השבת",
+                "לבנות מגדל גבוה",
+                "לחזור למצרים",
+                "לכבד אב ואם"
+              ],
+              "answer": 3,
+              "explanation": "הדברות כוללות את המצווה לכבד אב ואם."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה ביקש העם כשהמעמד עורר בו פחד?",
+              "options": [
+                "שמשה ידבר אליו ויתווך",
+                "שפרעה יחזור",
+                "לשאת את ההר",
+                "להחליף את המדבר בים"
+              ],
+              "answer": 0,
+              "explanation": "העם ביקש ממשה לדבר אליו, ומשה ניגש אל הערפל."
+            },
+            {
+              "prompt": "איזה רעיון מחבר את סיני ליציאה ממצרים?",
+              "options": [
+                "חירות פוטרת מכל אחריות",
+                "לחירות מצטרפת מחויבות משותפת",
+                "רק אדם אחד רשאי להקשיב",
+                "המסע חוזר לנקודת ההתחלה"
+              ],
+              "answer": 1,
+              "explanation": "הדברות נפתחות בזיכרון היציאה מעבדות ומציעות דרך לחיים משותפים."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "באיזה זיכרון נפתחות הדברות בשמות כ׳?",
+              "options": [
+                "בניית התיבה",
+                "יציאת מצרים מבית העבדים",
+                "חלומו של יוסף",
+                "כיבוש יריחו"
+              ],
+              "answer": 1,
+              "explanation": "הפתיחה מזכירה שהאל הדובר הוציא את העם ממצרים, מבית העבדים."
+            },
+            {
+              "prompt": "מה יש להבחין ברצף הסיפור?",
+              "options": [
+                "אין ענן במעמד",
+                "משה אינו נוכח",
+                "שמיעת הדברות קודמת למסירת לוחות האבן",
+                "העם עומד בארמון פרעה"
+              ],
+              "answer": 2,
+              "explanation": "מעמד סיני והדברות מתוארים כאן; מסירת הלוחות למשה מופיעה בהמשך, בשמות ל״א."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-moses-5",
+      "title": "Chapter 9",
+      "shortTitle": "Chapter 9",
+      "solvedTitle": "Joshua Becomes the Leader",
+      "tile": {
+        "x": 15,
+        "y": 3
+      },
+      "signTile": {
+        "x": 15,
+        "y": 2
+      },
+      "pathToNext": [],
+      "passage": {
+        "a": "Moses wants the people to have a leader after him. God tells him to appoint Joshua. In front of Eleazar the priest and the people, Moses places his hands on Joshua and gives him responsibility. Moses does not enter Canaan. He dies in Moab at the end of his long life, and Joshua continues to lead the people.",
+        "b": "Near the end of his life, Moses asks God to provide a leader so the people will not be like sheep without a shepherd. God names Joshua. Moses places his hands on him before Eleazar the priest and the whole community, publicly entrusting him with leadership. Moses later dies in Moab without entering Canaan. Joshua carries the work into its next chapter.",
+        "c": "Moses asks for a successor out of concern that the community not be left like sheep without a shepherd. At God's direction, he presents Joshua before Eleazar the priest and the assembly, lays both hands on him, and commissions him publicly. This is a transfer of recognized responsibility, more than a private blessing. Moses later sees the land but dies in Moab without entering it; the people mourn, and Joshua continues to lead."
+      },
+      "source": "Numbers 27:15–23; Deuteronomy 31, 34",
+      "sensitive": false,
+      "learned": {
+        "a": "Moses wants the people to have a leader after him. God tells him to appoint Joshua. In front of Eleazar the priest and the people, Moses places his hands on Joshua and gives him responsibility. Moses does not enter Canaan. He dies in Moab at the end of his long life, and Joshua continues to lead the people.",
+        "b": "Near the end of his life, Moses asks God to provide a leader so the people will not be like sheep without a shepherd. God names Joshua. Moses places his hands on him before Eleazar the priest and the whole community, publicly entrusting him with leadership. Moses later dies in Moab without entering Canaan. Joshua carries the work into its next chapter.",
+        "c": "Moses asks for a successor out of concern that the community not be left like sheep without a shepherd. At God's direction, he presents Joshua before Eleazar the priest and the assembly, lays both hands on him, and commissions him publicly. This is a transfer of recognized responsibility, more than a private blessing. Moses later sees the land but dies in Moab without entering it; the people mourn, and Joshua continues to lead."
+      },
+      "puzzles": [
+        {
+          "id": "life-moses-5",
+          "category": "stories",
+          "answer": "Joshua Becomes the Leader",
+          "aliases": [
+            "Joshua becomes leader",
+            "Joshua succeeds Moses",
+            "Moses appoints Joshua",
+            "appointing Joshua",
+            "the appointment of Joshua",
+            "Joshua's appointment",
+            "commissioning Joshua",
+            "Moses commissions Joshua",
+            "Moses lays hands on Joshua",
+            "Moses lays his hands on Joshua",
+            "passing leadership to Joshua",
+            "Moses passes leadership to Joshua",
+            "Moses chooses Joshua",
+            "Joshua takes over from Moses"
+          ],
+          "partialAnswers": [
+            "Moses",
+            "Moses",
+            "Joshua",
+            "Moses and Joshua",
+            "a blessing",
+            "blessing",
+            "passing leadership",
+            "passing on leadership"
+          ],
+          "textHint": "Look at the older leader’s hands and the person beside him.",
+          "moral": "How can teaching, encouragement, and making room for others be part of responsible leadership?",
+          "source": "Numbers 27:15–23; Deuteronomy 31, 34",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0427.htm",
+          "images": {
+            "kids": [
+              "journey-b8a62a6bc20f199e.webp",
+              "journey-91429a367f4f692b.webp",
+              "journey-d3f741ce4296c0fe.webp",
+              "journey-a9f86dbf88885dc7.webp"
+            ],
+            "teen": [
+              "journey-9f192ecf95ede7dc.webp",
+              "journey-2c95363f45d2d061.webp",
+              "journey-d2d04ee8b8f3f8f9.webp",
+              "journey-4244ad2ec26fb5da.webp"
+            ],
+            "classic": [
+              "journey-b6adf3aa139494f8.webp",
+              "journey-3684eadcd4beb0dd.webp",
+              "journey-2dfc36f5de393a22.webp",
+              "journey-caa5c865740a1ffa.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him."
+            ],
+            "teen": [
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him."
+            ],
+            "classic": [
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him.",
+              "Look at the older leader’s hands and the person beside him."
+            ]
+          },
+          "choicesKids": [
+            "Joshua Becomes the Leader",
+            "Mount Sinai",
+            "Moses and Aaron Before Pharaoh",
+            "The Exodus"
+          ],
+          "choiceLabelsKids": [
+            "Joshua Becomes the Leader",
+            "Mount Sinai",
+            "Moses and Aaron Before Pharaoh",
+            "The Exodus"
+          ],
+          "choicePicturesKids": [
+            "journey-a9f86dbf88885dc7.webp",
+            "journey-d7a83930be26e746.webp",
+            "journey-b3253a8a7eb10a82.webp",
+            "journey-5cac6b1edfcf91e5.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "An older leader's hand on a younger person's shoulder hints at trust and shared responsibility.",
+              "Moses and Joshua before the community suggest a public appointment.",
+              "The laying on of hands, with Eleazar and the people present, identifies Joshua's commissioning.",
+              "Moses places both hands on Joshua before Eleazar and the community, passing on responsibility for leadership."
+            ],
+            "b": [
+              "An older leader's hand on a younger person's shoulder hints at trust and shared responsibility.",
+              "Moses and Joshua before the community suggest a public appointment.",
+              "The laying on of hands, with Eleazar and the people present, identifies Joshua's commissioning.",
+              "Moses places both hands on Joshua before Eleazar and the community, passing on responsibility for leadership."
+            ],
+            "c": [
+              "An older leader's hand on a younger person's shoulder hints at trust and shared responsibility.",
+              "Moses and Joshua before the community suggest a public appointment.",
+              "The laying on of hands, with Eleazar and the people present, identifies Joshua's commissioning.",
+              "Moses places both hands on Joshua before Eleazar and the community, passing on responsibility for leadership."
+            ]
+          },
+          "discovery": "Moses never enters Canaan. Preparing Joshua is part of his care for the people's future. Numbers 27 describes Moses placing both hands on Joshua before Eleazar and the community; Joshua takes on leadership, not the priest's role.",
+          "reflection": "How can teaching, encouragement, and making room for others be part of responsible leadership?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who was chosen to lead the people after Moses?",
+            "options": [
+              "Pharaoh",
+              "Jethro",
+              "Joshua",
+              "Noah"
+            ],
+            "answer": 2,
+            "explanation": "Joshua was chosen to continue leading the Israelites."
+          },
+          {
+            "prompt": "What did Moses do when he appointed Joshua?",
+            "options": [
+              "Placed his hands on Joshua",
+              "Built Joshua an ark",
+              "Sent everyone back to Egypt",
+              "Planted a burning bush"
+            ],
+            "answer": 0,
+            "explanation": "Moses placed his hands on Joshua in front of the people as he passed on responsibility."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "Who witnessed Joshua's appointment?",
+            "options": [
+              "Only Pharaoh",
+              "Pharaoh's daughter",
+              "No one else",
+              "Eleazar the priest and the whole community"
+            ],
+            "answer": 3,
+            "explanation": "The appointment was public so the community could recognize the person who would lead them."
+          },
+          {
+            "prompt": "Which statement is true about the end of Moses' life?",
+            "options": [
+              "He built a palace in Jericho",
+              "He died in Moab without entering Canaan",
+              "He returned to being a prince in Egypt",
+              "He crossed the Jordan ahead of Joshua"
+            ],
+            "answer": 1,
+            "explanation": "Deuteronomy 34 says Moses saw the land from Mount Nebo but died in Moab without entering it."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What concern motivates Moses' request for a successor?",
+            "options": [
+              "That the community not be left like sheep without a shepherd",
+              "That the people return to slavery",
+              "That Pharaoh choose an heir",
+              "That private property be divided"
+            ],
+            "answer": 0,
+            "explanation": "Moses frames the request around the community's need for continued leadership."
+          },
+          {
+            "prompt": "What does the laying on of hands before Eleazar and the assembly emphasize?",
+            "options": [
+              "That choosing a leader is a family secret",
+              "That Moses has already entered Canaan",
+              "That the transfer of responsibility has public recognition",
+              "That Joshua replaces Eleazar as priest"
+            ],
+            "answer": 2,
+            "explanation": "The public ceremony gives Joshua recognized authority as a leader. He is not replacing the priest, and Moses has not entered Canaan."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-moses-5-bonus-1",
+          "item": "staff",
+          "title": "The Next Leader",
+          "prompt": "Who was chosen to lead the Israelites after Moses?",
+          "options": [
+            "Pharaoh",
+            "Joshua",
+            "Jethro"
+          ],
+          "answer": 1,
+          "explanation": "Joshua was chosen to continue leading the people after Moses."
+        },
+        {
+          "id": "life-moses-5-bonus-2",
+          "item": "seal",
+          "title": "Passing on Leadership",
+          "prompt": "What did Moses do when Joshua was appointed in front of the people?",
+          "options": [
+            "Gave him a crown",
+            "Seated him on a throne",
+            "Placed his hands on him"
+          ],
+          "answer": 2,
+          "explanation": "Moses placed his hands on Joshua before Eleazar the priest and the people as a sign of passing on responsibility."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "מינוי יהושע",
+        "aliases": [
+          "מינוי יהושע למנהיג",
+          "משה ממנה את יהושע",
+          "העברת ההנהגה ליהושע",
+          "העברת הנהגה ליהושע",
+          "סמיכת יהושע",
+          "סמיכת משה על יהושע",
+          "משה סומך את ידיו על יהושע",
+          "יהושע מחליף את משה",
+          "משה מעביר את ההנהגה ליהושע"
+        ],
+        "passage": {
+          "a": "משה דאג שלעם יהיה מנהיג גם אחריו. לפי הציווי שקיבל, הוא העמיד את יהושע לפני אלעזר הכהן ולפני העם, הניח עליו את ידיו והעביר לו אחריות. משה לא נכנס לארץ כנען. בסוף חייו נפרדו ממנו, ויהושע המשיך להוביל את העם.",
+          "b": "לקראת סוף דרכו ביקש משה שהעם לא יישאר בלי מנהיג, כמו צאן בלי רועה. יהושע נבחר, ומשה סמך עליו את ידיו לעיני אלעזר הכהן וכל העדה. בהמשך חיזק אותו לקראת התפקיד. משה נפטר במואב ולא נכנס לכנען; יהושע נשא את ההנהגה אל השלב הבא.",
+          "c": "משה מבקש למנות לעם ממשיך, כדי שלא יהיה כצאן שאין להם רועה. בציווי האל הוא מעמיד את יהושע לפני אלעזר הכהן וכל העדה, סומך עליו את ידיו ומצווה אותו בפומבי. זוהי העברת סמכות ואחריות, ולא רק ברכה פרטית. משה מסיים את חייו במואב, רואה את הארץ אך אינו נכנס אליה; העם מתאבל עליו ויהושע ממשיך בהנהגה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי נבחר להנהיג את העם אחרי משה?",
+              "options": [
+                "פרעה",
+                "יתרו",
+                "יהושע",
+                "נח"
+              ],
+              "answer": 2,
+              "explanation": "יהושע נבחר להמשיך להנהיג את בני ישראל."
+            },
+            {
+              "prompt": "מה עשה משה בטקס המינוי?",
+              "options": [
+                "הניח את ידיו על יהושע",
+                "בנה ליהושע תיבה",
+                "החזיר את כולם למצרים",
+                "נטע סנה בוער"
+              ],
+              "answer": 0,
+              "explanation": "משה הניח את ידיו על יהושע לעיני העם כסימן להעברת האחריות."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "לפני מי נערך מינוי יהושע?",
+              "options": [
+                "לפני פרעה בלבד",
+                "לפני בת פרעה",
+                "ללא איש מלבדם",
+                "לפני אלעזר הכהן וכל העדה"
+              ],
+              "answer": 3,
+              "explanation": "המינוי נערך בפומבי, כדי שהעדה תכיר במנהיג שימשיך להוביל אותה."
+            },
+            {
+              "prompt": "איזו אמירה נכונה על סוף דרכו של משה?",
+              "options": [
+                "הוא בנה ארמון ביריחו",
+                "הוא נפטר במואב ולא נכנס לכנען",
+                "הוא חזר להיות נסיך מצרים",
+                "הוא חצה את הירדן בראש יהושע"
+              ],
+              "answer": 1,
+              "explanation": "דברים ל״ד מספר שמשה ראה את הארץ מהר נבו, אך נפטר במואב ולא עבר אליה."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מה עומד בבסיס בקשתו של משה למנות ממשיך?",
+              "options": [
+                "הדאגה שהעדה לא תישאר כצאן ללא רועה",
+                "הרצון להחזיר את העם לעבדות",
+                "בחירת פרעה ביורש",
+                "תחרות על רכוש פרטי"
+              ],
+              "answer": 0,
+              "explanation": "משה מנסח את הבקשה סביב צורכי העם והמשך הנהגתו, ולא סביב מעמדו האישי."
+            },
+            {
+              "prompt": "מה מדגישה הסמיכה לפני אלעזר וכל העדה?",
+              "options": [
+                "שמינוי מנהיג הוא סוד משפחתי",
+                "שמשה כבר נכנס לכנען",
+                "שהעברת האחריות מקבלת הכרה ציבורית",
+                "שיהושע מחליף את אלעזר בתפקיד הכהן"
+              ],
+              "answer": 2,
+              "explanation": "הטקס הציבורי מעניק ליהושע סמכות מוכרת; הוא אינו מתמנה לכהן ואינו מעיד שמשה נכנס לארץ."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ending": {
+    "a": "Moses died in Moab at the end of his long life, before the people entered Canaan. We remember his courage, compassion, and all he taught. Joshua and the people continue their journey. We can carry the good things we have learned into our own lives.",
+    "b": "Moses died in Moab without entering Canaan. His life ended, but his influence continued through the Torah, his care for the people, and his preparation of Joshua. A new leader takes the people forward, carrying a story that began long before him.",
+    "c": "Moses died in Moab, outside Canaan, and the people mourned him. His death did not erase his life's work: the Exodus, the Torah, and Joshua's preparation enabled the next generation to continue. His story invites us to consider leadership through what it makes possible after the leader is gone."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "life-moses-7": ["life-moses-2", "life-moses-3", "life-moses-5"],
+  "life-moses-3": ["life-moses-7", "life-moses-4", "life-moses-8"],
+  "life-moses-4": ["life-moses-3", "life-moses-6", "life-moses-1"],
+  "life-moses-8": ["life-moses-3", "life-moses-6", "life-moses-9"],
+  "life-moses-9": ["life-moses-2", "life-moses-8", "life-moses-5"],
+  "life-moses-5": ["life-moses-9", "life-moses-7", "life-moses-3"],
+  "life-noah-3": ["life-noah-2", "life-noah-7", "life-noah-8"],
+  "life-noah-7": ["life-noah-3", "life-noah-8", "life-noah-4"],
+  "life-noah-8": ["life-noah-7", "life-noah-4", "life-noah-9"],
+  "life-noah-4": ["life-noah-7", "life-noah-8", "life-noah-9"],
+  "life-noah-9": ["life-noah-2", "life-noah-8", "life-noah-4"],
+  "life-noah-5": ["life-noah-7", "life-noah-4", "life-noah-9"],
+  "life-samson-7": ["life-samson-4", "life-samson-9", "life-samson-3"],
+  "life-samson-8": ["life-samson-5", "life-samson-7", "life-samson-6"],
+  "life-samson-3": ["life-samson-7", "life-samson-9", "life-samson-5"],
+  "life-samson-4": ["life-samson-7", "life-samson-2", "life-samson-9"],
+  "life-samson-9": ["life-samson-4", "life-samson-7", "life-samson-5"],
+  "life-samson-5": ["life-samson-9", "life-samson-8", "life-samson-3"]
+}

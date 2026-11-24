@@ -1,0 +1,1532 @@
+{
+  "life-samson-1": {
+    "a": [
+      {
+        "prompt": "Who is standing opposite the woman in the field?",
+        "options": [
+          "A child with a basket",
+          "A man in a light robe",
+          "A shepherd with a sheep"
+        ],
+        "answer": 1,
+        "explanation": "The man and woman face each other among the stalks."
+      },
+      {
+        "prompt": "What lies near the visitor’s feet?",
+        "options": [
+          "A pile of stones",
+          "A pile of blankets",
+          "A pile of apples"
+        ],
+        "answer": 0,
+        "explanation": "The woman and man stand together on the other side of the stones."
+      },
+      {
+        "prompt": "Where does the glowing figure appear?",
+        "options": [
+          "Behind the bush",
+          "Beside the man's feet",
+          "Above the fire"
+        ],
+        "answer": 2,
+        "explanation": "Light rises from the fire on the stones."
+      },
+      {
+        "prompt": "How can you tell the two people below have noticed what is happening?",
+        "options": [
+          "Both run to the field",
+          "Both turn toward the figure",
+          "Both cover their eyes"
+        ],
+        "answer": 1,
+        "explanation": "They kneel together facing the light and look up."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Who hears the announcement in this field?",
+        "options": [
+          "The reaper behind her",
+          "The child beside the messenger",
+          "The woman facing the messenger"
+        ],
+        "answer": 2,
+        "explanation": "The woman faces the light-robed figure alone."
+      },
+      {
+        "prompt": "What has changed since the first meeting in the field?",
+        "options": [
+          "A little boy has joined the visitor",
+          "Manoah now faces the visitor too",
+          "The woman is hiding behind a tree"
+        ],
+        "answer": 1,
+        "explanation": "Manoah and his wife now stand together beside the stones."
+      },
+      {
+        "prompt": "What reveals to the couple that their visitor is an angel?",
+        "options": [
+          "His figure rises in the flame",
+          "He puts a stone on the altar",
+          "He offers the woman a stalk"
+        ],
+        "answer": 0,
+        "explanation": "The messenger appears above the fire with the two witnesses below."
+      },
+      {
+        "prompt": "What shows that both husband and wife witnessed the sign?",
+        "options": [
+          "One brings the other to the field",
+          "One points while the other sleeps",
+          "Both kneel facing the flame"
+        ],
+        "answer": 2,
+        "explanation": "Both figures face the same sight above the altar."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail fits the visitor's first appearance as a “man”?",
+        "options": [
+          "He stands facing the woman at eye level",
+          "He hovers among the trees",
+          "He is hidden inside a flame"
+        ],
+        "answer": 0,
+        "explanation": "The field scene shows a human figure in a light robe."
+      },
+      {
+        "prompt": "How has Manoah's point of view changed since his wife told him the news?",
+        "options": [
+          "He watches his wife from across the field",
+          "He arrives after the visitor leaves",
+          "He stands beside his wife and sees the messenger himself"
+        ],
+        "answer": 2,
+        "explanation": "All three figures now share the space beside the stones."
+      },
+      {
+        "prompt": "Which movement in the flame expresses the verb “ascended”?",
+        "options": [
+          "The couple climb steps",
+          "The messenger rises above the altar",
+          "The man lifts the altar stones"
+        ],
+        "answer": 1,
+        "explanation": "The vertical flame links the altar and the messenger above it."
+      },
+      {
+        "prompt": "Which two details link the sign to the witnesses' recognition of the visitor?",
+        "options": [
+          "The figure in the light and the couple kneeling before it",
+          "The empty field and the lone tree",
+          "The broken stones and the descending path"
+        ],
+        "answer": 0,
+        "explanation": "The picture sets the messenger's revelation beside the physical response of both witnesses."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which detail matches the order of the announcement in Judges 13?",
+        "options": [
+          "Manoah is first to greet him",
+          "The woman faces the messenger alone",
+          "The couple come to meet him together"
+        ],
+        "answer": 1,
+        "explanation": "The encounter in the field precedes the woman's report to Manoah."
+      },
+      {
+        "prompt": "Which stage of recognition fits the altar stones here?",
+        "options": [
+          "The couple still speak to a visitor standing on the ground",
+          "Manoah already sees him ascending",
+          "The couple are already alone after the sign"
+        ],
+        "answer": 0,
+        "explanation": "The stones are stacked and the messenger is still standing opposite the couple."
+      },
+      {
+        "prompt": "How does the picture render the phrase “in the flame of the altar”?",
+        "options": [
+          "A lamp in the messenger's hand lights the altar",
+          "A line of fire separates the witnesses",
+          "Flame surrounds the messenger above the stones"
+        ],
+        "answer": 2,
+        "explanation": "The continuous light from stones to messenger traces his ascent within the flame."
+      },
+      {
+        "prompt": "Which aspect of “while Manoah and his wife looked on” does the viewpoint emphasize?",
+        "options": [
+          "The wife later gives Manoah her account",
+          "Both witnesses see the same sight",
+          "Manoah sees something his wife misses"
+        ],
+        "answer": 1,
+        "explanation": "Our gaze passes over both kneeling figures toward the light before them."
+      }
+    ]
+  },
+  "life-samson-6": {
+    "a": [
+      {
+        "prompt": "Which animal could leave the pawprints we saw earlier?",
+        "options": [
+          "The lion among the vines",
+          "A sheep walking on hooves",
+          "A dove walking on thin toes"
+        ],
+        "answer": 0,
+        "explanation": "Now we see the lion itself where we saw the tracks before."
+      },
+      {
+        "prompt": "Samson stops on the path. What has come into his way?",
+        "options": [
+          "A lion follows behind him",
+          "A lion rests beyond a closed fence",
+          "A lion stands ahead of him"
+        ],
+        "answer": 2,
+        "explanation": "He turns toward the animal farther along the path."
+      },
+      {
+        "prompt": "Where are the man and the lion standing?",
+        "options": [
+          "Together in a treetop",
+          "Facing each other on the path",
+          "Across a river from each other"
+        ],
+        "answer": 1,
+        "explanation": "Both stand on the ground with a space between them."
+      },
+      {
+        "prompt": "What shows that Samson hasn't touched the lion yet?",
+        "options": [
+          "You can see the path between them",
+          "The lion is asleep on his lap",
+          "Samson's hand is on the mane"
+        ],
+        "answer": 0,
+        "explanation": "Samson and the lion look at one another from a distance."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What grows around the lion and points to a vineyard?",
+        "options": [
+          "Ears of wheat",
+          "Bunches of grapes",
+          "Dates on a palm"
+        ],
+        "answer": 1,
+        "explanation": "The bunches hang among the vine leaves near the lion."
+      },
+      {
+        "prompt": "Where does the picture put the lion in relation to Samson?",
+        "options": [
+          "Ahead of him on the path",
+          "Close behind him",
+          "On a rock high above him"
+        ],
+        "answer": 0,
+        "explanation": "We look over Samson's shoulder along the path."
+      },
+      {
+        "prompt": "What suggests that Samson meets the lion alone?",
+        "options": [
+          "Friends stand beside him with sticks",
+          "A shepherd leads him through the vines",
+          "Only Samson and the lion are on the path"
+        ],
+        "answer": 2,
+        "explanation": "No other person stands among the vines with him."
+      },
+      {
+        "prompt": "Which sentence fits the moment the artist chose?",
+        "options": [
+          "Samson has passed the lion",
+          "Samson has stopped opposite the lion",
+          "Samson has returned with honey"
+        ],
+        "answer": 1,
+        "explanation": "They are standing and facing each other in the vineyard."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail locates the young lion in the “vineyards of Timnah”?",
+        "options": [
+          "A stone wall behind it",
+          "A mountain peak in the distance",
+          "Clusters hang beside it"
+        ],
+        "answer": 2,
+        "explanation": "The vine leaves and grapes identify the crop named in the verse."
+      },
+      {
+        "prompt": "How does the picture let us discover the lion with Samson?",
+        "options": [
+          "We see the animal behind his back",
+          "We look past his back toward the animal ahead",
+          "We see his face from the lion's hiding place"
+        ],
+        "answer": 1,
+        "explanation": "Standing behind Samson puts the lion in his line of sight."
+      },
+      {
+        "prompt": "Which detail connects Samson here with “he had nothing in his hand”?",
+        "options": [
+          "His bare hands hang at his sides",
+          "He leans on a staff",
+          "He holds a bunch of grapes"
+        ],
+        "answer": 0,
+        "explanation": "Both empty hands are visible as he faces the lion."
+      },
+      {
+        "prompt": "What can we infer from the gap between the two figures?",
+        "options": [
+          "The picture shows Samson's return",
+          "The picture shows the outcome",
+          "The picture pauses at the encounter"
+        ],
+        "answer": 2,
+        "explanation": "The lion is alive and standing, and Samson has yet to reach it."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which detail distinguishes Timnah's vineyards from the standing grain in the next chapter?",
+        "options": [
+          "Dark clusters among climbing leaves",
+          "Parallel furrows on a slope",
+          "An open valley beyond the animal"
+        ],
+        "answer": 0,
+        "explanation": "Grapes on vines establish the setting of the encounter with the lion."
+      },
+      {
+        "prompt": "How does the image render the sudden discovery conveyed by “behold”?",
+        "options": [
+          "The lion is visible only through tracks in the sand",
+          "Samson explains the event to a passerby",
+          "The path opens toward the lion in front of Samson"
+        ],
+        "answer": 2,
+        "explanation": "Looking past his back, we encounter the animal already standing in his way."
+      },
+      {
+        "prompt": "Which narrative detail does the painted pose directly support?",
+        "options": [
+          "Samson has already found the honey",
+          "Samson faces the lion empty-handed",
+          "Samson has told his parents of the encounter"
+        ],
+        "answer": 1,
+        "explanation": "His visible hands at his sides give form to “he had nothing in his hand.”"
+      },
+      {
+        "prompt": "What remains beyond what this image shows of the strength given to Samson?",
+        "options": [
+          "We see the meeting before his strength is revealed",
+          "We see honey, but its source is hidden",
+          "We see his parents, but their reaction is hidden"
+        ],
+        "answer": 0,
+        "explanation": "The space between man and lion holds the scene at the moment before action."
+      }
+    ]
+  },
+  "life-samson-2": {
+    "a": [
+      {
+        "prompt": "Which part of the riddle comes from the earlier trip, and what did Samson find this time?",
+        "options": [
+          "He found honey before and saw a lion for the first time now",
+          "He had already taken honey to the feast on his first trip",
+          "He met a lion before and found honey this time"
+        ],
+        "answer": 2,
+        "explanation": "The lion’s shadow reminds us of the earlier encounter. The honeycomb awaits Samson on his return."
+      },
+      {
+        "prompt": "What does Samson raise close to his face?",
+        "options": [
+          "A large blue jug",
+          "A small golden piece",
+          "A long green branch"
+        ],
+        "answer": 1,
+        "explanation": "Samson looks at the piece in his hand."
+      },
+      {
+        "prompt": "Who is standing while the others sit around the table?",
+        "options": [
+          "Long-haired Samson",
+          "A child with a bowl",
+          "A woman with a jug"
+        ],
+        "answer": 0,
+        "explanation": "Samson stands among the guests and faces them."
+      },
+      {
+        "prompt": "What do the guests know from seeing honey on the table, and what else do we know?",
+        "options": [
+          "They saw the lion on the path; we see only the food",
+          "We were all with Samson when he found the honey",
+          "They see the food; we remember where Samson found it"
+        ],
+        "answer": 2,
+        "explanation": "The earlier pictures showed Samson on the path. The guests join the story at the feast."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "How does the lion appear beside the honey?",
+        "options": [
+          "As a dark silhouette on the rock",
+          "As a tiny statue inside the comb",
+          "As a sleeping animal on the path"
+        ],
+        "answer": 0,
+        "explanation": "The lion's shape is on the stone with the honey in front."
+      },
+      {
+        "prompt": "What shows that Samson has already picked something up?",
+        "options": [
+          "He drags a basket of grapes",
+          "He points to a mark on the ground",
+          "He studies a golden piece in his hand"
+        ],
+        "answer": 2,
+        "explanation": "He holds the piece up to look at it among the vines."
+      },
+      {
+        "prompt": "How can we tell who is telling the guests the riddle?",
+        "options": [
+          "Everyone stands behind an empty table",
+          "Samson stands and the diners turn toward him",
+          "A guest at the door whispers to Samson"
+        ],
+        "answer": 1,
+        "explanation": "Samson is at the center of the exchange by the set table."
+      },
+      {
+        "prompt": "Why is the honeycomb on the table a better clue for someone who remembers the vineyard?",
+        "options": [
+          "Honey suggests sweetness, and the vineyard also gave us a clue to the lion",
+          "Only the vineyard showed what the guests were served at the feast",
+          "The guests already saw the lion alongside Samson"
+        ],
+        "answer": 0,
+        "explanation": "The food supplies half the link. The earlier encounter explains where Samson found it."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which clues in the picture represent “the strong” and “sweetness”?",
+        "options": [
+          "The tree and the grapes in the distance",
+          "The lion's silhouette and the honey on the rock",
+          "The path and the bees in the air"
+        ],
+        "answer": 1,
+        "explanation": "The lion's outline stands for strength and the comb gives sweetness a visible form."
+      },
+      {
+        "prompt": "What illustrates Samson's advantage over the guests who will hear his riddle?",
+        "options": [
+          "He examines the piece of honeycomb alone",
+          "A guest stands beside him and shows him a hive",
+          "He offers a comb to merchants"
+        ],
+        "answer": 0,
+        "explanation": "The evidence in his hand appears before he brings the riddle to the feast."
+      },
+      {
+        "prompt": "How does Samson's role change between vineyard and table?",
+        "options": [
+          "From host of a feast to vineyard worker",
+          "From listener to passerby",
+          "From a lone observer to a speaker before an audience"
+        ],
+        "answer": 2,
+        "explanation": "The diners around the standing figure turn a private discovery into a shared puzzle."
+      },
+      {
+        "prompt": "Which part of the solution is missing from the diners' view?",
+        "options": [
+          "The existence of honey",
+          "The link between the honey and the lion",
+          "The presence of the riddle's author"
+        ],
+        "answer": 1,
+        "explanation": "They can see the comb and Samson, but only he knows its source in the vineyard."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How do the two parts of the riddle's solution differ visually?",
+        "options": [
+          "The lion is tangible and the honey appears in silhouette",
+          "Both are engraved on a distant rock",
+          "The honey is tangible and the lion appears in silhouette"
+        ],
+        "answer": 2,
+        "explanation": "The comb projects into the foreground while the lion exists as an outline on stone."
+      },
+      {
+        "prompt": "Which choice fits the gap between what Samson knows and what he will tell others?",
+        "options": [
+          "A crowd awaits an answer among the vines",
+          "A solitary figure examines the honey",
+          "Family members point to the source"
+        ],
+        "answer": 1,
+        "explanation": "The image returns us to a private moment preceding the public riddle."
+      },
+      {
+        "prompt": "Which detail at the feast hints at the solution before it is spoken?",
+        "options": [
+          "The honeycomb on the table",
+          "The stone arch over the entrance",
+          "A guest's head covering"
+        ],
+        "answer": 0,
+        "explanation": "The comb brings one half of the riddle to the feast table."
+      },
+      {
+        "prompt": "How does a viewer who has seen the vineyard differ from the crowd around Samson?",
+        "options": [
+          "The crowd can see the lion over Samson's shoulder",
+          "Only the crowd saw what Samson held in the vineyard",
+          "The viewer can link the comb to the lion’s silhouette"
+        ],
+        "answer": 2,
+        "explanation": "Earlier pictures gave the viewer the origin of the honey now displayed among the diners."
+      }
+    ]
+  },
+  "life-samson-7": {
+    "a": [
+      {
+        "prompt": "We saw a whole rope earlier. What happened to it on the path?",
+        "options": [
+          "Someone tied a loop in it",
+          "It tore in two",
+          "Someone rolled it up again"
+        ],
+        "answer": 1,
+        "explanation": "There is a gap between the ends, with loose threads sticking out of both."
+      },
+      {
+        "prompt": "What do the loose ends by his hands tell us about a moment earlier?",
+        "options": [
+          "The rope was around his wrists",
+          "Samson was about to coil a new rope",
+          "Samson held a rope by just one end"
+        ],
+        "answer": 0,
+        "explanation": "Pieces still hang from both wrists after the rope has torn."
+      },
+      {
+        "prompt": "What can Samson do now that the rope has torn?",
+        "options": [
+          "Pull his wrists together with the rope",
+          "Hold a tight rope between his wrists",
+          "Move his hands apart"
+        ],
+        "answer": 2,
+        "explanation": "His hands are apart and no whole rope joins them."
+      },
+      {
+        "prompt": "What shows that Samson can move each hand on its own?",
+        "options": [
+          "Two people hold him",
+          "No tight rope joins his hands",
+          "One hand is tied to a tree"
+        ],
+        "answer": 1,
+        "explanation": "Loose ends hang by his body and his hands are free."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What sign shows that the rope tore?",
+        "options": [
+          "Neat loops",
+          "A round knot in the middle",
+          "Loose fibers at the ends"
+        ],
+        "answer": 2,
+        "explanation": "The pieces on the path have frayed ends."
+      },
+      {
+        "prompt": "Why do broken strands still hang from Samson’s arms?",
+        "options": [
+          "He had only just begun winding a new rope around both hands",
+          "The rope broke between his hands before the loops came off",
+          "Someone had untied and removed all the rope"
+        ],
+        "answer": 1,
+        "explanation": "Some rope remains on each arm, but no unbroken length connects them."
+      },
+      {
+        "prompt": "What shows Samson is already free even though we missed the moment the rope broke?",
+        "options": [
+          "His hands spread apart and the rope ends hang loose",
+          "His hands meet in front with the rope pulled tight",
+          "He faces the men with a rope stretched between them"
+        ],
+        "answer": 0,
+        "explanation": "There is no longer any pull between his wrists. The result is visible."
+      },
+      {
+        "prompt": "Which result of the ropes breaking is visible here?",
+        "options": [
+          "The people behind him are tied together",
+          "The rope has wrapped around a rock",
+          "Samson stands with his hands free"
+        ],
+        "answer": 2,
+        "explanation": "His hands are on either side of his body and the rope hangs loose."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "What suggests the rope was not simply untied?",
+        "options": [
+          "The end fibers splay apart",
+          "The rope lies in a curve",
+          "The ground beneath it is pale"
+        ],
+        "answer": 0,
+        "explanation": "Torn fibers account for the separate lengths on the path."
+      },
+      {
+        "prompt": "How does the picture relate to the words “upon his arms”?",
+        "options": [
+          "His hands fasten a rope to a tree",
+          "He carries a coil on his shoulder",
+          "Remnants of the bindings remain on his arms"
+        ],
+        "answer": 2,
+        "explanation": "The remaining pieces show where the bindings had held him."
+      },
+      {
+        "prompt": "How does the scene differ from the verse's comparison to flax burned by fire?",
+        "options": [
+          "Only fire appears, without ropes",
+          "Loose ropes appear without a visible flame",
+          "Flax burns in his hand"
+        ],
+        "answer": 1,
+        "explanation": "The torn rope shows the result. Fire belongs to the comparison in the verse."
+      },
+      {
+        "prompt": "What makes the image consistent with the bindings failing without someone else untying them?",
+        "options": [
+          "Remnants hang on his wrists while the other people stand apart",
+          "The others are distant, so he can never have been bound",
+          "A loop remains on a wrist, so someone must have untied the other end"
+        ],
+        "answer": 0,
+        "explanation": "Distance from the witnesses and rope ends at the wrists depict release. The text supplies the circumstances."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "What distinction do the frayed ends allow in relation to the comparison with scorched flax?",
+        "options": [
+          "The ends prove both literal burning and its source",
+          "The ends show a break; the source of strength and literal fire are not visible in the close-up",
+          "The fibers themselves identify who tied and who untied them"
+        ],
+        "answer": 1,
+        "explanation": "A close-up gives access to the object. The divine Spirit and the comparison’s meaning depend on the wording of the account."
+      },
+      {
+        "prompt": "Which aspect of “his bonds fell away from his hands” does the artist convey?",
+        "options": [
+          "Ropes trail down from the arms",
+          "Ropes turn to liquid at his feet",
+          "His companions cut the ropes"
+        ],
+        "answer": 0,
+        "explanation": "The falling ends render the verb through its bodily effect."
+      },
+      {
+        "prompt": "Which reading of the fire comparison fits Samson's body in the picture?",
+        "options": [
+          "Flame still surrounds his arms",
+          "He puts out a fire with his hands",
+          "The bonds give way as readily as flax in fire"
+        ],
+        "answer": 2,
+        "explanation": "The damaged ropes hang from his arms. The verse compares them to flax in a fire."
+      },
+      {
+        "prompt": "What can we infer about Samson's strength without seeing its source?",
+        "options": [
+          "Its source is drawn in the hands of the onlookers",
+          "Its effect is visible in his freed hands",
+          "Strength appears as light from the rock"
+        ],
+        "answer": 1,
+        "explanation": "The slack rope testifies to release, while the text attributes the strength to the spirit of the Lord."
+      }
+    ]
+  },
+  "life-samson-8": {
+    "a": [
+      {
+        "prompt": "Where should Samson kneel to be able to drink?",
+        "options": [
+          "On the dry rock above it",
+          "On the path leading away from the pool",
+          "Beside the pool where the water collects"
+        ],
+        "answer": 2,
+        "explanation": "The water collects below, within reach of his hands."
+      },
+      {
+        "prompt": "Samson brings his hands together over the water. What can he do that way?",
+        "options": [
+          "Dry both hands in the wind",
+          "Make a little cup with his hands",
+          "Lean on a rock with both hands"
+        ],
+        "answer": 1,
+        "explanation": "His cupped hands can hold a little water."
+      },
+      {
+        "prompt": "Which moment do the hands at his mouth show?",
+        "options": [
+          "Samson is drinking after scooping up water",
+          "Samson has only just begun looking for water",
+          "Samson is back on the path after drinking"
+        ],
+        "answer": 0,
+        "explanation": "The water has reached his hands, and he is bringing it to his mouth."
+      },
+      {
+        "prompt": "How can Samson drink without fetching a jar?",
+        "options": [
+          "The water is far and he waits for someone to bring it",
+          "The water is below him and he stands upright",
+          "The water is close and he reaches it with his hands"
+        ],
+        "answer": 2,
+        "explanation": "He kneels close enough to scoop water to his mouth."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What explains how the pool fills without anyone pouring water into it?",
+        "options": [
+          "A stream runs down from the rock into the pool",
+          "A separate puddle sits beyond the pool",
+          "The ground around the pool is dry"
+        ],
+        "answer": 0,
+        "explanation": "Water trickles between the stones and gathers lower down."
+      },
+      {
+        "prompt": "Which combination shows that Samson is getting ready to drink rather than just resting?",
+        "options": [
+          "He kneels and looks toward the hills",
+          "He sits with his back to the pool",
+          "He kneels with his hands reaching toward the water"
+        ],
+        "answer": 2,
+        "explanation": "Both his posture and the direction of his hands put him within reach of a drink."
+      },
+      {
+        "prompt": "How does the picture show the spring helping thirsty Samson?",
+        "options": [
+          "He dips a garment in the water",
+          "He lifts water to his mouth",
+          "A shepherd gives him a drink"
+        ],
+        "answer": 1,
+        "explanation": "His cupped hands serve as a drinking cup."
+      },
+      {
+        "prompt": "What shows that Samson found water on the spot?",
+        "options": [
+          "He drinks from the spring in the ground",
+          "He takes a waterskin off his shoulder",
+          "He opens a jug he brought from home"
+        ],
+        "answer": 0,
+        "explanation": "The stream emerges between the rocks right beside Samson's hands."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How does the outlet in the picture convey the importance of place in the episode at Lehi?",
+        "options": [
+          "Water carried from outside Lehi shows the place remained dry",
+          "A spring in the landscape makes the place of distress the place of relief",
+          "The pool proves the call for help was made after he drank"
+        ],
+        "answer": 1,
+        "explanation": "Flow from the rock suits a response where Samson experienced thirst."
+      },
+      {
+        "prompt": "How does the kneeling body express Samson's condition after the exertion at Lehi?",
+        "options": [
+          "He depends on water within reach",
+          "He displays his strength to a crowd",
+          "He blocks the way to the water"
+        ],
+        "answer": 0,
+        "explanation": "His entire body faces the stream and his hands reach toward it."
+      },
+      {
+        "prompt": "Which part of “he drank, his spirit returned, and he revived” is directly visible?",
+        "options": [
+          "His spirit returned",
+          "He revived",
+          "He drank"
+        ],
+        "answer": 2,
+        "explanation": "His hands reach his mouth above the spring."
+      },
+      {
+        "prompt": "If En-hakkore links a spring and a call, which of these is shown directly?",
+        "options": [
+          "The words of the call carved in stone",
+          "The spring from which Samson drinks",
+          "An audience hearing the call"
+        ],
+        "answer": 1,
+        "explanation": "We see the flowing water and learn of the earlier call from the story."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "What supports reading the spring beside “the hollow at Lehi” without turning it into an object brought there?",
+        "options": [
+          "The sky’s reflection proves the hollow’s exact original shape",
+          "The mere presence of the pool identifies the implement from the earlier battle",
+          "The outlet appears part of the rock and the water collects beneath it"
+        ],
+        "answer": 2,
+        "explanation": "Continuity between stone and water depicts a local spring. The image does not document the historical site’s shape."
+      },
+      {
+        "prompt": "How does Samson's posture contrast with his release from the ropes?",
+        "options": [
+          "Now he stands with arms spread before a crowd",
+          "Now he kneels and reaches out for water",
+          "Now he carries the spring's rocks"
+        ],
+        "answer": 1,
+        "explanation": "The arms freed from bonds now reach out for water."
+      },
+      {
+        "prompt": "Which step in the sequence of events is rendered as an observable act?",
+        "options": [
+          "Drinking from the spring",
+          "The call that preceded the response",
+          "The naming of the place"
+        ],
+        "answer": 0,
+        "explanation": "The hands are near the mouth, with water dripping below them."
+      },
+      {
+        "prompt": "What is absent from the picture that would explain “the one who called” in the spring's name?",
+        "options": [
+          "The water that emerged among the rocks",
+          "The man who benefited from the water",
+          "Samson's appeal for help before he drank"
+        ],
+        "answer": 2,
+        "explanation": "The picture emphasizes water as an answer. The spring's name preserves the appeal preceding it."
+      }
+    ]
+  },
+  "life-samson-3": {
+    "a": [
+      {
+        "prompt": "A wooden door blocked the way earlier. What has changed?",
+        "options": [
+          "You can see the street through the whole opening",
+          "Only a small crack in the door is open",
+          "Another door blocks the street"
+        ],
+        "answer": 0,
+        "explanation": "The street is visible across the opening where the door stood."
+      },
+      {
+        "prompt": "How can you tell where the missing door has gone?",
+        "options": [
+          "It stands open at his feet",
+          "It hangs on the wall behind him",
+          "It rests on Samson’s shoulders"
+        ],
+        "answer": 2,
+        "explanation": "The wood is above his shoulders as he walks."
+      },
+      {
+        "prompt": "What shows that Samson has already walked away from town?",
+        "options": [
+          "The door is still hanging in its opening",
+          "The town looks small behind him",
+          "The town surrounds him on all sides"
+        ],
+        "answer": 1,
+        "explanation": "The buildings look small and distant while Samson and the gate are close to us."
+      },
+      {
+        "prompt": "Which picture could come just before this one?",
+        "options": [
+          "Samson lifting the door at the city entrance",
+          "Samson setting the door down on the hilltop",
+          "People finding the door on the hill"
+        ],
+        "answer": 0,
+        "explanation": "Before carrying the door uphill, he had to lift it."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Besides the dark sky, what shows that the escape is already underway?",
+        "options": [
+          "The street beyond the wall is narrow",
+          "The opening in the wall has lost its doors",
+          "One stone is paler than the others"
+        ],
+        "answer": 1,
+        "explanation": "The darkness tells us when. The empty opening tells us the gate has already been removed."
+      },
+      {
+        "prompt": "What proves that Samson tore out the gate rather than merely passing through it?",
+        "options": [
+          "The doors and beams travel outside the wall with him",
+          "Moonlight falls on the path he takes",
+          "The town appears behind him"
+        ],
+        "answer": 0,
+        "explanation": "Someone could walk through an open gate. Here the gate itself rides on his shoulders."
+      },
+      {
+        "prompt": "How can we tell Samson has climbed above the city?",
+        "options": [
+          "The houses are above him on the summit",
+          "The gate is still attached to the wall",
+          "The walls lie below him in the background"
+        ],
+        "answer": 2,
+        "explanation": "The city behind him is seen from above."
+      },
+      {
+        "prompt": "What about Samson's load explains the opening left in the city?",
+        "options": [
+          "He is pulling a cart of building stone",
+          "He is carrying the parts of the gate itself",
+          "He is holding a picture of the city wall"
+        ],
+        "answer": 1,
+        "explanation": "The wooden doors that could close the entrance are now on the hill."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "The gate is gone but the wall stands. Which part of the ambush plan is undermined?",
+        "options": [
+          "The watchers’ ability to see the moon above the town",
+          "The fact that a wall exists around the houses of Gaza",
+          "Control over passage through doors that can be shut"
+        ],
+        "answer": 2,
+        "explanation": "Waiting at the gate depends on controlling passage. The wall cannot supply the missing doors."
+      },
+      {
+        "prompt": "Which part of the load corresponds to the “two posts”?",
+        "options": [
+          "The stones beneath the wall",
+          "The upright timbers at either end",
+          "The two metal plates on the path"
+        ],
+        "answer": 1,
+        "explanation": "The upright timbers frame the doors on Samson's shoulders."
+      },
+      {
+        "prompt": "The town lies below and the gate rests on his shoulders. What do those details together add to the verb describing his taking it up?",
+        "options": [
+          "Removal from its original place and carriage uphill",
+          "Proof that the gate fell downhill on its own",
+          "Proof that the gate originally stood on the hilltop"
+        ],
+        "answer": 0,
+        "explanation": "The gate has left the city and now appears above it. The combination gives the uphill carrying a visible form."
+      },
+      {
+        "prompt": "What in the image reverses the gate's role in the ambush story?",
+        "options": [
+          "A vehicle becomes a new wall",
+          "The whole city moves onto the hill",
+          "An object meant to block an exit is carried away"
+        ],
+        "answer": 2,
+        "explanation": "The gate on his shoulders is far from the wall where it could have held him in."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which conclusion about the empty opening requires the account as well as what remains in the wall?",
+        "options": [
+          "That Samson also uprooted the posts and bar and carried them away",
+          "That doors do not block the opening at this pictured instant",
+          "That a viewer can see through it into the street beyond"
+        ],
+        "answer": 0,
+        "explanation": "The absence is striking. The list of removed parts and their carrying are supplied by the narrative."
+      },
+      {
+        "prompt": "Which detail supports reading the wrenching action as removal of an entire structure?",
+        "options": [
+          "Only the bar appears in his hand",
+          "Stones cling to his heels",
+          "The posts travel with the doors"
+        ],
+        "answer": 2,
+        "explanation": "The structure on his shoulders includes the sides of the gate."
+      },
+      {
+        "prompt": "What can be confirmed visually from the route “to the top of the hill facing Hebron”?",
+        "options": [
+          "The name of the city on the horizon",
+          "The ascent above the city",
+          "The exact distance to Hebron"
+        ],
+        "answer": 1,
+        "explanation": "The difference in elevation is visible, while the text supplies the geographic identification."
+      },
+      {
+        "prompt": "What is the relationship between the fortified city and the gate in the foreground?",
+        "options": [
+          "Part of its defenses is carried by its intended captive",
+          "Part of its defenses shelters a climber",
+          "Its defenses are moved intact to the summit"
+        ],
+        "answer": 0,
+        "explanation": "The distance between the wall and the gate emphasizes the reversal of the trap."
+      }
+    ]
+  },
+  "life-samson-4": {
+    "a": [
+      {
+        "prompt": "How can you tell Delilah is waiting for Samson to answer her?",
+        "options": [
+          "She stands and turns toward the door",
+          "She faces him and holds out a hand as they talk",
+          "She sits with her back to him"
+        ],
+        "answer": 1,
+        "explanation": "Her face and hand turn toward Samson opposite her."
+      },
+      {
+        "prompt": "Who can see Delilah signal without her waking Samson?",
+        "options": [
+          "The man in the doorway facing her",
+          "Samson with his eyes closed",
+          "A man who has already gone and shut the door"
+        ],
+        "answer": 0,
+        "explanation": "Her hand points toward the doorway while Samson sleeps beside her."
+      },
+      {
+        "prompt": "What happened between the conversation we saw and this moment?",
+        "options": [
+          "Samson woke and asked for his hair",
+          "Samson got up to speak to the man",
+          "Samson fell asleep and some of his hair was cut"
+        ],
+        "answer": 2,
+        "explanation": "His eyes are closed and cut locks already lie beside him."
+      },
+      {
+        "prompt": "What can we tell that sleeping Samson has yet to discover?",
+        "options": [
+          "Delilah asked him a question earlier",
+          "Some of his hair already lies on the floor",
+          "He is resting on a cushion"
+        ],
+        "answer": 1,
+        "explanation": "We see the cut hair. Samson’s eyes are still closed."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What does their close seating tell us, and what does it leave open?",
+        "options": [
+          "Both are speaking, so both must already know everything",
+          "Delilah is asking, so she must already have the right answer",
+          "It looks like a private conversation, but the words are unseen"
+        ],
+        "answer": 2,
+        "explanation": "Two people face one another. We need the story to know what the conversation reveals."
+      },
+      {
+        "prompt": "How can we tell that the man in the doorway receives a signal Samson misses?",
+        "options": [
+          "Delilah whispers to Samson while the man hides his face",
+          "Delilah gestures toward him while Samson lies with his eyes closed",
+          "Samson watches the doorway with the man behind him"
+        ],
+        "answer": 1,
+        "explanation": "The gesture and the closed eyes show why the figures have access to different information."
+      },
+      {
+        "prompt": "Why do the loose locks give stronger evidence that the haircut has begun than the man’s presence does?",
+        "options": [
+          "The man might only be getting ready; the locks have already been cut",
+          "Someone entering a room proves on its own that the job is finished",
+          "Long hair always leaves cut locks on the floor"
+        ],
+        "answer": 0,
+        "explanation": "The man’s position shows closeness. Detached locks show that something has already been done."
+      },
+      {
+        "prompt": "What suggests Samson took no part in the decision at this moment?",
+        "options": [
+          "He hands the man a tool himself",
+          "He chooses a curl before a mirror",
+          "He sleeps while others handle his hair"
+        ],
+        "answer": 2,
+        "explanation": "He lies with eyes closed while the other figures are awake."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "What does this pictured conversation actually show, and what requires reading the account?",
+        "options": [
+          "Closeness is visible; the truthfulness of the answer is not",
+          "Closeness proves the answer must already be truthful",
+          "The expression proves this must be one of the false explanations"
+        ],
+        "answer": 0,
+        "explanation": "The same poses could accompany several answers. Their content distinguishes them."
+      },
+      {
+        "prompt": "Whose position allows them to see the figure in the doorway?",
+        "options": [
+          "Samson with his eyes closed",
+          "Only someone lying on the bed",
+          "Delilah, awake and turned toward him"
+        ],
+        "answer": 2,
+        "explanation": "Delilah's gesture toward the door and Samson's closed eyes give them different access to the scene."
+      },
+      {
+        "prompt": "What do the locks on the floor establish, and what do they still leave unresolved?",
+        "options": [
+          "Samson has already tested his strength and understood the change",
+          "Cutting has begun, but we cannot tell when Samson understands his condition",
+          "The man has already led him from the room to Gaza"
+        ],
+        "answer": 1,
+        "explanation": "The locks are evidence of a physical result, not of what Samson knows."
+      },
+      {
+        "prompt": "What can the viewer see that Samson cannot yet see?",
+        "options": [
+          "The man by his head and the severed locks",
+          "A man telling him the news at a table",
+          "His own face in a large mirror"
+        ],
+        "answer": 0,
+        "explanation": "His eyes are closed, but our viewpoint reveals the activity around him."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How should the figures’ closeness be read against the recurring conversations in the narrative?",
+        "options": [
+          "Closeness proves this is the first time the question is asked",
+          "Closeness allows intimacy but does not itself distinguish deception from disclosure",
+          "Their distance identifies specifically the answer about ropes"
+        ],
+        "answer": 1,
+        "explanation": "The gesture could accompany more than one exchange. Candor depends on the words and their place in the sequence."
+      },
+      {
+        "prompt": "How does the summons to the man gain visual form as Samson sleeps?",
+        "options": [
+          "Delilah reaches toward the doorway",
+          "Samson points into the room",
+          "A man seated beside him holds a scroll"
+        ],
+        "answer": 0,
+        "explanation": "The gesture links Samson's resting place to the figure at the doorway."
+      },
+      {
+        "prompt": "What division of roles has the artist chosen for the cutting of the hair?",
+        "options": [
+          "Delilah acts alone while Samson watches",
+          "Samson hands over his own locks",
+          "A man handles the hair while Delilah watches"
+        ],
+        "answer": 2,
+        "explanation": "The poses distinguish the figure acting near his head from the witness behind."
+      },
+      {
+        "prompt": "What gap remains between the evidence of cut locks and the narrator’s statement that the Lord had left him?",
+        "options": [
+          "The locks alone also establish what Samson already knows",
+          "We can see the locks; the Lord’s departure belongs to the narrator’s knowledge",
+          "The picture proves what the rulers knew of the Lord’s departure before the cutting"
+        ],
+        "answer": 1,
+        "explanation": "The image shows cutting and sleep. The statement about the Lord adds an explanation beyond what can be seen."
+      }
+    ]
+  },
+  "life-samson-9": {
+    "a": [
+      {
+        "prompt": "How can you guess what Samson will do here before he enters?",
+        "options": [
+          "There is grain and a stone for crushing it",
+          "There is a door and sunlight from the window",
+          "There is a stone wall and a wooden door"
+        ],
+        "answer": 0,
+        "explanation": "The grain and the grinding stone go with the same job."
+      },
+      {
+        "prompt": "In the picture with Delilah we saw cut hair. What has changed here?",
+        "options": [
+          "His hair is already as long as before the haircut",
+          "All his hair still lies beside Delilah",
+          "Samson has short hair again"
+        ],
+        "answer": 2,
+        "explanation": "From behind we can see that short hair has grown on his head."
+      },
+      {
+        "prompt": "Which action will help Samson turn grain into flour?",
+        "options": [
+          "Set the basket on the large stone",
+          "Move the small stone over the grain",
+          "Put the stone beside the door"
+        ],
+        "answer": 1,
+        "explanation": "Grain gets crushed between the moving stone and the one beneath it."
+      },
+      {
+        "prompt": "What is different about Samson’s hands here compared with when he carried the gate?",
+        "options": [
+          "Then they carried a door; now they move a stone indoors",
+          "Then they moved a stone indoors; now they carry a door",
+          "In both pictures they open a door to leave"
+        ],
+        "answer": 0,
+        "explanation": "He carried the gate outside. Here his hands work inside the room."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "How can we tell this room from an ordinary place to grind flour?",
+        "options": [
+          "A small stone rests on a larger stone",
+          "It contains both a grinding stone and a barred window",
+          "Daylight falls on the basket of grain"
+        ],
+        "answer": 1,
+        "explanation": "The stones identify the job. The bars supply the clue that it is done in captivity."
+      },
+      {
+        "prompt": "Compare this head with the cut hair on the floor earlier. What can we establish now?",
+        "options": [
+          "Time has passed since the haircut",
+          "Samson has already forced the door open",
+          "Someone found the cut hair and gave it back"
+        ],
+        "answer": 0,
+        "explanation": "The short growth shows time has passed since the cutting. He is still inside."
+      },
+      {
+        "prompt": "Which explanation accounts for both his hands and the grain nearby?",
+        "options": [
+          "He lifts the stone to hide the grain",
+          "He props his hands on the stone to count the grain",
+          "He presses and moves a stone to grind the grain"
+        ],
+        "answer": 2,
+        "explanation": "He presses the upper stone, and the grain identifies what is being ground."
+      },
+      {
+        "prompt": "What is the surprising reversal between the pictures of the gate and the barred room at Gaza?",
+        "options": [
+          "Once he ground grain by the gate; now he carries the stone outdoors",
+          "Once he carried off the city doors; now he works behind a shut one",
+          "Both times Samson chooses when to come and go"
+        ],
+        "answer": 1,
+        "explanation": "A gate he once overcame is followed by a closed room where he must work."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "What distinct meanings do the barred opening and stones contribute to “grinding in the prison”?",
+        "options": [
+          "Both point to imprisonment, but neither suggests a job",
+          "Both point to grinding, but neither suggests confinement",
+          "The opening points to imprisonment and the stones to assigned work"
+        ],
+        "answer": 2,
+        "explanation": "It takes the two details together to illustrate both place and action."
+      },
+      {
+        "prompt": "Compare this hair with the locks beside Delilah. Which conclusion follows from both pictures?",
+        "options": [
+          "The hair is back to its old length and his strength is already proven",
+          "Time has passed and regrowth has begun, but its outcome is unproven",
+          "Regrowth by itself proves he has been released"
+        ],
+        "answer": 1,
+        "explanation": "The change is visible, but the picture still places Samson in captivity."
+      },
+      {
+        "prompt": "How does the picture render “grinding” as a repeated task?",
+        "options": [
+          "His hands work a stone against a fixed surface",
+          "His hands open the door once",
+          "His hands lift a sack to the window"
+        ],
+        "answer": 0,
+        "explanation": "The arrangement of the stones calls for repeated movement over the same surface."
+      },
+      {
+        "prompt": "How does the image show Samson's strength now serving his captors?",
+        "options": [
+          "His hands reach for the bars to bend them",
+          "His shoulders carry the door outside",
+          "His arms work the grinding stones in the barred room"
+        ],
+        "answer": 2,
+        "explanation": "The hands that once carried the city gate now labor in a closed room."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which reading of the empty room depends on both its tools and its conditions?",
+        "options": [
+          "The grinding stone suggests a task, while the bars frame it as coerced labor",
+          "Grinding as such always signals penal labor",
+          "The closed door alone proves which task the prisoner will perform"
+        ],
+        "answer": 0,
+        "explanation": "The tools identify the work. In the narrative context, signs of confinement mark it as enforced."
+      },
+      {
+        "prompt": "Which detail fits “the hair of his head began to grow again” without anticipating later events?",
+        "options": [
+          "His hair already catches on the pillars",
+          "Samson is already wrenching off the prison door",
+          "Short hair is visible on the seated figure's head"
+        ],
+        "answer": 2,
+        "explanation": "The viewpoint reveals his head and the beginning of regrowth inside prison."
+      },
+      {
+        "prompt": "What change in the role of Samson's hands stands out against the removal of Gaza's gates?",
+        "options": [
+          "They now point from a crowd toward a tower",
+          "They now work a tool in an enclosed room",
+          "They again dismantle a gate frame"
+        ],
+        "answer": 1,
+        "explanation": "The stones under his palms show his strength turned to forced labor."
+      },
+      {
+        "prompt": "How does this image resist the inference that hair growth already amounts to complete restoration of strength?",
+        "options": [
+          "Hair is visible, but the work shown does not test exceptional strength",
+          "The grinding stone proves his strength now exceeds his earlier strength in Gaza",
+          "Short hair proves his strength can never return"
+        ],
+        "answer": 0,
+        "explanation": "Prison work coexists with regrowth. No test comparable to carrying the gate has yet occurred."
+      }
+    ]
+  },
+  "life-samson-5": {
+    "a": [
+      {
+        "prompt": "Samson cannot see. How do his two hands help him find where he is standing?",
+        "options": [
+          "Both hands feel the same pillar",
+          "Both hands search for the boy",
+          "Each hand feels a pillar on a different side"
+        ],
+        "answer": 2,
+        "explanation": "A palm touches stone on each side of the gap, so he can feel that he is between the pillars."
+      },
+      {
+        "prompt": "How do the boy and Samson each help find the pillar?",
+        "options": [
+          "Samson leads and the boy searches for the stone",
+          "The boy guides him and Samson reaches for the stone",
+          "The boy touches the pillar while Samson waits at the door"
+        ],
+        "answer": 1,
+        "explanation": "The boy stays close, and it is Samson’s hand that reaches the pillar."
+      },
+      {
+        "prompt": "What did the boy do earlier that helps explain where Samson is standing?",
+        "options": [
+          "Guided him until he could touch both sides",
+          "Asked him to wait beside the door",
+          "Led him away from the pillars"
+        ],
+        "answer": 0,
+        "explanation": "Now there is a hand on each pillar. The boy helped him get there."
+      },
+      {
+        "prompt": "Which sentence fits this moment in the story?",
+        "options": [
+          "Samson is still looking for both pillars from far away",
+          "Samson has already left the hall with the boy",
+          "Samson has found the pillars and now asks for strength"
+        ],
+        "answer": 2,
+        "explanation": "His hands are already on the stone. With his head bowed, he turns to God."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What can this close-up tell us about how Samson finds his place without showing the whole hall?",
+        "options": [
+          "His hands feel the two sides of a passage",
+          "His eyes follow two rows of pillars",
+          "His hands tell him how many people are in the hall"
+        ],
+        "answer": 0,
+        "explanation": "A palm on either stone and a gap between them show how he locates himself."
+      },
+      {
+        "prompt": "Which pair of details shows Samson choosing to reach the pillar with the boy’s help?",
+        "options": [
+          "The boy touches it first and Samson pulls him back",
+          "Samson moves away from the stone and the boy blocks him",
+          "The boy supports his arm and Samson reaches for the pillar himself"
+        ],
+        "answer": 2,
+        "explanation": "We can see both guidance from the boy and Samson’s own movement toward his chosen place."
+      },
+      {
+        "prompt": "Which earlier moment explains exactly where his hands are now?",
+        "options": [
+          "Samson lifted the gate and the boy brought it here",
+          "Samson asked to feel the pillars and the boy guided him",
+          "Samson ground grain and the boy brought the stone here"
+        ],
+        "answer": 1,
+        "explanation": "Contact on both sides follows from his request and the boy’s guidance."
+      },
+      {
+        "prompt": "What can the picture prove, and what do we need the story to tell us?",
+        "options": [
+          "We see the pillars still standing; we need the words to know the request for strength",
+          "We see the words of the prayer; we need the story to locate the pillars",
+          "We see the request already granted; we need to be told where his hands are"
+        ],
+        "answer": 0,
+        "explanation": "His head and hands suggest prayer. They cannot tell us what he says in it."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How does remembering Samson’s imprisonment change our reading of this close-up?",
+        "options": [
+          "The touch is merely checking whether the stones match in color",
+          "Touch now gives him a way to orient himself after losing his sight",
+          "His hands prove that he has already stopped needing any guidance"
+        ],
+        "answer": 1,
+        "explanation": "After his loss of sight, feeling the pillars explains how he can locate himself in the hall."
+      },
+      {
+        "prompt": "How do these poses connect reliance on another person with a decision Samson takes himself?",
+        "options": [
+          "The boy guides his movement, while Samson chooses to reach for the pillar",
+          "The boy alone chooses both the goal and the deed to follow",
+          "Samson walks unaided while the boy only points from a distance"
+        ],
+        "answer": 0,
+        "explanation": "The supporting hand and the hand reaching toward stone embody different roles."
+      },
+      {
+        "prompt": "Why does standing between two intact pillars matter for reading the moment of prayer?",
+        "options": [
+          "It proves the prayer was spoken only after the building fell",
+          "It takes us back to before he asked the boy for guidance",
+          "Preparation for action is complete but the outcome still lies ahead"
+        ],
+        "answer": 2,
+        "explanation": "He is in position and the building stands. The prayer falls between preparation and outcome."
+      },
+      {
+        "prompt": "How does the picture distinguish the prayer from its eventual outcome?",
+        "options": [
+          "Only ruins remain during the prayer",
+          "The pillars still stand during the prayer",
+          "Samson is already leaving the hall"
+        ],
+        "answer": 1,
+        "explanation": "The intact structure fixes the image at a moment before the outcome known to the reader."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How does the close-up narrow the gap between a sighted viewer and Samson’s knowledge of the space after captivity?",
+        "options": [
+          "It shows only the crowd’s reaction and leaves the touch to inference",
+          "It proves Samson again sees his way with both eyes",
+          "It centers contact with stone even though the viewer can see the gap"
+        ],
+        "answer": 2,
+        "explanation": "The viewer sees the gap. What viewer and character share is the contact of each hand with stone."
+      },
+      {
+        "prompt": "Which reading of the postures preserves the distinction between guidance and initiative in Judges 16?",
+        "options": [
+          "The direction of the hands proves the attendant proposed going to the pillars",
+          "The attendant supports him, Samson reaches the stone, and the earlier request was Samson’s",
+          "Direct touch of stone eliminates the attendant’s role in getting there"
+        ],
+        "answer": 1,
+        "explanation": "The artist combines two actions in one moment. The narrative identifies who made the request behind them."
+      },
+      {
+        "prompt": "Why does the symmetry of the arms illustrate the text without settling Samson’s motives?",
+        "options": [
+          "It accounts for the hands on separate pillars, while the request and motive are voiced in prayer",
+          "The symmetry proves that he intended only to lean on the pillars",
+          "It lets the viewer recover his exact words from the picture alone"
+        ],
+        "answer": 0,
+        "explanation": "Right and left are visible bodily facts. The words of the character supply the prayer’s content."
+      },
+      {
+        "prompt": "How can the bowed head and intact pillars be read beside earlier feats without anticipating the ending?",
+        "options": [
+          "They prove the building has already fallen just as Gaza’s gate was uprooted",
+          "A bowed head proves the request has already been granted before any deed",
+          "They show a request and readiness for action rather than an accomplished feat like uprooting the gate"
+        ],
+        "answer": 2,
+        "explanation": "The gate on his shoulders showed a result. Here the building stands and no deed yet makes the answer visible."
+      }
+    ]
+  }
+}

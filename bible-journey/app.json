@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Phraser",
+    "slug": "bible-journey",
+    "scheme": "biblejourney",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phraser.biblejourney"
+    },
+    "android": {
+      "package": "com.phraser.biblejourney"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Phraser"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-status-bar",
+      "expo-image",
+      "expo-asset",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Phraser to hear your spoken answer when you tap the microphone.",
+          "speechRecognitionPermission": "Allow Phraser to turn your spoken answer into text."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "backgroundColor": "#EFE6D4"
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "life-noah-1": {
+    "a": [
+      {
+        "prompt": "What is the frame of Noah’s ark made of?",
+        "options": [
+          "Stone",
+          "Wood",
+          "Clay"
+        ],
+        "answer": 1,
+        "explanation": "The long brown beams fit together like ribs."
+      },
+      {
+        "prompt": "What is Noah holding up against the wood?",
+        "options": [
+          "A mallet",
+          "A basket",
+          "A jug"
+        ],
+        "answer": 0,
+        "explanation": "Noah raises a mallet to work on the side of the ark."
+      },
+      {
+        "prompt": "What have the people put beside the finished ark?",
+        "options": [
+          "Beds and pillows",
+          "Tables and chairs",
+          "Baskets and jars"
+        ],
+        "answer": 2,
+        "explanation": "The baskets and jars are gathered together outside."
+      },
+      {
+        "prompt": "How will the people reach the doorway above the ground?",
+        "options": [
+          "Across a rope bridge",
+          "Up the wooden ramp",
+          "Down some steps"
+        ],
+        "answer": 1,
+        "explanation": "A sloping ramp leads from the ground to the opening."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Which part of the ark can you see between the upright beams?",
+        "options": [
+          "A pile of food",
+          "A row of animals",
+          "The empty interior"
+        ],
+        "answer": 2,
+        "explanation": "The sides are still open, so you can see through the frame."
+      },
+      {
+        "prompt": "Which job are the builders doing in the foreground?",
+        "options": [
+          "Carrying jars inside",
+          "Working on a long timber",
+          "Weaving a basket"
+        ],
+        "answer": 1,
+        "explanation": "The builders bend over a long piece of wood with their tools."
+      },
+      {
+        "prompt": "How can you tell the ark is nearly ready to load?",
+        "options": [
+          "Its sides are covered and the ramp is in place",
+          "Only the frame is standing",
+          "The boards still lie in a pile"
+        ],
+        "answer": 0,
+        "explanation": "The closed-in hull and the ramp give the people a place to put their supplies."
+      },
+      {
+        "prompt": "Which detail suggests the builders have started preparing for the journey?",
+        "options": [
+          "The slope of the roof",
+          "The shape of the doorway",
+          "Supplies gathered at the foot of the ark"
+        ],
+        "answer": 2,
+        "explanation": "Food containers gathered beside the finished hull point to preparations for a stay aboard."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail places this view before the ark is ready for shelter?",
+        "options": [
+          "Gaps between its wooden ribs",
+          "Its position on land",
+          "The beams’ brown color"
+        ],
+        "answer": 0,
+        "explanation": "The open ribs show an unfinished enclosure. An ark can be complete while still on land."
+      },
+      {
+        "prompt": "Which detail best illustrates Noah acting on the instructions he received?",
+        "options": [
+          "The hills beyond the site",
+          "The light on the wood",
+          "The tool at work on a beam"
+        ],
+        "answer": 2,
+        "explanation": "The action of shaping the beam illustrates the account of Noah carrying out the instructions."
+      },
+      {
+        "prompt": "Which instruction in Genesis 6 do the baskets beside the ark bring to mind?",
+        "options": [
+          "Make compartments",
+          "Gather food",
+          "Coat the wood with pitch"
+        ],
+        "answer": 1,
+        "explanation": "The containers beside Noah suggest preparations for feeding those aboard."
+      },
+      {
+        "prompt": "What shows that building and provisioning belong to successive parts of one task?",
+        "options": [
+          "The hull is complete and supplies await loading",
+          "The doorway and the sky are both light",
+          "The people and the ark cast shadows"
+        ],
+        "answer": 0,
+        "explanation": "The finished hull and the waiting provisions connect two instructions given to Noah."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which feature exposes the construction method imagined by the artist?",
+        "options": [
+          "A layer of pitch on finished walls",
+          "Upright ribs before the outer planking",
+          "Interior partitions after loading"
+        ],
+        "answer": 1,
+        "explanation": "The exposed framework lets us see a construction stage that Genesis does not describe step by step."
+      },
+      {
+        "prompt": "What does the scene add to the concise account of Noah doing as commanded?",
+        "options": [
+          "Other hands working alongside Noah",
+          "Another command about the dimensions",
+          "A date for finishing the ark"
+        ],
+        "answer": 0,
+        "explanation": "Several people handle the timber. The verse summarizes Noah’s obedience without describing a work crew."
+      },
+      {
+        "prompt": "Which pictured feature most directly corresponds to an explicit construction instruction?",
+        "options": [
+          "The ramp’s angle",
+          "The shape of the jars",
+          "The opening in the side"
+        ],
+        "answer": 2,
+        "explanation": "Genesis 6:16 specifies an entrance in the side of the ark."
+      },
+      {
+        "prompt": "Which two visible elements connect building the ark with preserving life?",
+        "options": [
+          "The roofline and distant ridge",
+          "The side entrance and supplies beside it",
+          "The shadows and clouds"
+        ],
+        "answer": 1,
+        "explanation": "The ark can now receive its occupants, and the provisions can sustain them once inside."
+      }
+    ]
+  },
+  "life-noah-6": {
+    "a": [
+      {
+        "prompt": "Where is the man pouring the food?",
+        "options": [
+          "Into a jar",
+          "Onto the ramp",
+          "Into a pond"
+        ],
+        "answer": 0,
+        "explanation": "The small grains fall into the open jar."
+      },
+      {
+        "prompt": "What are the people carrying toward the ark?",
+        "options": [
+          "Wooden benches",
+          "Coils of rope",
+          "Full baskets"
+        ],
+        "answer": 2,
+        "explanation": "Both people hold baskets as they approach the entrance."
+      },
+      {
+        "prompt": "Where is the food being put inside the ark?",
+        "options": [
+          "On the roof",
+          "On the shelves",
+          "Under the ramp"
+        ],
+        "answer": 1,
+        "explanation": "The people are filling the shelves with food."
+      },
+      {
+        "prompt": "What can the family do after taking a basket inside?",
+        "options": [
+          "Put it with the other food",
+          "Sow its seeds in a field",
+          "Float it down a stream"
+        ],
+        "answer": 0,
+        "explanation": "The full shelves show where the stores are being kept."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What is happening to the grain in the man’s hands?",
+        "options": [
+          "It is being ground on a stone",
+          "It is being poured into a jar",
+          "It is being sown in rows"
+        ],
+        "answer": 1,
+        "explanation": "A stream of grain connects the container he is tipping to the jar below."
+      },
+      {
+        "prompt": "Which part of the picture shows where the people are taking their baskets?",
+        "options": [
+          "The ramp leading to an open door",
+          "The mountains behind them",
+          "The jars on the ground"
+        ],
+        "answer": 0,
+        "explanation": "The basket carriers approach the ramp at the ark’s door."
+      },
+      {
+        "prompt": "How does the family keep the different foods within reach?",
+        "options": [
+          "By burying them outside",
+          "By hanging them from the roof",
+          "By arranging them on shelves and in containers"
+        ],
+        "answer": 2,
+        "explanation": "The storage area has rows of supplies and space to move between them."
+      },
+      {
+        "prompt": "Which earlier job had to happen before this shelf could be filled?",
+        "options": [
+          "Letting the animals out",
+          "Carrying provisions aboard",
+          "Looking for land"
+        ],
+        "answer": 1,
+        "explanation": "A person reaches up to store a basket that has already been brought inside."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which action best illustrates the instruction to gather food for the ark?",
+        "options": [
+          "Shaping the wooden planks",
+          "Clearing a path to the doorway",
+          "Filling a storage jar"
+        ],
+        "answer": 2,
+        "explanation": "The falling grain turns the general instruction into a visible task."
+      },
+      {
+        "prompt": "Which detail shows the change from gathering supplies to loading them?",
+        "options": [
+          "The grain is ripe",
+          "The carriers are walking up to the ark’s entrance",
+          "The ark is made of wood"
+        ],
+        "answer": 1,
+        "explanation": "The entrance and the carriers’ direction show where the gathered food is going."
+      },
+      {
+        "prompt": "Which feature suggests planning for many meals aboard?",
+        "options": [
+          "Many containers arranged in rows",
+          "Daylight through the open door",
+          "The height of the ceiling"
+        ],
+        "answer": 0,
+        "explanation": "Rows of stored supplies suggest food being kept for later use."
+      },
+      {
+        "prompt": "Which detail supplies information the instruction to gather food leaves open?",
+        "options": [
+          "Whether food is needed",
+          "Whether Noah must collect it",
+          "How the containers are arranged"
+        ],
+        "answer": 2,
+        "explanation": "Genesis 6:21 assigns the task. The artist imagines the shelving and the arrangement of containers."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "What step between the command to gather food and a stocked ark has the artist chosen to show here?",
+        "options": [
+          "Turning loose grain into a supply that can be stored",
+          "Distributing stored grain to animals already inside",
+          "Emptying the last container after the family leaves"
+        ],
+        "answer": 0,
+        "explanation": "The transfer into a vessel gives the command a practical intermediate step."
+      },
+      {
+        "prompt": "How does the arrangement of the scene give direction to the command to gather food?",
+        "options": [
+          "The mountains point east",
+          "The shadows point away from the doorway",
+          "Basket carriers move toward the ark"
+        ],
+        "answer": 2,
+        "explanation": "The carriers’ destination shows how the gathered provisions will reach those they must sustain."
+      },
+      {
+        "prompt": "Which practical choice belongs to the artist’s reconstruction of the food stores?",
+        "options": [
+          "Preserving food for the occupants",
+          "Shelving the baskets inside the ark",
+          "Gathering food before the flood"
+        ],
+        "answer": 1,
+        "explanation": "Genesis gives the purpose of the provisions. The shelves illustrate one possible storage method."
+      },
+      {
+        "prompt": "Which conclusion can the full shelves support without assigning an exact menu to the ark?",
+        "options": [
+          "Provisions have been assembled for later use",
+          "Every species received this same food",
+          "The stores are measured into daily rations"
+        ],
+        "answer": 0,
+        "explanation": "The quantity and arrangement suggest preparation. The image supplies no ration or species labels."
+      }
+    ]
+  },
+  "life-noah-2": {
+    "a": [
+      {
+        "prompt": "Which animals have already climbed higher than the sheep?",
+        "options": [
+          "The sheep at the foot of the ramp",
+          "The animals still far across the field",
+          "The elephants"
+        ],
+        "answer": 2,
+        "explanation": "The elephants are farther up the slope. The sheep are still at the lower end."
+      },
+      {
+        "prompt": "What is Noah doing with his hand?",
+        "options": [
+          "Holding a jug",
+          "Pointing toward the entrance",
+          "Carrying a lamb"
+        ],
+        "answer": 1,
+        "explanation": "Noah stretches his arm toward the ark’s doorway."
+      },
+      {
+        "prompt": "Where are the sheep going?",
+        "options": [
+          "Up into the ark",
+          "Down to a river",
+          "Into a tent"
+        ],
+        "answer": 0,
+        "explanation": "The sheep are climbing the ramp to the doorway."
+      },
+      {
+        "prompt": "How can the little animals reach the same door as the elephants?",
+        "options": [
+          "Climb a ladder",
+          "Swim under the ark",
+          "Walk up the ramp"
+        ],
+        "answer": 2,
+        "explanation": "The ramp is wide enough for the smaller animals to follow the bigger ones."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Which animals on the ramp are ahead of the sheep?",
+        "options": [
+          "Elephants",
+          "Chickens",
+          "Geese"
+        ],
+        "answer": 0,
+        "explanation": "The elephants are higher on the slope, nearer the door."
+      },
+      {
+        "prompt": "What links Noah’s gesture to the movement of the animals?",
+        "options": [
+          "His hand blocks the ramp",
+          "He carries one of them",
+          "His arm points where they are walking"
+        ],
+        "answer": 2,
+        "explanation": "The animals are heading toward the doorway he indicates."
+      },
+      {
+        "prompt": "Which detail shows that more than one kind of animal is boarding?",
+        "options": [
+          "The ramp has several boards",
+          "Striped zebras and woolly sheep share the way",
+          "The sky has several clouds"
+        ],
+        "answer": 1,
+        "explanation": "The different coats identify different kinds of animals on the same route."
+      },
+      {
+        "prompt": "Which detail places the scene before the entrance is shut?",
+        "options": [
+          "Sheep are still walking up to the open door",
+          "The ark has wooden walls",
+          "The family wears sandals"
+        ],
+        "answer": 0,
+        "explanation": "The animals still need access to the doorway."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail makes the biblical idea of animals coming in pairs visible?",
+        "options": [
+          "One ramp to the ark",
+          "Two sheep walking side by side",
+          "One kind of wood"
+        ],
+        "answer": 1,
+        "explanation": "The two sheep make a pair that can be recognized without counting the whole group."
+      },
+      {
+        "prompt": "Which visual detail best supports reading Noah as a guide here?",
+        "options": [
+          "His outstretched arm at the entrance",
+          "The length of his beard",
+          "The color of his robe"
+        ],
+        "answer": 0,
+        "explanation": "His position and gesture direct attention to the animals’ destination."
+      },
+      {
+        "prompt": "Which part of the account is pictured most clearly by the shared route?",
+        "options": [
+          "The length of the coming rainfall",
+          "The food allotted to each animal",
+          "People and animals entering the same refuge"
+        ],
+        "answer": 2,
+        "explanation": "Families and different animals converge on the ark’s entrance."
+      },
+      {
+        "prompt": "What can the procession show about the entry without a full count of each species?",
+        "options": [
+          "Exactly how many clean animals entered",
+          "Different kinds of animals travel the same way",
+          "Which animal was last to enter"
+        ],
+        "answer": 1,
+        "explanation": "The illustration shows a variety of species, while only part of the procession is in view."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which feature brings the paired arrival into focus without claiming a full inventory?",
+        "options": [
+          "The size of the opening",
+          "The shadows behind the elephants",
+          "Two sheep seen together at the foot of the ramp"
+        ],
+        "answer": 2,
+        "explanation": "A visible pair illustrates the motif, even though the whole population cannot be counted."
+      },
+      {
+        "prompt": "Which element interprets the boarding as guided by human action?",
+        "options": [
+          "The sheep have pale coats",
+          "Noah indicates the opening from beside it",
+          "The doorway is rectangular"
+        ],
+        "answer": 1,
+        "explanation": "The direction of Noah’s arm gives him a guiding role in the artist’s reconstruction."
+      },
+      {
+        "prompt": "Which compositional choice connects the household’s entry with that of the creatures?",
+        "options": [
+          "People and animals converge on one entrance",
+          "All the species stand at the same height",
+          "The doorway hides the people"
+        ],
+        "answer": 0,
+        "explanation": "The different figures share a destination, giving visual unity to the account of entry."
+      },
+      {
+        "prompt": "Which later action in Genesis 7 has yet to happen in this view?",
+        "options": [
+          "Noah is told to prepare an ark",
+          "The wood is shaped into the hull",
+          "The Lord closes the ark behind Noah"
+        ],
+        "answer": 2,
+        "explanation": "The open doorway and animals on the ramp place the scene before the closing in Genesis 7:16."
+      }
+    ]
+  },
+  "life-noah-3": {
+    "a": [
+      {
+        "prompt": "What keeps the ark rocking up and down here?",
+        "options": [
+          "The rising and falling waves",
+          "Still water beside a bank",
+          "A trickle running down a board"
+        ],
+        "answer": 0,
+        "explanation": "Look at the high and low parts of the waves around the hull."
+      },
+      {
+        "prompt": "The sheep cannot graze outside. What does Noah do instead?",
+        "options": [
+          "Opens a path to a meadow",
+          "Sends them to look for grass",
+          "Brings hay to the pen"
+        ],
+        "answer": 2,
+        "explanation": "The sheep are behind the rail and Noah has brought their food to them."
+      },
+      {
+        "prompt": "Why can’t someone simply step from the ark onto a path here?",
+        "options": [
+          "The ark rests high up on a rock",
+          "Water reaches all around the ark",
+          "The ramp ends on a muddy bank"
+        ],
+        "answer": 1,
+        "explanation": "The waves reach the sides and there is no bank beside them."
+      },
+      {
+        "prompt": "Where could the family stay dry with waves on every side?",
+        "options": [
+          "Under the ark’s roof",
+          "On a rock beside it",
+          "In a tent on the shore"
+        ],
+        "answer": 0,
+        "explanation": "The roof covers the ark, and no shore is in sight."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What tells you the ark is afloat?",
+        "options": [
+          "The wood is dark",
+          "Waves reach up its sides",
+          "The roof has a slope"
+        ],
+        "answer": 1,
+        "explanation": "The hull sits in the moving water."
+      },
+      {
+        "prompt": "The sheep are behind a rail and people work beside them. What problem are the people solving?",
+        "options": [
+          "The animals cannot reach pasture while the ark floats",
+          "The animals need a route up the ramp",
+          "The sheep need to find their way down onto land"
+        ],
+        "answer": 0,
+        "explanation": "Food must reach the animals inside because the pasture is beyond their reach."
+      },
+      {
+        "prompt": "Why can’t the people walk straight out onto land in this view?",
+        "options": [
+          "Their path is blocked by trees",
+          "They are beside a cliff",
+          "Water surrounds the hull"
+        ],
+        "answer": 2,
+        "explanation": "Waves fill the space around the ark."
+      },
+      {
+        "prompt": "How has the ark’s role changed since it stood on land?",
+        "options": [
+          "It now marks the path to the fields",
+          "It now carries its occupants on water",
+          "It now stores stones on a hillside"
+        ],
+        "answer": 1,
+        "explanation": "The hull afloat in the waves shows the shelter carrying its passengers."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail illustrates the waters lifting the ark in Genesis 7?",
+        "options": [
+          "Clouds cast shadows on the wood",
+          "The long roof follows the horizon",
+          "Waves support the hull above the submerged ground"
+        ],
+        "answer": 2,
+        "explanation": "The vessel is borne by water where the building ground was once visible."
+      },
+      {
+        "prompt": "How does the work behind these wooden rails answer a problem raised outside by the flood?",
+        "options": [
+          "Food carried from shore replaces the stores aboard",
+          "Stored food lets the people feed animals cut off from pasture",
+          "Open rails let the sheep walk down to the water"
+        ],
+        "answer": 1,
+        "explanation": "The indoor care connects the earlier order to gather food with the loss of access to land."
+      },
+      {
+        "prompt": "Which detail supports the description of water prevailing over the earth?",
+        "options": [
+          "Unbroken water stretches to the horizon",
+          "A figure stands at an opening",
+          "Light catches the roof"
+        ],
+        "answer": 0,
+        "explanation": "The scene gives the eye no exposed ground beyond the floating ark."
+      },
+      {
+        "prompt": "“The waters lifted the ark” and “the waters prevailed” describe different things. Which is easiest to infer from this view?",
+        "options": [
+          "The ark has been afloat for exactly forty days",
+          "The water has passed its highest point and is receding",
+          "The hull is afloat; its time afloat cannot be measured here"
+        ],
+        "answer": 2,
+        "explanation": "The hull is held above the waves, but a single view supplies no duration or change of level."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "The hull stands above the waves. Which contrast in Genesis 7:17–19 does this relation help us follow?",
+        "options": [
+          "The water carries the ark but covers the heights",
+          "The heights carry the ark while the water covers its roof",
+          "The ark anchors to the heights as soon as the rain begins"
+        ],
+        "answer": 0,
+        "explanation": "The account first describes the water bearing the ark, then shifts to the mountains it covers."
+      },
+      {
+        "prompt": "What does this interior scene add to the flood narrative?",
+        "options": [
+          "The sequence of rainfall measurements",
+          "A map of the ark’s route",
+          "A picture of the work of keeping animals alive"
+        ],
+        "answer": 2,
+        "explanation": "People, feed and animals together suggest the daily labour within the biblical refuge."
+      },
+      {
+        "prompt": "Which choice gives the ark a sense of isolation?",
+        "options": [
+          "The vessel has a rectangular roof",
+          "Water fills the entire distance beyond it",
+          "The timber is dark brown"
+        ],
+        "answer": 1,
+        "explanation": "The uninterrupted expanse leaves the ark as the only visible shelter."
+      },
+      {
+        "prompt": "Which claim requires information beyond this image of the floating ark?",
+        "options": [
+          "How long the waters prevailed",
+          "Whether water surrounds the hull",
+          "Whether the ark has risen off the ground"
+        ],
+        "answer": 0,
+        "explanation": "Genesis supplies durations. This single view shows a condition, without measuring its length."
+      }
+    ]
+  },
+  "life-noah-7": {
+    "a": [
+      {
+        "prompt": "The clouds are opening. Where can you see the sunlight has reached?",
+        "options": [
+          "A dark band covers the water",
+          "A bright path shines on the water",
+          "The shore casts a long shadow"
+        ],
+        "answer": 1,
+        "explanation": "The bright patch in the sky and the reflection below it line up."
+      },
+      {
+        "prompt": "Noah looks out. What is he still waiting to see close to the ark?",
+        "options": [
+          "Dry ground to step on",
+          "A patch of open sky",
+          "Light shining on the water"
+        ],
+        "answer": 0,
+        "explanation": "He can see light and water from the opening, but no ground beside the ark."
+      },
+      {
+        "prompt": "How do the sky and the water tell different parts of the story?",
+        "options": [
+          "It is brighter and the ark is on sand",
+          "It is dark and the ark is up on a rock",
+          "It is brighter, but the ark is still in water"
+        ],
+        "answer": 2,
+        "explanation": "A gap in the clouds lets light onto the water still surrounding the ark."
+      },
+      {
+        "prompt": "Why does Noah still need the ark even with sunlight outside?",
+        "options": [
+          "A wall blocks the shore",
+          "There is water all around",
+          "The land is covered in snow"
+        ],
+        "answer": 1,
+        "explanation": "The brighter sky is reflected in water on every side."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "A shaft of light breaks through, but water still reaches the horizon. What has changed first?",
+        "options": [
+          "The valleys have dried out",
+          "The ark has reached a rocky peak",
+          "The sky has cleared in places"
+        ],
+        "answer": 2,
+        "explanation": "A brighter sky is visible before any dry land appears in this scene."
+      },
+      {
+        "prompt": "Noah stays at the window. Which question can he answer just by looking out?",
+        "options": [
+          "Exactly how far did the water fall today?",
+          "Does water still surround the ark?",
+          "On what day will the ground be dry?"
+        ],
+        "answer": 1,
+        "explanation": "One view shows the water outside. Measuring a change requires comparing views over time."
+      },
+      {
+        "prompt": "Which clue explains why the family keeps waiting?",
+        "options": [
+          "The ark still floats far from visible dry land",
+          "The sky is getting brighter",
+          "A window is high in the wall"
+        ],
+        "answer": 0,
+        "explanation": "Water reaches the hull and there is no landing place in view."
+      },
+      {
+        "prompt": "What does the sunlight on the water tell us about the order of events?",
+        "options": [
+          "The family has already left the ark",
+          "The ark has already reached a field",
+          "The sky can clear before the land dries"
+        ],
+        "answer": 2,
+        "explanation": "The bright sky and surrounding water appear together."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which pair of details suits the early easing of the flood?",
+        "options": [
+          "Brighter sky and water still covering the scene",
+          "Dry fields and an empty ark",
+          "A ramp and animals on shore"
+        ],
+        "answer": 0,
+        "explanation": "Genesis 8 describes the retreat of the water as a process."
+      },
+      {
+        "prompt": "From the opening Noah sees sunlight and water. Which difference between his view and the narrator’s matters here?",
+        "options": [
+          "He sees the whole earth; the narrator sees only the ark",
+          "He sees dry ground nearby; the narrator places it under water",
+          "He sees clearing skies; the narrator names God’s remembrance"
+        ],
+        "answer": 2,
+        "explanation": "The opening frames a small view outside. Genesis 8:1 explains the turn from a wider perspective."
+      },
+      {
+        "prompt": "Which detail helps distinguish the receding waters from the later departure?",
+        "options": [
+          "Sunlight touches the wall",
+          "Water still laps against the ark",
+          "The roof is visible"
+        ],
+        "answer": 1,
+        "explanation": "At departure the family steps onto ground. Here water still meets the hull."
+      },
+      {
+        "prompt": "Which part of the biblical change is hardest to establish from this single view?",
+        "options": [
+          "How far the water level has fallen",
+          "Whether the ark is afloat",
+          "Whether sunlight reaches the water"
+        ],
+        "answer": 0,
+        "explanation": "A measurement of change needs another level for comparison. The picture offers only the current view."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How does the artist suggest relief before showing dry ground?",
+        "options": [
+          "An olive tree grows by the ark",
+          "Light breaks through clouds over the water",
+          "A ramp touches the shore"
+        ],
+        "answer": 1,
+        "explanation": "The light changes the atmosphere while the scene remains covered by water."
+      },
+      {
+        "prompt": "The opening limits Noah’s view to the surface outside. Which explanation is available only because the reader also hears the narrator?",
+        "options": [
+          "God’s remembrance and the passing wind introduce the reversal",
+          "The sunlight strikes a visible strip of water",
+          "The ark’s wooden frame separates observer and sea"
+        ],
+        "answer": 0,
+        "explanation": "The framing can show a change of light. The narration places that observation within divine remembrance and action."
+      },
+      {
+        "prompt": "Which feature fits a gradual withdrawal in Genesis 8:3?",
+        "options": [
+          "Dry paths reach the doorway",
+          "The hull has settled in a meadow",
+          "Water still covers the space around the ark"
+        ],
+        "answer": 2,
+        "explanation": "The continued presence of water is consistent with a retreat that takes time."
+      },
+      {
+        "prompt": "Which statement about the shift in Genesis 8 relies on the narrator’s knowledge?",
+        "options": [
+          "Light shines on the water",
+          "God remembered Noah and the creatures",
+          "The wooden ark is still afloat"
+        ],
+        "answer": 1,
+        "explanation": "The illustration can show a brighter scene. Divine remembrance is the narrator’s account of the turning point."
+      }
+    ]
+  },
+  "life-noah-8": {
+    "a": [
+      {
+        "prompt": "The ark has stopped moving. What took the place of the waves underneath it?",
+        "options": [
+          "A field of soft mud",
+          "A pile of cut wood",
+          "A ridge of rock"
+        ],
+        "answer": 2,
+        "explanation": "Its bottom meets the rocky slope above the water."
+      },
+      {
+        "prompt": "If Noah looks down from the opening, where is there still water?",
+        "options": [
+          "Over the top where the ark rests",
+          "In the low places between the rocks",
+          "Only inside the wooden ark"
+        ],
+        "answer": 1,
+        "explanation": "The higher rocks stick up, while the low places still hold water."
+      },
+      {
+        "prompt": "How can the ark stand still while water is still nearby?",
+        "options": [
+          "It touches high rock above the water",
+          "It floats on a wave beside the rock",
+          "It is resting on the water below"
+        ],
+        "answer": 0,
+        "explanation": "The bottom touches the mountain, while the water lies lower down."
+      },
+      {
+        "prompt": "What changed since the ark floated on waves?",
+        "options": [
+          "It has lost its roof",
+          "It has become smaller",
+          "It has come to rest on land"
+        ],
+        "answer": 2,
+        "explanation": "The ark now sits still on rock."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "How can a rocky ridge hold the ark while a valley beside it is flooded?",
+        "options": [
+          "The ridge is higher and emerges first",
+          "The valley is higher and dries first",
+          "The ark floats at the bottom of the valley"
+        ],
+        "answer": 0,
+        "explanation": "The high rock projects above the water which still fills the lower spaces."
+      },
+      {
+        "prompt": "What is different about the water and the ark now?",
+        "options": [
+          "The ark is hidden under the water",
+          "Water reaches its roof",
+          "The ark sits on rock above the water"
+        ],
+        "answer": 2,
+        "explanation": "The hull is on the rocky slope while the water lies farther down."
+      },
+      {
+        "prompt": "Which detail puts this scene after the ark floated but before the family walks out?",
+        "options": [
+          "The ark is a wooden structure",
+          "The ark is on rock and nobody is walking away",
+          "The sky has clouds"
+        ],
+        "answer": 1,
+        "explanation": "The scene focuses on the landing, before a procession out of the ark."
+      },
+      {
+        "prompt": "Why can the ark be on land while water is still visible?",
+        "options": [
+          "The ridge is higher than the valleys",
+          "The ark is balanced in a tree",
+          "The water lies above the ridge"
+        ],
+        "answer": 0,
+        "explanation": "The mountain rises out of the flooded lower ground."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Why does contact between the hull and the ridge tell us more than the distant peaks alone?",
+        "options": [
+          "It establishes that the family has permission to leave",
+          "It distinguishes the ark resting from the ark sailing past land",
+          "It dates the scene to the day all the ground dried"
+        ],
+        "answer": 1,
+        "explanation": "A peak might be visible from a floating ark. The hull itself rests against the rock in this picture."
+      },
+      {
+        "prompt": "What can the figure at the opening see about the receding waters?",
+        "options": [
+          "High ground is exposed while lower places hold water",
+          "Every valley is dry",
+          "The ark is still surrounded by waves at its base"
+        ],
+        "answer": 0,
+        "explanation": "The rocky slope stands above water visible in the distance."
+      },
+      {
+        "prompt": "A caption calls this “the day everyone left the ark.” Which detail asks for a more cautious caption?",
+        "options": [
+          "The distant heights prove that nobody could be inside",
+          "The visible water shows that the ark is still sailing",
+          "The hull rests on rock, but the scene shows no departure"
+        ],
+        "answer": 2,
+        "explanation": "The illustration establishes a resting place. Genesis distinguishes that point from the later departure."
+      },
+      {
+        "prompt": "Which conclusion would reach beyond what this landscape shows?",
+        "options": [
+          "Rock supports the ark",
+          "The whole earth is already dry",
+          "High places stand above the water"
+        ],
+        "answer": 1,
+        "explanation": "Exposed heights near the ark do not reveal conditions everywhere."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which terrain gives visible form to the plural “mountains of Ararat”?",
+        "options": [
+          "A lone tree on level ground",
+          "A doorway at the waterline",
+          "A ridge among other heights"
+        ],
+        "answer": 2,
+        "explanation": "The ark rests within a landscape of several ridges and peaks."
+      },
+      {
+        "prompt": "Which relationship explains why resting could precede the drying of the earth?",
+        "options": [
+          "The window stands above the deck",
+          "The rock beneath the ark stands above the water below",
+          "The roof is higher than the door"
+        ],
+        "answer": 1,
+        "explanation": "Different elevations allow a vessel to ground before the lowlands dry."
+      },
+      {
+        "prompt": "Rock is visible underneath the hull and water below the ridge. Which distinction in the dated notices does that arrangement illuminate?",
+        "options": [
+          "A resting place for the ark does not entail widespread exposure of mountains",
+          "The appearance of distant peaks must precede any contact with rock",
+          "The drying of the earth coincides with the ark’s first contact with land"
+        ],
+        "answer": 0,
+        "explanation": "The seventh-month rest and tenth-month visibility of peaks have separate notices in Genesis 8."
+      },
+      {
+        "prompt": "How does the scene distinguish the ark’s rest from the family’s release?",
+        "options": [
+          "A flock is already climbing down",
+          "A new settlement stands below",
+          "The ark is stationary but no one is shown leaving"
+        ],
+        "answer": 2,
+        "explanation": "The grounded vessel illustrates a physical milestone. The command to leave comes later."
+      }
+    ]
+  },
+  "life-noah-4": {
+    "a": [
+      {
+        "prompt": "Why can the dove reach the patches of land even with water in between?",
+        "options": [
+          "She can walk on a dry path all the way",
+          "She can fly across the gaps",
+          "She can ride on the ark to each patch"
+        ],
+        "answer": 1,
+        "explanation": "Her wings carry her over the water separating one patch from the next."
+      },
+      {
+        "prompt": "Is the dove coming or going? Which way is her head turned?",
+        "options": [
+          "Back toward the opening in the wood",
+          "Away from the opening and out to sea",
+          "Down to land on the nearest rock"
+        ],
+        "answer": 0,
+        "explanation": "Her beak points toward the ark’s opening as she flies up to it."
+      },
+      {
+        "prompt": "Noah holds out his hand. What will he be able to learn when the dove comes close?",
+        "options": [
+          "How many trees grow far away",
+          "Whether all the paths are dry",
+          "What she has brought in her beak"
+        ],
+        "answer": 2,
+        "explanation": "The leaf is close enough to see. The distant paths and trees are not."
+      },
+      {
+        "prompt": "The dove has found a leaf. Why can’t the sheep follow her yet?",
+        "options": [
+          "She walked along a dry path beside the ark",
+          "She flew over water the sheep would need to cross",
+          "She found the leaf inside the sheep’s pen"
+        ],
+        "answer": 1,
+        "explanation": "The leaf tells Noah a branch is within reach of a bird. Water still separates the ark from the land."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Why send a bird when there are patches of land but no continuous path visible?",
+        "options": [
+          "A bird can tell the depth of every patch of water",
+          "A bird needs a dry path all the way from the ark",
+          "A bird can reach places a person cannot yet walk to"
+        ],
+        "answer": 2,
+        "explanation": "Water cuts up the exposed land. Wings let the dove explore beyond those gaps."
+      },
+      {
+        "prompt": "Could this be the moment the dove sets out from the ark? What in the picture decides it?",
+        "options": [
+          "Her wings are spread, so she must be setting out",
+          "Her head faces the opening, so she is returning",
+          "Water lies below, so she cannot be returning"
+        ],
+        "answer": 1,
+        "explanation": "Spread wings fit flight in either direction. The beak points back toward the opening."
+      },
+      {
+        "prompt": "Noah reaches out and the dove carries something. Which part of the story needs both details?",
+        "options": [
+          "Noah is about to see what the dove found outside",
+          "Noah is setting the empty-beaked dove free",
+          "Noah is watching the dove disappear for good"
+        ],
+        "answer": 0,
+        "explanation": "His hand welcomes the bird and the leaf will give him news of the land."
+      },
+      {
+        "prompt": "Why is the object in the dove’s beak helpful to Noah?",
+        "options": [
+          "It tells him how deep the water is",
+          "It tells him which way the wind blows",
+          "It shows that a tree has leaves within reach"
+        ],
+        "answer": 2,
+        "explanation": "The story identifies it as an olive leaf, a sign that the waters have gone down."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which reading gives a reason for sending the dove that the broken shoreline below it actually supports?",
+        "options": [
+          "Noah needs news from land he cannot yet approach on foot",
+          "Noah needs to know whether his ark has stopped touching rock",
+          "Noah needs to count the days since the rain first stopped"
+        ],
+        "answer": 0,
+        "explanation": "A bird can cross the gaps of water and reach exposed ground. Shoreline shapes cannot give a date."
+      },
+      {
+        "prompt": "The bird points back toward the opening. What further clue would distinguish its first homecoming from its second?",
+        "options": [
+          "Whether its wings are spread",
+          "Whether the ark has an opening",
+          "Whether it is bringing an olive leaf"
+        ],
+        "answer": 2,
+        "explanation": "The dove flies back toward the same ark both times; the leaf distinguishes the second return."
+      },
+      {
+        "prompt": "How does the object near Noah’s outstretched hand change the meaning of a returning bird?",
+        "options": [
+          "A return now proves the whole family can disembark",
+          "A return can now bring evidence of change outside",
+          "A return confirms that the bird found no vegetation"
+        ],
+        "answer": 1,
+        "explanation": "The leaf changes what Noah learns, even though the dove returns as it did before."
+      },
+      {
+        "prompt": "Which inference best matches both the leaf and the water still visible?",
+        "options": [
+          "The waters have diminished, though water remains",
+          "The whole earth is dry enough to settle",
+          "The ark is about to float for the first time"
+        ],
+        "answer": 0,
+        "explanation": "The leaf signals a change outside, while the background still shows water."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Patches of exposed land alternate with water below a bird in flight. What does this viewpoint let the reader see that Noah cannot yet verify from his window?",
+        "options": [
+          "A complete survey of the dry earth and each resting place",
+          "A wider landscape to explore, though no proof that it is entirely dry",
+          "A view of the precise spot from which the olive leaf was taken"
+        ],
+        "answer": 1,
+        "explanation": "The elevated view ranges beyond the window, but neither the whole earth nor the source branch can be identified."
+      },
+      {
+        "prompt": "The dove heads toward an opening in the hull. Which reading connects its direction with the way knowledge reaches Noah?",
+        "options": [
+          "A returning bird brings evidence from outside to an observer still inside",
+          "An outward flight shows Noah the condition of every exposed place",
+          "A bird passing the ark already confirms to Noah that it will never return"
+        ],
+        "answer": 0,
+        "explanation": "The opening joins the area Noah occupies to the much wider region the bird can investigate."
+      },
+      {
+        "prompt": "The outstretched hand recalls the first return; the leaf belongs to another. How should a reader place this image?",
+        "options": [
+          "The gesture locates the first return; the leaf was present on both",
+          "The leaf locates the final flight; the hand welcomes that last return",
+          "The leaf locates the second return; the gesture echoes the first"
+        ],
+        "answer": 2,
+        "explanation": "Genesis 8:9 describes taking the bird by hand. Verse 11 singles out the leaf on the next return."
+      },
+      {
+        "prompt": "Which distinction does the leaf in this return help us make?",
+        "options": [
+          "The leaf is itself a command to leave",
+          "A sign that water has diminished precedes the instruction to leave",
+          "The dove’s first return ended with an olive leaf"
+        ],
+        "answer": 1,
+        "explanation": "Noah receives evidence from the bird. The divine instruction to leave follows later in Genesis 8."
+      }
+    ]
+  },
+  "life-noah-9": {
+    "a": [
+      {
+        "prompt": "What do the family need besides an open door to take the sheep out?",
+        "options": [
+          "Ground their feet can stand on",
+          "A branch for a bird to land on",
+          "Water deep enough to float in"
+        ],
+        "answer": 0,
+        "explanation": "Feet need firm ground. Beyond the doorway there is land they can walk on."
+      },
+      {
+        "prompt": "Earlier the animals walked toward the ark. How has their journey changed?",
+        "options": [
+          "They are walking back to the doorway to board",
+          "They are following the family farther inside",
+          "They walk from the doorway toward open ground"
+        ],
+        "answer": 2,
+        "explanation": "The doorway is behind animals and people moving down to the land."
+      },
+      {
+        "prompt": "Did the people just arrive to board, or have they already left? Which clue helps?",
+        "options": [
+          "They are boarding: they face the doorway",
+          "They have left: the ark is behind them",
+          "They are waiting inside beside the door"
+        ],
+        "answer": 1,
+        "explanation": "They stand in the open with the side of the ark behind them."
+      },
+      {
+        "prompt": "More animals are near the doorway. Why can they follow the people this time?",
+        "options": [
+          "There is ground all the way from the ark to the family",
+          "Only the top of a tree is above the water",
+          "There is water between the family and the ark"
+        ],
+        "answer": 0,
+        "explanation": "Animals and people now share one continuous stretch of land."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What do you see beyond this doorway that a mountaintop above water could not guarantee?",
+        "options": [
+          "That every animal has already left the ark",
+          "A stretch of dry land the group can walk onto",
+          "That the door has been open since the rain stopped"
+        ],
+        "answer": 1,
+        "explanation": "The land stretches directly out from the doorway. A lone peak gave no such route."
+      },
+      {
+        "prompt": "Which two details together make this departure different from the earlier boarding?",
+        "options": [
+          "The people face the land and the doorway is behind them",
+          "The sheep are together and the ark is wooden",
+          "There are people of different ages and animals"
+        ],
+        "answer": 0,
+        "explanation": "The same people and animals can appear in both scenes. Their direction from the door settles it."
+      },
+      {
+        "prompt": "Could this group already have been on land when the ark first touched a mountain? Compare the two scenes.",
+        "options": [
+          "Here the family is boarding; on the mountain they had just set out",
+          "Both pictures show people leaving as soon as a peak appears",
+          "Here the people stand outside; on the mountain they still waited aboard"
+        ],
+        "answer": 2,
+        "explanation": "A resting ark was an earlier sign. The group with the ark behind it represents departure after the ground dried."
+      },
+      {
+        "prompt": "The family stands outside and animals follow. Which event from earlier in Noah’s story does this gathering answer most directly?",
+        "options": [
+          "The dove crossed the water alone and came back to Noah",
+          "The same household and animals once gathered to enter",
+          "A supply of grain was carried in before the journey"
+        ],
+        "answer": 1,
+        "explanation": "Both scenes show the household and the creatures together. The earlier one brings them in; this one takes them out."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Would dry ground beyond the open door explain the departure on its own in Genesis 8?",
+        "options": [
+          "It shows that Noah left as soon as the dove returned",
+          "It shows that God spoke only after everyone had left",
+          "It explains how they can leave; God’s command explains why they leave now"
+        ],
+        "answer": 2,
+        "explanation": "The physical condition and the spoken instruction are separate steps in the account."
+      },
+      {
+        "prompt": "The sheep move out alongside the people. Which part of the command is shown, and which part is still a future purpose?",
+        "options": [
+          "Their multiplication is pictured; bringing them out still lies ahead",
+          "Bringing the animals out is pictured; their multiplication on earth still lies ahead",
+          "Their entry in pairs is pictured; their stay in the ark still lies ahead"
+        ],
+        "answer": 1,
+        "explanation": "Genesis 8:17 links disembarking with the future flourishing of life on land."
+      },
+      {
+        "prompt": "People face away from the ark. What does that reversal of direction help explain about the ark’s role?",
+        "options": [
+          "Its work as a temporary refuge has been fulfilled",
+          "The household must divide into those who stay and those who leave",
+          "The ark will take the animals away on its own"
+        ],
+        "answer": 0,
+        "explanation": "The same family once moved into shelter. In the new scene the ark is behind them."
+      },
+      {
+        "prompt": "Compare this family gathering with the earlier gathering at the entrance. Which difference is most precise?",
+        "options": [
+          "The household is together again, still approaching the ark for shelter",
+          "The household is together again, but the animals have stayed aboard",
+          "The household is together again, but now the ark is behind it"
+        ],
+        "answer": 2,
+        "explanation": "The group’s position and the animals outside make this the counterpart to boarding."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "The doorway holds darkness inside and sunlit ground outside. Which narrative boundary can that visual contrast suggest without collapsing two moments?",
+        "options": [
+          "Dry ground makes departure possible; the command initiates it",
+          "The first sight of ground is already the instruction to depart",
+          "The arrival of a leaf and the actual departure are simultaneous"
+        ],
+        "answer": 0,
+        "explanation": "Genesis narrates the drying of the ground and then gives direct speech instructing Noah to leave."
+      },
+      {
+        "prompt": "Sheep and household members share a route from the ark. How does this grouping connect two imperatives given to Noah at different times?",
+        "options": [
+          "The duty to gather provisions is repeated outside in identical terms",
+          "The command to build is repeated as a command to dismantle the ark",
+          "The living creatures once brought in are now to be brought out"
+        ],
+        "answer": 2,
+        "explanation": "Bringing living creatures aboard preserves them through danger; bringing them out restores life to the land."
+      },
+      {
+        "prompt": "What makes the position of the family in front of the ark a counterpart to the earlier entry account, beyond the repeated setting?",
+        "options": [
+          "The household receives the same command to enter the shelter",
+          "The household crosses the same boundary in the opposite direction",
+          "The household waits outside while only the creatures cross the boundary"
+        ],
+        "answer": 1,
+        "explanation": "The scriptural accounts name the household at both entry and departure. The ark behind the family makes the reversal visible."
+      },
+      {
+        "prompt": "A viewer sees the household on land with the ark behind it. Which distinction between reported obedience and initiative requires the text?",
+        "options": [
+          "Departure follows a command; building the altar follows without a new command",
+          "Building the altar precedes the command that makes departure possible",
+          "The family’s departure and the sacrifice are one commanded act"
+        ],
+        "answer": 0,
+        "explanation": "The outdoor gathering can represent the departure. The sequence of speech, compliance and altar appears in Genesis 8:15–20."
+      }
+    ]
+  },
+  "life-noah-5": {
+    "a": [
+      {
+        "prompt": "Has all the water vanished? Look under the colored sky as well as up at it.",
+        "options": [
+          "Yes. Every patch of ground is dusty",
+          "No. Deep water still covers every hill",
+          "No. Small pools remain on the land"
+        ],
+        "answer": 2,
+        "explanation": "A pool catches the light under the bow, with grass and hills around it."
+      },
+      {
+        "prompt": "Noah held out his hand to the dove before. What is his raised hand doing this time?",
+        "options": [
+          "To welcome the dove at the window",
+          "To show the family something in the sky",
+          "To guide the sheep up the ramp"
+        ],
+        "answer": 1,
+        "explanation": "The family stands outdoors looking up. Noah’s hand directs them to the colors in the sky."
+      },
+      {
+        "prompt": "Is this promise only for the people? Who else in the picture gives you a clue?",
+        "options": [
+          "The sheep beside the family are included too",
+          "Only the person pointing is included",
+          "Only the people nearest the ark are included"
+        ],
+        "answer": 0,
+        "explanation": "The story includes the animals in the promise. Here they stand beside the family."
+      },
+      {
+        "prompt": "The ark and the bow are both here. Which helped the family then, and which reminds them of a promise now?",
+        "options": [
+          "The bow kept them safe; the ark reminds them now",
+          "They had to get inside both to stay safe",
+          "The ark kept them safe; the bow reminds them now"
+        ],
+        "answer": 2,
+        "explanation": "The ark in the distance was their shelter in the flood. The bow overhead comes later in their story."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "The bow appears while clouds and pools of water are still visible. Which reading fits all three?",
+        "options": [
+          "The sign can appear while traces of rain remain",
+          "The sign must wait until all water has vanished",
+          "The sign means that the ark is floating again"
+        ],
+        "answer": 0,
+        "explanation": "The remaining water and clouds fit the sign of a promise about a destructive flood, not a promise of endless dry weather."
+      },
+      {
+        "prompt": "Noah points up while others look. What can his gesture tell a viewer who has not heard the promise?",
+        "options": [
+          "The exact words God said to Noah",
+          "How many years the promise will last",
+          "Which part of the scene the family is noticing"
+        ],
+        "answer": 2,
+        "explanation": "The gesture draws attention to the sky. Its meaning as a covenant comes from the story."
+      },
+      {
+        "prompt": "Suppose the artist painted only Noah’s family under the bow. Which part of the story would the sheep in this picture help restore?",
+        "options": [
+          "Each animal is meant to receive a separate sign",
+          "The promise also includes living creatures besides people",
+          "Only the creatures standing close to Noah share the promise"
+        ],
+        "answer": 1,
+        "explanation": "Genesis names both people and living creatures. Showing animals beside the family gives that second group a place in the scene."
+      },
+      {
+        "prompt": "Compare the distant ark and the bow over it. Which tells of the family’s past and which points to the future?",
+        "options": [
+          "The ark recalls shelter; the bow recalls the promise",
+          "The ark stands for future rain; the bow recalls loading food",
+          "The ark and the bow both mark the moment of boarding"
+        ],
+        "answer": 0,
+        "explanation": "The ark sheltered the family during the flood. The bow is the sign given afterward."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "The sign is set in clouds above a wet landscape. Which limit on the promise do these two details help clarify?",
+        "options": [
+          "It protects only the land that already looks dry",
+          "It concerns destruction by flood, not the disappearance of rain",
+          "It ends whenever moisture forms in the clouds"
+        ],
+        "answer": 1,
+        "explanation": "Genesis places the bow within the clouds while promising against another flood of that scope."
+      },
+      {
+        "prompt": "The family looks where Noah points. Which part of the covenant cannot be read from that human gesture?",
+        "options": [
+          "Who promises to remember on seeing the bow",
+          "Which way the person pointing is facing",
+          "Which part of the landscape draws the group’s gaze"
+        ],
+        "answer": 0,
+        "explanation": "The raised hand guides the human gaze. Genesis 9 gives the promise of remembrance to God."
+      },
+      {
+        "prompt": "The scene includes one family and animals. Which words stretch the covenant beyond this group?",
+        "options": [
+          "“Noah and his sons with him”",
+          "“All that came out of the ark”",
+          "“Your descendants after you”"
+        ],
+        "answer": 2,
+        "explanation": "The descendants need not stand beside Noah to be included in the covenant."
+      },
+      {
+        "prompt": "An artist could have left the ark out of this rainbow scene. What link between chapters would that remove from the picture?",
+        "options": [
+          "The very same object both sheltered the family and serves as the covenant sign",
+          "The site of earlier rescue remains visible beside the sign of a future promise",
+          "The covenant sign had to be seen from inside the ark before anyone could leave"
+        ],
+        "answer": 1,
+        "explanation": "The two objects connect successive episodes. Each plays its own role in the text."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "The bow stands in a cloud above ground where water still glistens. Which reading can account for both details and Genesis 9:13–15?",
+        "options": [
+          "The bow appears only when moisture has vanished from the land",
+          "The covenant holds only for the duration of a visible rainbow",
+          "Clouds can return; the covenant limits what their waters will destroy"
+        ],
+        "answer": 2,
+        "explanation": "The passage anticipates the gathering of clouds and ties remembrance to the bow appearing in them."
+      },
+      {
+        "prompt": "The artist shows a pointing figure and people looking. Where does the biblical account of seeing and remembering put the emphasis instead?",
+        "options": [
+          "Noah sees the sign and renews the covenant by pointing it out",
+          "God sees the sign and remembers the everlasting covenant",
+          "The household sees the sign and promises to remember the flood"
+        ],
+        "answer": 1,
+        "explanation": "The gesture is a pictorial interpretation. In 9:16 God says that he will see the bow and remember."
+      },
+      {
+        "prompt": "A family and sheep share the ground under the bow. Which extension of the covenant can this group illustrate, and which still exceeds the frame?",
+        "options": [
+          "Animals as recipients are visible; future generations are not",
+          "Future generations are visible; present creatures are only implied",
+          "The pictured family marks both the beginning and the limit of the covenant"
+        ],
+        "answer": 0,
+        "explanation": "Shared ground gives form to the inclusion of creatures. The temporal reach has to be supplied from the words of the covenant."
+      },
+      {
+        "prompt": "Read the distant ark and the bow as signs of two different relationships to danger. Which comparison fits their narrative functions?",
+        "options": [
+          "The ark guaranteed no further flood; the bow protected the family while afloat",
+          "Both guarantee escape from each new flood to those who seek shelter in the ark",
+          "The ark preserved lives during one disaster; the bow marks a promise about future ones"
+        ],
+        "answer": 2,
+        "explanation": "The ark serves as shelter in the narrated flood. The bow is the sign of the promise against another flood destroying all flesh."
+      }
+    ]
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "he": {
+    "life-moses-1": {
+      "a": [
+        {
+          "prompt": "התיבה צפה, אבל התינוק עוד צריך לאכול. מי דואגת שיקבל חלב?",
+          "options": [
+            "השומר מזמין רועה",
+            "בת פרעה שולחת סירה",
+            "אחותו מציעה למצוא מינקת"
+          ],
+          "answer": 2,
+          "explanation": "האחות מציעה לקרוא למינקת ומביאה את אמו של משה."
+        },
+        {
+          "prompt": "אילו האחות הייתה הולכת הביתה מיד, איזה רגע הייתה מחמיצה?",
+          "options": [
+            "את פתיחת התיבה בידי בת פרעה",
+            "את קליעת התיבה בידי האם",
+            "את לידת משה בבית"
+          ],
+          "answer": 0,
+          "explanation": "היא נשארה ליד המים וכך יכלה לגשת כשבת פרעה מצאה את התינוק."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "בת פרעה יכולה להביא את התיבה מן המים. למה בכל זאת חשובה ההצעה של אחות משה?",
+          "options": [
+            "היא מחברת את התינוק למי שתוכל להיניק אותו",
+            "היא מלמדת איפה מסתתרת התיבה",
+            "היא מביאה את הקנים לבניית התיבה"
+          ],
+          "answer": 0,
+          "explanation": "בזמן ההצעה התיבה כבר נמצאה. האחות דואגת למה שהתינוק יצטרך אחר כך."
+        },
+        {
+          "prompt": "איזה מעשה של בת פרעה מאפשר לאם לגדל את משה עוד זמן בביתו?",
+          "options": [
+            "היא נותנת לו שם ליד הקנים",
+            "היא מבקשת מהמינקת להיניק לה את הילד",
+            "היא נותנת לאחותו להחזיק בתיבה"
+          ],
+          "answer": 1,
+          "explanation": "ההסכמה למינקת מאפשרת לאם לטפל בילד עד שהוא גדל."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "איזו ידיעה יש לקורא ואינה נאמרת לבת פרעה בהצעת האחות?",
+          "options": [
+            "התינוק שייך לעברים",
+            "המינקת שהיא תקרא לה היא אם התינוק",
+            "בתיבה נמצא תינוק בוכה"
+          ],
+          "answer": 1,
+          "explanation": "בת פרעה עצמה מזהה תינוק עברי. הקורא מבין גם את זהותה של המינקת."
+        },
+        {
+          "prompt": "אם מוחקים רק את המילים ״ותחמול עליו״, מה נעשה פחות מפורש בסיפור?",
+          "options": [
+            "מי הביאה את אם הילד",
+            "מה היה שמו אחרי שגדל",
+            "מה הניע את בת פרעה לעזור לילד"
+          ],
+          "answer": 2,
+          "explanation": "מעשיה של בת פרעה עדיין מסופרים, אך המילה חמלה מבארת את המניע."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "״מילדי העברים זה״ בא לפני הצעת האחות. איזו קריאה של ההצלה שולל הסדר הזה?",
+          "options": [
+            "שהחמלה קדמה להסדר ההנקה",
+            "שהאחות המתינה להזדמנות לדבר",
+            "שבת פרעה הצילה אותו רק כי טעתה בזהותו"
+          ],
+          "answer": 2,
+          "explanation": "בת פרעה מכירה בזהותו עוד לפני שנחלץ עבורו פתרון מעשי."
+        },
+        {
+          "prompt": "מה משותף לשני צדי ההיפוך בשמות ב׳, בין ההשלכה ליאור לבין המשייה מן המים?",
+          "options": [
+            "אותו נהר משמש מקום סכנה ומקום הצלה",
+            "בשני המקרים פרעה פועל בגופו",
+            "בשני המקרים האחות נותנת לתינוק שם"
+          ],
+          "answer": 0,
+          "explanation": "הסיפור מקשר בין הגזרה להצלה דרך המים, בשעה שזהות הדמויות הפועלות משתנה."
+        }
+      ]
+    },
+    "life-noah-1": {
+      "a": [
+        {
+          "prompt": "התיבה כבר מוכנה. אם נח ישכח את האוכל, מה יחסר לחיות גם כשיהיו יבשות בפנים?",
+          "options": [
+            "גג מעל הראש",
+            "משהו לאכול",
+            "דלת להיכנס דרכה"
+          ],
+          "answer": 1,
+          "explanation": "גג מגן מן הגשם, אבל אינו משביע. נח צריך להכין גם מזון."
+        },
+        {
+          "prompt": "טיפת מים מחפשת סדק בין הקרשים. איזה מעשה של נח יעצור אותה?",
+          "options": [
+            "הוא סידר את האוכל בסלים",
+            "הוא פתח מקום לעוד חיות",
+            "הוא אטם את העץ בכופר"
+          ],
+          "answer": 2,
+          "explanation": "שכבת הכופר אוטמת את הסדקים."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "שני בונים מסיימים את קירות התיבה. אחד עוצר והשני מצפה אותם בכופר. של מי מוכנה יותר לגשם?",
+          "options": [
+            "של העוצר, כי קרש יבש תמיד עוצר מים",
+            "שתיהן, כי רק הגג צריך להיות אטום",
+            "של המצפה בכופר, כי גם סדק קטן מכניס מים"
+          ],
+          "answer": 2,
+          "explanation": "הכופר משלים את עבודת העץ בכך שהוא אוטם את הקירות."
+        },
+        {
+          "prompt": "חיה קטנה מגיעה לפתח. אילו שתי הכנות של נח עוזרות לה גם להיכנס וגם לחיות בתיבה?",
+          "options": [
+            "פתח בדופן ומאגר מזון",
+            "גג וכופר על הקרשים",
+            "מידות גובה ורוחב"
+          ],
+          "answer": 0,
+          "explanation": "הפתח מאפשר כניסה והמזון מקיים את החיה במשך השהייה."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "הפסוק מסיים שנח עשה כאשר צווה. מה תומך בכך יותר מתיאור של תיבה גדולה ויפה?",
+          "options": [
+            "התאמה בין פרט בנייה מסוים להוראה שניתנה",
+            "העובדה שהמאייר צבע את הדופן בחום",
+            "מספר האנשים שאפשר לראות ליד הכלים"
+          ],
+          "answer": 0,
+          "explanation": "התאמה להוראה היא ראיה לציות. גודל ויופי לבדם אינם מעידים על כך."
+        },
+        {
+          "prompt": "קורא אומר שהכנת מזון מסבירה רק את צורכי משפחת נח. איזה חלק בהוראה בודק את הטענה?",
+          "options": [
+            "״פתח התבה בצדה תשים״",
+            "״לך ולהם לאכלה״",
+            "״וכפרת אותה״"
+          ],
+          "answer": 1,
+          "explanation": "״להם״ מרחיב את מקבלי המזון מעבר לנח וביתו."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "בראשית ו׳ עובר ממידות מדויקות לצו לאסוף מאכל. מהו העיקרון המחבר את שניהם?",
+          "options": [
+            "קביעת מידת אורך גם לכל מין של מאכל",
+            "הכנת מקום מחיה וקיום יושביו לאורך זמן",
+            "דחיית הכנת הצידה עד לאחר היציאה"
+          ],
+          "answer": 1,
+          "explanation": "פרטי המבנה מסדרים את המחסה, וצו האיסוף מסדיר את המשך החיים בתוכו."
+        },
+        {
+          "prompt": "מה מותר להסיק מהסיכום ״ככל אשר צוה אתו אלהים כן עשה״ גם כשהמספר אינו חוזר על כל שלב?",
+          "options": [
+            "המספר מסביר מי לימד את נח נגרות",
+            "כל כלי ששימש בבנייה נקוב בשמו",
+            "הביצוע מיוחס לנח בהתאם לצו"
+          ],
+          "answer": 2,
+          "explanation": "הסיכום מעיד על קיום ההוראות, אך אינו מפרט את מלאכת הבנייה."
+        }
+      ]
+    },
+    "life-samson-1": {
+      "a": [
+        {
+          "prompt": "אמו של שמשון שומעת בשורה כשהיא לבד בשדה. איך גם מנוח יכול לשמוע את השליח?",
+          "options": [
+            "היא קוראת למנוח כשהשליח חוזר",
+            "הוא מחכה שהתינוק יסביר לו",
+            "הוא מחפש את שמשון בדרך לכרם"
+          ],
+          "answer": 0,
+          "explanation": "היא ממהרת לקרוא למנוח כשהשליח נראה לה שוב."
+        },
+        {
+          "prompt": "לתינוק שעוד לא נולד כבר יש הבטחה מיוחדת. במה קשור השיער שלו להבטחה?",
+          "options": [
+            "יקלעו בו פרחים בכל בוקר",
+            "ישאירו אותו לגדול",
+            "יגזרו אותו כשיגדל"
+          ],
+          "answer": 1,
+          "explanation": "המלאך אומר ששערו לא ייגזר."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "מנוח מבקש שהשליח יחזור. איזה דבר חשוב לו לברר לפני הלידה?",
+          "options": [
+            "היכן הילד פגש אריה",
+            "איך לנהוג בילד העתיד להיוולד",
+            "איזו חידה הילד יספר"
+          ],
+          "answer": 1,
+          "explanation": "מנוח מבקש הדרכה לעתיד, לפני המעשים שיסופרו על שמשון הבוגר."
+        },
+        {
+          "prompt": "חברה אומרת שמנוח היה הראשון שידע על הלידה. איזו פעולה בסיפור עוזרת לבדוק זאת?",
+          "options": [
+            "מנוח מציע אוכל לשליח",
+            "בני הזוג מביטים באש",
+            "האישה באה לספר למנוח על המפגש"
+          ],
+          "answer": 2,
+          "explanation": "עצם פעולת הדיווח מראה שמנוח שומע תחילה מאשתו."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "אם נספר את המפגש הראשון רק ממה שמנוח ראה בעצמו, איזה פרט מוכרח להיעלם?",
+          "options": [
+            "המנחה שמנוח מקריב בהמשך",
+            "תגובת מנוח לאחר עליית השליח",
+            "דברי השליח אל האישה בשדה"
+          ],
+          "answer": 2,
+          "explanation": "האישה נוכחת במפגש הראשון. מנוח מכיר אותו תחילה מדבריה."
+        },
+        {
+          "prompt": "אחרי עליית המלאך מנוח מפחד ואשתו מרגיעה אותו. איזה סימן היא מפרשת אחרת?",
+          "options": [
+            "קבלת המנחה והבשורה שניתנה להם",
+            "המרחק בין השדה לביתם",
+            "השם שבני הזוג בחרו לילד"
+          ],
+          "answer": 0,
+          "explanation": "מבחינתה קבלת המנחה וגילוי העתיד אינם מתאימים לכוונה להמיתם."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "מנוח מבקש בשופטים י״ג שהאיש ישוב ״אלינו״. כיצד התגשמות הבקשה משמרת את תפקיד האישה?",
+          "options": [
+            "השליח נראה שוב תחילה לאישה והיא מזעיקה את מנוח",
+            "שני בני הזוג מקבלים בנפרד הוראות זהות",
+            "מנוח פוגש אותו קודם ומשמיע לאישה את דבריו"
+          ],
+          "answer": 0,
+          "explanation": "החזרה לשדה אינה מבטלת את מרכזיות האישה כעדה וכשליחה למנוח."
+        },
+        {
+          "prompt": "תגובת אשת מנוח מול חששו שימותו נשענת על איזה מהלך של טיעון?",
+          "options": [
+            "ראיית המלאך מראש מבטיחה שאדם אינו יכול למות",
+            "הפעולות שכבר נעשו כלפיהם אינן מתיישבות עם תכלית של המתה",
+            "הבשורה על בן כבר התקיימה בשעת הוויכוח"
+          ],
+          "answer": 1,
+          "explanation": "היא מסיקה מן המנחה שהתקבלה ומהגילוי שכבר נמסר כיצד לפרש את המפגש."
+        }
+      ]
+    }
+  },
+  "en": {
+    "life-moses-1": {
+      "a": [
+        {
+          "prompt": "The basket floats, but the baby still needs milk. Who makes sure he gets it?",
+          "options": [
+            "A guard calls a shepherd",
+            "Pharaoh’s daughter sends a boat",
+            "His sister offers to find a nurse"
+          ],
+          "answer": 2,
+          "explanation": "His sister offers to fetch a nurse and brings Moses’ own mother."
+        },
+        {
+          "prompt": "If his sister had gone straight home, what would she have missed?",
+          "options": [
+            "Pharaoh’s daughter opening the basket",
+            "His mother weaving the basket",
+            "Moses being born at home"
+          ],
+          "answer": 0,
+          "explanation": "Staying by the river let her step forward when Pharaoh’s daughter found the baby."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "Pharaoh’s daughter can have the basket fetched. Why does the sister’s offer still matter?",
+          "options": [
+            "It finds someone who can nurse the baby",
+            "It shows where the basket is hidden",
+            "It provides reeds for a new basket"
+          ],
+          "answer": 0,
+          "explanation": "By then the basket had been found. The sister provides for what the baby will need next."
+        },
+        {
+          "prompt": "What does Pharaoh’s daughter do that lets Moses spend longer with his own mother?",
+          "options": [
+            "She names the child beside the reeds",
+            "She asks the nurse to feed the child for her",
+            "She asks his sister to hold the basket"
+          ],
+          "answer": 1,
+          "explanation": "The nursing arrangement keeps him with his mother until he grows."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "What does the reader know that the sister leaves unsaid in her offer to Pharaoh’s daughter?",
+          "options": [
+            "The baby is Hebrew",
+            "The nurse she will fetch is the baby’s mother",
+            "The basket holds a crying child"
+          ],
+          "answer": 1,
+          "explanation": "Pharaoh’s daughter recognizes a Hebrew child. The reader also knows who the nurse is."
+        },
+        {
+          "prompt": "If only the words “she had pity on him” vanished, what would become less explicit?",
+          "options": [
+            "Who fetched the baby’s mother",
+            "What the child was named later",
+            "What moved Pharaoh’s daughter to help"
+          ],
+          "answer": 2,
+          "explanation": "Her actions would remain in the story. Pity names the motive behind them."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "“This is one of the Hebrews’ children” comes before the sister's offer. Which reading does that order rule out?",
+          "options": [
+            "That compassion preceded the nursing arrangement",
+            "That the sister waited for an opening to speak",
+            "That mistaken identity alone explains the rescue"
+          ],
+          "answer": 2,
+          "explanation": "His identity is recognized before a practical arrangement is made."
+        },
+        {
+          "prompt": "Which element connects the decree to cast boys into the Nile with the drawing of Moses out of it?",
+          "options": [
+            "The same river becomes a place of danger and rescue",
+            "Pharaoh acts in person both times",
+            "The sister names the child on both occasions"
+          ],
+          "answer": 0,
+          "explanation": "The water connects the decree and the rescue even as the people acting change."
+        }
+      ]
+    },
+    "life-noah-1": {
+      "a": [
+        {
+          "prompt": "The ark is ready. If Noah forgets the food, what will the animals still need inside?",
+          "options": [
+            "A roof over them",
+            "Something to eat",
+            "A door to enter"
+          ],
+          "answer": 1,
+          "explanation": "A roof keeps off the rain, but it cannot feed the animals. Noah needs supplies too."
+        },
+        {
+          "prompt": "A drop of water finds a crack between two boards. What has Noah done to stop it?",
+          "options": [
+            "Put food in baskets",
+            "Made room for another animal",
+            "Sealed the wood with pitch"
+          ],
+          "answer": 2,
+          "explanation": "The pitch seals the gaps."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "Two builders finish the ark’s walls. One stops and one coats them with pitch. Whose ark is better prepared for rain?",
+          "options": [
+            "The uncoated one, since dry wood always keeps water out",
+            "Both, since only the roof needs sealing",
+            "The coated one, since a small gap can let water in"
+          ],
+          "answer": 2,
+          "explanation": "Pitch finishes the wooden walls by sealing them against water."
+        },
+        {
+          "prompt": "A small animal arrives. Which preparations help it both enter and survive the stay?",
+          "options": [
+            "A side opening and a food supply",
+            "A roof and pitch on the boards",
+            "The height and width measurements"
+          ],
+          "answer": 0,
+          "explanation": "The opening admits the animal. Stored food sustains it on board."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "The story ends by saying Noah did as he was commanded. What would support that better than a grand-looking ark?",
+          "options": [
+            "A particular construction detail matching an instruction",
+            "Brown paint on the side of the ark",
+            "The number of people beside the tools"
+          ],
+          "answer": 0,
+          "explanation": "A match with an instruction is evidence of obedience. Grandeur alone is not."
+        },
+        {
+          "prompt": "A reader says the stored food concerns only Noah’s family. Which instruction tests that claim?",
+          "options": [
+            "Put the door of the ark in its side",
+            "It shall be food for you and for them",
+            "Cover it with pitch"
+          ],
+          "answer": 1,
+          "explanation": "“For them” extends the provision beyond Noah and his household."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "Genesis 6 moves from exact dimensions to gathering food. What principle links these instructions?",
+          "options": [
+            "Giving a length measurement for every kind of food",
+            "Providing shelter and sustaining its occupants over time",
+            "Deferring provisions until after disembarkation"
+          ],
+          "answer": 1,
+          "explanation": "The construction details provide the shelter. The gathering instruction sustains life inside it."
+        },
+        {
+          "prompt": "What can the closing report that Noah did all God commanded establish without repeating every step?",
+          "options": [
+            "The narrator identifies Noah’s carpentry teacher",
+            "Every tool used is named",
+            "Noah’s performance corresponds to the command"
+          ],
+          "answer": 2,
+          "explanation": "The summary affirms compliance without describing every part of the work."
+        }
+      ]
+    },
+    "life-samson-1": {
+      "a": [
+        {
+          "prompt": "Samson’s mother hears news alone in the field. How can Manoah hear the messenger too?",
+          "options": [
+            "She fetches Manoah when the messenger returns",
+            "He waits for the baby to explain",
+            "He looks for Samson on the vineyard path"
+          ],
+          "answer": 0,
+          "explanation": "She hurries to fetch Manoah when the messenger appears again."
+        },
+        {
+          "prompt": "A promise is made about a baby before he is born. What will happen to his hair?",
+          "options": [
+            "Flowers will be woven into it every morning",
+            "It will be left to grow",
+            "It will be cut when he grows up"
+          ],
+          "answer": 1,
+          "explanation": "The messenger says his hair is to remain uncut."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "Manoah asks for another visit. What does he want to learn before the birth?",
+          "options": [
+            "Where the child met a lion",
+            "How to care for the child to come",
+            "Which riddle the child will tell"
+          ],
+          "answer": 1,
+          "explanation": "He asks for guidance in advance, before the deeds of the grown Samson."
+        },
+        {
+          "prompt": "A friend thinks Manoah learned of the birth first. Which action tests that idea?",
+          "options": [
+            "Manoah offers the messenger food",
+            "The couple look at the fire",
+            "The woman comes to tell Manoah of the meeting"
+          ],
+          "answer": 2,
+          "explanation": "The report shows that Manoah first hears the news from his wife."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "If the first meeting were retold using only Manoah’s own observations, what must drop out?",
+          "options": [
+            "The offering Manoah brings later",
+            "Manoah’s reaction to the ascent",
+            "The messenger’s words to the woman in the field"
+          ],
+          "answer": 2,
+          "explanation": "The woman attends the first meeting. Manoah first learns about it through her report."
+        },
+        {
+          "prompt": "After the angel ascends, Manoah is afraid and his wife reassures him. What evidence does she read differently?",
+          "options": [
+            "The accepted offering and the promise they received",
+            "The distance from the field to their house",
+            "The name they choose for the child"
+          ],
+          "answer": 0,
+          "explanation": "To her, receiving their offering and revealing the future are incompatible with an intention to kill them."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "Manoah asks in Judges 13 that the man return “to us.” How does the answer preserve the woman’s role?",
+          "options": [
+            "He appears first to her again and she fetches Manoah",
+            "Both spouses independently receive identical instructions",
+            "Manoah meets him first and reports his words to her"
+          ],
+          "answer": 0,
+          "explanation": "The return to the field preserves her role as witness and messenger to Manoah."
+        },
+        {
+          "prompt": "What reasoning underlies the woman’s reply to Manoah’s fear that they will die?",
+          "options": [
+            "Seeing an angel beforehand makes death impossible",
+            "What has already been done for them is inconsistent with an intention to kill them",
+            "The promised son has already been born when they debate"
+          ],
+          "answer": 1,
+          "explanation": "She infers how to interpret the encounter from the accepted offering and the revelation they received."
+        }
+      ]
+    }
+  }
+}

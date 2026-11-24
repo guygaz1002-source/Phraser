@@ -1,0 +1,12 @@
+{
+  "family": "Heebo",
+  "source": "https://github.com/google/fonts/tree/main/ofl/heebo",
+  "license": "SIL Open Font License 1.1; see Heebo-OFL.txt",
+  "downloaded": "2026-11-15",
+  "sourceSha256": "18f930b583fa8fe6b40b2f8263b7ac6afbac07adc91a12467874e7467d3ace30",
+  "preparation": "Static weights 400 and 700 instantiated from variablefont using fontTools; no glyph edits",
+  "files": {
+    "Heebo-Bold.ttf": "abd468443dbba316fa6bc0047723209f6a421e7fa45f46d1f3d56f85d90a718b",
+    "Heebo-Regular.ttf": "029d64265f2b998efcb859ec5c33ba3eb9625f1d52174f94eb10b1a66dda1114"
+  }
+}

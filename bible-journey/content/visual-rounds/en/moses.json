@@ -1,0 +1,1532 @@
+{
+  "life-moses-1": {
+    "a": [
+      {
+        "prompt": "What floats among the reeds?",
+        "options": [
+          "A basket",
+          "A jar",
+          "A large leaf"
+        ],
+        "answer": 0,
+        "explanation": "The woven basket floats on the water."
+      },
+      {
+        "prompt": "What does the woman reach for?",
+        "options": [
+          "The basket",
+          "Her necklace",
+          "The reeds"
+        ],
+        "answer": 0,
+        "explanation": "Her hand is near the basket lid."
+      },
+      {
+        "prompt": "What has the woman found inside the basket?",
+        "options": [
+          "A folded blanket",
+          "A wrapped baby",
+          "A bundle of reeds"
+        ],
+        "answer": 1,
+        "explanation": "A baby's face peeks out of the blanket."
+      },
+      {
+        "prompt": "What can we see now that the lid is up?",
+        "options": [
+          "The baby's feet",
+          "The riverbed",
+          "The baby's face"
+        ],
+        "answer": 2,
+        "explanation": "The lid is up and the baby is still wrapped."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Where is the girl who watches the basket hiding?",
+        "options": [
+          "Inside a boat",
+          "Among the reeds",
+          "Behind a wall"
+        ],
+        "answer": 1,
+        "explanation": "Her face peeks through the reeds beside the water."
+      },
+      {
+        "prompt": "What brings Pharaoh's daughter closer to her discovery?",
+        "options": [
+          "She moves an empty basket off the bank",
+          "She reaches toward the closed basket",
+          "She calls the girl out"
+        ],
+        "answer": 1,
+        "explanation": "Her hand is near the lid while the basket is still closed."
+      },
+      {
+        "prompt": "How can you tell Pharaoh's daughter has found the baby?",
+        "options": [
+          "She examines tracks in the sand",
+          "She looks toward the palace",
+          "She looks into the open basket"
+        ],
+        "answer": 2,
+        "explanation": "The lid is up and her face is turned toward the baby."
+      },
+      {
+        "prompt": "Who can see the discovery without approaching the basket?",
+        "options": [
+          "The girl peeking through the reeds",
+          "A woman behind a closed window",
+          "A girl facing away from the river"
+        ],
+        "answer": 0,
+        "explanation": "A face among the reeds looks toward the basket."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which detail shows how the sister can keep watch from a distance?",
+        "options": [
+          "She holds a rope from the bank",
+          "She steadies the lid by hand",
+          "Her face shows through the reeds"
+        ],
+        "answer": 2,
+        "explanation": "The reeds conceal her body while leaving her a view."
+      },
+      {
+        "prompt": "Which moment comes just before the woman sees the child?",
+        "options": [
+          "She hands an open basket to a girl",
+          "Her hand reaches for the closed lid",
+          "She lifts a blanket off the baby"
+        ],
+        "answer": 1,
+        "explanation": "The basket is visible while its lid still hides what is inside."
+      },
+      {
+        "prompt": "How has Pharaoh's daughter's view changed?",
+        "options": [
+          "The raised lid reveals a face",
+          "Parted reeds reveal a rope",
+          "Lower water reveals tracks"
+        ],
+        "answer": 0,
+        "explanation": "She can now see the child the sister has been watching."
+      },
+      {
+        "prompt": "What does the sister's position suggest at the moment of discovery?",
+        "options": [
+          "She is already carrying the basket",
+          "She is already presenting a nurse",
+          "She is still watching before approaching"
+        ],
+        "answer": 2,
+        "explanation": "The sister peers from cover while Pharaoh's daughter bends over the child."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which contrast suits the sister standing at a distance?",
+        "options": [
+          "Exposed basket and hidden sister",
+          "Sunken basket and sister in a boat",
+          "Abandoned basket and sister beside it"
+        ],
+        "answer": 0,
+        "explanation": "The basket stands out on the water while the face nearly disappears in the reeds."
+      },
+      {
+        "prompt": "What separates seeing the basket from seeing the child here?",
+        "options": [
+          "Only a reflection of the basket is visible",
+          "A veil hides the woman's face",
+          "The lid is still in place"
+        ],
+        "answer": 2,
+        "explanation": "Pharaoh's daughter is touching the basket while its contents are still hidden."
+      },
+      {
+        "prompt": "What places this scene just after the act of opening?",
+        "options": [
+          "The fastenings have just been loosened",
+          "The lid has been set on the bank",
+          "The girl is lifting the lid"
+        ],
+        "answer": 1,
+        "explanation": "The lid lies apart as the woman bends toward the exposed baby."
+      },
+      {
+        "prompt": "How does the picture distribute the act of discovery?",
+        "options": [
+          "One opens while another looks on",
+          "Two carry the basket together",
+          "One passes the baby to the other"
+        ],
+        "answer": 0,
+        "explanation": "The lid is raised beside Pharaoh's daughter while the sister remains among the reeds."
+      }
+    ]
+  },
+  "life-moses-6": {
+    "a": [
+      {
+        "prompt": "What hangs from the rope at the well?",
+        "options": [
+          "A jar",
+          "A basket",
+          "A bucket"
+        ],
+        "answer": 2,
+        "explanation": "The well rope holds the bucket."
+      },
+      {
+        "prompt": "What are the sheep doing by the water?",
+        "options": [
+          "Raising their heads to a tree",
+          "Lowering their heads to drink",
+          "Jumping over the trough"
+        ],
+        "answer": 1,
+        "explanation": "Their heads are close to the water in the trough."
+      },
+      {
+        "prompt": "Where is the man pouring the water?",
+        "options": [
+          "Into the sheep's trough",
+          "Onto the path",
+          "Back into the well"
+        ],
+        "answer": 0,
+        "explanation": "Water flows from the jar into the trough."
+      },
+      {
+        "prompt": "How do the sheep reach the water the man is pouring?",
+        "options": [
+          "They climb up to the jar",
+          "They drink along the trough",
+          "They go down the well"
+        ],
+        "answer": 1,
+        "explanation": "The trough is long and the sheep stand beside it."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What could the women here use to carry water?",
+        "options": [
+          "A clay jar",
+          "A shepherd's staff",
+          "A trough stone"
+        ],
+        "answer": 0,
+        "explanation": "Wide-bodied clay vessels stand beside the women."
+      },
+      {
+        "prompt": "Why does the man need both a vessel and a rope when the water is deep in the well?",
+        "options": [
+          "The rope holds the water and the vessel lifts it",
+          "The rope ties the sheep to the vessel so they can drink",
+          "The vessel holds the water and the rope lifts it"
+        ],
+        "answer": 2,
+        "explanation": "The vessel and rope work together to bring up the water."
+      },
+      {
+        "prompt": "Who benefits from the water now pouring from the jar?",
+        "options": [
+          "People holding up cups",
+          "The camel riders",
+          "The sheep beside the trough"
+        ],
+        "answer": 2,
+        "explanation": "The sheep lower their heads to the water in the trough."
+      },
+      {
+        "prompt": "Why is the trough easier for the sheep to use than the open well?",
+        "options": [
+          "The water stays inside the jar",
+          "The water is within reach of their mouths",
+          "The sheep can pull its rope"
+        ],
+        "answer": 1,
+        "explanation": "Several sheep drink along the low trough."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How does the scene suggest tension at the well?",
+        "options": [
+          "Everyone sits in one circle",
+          "Everyone is already passing jars along",
+          "Two groups stand facing each other"
+        ],
+        "answer": 2,
+        "explanation": "The women and men occupy different sides of the watering place."
+      },
+      {
+        "prompt": "Which action shows practical help for the women?",
+        "options": [
+          "Hauling the well bucket by its rope",
+          "Watching the jars from afar",
+          "Leading the sheep away from water"
+        ],
+        "answer": 0,
+        "explanation": "Lifting the water is part of the work of watering a flock."
+      },
+      {
+        "prompt": "Which detail illustrates the verb “watered”?",
+        "options": [
+          "A staff pointing toward the flock",
+          "A stream from the jar into the trough",
+          "A sealed jar beside the well"
+        ],
+        "answer": 1,
+        "explanation": "The action is caught as the water reaches the trough."
+      },
+      {
+        "prompt": "What does the row of sheep's heads add to the scene of Moses helping?",
+        "options": [
+          "We can see the result of his action",
+          "We can tell who drew first",
+          "We can tell who owns the well"
+        ],
+        "answer": 0,
+        "explanation": "Water pours in at one end and sheep drink along the trough."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "What makes the well a shared focus for the two groups?",
+        "options": [
+          "A fence cuts both groups off from it",
+          "Each group has its own well",
+          "Its opening is in front of both groups"
+        ],
+        "answer": 2,
+        "explanation": "The round opening leads the eye to the people gathered behind it."
+      },
+      {
+        "prompt": "Which act directly illustrates “he drew water for us”?",
+        "options": [
+          "A man counts the flock",
+          "A man draws water with a rope",
+          "A woman drives off a shepherd"
+        ],
+        "answer": 1,
+        "explanation": "His hands work the rope over the mouth of the well."
+      },
+      {
+        "prompt": "How are the source of the water and its destination distinguished?",
+        "options": [
+          "Two pools of identical shape",
+          "Round well and elongated trough",
+          "A hillside spring and a river below"
+        ],
+        "answer": 1,
+        "explanation": "The well is separate from the long channel the flock approaches."
+      },
+      {
+        "prompt": "Which part of “he helped them and watered their flock” is foregrounded?",
+        "options": [
+          "Watering, through the stream and row of sheep",
+          "Rescue, through a sheep lifted from the well",
+          "Conflict, through a struggle at the rope"
+        ],
+        "answer": 0,
+        "explanation": "The stream and sheep around the trough show the practical assistance."
+      }
+    ]
+  },
+  "life-moses-2": {
+    "a": [
+      {
+        "prompt": "What does the shepherd hold as he looks at the bush?",
+        "options": [
+          "A rope",
+          "A leafy branch",
+          "A long stick"
+        ],
+        "answer": 2,
+        "explanation": "The stick rises from the ground beside his hand."
+      },
+      {
+        "prompt": "What is the man doing by his foot?",
+        "options": [
+          "Taking off a sandal",
+          "Tying a rope to a sheep",
+          "Picking up a stone"
+        ],
+        "answer": 0,
+        "explanation": "He bends down and touches the sandal strap."
+      },
+      {
+        "prompt": "What can you see on the branches between the flames?",
+        "options": [
+          "Blue flowers",
+          "Green leaves",
+          "Red apples"
+        ],
+        "answer": 1,
+        "explanation": "The green leaves are still on the bush."
+      },
+      {
+        "prompt": "How can you tell Moses has already taken off his sandals?",
+        "options": [
+          "He is wearing new sandals",
+          "He is holding sandals in his hands",
+          "His sandals are on the ground and his feet are bare"
+        ],
+        "answer": 2,
+        "explanation": "Moses stands before the bush with bare feet."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What draws the shepherd's gaze away from the sheep?",
+        "options": [
+          "A tent on the mountain",
+          "A bush burning in the distance",
+          "A sheep across a river"
+        ],
+        "answer": 1,
+        "explanation": "His face turns toward the patch of fire on the slope."
+      },
+      {
+        "prompt": "What has changed as the shepherd comes nearer the fire?",
+        "options": [
+          "He has bent down to his sandal",
+          "He has begun leading the sheep",
+          "He has filled a bucket"
+        ],
+        "answer": 0,
+        "explanation": "The fire is near and the shepherd is now tending to his foot."
+      },
+      {
+        "prompt": "What do the sandals left on the ground and Moses’ posture tell you?",
+        "options": [
+          "He is putting them on so he can approach",
+          "He is still walking with the flock to another pasture",
+          "He has already stopped and taken them off near the bush"
+        ],
+        "answer": 2,
+        "explanation": "The sandals lie separately while Moses stands before the bush."
+      },
+      {
+        "prompt": "What about the bush makes this fire unusual?",
+        "options": [
+          "Intact leaves among the flames",
+          "A trail of ash instead of branches",
+          "A trunk fallen across the path"
+        ],
+        "answer": 0,
+        "explanation": "Flames and leafy branches are visible at the same time."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How does the scene show Moses turning from his usual task?",
+        "options": [
+          "He holds his staff and faces the flock",
+          "The flock is behind him and he looks toward the fire",
+          "The sheep lead him toward camp"
+        ],
+        "answer": 1,
+        "explanation": "His gaze connects the shepherd to the distant bush."
+      },
+      {
+        "prompt": "Which moment matches the command to remove his sandals?",
+        "options": [
+          "Moses covers his head",
+          "Moses bends with his hand by his foot",
+          "Moses rises onto his toes"
+        ],
+        "answer": 1,
+        "explanation": "His posture shows that the removal is in progress."
+      },
+      {
+        "prompt": "What suggests the shepherd's transition from walking to standing is complete?",
+        "options": [
+          "Both staff and sandals rest on the ground",
+          "The staff is urging the flock on",
+          "One sandal is still strapped on"
+        ],
+        "answer": 0,
+        "explanation": "The things set down before him underline the halt."
+      },
+      {
+        "prompt": "Which detail links the fire to the statement that the bush was not consumed?",
+        "options": [
+          "Charcoal lies below a bare trunk",
+          "Smoke completely hides the bush",
+          "Flames surround branches that are still green"
+        ],
+        "answer": 2,
+        "explanation": "Green remains visible within the area lit by fire."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How does the picture distinguish sunlight from the light of the bush?",
+        "options": [
+          "Two flames within the same bush",
+          "Two shadows below every sheep",
+          "Two light sources on opposite sides"
+        ],
+        "answer": 2,
+        "explanation": "The sun sits low on one side and the bush glows beyond the shepherd."
+      },
+      {
+        "prompt": "What places Moses midway through obeying the command?",
+        "options": [
+          "Two sandals hanging from the staff",
+          "A hand at a strap and one bare foot",
+          "Both sandals fastened on his feet"
+        ],
+        "answer": 1,
+        "explanation": "His crouch beside the sandal captures the act before completion."
+      },
+      {
+        "prompt": "How does the image distinguish the sign of reverence from the shepherd's tool?",
+        "options": [
+          "Sandals and staff both held aloft",
+          "Sandals in hand, staff on the earth",
+          "Sandals below, staff in hand"
+        ],
+        "answer": 2,
+        "explanation": "The removal of the sandals is visible while the staff remains upright."
+      },
+      {
+        "prompt": "What does this depiction add to the instruction to remove the sandals?",
+        "options": [
+          "The shepherd's staff has also been set down",
+          "The cloak has also been hung on a branch",
+          "The flock has also been penned in"
+        ],
+        "answer": 0,
+        "explanation": "A long staff lies by the sandals between Moses and the bush."
+      }
+    ]
+  },
+  "life-moses-7": {
+    "a": [
+      {
+        "prompt": "How can you tell the two brothers are on their way to a meeting?",
+        "options": [
+          "One is going in and the other is going home",
+          "Both are already standing before the king",
+          "Both are walking toward the palace entrance"
+        ],
+        "answer": 2,
+        "explanation": "Their backs face us and the palace is ahead of them."
+      },
+      {
+        "prompt": "Who is the man reaching toward, and how can you tell?",
+        "options": [
+          "Toward the king sitting opposite him",
+          "Toward his brother at his side",
+          "Toward the guard near the entrance"
+        ],
+        "answer": 0,
+        "explanation": "His hand reaches forward toward the king’s seat."
+      },
+      {
+        "prompt": "The king raises his palm toward the brothers. What does that hand seem to say?",
+        "options": [
+          "Come sit beside me",
+          "Stop there",
+          "Come follow me"
+        ],
+        "answer": 1,
+        "explanation": "The palm faces the brothers as if to stop them."
+      },
+      {
+        "prompt": "How can you tell whose answer the brothers are waiting for?",
+        "options": [
+          "Both face Pharaoh",
+          "Both turn toward each other",
+          "Both look at the door"
+        ],
+        "answer": 0,
+        "explanation": "Pharaoh sits opposite them while they stand before him."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What suggests Moses and Aaron are entering a royal court?",
+        "options": [
+          "Shepherds inside tents",
+          "Guards among tall columns",
+          "Fishers beside boats"
+        ],
+        "answer": 1,
+        "explanation": "Their way into the building leads between pillars and guards."
+      },
+      {
+        "prompt": "How can you distinguish the brother addressing the king from the one accompanying him?",
+        "options": [
+          "They arrived together, so both must be speaking at this moment",
+          "Only one of the two is in the room with the king",
+          "One extends a hand toward the throne and the other stands beside him"
+        ],
+        "answer": 2,
+        "explanation": "Gesture and stance distinguish the figures at that moment."
+      },
+      {
+        "prompt": "What changes when it is Pharaoh's turn to respond?",
+        "options": [
+          "He steps down to meet them",
+          "His palm is raised toward the visitors",
+          "They sit down beside him"
+        ],
+        "answer": 1,
+        "explanation": "The king stays on his throne and raises a hand toward the pair."
+      },
+      {
+        "prompt": "What helps you see who has the power to answer the request?",
+        "options": [
+          "Pharaoh sits above the standing visitors",
+          "Everyone sits in a single circle",
+          "The visitors sit on the throne steps"
+        ],
+        "answer": 0,
+        "explanation": "The raised throne makes the king's position clear."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How does the brothers’ position relative to the viewer create anticipation of an answer not yet heard?",
+        "options": [
+          "We sit with Pharaoh and see their faces as they petition",
+          "We watch them leave the hall after the reply",
+          "We see their backs and look toward the hall with them"
+        ],
+        "answer": 2,
+        "explanation": "The direction of travel draws the viewer into the start of the royal audience."
+      },
+      {
+        "prompt": "How is the speaker distinguished from his companion before the throne?",
+        "options": [
+          "He climbs up to sit by Pharaoh",
+          "He turns his back on the throne",
+          "He extends a hand toward Pharaoh"
+        ],
+        "answer": 2,
+        "explanation": "The gesture leads from the visitors toward the king."
+      },
+      {
+        "prompt": "What supports reading Pharaoh's hand as a gesture to stop?",
+        "options": [
+          "His open palm faces the people before him",
+          "His hand passes them something",
+          "His hand rests on a visitor's shoulder"
+        ],
+        "answer": 0,
+        "explanation": "The raised palm appears between ruler and visitors."
+      },
+      {
+        "prompt": "What do the distance and different heights suggest about the meeting?",
+        "options": [
+          "The three hold a conversation as equals",
+          "The pair petition someone in authority",
+          "Pharaoh seeks permission from the pair"
+        ],
+        "answer": 1,
+        "explanation": "The visitors stand before the throne steps while Pharaoh sits above them."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Does this view already show Pharaoh’s refusal, or only the approach to the audience? What decides the question?",
+        "options": [
+          "The envoys’ backs and the entrance ahead of them depict the approach",
+          "The columns suffice to identify the instant of the straw decree",
+          "The guards suffice to establish that the speakers have already been dismissed"
+        ],
+        "answer": 0,
+        "explanation": "The palace locates the episode, while the direction of travel locates this frame within it."
+      },
+      {
+        "prompt": "What makes the extended hand an appeal to a distant authority?",
+        "options": [
+          "Visitor and king share a seat",
+          "Floor space and steps separate it from the throne",
+          "The hand already touches the crown"
+        ],
+        "answer": 1,
+        "explanation": "The hand reaches across an open space toward an elevated throne."
+      },
+      {
+        "prompt": "Which reading of Pharaoh's response rests on a visible gesture?",
+        "options": [
+          "An outward palm suggests refusal",
+          "A removed crown suggests surrender",
+          "Clasped hands suggest agreement"
+        ],
+        "answer": 0,
+        "explanation": "Pharaoh remains seated with his palm raised toward the standing pair."
+      },
+      {
+        "prompt": "How does the scene distinguish the right to appeal from the power to decide?",
+        "options": [
+          "The king rises and gives them his place",
+          "The petitioners grasp the arms of the throne",
+          "The petitioners stand facing the ruler's raised palm"
+        ],
+        "answer": 2,
+        "explanation": "The distance, throne height and direction of the hand emphasize who controls the answer."
+      }
+    ]
+  },
+  "life-moses-3": {
+    "a": [
+      {
+        "prompt": "Why has the family put some belongings on the donkey?",
+        "options": [
+          "So it can help carry them on the journey",
+          "So it can guard them at home",
+          "So the children can ride in their place"
+        ],
+        "answer": 0,
+        "explanation": "The donkey is walking with the family and carrying bundles."
+      },
+      {
+        "prompt": "The gate is behind the man and his stick is in his hand. Which way is he going?",
+        "options": [
+          "Back toward the gate",
+          "Into the house behind him",
+          "Away from the city"
+        ],
+        "answer": 2,
+        "explanation": "The man is moving ahead with the gate behind him."
+      },
+      {
+        "prompt": "The children hold bundles. How are they helping on the road?",
+        "options": [
+          "They take the bundles back home",
+          "They carry some of the family’s things",
+          "They wait for someone to collect them"
+        ],
+        "answer": 1,
+        "explanation": "The children share the carrying as the family walks."
+      },
+      {
+        "prompt": "How can you tell the children and the animals are leaving on the same journey?",
+        "options": [
+          "The children walk on while the animals stay at the gate",
+          "They are walking together on the same path",
+          "The animals head the other way"
+        ],
+        "answer": 1,
+        "explanation": "Both the walkers and the animals are heading away from the city."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "What at the moment of leaving the house suggests travel with supplies rather than a short walk by the door?",
+        "options": [
+          "The doorway is behind them",
+          "The people leaving carry wrapped belongings",
+          "They walk side by side"
+        ],
+        "answer": 1,
+        "explanation": "The bundles taken along indicate preparation to leave."
+      },
+      {
+        "prompt": "What shows the families are already on the move?",
+        "options": [
+          "They tie bundles inside a house",
+          "They unpack in a camp",
+          "They carry belongings with the gate behind them"
+        ],
+        "answer": 2,
+        "explanation": "The group is moving away from the gate with its goods."
+      },
+      {
+        "prompt": "Who joins the adults leaving Egypt?",
+        "options": [
+          "Only mounted escorts",
+          "Only armed guards",
+          "Children and travelling animals"
+        ],
+        "answer": 2,
+        "explanation": "Children walk among families beside loaded animals."
+      },
+      {
+        "prompt": "What in the background suggests where the group has come from?",
+        "options": [
+          "Egyptian statues and gateways",
+          "Tents around a well",
+          "Boats across a river"
+        ],
+        "answer": 0,
+        "explanation": "The Egyptian monuments stand behind the departing group."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "What do the belongings on the figures add that turns a doorway scene into evidence of leaving home?",
+        "options": [
+          "The bundles alone reveal how long the journey will take",
+          "The direction of the doorway alone proves the whole city is emptying",
+          "They are taking bundles for travel"
+        ],
+        "answer": 2,
+        "explanation": "The act of leaving is coupled with the load the family takes along."
+      },
+      {
+        "prompt": "What links a household's departure to a people's departure?",
+        "options": [
+          "One family packs in a closed room",
+          "Many families pass through the same gate",
+          "The elder walks alone beside a wall"
+        ],
+        "answer": 1,
+        "explanation": "A line of other families stretches behind those in front."
+      },
+      {
+        "prompt": "What anchors the direction of the exodus in the picture?",
+        "options": [
+          "Egyptian monuments behind and a leader's staff ahead",
+          "Identical gates at both ends of the road",
+          "The donkey turns back alone to the city"
+        ],
+        "answer": 0,
+        "explanation": "The line extends from the monuments toward the man leading the walkers."
+      },
+      {
+        "prompt": "How does the artist depict an entire community on the move?",
+        "options": [
+          "Different generations carry goods and lead livestock",
+          "A lone messenger walks before a wall",
+          "A troop of soldiers without baggage"
+        ],
+        "answer": 0,
+        "explanation": "Children, livestock and baggage travel with the rest of the crowd."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "What in the foreground locates the departure at a household threshold?",
+        "options": [
+          "An elder sets a jar down by a well",
+          "A guard raises a city barrier",
+          "A woman and child emerge with a bundle"
+        ],
+        "answer": 2,
+        "explanation": "The doorway beside the family ties the start of the journey to the home."
+      },
+      {
+        "prompt": "How does the arrangement of the staff bearer and the other walkers turn a household departure into the movement of a people?",
+        "options": [
+          "The staff’s height alone establishes how many families were counted at the departure",
+          "The man leads in front and the line stretches behind him",
+          "The bundles identify each tribe’s position in the procession"
+        ],
+        "answer": 1,
+        "explanation": "The many walkers and their relation to the leader give the scene its collective character."
+      },
+      {
+        "prompt": "Which pairing supports reading the exodus as a civilian migration?",
+        "options": [
+          "A throne and crown beside a banner",
+          "Children and household goods alongside animals",
+          "Spears and chariots alongside soldiers"
+        ],
+        "answer": 1,
+        "explanation": "Young people, bundles and sheep appear near the front of the crowd."
+      },
+      {
+        "prompt": "Which relationship between setting and figures conveys a break with Egypt?",
+        "options": [
+          "The monuments are left behind the walkers",
+          "The line converges on the temple steps",
+          "The crowd shelters inside city buildings"
+        ],
+        "answer": 0,
+        "explanation": "The movement carries people and animals away from the great statues."
+      }
+    ]
+  },
+  "life-moses-4": {
+    "a": [
+      {
+        "prompt": "The water used to block the way. What has changed in the middle of the picture?",
+        "options": [
+          "Water now covers the path too",
+          "The two walls of water meet again",
+          "A path can be seen between the waters"
+        ],
+        "answer": 2,
+        "explanation": "The water on either side leaves ground showing between it."
+      },
+      {
+        "prompt": "Why do the families walk down the middle instead of along a side?",
+        "options": [
+          "The water is deeper in the middle",
+          "There is ground in the middle and water on the sides",
+          "Dry land is visible only on the sides"
+        ],
+        "answer": 1,
+        "explanation": "The families can walk where the ground has been uncovered."
+      },
+      {
+        "prompt": "If you follow the man with the staff, where will you go?",
+        "options": [
+          "Onto the path between the waters",
+          "Back to the shore they left",
+          "Into the water beside the path"
+        ],
+        "answer": 0,
+        "explanation": "The group is crossing the open path beside Moses."
+      },
+      {
+        "prompt": "Which order fits what happened here?",
+        "options": [
+          "The people cross and then the path opens",
+          "The water closes and then the people enter",
+          "A path opens and then the people walk on it"
+        ],
+        "answer": 2,
+        "explanation": "People are already inside the passage that opened between the waters."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "How can you tell the passage opened within the sea rather than on a shore beside it?",
+        "options": [
+          "The way looks bright at the far end",
+          "The ground looks rough close up",
+          "Water stands on both sides of the same strip of ground"
+        ],
+        "answer": 2,
+        "explanation": "Water on both sides distinguishes the passage from an ordinary shore."
+      },
+      {
+        "prompt": "How do families take their belongings through the passage?",
+        "options": [
+          "They carry them on their backs",
+          "They lower them on ropes",
+          "They float them on rafts"
+        ],
+        "answer": 0,
+        "explanation": "Travelling bundles are visible on the walkers' backs."
+      },
+      {
+        "prompt": "What shows the passage is serving a large group?",
+        "options": [
+          "A line of people continues behind the leader",
+          "Two figures wait in a boat",
+          "A single trail of prints lies by the bank"
+        ],
+        "answer": 0,
+        "explanation": "Many more walkers appear beyond the figure in front."
+      },
+      {
+        "prompt": "How does the direction of Moses' hand help the families here?",
+        "options": [
+          "It directs them to swim sideways",
+          "It points along the passage",
+          "It signals them to climb the water"
+        ],
+        "answer": 1,
+        "explanation": "His hand points into the space the families are crossing."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "What does the picture emphasize before the people enter?",
+        "options": [
+          "A scout boat at the edge of the sea",
+          "An exposed road between high waters",
+          "Tracks of a returning caravan"
+        ],
+        "answer": 1,
+        "explanation": "The passage is empty and its floor is visible into the distance."
+      },
+      {
+        "prompt": "How does the viewpoint place us among those crossing?",
+        "options": [
+          "We see them from far above",
+          "We see their backs as they walk into the passage",
+          "We see faces beyond unbroken water"
+        ],
+        "answer": 1,
+        "explanation": "We see the loads on the backs of the people ahead."
+      },
+      {
+        "prompt": "How does the position of the staff in relation to the families turn the scene from a landscape into an act of leadership?",
+        "options": [
+          "The staff bearer is in front, with the group filling the passage behind him",
+          "The staff rises above the people, so it tells us when the wind began",
+          "The families stand in the passage, so they must all carry staffs"
+        ],
+        "answer": 0,
+        "explanation": "The spatial arrangement links leader and movement without depicting the miracle’s entire sequence."
+      },
+      {
+        "prompt": "Which visual detail interprets Moses' role in guiding the crossing?",
+        "options": [
+          "He carries the baggage ahead of him",
+          "He stretches a rope between the banks",
+          "His free arm points along the passage"
+        ],
+        "answer": 2,
+        "explanation": "Alongside the raised staff is a gesture toward the walkers' route."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How does the same strip of ground illustrate crossing on dry land while giving force to the image of water as a wall?",
+        "options": [
+          "Wet ground shows the water returned even before the crossing",
+          "Exposed ground in the middle sets off the upright water at its edges",
+          "The ground’s pale color proves how long the wind blew"
+        ],
+        "answer": 1,
+        "explanation": "Dry ground between two sides of water makes both spatial descriptions legible in one view."
+      },
+      {
+        "prompt": "What shifts attention from the miracle to the effort of crossing?",
+        "options": [
+          "A rolled load on a walker's back",
+          "The height of the water walls",
+          "A flash of light above the clouds"
+        ],
+        "answer": 0,
+        "explanation": "The load is seen close up as its bearer walks away into the passage."
+      },
+      {
+        "prompt": "How is Moses placed relative to those crossing here?",
+        "options": [
+          "He leads them all with his back to us",
+          "He waits alone at the far end",
+          "He stands to the side, directing people inward"
+        ],
+        "answer": 2,
+        "explanation": "The staff and hand flank a line of backs moving away."
+      },
+      {
+        "prompt": "How does the viewpoint change in this image where Moses faces us?",
+        "options": [
+          "We see the people from above without a leader",
+          "We see the people receding ahead of him",
+          "We see the people approaching behind him"
+        ],
+        "answer": 2,
+        "explanation": "Moses is near the viewer and the procession extends behind him between the waters."
+      }
+    ]
+  },
+  "life-moses-8": {
+    "a": [
+      {
+        "prompt": "How can we work out where the grains in the bowl came from?",
+        "options": [
+          "Grains just like them are also on the ground",
+          "There is only sand inside the bowl",
+          "All the grains are still inside the tent"
+        ],
+        "answer": 0,
+        "explanation": "The grains in the bowl match the ones scattered beside it."
+      },
+      {
+        "prompt": "What happened first, and what will happen next to the grains in the hand?",
+        "options": [
+          "They were picked off the ground and will go into a bowl",
+          "They came out of the bowl and will go back on the ground",
+          "They came from the tent and will be scattered"
+        ],
+        "answer": 0,
+        "explanation": "The hand is low by the grains with a bowl beside the gatherers."
+      },
+      {
+        "prompt": "What help would suit the child bending over the manna?",
+        "options": [
+          "Move the bowl away to the tent",
+          "Cover the nearby grains in sand",
+          "Hold a bowl near the gathering hand"
+        ],
+        "answer": 2,
+        "explanation": "The child is picking food off the ground and needs somewhere to put it."
+      },
+      {
+        "prompt": "Children and adults bend down beside bowls. What do those clues tell us?",
+        "options": [
+          "Only the adults gather while the children wait",
+          "They are all helping gather food for the family",
+          "The children are handing out food already cooked"
+        ],
+        "answer": 1,
+        "explanation": "The children’s hands reach down to the food on the ground too."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "A friend thinks the grains grew inside the bowl. Which two details offer a better explanation?",
+        "options": [
+          "The bowl is round and the tent is nearby",
+          "Matching grains are scattered outside and some are already in the bowl",
+          "There is sunlight above and shade beside the bowl"
+        ],
+        "answer": 1,
+        "explanation": "Matching grains in both places suggest they were gathered into the bowl."
+      },
+      {
+        "prompt": "Which route from the ground to a meal is supported by the hands and bowls in the picture?",
+        "options": [
+          "Fill a bowl and pour all of it onto the ground",
+          "Gather a little by hand and collect it in a bowl",
+          "Turn a bowl upside down and wait for it to fill"
+        ],
+        "answer": 1,
+        "explanation": "Fingers pick up separate grains and the bowl holds what has been gathered."
+      },
+      {
+        "prompt": "A child bends for manna and other people have bowls behind him. What conclusion fits both details?",
+        "options": [
+          "The adults wait for the child to collect for everyone",
+          "Only a person holding a bowl can pick up grains",
+          "Several family members take part in gathering"
+        ],
+        "answer": 2,
+        "explanation": "Both the child’s movement and the work around him show people gathering together."
+      },
+      {
+        "prompt": "Can we tell from the picture whether each family gathered the amount it needed?",
+        "options": [
+          "We see gathering, but we need to know how many people will eat",
+          "Yes, counting the pictured bowls is enough",
+          "Yes, each bowl proves an entire tent has enough food"
+        ],
+        "answer": 0,
+        "explanation": "Manna is gathered for the number who will eat, which the number of bowls cannot tell us."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Before the gatherers appear, what already links what lies outside with what will be eaten?",
+        "options": [
+          "The vessel is near a tent, identifying who will eat from it",
+          "The vessel’s size shows exactly how much each person needs",
+          "The same grains appear on the ground and in the vessel"
+        ],
+        "answer": 2,
+        "explanation": "The visual match identifies the food, but neither its quantity nor its ownership is established."
+      },
+      {
+        "prompt": "What shows gathering by hand, and what else would be needed to infer measuring?",
+        "options": [
+          "A bowl fills; any full bowl must equal an omer",
+          "Several people work; their number determines how much was actually gathered",
+          "A hand picks up grains; measuring would require a known measure"
+        ],
+        "answer": 2,
+        "explanation": "Picking is visible, but the amount cannot be quantified without a scale."
+      },
+      {
+        "prompt": "Which conclusion about participation is supported by both the foreground and the background?",
+        "options": [
+          "Each child gathers exactly as much as an adult",
+          "The child gathers as part of work shared by others",
+          "One person measures the ration for every family"
+        ],
+        "answer": 1,
+        "explanation": "The bending figure in front and the gatherers’ bowls behind link an individual action to the camp’s work."
+      },
+      {
+        "prompt": "What aspect of gathering manna is supported by the picture itself?",
+        "options": [
+          "People of different ages take part",
+          "The grains will melt within an hour",
+          "Everyone received exactly the same amount"
+        ],
+        "answer": 0,
+        "explanation": "Adults and children are visible together without a measurement or clock."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "Which observation supports identifying collected food without assigning the bowl the capacity of an omer?",
+        "options": [
+          "The rim lies near the grains and therefore defines their measure",
+          "A match between the scattered grains and those in the vessel",
+          "The vessel is in camp and must therefore be a standard measure"
+        ],
+        "answer": 1,
+        "explanation": "The grains’ appearance identifies the material; a standard volume is not visible."
+      },
+      {
+        "prompt": "Which part of the instruction to gather each day's portion is directly depicted?",
+        "options": [
+          "The act of gathering by hand",
+          "Returning to the site the next day",
+          "Dividing portions among the weekdays"
+        ],
+        "answer": 0,
+        "explanation": "Hands are shown at work in a single moment."
+      },
+      {
+        "prompt": "How can the arrangement suggest instruction and gathering without establishing that portions have been measured?",
+        "options": [
+          "The direction of the gesture shows one vessel holds an omer",
+          "The number kneeling reveals which household received a surplus",
+          "A standing figure’s gesture is set against the kneeling figures’ gathering hands"
+        ],
+        "answer": 2,
+        "explanation": "The postures show roles, not volumes or the outcome of measurement."
+      },
+      {
+        "prompt": "What can the picture support about gathering according to need?",
+        "options": [
+          "Families are collecting food in vessels",
+          "The bowls hold an equal measure per person",
+          "All surplus food has already been set aside"
+        ],
+        "answer": 0,
+        "explanation": "The gatherers and vessels are visible, while individual needs are not measured."
+      }
+    ]
+  },
+  "life-moses-9": {
+    "a": [
+      {
+        "prompt": "A friend is looking for the mountaintop. Why can you see the slope but hardly see the peak?",
+        "options": [
+          "The cloud covers the high part",
+          "The cloud hides the ground below",
+          "Tents surround the peak"
+        ],
+        "answer": 0,
+        "explanation": "The lower slope is visible and the cloud sits on the top."
+      },
+      {
+        "prompt": "The people must approach the mountain and stop at the boundary. Which place fits?",
+        "options": [
+          "The place past the stones, up the slope",
+          "The place at the peak inside the cloud",
+          "The place by the stones on the crowd’s side"
+        ],
+        "answer": 2,
+        "explanation": "The people reached the line of stones and stayed on their side."
+      },
+      {
+        "prompt": "A girl stands behind Moses. How could she see what he is showing her?",
+        "options": [
+          "Look toward the people behind her",
+          "Look where he points while staying behind the boundary",
+          "Run ahead of him and climb the mountain"
+        ],
+        "answer": 1,
+        "explanation": "Moses points toward the mountain, which the crowd can see from where it stands."
+      },
+      {
+        "prompt": "At the sea the people walked along the open path. What is different at this mountain?",
+        "options": [
+          "They cross the mountain behind Moses",
+          "They stay below and look up",
+          "They go back to their tents without looking"
+        ],
+        "answer": 1,
+        "explanation": "The people face the mountain but stay together at its foot."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Which two features separate the gathering place from the focus of the scene?",
+        "options": [
+          "Light and shadow on the same slope",
+          "Two adjoining stones in the same line",
+          "Standing ground below and a peak shrouded in cloud"
+        ],
+        "answer": 2,
+        "explanation": "The open space at the foot of the mountain is separate from the peak marked by cloud."
+      },
+      {
+        "prompt": "How can you see both that the people came to the meeting and that they respect the boundary?",
+        "options": [
+          "They face the mountain and stay behind the stones",
+          "They cross the stones and stop halfway up the slope",
+          "They stay in camp with their backs to the mountain"
+        ],
+        "answer": 0,
+        "explanation": "The way they face shows participation, while the stone line shows where they stop."
+      },
+      {
+        "prompt": "Where does Moses stand, and how does that position help him point out the mountain?",
+        "options": [
+          "Behind the watchers, so they turn away from him",
+          "At the summit, so they see him through the cloud",
+          "In front of the watchers, so they can follow his hand"
+        ],
+        "answer": 2,
+        "explanation": "Moses’ position and his gesture lead the crowd’s gaze toward the mountain."
+      },
+      {
+        "prompt": "The Israelites walked between the waters at the sea. What here explains how their route at Sinai differs?",
+        "options": [
+          "There is open ground, so everyone is about to climb the mountain",
+          "The people gather below a mountain set apart for the meeting",
+          "Moses stands with the people, so the meeting is already over"
+        ],
+        "answer": 1,
+        "explanation": "At the sea a path opens for the people, but at Sinai they attend the meeting from the foot of the mountain."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "Which combination marks a place one can look toward but not see into clearly?",
+        "options": [
+          "Sunlight makes everything on the summit visible",
+          "Light draws attention to the summit while cloud conceals it",
+          "Open ground below hides the summit from viewers"
+        ],
+        "answer": 1,
+        "explanation": "Light and concealment occupy the same point, fitting the encounter’s tension between disclosure and concealment."
+      },
+      {
+        "prompt": "Which evidence presents the boundary as an instruction the people heed as well as a feature of the landscape?",
+        "options": [
+          "The stones form a line and the crowd stops on one side",
+          "Both the stones and the mountain are made of rock",
+          "There are more stones near the watchers than at the summit"
+        ],
+        "answer": 0,
+        "explanation": "A line alone could be scenery; the crowd’s position in relation to it gives it a function."
+      },
+      {
+        "prompt": "How does Moses’ position make him both part of the people and a mediator between them and the mountain?",
+        "options": [
+          "He is above the cloud and can see both camps",
+          "He faces the people and his back hides the mountain from them",
+          "He stands on their side but directs their gaze toward the mountain"
+        ],
+        "answer": 2,
+        "explanation": "His position places him with the crowd, and his gesture links them to the distant focus."
+      },
+      {
+        "prompt": "What distinguishes evidence that the people keep their distance from evidence of why they do so?",
+        "options": [
+          "The distance is visible, but the fear and the instruction come from the account",
+          "The distance proves that everyone feels the same fear",
+          "Everyone facing the mountain must want to climb it"
+        ],
+        "answer": 0,
+        "explanation": "The gap shows where people stand; an emotional response and an instruction also require reading the text."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How do the foreground stones and the cloud at the summit give form to two kinds of limit?",
+        "options": [
+          "They mark two permissible routes of ascent",
+          "One suggests a limit on movement and the other on sight",
+          "One marks the place of speech and the other the horn’s volume"
+        ],
+        "answer": 1,
+        "explanation": "The stones divide the space while the cloud obscures the view even from below."
+      },
+      {
+        "prompt": "What belongs to the wording of the command to set bounds, and what belongs to the illustrator’s choice?",
+        "options": [
+          "The boundary is prescribed; the line of stones is its pictorial realization",
+          "The text prescribes a line of stones; distance from the mountain is added by the artist",
+          "Both the number of stones and each spectator’s position are fixed by the command"
+        ],
+        "answer": 0,
+        "explanation": "The command sets a limit without specifying a row of stones like the one depicted."
+      },
+      {
+        "prompt": "How does Moses’ gesture connect the viewer’s position with the mediating role assigned to him?",
+        "options": [
+          "The viewer stands at the summit and sees Moses only through the crowd’s eyes",
+          "The viewer’s eye passes from the people through Moses toward the mountain",
+          "Moses and the people turn away from the mountain, isolating it from view"
+        ],
+        "answer": 1,
+        "explanation": "The gesture establishes a visual link between the two spaces without reproducing speech."
+      },
+      {
+        "prompt": "Which aspect of the Sinai event can the illustration convey directly?",
+        "options": [
+          "The exact words uttered at that moment",
+          "The volume each person heard",
+          "The crowd's distance and the cloud before its eyes"
+        ],
+        "answer": 2,
+        "explanation": "The crowd's position, Moses' hand and the cloud provide visual evidence."
+      }
+    ]
+  },
+  "life-moses-5": {
+    "a": [
+      {
+        "prompt": "If you were in the crowd, how could you tell which man Moses was introducing?",
+        "options": [
+          "He stands the man beside him and gestures toward him",
+          "He faces the crowd with everyone behind him",
+          "He has everyone in the crowd stand beside him"
+        ],
+        "answer": 0,
+        "explanation": "The chosen man stands beside Moses where the crowd can see him."
+      },
+      {
+        "prompt": "Joshua was standing beside Moses before. What changes when Moses gives him the role?",
+        "options": [
+          "Moses bows his head and Joshua lays a hand on him",
+          "Both turn and lay a hand on the priest",
+          "Joshua bows his head and Moses lays a hand on him"
+        ],
+        "answer": 2,
+        "explanation": "Moses’ hand on Joshua shows the people whom he is giving the role to."
+      },
+      {
+        "prompt": "Joshua kneels and everyone watches. Why do this where the people can see?",
+        "options": [
+          "So only Joshua knows about the role",
+          "So the people know whom to follow",
+          "So each person can pick a different leader"
+        ],
+        "answer": 1,
+        "explanation": "When Moses gives Joshua the role in public, everyone knows the next leader."
+      },
+      {
+        "prompt": "A friend arrives after the ceremony. What can the people who stood around tell her?",
+        "options": [
+          "We saw Joshua give Moses the job of leading",
+          "We saw the crowd give Joshua the role without Moses",
+          "We saw Moses show everyone that Joshua would lead after him"
+        ],
+        "answer": 2,
+        "explanation": "By laying a hand on Joshua in public, Moses shows the people who will lead after him."
+      }
+    ],
+    "b": [
+      {
+        "prompt": "Who presents and who is presented? What distinguishes them even before the laying on of hands?",
+        "options": [
+          "The staff bearer gestures toward the man beside him before the crowd",
+          "The man beside Moses speaks alone while Moses withdraws",
+          "The crowd points out two candidates standing far away"
+        ],
+        "answer": 0,
+        "explanation": "The staff identifies Moses and his gesture directs attention to Joshua."
+      },
+      {
+        "prompt": "A friend says Joshua is giving Moses the role. Which pair of details shows it is the other way around?",
+        "options": [
+          "Both are in the middle and the priest stands nearby",
+          "Moses extends his hands and Joshua bows his head",
+          "The crowd and Joshua are looking toward Moses"
+        ],
+        "answer": 1,
+        "explanation": "The hands reach from the one appointing to the head of the man being appointed."
+      },
+      {
+        "prompt": "What in the scene distinguishes a private blessing from the public choice of a leader?",
+        "options": [
+          "The assembly surrounds Joshua and watches the act",
+          "Joshua kneels while Moses touches him",
+          "Moses and Joshua are close to each other"
+        ],
+        "answer": 0,
+        "explanation": "A private blessing could include touch too, but here the people witness the appointment."
+      },
+      {
+        "prompt": "If someone claims Joshua received his role in secret, which evidence would help test the claim?",
+        "options": [
+          "Joshua is near Moses and can hear him",
+          "Moses draws near to Joshua carrying a staff",
+          "People stand facing Moses and see his hand on Joshua"
+        ],
+        "answer": 2,
+        "explanation": "The direction of the onlookers’ gaze and the position of the hand together show witnesses to the appointment."
+      }
+    ],
+    "teen": [
+      {
+        "prompt": "How can you distinguish presenting a candidate from his actually leading, and which does this image depict?",
+        "options": [
+          "Joshua stands near Moses and is therefore already leading the journey alone",
+          "Moses gestures toward the man before the crowd; Joshua is not yet leading them",
+          "The people look at both men, so they have identical roles as leaders"
+        ],
+        "answer": 1,
+        "explanation": "Presentation before the community is visible here; Joshua’s leadership belongs to what follows."
+      },
+      {
+        "prompt": "What do this gesture and Moses’ petition on the people’s behalf share, and how do they differ?",
+        "options": [
+          "Both ask the crowd to choose someone else instead of Joshua",
+          "Both provide for continuing leadership; the hand gives the petition public expression",
+          "The petition presents Joshua to witnesses, and the gesture is between Moses and God alone"
+        ],
+        "answer": 1,
+        "explanation": "The petition opens the episode; the visible contact with Joshua puts the appointment into effect."
+      },
+      {
+        "prompt": "What turns Joshua’s kneeling from an encounter between two people into an act that the whole assembly witnesses?",
+        "options": [
+          "The onlookers’ gazes converge where Moses and Joshua meet",
+          "Joshua is lower than Moses at the moment of contact",
+          "Moses extends one or more hands toward Joshua’s head"
+        ],
+        "answer": 0,
+        "explanation": "Posture and touch show the action; the gazes establish to whom it is made visible."
+      },
+      {
+        "prompt": "How can the picture address the claim that the priest appoints Joshua in Moses’ place?",
+        "options": [
+          "Infer that the one wearing distinctive clothes must also carry out the appointment",
+          "Infer that Moses merely watches because the assembly stands behind him too",
+          "Distinguish the priest’s presence from Moses’ hands on Joshua"
+        ],
+        "answer": 2,
+        "explanation": "A recognizable witness can take part in the ceremony without being the one who lays on hands."
+      }
+    ],
+    "c": [
+      {
+        "prompt": "How do the pictured spectators and the command in Numbers 27 distinguish two readings of Joshua standing beside Moses?",
+        "options": [
+          "A public presentation as a stage in appointment, beyond mere closeness between teacher and pupil",
+          "Proof of immediately equal authority because the two stand at the same height",
+          "Proof that the assembly chose Joshua because it stands before him"
+        ],
+        "answer": 0,
+        "explanation": "The command to present him before the assembly gives the onlookers a function not explained by personal closeness alone."
+      },
+      {
+        "prompt": "The breastpiece helps identify Eleazar. Which conclusion about his authority also requires the text?",
+        "options": [
+          "That his dress distinguishes him from the surrounding people",
+          "That he will seek judgment by the Urim for Joshua",
+          "That he stands near Moses during the appointment"
+        ],
+        "answer": 1,
+        "explanation": "The garment identifies a priest; his role in consulting the Urim for Joshua is stated in Numbers 27:21."
+      },
+      {
+        "prompt": "How does the image arrange the sightlines of a public appointment, and what does that leave unproved?",
+        "options": [
+          "Joshua sees only Moses, so the appointment is concealed from the community",
+          "The crowd surrounds them, so each member participates in laying on hands",
+          "The people can see Joshua and Moses; their unanimous consent is not depicted"
+        ],
+        "answer": 2,
+        "explanation": "“Before the whole assembly” describes visibility; witnessing is distinct from voting or performing the act."
+      },
+      {
+        "prompt": "Which distribution of roles fits both the hands visible here and the sequence of instructions in Numbers 27?",
+        "options": [
+          "The assembly designates Joshua, the priest lays hands on him, and Moses watches",
+          "Moses alone chooses, the assembly lays hands, and the priest receives a later report",
+          "God designates Joshua, Moses lays hands on him, and the priest and assembly are present"
+        ],
+        "answer": 2,
+        "explanation": "The text establishes who gives the instruction, while gesture and witnesses show its execution."
+      }
+    ]
+  }
+}

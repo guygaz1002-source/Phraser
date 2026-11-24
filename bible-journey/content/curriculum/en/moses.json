@@ -1,0 +1,1784 @@
+{
+  "life-moses-1": {
+    "a": {
+      "picturePrompt": "Which story happens among the reeds by the water?",
+      "bonuses": [
+        {
+          "prompt": "Where did the basket rest?",
+          "options": [
+            "By the river",
+            "On a roof",
+            "On a hill"
+          ],
+          "answer": 0,
+          "explanation": "The basket rested in the reeds at the water’s edge."
+        },
+        {
+          "prompt": "What did Moses’ sister do by the river?",
+          "options": [
+            "Went fishing",
+            "Watched him",
+            "Filled a jug"
+          ],
+          "answer": 1,
+          "explanation": "She stayed where she could see what happened to him."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What did Pharaoh’s daughter see when she opened the basket?",
+          "options": [
+            "A sleeping bird",
+            "A crying baby",
+            "A little fish",
+            "An empty blanket"
+          ],
+          "answer": 1,
+          "explanation": "She opened the basket and heard the baby cry."
+        },
+        {
+          "prompt": "The baby needed milk. Why did his sister call their mother?",
+          "options": [
+            "To mend the basket",
+            "To collect reeds",
+            "To feed him",
+            "To catch a fish"
+          ],
+          "answer": 2,
+          "explanation": "His mother could give him milk."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which story begins with a little woven basket among the reeds?",
+      "bonuses": [
+        {
+          "prompt": "Which plant supplied material for the basket?",
+          "options": [
+            "Papyrus",
+            "Cedar",
+            "Olive"
+          ],
+          "answer": 0,
+          "explanation": "Papyrus grows beside water and was used to make the basket."
+        },
+        {
+          "prompt": "Why coat a basket that will sit in the Nile?",
+          "options": [
+            "To make it heavier",
+            "To keep water out",
+            "To help it catch fish"
+          ],
+          "answer": 1,
+          "explanation": "The coating filled gaps where water could seep in."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which action allowed Moses’ mother to care for him again?",
+          "options": [
+            "His sister offered to find a nurse",
+            "His mother asked Pharaoh for work",
+            "A servant followed the basket home",
+            "The princess visited every house"
+          ],
+          "answer": 0,
+          "explanation": "The sister offered to fetch someone to nurse him, then fetched his mother."
+        },
+        {
+          "prompt": "The basket keeps water out. What other danger does the baby still face?",
+          "options": [
+            "The reeds cannot grow near the river",
+            "The river has already dried up",
+            "No one can lift a papyrus basket",
+            "Pharaoh has given an order against Hebrew boys"
+          ],
+          "answer": 3,
+          "explanation": "The waterproof basket helps the baby stay dry. He also needs someone willing to protect him from the king’s order."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which rescue at the Nile begins with the two clues in the picture, reeds and woven papyrus?",
+      "bonuses": [
+        {
+          "prompt": "What does Pharaoh’s daughter say about the baby when she opens the basket?",
+          "options": [
+            "He is one of the Hebrew children",
+            "His mother must live in the palace",
+            "His sister must have put him there"
+          ],
+          "answer": 0,
+          "explanation": "She identifies the child as Hebrew. The story does not say how she knew."
+        },
+        {
+          "prompt": "At what point does the boy become the son of Pharaoh’s daughter?",
+          "options": [
+            "As soon as his sister spots the basket",
+            "After his mother has nursed him and brought him back",
+            "Before Pharaoh’s daughter opens the basket"
+          ],
+          "answer": 1,
+          "explanation": "The story distinguishes the time his mother nurses him from his later life as the princess’s son."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What do readers know about the nurse that the sister leaves out of her offer?",
+          "options": [
+            "She is the child’s own mother",
+            "She has already spoken to Pharaoh",
+            "She gave the baby his name",
+            "She is a servant of the princess"
+          ],
+          "answer": 0,
+          "explanation": "The sister offers to find a Hebrew nurse. The narrator tells us that she calls the child’s mother."
+        },
+        {
+          "prompt": "Why does it matter that the woman who saves a Hebrew boy belongs to Pharaoh’s own household?",
+          "options": [
+            "Only the king’s household knows the child’s name",
+            "Her father has sent her to find this child",
+            "The king has already withdrawn his decree",
+            "The king’s own daughter keeps alive a child threatened by his decree"
+          ],
+          "answer": 3,
+          "explanation": "The danger comes from Pharaoh’s decree, but the rescue comes from inside his own family."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which episode in Exodus 2 is suggested by the woven material and the riverbank?",
+      "bonuses": [
+        {
+          "prompt": "How long did Moses’ mother hide him before making the basket?",
+          "options": [
+            "Three months",
+            "Forty days",
+            "Seven weeks"
+          ],
+          "answer": 0,
+          "explanation": "Exodus 2:2 gives a period of three months."
+        },
+        {
+          "prompt": "Who first sees the basket, and who is sent to fetch it?",
+          "options": [
+            "His sister sees it and sends the maid",
+            "Pharaoh’s daughter sees it and sends her maid",
+            "The maid sees it and sends his sister"
+          ],
+          "answer": 1,
+          "explanation": "Exodus 2:5 distinguishes the princess who notices the basket from the maid she sends."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Who offers wages to whom in the conversation at the Nile?",
+          "options": [
+            "The princess to the sister for finding a nurse",
+            "The princess to the baby’s mother for nursing",
+            "The sister to the nurse for taking the baby",
+            "The princess to the maid for fetching the basket"
+          ],
+          "answer": 1,
+          "explanation": "The offer lets the baby’s own mother care for him as the princess’s paid nurse."
+        },
+        {
+          "prompt": "Which part of Pharaoh’s decree is echoed most directly in the princess’s explanation of the name Moses?",
+          "options": [
+            "The command to the midwives becomes an offer to a nurse",
+            "The order given to the people becomes an order to a maid",
+            "The water meant for death becomes the place of rescue",
+            "The distinction between sons and daughters shapes the adoption"
+          ],
+          "answer": 2,
+          "explanation": "The king invokes the Nile, and his daughter explains the name through drawing the child from water."
+        }
+      ]
+    }
+  },
+  "life-moses-6": {
+    "a": {
+      "picturePrompt": "A water jar sits beside a well. In which story does Moses help the shepherd girls?",
+      "bonuses": [
+        {
+          "prompt": "Where did Moses sit in Midian?",
+          "options": [
+            "Under a bridge",
+            "By a tent door",
+            "Beside a well"
+          ],
+          "answer": 2,
+          "explanation": "Moses sat beside a well where people drew water."
+        },
+        {
+          "prompt": "The daughters want the flock to drink. What must happen before the sheep can drink from the trough?",
+          "options": [
+            "Water from the well must go into the trough",
+            "The trough must be emptied back into the well",
+            "The sheep must be led away from the spot"
+          ],
+          "answer": 0,
+          "explanation": "Water comes up from the well and goes into the trough where the sheep drink."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Other shepherds pushed the girls aside. What did Moses do next?",
+          "options": [
+            "Led the flock away",
+            "Helped them water the flock",
+            "Covered the well",
+            "Went home to eat"
+          ],
+          "answer": 1,
+          "explanation": "Moses stood up for the girls and watered their animals."
+        },
+        {
+          "prompt": "Their father heard how Moses had helped. Why did he invite him to eat?",
+          "options": [
+            "To send the flock away",
+            "To measure the well",
+            "To welcome the stranger",
+            "To choose a new king"
+          ],
+          "answer": 2,
+          "explanation": "He welcomed the person who had helped his daughters."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which event in Midian do the water and the thirsty flock bring to mind?",
+      "bonuses": [
+        {
+          "prompt": "What had the daughters come to the well to do?",
+          "options": [
+            "Wash clothes for Pharaoh",
+            "Draw water for a feast",
+            "Water their father’s flock"
+          ],
+          "answer": 2,
+          "explanation": "They filled the troughs for the flock."
+        },
+        {
+          "prompt": "What made their father ask about their day?",
+          "options": [
+            "They returned earlier than usual",
+            "They brought back a different flock",
+            "They carried an empty water jug"
+          ],
+          "answer": 0,
+          "explanation": "Their early return prompted him to ask what had happened."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How do we know Moses did more than chase away the shepherds?",
+          "options": [
+            "The daughters say he also drew water",
+            "He took the shepherds’ staffs home",
+            "Their father gave him a new bucket",
+            "The flock followed him back to Egypt"
+          ],
+          "answer": 0,
+          "explanation": "The daughters describe both his rescue and the water he drew for their flock."
+        },
+        {
+          "prompt": "What changes for Moses between arriving at the well and eating with the family?",
+          "options": [
+            "A prince takes command of Midian",
+            "A shepherd agrees to leave the country",
+            "A brother returns to his childhood home",
+            "A stranger finds people willing to welcome him"
+          ],
+          "answer": 3,
+          "explanation": "At first Moses is alone in a new land. The family offers him a place with them."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which encounter after Moses fled Egypt do the jar and the mouth of the well suggest?",
+      "bonuses": [
+        {
+          "prompt": "Whose flock do the daughters say Moses watered?",
+          "options": [
+            "The shepherds’ flock",
+            "A flock that Moses brought from Egypt",
+            "Their father’s flock"
+          ],
+          "answer": 2,
+          "explanation": "The daughters had come for their father’s animals. Moses finished the task after the shepherds drove them away."
+        },
+        {
+          "prompt": "The daughters return early and their father asks why. Which action in their report explains how Moses saved them time?",
+          "options": [
+            "He also drew water and watered the flock",
+            "He sat by the well after arriving in Midian",
+            "He waited until the daughters returned to their father"
+          ],
+          "answer": 0,
+          "explanation": "Taking on the work of watering explains the early return the father noticed."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Reuel asks his daughters why they left the man behind. What does he ask them to do about it?",
+          "options": [
+            "Call him to share a meal",
+            "Send him after the shepherds",
+            "Ask him to fetch more water",
+            "Lead his flock to another well"
+          ],
+          "answer": 0,
+          "explanation": "Reuel turns the daughters’ report of help received into an invitation for the stranger."
+        },
+        {
+          "prompt": "Moses has found a home in Midian. What does naming his son Gershom add to that ending?",
+          "options": [
+            "Moses thinks Midian and Egypt are the same country",
+            "Moses has forgotten his life before the well",
+            "The family expects the child to become a shepherd",
+            "A home in Midian can coexist with his memory of being a stranger"
+          ],
+          "answer": 3,
+          "explanation": "When Moses explains the name, he recalls living as a stranger in a foreign land, even after forming a family there."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which episode in Moses’ life outside Egypt does the trough suggest?",
+      "bonuses": [
+        {
+          "prompt": "What name does Exodus 2:18 give the daughters’ father?",
+          "options": [
+            "Jethro",
+            "Gershom",
+            "Reuel"
+          ],
+          "answer": 2,
+          "explanation": "The father is called Reuel in this particular scene."
+        },
+        {
+          "prompt": "How does Moses’ identification change from the narrator’s account to the daughters’ report to their father?",
+          "options": [
+            "The narrator names him; the daughters describe him as an Egyptian man",
+            "The narrator calls him a Midianite; the daughters present him as a Hebrew shepherd",
+            "Both voices identify him by name but disagree on his deed"
+          ],
+          "answer": 0,
+          "explanation": "The daughters’ viewpoint allows them to describe their rescuer without knowing his name."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which experience does Moses explicitly connect with the name Gershom?",
+          "options": [
+            "Escaping Pharaoh’s sword after fleeing Egypt",
+            "Living as a foreigner in another land",
+            "Being welcomed into Reuel’s household",
+            "Defending the daughters at the well"
+          ],
+          "answer": 1,
+          "explanation": "Gershom recalls being a stranger. In Exodus 18 the explanation about escaping Pharaoh’s sword belongs to Eliezer."
+        },
+        {
+          "prompt": "Which parallel between the Nile and the well follows the actions actually narrated?",
+          "options": [
+            "At both watersides a sister brings a parent to the scene",
+            "At both watersides a parent asks Moses to join the family",
+            "The child others rescue later rescues the daughters",
+            "The daughters recognize Moses’ Hebrew origin as the princess did"
+          ],
+          "answer": 2,
+          "explanation": "At the Nile others act on his behalf. In Midian Moses intervenes before the daughters go home and tell their father."
+        }
+      ]
+    }
+  },
+  "life-moses-2": {
+    "a": {
+      "picturePrompt": "Which story do the plant and the light remind you of?",
+      "bonuses": [
+        {
+          "prompt": "Moses is tending the sheep. What happens between walking with the flock and taking off his sandals?",
+          "options": [
+            "He goes back to the sheep after the conversation",
+            "He sees a burning bush and turns toward it",
+            "He sets off for Egypt before seeing the fire"
+          ],
+          "answer": 1,
+          "explanation": "The sight in the bush makes Moses stop and approach."
+        },
+        {
+          "prompt": "What animals was Moses looking after?",
+          "options": [
+            "Donkeys and horses",
+            "Chickens and ducks",
+            "Sheep and goats"
+          ],
+          "answer": 2,
+          "explanation": "Moses was tending a flock when he saw the fire."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The bush kept burning. What did Moses do when he noticed it?",
+          "options": [
+            "Ran to fetch a blanket",
+            "Hid inside a basket",
+            "Turned to look more closely",
+            "Led the flock into the flames"
+          ],
+          "answer": 2,
+          "explanation": "He turned from his path to look at the strange sight."
+        },
+        {
+          "prompt": "God told Moses the ground was holy. Why did Moses take off his sandals there?",
+          "options": [
+            "To show respect for that place",
+            "To cool his feet in a stream",
+            "To shake out some sand",
+            "To get ready for sleep"
+          ],
+          "answer": 0,
+          "explanation": "Taking off his sandals was how Moses showed respect where God spoke to him."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which story do the sandals and the strange light in the bush remind you of?",
+      "bonuses": [
+        {
+          "prompt": "What caught Moses’ eye about the bush?",
+          "options": [
+            "Rain put the fire out",
+            "Fire did not use it up",
+            "The branches turned to stone"
+          ],
+          "answer": 1,
+          "explanation": "The bush burned, yet remained there."
+        },
+        {
+          "prompt": "Why was Moses sent back to Egypt?",
+          "options": [
+            "To lead Jethro’s flock there",
+            "To bring water to Midian",
+            "To bring the Israelites out"
+          ],
+          "answer": 2,
+          "explanation": "God told him to go to Pharaoh and bring the people out of Egypt."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Moses worries that speaking will be hard. What help is offered?",
+          "options": [
+            "Jethro will speak to Pharaoh",
+            "The people will send a letter",
+            "Pharaoh will come to Midian",
+            "Aaron can speak for him"
+          ],
+          "answer": 3,
+          "explanation": "God names Aaron as a speaker who can work alongside his brother."
+        },
+        {
+          "prompt": "What do Moses’ questions and God’s answers suggest about his mission?",
+          "options": [
+            "He accepts only after becoming king",
+            "He can begin despite doubts, with support",
+            "He must do everything by himself",
+            "He already knows exactly what to say"
+          ],
+          "answer": 1,
+          "explanation": "His concerns are heard, and the answers give him promises, signs and a partner."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which encounter connects a sight that makes Moses turn aside with the sandals in the picture?",
+      "bonuses": [
+        {
+          "prompt": "Which sequence explains how a day of shepherding at Horeb becomes a turning point for Moses?",
+          "options": [
+            "Moses hears a call in Egypt, leaves for Horeb and sees the bush",
+            "Moses notices a sight, turns to look and hears a call",
+            "Moses takes off his shoes, leaves the flock and only then sees fire"
+          ],
+          "answer": 1,
+          "explanation": "His interest in the sight precedes the call that changes his path."
+        },
+        {
+          "prompt": "What reason is Moses given for leaving his sandals off at this particular spot?",
+          "options": [
+            "Sandals would put out the fire",
+            "He must leave them for the next shepherd",
+            "The ground where he stands is holy"
+          ],
+          "answer": 2,
+          "explanation": "The instruction explains the gesture by the holiness of the place."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "When Moses asks who he is to go to Pharaoh, what does God’s reply emphasize?",
+          "options": [
+            "Moses has royal authority of his own",
+            "Pharaoh already knows Moses is coming",
+            "The Israelites will lead before him",
+            "God will be with him"
+          ],
+          "answer": 3,
+          "explanation": "God answers Moses’ doubt with a promise of accompaniment."
+        },
+        {
+          "prompt": "At the well a stranger found a place in Midian. What does the call at the bush now ask of that same man?",
+          "options": [
+            "To bring Reuel’s daughters back to the well",
+            "To leave the home he has built and return to the land he fled",
+            "To keep his Egyptian past hidden from Aaron",
+            "To remain in Midian until the Israelites arrive"
+          ],
+          "answer": 1,
+          "explanation": "The refuge Moses found after fleeing Egypt becomes the place from which he must set out for Egypt again."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which revelation in Moses’ journey is evoked here?",
+      "bonuses": [
+        {
+          "prompt": "What distinction between first seeing and deciding to turn aside and look explains the change in Moses’ route?",
+          "options": [
+            "First he sees who calls him and only then notices the fire",
+            "He moves from noticing a sight to intentionally examining it",
+            "In both expressions Moses describes returning to the flock after the inspection"
+          ],
+          "answer": 1,
+          "explanation": "Noticing that the bush is not consumed prompts an intention to examine the sight."
+        },
+        {
+          "prompt": "When does the call by name come in Exodus 3:4?",
+          "options": [
+            "Before Moses has noticed the bush",
+            "After Moses has removed his sandals",
+            "When God sees Moses turn to look"
+          ],
+          "answer": 2,
+          "explanation": "The text places Moses’ turning aside immediately before the call."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How does the sign in Exodus 3:12 differ from the staff sign that follows?",
+          "options": [
+            "It can be recognized only after the people leave Egypt",
+            "Moses can demonstrate it at once before the elders",
+            "It is repeated before Pharaoh by his own magicians",
+            "It confirms the speaker’s identity by changing an object"
+          ],
+          "answer": 0,
+          "explanation": "Worship at the mountain will take place after liberation. The staff, by contrast, can become a visible sign straight away."
+        },
+        {
+          "prompt": "Who initiates Moses’ intervention at the well, and who initiates his return to Egypt at the bush?",
+          "options": [
+            "The daughters ask him to intervene. Aaron sends him back.",
+            "Reuel commissions him. The elders summon him back.",
+            "Moses steps in himself. God sends him back.",
+            "His kinship with the daughters prompts both interventions."
+          ],
+          "answer": 2,
+          "explanation": "At the well Moses acts when he sees the shepherds. At the bush he receives a commission and questions it."
+        }
+      ]
+    }
+  },
+  "life-moses-7": {
+    "a": {
+      "picturePrompt": "Which story do the bricks and palace bring to mind, when Moses asks the king to let the people go?",
+      "bonuses": [
+        {
+          "prompt": "Moses needs to speak to the king. How does Aaron help him in the story?",
+          "options": [
+            "He comes to the king with him",
+            "He stays at the palace to wait for Moses",
+            "He goes to the king in Moses’ place"
+          ],
+          "answer": 0,
+          "explanation": "The two brothers come together to ask Pharaoh to let the people go."
+        },
+        {
+          "prompt": "Pharaoh stopped giving the workers straw. Why did the work take longer?",
+          "options": [
+            "They had to make the bricks without any straw",
+            "They had to find straw as well as make bricks",
+            "They waited for Pharaoh to make the bricks"
+          ],
+          "answer": 1,
+          "explanation": "They gained a new job before they could make the same bricks."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Pharaoh stopped giving the workers straw. What did they have to do next?",
+          "options": [
+            "Stop making bricks",
+            "Make a new river",
+            "Look for straw themselves",
+            "Move into the palace"
+          ],
+          "answer": 2,
+          "explanation": "Now they had to find the material before making the bricks."
+        },
+        {
+          "prompt": "They still had to make just as many bricks. Why was the work harder?",
+          "options": [
+            "Finding straw took extra time",
+            "The bricks became smaller",
+            "Their baskets became lighter",
+            "They had a longer rest"
+          ],
+          "answer": 0,
+          "explanation": "Looking for supplies was another job on top of their usual work."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which meeting in Moses’ story puts two brothers in front of Egypt’s king?",
+      "bonuses": [
+        {
+          "prompt": "Where did Moses and Aaron ask to celebrate a festival?",
+          "options": [
+            "In the wilderness",
+            "In the palace",
+            "At the Nile docks"
+          ],
+          "answer": 0,
+          "explanation": "They asked Pharaoh to let the people go into the wilderness for the festival."
+        },
+        {
+          "prompt": "How does Pharaoh’s reading of the festival request relate to the change in brickmaking?",
+          "options": [
+            "He sees the request as compensation and lowers the quota",
+            "He sees the request as avoiding work and makes the work harder",
+            "He realizes more straw is needed and delivers it to the workers"
+          ],
+          "answer": 1,
+          "explanation": "Pharaoh treats the request as a sign of idleness and adds the job of collecting straw."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which order made it harder to meet the daily target?",
+          "options": [
+            "Bring your straw and make half as many bricks",
+            "Gather your own straw and make as many bricks",
+            "Use the supplied straw and double the bricks",
+            "Make bricks only when straw is delivered"
+          ],
+          "answer": 1,
+          "explanation": "The amount required stayed the same while a necessary supply was withdrawn."
+        },
+        {
+          "prompt": "A brickmaker now has to look for straw first. Why might fewer bricks be ready by evening?",
+          "options": [
+            "The workers are told to build fewer bricks",
+            "The workers have been given the day off",
+            "The new straw is already waiting beside each worker",
+            "Gathering straw takes time away from making bricks"
+          ],
+          "answer": 3,
+          "explanation": "The workers now have two jobs to fit into the same day."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which early confrontation in Exodus brings two brothers before the ruler who controls the workers?",
+      "bonuses": [
+        {
+          "prompt": "Why does Pharaoh’s question about heeding the Lord already answer the envoys’ claim before work is discussed?",
+          "options": [
+            "They speak in God’s name and he challenges the authority they invoke",
+            "They set a brick quota and he offers to increase it",
+            "They speak only for the workers and he asks to hear Aaron"
+          ],
+          "answer": 0,
+          "explanation": "The initial clash concerns the source of the obligation to release the people."
+        },
+        {
+          "prompt": "What does Pharaoh challenge when he asks why he should listen to this God?",
+          "options": [
+            "The festival’s location in the wilderness",
+            "The authority behind the request",
+            "The brothers’ knowledge of brickmaking"
+          ],
+          "answer": 1,
+          "explanation": "His response questions who has the right to tell him to release the people."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Two workers compare yesterday’s order with today’s. Which difference should they notice?",
+          "options": [
+            "They can stop when the straw runs out",
+            "Finding straw has become part of the workday",
+            "They now spend the whole day gathering and make no bricks",
+            "The overseers now bring more straw than yesterday"
+          ],
+          "answer": 1,
+          "explanation": "The brick target stays in force while the workers have to obtain the straw themselves."
+        },
+        {
+          "prompt": "Who speaks at the meeting, and who immediately bears the cost of Pharaoh’s answer?",
+          "options": [
+            "The elders speak and the shepherds lose their water",
+            "The workers speak and the brothers must supply the straw",
+            "Pharaoh’s daughter speaks and the brickmakers gain a holiday",
+            "The brothers speak and the workers receive a heavier burden"
+          ],
+          "answer": 3,
+          "explanation": "The meeting takes place before the king, but the first consequence is felt where the people make bricks."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which confrontation in Exodus 5 links the workers’ bricks in the foreground to the palace behind them?",
+      "bonuses": [
+        {
+          "prompt": "How is the scope of “let my people go” narrowed in the further formulation in Exodus 5:3?",
+          "options": [
+            "By specifying three days’ journey to make a sacrifice",
+            "By asking to reduce the work quota to three days",
+            "By asking to move only some of the workers to another city"
+          ],
+          "answer": 0,
+          "explanation": "The journey’s length and the sacrificial purpose define a specific request within the broader demand."
+        },
+        {
+          "prompt": "Which element of brick production does Pharaoh leave unchanged?",
+          "options": [
+            "The source of straw",
+            "The required output",
+            "The workers’ tasks"
+          ],
+          "answer": 1,
+          "explanation": "The quota stays in place while responsibility for obtaining straw shifts."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which purpose does Pharaoh give for heavier labor in Exodus 5:9?",
+          "options": [
+            "Keeping the growing people from joining an enemy",
+            "Replacing the straw lost when workers stopped making bricks",
+            "Turning workers away from words he considers false",
+            "Punishing the foremen for failing to meet yesterday’s quota"
+          ],
+          "answer": 2,
+          "explanation": "Pharaoh explains the new order as a way to stop the people listening. Fear of their joining an enemy belongs to Exodus 1."
+        },
+        {
+          "prompt": "At the bush, God anticipates resistance. Which response at Moses’ first audience bears that out?",
+          "options": [
+            "Pharaoh challenges God’s authority and refuses the festival",
+            "Pharaoh asks for a sign before considering the festival",
+            "Pharaoh permits a sacrifice but limits how far they may go",
+            "Pharaoh releases the men but insists on keeping their families"
+          ],
+          "answer": 0,
+          "explanation": "In Exodus 5 Pharaoh challenges the authority behind the demand. Signs and conditional offers belong to later encounters."
+        }
+      ]
+    }
+  },
+  "life-moses-3": {
+    "a": {
+      "picturePrompt": "The dough is wrapped for the road. In which story do families leave in a hurry?",
+      "bonuses": [
+        {
+          "prompt": "The family must leave now and the dough has not risen. What will they do?",
+          "options": [
+            "Wait at home for it to rise",
+            "Come back for it after the journey",
+            "Wrap it and take it along"
+          ],
+          "answer": 2,
+          "explanation": "They must leave in a hurry, so they take the dough as it is."
+        },
+        {
+          "prompt": "At the first meeting Pharaoh told the people to stay. What has changed now?",
+          "options": [
+            "He tells them to leave",
+            "He asks them to make more bricks",
+            "He sets out in their place"
+          ],
+          "answer": 0,
+          "explanation": "After refusing at first, Pharaoh calls on them to leave Egypt."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened after the families packed their things?",
+          "options": [
+            "They set out together",
+            "They returned to work",
+            "They built a palace",
+            "They planted a field"
+          ],
+          "answer": 0,
+          "explanation": "They gathered their belongings and began the journey."
+        },
+        {
+          "prompt": "Bread dough needs time to rise. Why was their bread flat?",
+          "options": [
+            "They forgot the flour",
+            "They baked it in water",
+            "They ate it before packing",
+            "They had to leave in a hurry"
+          ],
+          "answer": 3,
+          "explanation": "The families left before the dough had time to rise."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which journey begins with families leaving home with their dough still unbaked?",
+      "bonuses": [
+        {
+          "prompt": "How is the order to leave at night connected with the condition of the dough the families take?",
+          "options": [
+            "The families waited for it to rise before leaving",
+            "They received the order only after they had baked bread",
+            "There was no time to wait for it to rise"
+          ],
+          "answer": 2,
+          "explanation": "The haste of the departure explains why the dough has not risen."
+        },
+        {
+          "prompt": "When did Pharaoh summon Moses and Aaron to tell them to go?",
+          "options": [
+            "At night",
+            "At noon",
+            "Late in the afternoon"
+          ],
+          "answer": 0,
+          "explanation": "The permission to leave came during the night."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which detail tells us how quickly the families had to move?",
+          "options": [
+            "They scheduled several rest days",
+            "Their dough had no time to rise",
+            "They planted grain for their return",
+            "They sent a messenger ahead for bread"
+          ],
+          "answer": 1,
+          "explanation": "The dough went with them before the usual waiting time was over."
+        },
+        {
+          "prompt": "How does eating matzah help tell the story of the departure?",
+          "options": [
+            "It marks the place where the people built cities",
+            "It shows the order of the plagues",
+            "A food from that hurried journey can be tasted again",
+            "It counts the years Moses lived in Midian"
+          ],
+          "answer": 2,
+          "explanation": "Flat bread recalls a particular experience of leaving in haste."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "In which departure does the condition of the dough tell us how little time the travelers had?",
+      "bonuses": [
+        {
+          "prompt": "Who receives Pharaoh’s summons on the night the people leave?",
+          "options": [
+            "The daughters of Reuel",
+            "Joshua and Eleazar",
+            "Moses and Aaron"
+          ],
+          "answer": 2,
+          "explanation": "Pharaoh calls the same two brothers who had previously stood before him."
+        },
+        {
+          "prompt": "What can you infer from the unrisen dough beyond the fact that families carried food?",
+          "options": [
+            "The departure order left no time to finish an ordinary preparation",
+            "The families chose to leave before Pharaoh allowed it",
+            "Their next stop was so near that food was unnecessary"
+          ],
+          "answer": 0,
+          "explanation": "The dough’s condition serves as evidence of the pace of departure."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What do the Egyptians’ urgent demands and the unrisen dough help explain together?",
+          "options": [
+            "The people had spent the night baking provisions for the desert",
+            "The families set out before ordinary preparations were finished",
+            "The families had planned a leisurely departure",
+            "Breadmaking was forbidden throughout Egypt"
+          ],
+          "answer": 1,
+          "explanation": "The pressure to go leaves its trace in the food the people take with them."
+        },
+        {
+          "prompt": "At the first audience Pharaoh interrupted the brothers to send people back to work. What is reversed on this night?",
+          "options": [
+            "The brothers now require Pharaoh to make bricks",
+            "Pharaoh now asks Moses for permission to hold a festival",
+            "Pharaoh himself calls the brothers and tells the people to go",
+            "The people return to Egypt so they can finish the bricks"
+          ],
+          "answer": 2,
+          "explanation": "The king who tried to stop the journey is now the one ordering the people to begin it."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which departure does the dough bundled before it could rise recall?",
+      "bonuses": [
+        {
+          "prompt": "What does the explanation that they were driven out of Egypt add to a reading of the unrisen dough?",
+          "options": [
+            "It establishes that the people had no intention of carrying food",
+            "It establishes that preparing the dough began only after reaching Succoth",
+            "It links a material condition with an imposed timetable"
+          ],
+          "answer": 2,
+          "explanation": "Exodus 12 explicitly connects the forced haste with the dough’s failure to rise."
+        },
+        {
+          "prompt": "What is wrapped in clothing and carried on shoulders in Exodus 12:34?",
+          "options": [
+            "Kneading bowls",
+            "Bundles of straw",
+            "The bones of Joseph"
+          ],
+          "answer": 0,
+          "explanation": "The verse describes the dough and the kneading bowls wrapped in clothing."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What reason does the narrator give specifically in Exodus 12:39 for the unleavened cakes?",
+          "options": [
+            "Leaven had to be removed from every house",
+            "The Passover meal had to be eaten that night",
+            "The days of unleavened bread were already prescribed",
+            "Expulsion left the people no time to wait"
+          ],
+          "answer": 3,
+          "explanation": "The chapter also contains ritual instructions. Verse 39 itself explains the state of the dough by the haste of departure."
+        },
+        {
+          "prompt": "Which statement matches Pharaoh’s final order in Exodus 12 rather than an earlier offer?",
+          "options": [
+            "Take your flocks and go worship as you asked",
+            "Sacrifice here without leaving the country",
+            "Go sacrifice but do not travel very far",
+            "Go worship but leave the flocks behind"
+          ],
+          "answer": 0,
+          "explanation": "Earlier offers imposed limits. In Exodus 12:31–32 Pharaoh releases the people and the livestock for the worship he had resisted."
+        }
+      ]
+    }
+  },
+  "life-moses-4": {
+    "a": {
+      "picturePrompt": "The waves seem to block the way. In which story does Moses help the people cross?",
+      "bonuses": [
+        {
+          "prompt": "The people stopped even though they had left Egypt. What stopped them this time?",
+          "options": [
+            "The city gate closed in front of them",
+            "The sea was in front of them",
+            "The road back to Egypt was long"
+          ],
+          "answer": 1,
+          "explanation": "They reached the water before a passage opened in it."
+        },
+        {
+          "prompt": "If you saw Moses stretch out his hand and the sea open, when would it be safe to walk?",
+          "options": [
+            "Before Moses stretched out his hand",
+            "After the water came back over the path",
+            "When there was dry ground between the waters"
+          ],
+          "answer": 2,
+          "explanation": "The people crossed on dry ground with the sea on either side."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "When a dry path appeared, what did the people do?",
+          "options": [
+            "Built a boat",
+            "Walked across",
+            "Went fishing",
+            "Turned back to Egypt"
+          ],
+          "answer": 1,
+          "explanation": "They walked through the sea on dry ground."
+        },
+        {
+          "prompt": "Why did the path matter so much just then?",
+          "options": [
+            "They needed a place to plant wheat",
+            "Their flock had finished drinking",
+            "The sea lay ahead and an army was behind",
+            "They wanted to sail to Egypt"
+          ],
+          "answer": 2,
+          "explanation": "The open path gave the families a way to escape."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which crossing has water on both sides of the people and dry ground beneath their feet?",
+      "bonuses": [
+        {
+          "prompt": "Who was coming up behind the Israelites?",
+          "options": [
+            "Jethro’s flock",
+            "Pharaoh’s army",
+            "The daughters of Midian"
+          ],
+          "answer": 1,
+          "explanation": "The Egyptians pursued the people after their departure."
+        },
+        {
+          "prompt": "Why could the people solve the problem neither by simply turning back nor by walking straight ahead?",
+          "options": [
+            "The water was behind and the army stood ahead",
+            "The army had left but the path was buried in sand",
+            "The Egyptians approached from behind and the sea blocked the front"
+          ],
+          "answer": 2,
+          "explanation": "Understanding the fear requires connecting the position of the pursuers with that of the sea."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which detail shows they did not need boats?",
+          "options": [
+            "They walked on dry ground",
+            "They heard the Egyptians coming",
+            "Moses spoke before they moved",
+            "The people had brought their flocks"
+          ],
+          "answer": 0,
+          "explanation": "The account describes solid ground under their feet."
+        },
+        {
+          "prompt": "Why is the crossing a second rescue even after leaving Egypt?",
+          "options": [
+            "The people had never left their homes",
+            "They had already reached Canaan",
+            "The Egyptians were offering to guide them",
+            "The army could still have caught the people"
+          ],
+          "answer": 3,
+          "explanation": "Leaving ended their stay in Egypt. Crossing beyond the pursuers brought safety from the army."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which event turns the barrier in front of the people into a way out while an army is behind them?",
+      "bonuses": [
+        {
+          "prompt": "Which two dangers make turning back and going forward both seem impossible?",
+          "options": [
+            "The desert heat and a shortage of manna",
+            "The pursuing army and the sea",
+            "The mountain boundary and the sound of the horn"
+          ],
+          "answer": 1,
+          "explanation": "The sea blocks the route ahead while the Egyptians approach from behind."
+        },
+        {
+          "prompt": "What does Moses ask his frightened listeners to do before the crossing?",
+          "options": [
+            "Gather food for the next day",
+            "Build boats for their families",
+            "Stand firm and witness their rescue"
+          ],
+          "answer": 2,
+          "explanation": "Moses’ first words address the people’s fear before a path is visible."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How does the account place Moses’ gesture and the wind in relation to each other?",
+          "options": [
+            "Moses reaches out and the wind drives the sea back through the night",
+            "The wind stops before Moses reaches out for the first time",
+            "Moses reaches out only after everyone is on the far shore",
+            "The wind appears only after the water has returned"
+          ],
+          "answer": 0,
+          "explanation": "The account puts a human gesture at God’s command alongside the wind that blows all night."
+        },
+        {
+          "prompt": "In Egypt, Pharaoh gave permission to leave. What does the pursuit at the sea reveal about that permission?",
+          "options": [
+            "The brothers had never spoken to Pharaoh about leaving",
+            "The people had already reached the land they were promised",
+            "The king had made the people safe by sending soldiers with them",
+            "A ruler’s order to leave had not put the people beyond his army’s reach"
+          ],
+          "answer": 3,
+          "explanation": "Departure and safety are separate turning points: first the people leave Egypt, then they escape its pursuit."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which event in Exodus 14 begins with the sea still barring the people’s way?",
+      "bonuses": [
+        {
+          "prompt": "What does the duration of the wind in Exodus 14:21 add to the brief gesture of stretching out the hand?",
+          "options": [
+            "The stretching of the hand recurs every hour until morning",
+            "The change is also described as a process lasting all night",
+            "The wind begins only after the whole camp has already crossed"
+          ],
+          "answer": 1,
+          "explanation": "The verse pairs a gesture with a strong east wind acting throughout the night."
+        },
+        {
+          "prompt": "What repeated gesture brackets the division and return of the waters?",
+          "options": [
+            "Aaron lifting both hands",
+            "Moses striking the seabed",
+            "Moses stretching out his hand"
+          ],
+          "answer": 2,
+          "explanation": "Moses stretches his hand over the sea first as it divides and again as the waters return."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How does the narrator shift the object of the people’s fear between Exodus 14:10 and 14:31?",
+          "options": [
+            "From the Egyptians to Moses as God’s servant",
+            "From the approaching Egyptians to God",
+            "From Moses’ words to the divided waters",
+            "From God’s power to the pursuing army"
+          ],
+          "answer": 1,
+          "explanation": "The conclusion distinguishes awe of God from the trust the people place in both God and Moses."
+        },
+        {
+          "prompt": "At the Nile, someone acts to bring Moses out of the water. Which detail at the sea most directly reverses his role?",
+          "options": [
+            "He tells the frightened people to stand firm and watch",
+            "The people believe in him after they have crossed",
+            "His outstretched hand makes way for others to cross",
+            "The people ask him why he brought them out of Egypt"
+          ],
+          "answer": 2,
+          "explanation": "The infant is the one rescued from water. At the sea, the gesture Moses is called to make serves others’ rescue."
+        }
+      ]
+    }
+  },
+  "life-moses-8": {
+    "a": {
+      "picturePrompt": "A bowl waits beside the tent. Which story begins when the families go outside to look for breakfast on the ground?",
+      "bonuses": [
+        {
+          "prompt": "A small family and a big family go gathering. Which needs more manna, and why?",
+          "options": [
+            "The bigger family, because more people need to eat",
+            "The smaller family, because fewer people can gather",
+            "Both need exactly one full bowl"
+          ],
+          "answer": 0,
+          "explanation": "In the story the amount depends on how many people will eat."
+        },
+        {
+          "prompt": "On Friday the families gather for the Sabbath too. What can they do on the Sabbath without going out to gather?",
+          "options": [
+            "Wait for everyone to finish gathering on the Sabbath",
+            "Eat some of what they prepared on Friday",
+            "Eat on Sunday in place of the Sabbath"
+          ],
+          "answer": 1,
+          "explanation": "Friday’s extra portion is enough for the day of rest."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "In the morning there was dew. What did the people see after it lifted?",
+          "options": [
+            "Fish swimming past",
+            "Little flakes to gather",
+            "Bricks ready to stack",
+            "Olive trees in bloom"
+          ],
+          "answer": 1,
+          "explanation": "Under the dew lay the fine flakes called manna."
+        },
+        {
+          "prompt": "On the seventh day the people would rest. Why gather extra food the day before?",
+          "options": [
+            "To feed Pharaoh’s horses",
+            "To fill the well",
+            "To have food for the day of rest",
+            "To sell it in Egypt"
+          ],
+          "answer": 2,
+          "explanation": "Gathering ahead meant they could rest and still have enough to eat."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "The empty bowl and the grains outside are clues. Which story explains why the families looked for food near their tents each morning?",
+      "bonuses": [
+        {
+          "prompt": "Two tents gather the same amount, but one has twice as many people. Which instruction helps check the shares?",
+          "options": [
+            "Count the people who will eat in each tent",
+            "Give every tent the same number of grains",
+            "Count only the people who went out to gather"
+          ],
+          "answer": 0,
+          "explanation": "The ration follows the number eating, including people who stayed in the tent."
+        },
+        {
+          "prompt": "Why is keeping manna until tomorrow forbidden on an ordinary day but required on Friday?",
+          "options": [
+            "They eat outside on ordinary days and inside on the Sabbath",
+            "They gather again on an ordinary day and rest on the Sabbath",
+            "Only children go out gathering on Friday"
+          ],
+          "answer": 1,
+          "explanation": "The double portion provides for the day of rest."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened to ordinary leftovers kept overnight?",
+          "options": [
+            "They spoiled",
+            "They doubled in size",
+            "They turned into quail",
+            "They disappeared into the ground"
+          ],
+          "answer": 0,
+          "explanation": "When people kept some against the instruction, it went bad."
+        },
+        {
+          "prompt": "Why does the sixth-day instruction differ from the usual rule?",
+          "options": [
+            "Only smaller households may gather that day",
+            "The people must feed the Egyptian army",
+            "Leftovers are always safer than fresh manna",
+            "Saving that portion makes rest possible the next day"
+          ],
+          "answer": 3,
+          "explanation": "The extra portion kept for the Sabbath gives the people food without gathering."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which episode connects grains beside the tents with an instruction renewed each day?",
+      "bonuses": [
+        {
+          "prompt": "The people question the flakes, and Moses calls them the bread given to them. What changes between the two utterances?",
+          "options": [
+            "An unfamiliar sight becomes understood as food",
+            "Its quantity is measured and then its gathering time is set",
+            "Agreement about its name gives way to debate about cooking it"
+          ],
+          "answer": 0,
+          "explanation": "Moses interprets a sight the people have not yet identified."
+        },
+        {
+          "prompt": "How are gathering according to appetite and the ordinary-day ban on keeping manna overnight connected?",
+          "options": [
+            "Both require an identical amount for each household",
+            "Both instructions direct gathering toward the day’s need",
+            "Both encourage gathering a surplus on the first day"
+          ],
+          "answer": 1,
+          "explanation": "The eaters’ need determines how much to gather, and the storage limit determines for which day."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Two people keep food overnight, one early in the week and one on the sixth day. How would Moses distinguish their actions?",
+          "options": [
+            "Only the second is keeping what the instruction asks the people to save",
+            "Both are disobeying because the weekday rule never changes",
+            "Only the first is following the instruction to prepare for the Sabbath",
+            "Both are told to gather a double portion the following day"
+          ],
+          "answer": 0,
+          "explanation": "Ordinary manna is for that day. On the sixth day the people are told to set some aside for the Sabbath."
+        },
+        {
+          "prompt": "What can the whole community do together because of the extra day’s food?",
+          "options": [
+            "Leave each household to choose a different Sabbath",
+            "Avoid gathering again for the rest of the journey",
+            "Make one family responsible for feeding all the others",
+            "Stop gathering on the same day without going hungry"
+          ],
+          "answer": 3,
+          "explanation": "The extra portion on the sixth day connects food for each household with a day of rest shared by all."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "A bowl and grains suggest food that is not routinely stockpiled. Which episode of ration and test fits both clues?",
+      "bonuses": [
+        {
+          "prompt": "When Exodus speaks of an omer per head and gathering according to need, what determines a tent’s allotment?",
+          "options": [
+            "The number in the tent multiplied by the per-person ration",
+            "The number who actually went out into the field",
+            "The number of vessels in the tent at daybreak"
+          ],
+          "answer": 0,
+          "explanation": "The unit is the person being fed, even when someone else gathers on their behalf."
+        },
+        {
+          "prompt": "Why does the manna’s keeping over the Sabbath matter in light of what happened to ordinary-day leftovers?",
+          "options": [
+            "The account establishes that any surplus in a large household keeps well",
+            "The same act of storage has a different outcome because the portion was set aside by instruction",
+            "This implies all leftovers would have kept if gathered in the morning"
+          ],
+          "answer": 1,
+          "explanation": "The contrast between disobedient leftovers and Sabbath preparation highlights the test of heeding instructions."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What distinguishes the sixth-day reserve from other leftovers in Exodus 16?",
+          "options": [
+            "It fills a jar to be shown to future generations",
+            "It is kept for Sabbath and does not spoil",
+            "It equals one omer for the whole community",
+            "It is gathered before the dew lifts on Sabbath"
+          ],
+          "answer": 1,
+          "explanation": "The reserve for the next day remains edible. The jar kept for future generations serves a different purpose later in the chapter."
+        },
+        {
+          "prompt": "What is the basis of the quantity required in Exodus 5 and the quantity allotted in Exodus 16?",
+          "options": [
+            "The number of brickmakers and each gatherer’s daily output",
+            "The straw available and the size of each family’s reserve",
+            "The previous brick quota and the number eating in each tent",
+            "Each family’s labor and the amount brought in by its fastest gatherer"
+          ],
+          "answer": 2,
+          "explanation": "Pharaoh retains yesterday’s production target. The manna instruction counts the people who are to eat."
+        }
+      ]
+    }
+  },
+  "life-moses-9": {
+    "a": {
+      "picturePrompt": "The camp is below a cloud-covered mountain. In which story do the people stop to listen instead of walking on?",
+      "bonuses": [
+        {
+          "prompt": "When the horn sounds, a child wants to run to the peak. What will the people remind him?",
+          "options": [
+            "To wait for a louder sound and then climb",
+            "To climb first and listen for everyone",
+            "To listen from the place where they may stand"
+          ],
+          "answer": 2,
+          "explanation": "They can hear the horn below, and the boundary around the mountain stays in place."
+        },
+        {
+          "prompt": "The people are afraid to stand near the mountain. How can Moses still help them hear?",
+          "options": [
+            "Listen and tell them the words",
+            "Move the boundary so they can stand higher up",
+            "Send each family to listen on its own"
+          ],
+          "answer": 0,
+          "explanation": "The people ask Moses to speak to them so they can listen."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The people were frightened by what they heard. Who did they ask to speak to them?",
+          "options": [
+            "Pharaoh",
+            "Noah",
+            "Moses",
+            "Jethro"
+          ],
+          "answer": 2,
+          "explanation": "They asked Moses to speak to them and promised to listen."
+        },
+        {
+          "prompt": "On the day of rest, even farm animals get a break. What should a family do with its tired donkey?",
+          "options": [
+            "Give it another sack to carry",
+            "Send it to work in the field",
+            "Lend it to pull a cart",
+            "Let it rest with everyone"
+          ],
+          "answer": 3,
+          "explanation": "The rest Moses taught the people also includes their animals."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which assembly brings together a camp that stays below and a mountain hidden in cloud after the people have crossed the sea?",
+      "bonuses": [
+        {
+          "prompt": "At Sinai there is both a horn and a boundary. Why is the horn alone no instruction to climb?",
+          "options": [
+            "The horn is meant only for people already on the summit",
+            "The horn cancels the boundary as soon as it sounds",
+            "The people gather to listen, and the boundary sets where they stand"
+          ],
+          "answer": 2,
+          "explanation": "Gathering and keeping a boundary are both parts of the same meeting."
+        },
+        {
+          "prompt": "At the sea Moses helps the people cross. At Sinai they are afraid and ask for different help. What is his role this time?",
+          "options": [
+            "To pass on the words he hears",
+            "To lead everyone together to the summit",
+            "To open a path across the line of stones"
+          ],
+          "answer": 0,
+          "explanation": "The people ask Moses to speak to them when the encounter frightens them."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which commandment recalls a rhythm the people already learned with manna?",
+          "options": [
+            "Rest on the seventh day",
+            "Honor your parents",
+            "Do not steal",
+            "Do not bear false witness"
+          ],
+          "answer": 0,
+          "explanation": "Before reaching Sinai, the people had gathered an extra portion so they could rest on the seventh day."
+        },
+        {
+          "prompt": "A child asks whether the rules at Sinai apply only at the mountain. Which rule could the family keep all the way home?",
+          "options": [
+            "Stand at the foot of this mountain",
+            "Honor your parents",
+            "Wait for the sound from this mountain",
+            "Set a boundary around this mountain"
+          ],
+          "answer": 1,
+          "explanation": "Honoring parents is one of the commandments and belongs in everyday life as well."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "At the sea a passage opened. Here cloud rests on the mountain and the people remain below. Which encounter explains the change in how they approach?",
+      "bonuses": [
+        {
+          "prompt": "The people answer the covenant proposal together and later ask Moses to speak to them. How can both be true?",
+          "options": [
+            "The request for mediation cancels their earlier agreement",
+            "Only Moses agrees and the people have no obligation",
+            "They accept a shared obligation and request mediation in hearing"
+          ],
+          "answer": 2,
+          "explanation": "Accepting the covenant and how the people hear its words are distinct matters."
+        },
+        {
+          "prompt": "At the sea the people must move; at Sinai they must respect a boundary. What do these different responses share?",
+          "options": [
+            "In each encounter trust takes the form suited to its particular instruction",
+            "In both encounters trust requires following Moses into danger",
+            "In both the people have to stay where they are until Moses returns"
+          ],
+          "answer": 0,
+          "explanation": "Obedience does not have one fixed gesture: it enables crossing at the sea and includes keeping distance at Sinai."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How do people who work in another person’s household figure in the Sabbath commandment?",
+          "options": [
+            "They too are included in the household’s rest",
+            "They prepare the fields while the family rests",
+            "They may rest only if there is no other work",
+            "Only visitors from another household must rest"
+          ],
+          "answer": 0,
+          "explanation": "The list of those who rest extends beyond the person being addressed to others under that person’s roof."
+        },
+        {
+          "prompt": "Pharaoh had kept the brick quota in force. How does the Sabbath command limit a householder’s power over other people’s work?",
+          "options": [
+            "A householder may raise the quota to make up for the Sabbath",
+            "Even the person in charge must let those who serve the household rest",
+            "Each householder decides whether workers need a Sabbath",
+            "A householder replaces daily needs with a fixed brick quota"
+          ],
+          "answer": 1,
+          "explanation": "In Egypt the ruler demanded continued work. At Sinai the person who directs a household also owes its workers rest."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which encounter in Exodus connects the visible camp, the hidden summit and a command to regulate how closely the people approach?",
+      "bonuses": [
+        {
+          "prompt": "What function does the memory of release from Egypt serve before the covenant proposal in Exodus 19 and the commandments in Exodus 20?",
+          "options": [
+            "Keeping the commandments is made a prior condition of the departure already accomplished",
+            "Both recollections move the setting of revelation back to Egypt",
+            "A deed already accomplished sets the premise for the demand to come"
+          ],
+          "answer": 2,
+          "explanation": "In both openings, an earlier act on Israel’s behalf precedes the claim of obligation."
+        },
+        {
+          "prompt": "How does the covenant condition in Exodus 19:5 differ from the preparations for the third day?",
+          "options": [
+            "Heeding the voice and keeping the covenant are ongoing obligations; the preparations concern the encounter",
+            "Washing garments is the lasting condition, and heeding the voice applies only on the third day",
+            "Keeping distance from the mountain is the whole substance of the covenant for future generations"
+          ],
+          "answer": 0,
+          "explanation": "The verse states a condition of the covenant; the preparations regulate approach at a particular time and place."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which pairing of movement and speech expresses Moses’ mediation after the commandments?",
+          "options": [
+            "The elders climb and ask Moses to relay the covenant terms",
+            "The people stand back and ask Moses to speak to them",
+            "Aaron approaches the cloud and reports the people’s reply",
+            "The people draw near and repeat their promise to obey"
+          ],
+          "answer": 1,
+          "explanation": "The request that Moses speak is followed by the contrast between the distant people and his approach to the thick darkness."
+        },
+        {
+          "prompt": "Which detail at Sinai answers the sign promised to Moses alone in Exodus 3:12?",
+          "options": [
+            "The people hear their own names called twice from the fire",
+            "The elders repeat the signs Moses showed them in Egypt",
+            "The liberated people assemble at the mountain to meet God",
+            "Aaron presents the staff before the cloud at the summit"
+          ],
+          "answer": 2,
+          "explanation": "The sign at the bush looked ahead to serving God at the mountain after the people had been brought out."
+        }
+      ]
+    }
+  },
+  "life-moses-5": {
+    "a": {
+      "picturePrompt": "An older man’s hand rests on another man’s shoulder. In which story does the job of leading the people pass from one man to the other?",
+      "bonuses": [
+        {
+          "prompt": "Moses thinks about the day he will stop leading. Why does he ask for a leader now?",
+          "options": [
+            "So the people will stop traveling right now",
+            "So the people will still have someone to follow",
+            "So Moses alone will decide even after he is gone"
+          ],
+          "answer": 1,
+          "explanation": "Moses cares what will happen to the people after he no longer leads them."
+        },
+        {
+          "prompt": "The people once followed Moses at the sea. Whom will they look for at the front after Moses says goodbye?",
+          "options": [
+            "Aaron, who stood with Moses before Pharaoh",
+            "Eleazar, who stood beside Joshua at the ceremony",
+            "Joshua, whom Moses presented to the people"
+          ],
+          "answer": 2,
+          "explanation": "Eleazar and the crowd saw Joshua receive Moses’ role."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What did the people see first, and what happened later?",
+          "options": [
+            "Joshua led. Then Moses gave him the job.",
+            "Moses brought them into the land. Then he chose Joshua.",
+            "Moses gave Joshua the job. Then Joshua led.",
+            "They entered the land. Then the people met Moses."
+          ],
+          "answer": 2,
+          "explanation": "They saw Moses choose Joshua before Joshua took the lead."
+        },
+        {
+          "prompt": "Why did Moses show everyone who would lead next?",
+          "options": [
+            "So the people would know whom to follow",
+            "So the people could choose a new name",
+            "So everyone could return to the river",
+            "So everyone would leave the camp alone"
+          ],
+          "answer": 0,
+          "explanation": "Seeing Joshua beside Moses helped the people recognize their next leader."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which event explains both Moses’ hand on the man beside him and why it matters that the people see it happen?",
+      "bonuses": [
+        {
+          "prompt": "Moses fears the people will be like sheep without a shepherd. Which action in Midian helps explain his image?",
+          "options": [
+            "Moses sat by the well after reaching Midian",
+            "Moses made sure the flock got the water it needed",
+            "The daughters told their father they had met an Egyptian man"
+          ],
+          "answer": 1,
+          "explanation": "Caring for the flock illustrates responsibility for those who depend on a leader."
+        },
+        {
+          "prompt": "Why does Moses first ask for a successor and then present him publicly? What does each step accomplish?",
+          "options": [
+            "The request appoints Moses and the presentation appoints the priest",
+            "The request asks the crowd to choose and the presentation changes its choice",
+            "The request secures a leader and the presentation shows the people who he is"
+          ],
+          "answer": 2,
+          "explanation": "Finding a successor and having the people recognize him are distinct aims of the same appointment."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which detail shows that Joshua received responsibility before Moses died?",
+          "options": [
+            "The people finished mourning Moses",
+            "Joshua entered the land with the people",
+            "The people crossed the Jordan",
+            "Moses himself placed his hands on Joshua"
+          ],
+          "answer": 3,
+          "explanation": "Moses personally presented and commissioned him in front of the assembly."
+        },
+        {
+          "prompt": "Moses led the people out but did not enter the land. What did naming Joshua make possible?",
+          "options": [
+            "Joshua could change where the people came from",
+            "The shared journey could continue under a new leader",
+            "Moses could return to Pharaoh’s palace",
+            "The people could undo their journey through the wilderness"
+          ],
+          "answer": 1,
+          "explanation": "By passing responsibility to Joshua, Moses prepared the community to continue without him."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "At Sinai Moses stood between the people and the mountain. Here he stands beside another man before them. Which transfer of responsibility explains his gesture?",
+      "bonuses": [
+        {
+          "prompt": "What does the image of sheep without a shepherd add to the appointment when read alongside Moses’ action at the well in Midian?",
+          "options": [
+            "It stipulates that the candidate must have worked as a shepherd",
+            "It highlights responsibility for the group’s needs, illustrated by watering the flock",
+            "It presents Joshua’s appointment as payment for Moses’ shepherding"
+          ],
+          "answer": 1,
+          "explanation": "The image illuminates care and guidance; it does not impose an occupational requirement."
+        },
+        {
+          "prompt": "Before the Sinai encounter, Moses relays God’s covenant proposal. At Joshua’s appointment the people see him act. How does the audience’s role differ?",
+          "options": [
+            "In both scenes they vote to decide who will lead them",
+            "At Sinai they witness the transfer of office; at the appointment they receive the commandments",
+            "First they hear and answer a proposal; later they witness responsibility changing hands"
+          ],
+          "answer": 2,
+          "explanation": "In Exodus 19:7–8 the people answer the covenant proposal. In Numbers 27 Joshua’s appointment takes place before the assembly."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does it matter that the people see Joshua receive authority while Moses can still act?",
+          "options": [
+            "They must wait until Moses dies before learning who was chosen",
+            "They have to choose between two rival leaders",
+            "They are being asked to keep the appointment secret",
+            "They can recognize the handover from the leader they already know"
+          ],
+          "answer": 3,
+          "explanation": "Presenting Joshua publicly allows the community to witness Moses taking part in the transfer."
+        },
+        {
+          "prompt": "At the bush Moses received a task. How has his role changed when Joshua stands before the community?",
+          "options": [
+            "Moses now asks Joshua to return him to the bush",
+            "Moses now helps another person take up leadership at God’s direction",
+            "Moses now arranges to lead the people into Canaan himself",
+            "Moses now asks Aaron to choose whether Joshua may lead"
+          ],
+          "answer": 1,
+          "explanation": "At the bush Moses was called to lead. Here he acts on God’s choice to prepare another leader for the people’s next stage."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which occasion links the pictured hand gesture to the fear of “sheep without a shepherd” and also requires the assembly’s gaze?",
+      "bonuses": [
+        {
+          "prompt": "At the bush Moses is called to a mission; in Numbers 27 he requests a leader for the assembly. How does his position change across the two scenes?",
+          "options": [
+            "From one who appoints himself to one who chooses a successor without instruction",
+            "From one who receives a commission to one who secures its continuity and enacts an instructed appointment",
+            "From an elected leader to one who hands down his private choice by inheritance"
+          ],
+          "answer": 1,
+          "explanation": "Divine authority remains in both encounters, while Moses’ part in carrying out the commission changes."
+        },
+        {
+          "prompt": "The command says “your hand” and the execution says “his hands.” Which inference respects the wording without assigning Moses an unstated motive?",
+          "options": [
+            "Using two hands proves Moses gave Joshua priestly authority too",
+            "The plural proves that the assembly lays hands together with Moses",
+            "The execution is described with both hands, but no reason is stated here"
+          ],
+          "answer": 2,
+          "explanation": "The change in number is available to close reading; added authority or additional agents are not stated by it."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How are Joshua and Eleazar to share responsibility in Numbers 27:21?",
+          "options": [
+            "Joshua stands before Eleazar, who inquires by the Urim",
+            "Eleazar stands before Joshua, who inquires by the Urim",
+            "Joshua consults the elders, who appoint his priest",
+            "Eleazar commissions the elders, who then direct Joshua"
+          ],
+          "answer": 0,
+          "explanation": "Joshua leads the community. The inquiry by the Urim is entrusted to the priest before whom Joshua stands."
+        },
+        {
+          "prompt": "Which pair of details in Deuteronomy 34 shows both continuity of leadership and the singular place of Moses?",
+          "options": [
+            "Moses sees the land. The people mourn for thirty days.",
+            "Joshua is filled with wisdom. Israel listens to him.",
+            "Israel heeds Joshua. God knew Moses face to face.",
+            "Moses performs signs in Egypt. His vigor lasts to his death."
+          ],
+          "answer": 2,
+          "explanation": "Listening to Joshua affirms succession. The face-to-face description singles Moses out among prophets."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,897 @@
+{
+  "id": "moses",
+  "name": "Moses",
+  "epithet": "The one who was sent back to the place he fled",
+  "epithetKids": "A brave new beginning",
+  "tilemap": {
+    "width": 20,
+    "height": 14,
+    "tiles": [
+      [
+        "grass",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "water",
+        "water",
+        "water",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "water",
+        "water",
+        "water",
+        "water",
+        "sand",
+        "water",
+        "water",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass"
+      ],
+      [
+        "grass",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "building",
+        "building",
+        "building",
+        "grass"
+      ],
+      [
+        "grass",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "water",
+        "grass",
+        "grass",
+        "tree",
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "building",
+        "building",
+        "building",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "building",
+        "building",
+        "building",
+        "grass"
+      ],
+      [
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "tree",
+        "grass",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree",
+        "tree",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "tree",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "tree",
+        "tree",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "tree",
+        "grass",
+        "tree",
+        "grass",
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      [
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ]
+    ]
+  },
+  "stops": [
+    {
+      "id": "burning-bush",
+      "title": "The Bush That Was Not Consumed",
+      "shortTitle": "The burning bush",
+      "tile": {
+        "x": 4,
+        "y": 11
+      },
+      "pathToNext": [
+        {
+          "x": 5,
+          "y": 11
+        },
+        {
+          "x": 6,
+          "y": 11
+        },
+        {
+          "x": 7,
+          "y": 11
+        },
+        {
+          "x": 8,
+          "y": 11
+        },
+        {
+          "x": 9,
+          "y": 11
+        },
+        {
+          "x": 10,
+          "y": 11
+        },
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 12,
+          "y": 11
+        },
+        {
+          "x": 13,
+          "y": 11
+        },
+        {
+          "x": 14,
+          "y": 11
+        },
+        {
+          "x": 14,
+          "y": 10
+        },
+        {
+          "x": 14,
+          "y": 9
+        },
+        {
+          "x": 14,
+          "y": 8
+        },
+        {
+          "x": 14,
+          "y": 7
+        },
+        {
+          "x": 14,
+          "y": 6
+        },
+        {
+          "x": 14,
+          "y": 5
+        }
+      ],
+      "source": "Exodus 3:1–12",
+      "sensitive": false,
+      "passage": {
+        "a": "Moses saw a bush burning without burning up. God called him to lead the Israelites out of Egypt.",
+        "b": "While tending a flock near Horeb, Moses saw a bush burning without being consumed. God called to him from the bush and sent him to Pharaoh to bring the Israelites out of Egypt.",
+        "c": "Moses was tending his father-in-law Jethro’s flock near Horeb when he saw a bush burning without being consumed. God called to him from the bush and told him to remove his sandals because the ground was holy. God then sent Moses to Pharaoh to bring the Israelites out of Egypt."
+      },
+      "learned": {
+        "a": "Moses listened when God called.",
+        "b": "Moses was called from tending a flock to leading a people.",
+        "c": "At Horeb, an ordinary shepherd’s day became the beginning of a calling."
+      },
+      "puzzles": [
+        {
+          "id": "burning-bush",
+          "category": "stories",
+          "answer": "Burning bush",
+          "aliases": [
+            "The bush that was not consumed",
+            "bush on fire"
+          ],
+          "textHint": "It burns, but its branches are not consumed.",
+          "moral": "An ordinary place can become a place of calling.",
+          "source": "Exodus 3:1–6",
+          "images": {
+            "kids": [
+              "burning-bush-kids-art-1.webp",
+              "burning-bush-kids-art-2.webp",
+              "burning-bush-kids-art-3.webp",
+              "burning-bush-kids-art-4.webp"
+            ],
+            "classic": [
+              "burning-bush-classic-art-1.webp",
+              "burning-bush-classic-art-2.webp",
+              "burning-bush-classic-art-3.webp",
+              "burning-bush-classic-art-4.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Sandals and a staff beside a softly glowing desert shrub.",
+              "A shepherd notices flames around a living green bush.",
+              "The shepherd removes a sandal before the unconsumed bush.",
+              "Barefoot Moses listens beside a living bush in flame."
+            ],
+            "classic": [
+              "Sandals and a staff beside a softly glowing desert shrub.",
+              "A shepherd notices flames around a living green bush.",
+              "The shepherd removes a sandal before the unconsumed bush.",
+              "Barefoot Moses listens beside a living bush in flame."
+            ]
+          },
+          "choicesKids": [
+            "Burning bush",
+            "River",
+            "Tree",
+            "Rock"
+          ],
+          "choiceLabelsKids": [
+            "Burning bush",
+            "River",
+            "Tree",
+            "Rock"
+          ],
+          "choicePicturesKids": [
+            "choice-bush.png",
+            "choice-river.png",
+            "choice-tree.png",
+            "choice-rock.png"
+          ]
+        },
+        {
+          "id": "moses",
+          "category": "figures",
+          "answer": "Moses",
+          "aliases": [
+            "Moshe"
+          ],
+          "textHint": "He was tending a flock when God called him.",
+          "moral": "A calling can begin with listening.",
+          "source": "Exodus 3:1–12",
+          "images": {
+            "kids": [
+              "moses-kids-atlas.webp",
+              "moses-kids-atlas.webp",
+              "moses-kids-atlas.webp",
+              "moses-kids-atlas.webp"
+            ],
+            "classic": [
+              "moses-classic-atlas.webp",
+              "moses-classic-atlas.webp",
+              "moses-classic-atlas.webp",
+              "moses-classic-atlas.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Worn sandals and a shepherd’s staff on rocky ground.",
+              "A hooded shepherd tends a small flock in the wilderness.",
+              "A silver-bearded shepherd listens, a burning bush behind him.",
+              "Barefoot Moses answers his calling beside the unconsumed bush."
+            ],
+            "classic": [
+              "Worn sandals and a shepherd’s staff on rocky ground.",
+              "A hooded shepherd tends a small flock in the wilderness.",
+              "A silver-bearded shepherd listens, a burning bush behind him.",
+              "Barefoot Moses answers his calling beside the unconsumed bush."
+            ]
+          },
+          "choicesKids": [
+            "Noah",
+            "Moses",
+            "Pharaoh",
+            "David"
+          ],
+          "choiceLabelsKids": [
+            "Noah",
+            "Moses",
+            "Pharaoh",
+            "David"
+          ],
+          "choicePicturesKids": [
+            "choice-noah.png",
+            "choice-moses.png",
+            "choice-pharaoh.png",
+            "choice-david.png"
+          ],
+          "imageGrid": {
+            "columns": 2,
+            "rows": 2
+          }
+        }
+      ],
+      "signTile": {
+        "x": 5,
+        "y": 12
+      },
+      "scene": "desert"
+    },
+    {
+      "id": "before-pharaoh",
+      "title": "Before Pharaoh",
+      "shortTitle": "Before Pharaoh",
+      "tile": {
+        "x": 14,
+        "y": 5
+      },
+      "pathToNext": [
+        {
+          "x": 14,
+          "y": 4
+        },
+        {
+          "x": 14,
+          "y": 3
+        },
+        {
+          "x": 14,
+          "y": 2
+        },
+        {
+          "x": 14,
+          "y": 1
+        },
+        {
+          "x": 13,
+          "y": 1
+        },
+        {
+          "x": 12,
+          "y": 1
+        },
+        {
+          "x": 11,
+          "y": 1
+        },
+        {
+          "x": 10,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 6,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "source": "Exodus 5:1–2",
+      "sensitive": false,
+      "passage": {
+        "a": "Moses and Aaron spoke to Pharaoh. They asked him to let the Israelites go. Pharaoh refused.",
+        "b": "Moses and Aaron went to Pharaoh and asked him to let the Israelites hold a festival for God in the wilderness. Pharaoh said he did not know the Lord and refused to let Israel go.",
+        "c": "Moses and Aaron stood before Pharaoh and asked him to let the Israelites go into the wilderness to hold a festival for God. Pharaoh questioned why he should obey the Lord and refused their request. The encounter brought Moses’ calling into direct conflict with Egypt’s ruler."
+      },
+      "learned": {
+        "a": "Moses and Aaron spoke, even when Pharaoh refused.",
+        "b": "Moses and Aaron brought their request to a ruler who refused.",
+        "c": "Moses and Aaron spoke before Pharaoh; his refusal set the struggle in motion."
+      },
+      "puzzles": [
+        {
+          "id": "pharaoh",
+          "category": "figures",
+          "answer": "Pharaoh",
+          "aliases": [
+            "The king of Egypt",
+            "Egyptian king"
+          ],
+          "textHint": "Egypt’s ruler refused Moses and Aaron’s request.",
+          "moral": "Power does not make a refusal wise.",
+          "source": "Exodus 5:1–2",
+          "images": {
+            "kids": [
+              "pharaoh-kids-atlas.webp",
+              "pharaoh-kids-atlas.webp",
+              "pharaoh-kids-atlas.webp",
+              "pharaoh-kids-atlas.webp"
+            ],
+            "classic": [
+              "pharaoh-classic-atlas.webp",
+              "pharaoh-classic-atlas.webp",
+              "pharaoh-classic-atlas.webp",
+              "pharaoh-classic-atlas.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "An empty royal throne in an Egyptian columned court.",
+              "A striped royal headdress and gold collar rest on a throne.",
+              "An Egyptian ruler sits proudly in his striped headdress.",
+              "Pharaoh refuses Moses and Aaron with a raised palm."
+            ],
+            "classic": [
+              "An empty royal throne in an Egyptian columned court.",
+              "A striped royal headdress and gold collar rest on a throne.",
+              "An Egyptian ruler sits proudly in his striped headdress.",
+              "Pharaoh refuses Moses and Aaron with a raised palm."
+            ]
+          },
+          "choicesKids": [
+            "Moses",
+            "David",
+            "Pharaoh",
+            "Noah"
+          ],
+          "choiceLabelsKids": [
+            "Moses",
+            "David",
+            "Pharaoh",
+            "Noah"
+          ],
+          "choicePicturesKids": [
+            "choice-moses.png",
+            "choice-david.png",
+            "choice-pharaoh.png",
+            "choice-noah.png"
+          ],
+          "imageGrid": {
+            "columns": 2,
+            "rows": 2
+          }
+        },
+        {
+          "id": "pride",
+          "category": "proverbs",
+          "answer": "Pride goes before destruction",
+          "aliases": [
+            "Pride comes before a fall",
+            "Pride before a fall"
+          ],
+          "textHint": "This proverb warns that pride can lead to a fall.",
+          "moral": "Pride can keep us from hearing wise counsel.",
+          "source": "Proverbs 16:18 · a later wisdom reflection, not an Exodus quotation",
+          "images": {
+            "kids": [
+              "pride-kids-atlas.webp",
+              "pride-kids-atlas.webp",
+              "pride-kids-atlas.webp",
+              "pride-kids-atlas.webp"
+            ],
+            "classic": [
+              "pride-classic-atlas.webp",
+              "pride-classic-atlas.webp",
+              "pride-classic-atlas.webp",
+              "pride-classic-atlas.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "A golden crown rests on a cracked stone pedestal.",
+              "A proud noble overlooks a loose stone beneath his foot.",
+              "The crown falls; the surprised noble sits unharmed beside it.",
+              "Humbled, the noble helps another traveller up a step."
+            ],
+            "classic": [
+              "A golden crown rests on a cracked stone pedestal.",
+              "A proud noble overlooks a loose stone beneath his foot.",
+              "The crown falls; the surprised noble sits unharmed beside it.",
+              "Humbled, the noble helps another traveller up a step."
+            ]
+          },
+          "choicesKids": [
+            "Pride goes before destruction",
+            "A gentle answer",
+            "Patience",
+            "Helping others"
+          ],
+          "choiceLabelsKids": [
+            "Pride can fall",
+            "Be gentle",
+            "Wait patiently",
+            "Help a friend"
+          ],
+          "choicePicturesKids": [
+            "choice-pride.png",
+            "choice-gentle.png",
+            "choice-patience.png",
+            "choice-help.png"
+          ],
+          "imageGrid": {
+            "columns": 2,
+            "rows": 2
+          }
+        }
+      ],
+      "signTile": {
+        "x": 15,
+        "y": 6
+      },
+      "scene": "palace"
+    },
+    {
+      "id": "the-sea",
+      "title": "The Sea",
+      "shortTitle": "The sea",
+      "tile": {
+        "x": 4,
+        "y": 1
+      },
+      "pathToNext": [],
+      "source": "Exodus 14:21–22",
+      "sensitive": true,
+      "contentWarning": "This story includes danger at sea. No violence is shown.",
+      "passage": {
+        "a": "Moses stretched out his hand over the sea. God made a dry path. The Israelites walked through.",
+        "b": "Moses stretched out his hand over the sea. The Lord drove the sea back with a strong east wind through the night, and the Israelites crossed on dry ground, with water on both sides.",
+        "c": "Moses stretched out his hand over the sea, and the Lord drove it back with a strong east wind through the night. The waters divided, leaving dry ground. The Israelites went through the sea with a wall of water on their right and on their left."
+      },
+      "learned": {
+        "a": "The Israelites crossed the sea on dry ground.",
+        "b": "A strong east wind opened a dry path through the sea.",
+        "c": "The people crossed on dry ground, with the waters standing on either side."
+      },
+      "puzzles": [
+        {
+          "id": "sea",
+          "category": "stories",
+          "answer": "Parting of the Red Sea",
+          "aliases": [
+            "Crossing the Red Sea",
+            "The sea crossing",
+            "The Red Sea",
+            "Parting of the sea"
+          ],
+          "textHint": "The people crossed on dry ground between walls of water.",
+          "moral": "A way forward can appear where none seemed possible.",
+          "source": "Exodus 14:21–22",
+          "images": {
+            "kids": [
+              "sea-kids-art-1.webp",
+              "sea-kids-art-2.webp",
+              "sea-kids-art-3.webp",
+              "sea-kids-art-4.webp"
+            ],
+            "classic": [
+              "sea-classic-art-1.webp",
+              "sea-classic-art-2.webp",
+              "sea-classic-art-3.webp",
+              "sea-classic-art-4.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Strong wind moves over water beside an emerging shore.",
+              "A dry corridor opens between walls of blue water.",
+              "Families walk safely along dry ground between the waters.",
+              "Moses guides the people through the sea toward freedom."
+            ],
+            "classic": [
+              "Strong wind moves over water beside an emerging shore.",
+              "A dry corridor opens between walls of blue water.",
+              "Families walk safely along dry ground between the waters.",
+              "Moses guides the people through the sea toward freedom."
+            ]
+          },
+          "choicesKids": [
+            "Parting of the Red Sea",
+            "Burning bush",
+            "Noah’s ark",
+            "A mountain"
+          ],
+          "choiceLabelsKids": [
+            "The sea opens",
+            "Burning bush",
+            "Noah’s ark",
+            "A mountain"
+          ],
+          "choicePicturesKids": [
+            "choice-sea.png",
+            "choice-bush.png",
+            "choice-ark.png",
+            "choice-mountain.png"
+          ]
+        },
+        {
+          "id": "trust",
+          "category": "proverbs",
+          "answer": "Trust in the Lord",
+          "aliases": [
+            "Trust God",
+            "Trust in God"
+          ],
+          "textHint": "This proverb asks us to trust with all our heart.",
+          "moral": "Trust can steady us when we cannot see the whole way.",
+          "source": "Proverbs 3:5 · a later wisdom reflection, not an Exodus quotation",
+          "images": {
+            "kids": [
+              "trust-kids-atlas.webp",
+              "trust-kids-atlas.webp",
+              "trust-kids-atlas.webp",
+              "trust-kids-atlas.webp"
+            ],
+            "classic": [
+              "trust-classic-atlas.webp",
+              "trust-classic-atlas.webp",
+              "trust-classic-atlas.webp",
+              "trust-classic-atlas.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "A walking staff rests at a fork in the path.",
+              "A traveller pauses with a hand over his heart.",
+              "The traveller kneels in prayer beside a sunlit path.",
+              "With trust, the traveller follows the path into the light."
+            ],
+            "classic": [
+              "A walking staff rests at a fork in the path.",
+              "A traveller pauses with a hand over his heart.",
+              "The traveller kneels in prayer beside a sunlit path.",
+              "With trust, the traveller follows the path into the light."
+            ]
+          },
+          "choicesKids": [
+            "Patience",
+            "Trust in the Lord",
+            "Pride goes before destruction",
+            "Helping others"
+          ],
+          "choiceLabelsKids": [
+            "Wait patiently",
+            "Trust God",
+            "Pride can fall",
+            "Help a friend"
+          ],
+          "choicePicturesKids": [
+            "choice-patience.png",
+            "choice-trust.png",
+            "choice-pride.png",
+            "choice-help.png"
+          ],
+          "imageGrid": {
+            "columns": 2,
+            "rows": 2
+          }
+        }
+      ],
+      "signTile": {
+        "x": 5,
+        "y": 2
+      },
+      "scene": "sea"
+    }
+  ]
+}

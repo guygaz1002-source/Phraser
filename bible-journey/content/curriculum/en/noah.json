@@ -1,0 +1,1784 @@
+{
+  "life-noah-1": {
+    "a": {
+      "picturePrompt": "Which story about Noah do the wooden beams suggest?",
+      "bonuses": [
+        {
+          "prompt": "What material was Noah told to use to build the ark?",
+          "options": [
+            "Stone",
+            "Wood",
+            "Clay"
+          ],
+          "answer": 1,
+          "explanation": "Noah was told to build the ark from a wood called gopher wood."
+        },
+        {
+          "prompt": "What did Noah spread on the wood to keep water out?",
+          "options": [
+            "A waterproof coating",
+            "Water",
+            "Sand"
+          ],
+          "answer": 0,
+          "explanation": "Noah covered the wood with material that kept the water outside."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What had to happen before the animals could board?",
+          "options": [
+            "The dove flew off",
+            "Noah built them a place",
+            "The rain stopped",
+            "A rainbow appeared"
+          ],
+          "answer": 1,
+          "explanation": "First the ark was built. Then the animals could go inside."
+        },
+        {
+          "prompt": "Why was so much room needed in the ark?",
+          "options": [
+            "For a big olive tree",
+            "For houses from town",
+            "For the family and animals",
+            "For a little lake"
+          ],
+          "answer": 2,
+          "explanation": "Many animals and a whole family needed to fit inside."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which job is Noah doing with the tools and the wooden beams?",
+      "bonuses": [
+        {
+          "prompt": "The plans call for a bottom deck and two more above it. How many decks will Noah build?",
+          "options": [
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "answer": 1,
+          "explanation": "One deck below and two above make three."
+        },
+        {
+          "prompt": "What does “lower deck” mean in the list of levels?",
+          "options": [
+            "The bottom floor",
+            "The sloping roof",
+            "The side door"
+          ],
+          "answer": 0,
+          "explanation": "The instructions name the levels from the bottom upward."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Pitch is a substance that keeps water out. What job does it do on the ark?",
+          "options": [
+            "Seals the sides",
+            "Divides the rooms",
+            "Raises the roof",
+            "Connects the decks"
+          ],
+          "answer": 0,
+          "explanation": "Noah coats the ark with pitch inside and out."
+        },
+        {
+          "prompt": "How do rooms and decks serve the same purpose?",
+          "options": [
+            "They tell when rain will begin",
+            "They identify the ark’s builder",
+            "They measure the depth of a river",
+            "They give many creatures space in one shelter"
+          ],
+          "answer": 3,
+          "explanation": "The divisions make separate spaces inside a shared shelter."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "What task from Genesis 6 is suggested by the timber on dry land?",
+      "bonuses": [
+        {
+          "prompt": "Which instruction tells Noah to work on both faces of the wooden walls?",
+          "options": [
+            "Build rooms inside the ark",
+            "Coat the ark inside and out",
+            "Set the entrance in the side"
+          ],
+          "answer": 1,
+          "explanation": "The coating is the one part of the job that the instructions place on both sides."
+        },
+        {
+          "prompt": "The ark is to be 300 cubits long and 50 wide. Which sketch best fits those instructions?",
+          "options": [
+            "A long, narrow rectangle seen from above",
+            "A square seen from above",
+            "A rectangle wider than it is long"
+          ],
+          "answer": 0,
+          "explanation": "The length is six times the width, so the measurements rule out a square outline."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The ark has rooms as well as a waterproof coating. Which problem do the rooms solve?",
+          "options": [
+            "Organizing space for the ark’s different occupants",
+            "Keeping water from seeping through the outer walls",
+            "Measuring the depth of the water outside",
+            "Steering the ark toward the mountains"
+          ],
+          "answer": 0,
+          "explanation": "The coating seals the wood. Dividing the inside into rooms makes the space usable for many occupants."
+        },
+        {
+          "prompt": "How does the story show Noah’s response to the long list of building instructions?",
+          "options": [
+            "It quotes Noah accepting each instruction",
+            "It lists the changes Noah made to the plans",
+            "It gives Noah’s own account of the work",
+            "It reports that he carried them out"
+          ],
+          "answer": 3,
+          "explanation": "God’s directions take up several verses. A single sentence about Noah’s actions answers them."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which episode in Genesis 6 do the building materials suggest?",
+      "bonuses": [
+        {
+          "prompt": "Where do the building directions in Genesis 6 place the entrance?",
+          "options": [
+            "In the top covering",
+            "In the side",
+            "In the hull floor"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 6:16 puts the entrance in the side alongside the instructions for the decks."
+        },
+        {
+          "prompt": "Which feature is assigned a numerical measurement?",
+          "options": [
+            "The ark’s width",
+            "The thickness of the pitch",
+            "The door’s width"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 6:15 gives the ark’s length, width and height."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which of these four details about construction is left open in Genesis 6?",
+          "options": [
+            "Number of decks",
+            "Years spent building",
+            "Length in cubits",
+            "Width in cubits"
+          ],
+          "answer": 1,
+          "explanation": "The instructions are detailed, but the chapter does not state how long the construction took."
+        },
+        {
+          "prompt": "What contrast emerges between the judgment on “all flesh” and the instructions for boarding the animals?",
+          "options": [
+            "The judgment falls on humans, leaving animals outside the ark safe from the start",
+            "The animals are assured survival, while the family’s rescue is deferred until after the flood",
+            "The judgment encompasses living beings, yet representatives survive to continue life",
+            "Animal survival depends on ritual cleanness, whereas human survival depends on righteousness"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 6:13 and 6:17 describe sweeping destruction. Verses 18–20 make provision for Noah, his household and living representatives of each kind."
+        }
+      ]
+    }
+  },
+  "life-noah-6": {
+    "a": {
+      "picturePrompt": "Baskets and sacks are full before the rain comes. What job is Noah getting done?",
+      "bonuses": [
+        {
+          "prompt": "What is Noah gathering for the ark?",
+          "options": [
+            "Jewels",
+            "Musical instruments",
+            "Food"
+          ],
+          "answer": 2,
+          "explanation": "Noah gathers food for those who will be aboard."
+        },
+        {
+          "prompt": "The bins are full. Who will share this food when the ark is closed?",
+          "options": [
+            "Only the people carrying baskets",
+            "The family and the animals",
+            "Only the animals that eat grain"
+          ],
+          "answer": 1,
+          "explanation": "Noah gathered food for everyone who would be aboard."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "When did Noah gather the food?",
+          "options": [
+            "After the rainbow",
+            "Before the flood",
+            "When the dove returned",
+            "When the animals left"
+          ],
+          "answer": 1,
+          "explanation": "The food was ready by the time the flood came."
+        },
+        {
+          "prompt": "Why did Noah take food into the ark?",
+          "options": [
+            "To feed everyone",
+            "To grow a rooftop garden",
+            "To fill a toy basket",
+            "To decorate the door"
+          ],
+          "answer": 0,
+          "explanation": "The family and animals still need to eat while they are aboard."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Noah has baskets to fill before the rain. What part of the story is this?",
+      "bonuses": [
+        {
+          "prompt": "Which job can Noah do before anyone boards?",
+          "options": [
+            "Send a bird to see if the water has gone down",
+            "Let the animals out onto dry land",
+            "Set aside food for the journey"
+          ],
+          "answer": 2,
+          "explanation": "Noah has to gather the food while it is still available on land."
+        },
+        {
+          "prompt": "The verse calls the food both “for you” and “for them.” Why would one small family basket be too little?",
+          "options": [
+            "The stores are meant only for Noah’s three sons",
+            "The same stores must feed people and animals",
+            "Each family member must leave a basket outside"
+          ],
+          "answer": 1,
+          "explanation": "The gathered supply is intended for Noah’s household and the creatures aboard."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Noah hears that the food will be for him and “them.” Who are “they” in the directions for boarding the animals?",
+          "options": [
+            "The neighbours outside",
+            "Only the birds that will fly away",
+            "The creatures coming aboard",
+            "People in future generations"
+          ],
+          "answer": 2,
+          "explanation": "The preceding verses describe the creatures Noah is to take with him."
+        },
+        {
+          "prompt": "The instruction is to gather food for Noah and the animals. What did the artist add by painting a basket?",
+          "options": [
+            "The act of gathering food",
+            "The container used for gathering",
+            "The identity of the man gathering it",
+            "The need to feed the animals"
+          ],
+          "answer": 1,
+          "explanation": "The verse names the food and those it will feed. It leaves the container to the imagination."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which of Noah’s preparations for a long stay aboard do these baskets suggest?",
+      "bonuses": [
+        {
+          "prompt": "In Genesis 6:21, who is given a task and who is meant to benefit from it?",
+          "options": [
+            "Each creature gathers provisions for Noah",
+            "Noah gathers food for the builders alone",
+            "Noah gathers provisions for himself and the creatures"
+          ],
+          "answer": 2,
+          "explanation": "The command addresses Noah and then names both him and the creatures as those who will eat."
+        },
+        {
+          "prompt": "What does gathering the food add to the instruction to take food?",
+          "options": [
+            "Noah must eat the supplies before boarding",
+            "Noah must bring supplies together before they are needed",
+            "Noah must grow new crops inside the ark"
+          ],
+          "answer": 1,
+          "explanation": "Taking food and gathering it point to a supply that can be used during the stay aboard."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Maya suggests a caption saying that Noah stored one sack per animal. Which part of her idea does the passage support?",
+          "options": [
+            "An equal ration went to every animal",
+            "Noah counted out a sack for each animal",
+            "Noah had to provide food for the animals",
+            "All the food was stored in sacks"
+          ],
+          "answer": 2,
+          "explanation": "The recipients are named. The passage gives neither container sizes nor rations."
+        },
+        {
+          "prompt": "Why do the food instructions belong with the instructions to shelter the animals?",
+          "options": [
+            "Both specify the order in which the animals must enter",
+            "Both look beyond boarding to keeping the occupants alive",
+            "Both set a date for taking the animals out again",
+            "Both list the animals that can supply food"
+          ],
+          "answer": 1,
+          "explanation": "Building gives the animals a place on the water. Gathering food gives them a way to survive there."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which instruction to Noah in Genesis 6 takes shape here?",
+      "bonuses": [
+        {
+          "prompt": "What is Noah told to gather in the final instruction before Genesis 6 sums up his response?",
+          "options": [
+            "Seven pairs of clean animals",
+            "Offerings from the clean animals",
+            "Food of every edible kind"
+          ],
+          "answer": 2,
+          "explanation": "The food instruction closes the preparations in 6:21. The animal counts and the offerings belong to other stages."
+        },
+        {
+          "prompt": "Which detail about the provisions is specified in verse 21?",
+          "options": [
+            "How much each species will receive",
+            "Who will feed on it",
+            "How long it will feed the whole family"
+          ],
+          "answer": 1,
+          "explanation": "The verse identifies the beneficiaries without specifying quantities or a rationing period."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "In “for you and for them,” what supports identifying “them” with the animals?",
+          "options": [
+            "The naming of Noah’s sons in the introduction to his family",
+            "The count of clean animals given before boarding",
+            "The list of species immediately before the food instruction",
+            "The distinction between birds and livestock at the offering"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 6:19–20 names the creatures coming to Noah. The pronoun connects them to the supplies."
+        },
+        {
+          "prompt": "What is the scope of “all that he was commanded” in the summary in 6:22?",
+          "options": [
+            "The sequence of instructions leading up to the verse",
+            "Only the food gathering in the immediately preceding verse",
+            "Boarding the counts of animals specified in the next chapter",
+            "The departure and offering that will be narrated later"
+          ],
+          "answer": 0,
+          "explanation": "The commands are detailed, while Genesis 6:22 sums up Noah’s response to the whole charge."
+        }
+      ]
+    }
+  },
+  "life-noah-2": {
+    "a": {
+      "picturePrompt": "Hoofprints lead up to a wooden ramp. What are the animals about to do together?",
+      "bonuses": [
+        {
+          "prompt": "Who boarded with Noah’s family?",
+          "options": [
+            "Neighbours from town",
+            "A group of fishers",
+            "The animals"
+          ],
+          "answer": 2,
+          "explanation": "Noah’s family and many animals went inside."
+        },
+        {
+          "prompt": "What needed to happen before the door could close?",
+          "options": [
+            "The last animals had to get inside",
+            "The animals had to come out again",
+            "The family had to lead the animals down"
+          ],
+          "answer": 0,
+          "explanation": "The open entrance lets all the animals come aboard before the door shuts."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened only after everyone had gone inside?",
+          "options": [
+            "Noah started building",
+            "Noah received the building plans",
+            "God shut the ark",
+            "Noah prepared a place for the animals"
+          ],
+          "answer": 2,
+          "explanation": "God shut the ark once Noah and the animals were inside."
+        },
+        {
+          "prompt": "Noah packed food before boarding. Why do the animals need it?",
+          "options": [
+            "They will stay inside for a long time",
+            "They are setting out on a walk",
+            "They are planting a new garden",
+            "They are going back to the forest today"
+          ],
+          "answer": 0,
+          "explanation": "The animals cannot search outside for food during the flood."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which part of Noah’s story do these animal tracks lead to?",
+      "bonuses": [
+        {
+          "prompt": "Noah and his wife, their three sons and the sons’ three wives boarded. How many people went in?",
+          "options": [
+            "Six",
+            "Seven",
+            "Eight"
+          ],
+          "answer": 2,
+          "explanation": "The parents make two people, and the three couples add six more."
+        },
+        {
+          "prompt": "The animals walked in pairs. Which pair of events comes in the order the story gives?",
+          "options": [
+            "The creatures enter, then the door is shut",
+            "The door is shut, then the sheep reach the entrance",
+            "The water lifts the ark, then Noah starts to build it"
+          ],
+          "answer": 0,
+          "explanation": "The opening must stay clear while the animals are coming in. The closing ends the boarding scene."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Some animals came in several pairs. What would you see if you watched them come in two by two?",
+          "options": [
+            "Only two animals could enter in total",
+            "All the birds would have to wait outside",
+            "Every kind would have exactly one pair",
+            "More than one pair of the same kind could pass the door"
+          ],
+          "answer": 3,
+          "explanation": "Two by two tells us how they came in. Some kinds had more pairs than others."
+        },
+        {
+          "prompt": "How does bringing pairs serve a purpose beyond the flood?",
+          "options": [
+            "The rain will stop sooner",
+            "More animals can be born",
+            "The ark will need less food",
+            "The family can measure the water"
+          ],
+          "answer": 1,
+          "explanation": "The instructions connect boarding the animals with the continuation of life on land."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which moment between the preparations and the rising water do the converging tracks suggest?",
+      "bonuses": [
+        {
+          "prompt": "Which order fits the animals on the open ramp and the closing of the ark in Genesis 7?",
+          "options": [
+            "God shuts Noah in, then the sheep walk up to enter",
+            "Noah shuts the door before his household enters",
+            "The creatures enter, then God shuts Noah in"
+          ],
+          "answer": 2,
+          "explanation": "The boarding account names the arrivals before its closing action, performed by God."
+        },
+        {
+          "prompt": "The warning mentions both seven days and forty days. What do the seven days measure?",
+          "options": [
+            "The time remaining before the rain begins",
+            "The time until the ark comes to rest",
+            "The length of the rainfall"
+          ],
+          "answer": 0,
+          "explanation": "The seven days are advance notice. The forty days describe the rain to come."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does the instruction about the birds mention males, females and future offspring together?",
+          "options": [
+            "Every bird is supposed to hatch aboard the ark",
+            "Only birds already raising young may enter",
+            "The young birds must go in before their parents",
+            "Keeping pairs alive makes future generations possible"
+          ],
+          "answer": 3,
+          "explanation": "The instruction looks beyond the survival of the birds that board to the life that will follow them."
+        },
+        {
+          "prompt": "In the plans Noah is told to bring the animals in. In the boarding scene they come to him. What does reading both scenes show?",
+          "options": [
+            "Noah abandons his task as soon as the animals appear",
+            "Noah has a task, but the animals also take part in reaching shelter",
+            "The animals arrive before Noah receives any instructions",
+            "Two separate groups of animals board different arks"
+          ],
+          "answer": 1,
+          "explanation": "The earlier scene gives Noah responsibility. The later one lets the reader see the animals coming to him in pairs."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which step from preparation to action in Genesis 7 is pictured here?",
+      "bonuses": [
+        {
+          "prompt": "Who shuts Noah in at the close of the boarding account?",
+          "options": [
+            "Noah",
+            "Shem",
+            "The LORD"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 7:16 attributes the closing to the LORD after the creatures enter."
+        },
+        {
+          "prompt": "How can the phrase “two by two” about entry stand beside the earlier instruction about sevens?",
+          "options": [
+            "The manner of entry and the numbers to be brought answer different questions",
+            "The manner of entry cancels the earlier distinction between kinds",
+            "The earlier numbers describe departure and the pairs describe arrival"
+          ],
+          "answer": 0,
+          "explanation": "Walking in pairs does not require the same total number of individuals in every group."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "In 7:8–9, what does “two by two” describe after the list of animal kinds?",
+          "options": [
+            "The manner of entry, including kinds represented by several pairs",
+            "The total number taken from every kind that boarded",
+            "The number of pairs Noah must take from each kind",
+            "The manner of entry of the unclean animals alone"
+          ],
+          "answer": 0,
+          "explanation": "Entering in pairs does not remove the explicit distinctions in the numbers of pairs."
+        },
+        {
+          "prompt": "How does the reason given in 7:1 change the way readers learn of Noah’s righteousness compared with 6:9?",
+          "options": [
+            "From God addressing Noah to the narrator assessing him",
+            "From the narrator’s assessment of Noah to an assessment of his entire household",
+            "From the narrator’s characterization to God addressing Noah",
+            "From a judgment on the whole generation to praise of Noah’s sons alone"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 6:9 characterizes Noah as righteous. In 7:1 that judgment becomes a reason God gives him for boarding."
+        }
+      ]
+    }
+  },
+  "life-noah-3": {
+    "a": {
+      "picturePrompt": "Rain is striking the outside wall. Which part of Noah’s story makes a roof so important?",
+      "bonuses": [
+        {
+          "prompt": "First the ark stood on the ground. What did the growing flood do to it?",
+          "options": [
+            "Left it resting on the same ground",
+            "Lifted it until it floated",
+            "Left it high above the water"
+          ],
+          "answer": 1,
+          "explanation": "The rising water picked up the ark from below."
+        },
+        {
+          "prompt": "While the waves are high, where can the family take care of the animals?",
+          "options": [
+            "On the bank, where grass grows",
+            "On a hillside, beside the ark",
+            "Inside the ark, where they have food"
+          ],
+          "answer": 2,
+          "explanation": "The ark carries both the animals and the food the family gathered."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened to the ark after the water rose?",
+          "options": [
+            "It floated",
+            "It rested on a mountain",
+            "It fell apart",
+            "It stayed on dry ground"
+          ],
+          "answer": 0,
+          "explanation": "The ark had stood on the ground. The water lifted it."
+        },
+        {
+          "prompt": "Why did the family stay aboard even when the rain stopped?",
+          "options": [
+            "Noah was still building the ark",
+            "The animals were still waiting outside",
+            "The family was waiting for snow",
+            "Water still covered the ground"
+          ],
+          "answer": 3,
+          "explanation": "The rain stopped before the ground dried."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "The wood is wet outside while the family needs shelter within. Which event put that shelter to the test?",
+      "bonuses": [
+        {
+          "prompt": "Forty days and nights describes the rain. Which event tells you what the rain helped cause?",
+          "options": [
+            "The ark came to rest on the mountain",
+            "The waters rose and lifted the ark",
+            "The ground dried outside the door"
+          ],
+          "answer": 1,
+          "explanation": "Rain joined the waters already bursting forth. The rising water lifted the ark above the land."
+        },
+        {
+          "prompt": "What lifted the ark above the land?",
+          "options": [
+            "A large cloud",
+            "Wooden wheels",
+            "The rising water"
+          ],
+          "answer": 2,
+          "explanation": "The water rose, lifted the ark above the land, and carried it on the surface."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which detail shows how high the floodwater reached?",
+          "options": [
+            "The window was opened",
+            "The animals came in pairs",
+            "Even the high mountains were covered",
+            "The ark had three decks"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 7 describes water covering even the mountains."
+        },
+        {
+          "prompt": "Leah marked day forty as the day the flood ended. What should she write there instead?",
+          "options": [
+            "The rain has stopped, but the water is still high",
+            "The animals are leaving the ark",
+            "The ark has come to rest on Ararat",
+            "The dove is back with an olive leaf"
+          ],
+          "answer": 0,
+          "explanation": "The forty days measure the rainfall. The water remained high for a much longer time."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "In which episode does the shelter built on dry land begin to float?",
+      "bonuses": [
+        {
+          "prompt": "Which detail places this scene later than the animals’ arrival at the doorway?",
+          "options": [
+            "Noah has a family with him",
+            "The ark has lifted off the ground",
+            "The ark is made of wood"
+          ],
+          "answer": 1,
+          "explanation": "The family and the wooden ark were already there at boarding. Only the rising water lifts the ark off the ground."
+        },
+        {
+          "prompt": "The story next describes even the high mountains under water. What has changed in the description?",
+          "options": [
+            "The speaker changes from Noah to his sons",
+            "The story turns from the present to Noah’s childhood",
+            "The view widens from the ark to the surrounding world"
+          ],
+          "answer": 2,
+          "explanation": "First we follow what happens to one vessel. The mountains show the reach of the water beyond it."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "An artist wants to draw animals sheltering on a dry peak at the height of the flood. Which detail in the passage challenges this idea?",
+          "options": [
+            "The account measures the rain in days",
+            "Noah’s sons have names",
+            "The water covers even the high mountains",
+            "The ark has an entrance in its side"
+          ],
+          "answer": 2,
+          "explanation": "At the height of the flood the mountains themselves are covered. The refuge described in the account is the ark."
+        },
+        {
+          "prompt": "Why can the same rising water threaten life on land and help preserve the ark’s occupants?",
+          "options": [
+            "It covers the land while carrying the ark on its surface",
+            "It leaves food on the mountains while filling the ark",
+            "It leaves the peaks dry while hiding the ark below them",
+            "It carries the ark ashore while washing away its supplies"
+          ],
+          "answer": 0,
+          "explanation": "The contrast depends on where the creatures are. The water submerges one habitat and lifts the floating shelter."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which event in Genesis 7 makes this wooden wall the boundary between life inside and water outside?",
+      "bonuses": [
+        {
+          "prompt": "Which statement compares the forty days with the one hundred and fifty without adding an interval to the account?",
+          "options": [
+            "Both numbers date the same falling rain over different regions",
+            "One duration measures rainfall; the other measures prevailing waters",
+            "One duration measures rising waters; the other measures drying land"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 7 attaches the counts to different descriptions, rain and the waters prevailing."
+        },
+        {
+          "prompt": "What is measured in cubits in the account of the mountains being covered, as distinct from the building plans?",
+          "options": [
+            "The height of the ark’s side",
+            "The ark’s width",
+            "The height of the water’s rise"
+          ],
+          "answer": 2,
+          "explanation": "Verse 20 uses cubits in its description of the rising waters and covered mountains."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "In chapter 6 Noah made the ark. Which description best captures the roles in 7:17–18?",
+          "options": [
+            "Noah sets the ark moving, and then the waters lift it",
+            "A wind moves the ark, and then the waters subside",
+            "The waters first subside, and then the ark comes to rest",
+            "The waters lift the ark, and then the ark moves on their surface"
+          ],
+          "answer": 3,
+          "explanation": "Noah acts in the building account. Here the rising waters supply the motion."
+        },
+        {
+          "prompt": "What closes the description of lost life in 7:23 and recalls the ark’s purpose in chapter 6?",
+          "options": [
+            "Naming the family and the creatures as covenant partners",
+            "Identifying Noah and those with him as the survivors",
+            "Remembering Noah and the creatures in their shelter",
+            "Blessing the creatures leaving the shelter to multiply"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 7:23 closes its account of loss by identifying the survivors, recalling the ark’s purpose in chapter 6."
+        }
+      ]
+    }
+  },
+  "life-noah-7": {
+    "a": {
+      "picturePrompt": "The wind stirs the cloth and the water looks calmer. What is beginning to happen to the water?",
+      "bonuses": [
+        {
+          "prompt": "The wind starts blowing over the water. What happens next in the story?",
+          "options": [
+            "The water slowly goes down",
+            "All the ground dries at once",
+            "The water starts lifting the ark again"
+          ],
+          "answer": 0,
+          "explanation": "The waters go down little by little after the wind begins to blow."
+        },
+        {
+          "prompt": "Why does Noah keep the animals aboard after the rain stops?",
+          "options": [
+            "He is still waiting for the rain to start",
+            "The ground still needs time to dry",
+            "The animals are only just boarding"
+          ],
+          "answer": 1,
+          "explanation": "The rain can stop while the ground is still under water."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened first?",
+          "options": [
+            "The land dried completely",
+            "The rain stopped",
+            "Noah left the ark",
+            "The animals ran on the land"
+          ],
+          "answer": 1,
+          "explanation": "The rain stopped first. The ground remained underwater for a while."
+        },
+        {
+          "prompt": "The water is falling. Why can’t the family walk outside yet?",
+          "options": [
+            "The ark has yet to be built",
+            "Noah is still gathering food outside",
+            "Water still covers the ground",
+            "The animals have yet to board"
+          ],
+          "answer": 2,
+          "explanation": "The water falls slowly. The family still needs dry ground."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "The rain has stopped and a breeze stirs the cloth. What is happening to the floodwater?",
+      "bonuses": [
+        {
+          "prompt": "At this point the story names Noah and the creatures sharing his shelter. Who are those creatures?",
+          "options": [
+            "The animals that had boarded the ark",
+            "Birds that had already left the ark",
+            "Animals that had found a dry mountain"
+          ],
+          "answer": 0,
+          "explanation": "These are the animals that went into the ark before the water rose."
+        },
+        {
+          "prompt": "The rain has stopped, but the waters are described as gradually receding. What follows from both details?",
+          "options": [
+            "The family can step out as soon as the rain stops",
+            "The family must wait even after the sky clears",
+            "The ark only starts to float after the sky clears"
+          ],
+          "answer": 1,
+          "explanation": "Stopping the downpour does not drain the flooded earth at once."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What explains why less water was being added to the flood?",
+          "options": [
+            "The sources of water closed",
+            "The ark slid forward",
+            "Noah opened a window",
+            "The dove went out"
+          ],
+          "answer": 0,
+          "explanation": "The springs and the openings in the sky closed and the rain stopped."
+        },
+        {
+          "prompt": "During the flood the water lifted the ark. What now marks a change in the direction of the story?",
+          "options": [
+            "Noah receives the ark’s measurements",
+            "Wind passes and the water begins to fall",
+            "The animals board in pairs",
+            "The first rain falls"
+          ],
+          "answer": 1,
+          "explanation": "Rising waters brought danger. Their retreat begins the return to dry land."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "The wind catches a cloth beside the ark. Which turn in the flood story does it mark?",
+      "bonuses": [
+        {
+          "prompt": "What makes the mention of wind a turning point when compared with the rain in Genesis 7?",
+          "options": [
+            "Rain accompanies rising water; wind accompanies its retreat",
+            "Rain ends the flooding; wind begins it again",
+            "Rain and wind both mark the moment of disembarking"
+          ],
+          "answer": 0,
+          "explanation": "In chapter 7 the ark is lifted; after the wind passes in chapter 8 the waters subside."
+        },
+        {
+          "prompt": "Why does the passage mention both springs in the deep and openings in the sky?",
+          "options": [
+            "The springs closed first and the account measures the delay",
+            "Water had entered from below as well as from above",
+            "One of the two sources was still pouring water in"
+          ],
+          "answer": 1,
+          "explanation": "Closing both sources answers the earlier description of water breaking in from two directions."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which caption best matches the gradual fall described after the rain stops?",
+          "options": [
+            "The storm has ended, and the water keeps draining away",
+            "The wind has blown all the water away in a day",
+            "The rain has stopped, so the animals step onto dry land",
+            "The water is falling, so Noah can see the olive leaf"
+          ],
+          "answer": 0,
+          "explanation": "The end of the rain cuts off a supply of water. It takes longer for the flooded land to reappear."
+        },
+        {
+          "prompt": "What changes for the reader when the story turns from the powerful waters to God remembering those aboard?",
+          "options": [
+            "Noah takes over as the narrator for the rest of the flood",
+            "Attention returns to the survivors before they can see land",
+            "The animals receive instructions to open the ark",
+            "The entire covenant is announced while the rain still falls"
+          ],
+          "answer": 1,
+          "explanation": "The preceding scene ends with the waters holding sway. The new scene names Noah and the animals and begins the retreat of the water."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which turning point in Genesis 8 does the cloth blowing over the water suggest?",
+      "bonuses": [
+        {
+          "prompt": "Genesis 7 narrows survival to Noah and those with him. How does the opening of chapter 8 take up that group?",
+          "options": [
+            "It names Noah and the animals with him as those God remembers",
+            "It names future descendants as those already released",
+            "It names the survivors only after the drying is complete"
+          ],
+          "answer": 0,
+          "explanation": "The statement of remembrance recalls the survivors aboard just as the narrative changes direction."
+        },
+        {
+          "prompt": "What is closed in 8:2 in reversal of what opened in 7:11?",
+          "options": [
+            "The ark’s door and the window Noah made",
+            "The springs of the deep and the openings of the sky",
+            "The ark’s openings and the openings of the sky"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 7:11 and 8:2 describe the opening and closing of the same sources."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What immediate action gives expression to “remembered” in 8:1, before any command to leave?",
+          "options": [
+            "Removing the ark’s covering to inspect the ground",
+            "Opening the window to test the state of the water",
+            "Sending a wind that begins the waters’ retreat",
+            "Sending the family out to examine the dry land"
+          ],
+          "answer": 2,
+          "explanation": "The wind follows the remembrance, and the retreat of the waters begins."
+        },
+        {
+          "prompt": "How does the function of the 150 days change between 7:24 and 8:3?",
+          "options": [
+            "From a span of prevailing waters to the point at which their decrease is reported",
+            "From the duration of rainfall to the days remaining until the ark rests",
+            "From the household’s wait to the time required for the ground to dry",
+            "From the sighting of the peaks to the date the first bird is sent"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 7:24 and 8:3 use the same span across the shift from prevailing waters to recession."
+        }
+      ]
+    }
+  },
+  "life-noah-8": {
+    "a": {
+      "picturePrompt": "Water surrounds a peak, but its top is showing. Which stop on the ark’s journey comes next?",
+      "bonuses": [
+        {
+          "prompt": "Which happened first: resting on the mountain or walking out of the ark?",
+          "options": [
+            "The family walked out while the ark floated",
+            "The family stepped out before the ark touched rock",
+            "The ark rested while the family was still inside"
+          ],
+          "answer": 2,
+          "explanation": "The family was still aboard when the ark came to rest on Ararat."
+        },
+        {
+          "prompt": "The rock under the ark is dry. Why does the family still wait?",
+          "options": [
+            "One dry rock does not make a dry path for everyone",
+            "The ark still has to float up onto the mountain",
+            "The animals have already walked down the mountain"
+          ],
+          "answer": 0,
+          "explanation": "Water still covers the low ground. Coming to rest and being ready to leave happen at different times."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What began to show above the water after the ark settled?",
+          "options": [
+            "A rainbow",
+            "Mountain tops",
+            "A full food basket",
+            "A leaf in the dove’s beak"
+          ],
+          "answer": 1,
+          "explanation": "As the water dropped farther, the highest parts of the mountains could be seen."
+        },
+        {
+          "prompt": "The peaks can be seen. Why are the animals still waiting?",
+          "options": [
+            "Someone is still building their ark",
+            "They are waiting for the flood to start",
+            "Water remains around the mountains",
+            "They want the rain to return"
+          ],
+          "answer": 2,
+          "explanation": "Only the highest parts were showing. The land was not all dry."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "The peak is exposed, but water still fills the valleys. Which stop can the ark reach before the family can walk out?",
+      "bonuses": [
+        {
+          "prompt": "What had changed by the time the ark reached Ararat, and what had still to happen?",
+          "options": [
+            "The family had left, but the ark still had to stop",
+            "The ground had dried, but rain still had to begin",
+            "The ark rested, but the ground still had to dry"
+          ],
+          "answer": 2,
+          "explanation": "Coming to rest on high ground happened well before the family could walk out."
+        },
+        {
+          "prompt": "After the ark came to rest and the water level kept dropping, what became visible?",
+          "options": [
+            "The mountaintops",
+            "Palace rooftops",
+            "City gates"
+          ],
+          "answer": 0,
+          "explanation": "The ark first came to rest on the mountains of Ararat. Later, the mountaintops appeared as the water kept receding."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The ark came to rest in the seventh month. The peaks appeared in the tenth. Which happened first?",
+          "options": [
+            "The ark stopped floating freely",
+            "All the mountain tops could be seen",
+            "Noah sent the dove with the leaf",
+            "The family walked out of the ark"
+          ],
+          "answer": 0,
+          "explanation": "The seventh month comes before the tenth. The ark was already resting as the water continued to fall."
+        },
+        {
+          "prompt": "The water once lifted the ark. What does the change from floating to resting tell us?",
+          "options": [
+            "The family exchanged the ark for a boat",
+            "The water level changed and land supported the ark",
+            "The animals learned to steer",
+            "A second flood began"
+          ],
+          "answer": 1,
+          "explanation": "Rising water lifted the ark. Later it rested on mountains while the water continued to fall."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Exposed rock can support a vessel before the valleys are dry. Which stage in Genesis 8 does that distinction identify?",
+      "bonuses": [
+        {
+          "prompt": "What happens to the ark in the seventh month?",
+          "options": [
+            "It lifts from the earth and begins to float",
+            "It empties as the animals go out onto dry land",
+            "It comes to rest on the mountains of Ararat"
+          ],
+          "answer": 2,
+          "explanation": "The ark settles on the mountains in the seventh month. The water around it continues to fall."
+        },
+        {
+          "prompt": "The ark rests in month seven; mountain peaks appear in month ten. Which reading preserves the order?",
+          "options": [
+            "The ark can be held by one height before other peaks emerge",
+            "All peaks must already be visible when the ark first rests",
+            "The family leaves as soon as the first peak becomes visible"
+          ],
+          "answer": 0,
+          "explanation": "The text gives these events different dates and places the family’s departure later still."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "An artist draws Noah stepping out when the ark first touches Ararat. Which detail has been moved forward?",
+          "options": [
+            "Noah’s departure, which comes after the land dries",
+            "The ark’s contact with the mountains",
+            "The arrival of floodwater around the ark",
+            "The construction of the wooden ark"
+          ],
+          "answer": 0,
+          "explanation": "The ark settling is an early stage in the retreat of the water. The command to leave comes later."
+        },
+        {
+          "prompt": "The ark rests in month seven. Only in month ten does the narrator say the peaks could be seen. Which conclusion do these dates allow?",
+          "options": [
+            "The family saw every peak before the ark stopped",
+            "The ark could be supported before the peaks were visible",
+            "The ark came to rest at the very highest peak",
+            "The water vanished as soon as the ark touched bottom"
+          ],
+          "answer": 1,
+          "explanation": "The dates distinguish what happened to the hull from what could be seen above the water. They do not identify a particular peak."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which dated event in Genesis 8 does an exposed height help distinguish from the later appearance of other peaks?",
+      "bonuses": [
+        {
+          "prompt": "What do the two chronological notices in Genesis 8:4–5 allow us to order without identifying a modern summit?",
+          "options": [
+            "The opening of the window precedes the ark’s rest",
+            "The first sight of mountain peaks follows the departure",
+            "Rest in month seven precedes visible peaks in month ten"
+          ],
+          "answer": 2,
+          "explanation": "The passage supplies the order and dates of rest and visibility without naming a unique peak."
+        },
+        {
+          "prompt": "What can be established from the geographical expression “mountains of Ararat” alone?",
+          "options": [
+            "The mountainous region where the ark rested",
+            "The particular peak in that region where it rested",
+            "The direction it drifted through that region"
+          ],
+          "answer": 0,
+          "explanation": "The wording does not identify a particular modern peak."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What directly establishes that the ark’s rest and the exposure of the mountain tops were separate stages?",
+          "options": [
+            "A different depth is measured for each event",
+            "A different bird is released after each event",
+            "A different month and day are given for each event",
+            "Noah removes the covering after each event"
+          ],
+          "answer": 2,
+          "explanation": "The seventh month marks the ark’s rest and the tenth the appearance of the mountain tops."
+        },
+        {
+          "prompt": "How does 8:5 return to the role of the mountains in the flood scene in 7:19?",
+          "options": [
+            "The same landscape features show first the rise and then the fall of the waters",
+            "In both scenes the mountains date the resting of the ark precisely",
+            "In both scenes Noah uses the mountains to test the condition of the land",
+            "The mountains first measure elapsed time and then measure depth"
+          ],
+          "answer": 0,
+          "explanation": "The narrator uses the same feature of the landscape to show first the rise and then the retreat."
+        }
+      ]
+    }
+  },
+  "life-noah-4": {
+    "a": {
+      "picturePrompt": "A leaf lies by the window, far from a tree. Which part of Noah’s story explains how it got there?",
+      "bonuses": [
+        {
+          "prompt": "First the dove came back with nothing. What made her next visit more helpful to Noah?",
+          "options": [
+            "She stayed away and never came back",
+            "She brought a leaf from a plant outside",
+            "She came back again with an empty beak"
+          ],
+          "answer": 1,
+          "explanation": "Noah now had a clue about a plant outside the ark."
+        },
+        {
+          "prompt": "Which came last after Noah sent the dove out several times?",
+          "options": [
+            "The dove came back with nothing",
+            "The dove brought the leaf",
+            "The dove stayed outside"
+          ],
+          "answer": 2,
+          "explanation": "She returned empty, then with a leaf. On her last flight she did not come back."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened before the dove came back with a leaf?",
+          "options": [
+            "Noah left the ark",
+            "A rainbow appeared",
+            "Noah built an altar",
+            "It came back once without a leaf"
+          ],
+          "answer": 3,
+          "explanation": "On the first trip the dove found nowhere to rest. It brought a leaf on the next trip."
+        },
+        {
+          "prompt": "What did Noah learn from the leaf in the dove’s beak?",
+          "options": [
+            "The rain was getting heavier",
+            "The water had fallen",
+            "The tree was inside the ark",
+            "The water had frozen"
+          ],
+          "answer": 1,
+          "explanation": "The leaf came from an olive tree. Noah understood that the dove could reach it."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "What event connects two clues here: a leaf from a living tree and a window that opens over floodwater?",
+      "bonuses": [
+        {
+          "prompt": "Two of the dove’s flights ended back at the ark. How could Noah tell the second return from the first?",
+          "options": [
+            "Only on the first return did she carry a leaf",
+            "Only on the second return did she carry a leaf",
+            "On the second flight she stayed away"
+          ],
+          "answer": 1,
+          "explanation": "The first return meant she found no resting place. The leaf on her next return supplied a new clue."
+        },
+        {
+          "prompt": "Why did Noah send the dove again even after she brought an olive leaf?",
+          "options": [
+            "Bringing a leaf meant she had found no plants at all",
+            "Noah needed her to bring back the raven",
+            "One branch within reach did not show that the ground was ready"
+          ],
+          "answer": 2,
+          "explanation": "He waited another seven days. This time she did not come back to him."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Water covered the ground and the dove returned to Noah. What difficulty explains its return?",
+          "options": [
+            "The window was closed to it",
+            "It found no place to land",
+            "It wanted to bring the raven",
+            "It dropped a leaf from its beak"
+          ],
+          "answer": 1,
+          "explanation": "On its first flight the dove could find no resting place."
+        },
+        {
+          "prompt": "The dove returned empty-beaked, came back with a leaf, then did not return. What does the sequence suggest?",
+          "options": [
+            "Noah sent a different bird each time",
+            "The water rose continuously",
+            "Conditions outside changed between flights",
+            "All the land was dry on the first flight"
+          ],
+          "answer": 2,
+          "explanation": "The changing outcomes give Noah successive signs that the waters are receding."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Read the leaf as evidence rather than scenery. Which episode explains both what Noah knows now and why he still waits?",
+      "bonuses": [
+        {
+          "prompt": "Across the dove’s first two flights, what stays the same and what changes?",
+          "options": [
+            "Both bring leaves; only the first ends in a return",
+            "Both end in a return; only the second brings a leaf",
+            "Both end outside; only the second lasts seven days"
+          ],
+          "answer": 1,
+          "explanation": "The repeated return allows the new object in the second account to carry the news."
+        },
+        {
+          "prompt": "Which interpretation fits both the second return and Noah’s decision to wait another week?",
+          "options": [
+            "The water had vanished, and a new flood was expected",
+            "The leaf gave no information, so Noah began testing anew",
+            "The water had diminished, but the test was not complete"
+          ],
+          "answer": 2,
+          "explanation": "Noah understands from the leaf that the waters have receded, then sends the dove once more."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does Noah’s week of waiting matter when comparing two flights of the dove?",
+          "options": [
+            "It tells us how long the dove spent in the air",
+            "The water has time to fall between the two observations",
+            "It tells us when Noah received permission to leave",
+            "It dates the day the ark touched the mountains"
+          ],
+          "answer": 1,
+          "explanation": "Sending the same bird again after an interval lets the reader compare what has changed outside."
+        },
+        {
+          "prompt": "On its last flight the dove does not return. Which claim goes further than the account itself?",
+          "options": [
+            "Noah sent the dove out more than once",
+            "Earlier the dove came back with a leaf",
+            "We know the exact spot where the dove settled",
+            "Noah waited between the last two flights"
+          ],
+          "answer": 2,
+          "explanation": "The narrator records the bird’s absence from the ark. The reader is not told where it went to live."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which episode makes a leaf at an opening evidence for Noah’s knowledge, while still withholding permission to depart?",
+      "bonuses": [
+        {
+          "prompt": "Read the report of the leaf alongside “Noah knew that the waters had diminished.” What is the direction of inference?",
+          "options": [
+            "An order to leave supplies the leaf with its meaning in advance",
+            "A particular object carried back supports a conclusion about the water",
+            "A measured water level identifies the exact source of the leaf"
+          ],
+          "answer": 1,
+          "explanation": "An observation of the dove is followed by a statement about Noah’s knowledge. The order to leave comes later."
+        },
+        {
+          "prompt": "How does the raven’s movement differ from the dove’s missions in Genesis 8?",
+          "options": [
+            "Both are sent afresh every seven days, but only the dove brings a leaf",
+            "Noah waits for the raven to return empty-beaked before he sends the dove",
+            "The raven ranges back and forth, while Noah repeatedly sends out the dove"
+          ],
+          "answer": 2,
+          "explanation": "The raven’s movement is described as recurring. The dove’s separate missions receive individual outcomes."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "On seeing the leaf, what conclusion does verse 11 attribute to Noah?",
+          "options": [
+            "All the ground was already dry",
+            "The command to leave had already come",
+            "The floodwater had receded from the land",
+            "The dove would never return again"
+          ],
+          "answer": 2,
+          "explanation": "Noah draws a conclusion about the water level. Drying and the command to leave appear later."
+        },
+        {
+          "prompt": "How does the perspective shift between the account of the ark resting on the mountains and the story of Noah sending the dove?",
+          "options": [
+            "From the narrator’s account of the land to Noah investigating through a sign",
+            "From Noah’s own visual inspection to the narrator dating the drying of the ground",
+            "From a divine disclosure to Noah to a conclusion given to the reader alone",
+            "From Noah’s guess about the mountains to confirmation addressed to him by God"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 8:4–5 reports conditions. Verses 8–11 foreground what Noah seeks to know and what he learns."
+        }
+      ]
+    }
+  },
+  "life-noah-9": {
+    "a": {
+      "picturePrompt": "Earlier a wet world kept everyone inside. The door is open onto dry ground now. What part of Noah’s story is this?",
+      "bonuses": [
+        {
+          "prompt": "The dove could stay outside before the sheep could leave. What did the sheep still need?",
+          "options": [
+            "Dry land to walk on",
+            "A branch to perch on",
+            "A breeze to fly with"
+          ],
+          "answer": 0,
+          "explanation": "A dove flies. A sheep needs a place to set down its feet."
+        },
+        {
+          "prompt": "Which little story tells what happened in the right order?",
+          "options": [
+            "The animals went out, then the ark began floating",
+            "The land dried, then the family led the animals out",
+            "The family went out, then the animals first boarded"
+          ],
+          "answer": 1,
+          "explanation": "Noah waited for the land to dry and for God’s call to come out with the animals."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "When did Noah leave the ark?",
+          "options": [
+            "When God told him to leave",
+            "As soon as the dove returned",
+            "When the rain began",
+            "Before all the animals entered"
+          ],
+          "answer": 0,
+          "explanation": "Noah waited and left after the command."
+        },
+        {
+          "prompt": "Why bring out the animals Noah once took aboard?",
+          "options": [
+            "So they can build their own ark",
+            "So they can live on the land again",
+            "So they can look for another flood",
+            "So they can guard the roof"
+          ],
+          "answer": 1,
+          "explanation": "The ark protected them during the flood. Now there is room for them on land again."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Compare this view through the door with the earlier animal tracks leading in. Which episode would reverse their direction?",
+      "bonuses": [
+        {
+          "prompt": "What could Noah do on dry land that the story places immediately after everyone left?",
+          "options": [
+            "Build an altar and bring an offering",
+            "Look out from the ark and send the dove",
+            "Store enough food for the journey"
+          ],
+          "answer": 0,
+          "explanation": "The altar comes after the departure. The other two actions belong to earlier stages of the journey."
+        },
+        {
+          "prompt": "The animals entered in pairs and left “by their families.” Which retelling keeps both descriptions in place?",
+          "options": [
+            "Groups of one family entered, only one pair came out",
+            "Pairs at entry, groups of their own kind at departure",
+            "Only birds came in pairs, only sheep came out in groups"
+          ],
+          "answer": 1,
+          "explanation": "The story changes the wording when it describes the animals’ way out."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why were the animals to be brought out?",
+          "options": [
+            "To build another ark",
+            "To stay beside the door forever",
+            "To multiply on the earth again",
+            "To teach them to row"
+          ],
+          "answer": 2,
+          "explanation": "The instruction looks toward renewed animal life on earth."
+        },
+        {
+          "prompt": "The olive leaf showed that the water had gone down. When did the family finally leave?",
+          "options": [
+            "When the land was dry and God told Noah to go out",
+            "As soon as the ark touched the mountains",
+            "On the day the rain stopped",
+            "Before the dove’s first flight"
+          ],
+          "answer": 0,
+          "explanation": "The leaf was an early sign. Noah and his family left later, when they could live on the land again."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Earlier the doorway marked entry into safety. The dry ground beyond it now gives a different command its setting. Which episode is this?",
+      "bonuses": [
+        {
+          "prompt": "Which pair separates a conclusion Noah can draw from something he receives as an instruction?",
+          "options": [
+            "He sees dry ground; he is told to leave with the creatures",
+            "He sees the dove return; he is told the water has risen",
+            "He sees the ark on rock; he is told to board for the first time"
+          ],
+          "answer": 0,
+          "explanation": "The ground’s appearance is observable. The call to leave is spoken to him after the drying."
+        },
+        {
+          "prompt": "In which pair does the first action happen aboard and the second on dry land after the flood?",
+          "options": [
+            "Building the ark and gathering provisions",
+            "Hearing the command to leave and building an altar",
+            "Sending out the raven and sending out the dove"
+          ],
+          "answer": 1,
+          "explanation": "Noah hears the command aboard. The family and animals leave, and only then does he build the altar."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does the command name birds, livestock and creatures that move along the ground?",
+          "options": [
+            "To specify the exact order for unloading the animals",
+            "To list only the animals Noah must later offer",
+            "To make clear that the departure includes every kind aboard",
+            "To decide which animals must stay inside"
+          ],
+          "answer": 2,
+          "explanation": "The list follows the command to bring out the living creatures and shows how widely it applies."
+        },
+        {
+          "prompt": "How does the reason for going out change the meaning of the earlier boarding scene?",
+          "options": [
+            "The shelter protected creatures so that life on land could begin again",
+            "The shelter was always meant to be the animals’ permanent home",
+            "Only animals needed for the altar had reason to board",
+            "The family boarded to learn the route to a particular mountain"
+          ],
+          "answer": 0,
+          "explanation": "Boarding kept creatures alive during the flood. The call to go out and multiply gives that rescue a future on land."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "After signs gathered through a window, an open doorway frames dry land. Which episode turns observation into a commanded action?",
+      "bonuses": [
+        {
+          "prompt": "What does the earlier distinction between clean animals and others help a reader understand after the departure?",
+          "options": [
+            "Why that classification reappears when the offerings are described",
+            "Why only pure animals were included in the command to leave",
+            "Why the covenant later names only birds fit for an offering"
+          ],
+          "answer": 0,
+          "explanation": "All creatures leave. The description then singles out clean animals and birds for the offerings."
+        },
+        {
+          "prompt": "What follows the creatures’ exit without an explicit command in this passage?",
+          "options": [
+            "Bringing out the creatures",
+            "Building the altar",
+            "The departure of the family"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 8:16–19 ties departure to a command. The altar follows as Noah’s act."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What in the departure instruction of 8:17 echoes the blessing of fish and birds in Genesis 1:22?",
+          "options": [
+            "The appointment of humankind to rule over the animals",
+            "The call for living creatures to multiply on the land",
+            "The grant of plants as food for the animals",
+            "The separation of waters so dry land can appear"
+          ],
+          "answer": 1,
+          "explanation": "The language of multiplication returns as life on land begins again."
+        },
+        {
+          "prompt": "What connects the distinction among animals at boarding in chapter 7 with the altar episode in chapter 8?",
+          "options": [
+            "Pairing determines both the order of boarding and the number of offerings",
+            "Family grouping determines both boarding counts and the order of sacrifice",
+            "Cleanness determines counts among livestock at boarding and the choice of kinds for offering",
+            "The distinction between bird and beast determines both boarding order and the kind of altar"
+          ],
+          "answer": 2,
+          "explanation": "The distinction of cleanness in the preparations becomes relevant to the kinds Noah offers."
+        }
+      ]
+    }
+  },
+  "life-noah-5": {
+    "a": {
+      "picturePrompt": "The grass is wet, but sunlight reaches the ground again. Which story about a promise comes after the flood?",
+      "bonuses": [
+        {
+          "prompt": "A lamb is born after Noah has left the ark. Does the promise include it?",
+          "options": [
+            "Only if that lamb once rode in the ark",
+            "Only if the lamb sees Noah point",
+            "Yes, it is for the animals that come after them too"
+          ],
+          "answer": 2,
+          "explanation": "The promise is for living creatures for generations, even ones not aboard the ark."
+        },
+        {
+          "prompt": "It rains again one day. Which words would help a worried child remember the promise?",
+          "options": [
+            "Rain can fall without a flood covering the whole world",
+            "There will never be another rain cloud",
+            "Each rain means everyone must board again"
+          ],
+          "answer": 0,
+          "explanation": "The promise was about a flood that destroys all living things. Rain can still come."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which of these happened first?",
+          "options": [
+            "Noah left the ark",
+            "The dove brought a leaf",
+            "Noah built an altar",
+            "God gave the rainbow as a sign"
+          ],
+          "answer": 1,
+          "explanation": "The dove brought the leaf while Noah was still aboard."
+        },
+        {
+          "prompt": "Why is the promise good for the animals too?",
+          "options": [
+            "It protects them from another flood like this",
+            "It gives them another ark",
+            "It promises them only sunshine",
+            "It brings back their food basket"
+          ],
+          "answer": 0,
+          "explanation": "God promised that living creatures would not face another flood like this one."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "What event connects the water still on the grass with the promise about what will happen after this flood?",
+      "bonuses": [
+        {
+          "prompt": "Think of a child born long after the ark landed. Why is the promise important to that child too?",
+          "options": [
+            "Only people who saw the ark can receive it",
+            "Every new child must start building an ark",
+            "The promise includes future generations"
+          ],
+          "answer": 2,
+          "explanation": "God includes Noah’s descendants in the promise, along with the living creatures."
+        },
+        {
+          "prompt": "A child says, “If the promise holds, there should never be a storm.” Which detail would you use to answer?",
+          "options": [
+            "The promise concerns a flood destroying all life, and the sign appears in clouds",
+            "The promise says rain will fall only beside the ark",
+            "The promise ends with the first cloud after the flood"
+          ],
+          "answer": 0,
+          "explanation": "Rain clouds are part of the description of the sign itself. A storm is not the destruction promised against."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What does the covenant promise?",
+          "options": [
+            "No flood will again destroy the earth in this way",
+            "Rain will never fall again",
+            "There will never be clouds",
+            "Everyone will live in an ark"
+          ],
+          "answer": 0,
+          "explanation": "The promise concerns a flood that destroys the earth, not an end to rainfall."
+        },
+        {
+          "prompt": "How does the dove’s olive leaf differ from the rainbow?",
+          "options": [
+            "Both instructed Noah to leave",
+            "Both reached Noah while he was building",
+            "The leaf told of the water level; the rainbow marks a promise about the future",
+            "The leaf announced rain and the rainbow ordered construction"
+          ],
+          "answer": 2,
+          "explanation": "From the leaf Noah learned the waters had fallen. The rainbow marks a covenant with living creatures."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which episode interprets the clearing sky in terms of future generations, beyond what Noah’s family can see?",
+      "bonuses": [
+        {
+          "prompt": "A reader says only those who saw the flood could share the covenant. Which two groups in Genesis 9 challenge that reading?",
+          "options": [
+            "Noah and the sons standing beside him",
+            "The family aboard and the creatures aboard at the time",
+            "Future descendants and living creatures across generations"
+          ],
+          "answer": 2,
+          "explanation": "The address begins with the survivors but extends to descendants and living creatures in generations to come."
+        },
+        {
+          "prompt": "Can another rain cloud appear without breaking the covenant? What supports your answer?",
+          "options": [
+            "Yes. The bow itself is to appear in clouds",
+            "No. All clouds disappear after the promise",
+            "Only while Noah’s sons are still alive"
+          ],
+          "answer": 0,
+          "explanation": "The promise concerns a flood that destroys life on earth. The account still speaks of clouds gathering."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why is a caption saying “Noah promises to protect the earth” misleading here?",
+          "options": [
+            "God makes the promise to Noah and to living creatures",
+            "Noah makes the promise to his sons alone",
+            "The animals make the promise to Noah",
+            "Noah makes the promise before seeing any water"
+          ],
+          "answer": 0,
+          "explanation": "Noah receives the covenant. The speaker establishing it and giving it a sign is God."
+        },
+        {
+          "prompt": "Early on, Noah gathers food for those about to board. How does the covenant enlarge the reach of that concern?",
+          "options": [
+            "It promises that all Noah’s descendants will receive the same food",
+            "It makes each future generation build another ark",
+            "It extends from the ark’s occupants to living creatures across generations",
+            "It reserves the promise for the animals Noah fed himself"
+          ],
+          "answer": 2,
+          "explanation": "The provisions were for one household and its animals during one flood. The covenant also names their descendants and all living creatures."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "The earth still bears traces of water. Which covenant marks a limit on future destruction while leaving room for cloud and rain?",
+      "bonuses": [
+        {
+          "prompt": "Compare “God remembered Noah” in 8:1 with the remembrance in 9:16. Which reading distinguishes the objects and times of remembrance?",
+          "options": [
+            "In both passages Noah remembers the creatures after seeing the bow",
+            "The first concerns a future covenant, the second a single rescue already completed",
+            "God remembers the living in the flood, then speaks of remembering the covenant when seeing the bow"
+          ],
+          "answer": 2,
+          "explanation": "The first remembrance introduces the waters’ retreat. The later one concerns an everlasting covenant with living creatures."
+        },
+        {
+          "prompt": "How does the covenant speech in chapter 9 develop what God says in his heart after the offering in chapter 8?",
+          "options": [
+            "An inward resolve is spoken to named recipients and given a sign",
+            "A sign already given after the offering is withdrawn from the creatures",
+            "Noah’s promise at the altar becomes a duty he imposes on his descendants"
+          ],
+          "answer": 0,
+          "explanation": "Chapter 8 describes an inward divine resolve. In chapter 9 God addresses Noah and his sons, includes living creatures and names the bow as the sign."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "In chapter 9, who is explicitly included beyond the personal address to Noah in chapter 6?",
+          "options": [
+            "His household and the clean animals that left the ark",
+            "His descendants and the birds released before departure",
+            "His sons and the animals offered on the altar",
+            "His descendants and every living creature"
+          ],
+          "answer": 3,
+          "explanation": "Genesis 6:18 addresses Noah personally. Genesis 9:9–10 spells out the reach across generations and species."
+        },
+        {
+          "prompt": "What changes between the remembrance opening chapter 8 and the remembrance tied to the bow in chapter 9?",
+          "options": [
+            "From a promise to future generations to an explanation of how the occupants survived",
+            "From rescue of the ark’s occupants to an enduring commitment to all life",
+            "From Noah recalling his instruction to his sons commemorating the altar",
+            "From remembrance of a household covenant to renewal for that household alone"
+          ],
+          "answer": 1,
+          "explanation": "In 8:1 remembrance leads into the waters’ retreat. In 9:15–16 it is bound to an ongoing commitment to living creatures."
+        }
+      ]
+    }
+  }
+}

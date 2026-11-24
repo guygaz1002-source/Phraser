@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-02",
+  "method": "Built-in image_gen plus previously generated original game art. Two image sets only.",
+  "sources": [
+    {
+      "file": "burning-bush-kids-art-1.webp",
+      "source": "moses-2-kids-1.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-kids-art-2.webp",
+      "source": "moses-2-kids-2.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-kids-art-3.webp",
+      "source": "moses-2-kids-3.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-kids-art-4.webp",
+      "source": "moses-2-kids-4.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-classic-art-1.webp",
+      "source": "moses-2-adult-1.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-classic-art-2.webp",
+      "source": "moses-2-adult-2.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-classic-art-3.webp",
+      "source": "moses-2-adult-3.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "burning-bush-classic-art-4.webp",
+      "source": "moses-2-adult-4.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "moses-kids-atlas.webp",
+      "source": "exec-16aa533b-8430-487e-acaf-03054bc10887.png",
+      "prompt": "Create one square2x2 picture-clue TEXTURE ATLAS. Four perfectly equal square quadrants, no visible gutter/border, each is a separate edge-to-edge composition. It is a visual riddle identifying the biblical figure MOSES at his calling at Horeb, Exodus3. No duck avatars: these narrative paintings portray humans. No written words, letters, numerals or captions. No deity or divine human, no angels, no religious emblems, no modern objects, no violence or nudity. Same silver-bearded Middle Eastern shepherd in sandy robe with rust mantle across the human scenes. Top-left: close still life of worn sandals and a plain shepherd staff beside an intact green desert shrub with a faint warm glow, no face. Top-right: rear-three-quarter view of that shepherd's hooded shoulders and staff as he tends two sheep in the wilderness, face not yet visible, warm light ahead. Bottom-left: clear kindly silver-bearded shepherd portrait with his staff, a healthy green bush in flame behind his shoulder, his attentive face is the hero. Bottom-right: full-body barefoot shepherd with his sandals set aside, staff in hand, listening before the green unconsumed burning bush and looking toward a distant open desert path, a visual calling to lead. Style very simple friendly children's storybook gouache illustration, soft rounded shapes, sunny light, uncluttered compositions, large readable objects, warm cream, gold, terracotta and sage, kind gentle face and only two tiny sheep, suitable for ages4–7.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "moses-classic-atlas.webp",
+      "source": "exec-aa5cf6f0-e81d-4dfa-a88c-3f7863488158.png",
+      "prompt": "Create one square2x2 picture-clue TEXTURE ATLAS. Four perfectly equal square quadrants, no visible gutter/border, each is a separate edge-to-edge composition. It is a visual riddle identifying the biblical figure MOSES at his calling at Horeb, Exodus3. No duck avatars: these narrative paintings portray humans. No written words, letters, numerals or captions. No deity or divine human, no angels, no religious emblems, no modern objects, no violence or nudity. Same silver-bearded Middle Eastern shepherd in sandy robe with rust mantle across the human scenes. Top-left: close still life of worn sandals and a plain shepherd staff beside an intact green desert shrub with a faint warm glow, no face. Top-right: rear-three-quarter view of that shepherd's hooded shoulders and staff as he tends two sheep in the wilderness, face not yet visible, warm light ahead. Bottom-left: clear kindly silver-bearded shepherd portrait with his staff, a healthy green bush in flame behind his shoulder, his attentive face is the hero. Bottom-right: full-body barefoot shepherd with his sandals set aside, staff in hand, listening before the green unconsumed burning bush and looking toward a distant open desert path, a visual calling to lead. Style classical academic oil painting, warm ochre and gold, dramatic single natural light, painterly oil-on-canvas texture and visible brushwork, dignified realistic anatomy, suitable for teens and adults.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "pharaoh-kids-atlas.webp",
+      "source": "exec-f999d79c-d245-4a75-ad25-40dd36b8d8ca.png",
+      "prompt": "One square2x2 game TEXTURE ATLAS: four perfectly equal square quadrants with no border or gutter; each quadrant is a separate full composition, shown individually in a picture riddle. Answer is PHARAOH, the ruler in Exodus5. Top-left: a low empty ornate gold-and-wood throne in an ancient Egyptian columned court, no people. Top-right: close still life of a striped royal linen headdress and gold collar resting on that throne, no human yet. Bottom-left: clear three-quarter portrait of an ancient Egyptian ruler in striped blue-and-gold linen headdress, plain white linen robe and gold collar seated on the throne, firm proud expression. Bottom-right: the same ruler sits on that throne and raises an open palm in refusal toward TWO elderly bearded men in humble earth-colored robes standing before him; their ordinary wooden staffs remain upright walking sticks. The seated ruler is the main subject. Respectful historically plausible illustrative interpretation. No snakes, magic, staff miracles, weapons, violence, nudity, deity, halo, religious emblems, writing, hieroglyphs, captions, lettering or modern objects. Style simple bright friendly children's picture book, soft rounded forms, warm gouache illustration, clean large readable subjects, cream gold teal and terracotta colors, no frightening faces, uncluttered composition for ages4–7.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "pharaoh-classic-atlas.webp",
+      "source": "exec-51713c31-6c68-4c76-bdab-44f45bbab942.png",
+      "prompt": "One square2x2 game TEXTURE ATLAS: four perfectly equal square quadrants with no border or gutter; each quadrant is a separate full composition, shown individually in a picture riddle. Answer is PHARAOH, the ruler in Exodus5. Top-left: a low empty ornate gold-and-wood throne in an ancient Egyptian columned court, no people. Top-right: close still life of a striped royal linen headdress and gold collar resting on that throne, no human yet. Bottom-left: clear three-quarter portrait of an ancient Egyptian ruler in striped blue-and-gold linen headdress, plain white linen robe and gold collar seated on the throne, firm proud expression. Bottom-right: the same ruler sits on that throne and raises an open palm in refusal toward TWO elderly bearded men in humble earth-colored robes standing before him; their ordinary wooden staffs remain upright walking sticks. The seated ruler is the main subject. Respectful historically plausible illustrative interpretation. No snakes, magic, staff miracles, weapons, violence, nudity, deity, halo, religious emblems, writing, hieroglyphs, captions, lettering or modern objects. Style classical academic oil painting, warm ochre and gold, dramatic single side-light, visible brushwork and canvas texture, dignified realistic human anatomy, suitable for teens.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "pride-kids-atlas.webp",
+      "source": "exec-c9665c82-0565-4ff2-8cde-7342cf4eb73a.png",
+      "prompt": "Create ONE game-art texture atlas, square canvas divided invisibly into exactly FOUR equal square quadrants, 2 columns by 2 rows. No gutters, borders, separators, lettering, captions or numbers. Each quadrant is a complete independent composition that fills its own square edge to edge. No object crosses the quadrant boundaries. It will be displayed ONE quadrant at a time as increasingly clear visual clues. Style: polished friendly children's picture book, warm gouache, simple rounded shapes, cream, soft gold, leaf-green and terracotta, bright gentle light, uncluttered one clear subject, expressive friendly faces, very easy for ages4–7. Puzzle answer: Pride goes before destruction. Top-left: a small ornate golden crown resting on a tall, visibly cracked stone pedestal in an ancient courtyard, no people. Top-right: a richly clothed ancient noble lifting his chin proudly and admiring his crown, unaware of one loose stone under his sandal near a low step. Bottom-left: the crown has toppled onto the ground beside the broken low pedestal; the surprised noble sits safely on the ground, unharmed, no violence or injury. Bottom-right: the same noble now humbly kneels to help a plainly clothed traveller up one low step, the discarded crown rests aside, showing humility learned after pride. No deity, no religious symbols, no modern objects, no text anywhere, no nudity.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "pride-classic-atlas.webp",
+      "source": "exec-33bcbfaa-09f0-4153-ae2c-e7869286188b.png",
+      "prompt": "Create ONE game-art texture atlas, square canvas divided invisibly into exactly FOUR equal square quadrants, 2 columns by 2 rows. No gutters, borders, separators, lettering, captions or numbers. Each quadrant is a complete independent composition that fills its own square edge to edge. No object crosses the quadrant boundaries. It will be displayed ONE quadrant at a time as increasingly clear visual clues. Style: rich classical academic oil painting, warm ochre and gold, luminous amber chiaroscuro, visible brushwork and oil-on-canvas texture, one dramatic side-light, dignified realistic anatomy, suitable for teenagers and adults. Puzzle answer: Pride goes before destruction. Top-left: a small ornate golden crown resting on a tall, visibly cracked stone pedestal in an ancient courtyard, no people. Top-right: a richly clothed ancient noble lifting his chin proudly and admiring his crown, unaware of one loose stone under his sandal near a low step. Bottom-left: the crown has toppled onto the ground beside the broken low pedestal; the surprised noble sits safely on the ground, unharmed, no violence or injury. Bottom-right: the same noble now humbly kneels to help a plainly clothed traveller up one low step, the discarded crown rests aside, showing humility learned after pride. No deity, no religious symbols, no modern objects, no text anywhere, no nudity.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "sea-kids-art-1.webp",
+      "source": "moses-4-kids-1.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-kids-art-2.webp",
+      "source": "moses-4-kids-2.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-kids-art-3.webp",
+      "source": "moses-4-kids-3.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-kids-art-4.webp",
+      "source": "moses-4-kids-4.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-classic-art-1.webp",
+      "source": "moses-4-adult-1.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-classic-art-2.webp",
+      "source": "moses-4-adult-2.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-classic-art-3.webp",
+      "source": "moses-4-adult-3.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "sea-classic-art-4.webp",
+      "source": "moses-4-adult-4.png",
+      "method": "Existing original image, optimized for app delivery"
+    },
+    {
+      "file": "trust-kids-atlas.webp",
+      "source": "exec-db55096a-d06b-4d8d-9959-6e7d9a80c128.png",
+      "prompt": "One square game-art TEXTURE ATLAS with exactly FOUR equal square quadrants, two by two, invisible divisions at50% width/height. Each quadrant is its own full independent scene. No gutters, no borders, no text, no letters, no numerals, no written answer. Displayed one quadrant at a time to solve a visual proverb. Sunny soft gouache children's picture book, friendly rounded shapes and faces, bright cream gold teal and terracotta, few large shapes, uncluttered clear subject suitable for ages4–7. The proverb is Trust in the Lord (Proverbs3:5). Ancient Near Eastern setting with one fully clothed adult traveller. Top-left: close still life of a walking staff at a fork in a rocky wilderness path, distant sunlit hills, only a traveller's sandaled feet at lower edge. Top-right: the traveller pauses at two uncertain paths, hand thoughtfully resting on his heart rather than on his blank rolled map. Bottom-left: the traveller kneels peacefully in prayer, hands together, head slightly lifted, staff beside him, sunlight from above illuminates a clear path ahead. Bottom-right: the same traveller walks confidently along the sunlit path, one hand on heart and face gently lifted in trust, leaving a tangled shaded path behind; strong visual focus on faith and trust, safe and hopeful. No visible deity, divine person, angels, halos, religious emblems, modern objects, violence, nudity or text.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "trust-classic-atlas.webp",
+      "source": "exec-c34e32b3-b921-4ba6-b721-26c0f1873b81.png",
+      "prompt": "One square game-art TEXTURE ATLAS with exactly FOUR equal square quadrants, two by two, invisible divisions at50% width/height. Each quadrant is its own full independent scene. No gutters, no borders, no text, no letters, no numerals, no written answer. Displayed one quadrant at a time to solve a visual proverb. Classical academic oil painting, warm ochre and gold, visible oil brushwork and canvas texture, single dramatic natural light, beautiful restrained composition, realistic adult anatomy, teenager-safe. The proverb is Trust in the Lord (Proverbs3:5). Ancient Near Eastern setting with one fully clothed adult traveller. Top-left: close still life of a walking staff at a fork in a rocky wilderness path, distant sunlit hills, only a traveller's sandaled feet at lower edge. Top-right: the traveller pauses at two uncertain paths, hand thoughtfully resting on his heart rather than on his blank rolled map. Bottom-left: the traveller kneels peacefully in prayer, hands together, head slightly lifted, staff beside him, sunlight from above illuminates a clear path ahead. Bottom-right: the same traveller walks confidently along the sunlit path, one hand on heart and face gently lifted in trust, leaving a tangled shaded path behind; strong visual focus on faith and trust, safe and hopeful. No visible deity, divine person, angels, halos, religious emblems, modern objects, violence, nudity or text.",
+      "method": "Built-in image_gen; four separate clue frames rendered from one atlas"
+    },
+    {
+      "file": "sprites/moses.png",
+      "source": "exec-7f068b9b-be97-48f2-99ba-f3acd7792da7.png",
+      "prompt": "EDIT the reference sprite sheet: preserve the friendly MOSES DUCK concept, desert galabeya, cream headcloth, short gray beard, orange beak and webbed feet, wooden staff, and FOUR horizontal animation cells. Radically simplify the rendering into AUTHENTIC 1990s HANDHELD RPG PIXEL ART. Each single character must read as a hand-drawn 32x48 LOGICAL PIXEL sprite, displayed with nearest-neighbor enlargement. Visible chunky square pixels, crisp staircase silhouettes, compact chibi proportions, small dot eyes, duck beak distinct. 12–16 flat colors only, one base plus one shade per material. NO antialiasing, NO smooth curves, NO painterly texture, NO realistic feathers, NO gradients, NO soft lighting, NO 3D, NO high-resolution illustration. This is the middle ground: distinctly pixelated like old Pokemon overworld characters, but enough pixels to see a sandy galabeya, terracotta sash, cream desert headcloth and beard. Bright legible game sprite at tiny on-screen size. Wide8:3 sheet, exactly four equal columns, one row, aligned feet baseline and identical scale, full figure fully inside each cell. Frames1&2 idle with tiny pose difference;3&4 alternating left/right webbed foot walking. Transparent background everywhere outside sprites, no scenery, no shadow, no words, no labels. Pixel artwork ONLY, technical animation asset not a character illustration.",
+      "method": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet"
+    },
+    {
+      "file": "sprites/noah.png",
+      "source": "exec-a7294dd3-e66f-48ee-bcf4-7fec940c7d31.png",
+      "prompt": "Use the reference as the EXACT art direction: charming DUCK mascot in AUTHENTIC old handheld RPG PIXEL ART. Crisp visible square pixels and staircase edges, roughly32x48 logical pixels per duck, compact chibi proportions, 12–16 flat colors. Bright readable sprites, no smooth illustration, no gradients, no 3D, no realistic anatomy. ONE sprite sheet, wide8:3 aspect ratio, FOUR equal columns, one horizontal row. Same character scale and baseline, each full-body figure entirely inside its cell. Frames1&2 two idle poses;3&4 alternating left and right webbed feet forward in a walking cycle. Genuine transparent background outside the sprites. No text, labels, scenery or shadows. Cream-white duck feathers and golden beak/webbed feet, distinct friendly eyes. Character NOAH: gentle ELDERLY duck with long snowy WHITE HAIR and a VERY LONG WHITE BEARD reaching waist, sage-green ancient robe, tan belt and simple wooden walking staff. The long white beard and pale hair are the signature. No hat, no magic. Keep clearly pixelated.",
+      "method": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet"
+    },
+    {
+      "file": "sprites/david.png",
+      "source": "exec-cb53a077-46b4-4050-a5b3-b6bb1c2db726.png",
+      "prompt": "Create ONE production game sprite sheet matching the reference's charming old-handheld RPG PIXEL ART, visible square pixels and stepped silhouettes, approximately32x48 logical pixels per character, limited12–16 flat colors, no soft illustration or realism. Friendly cream-white DUCK with golden beak and webbed feet and dot eyes, recognizably duck. Wide8:3 canvas with exactly FOUR equal horizontal cells in one row. Four full-body poses of the same character, identical scale and feet baseline: idleA, idleB, left-foot-forward walk, right-foot-forward walk. Each whole sprite stays in its own cell. Genuine transparent alpha everywhere outside figures. No background, ground, cast shadow, labels, text, religious symbols or smooth shaded rendering. DAVID as a young shepherd: curly chestnut feather-hair tuft, short sky-blue tunic and brown belt, small leather sling folded and hanging from his belt, one small golden lyre held against his side. No beard, no crown, no weapon in use. Youthful eager expression. Match the clear blocky pixel style of the reference.",
+      "method": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet"
+    },
+    {
+      "file": "sprites/solomon.png",
+      "source": "exec-54c517fd-3207-46cf-92c1-53270bed9313.png",
+      "prompt": "Create ONE production game sprite sheet matching the reference's charming old-handheld RPG PIXEL ART, visible square pixels and stepped silhouettes, approximately32x48 logical pixels per character, limited12–16 flat colors, no soft illustration or realism. Friendly cream-white DUCK with golden beak and webbed feet and dot eyes, recognizably duck. Wide8:3 canvas with exactly FOUR equal horizontal cells in one row. Four full-body poses of the same character, identical scale and feet baseline: idleA, idleB, left-foot-forward walk, right-foot-forward walk. Each whole sprite stays in its own cell. Genuine transparent alpha everywhere outside figures. No background, ground, cast shadow, labels, text, religious symbols or smooth shaded rendering. SOLOMON as a wise king: small flat gold crown with three points, short dark beard beneath duck bill, simple plum-purple robe with gold edging, a small closed parchment scroll held in one wing. Thoughtful kind eyes. No staff, no headcloth. Match the clear blocky pixel style of the reference.",
+      "method": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet"
+    },
+    {
+      "file": "sprites/samson.png",
+      "source": "exec-9bbc782b-8207-4d40-b7fd-83110c525a62.png",
+      "prompt": "Create one friendly SAMSON DUCK game sprite sheet. Use the attached Moses duck sheet only as the reference for the SAME duck identity and visibly blocky old handheld RPG pixel art. Samson has long flowing chestnut hair, a broad strong build, and wears a modest full olive-green tunic covering chest, shoulders and upper legs, with a brown belt. Orange duck bill, white duck face and golden webbed feet, kind determined eyes. No weapon, fighting or injury. Wide 8:3 transparent canvas, exactly four equal horizontal cells, matching scale and feet baseline, one complete figure centered in each. Frames: idle, second idle, left-foot-forward walk, right-foot-forward walk. Crisp square pixels, staircase outlines, compact approximately 32x48 logical-pixel proportions, limited flat colors, readable clothing and hair. No smooth illustration, antialiasing, gradients, shadows, scenery, letters or labels. Preserve genuine transparent alpha everywhere outside the sprites.",
+      "method": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet"
+    }
+  ]
+}

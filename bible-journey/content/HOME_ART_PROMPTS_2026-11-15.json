@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-15",
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "storybook",
+      "prompt": "Use case: illustration-story. Asset: finished full-color hero painting for the home screen of a Bible picture-adventure game for ages 4–7. Make one beautiful landscape 3:2 illustration, with no text and no interface. Scene: young-at-heart but elderly Moses, a kind brown-skinned bearded shepherd wearing a simple turquoise robe and rust-colored shawl, holding a wooden staff, standing in wonder at a small leafy bush glowing with warm golden orange flames which do not consume it, in the foothills of Mount Horeb. A few soft woolly sheep nearby, rolling ochre hills, delicate wildflowers and a huge pale-blue sky with creamy clouds. Premium children's picture-book gouache and colored pencil, expressive hand-painted forms, charming character acting, layered paper texture, sophisticated illustration not simple geometric vector icons. Bright sky blue, coral, saffron, fresh green and warm ivory. Warm, safe, curious and inviting. Composition: full illustrated scene with Moses and bush occupying central 70%, horizon near upper third; keep the complete central story readable when cropped to a square. Fine crafted details, clear shapes and restrained palette. No borders, no frame, no words, no watermark, no UI, no logo, no scary fire.",
+      "projectPath": "assets/home/storybook-home-v1.webp",
+      "sourcePath": "exec-6f981ef7-a0fe-43df-8daf-1808f4d494b9.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 499162,
+      "postProcessing": "Sharp WebP conversion only; no composition or artwork edits."
+    },
+    {
+      "id": "adventure",
+      "prompt": "Use case: stylized-concept. Asset: finished landscape 3:2 pixel-art world illustration for a Bible adventure game's home screen, ages 8–17. Build a rich top-down three-quarter 16-bit handheld RPG landscape with crisp, deliberately placed square pixels and layered environmental detail. A winding sandy trail starts at lower center, passes an ancient stone sign and a tiny turquoise pond, bends between sandstone cliffs and scattered acacia trees toward a leafy burning bush glowing amber at the foot of Mount Horeb in the upper right. Lower-left palm oasis, upper-left distant mountains fading into teal atmosphere. Lush olive vegetation contrasting ochre rock and warm ivory paths, dark pine-green shadows, turquoise water, small amber light accents. The scene feels like an inviting exploration map in classic handheld adventure games, with charming hidden environmental details, not a flat generated tile diagram. Pixel clusters and stepped outlines stay sharp, no blur, no photographic rendering, no isometric skyscrapers. No player character: a separate animated duck sprite will be placed on the foreground trail by the app. The center foreground 25% should be a clearly walkable sand clearing. No letters, no words, no interface, no logos, no borders, no watermark. Entire image is the richly drawn environment; safe composition for square crop.",
+      "projectPath": "assets/home/adventure-home-v1.webp",
+      "sourcePath": "exec-02000dc0-d1df-4e5d-8edd-9225de266388.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 664068,
+      "postProcessing": "Sharp WebP conversion only; no composition or artwork edits."
+    },
+    {
+      "id": "illuminated",
+      "prompt": "Use case: historical-scene. Asset: a premium painterly hero illustration for an adult Bible exploration game. One landscape 3:2 composition, no text or interface. Depict Moses, a solitary older bearded Middle Eastern shepherd in a deep burgundy mantle and simple linen garments, seen mostly from behind in three-quarter view, holding a wood staff as he pauses before a living leafy bush illuminated by a contained golden flame at Mount Horeb. The flame radiates wonder, not destruction. Rugged desert slopes and layered mountains at twilight, deep blue-green atmospheric distance, fine sandstone textures, a quiet expansive sky, luminous warm light touching the figure and foreground. Rich classical oil-painting craft, refined brushwork, tactile canvas, cinematic natural light, sophisticated deep petrol, umber, ochre, ivory and antique gold. A contemplative narrative painting with real depth and anatomy, neither a flat symbol nor a children's cartoon. Moses and bush are clear within the central 65% for a square crop. No halo, no visible divine person, no modern objects, no text, no lettering, no ornate frame, no watermark, no logos.",
+      "projectPath": "assets/home/illuminated-home-v1.webp",
+      "sourcePath": "exec-45c727b9-4d15-4bab-85ee-30244aa0b438.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 464048,
+      "postProcessing": "Sharp WebP conversion only; no composition or artwork edits."
+    }
+  ]
+}

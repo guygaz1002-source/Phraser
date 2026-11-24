@@ -1,0 +1,1118 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-15",
+  "generationTool": "built-in image_gen",
+  "scope": "Story-dependent duck appearances for the existing 27 Bible Journey chapters; 11 new strips and 3 reused selection strips.",
+  "counts": {
+    "generatedStrips": 11,
+    "reusedStrips": 3,
+    "appearances": 14,
+    "mapChapters": 27,
+    "newRiddles": 0
+  },
+  "runtime": {
+    "mapping": "src/lifecycle.ts",
+    "assetRegistry": "src/life-sprites.ts",
+    "presentation": "src/LifeCharacter.tsx",
+    "saveSchemaChanged": false,
+    "saveKey": "bible-journey:tiers:v3",
+    "selectionPortraitsChanged": false
+  },
+  "normalization": {
+    "kind": "mechanical crop, uniform per-strip resize and transparent padding",
+    "helper": "game-studio/0.1.2/scripts/normalize_sprite_strip.py",
+    "helperFunctions": [
+      "split_strip",
+      "crop_to_content",
+      "max_content_size"
+    ],
+    "sourcePreparationScript": "/private/tmp/bible-life-avatars-2026-11-15/normalize-life-sprites.py",
+    "sourcePreparationScriptSha256": "6fe46f717626d84e3459c69b0b006533764febae93944b2550db3358367cbd94",
+    "inputSize": [
+      2048,
+      768
+    ],
+    "outputSize": [
+      512,
+      192
+    ],
+    "frames": 4,
+    "frameSize": [
+      128,
+      192
+    ],
+    "frameOrder": [
+      "idle A",
+      "idle B",
+      "movement A",
+      "movement B"
+    ],
+    "contentBoundsAlphaThreshold": 8,
+    "resampling": "nearest-neighbor",
+    "sharedAnchor": {
+      "type": "bottom-center",
+      "cellCenterX": 64,
+      "baselineY": 176,
+      "meaning": "Feet for walking stages; basket bottom for the floating infant. Runtime adds gentle basket bobbing."
+    },
+    "scaleMethod": "For each strip, split into four equal cells, crop each to bounds detected at alpha > 8, measure maximum content width/height, and use min(targetWidth/maxWidth,targetHeight/maxHeight) for all four frames. Round resized dimensions and center each frame at the shared baseline.",
+    "targetContentBounds": {
+      "moses-baby": [
+        112,
+        110
+      ],
+      "childStages": [
+        94,
+        120
+      ],
+      "samson-shorn": [
+        110,
+        150
+      ],
+      "otherAdults": [
+        110,
+        156
+      ]
+    },
+    "alphaHandling": "Preserve the sampled RGBA inside retained content; no background replacement, opacity thresholding, painting, recoloring or redrawing. Alpha threshold is used only to detect crop bounds.",
+    "preview": "docs/screenshots/life-sprites-preview.jpg",
+    "previewBackgrounds": [
+      "#ece3c7",
+      "#7ca75e",
+      "#5597b0",
+      "#393f36"
+    ]
+  },
+  "generatedAssets": [
+    {
+      "id": "moses-baby",
+      "rawPath": "exec-6036da38-cbd5-432d-9e27-9130082e40b8.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.25688073394495414,
+      "bounds": [
+        [
+          8,
+          75,
+          120,
+          176
+        ],
+        [
+          8,
+          75,
+          120,
+          176
+        ],
+        [
+          8,
+          74,
+          119,
+          176
+        ],
+        [
+          8,
+          75,
+          120,
+          176
+        ]
+      ],
+      "sha256": "9183321f6c683ba4fbc8c30e726beb98e735c42acba2e9dfce9cc8d8509c69f1",
+      "finalPath": "assets/sprites/life/moses-baby.png",
+      "rawSha256": "9a46562f9565ce6b76e23d91ac7e98212832120ff771fee6012ada1de84f0e8c",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production 2D game sprite sheet. The attached adult Moses duck sheet is a STYLE AND CHARACTER IDENTITY REFERENCE, not a layout to copy literally. Create Moses as an INFANT DUCKLING safely tucked in a small woven papyrus basket: pale cream down, very small orange bill, round infant head, no hair, no beard, no adult clothes, no staff and no visible walking feet. Warm ivory swaddle with a tiny terracotta band preserves Moses's color identity. The basket is a low brown oval reed boat with a stable broad base; baby is clearly inside it. Exactly FOUR frames in ONE horizontal strip, four equal portrait cells, true transparent background. Frames 1 and 2 are calm idle poses, frames 3 and 4 are tiny floating/bobbing poses with a subtle blink; the basket never turns into legs or walks. Same basket and infant proportions in all four cells, three-quarter view facing right. Crisp 1990s handheld pixel-art clusters, dark brown stepped outline, flat limited 20-color palette, no smooth painting, no antialias blur, no gradients. Match the chunky pixel size and friendly duck identity of the reference. Entire basket visible with generous transparent gutters. Canvas aspect ratio 8:3, cells 2:3; sprite baseline aligned across cells. No river or scenery, no shadows, no text, no grid, no extra characters. This is a usable four-frame spritesheet, not a poster.",
+      "referenceImage": "assets/sprites/moses.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "moses-child",
+      "rawPath": "exec-de9f35f9-afaf-4c3d-ab3b-7330183f9786.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.24048096192384769,
+      "bounds": [
+        [
+          30,
+          56,
+          97,
+          176
+        ],
+        [
+          30,
+          56,
+          97,
+          176
+        ],
+        [
+          30,
+          56,
+          97,
+          176
+        ],
+        [
+          29,
+          56,
+          98,
+          176
+        ]
+      ],
+      "sha256": "5098dd4fe219f9d925912d9678715a7d9f53aa54ac57c79b7e79062cd8d81d1f",
+      "finalPath": "assets/sprites/life/moses-child.png",
+      "rawSha256": "080a9a230d71657de7472f529ad40e031ec9a1f4970d67b375f28f44ccf909ef",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Make a younger stage of the attached Moses duck character for an existing pixel RPG. This is CHILD MOSES: a small cream-white duckling, larger rounded head relative to compact body, small orange beak and webbed orange feet, friendly dark eyes, short tiny brown hair tuft, NO beard, NO staff, NO crown. A simple sand-colored ancient linen tunic and small terracotta sash link him visually to the same adult Moses in the reference. Exactly FOUR frames in ONE horizontal row, on a genuinely transparent canvas. Frame1 idle, frame2 small blink/idle, frame3 left-foot walking, frame4 right-foot walking. Same facing slightly right, identical scale and outfit in every cell, feet share a baseline. The child must read as a child rather than a scaled-down elderly adult. Crisp 1990s handheld game pixel art, stepped square outlines, limited flat warm palette matching the reference, no smooth vector or rendered feather texture. Four equal portrait cells, overall 8:3 aspect ratio, clear gutters and ample transparent margins around each whole figure. No backgrounds, shadows, labels, grid, text or other characters.",
+      "referenceImage": "assets/sprites/moses.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "moses-young",
+      "rawPath": "exec-2bfbe7a7-7010-4e68-9a17-751ac2ca09ea.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2591362126245847,
+      "bounds": [
+        [
+          27,
+          20,
+          101,
+          176
+        ],
+        [
+          22,
+          20,
+          105,
+          176
+        ],
+        [
+          18,
+          21,
+          109,
+          176
+        ],
+        [
+          20,
+          21,
+          108,
+          176
+        ]
+      ],
+      "sha256": "6909df17c5c2160366d74006f7bab3d9ec2785b5c23480503c53dffb09488397",
+      "finalPath": "assets/sprites/life/moses-young.png",
+      "rawSha256": "70a5d32d368a2b51ac9e9b685cdf7516e74b7ecbca8cb009374095762189ac8a",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Create a YOUNG ADULT MOSES DUCK animation sheet matching the attached mature Moses reference. Same cream-white duck species, orange beak/feet, friendly eyes, same warm sand linen clothing and terracotta waist sash. Young adult, upright energetic posture, dark brown short hair and a very short dark beard or chin tuft; simple cream cloth over the shoulders, head mostly uncovered; no gray or white beard and NO staff yet. This is Moses as a young adult traveler at the well in Midian, not a child and not the old prophet. Exactly FOUR frames in ONE horizontal strip on genuine transparency: idle A, idle B, left-foot walk, right-foot walk. Same three-quarter right-facing direction, stable body size, clothing, face and foot baseline. Match the reference's authentic chunky pixel art: obvious square pixels, stepped dark brown outline, flat 20-color warm palette, crisp game-scale silhouette, no blur, gradients, smooth illustration or poster styling. 8:3 canvas, four equal 2:3 portrait cells with generous transparent gaps, entire figure intact. No scenery, ground, shadows, captions, grid, symbols or extra characters.",
+      "referenceImage": "assets/sprites/moses.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "moses-shepherd",
+      "rawPath": "exec-4941f513-1105-4a57-9900-7477f4f7c57a.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2561576354679803,
+      "bounds": [
+        [
+          12,
+          20,
+          116,
+          176
+        ],
+        [
+          12,
+          20,
+          116,
+          176
+        ],
+        [
+          11,
+          20,
+          117,
+          176
+        ],
+        [
+          12,
+          21,
+          116,
+          176
+        ]
+      ],
+      "sha256": "59e89d36b207cc03e9e1029ad48abe9fe39b91063eff93469eeb277534385c8e",
+      "finalPath": "assets/sprites/life/moses-shepherd.png",
+      "rawSha256": "c42adec70535bf1bc0ed1a46760af10d62f454255b386cf9993fd353360e2211",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production pixel RPG sprite sheet. The attached shipped duck sprite is the mandatory STYLE AND IDENTITY reference. Create ONE horizontal strip with exactly FOUR equal portrait cells (total 8:3 aspect ratio), frame1 idle, frame2 blink/idle, frame3 left-step, frame4 right-step. Same right-facing three-quarter view, identical proportions, colors and costume in all frames, shared foot baseline, entire figure with generous transparent margins. Authentic chunky pixel art with stepped dark-brown outline, solid flat cream feathers, orange duck bill and webbed feet, warm restricted palette. Genuinely transparent alpha outside figure. NO black backdrop, glow, halo, shadow, scenery, ground, labels, grid or text; NO softly rendered edges or painterly details. Show MOSES as an adult SHEPHERD before the burning bush: recognizable same duck, sand linen robe, terracotta sash, cream hood draped off the crown, sturdy wooden crook. Medium brown beard and hair with a few gray strands, clearly older than a young traveler but younger than the white-bearded reference. Humble warm expression, compact sturdy build. No tablets, no burning bush or flame, no royal costume.",
+      "referenceImage": "assets/sprites/moses.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "moses-leader",
+      "rawPath": "exec-13c7d3e7-e15b-4b75-b324-cd4389f02eee.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2484076433121019,
+      "bounds": [
+        [
+          13,
+          20,
+          114,
+          176
+        ],
+        [
+          14,
+          20,
+          114,
+          176
+        ],
+        [
+          11,
+          22,
+          117,
+          176
+        ],
+        [
+          13,
+          23,
+          115,
+          176
+        ]
+      ],
+      "sha256": "9d857fb2b0acfb67120958743f5c6b44ac6759f9a2bd5ac95cdd40f7235843e9",
+      "finalPath": "assets/sprites/life/moses-leader.png",
+      "rawSha256": "e680e0775cb64b6d0e2c9dd5b8ed2b7ebb34bbdb19276e14aa18f1e5fb5b0834",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production pixel RPG sprite sheet. The attached shipped duck sprite is the mandatory STYLE AND IDENTITY reference. Create ONE horizontal strip with exactly FOUR equal portrait cells (total 8:3 aspect ratio), frame1 idle, frame2 blink/idle, frame3 left-step, frame4 right-step. Same right-facing three-quarter view, identical proportions, colors and costume in all frames, shared foot baseline, entire figure with generous transparent margins. Authentic chunky pixel art with stepped dark-brown outline, solid flat cream feathers, orange duck bill and webbed feet, warm restricted palette. Genuinely transparent alpha outside figure. NO black backdrop, glow, halo, shadow, scenery, ground, labels, grid or text; NO softly rendered edges or painterly details. Show MOSES as the mature LEADER of the Exodus: preserve the attached Moses duck face, sand linen robe, terracotta sash, cream headcloth and wooden staff. Mature medium-length gray beard (not the long white beard of elder years), steady upright posture, slightly fuller robe and broader shoulders than young adulthood. This stage must look like the same Moses approaching the reference elder. No stone tablets, no water or dramatic background, no crown.",
+      "referenceImage": "assets/sprites/moses.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "samson-child",
+      "rawPath": "exec-99b1783e-826a-452c-991c-f9005f433b20.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2247191011235955,
+      "bounds": [
+        [
+          27,
+          56,
+          101,
+          176
+        ],
+        [
+          27,
+          56,
+          101,
+          176
+        ],
+        [
+          26,
+          56,
+          102,
+          176
+        ],
+        [
+          26,
+          56,
+          102,
+          176
+        ]
+      ],
+      "sha256": "32fd0645408b29a313cd7a953425281ddad95146d3220d9c9989edc5ab13f6ba",
+      "finalPath": "assets/sprites/life/samson-child.png",
+      "rawSha256": "780b43175e25adb5e3f9de7a6635fb4e0486de45a015ac8e009d4197f1c96e04",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production pixel RPG sprite sheet. The attached shipped duck sprite is the mandatory STYLE AND IDENTITY reference. Create ONE horizontal strip with exactly FOUR equal portrait cells (total 8:3 aspect ratio), frame1 idle, frame2 blink/idle, frame3 left-step, frame4 right-step. Same right-facing three-quarter view, identical proportions, colors and costume in all frames, shared foot baseline, entire figure with generous transparent margins. Authentic chunky pixel art with stepped dark-brown outline, solid flat cream feathers, orange duck bill and webbed feet, warm restricted palette. Genuinely transparent alpha outside figure. NO black backdrop, glow, halo, shadow, scenery, ground, labels, grid or text; NO softly rendered edges or painterly details. Show SAMSON as a CHILD duckling: larger rounded cream head, short compact body, small orange bill and orange webbed feet. Soft brown hair already uncut, down to neck/shoulders, no beard; simple olive tunic and brown belt matching adult Samson reference. Friendly curious eyes. Clearly a small child, not a mini muscular adult. No weapons or props. His long hair is retained; do not show shaved head.",
+      "referenceImage": "assets/sprites/samson.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "samson"
+      ]
+    },
+    {
+      "id": "samson-shorn",
+      "rawPath": "exec-6c1b10b5-2c9e-4193-97b5-23e95f761d0e.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2604166666666667,
+      "bounds": [
+        [
+          24,
+          26,
+          104,
+          176
+        ],
+        [
+          21,
+          26,
+          107,
+          176
+        ],
+        [
+          18,
+          29,
+          110,
+          176
+        ],
+        [
+          21,
+          29,
+          107,
+          176
+        ]
+      ],
+      "sha256": "9b4f45e4dad7c20961d1bd0f06aac8b6413aa763bdab85f4233bdd2d5cab4471",
+      "finalPath": "assets/sprites/life/samson-shorn.png",
+      "rawSha256": "689f97dbc10fcf4c7b221e41dfc63153e6c838212a05cd16a611e4a3bb9780f9",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production pixel RPG sprite sheet. Reference image1 is the SAME ADULT SAMSON duck to preserve: cream face, orange flat duck bill and webbed feet, olive tunic, brown belt, dark-brown outline. ONE horizontal row of exactly FOUR equal portrait cells, canvas aspect8:3. Frame1 quiet idle, frame2 quiet idle variation, frame3 small left step, frame4 small right step. Same three-quarter RIGHT-facing view, exact same adult scale and body proportions in all frames. Shared foot baseline, full figure and transparent gutters. Genuine transparent alpha, NO glow, halo, shadow, black backdrop, scenery, text, grid or props. Crisp chunky pixel clusters and flat limited warm palette matching reference, no gradient or painterly details. Change Samson to his SHORN CAPTIVE phase: hair completely cut, smooth cream head with extremely close brown stubble only, NO flowing locks. Keep him a grown adult (not elderly or a child), same olive tunic now simply plain, no wrist chains needed. Calm serious CLOSED eyes represented by two gentle dark eyelid marks, orange bill CLOSED, subdued dignified expression, no smile. No eye injuries, wounds, gore, eye bandage or blindfold. Modest stooped head, still upright enough for exploration. Do not restore open eyes in any frame.",
+      "referenceImage": "assets/sprites/samson.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "samson"
+      ]
+    },
+    {
+      "id": "samson-regrowth",
+      "rawPath": "exec-93d96f85-7d9d-4b65-9d6b-997558c7a079.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2630691399662732,
+      "bounds": [
+        [
+          24,
+          20,
+          104,
+          176
+        ],
+        [
+          22,
+          20,
+          106,
+          176
+        ],
+        [
+          15,
+          22,
+          112,
+          176
+        ],
+        [
+          20,
+          22,
+          107,
+          176
+        ]
+      ],
+      "sha256": "2a09ee7c22f7916dfbbcfde752e18f96aa0b3f2d6a8dd279bfcdd772ce076a9b",
+      "finalPath": "assets/sprites/life/samson-regrowth.png",
+      "rawSha256": "dc42d5a82c030c4fca48545c8a13615d6825308514c2bcb05f68e23295849a53",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Production pixel RPG sprite sheet. Reference image1 is the SAME ADULT SAMSON duck to preserve: cream face, orange flat duck bill and webbed feet, olive tunic, brown belt, dark-brown outline. ONE horizontal row of exactly FOUR equal portrait cells, canvas aspect8:3. Frame1 quiet idle, frame2 quiet idle variation, frame3 small left step, frame4 small right step. Same three-quarter RIGHT-facing view, exact same adult scale and body proportions in all frames. Shared foot baseline, full figure and transparent gutters. Genuine transparent alpha, NO glow, halo, shadow, black backdrop, scenery, text, grid or props. Crisp chunky pixel clusters and flat limited warm palette matching reference, no gradient or painterly details. Change Samson to his CAPTIVE WITH REGROWING HAIR phase: short clearly visible dark-brown hair growing again across head and ears, much shorter than original adult long locks, NO gray or white hair. Same ADULT face/proportions, plain olive tunic and belt. Calm serious CLOSED eyes represented by gentle dark eyelid marks in ALL four frames, orange bill CLOSED, restrained thoughtful expression, no smile. No injury, gore, bandage or blindfold. No recovered-sight cues, no triumphant escape or victory gestures, no props. Body clothing should stay consistent with the shorn captive, hair regrowth is the visible change.",
+      "referenceImage": "assets/sprites/samson.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "samson"
+      ]
+    },
+    {
+      "id": "noah-builder",
+      "rawPath": "exec-215406dd-ba16-4364-a963-95f78de89354.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2381679389312977,
+      "bounds": [
+        [
+          22,
+          20,
+          105,
+          176
+        ],
+        [
+          22,
+          20,
+          105,
+          176
+        ],
+        [
+          22,
+          20,
+          106,
+          176
+        ],
+        [
+          20,
+          20,
+          107,
+          176
+        ]
+      ],
+      "sha256": "cdb7801859a8c2a75f2214ab3ba808dfc86b95a1251ba01d8ad8ba903c8c4770",
+      "finalPath": "assets/sprites/life/noah-builder.png",
+      "rawSha256": "dc9495dd35c0a0b367a08f7f1dfd0ccba740de04bd5f5bfac24e1c9eaddca8b7",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Intended use: production pixel-art sprite sheet for a 2D Bible adventure game. The attached PNG is the approved Noah duck identity and art-style reference. Preserve the same mature cream-white duck, orange bill and webbed orange feet, long white hair and long white beard, calm friendly eyes, upright energetic adult posture, olive-green and sage costume palette, heavy dark-brown stepped outline. He is the SAME older adult throughout, not a child, not newly aged or frail. Generate ONE complete horizontal FOUR-frame strip, exact 8:3 canvas aspect, FOUR equal 2:3 portrait slots. Frame 1 calm idle, frame 2 small blink/idle variation, frame 3 left-foot step, frame 4 right-foot step. Same three-quarter RIGHT-facing direction, head size, height, outfit proportions, clear readable face and foot baseline in every slot; all figures complete with generous transparent gutters. Crisp chunky 1990s handheld RPG pixel-art clusters matching the source; flat limited warm palette, no smooth painting or gradients. Genuine fully transparent background with opaque sprite interiors. Absolutely NO glow, halo, ground shadow, scenery, text, labels, grid, poster composition, extra characters, birds, dove, olive leaf, rainbow, grapes, vineyard or farming props. Change only the role-specific outfit/accessory: Noah the ark builder wears a clearly readable chestnut-brown leather work apron over his olive tunic, tied at the waist. Long white hair and beard remain fully recognizable. Sleeves are simply rolled and his wings/hands are empty; no staff, modern tools, hammer swing or construction scenery. A small side pocket in the apron is allowed. Calm capable builder demeanor; walking cycle as specified.",
+      "referenceImage": "assets/sprites/noah.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "noah"
+      ]
+    },
+    {
+      "id": "noah-keeper",
+      "rawPath": "exec-f4427a91-f0e1-42e7-98c2-4e72617ff72b.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2468354430379747,
+      "bounds": [
+        [
+          19,
+          20,
+          109,
+          176
+        ],
+        [
+          19,
+          20,
+          108,
+          176
+        ],
+        [
+          18,
+          23,
+          109,
+          176
+        ],
+        [
+          18,
+          23,
+          110,
+          176
+        ]
+      ],
+      "sha256": "afa4bc441e1333fac68a1b4b2d64800956024fd06bb39fe8c05a16f83a0593ac",
+      "finalPath": "assets/sprites/life/noah-keeper.png",
+      "rawSha256": "d16e249933b04b4bdfe60aa9f1d4be3d22355152abf65a2e0ed4932e637ab7ef",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Intended use: production pixel-art sprite sheet for a 2D Bible adventure game. The attached PNG is the approved Noah duck identity and art-style reference. Preserve the same mature cream-white duck, orange bill and webbed orange feet, long white hair and long white beard, calm friendly eyes, upright energetic adult posture, olive-green and sage costume palette, heavy dark-brown stepped outline. He is the SAME older adult throughout, not a child, not newly aged or frail. Generate ONE complete horizontal FOUR-frame strip, exact 8:3 canvas aspect, FOUR equal 2:3 portrait slots. Frame 1 calm idle, frame 2 small blink/idle variation, frame 3 left-foot step, frame 4 right-foot step. Same three-quarter RIGHT-facing direction, head size, height, outfit proportions, clear readable face and foot baseline in every slot; all figures complete with generous transparent gutters. Crisp chunky 1990s handheld RPG pixel-art clusters matching the source; flat limited warm palette, no smooth painting or gradients. Genuine fully transparent background with opaque sprite interiors. Absolutely NO glow, halo, ground shadow, scenery, text, labels, grid, poster composition, extra characters, birds, dove, olive leaf, rainbow, grapes, vineyard or farming props. Change only the role-specific outfit/accessory: Noah caring for his family and animals wears his olive tunic with a pale sage shoulder cloth and a clearly readable tan-brown food/provision satchel crossing the chest and resting beside his hip. It is a plain closed soft linen bag, no modern fasteners. Long white hair and beard remain fully recognizable. His wings/hands are free and no staff. Calm attentive keeper demeanor; walking cycle as specified.",
+      "referenceImage": "assets/sprites/noah.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "noah"
+      ]
+    },
+    {
+      "id": "noah-watcher",
+      "rawPath": "exec-1e3e8723-1a6f-4255-8719-8ae07eca0552.png",
+      "size": [
+        512,
+        192
+      ],
+      "frames": 4,
+      "baseline": 176,
+      "scale": 0.2468354430379747,
+      "bounds": [
+        [
+          19,
+          20,
+          108,
+          176
+        ],
+        [
+          19,
+          20,
+          108,
+          176
+        ],
+        [
+          19,
+          20,
+          109,
+          176
+        ],
+        [
+          17,
+          20,
+          111,
+          176
+        ]
+      ],
+      "sha256": "9af85e7a26623f6c528fb9289f6023ec5814b5b8e836109b129aca4df8dba30b",
+      "finalPath": "assets/sprites/life/noah-watcher.png",
+      "rawSha256": "b0d0c8c4a190e7c30ecbb013472864ed400d3f886cd3d6e37c900de9bf14be6d",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "prompt": "Use case: identity-preserve. Intended use: production pixel-art sprite sheet for a 2D Bible adventure game. The attached PNG is the approved Noah duck identity and art-style reference. Preserve the same mature cream-white duck, orange bill and webbed orange feet, long white hair and long white beard, calm friendly eyes, upright energetic adult posture, olive-green and sage costume palette, heavy dark-brown stepped outline. He is the SAME older adult throughout, not a child, not newly aged or frail. Generate ONE complete horizontal FOUR-frame strip, exact 8:3 canvas aspect, FOUR equal 2:3 portrait slots. Frame 1 calm idle, frame 2 small blink/idle variation, frame 3 left-foot step, frame 4 right-foot step. Same three-quarter RIGHT-facing direction, head size, height, outfit proportions, clear readable face and foot baseline in every slot; all figures complete with generous transparent gutters. Crisp chunky 1990s handheld RPG pixel-art clusters matching the source; flat limited warm palette, no smooth painting or gradients. Genuine fully transparent background with opaque sprite interiors. Absolutely NO glow, halo, ground shadow, scenery, text, labels, grid, poster composition, extra characters, birds, dove, olive leaf, rainbow, grapes, vineyard or farming props. Change only the role-specific outfit/accessory: Noah waiting and watching inside the ark wears a noticeably larger sage-green cloak drawn close around his shoulders, tucked securely at the waist over the same olive tunic. Long white hair and beard remain fully recognizable and exposed; no hood obscuring the face. Wings/hands softly gather the cloak, then move subtly during the small walking cycle. No staff, food bag, apron, rain or scenery. Calm watchful and patient expression; upright posture.",
+      "referenceImage": "assets/sprites/noah.png",
+      "generationTool": "built-in image_gen",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sourceKeys": [
+        "noah"
+      ]
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "moses-elder",
+      "finalPath": "assets/sprites/moses.png",
+      "sha256": "92bc9423a27302d8e8da682c2d9994eaca9159e5dba8f3d771279e9c2800b03a",
+      "size": [
+        512,
+        192
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "frames": 4,
+      "unchanged": true,
+      "characterSelectionPortrait": true,
+      "originalProvenance": "content/VISUAL_ASSETS.json",
+      "originalRawPath": "exec-7f068b9b-be97-48f2-99ba-f3acd7792da7.png",
+      "originalPrompt": "EDIT the reference sprite sheet: preserve the friendly MOSES DUCK concept, desert galabeya, cream headcloth, short gray beard, orange beak and webbed feet, wooden staff, and FOUR horizontal animation cells. Radically simplify the rendering into AUTHENTIC 1990s HANDHELD RPG PIXEL ART. Each single character must read as a hand-drawn 32x48 LOGICAL PIXEL sprite, displayed with nearest-neighbor enlargement. Visible chunky square pixels, crisp staircase silhouettes, compact chibi proportions, small dot eyes, duck beak distinct. 12–16 flat colors only, one base plus one shade per material. NO antialiasing, NO smooth curves, NO painterly texture, NO realistic feathers, NO gradients, NO soft lighting, NO 3D, NO high-resolution illustration. This is the middle ground: distinctly pixelated like old Pokemon overworld characters, but enough pixels to see a sandy galabeya, terracotta sash, cream desert headcloth and beard. Bright legible game sprite at tiny on-screen size. Wide8:3 sheet, exactly four equal columns, one row, aligned feet baseline and identical scale, full figure fully inside each cell. Frames1&2 idle with tiny pose difference;3&4 alternating left/right webbed foot walking. Transparent background everywhere outside sprites, no scenery, no shadow, no words, no labels. Pixel artwork ONLY, technical animation asset not a character illustration.",
+      "originalMethod": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet",
+      "sourceKeys": [
+        "moses"
+      ]
+    },
+    {
+      "id": "samson-adult",
+      "finalPath": "assets/sprites/samson.png",
+      "sha256": "d315ef48f6388468c1030daa742149f56e7f4d2f289d5ef40197e2d82234cbb7",
+      "size": [
+        512,
+        192
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "frames": 4,
+      "unchanged": true,
+      "characterSelectionPortrait": true,
+      "originalProvenance": "content/VISUAL_ASSETS.json",
+      "originalRawPath": "exec-9bbc782b-8207-4d40-b7fd-83110c525a62.png",
+      "originalPrompt": "Create one friendly SAMSON DUCK game sprite sheet. Use the attached Moses duck sheet only as the reference for the SAME duck identity and visibly blocky old handheld RPG pixel art. Samson has long flowing chestnut hair, a broad strong build, and wears a modest full olive-green tunic covering chest, shoulders and upper legs, with a brown belt. Orange duck bill, white duck face and golden webbed feet, kind determined eyes. No weapon, fighting or injury. Wide 8:3 transparent canvas, exactly four equal horizontal cells, matching scale and feet baseline, one complete figure centered in each. Frames: idle, second idle, left-foot-forward walk, right-foot-forward walk. Crisp square pixels, staircase outlines, compact approximately 32x48 logical-pixel proportions, limited flat colors, readable clothing and hair. No smooth illustration, antialiasing, gradients, shadows, scenery, letters or labels. Preserve genuine transparent alpha everywhere outside the sprites.",
+      "originalMethod": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet",
+      "sourceKeys": [
+        "samson"
+      ]
+    },
+    {
+      "id": "noah-renewed",
+      "finalPath": "assets/sprites/noah.png",
+      "sha256": "302f8b7cb4df7c784f3ee7214fff1a0fb2ba62a0cc21f5fe2290d5c19be8d1fb",
+      "size": [
+        512,
+        192
+      ],
+      "frameSize": [
+        128,
+        192
+      ],
+      "frames": 4,
+      "unchanged": true,
+      "characterSelectionPortrait": true,
+      "originalProvenance": "content/VISUAL_ASSETS.json",
+      "originalRawPath": "exec-a7294dd3-e66f-48ee-bcf4-7fec940c7d31.png",
+      "originalPrompt": "Use the reference as the EXACT art direction: charming DUCK mascot in AUTHENTIC old handheld RPG PIXEL ART. Crisp visible square pixels and staircase edges, roughly32x48 logical pixels per duck, compact chibi proportions, 12–16 flat colors. Bright readable sprites, no smooth illustration, no gradients, no 3D, no realistic anatomy. ONE sprite sheet, wide8:3 aspect ratio, FOUR equal columns, one horizontal row. Same character scale and baseline, each full-body figure entirely inside its cell. Frames1&2 two idle poses;3&4 alternating left and right webbed feet forward in a walking cycle. Genuine transparent background outside the sprites. No text, labels, scenery or shadows. Cream-white duck feathers and golden beak/webbed feet, distinct friendly eyes. Character NOAH: gentle ELDERLY duck with long snowy WHITE HAIR and a VERY LONG WHITE BEARD reaching waist, sage-green ancient robe, tan belt and simple wooden walking staff. The long white beard and pale hair are the signature. No hat, no magic. Keep clearly pixelated.",
+      "originalMethod": "Built-in image_gen pixel art, optimized as a four-frame transparent sheet",
+      "sourceKeys": [
+        "noah"
+      ]
+    }
+  ],
+  "chapterStages": [
+    {
+      "hero": "moses",
+      "chapter": 1,
+      "stopId": "life-moses-1",
+      "beforeSolve": "moses-baby",
+      "motion": "float"
+    },
+    {
+      "hero": "moses",
+      "chapter": 2,
+      "stopId": "life-moses-6",
+      "beforeSolve": "moses-young",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 3,
+      "stopId": "life-moses-2",
+      "beforeSolve": "moses-shepherd",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 4,
+      "stopId": "life-moses-7",
+      "beforeSolve": "moses-leader",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 5,
+      "stopId": "life-moses-3",
+      "beforeSolve": "moses-leader",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 6,
+      "stopId": "life-moses-4",
+      "beforeSolve": "moses-leader",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 7,
+      "stopId": "life-moses-8",
+      "beforeSolve": "moses-leader",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 8,
+      "stopId": "life-moses-9",
+      "beforeSolve": "moses-leader",
+      "motion": "walk"
+    },
+    {
+      "hero": "moses",
+      "chapter": 9,
+      "stopId": "life-moses-5",
+      "beforeSolve": "moses-elder",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 1,
+      "stopId": "life-samson-1",
+      "beforeSolve": "samson-child",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 2,
+      "stopId": "life-samson-6",
+      "beforeSolve": "samson-adult",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 3,
+      "stopId": "life-samson-2",
+      "beforeSolve": "samson-adult",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 4,
+      "stopId": "life-samson-7",
+      "beforeSolve": "samson-adult",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 5,
+      "stopId": "life-samson-8",
+      "beforeSolve": "samson-adult",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 6,
+      "stopId": "life-samson-3",
+      "beforeSolve": "samson-adult",
+      "motion": "walk"
+    },
+    {
+      "hero": "samson",
+      "chapter": 7,
+      "stopId": "life-samson-4",
+      "beforeSolve": "samson-adult",
+      "motion": "walk",
+      "afterSolve": "samson-shorn"
+    },
+    {
+      "hero": "samson",
+      "chapter": 8,
+      "stopId": "life-samson-9",
+      "beforeSolve": "samson-shorn",
+      "motion": "walk",
+      "afterSolve": "samson-regrowth"
+    },
+    {
+      "hero": "samson",
+      "chapter": 9,
+      "stopId": "life-samson-5",
+      "beforeSolve": "samson-regrowth",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 1,
+      "stopId": "life-noah-1",
+      "beforeSolve": "noah-builder",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 2,
+      "stopId": "life-noah-6",
+      "beforeSolve": "noah-keeper",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 3,
+      "stopId": "life-noah-2",
+      "beforeSolve": "noah-keeper",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 4,
+      "stopId": "life-noah-3",
+      "beforeSolve": "noah-watcher",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 5,
+      "stopId": "life-noah-7",
+      "beforeSolve": "noah-watcher",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 6,
+      "stopId": "life-noah-8",
+      "beforeSolve": "noah-watcher",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 7,
+      "stopId": "life-noah-4",
+      "beforeSolve": "noah-watcher",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 8,
+      "stopId": "life-noah-9",
+      "beforeSolve": "noah-renewed",
+      "motion": "walk"
+    },
+    {
+      "hero": "noah",
+      "chapter": 9,
+      "stopId": "life-noah-5",
+      "beforeSolve": "noah-renewed",
+      "motion": "walk"
+    }
+  ],
+  "interludes": [
+    {
+      "afterStopId": "life-moses-1",
+      "beforeStopId": "life-moses-6",
+      "stage": "moses-child",
+      "gate": "Award exists and both age-profile learning questions are answered.",
+      "sourceUrl": "https://mechon-mamre.org/p/pt/pt0202.htm",
+      "reference": "Exodus 2:10–11",
+      "addsChapter": false
+    }
+  ],
+  "gates": [
+    "Post-solve Samson changes require an award on that exact stop; an award of zero still counts as solved.",
+    "Earlier chapter revisits keep their own appearance; later awards do not globally age the character.",
+    "Moses childhood is a completion interlude; revisiting the Nile still shows the infant basket.",
+    "Existing event titles, passages, sources, explanations and bonuses remain subject to their solve/learning gates.",
+    "No tablets, dove, olive leaf or rainbow are baked into pre-solve avatars."
+  ],
+  "sources": {
+    "moses": [
+      {
+        "reference": "Exodus 2:1–22",
+        "url": "https://mechon-mamre.org/p/pt/pt0202.htm"
+      },
+      {
+        "reference": "Exodus 3:1–5",
+        "url": "https://mechon-mamre.org/p/pt/pt0203.htm"
+      },
+      {
+        "reference": "Exodus 7:7",
+        "url": "https://mechon-mamre.org/p/pt/pt0207.htm"
+      },
+      {
+        "reference": "Exodus 19:1",
+        "url": "https://mechon-mamre.org/p/pt/pt0219.htm"
+      },
+      {
+        "reference": "Exodus 31:18",
+        "url": "https://mechon-mamre.org/p/pt/pt0231.htm"
+      },
+      {
+        "reference": "Numbers 27:15–23",
+        "url": "https://mechon-mamre.org/p/pt/pt0427.htm"
+      },
+      {
+        "reference": "Deuteronomy 34:5–7",
+        "url": "https://mechon-mamre.org/p/pt/pt0534.htm"
+      }
+    ],
+    "samson": [
+      {
+        "reference": "Judges 13",
+        "url": "https://mechon-mamre.org/p/pt/pt0713.htm",
+        "kind": "Primary biblical text, Hebrew with public-domain JPS English"
+      },
+      {
+        "reference": "Judges 14",
+        "url": "https://mechon-mamre.org/p/pt/pt0714.htm",
+        "kind": "Primary biblical text, Hebrew with public-domain JPS English"
+      },
+      {
+        "reference": "Judges 15",
+        "url": "https://mechon-mamre.org/p/pt/pt0715.htm",
+        "kind": "Primary biblical text, Hebrew with public-domain JPS English"
+      },
+      {
+        "reference": "Judges 16",
+        "url": "https://mechon-mamre.org/p/pt/pt0716.htm",
+        "kind": "Primary biblical text, Hebrew with public-domain JPS English"
+      }
+    ],
+    "noah": [
+      {
+        "key": "genesis6",
+        "url": "https://mechon-mamre.org/p/pt/pt0106.htm",
+        "type": "primary biblical text",
+        "publisher": "Mechon Mamre"
+      },
+      {
+        "key": "genesis7",
+        "url": "https://mechon-mamre.org/p/pt/pt0107.htm",
+        "type": "primary biblical text",
+        "publisher": "Mechon Mamre"
+      },
+      {
+        "key": "genesis8",
+        "url": "https://mechon-mamre.org/p/pt/pt0108.htm",
+        "type": "primary biblical text",
+        "publisher": "Mechon Mamre"
+      },
+      {
+        "key": "genesis9",
+        "url": "https://mechon-mamre.org/p/pt/pt0109.htm",
+        "type": "primary biblical text",
+        "publisher": "Mechon Mamre"
+      }
+    ]
+  },
+  "interpretationLimits": [
+    "Duck anatomy, costumes, exact hair lengths, facial expressions, color palette and animation poses are artistic interpretation.",
+    "The Nile text places the basket among reeds by the riverbank; controllable floating is a game convention, not a claim of a narrated downstream voyage.",
+    "No exact age is assigned to Moses at the Midian well.",
+    "Noah is already an adult father; role changes do not imply a new childhood or decades of aging.",
+    "Samson regrowth does not imply restored sight, an old-age phase, escape or survival."
+  ],
+  "verificationAtManifestCreation": {
+    "verified": [
+      "11 final hashes match the normalization manifest",
+      "All 11 new strips are RGBA 512x192 with genuine transparent pixels",
+      "3 reused selection sprites have recorded hashes",
+      "Four-frame preview inspected on cream, grass, river and dark backgrounds"
+    ],
+    "runtimeResults": {
+      "confirmedByReleaseAgent": [
+        "54 tests pass",
+        "TypeScript typecheck passes",
+        "Combined iOS, Android and web export passes",
+        "Separate web export passes",
+        "Local 33-check lifecycle matrix reports no errors",
+        "Actual river map at 390px, shorn Samson at 1440px, Noah builder at 320px and portrait contact sheet visually inspected without halo or overflow"
+      ],
+      "pendingAtCreation": [
+        "Fresh full 27-chapter and 54-bonus flow",
+        "Production deployment and public verification"
+      ],
+      "finalRecord": "docs/verification.md and docs/public-share.md"
+    }
+  }
+}

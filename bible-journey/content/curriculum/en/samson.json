@@ -1,0 +1,1784 @@
+{
+  "life-samson-1": {
+    "a": {
+      "picturePrompt": "In which story does a visitor bring news to a family?",
+      "bonuses": [
+        {
+          "prompt": "Who brought the news about the baby?",
+          "options": [
+            "An angel",
+            "A shepherd",
+            "A king"
+          ],
+          "answer": 0,
+          "explanation": "An angel came to speak to the baby's mother."
+        },
+        {
+          "prompt": "What did the mother do after the visit?",
+          "options": [
+            "Built a house",
+            "Told the father",
+            "Drew water"
+          ],
+          "answer": 1,
+          "explanation": "She went and told Manoah what she had heard."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What did his mother name him?",
+          "options": [
+            "Noah",
+            "Samson",
+            "Moses",
+            "Joshua"
+          ],
+          "answer": 1,
+          "explanation": "After her son was born, his mother named him Samson."
+        },
+        {
+          "prompt": "Why did the father want the visitor to come back?",
+          "options": [
+            "To plant a tree",
+            "To find a sheep",
+            "To learn how to care for the child",
+            "To fix a door"
+          ],
+          "answer": 2,
+          "explanation": "Manoah wanted help getting ready for the baby."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "The path leads to a field. What news did Samson’s mother receive there?",
+      "bonuses": [
+        {
+          "prompt": "What was Samson's father's name?",
+          "options": [
+            "Manoah",
+            "Noah",
+            "Moses"
+          ],
+          "answer": 0,
+          "explanation": "Samson's father was Manoah. He asked for guidance on raising the child."
+        },
+        {
+          "prompt": "When the angel returned, who went to fetch Manoah?",
+          "options": [
+            "His son",
+            "His wife",
+            "A neighbor"
+          ],
+          "answer": 1,
+          "explanation": "She saw the visitor in the field and hurried to tell her husband."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What does Manoah want to learn before the baby is born?",
+          "options": [
+            "How to care for the child",
+            "Where Samson will live as an adult",
+            "Which city will choose a new king",
+            "When the family should travel to Timnah"
+          ],
+          "answer": 0,
+          "explanation": "He asks for the messenger to come back and teach them what to do for the boy."
+        },
+        {
+          "prompt": "The messenger says the child will begin to help Israel. What is his family being prepared for?",
+          "options": [
+            "Their son must finish his task on the day he is born",
+            "His father will do everything in his place",
+            "His family must move away before his birth",
+            "Their son will grow up with a task beyond his own home"
+          ],
+          "answer": 3,
+          "explanation": "The news is about both a new baby and the help he will one day give his people."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which announcement in Judges is suggested by a meeting in a field?",
+      "bonuses": [
+        {
+          "prompt": "Which detail is not given in Judges 13?",
+          "options": [
+            "The name of Samson's mother",
+            "Manoah's name",
+            "The child's name"
+          ],
+          "answer": 0,
+          "explanation": "Samson's mother plays a central role, but the chapter does not name her."
+        },
+        {
+          "prompt": "Which instruction does the angel personally give the mother during the first encounter?",
+          "options": [
+            "Return with Manoah",
+            "Refrain from wine",
+            "Offer a young goat"
+          ],
+          "answer": 1,
+          "explanation": "Judges 13:4 addresses her diet. Manoah's meeting and his offering come later."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The messenger links the child's uncut hair with which aspect of his calling?",
+          "options": [
+            "A vow his mother is to make at birth",
+            "A dedication already in force before birth",
+            "A vow he will take on becoming a judge",
+            "A dedication conditional on defeating the Philistines"
+          ],
+          "answer": 1,
+          "explanation": "The announcement ties the ban on cutting his hair to a calling that begins in the womb."
+        },
+        {
+          "prompt": "Manoah reads the encounter as a sign they will die. Which two things does his wife use to challenge him?",
+          "options": [
+            "The angel hid his name and refused their invitation to eat",
+            "Manoah prayed for a second visit and the angel returned",
+            "Their offering was accepted and they received news of what was to come",
+            "The angel rose in the flame and the couple fell to the ground"
+          ],
+          "answer": 2,
+          "explanation": "Each detail belongs to the encounter. In verse 23 she argues specifically from what God accepted, showed and announced."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which event does the light in the field point to, before the hero of the story is even born?",
+      "bonuses": [
+        {
+          "prompt": "Who hears the news about Samson directly from the visitor on his first visit?",
+          "options": [
+            "His mother",
+            "His father",
+            "Both parents together"
+          ],
+          "answer": 0,
+          "explanation": "Manoah hears about the first visit from his wife."
+        },
+        {
+          "prompt": "The messenger describes a child set apart for God. What sign of that calling will others be able to see?",
+          "options": [
+            "He will carry a staff",
+            "His hair will grow uncut",
+            "He will wear a crown"
+          ],
+          "answer": 1,
+          "explanation": "The instruction about his hair gives his dedication a visible sign."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Manoah offers the visitor a meal. The visitor directs him to make an offering to God. What distinction is he making?",
+          "options": [
+            "The messenger brings the news, but the offering belongs to God",
+            "The visitors in the two meetings are different people",
+            "Only Manoah’s wife may give thanks for the promise",
+            "The meal must wait until after Samson is born"
+          ],
+          "answer": 0,
+          "explanation": "The visitor redirects Manoah’s wish to honor his guest toward the one who sent him."
+        },
+        {
+          "prompt": "The messenger says Samson will begin to deliver Israel. What does the word “begin” leave open?",
+          "options": [
+            "Whether the Philistines rule Israel at the time of his birth",
+            "Whether the child in the promise is a son or a daughter",
+            "Whether Israel is the people he will help",
+            "When Israel’s deliverance will be complete"
+          ],
+          "answer": 3,
+          "explanation": "The promise gives Samson a part in setting Israel free. It does not say when the whole struggle will end."
+        }
+      ]
+    }
+  },
+  "life-samson-6": {
+    "a": {
+      "picturePrompt": "Which story do the large pawprints on the path suggest?",
+      "bonuses": [
+        {
+          "prompt": "Which animal roared at Samson on the road?",
+          "options": [
+            "A bear",
+            "A goat",
+            "A lion"
+          ],
+          "answer": 2,
+          "explanation": "A young lion came roaring toward him."
+        },
+        {
+          "prompt": "What was Samson holding when he overcame the lion?",
+          "options": [
+            "Nothing",
+            "A sword",
+            "A staff"
+          ],
+          "answer": 0,
+          "explanation": "Samson overcame the lion with his bare hands. The account says he had nothing in his hand."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Who traveled toward Timnah with Samson?",
+          "options": [
+            "His parents",
+            "Two shepherds",
+            "A king and queen",
+            "His brothers"
+          ],
+          "answer": 0,
+          "explanation": "Samson set out with his father and mother."
+        },
+        {
+          "prompt": "Why didn't his parents hear about the lion from Samson?",
+          "options": [
+            "They asked for honey",
+            "He forgot the way",
+            "He kept it to himself",
+            "They had stayed at home"
+          ],
+          "answer": 2,
+          "explanation": "The story says that he did not tell his parents what had happened."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which encounter near a vineyard do these large pawprints suggest?",
+      "bonuses": [
+        {
+          "prompt": "What is true of the moment Samson meets the lion?",
+          "options": [
+            "He is returning from Timnah after collecting honey",
+            "He has already told his guests about the honey",
+            "He is on the way to Timnah, before finding honey"
+          ],
+          "answer": 2,
+          "explanation": "He meets the lion on his first journey. Finding honey belongs to another visit."
+        },
+        {
+          "prompt": "Which event happened on a later visit?",
+          "options": [
+            "Finding the honey",
+            "Setting out for Timnah",
+            "Hearing the lion roar"
+          ],
+          "answer": 0,
+          "explanation": "The bees and honey appear when Samson returns after some time."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What detail shows that Samson did not rely on equipment?",
+          "options": [
+            "He was near a vineyard",
+            "His hands were empty",
+            "He was walking to Timnah",
+            "His parents were on the road"
+          ],
+          "answer": 1,
+          "explanation": "The narrator points out that Samson held nothing in his hand."
+        },
+        {
+          "prompt": "Why could Samson’s parents make the journey with him and still miss part of his story?",
+          "options": [
+            "They had only heard a story about the spring",
+            "They thought he had stayed at home",
+            "They had set out to find his wedding guests",
+            "He kept the encounter with the lion to himself"
+          ],
+          "answer": 3,
+          "explanation": "They were traveling to the same place, but Samson did not tell them everything that happened to him."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which episode on the road to Timnah is pictured here?",
+      "bonuses": [
+        {
+          "prompt": "Which phrase locates Samson's first encounter with the lion?",
+          "options": [
+            "The rock of Etam",
+            "The valley of Sorek",
+            "The vineyards of Timnah"
+          ],
+          "answer": 2,
+          "explanation": "Judges 14:5 places the encounter near the vineyards on the journey to Timnah."
+        },
+        {
+          "prompt": "What does the first visit establish that a reader must remember on the return visit?",
+          "options": [
+            "The encounter with the lion and Samson’s silence about it",
+            "The discovery of honey and its sharing with his parents",
+            "The terms of the wager and the riddle’s wording"
+          ],
+          "answer": 0,
+          "explanation": "The later visit gains its meaning from the earlier encounter and the knowledge gap left by his silence."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What does the narrator explicitly place immediately before Samson overpowers the lion?",
+          "options": [
+            "Samson recalls the vow made before his birth",
+            "The spirit of the Lord comes upon him",
+            "Samson calls on God for strength",
+            "His parents hear the lion's roar"
+          ],
+          "answer": 1,
+          "explanation": "Judges 14:6 introduces the act with the coming of the spirit. No speech or prayer by Samson intervenes."
+        },
+        {
+          "prompt": "What does Samson keep from his parents across his two visits to the same place?",
+          "options": [
+            "First the trip to Timnah, then the encounter with the lion",
+            "First the source of the honey, then the terms of the wager",
+            "First the encounter with the lion, then the source of the honey",
+            "First the approaching wedding, then the honey he gathered"
+          ],
+          "answer": 2,
+          "explanation": "Judges 14:6 and 14:9 each mark a silence. His parents receive the honey, but the reader alone shares both discoveries with him."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which encounter on the road to Timnah do the tracks among the vines suggest?",
+      "bonuses": [
+        {
+          "prompt": "What changes between the tracks and the roar in the account?",
+          "options": [
+            "A mark on the ground already reveals who will get honey",
+            "The roar tells the parents what has already happened",
+            "A sign of an animal nearby becomes a direct encounter with a young lion"
+          ],
+          "answer": 2,
+          "explanation": "Tracks suggest an animal’s presence. The roar takes place in the encounter itself."
+        },
+        {
+          "prompt": "The narrator mentions both the spirit of the Lord and Samson’s empty hands. What does each detail add?",
+          "options": [
+            "One explains his strength and the other shows he had no weapon",
+            "One names the place and the other gives the time",
+            "One describes the lion and the other describes the vineyard"
+          ],
+          "answer": 0,
+          "explanation": "The first detail links his strength to God. The second shows how unexpected the outcome was."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which claim about Samson’s parents goes beyond what these verses tell us?",
+          "options": [
+            "They were on the journey to Timnah",
+            "They knew about the lion from the start",
+            "Samson did not tell them about his encounter",
+            "Their son faced a lion near the vineyards"
+          ],
+          "answer": 1,
+          "explanation": "Their presence on the journey does not tell us they witnessed the encounter."
+        },
+        {
+          "prompt": "Suppose the wedding guests already knew what had happened near the vineyard. How would that change the later contest?",
+          "options": [
+            "There would be no bees on the return journey",
+            "His parents would no longer travel to Timnah",
+            "The wedding would take place in the vineyard",
+            "The guests would have a clue to the riddle’s strong creature"
+          ],
+          "answer": 3,
+          "explanation": "Keeping the encounter private later gives Samson an advantage when he poses his riddle."
+        }
+      ]
+    }
+  },
+  "life-samson-2": {
+    "a": {
+      "picturePrompt": "In which story does Samson find something sweet?",
+      "bonuses": [
+        {
+          "prompt": "What sweet food did Samson find when he returned to the place where he had met the lion?",
+          "options": [
+            "Grapes",
+            "Honey",
+            "Dates"
+          ],
+          "answer": 1,
+          "explanation": "On his later visit, Samson found bees and honey. The honey became part of his riddle."
+        },
+        {
+          "prompt": "Where did Samson tell the guests his riddle?",
+          "options": [
+            "Beside a spring",
+            "At the city gate",
+            "At a feast"
+          ],
+          "answer": 2,
+          "explanation": "Samson told the riddle at his wedding feast in Timnah."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which happened first?",
+          "options": [
+            "Samson found honey there",
+            "The guests heard a riddle",
+            "Samson met the lion",
+            "The guests gave their answer"
+          ],
+          "answer": 2,
+          "explanation": "The lion came first. The honey and the riddle came later."
+        },
+        {
+          "prompt": "Why did Samson use the word sweet in his riddle?",
+          "options": [
+            "He had tasted honey",
+            "He had picked figs",
+            "He had baked a cake",
+            "He had eaten dates"
+          ],
+          "answer": 0,
+          "explanation": "The sweet thing Samson knew about was the honey he had found."
+        }
+      ]
+    },
+    "b": {
+      "picturePrompt": "Which challenge did Samson make up after finding honey on the road?",
+      "bonuses": [
+        {
+          "prompt": "What did Samson see beside the honey when he returned to the lion?",
+          "options": [
+            "A flock of birds",
+            "A swarm of bees",
+            "A herd of goats"
+          ],
+          "answer": 1,
+          "explanation": "The bees and their honey were in the remains of the lion."
+        },
+        {
+          "prompt": "What did Samson do with some of his find before the feast?",
+          "options": [
+            "Hid it at the city gate",
+            "Took it to the guests as a prize",
+            "Gave it to his parents"
+          ],
+          "answer": 2,
+          "explanation": "His parents ate it without learning where it came from."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How did the guests learn the answer?",
+          "options": [
+            "It was written on the table",
+            "The lion led them to it",
+            "Manoah read it aloud",
+            "Samson's wife told them after they pressured her"
+          ],
+          "answer": 3,
+          "explanation": "The guests pressured Samson's wife to get the answer and pass it on."
+        },
+        {
+          "prompt": "What makes the words strong and sweet fit the same riddle?",
+          "options": [
+            "The lion had eaten at the feast",
+            "Two discoveries were made in the same place",
+            "The honey gave Samson strength",
+            "The guests brought the lion and the honey"
+          ],
+          "answer": 1,
+          "explanation": "Samson links the strength of the lion to the sweetness of the honey he later found there."
+        }
+      ]
+    },
+    "c": {
+      "picturePrompt": "Which event in Judges 14 links the vineyard to the feast?",
+      "bonuses": [
+        {
+          "prompt": "How does the role of the secret change from vineyard to feast?",
+          "options": [
+            "A shared family experience becomes a test already familiar to the guests",
+            "An untold experience becomes the basis of a wager only its keeper can solve from experience",
+            "The guests’ knowledge becomes a secret Samson wants to buy from them"
+          ],
+          "answer": 1,
+          "explanation": "Readers learn where the answer came from, but the guests have no access to the private event."
+        },
+        {
+          "prompt": "What did Samson's parents know after they ate the honey?",
+          "options": [
+            "They knew where he found it, but not when he returned there",
+            "They knew about the lion, but not about the bees",
+            "They knew who gave it to them, but not where he found it"
+          ],
+          "answer": 2,
+          "explanation": "Samson hands them the honey yet keeps its source from them, having also withheld his earlier encounter."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which pair correctly follows the two halves of the riddle in their stated order?",
+          "options": [
+            "An eater yields food; something strong yields sweetness",
+            "Something strong yields food; an eater yields sweetness",
+            "Food yields an eater; sweetness yields something strong",
+            "Sweetness yields strength; an eater yields food"
+          ],
+          "answer": 0,
+          "explanation": "The two halves in Judges 14:14 move in parallel from the lion's qualities to the honey found in it."
+        },
+        {
+          "prompt": "Whose access to knowledge explains how the guests can answer a riddle drawn from Samson's private experience?",
+          "options": [
+            "They pressure his wife; she learns about the honey from his parents",
+            "His parents recognize the honey and tell his wife what it means",
+            "They pressure his wife; she learns the answer from him and tells them",
+            "His wife witnesses his discovery and tells the guests what she saw"
+          ],
+          "answer": 2,
+          "explanation": "The guests' pressure reaches Samson through his wife; the answer then travels back through her."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which challenge at a feast do the honey and the traces of a lion bring to mind?",
+      "bonuses": [
+        {
+          "prompt": "Which experience gave Samson the idea for the sweet food in his challenge?",
+          "options": [
+            "Tasting wine at his wedding",
+            "Finding honey where he had encountered the lion",
+            "Receiving fruit from his guests"
+          ],
+          "answer": 1,
+          "explanation": "The answer draws on a discovery Samson made before the feast."
+        },
+        {
+          "prompt": "Who can link strength and sweetness before the riddle is solved, and why?",
+          "options": [
+            "Samson’s parents, because tasting honey always reveals where it came from",
+            "The guests, because hearing a riddle reveals its secret",
+            "The reader and Samson, because both know about the two visits"
+          ],
+          "answer": 2,
+          "explanation": "The narrator has given us the connection Samson experienced. Others have not been told the honey’s source."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "How does the guests’ pressure on Samson’s wife change the contest?",
+          "options": [
+            "The guests decide to give up the prize",
+            "Everyone is allowed to change the riddle",
+            "The guests begin looking for bees in the vineyards",
+            "Getting access to his secret matters more than solving the wordplay"
+          ],
+          "answer": 3,
+          "explanation": "Instead of explaining the words on their own, the guests seek someone who can learn the answer from him."
+        },
+        {
+          "prompt": "Why can the reader follow both sides of the argument at the feast?",
+          "options": [
+            "Samson explains his discovery to everyone before they answer",
+            "We have seen both Samson’s discovery and how the guests learned his secret",
+            "The guests find another lion and another swarm",
+            "His parents settle the argument by telling everyone what they saw"
+          ],
+          "answer": 1,
+          "explanation": "The narrator takes the reader from the road to the feast and shows what each side knows."
+        }
+      ]
+    }
+  },
+  "life-samson-7": {
+    "a": {
+      "picturePrompt": "The ropes are ready beside the rock. In which story can they no longer hold Samson by the end?",
+      "bonuses": [
+        {
+          "prompt": "Why did the men bring ropes when they came for Samson?",
+          "options": [
+            "To keep his hands tied",
+            "To lift him up with them",
+            "For him to carry to the people at Lehi"
+          ],
+          "answer": 0,
+          "explanation": "The men of Judah meant to lead him away with his hands tied."
+        },
+        {
+          "prompt": "What had already happened when the ropes broke?",
+          "options": [
+            "The men of Judah were still looking for him",
+            "The men of Judah had tied Samson",
+            "Samson had just reached his hiding place"
+          ],
+          "answer": 1,
+          "explanation": "They found him and tied him first. The ropes broke when he reached Lehi."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened to the ropes at Lehi?",
+          "options": [
+            "They became a bridge",
+            "They broke away",
+            "They grew leaves",
+            "They became a gate"
+          ],
+          "answer": 1,
+          "explanation": "Samson received strength and broke free."
+        },
+        {
+          "prompt": "After the ropes broke, what could Samson do again?",
+          "options": [
+            "Find honey in a tree",
+            "Hear the angel",
+            "Move his arms freely",
+            "See a spring appear"
+          ],
+          "answer": 2,
+          "explanation": "With the ropes gone, his arms were free."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "Why did new ropes suit the men of Judah’s plan?",
+          "options": [
+            "They expected fresh rope to hold Samson on the journey",
+            "They wanted the ropes to guide Samson to his hiding place",
+            "They wanted Samson to take the ropes back to Lehi"
+          ],
+          "answer": 0,
+          "explanation": "They intended to hand him over bound, so they chose rope that looked strong."
+        },
+        {
+          "prompt": "Which route fits the order of events?",
+          "options": [
+            "From Lehi to Etam, where the ropes broke",
+            "From the hiding place at Etam to Lehi, where the ropes broke",
+            "From Etam to Lehi after the ropes had already broken in hiding"
+          ],
+          "answer": 1,
+          "explanation": "He was bound at Etam, arrived bound at Lehi and broke free there."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What did the men of Judah promise Samson?",
+          "options": [
+            "To make him king",
+            "To build him a house",
+            "To solve his riddle",
+            "Not to kill him themselves"
+          ],
+          "answer": 3,
+          "explanation": "They promised not to kill him before binding him."
+        },
+        {
+          "prompt": "The Philistines ruled the land. Why were the people of Judah worried about Samson’s quarrel with them?",
+          "options": [
+            "They thought the Philistines might punish their people too",
+            "They hoped Samson would solve another riddle",
+            "They thought their spring had dried up",
+            "They wanted him to stay at the rock forever"
+          ],
+          "answer": 0,
+          "explanation": "The Philistines had come into Judah looking for Samson. His quarrel had reached other people as well."
+        }
+      ],
+      "picturePrompt": "New ropes lie beside the rock. Which episode starts with their use as bindings and ends when they tear?"
+    },
+    "c": {
+      "picturePrompt": "Which episode in Judges 15 connects the ropes by the rock to the men of Judah handing Samson over?",
+      "bonuses": [
+        {
+          "prompt": "What tension arises between Judah’s undertaking to Samson and its response to Philistine rule?",
+          "options": [
+            "They promise not to kill him themselves yet surrender him to his opponents",
+            "They promise complete freedom yet imprison him at Etam",
+            "They swear to oppose the Philistines and refuse to lead him to Lehi"
+          ],
+          "answer": 0,
+          "explanation": "The oath limits what their own hands will do. It offers no protection from those who receive him."
+        },
+        {
+          "prompt": "What do the men of Judah promise when Samson agrees to go with them?",
+          "options": [
+            "To bind him only after the Philistines take custody",
+            "To hand him over without killing him themselves",
+            "To hand him over only if his captors spare him"
+          ],
+          "answer": 1,
+          "explanation": "Their oath in Judges 15:13 binds the men of Judah to their own conduct and leaves his captors free of that promise."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What does the simile of flax touched by fire describe at Lehi?",
+          "options": [
+            "The way the ropes had been prepared before binding",
+            "The loss of the new ropes' hold on Samson",
+            "The means the men of Judah used to free him",
+            "A signal the Philistines gave when he arrived"
+          ],
+          "answer": 1,
+          "explanation": "The simile follows the descent of the spirit; the bound arms are suddenly free."
+        },
+        {
+          "prompt": "What do the words of Judah's men and Samson's reply each stress about the conflict?",
+          "options": [
+            "They stress their oath; he stresses his calling before birth",
+            "They stress a personal injury; he stresses freeing Judah from foreign rule",
+            "They stress Philistine rule; he stresses repaying what was done to him",
+            "They stress the danger of binding him; he stresses his duty as judge"
+          ],
+          "answer": 2,
+          "explanation": "Their exchange in Judges 15:11 puts the community's political position beside Samson's account of personal retaliation."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which episode between the rock of Etam and Lehi is hinted at by the pair of new ropes?",
+      "bonuses": [
+        {
+          "prompt": "Why do the men of Judah want to bind Samson although they did not start the dispute?",
+          "options": [
+            "They live under Philistine rule and fear the consequences of his actions",
+            "They know his secret and want to test it",
+            "They are acting on a treaty Samson made with the people of Lehi"
+          ],
+          "answer": 0,
+          "explanation": "Their reference to Philistine rule explains both the fear and the decision to hand him over."
+        },
+        {
+          "prompt": "What condition does Samson put on going with the men of Judah?",
+          "options": [
+            "They must bring his parents to Lehi",
+            "They must promise not to attack him themselves",
+            "They must first free everyone in Judah"
+          ],
+          "answer": 1,
+          "explanation": "He distinguishes what his own people may do from what the Philistines might do."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does the narrator call the ropes new before describing their breaking?",
+          "options": [
+            "It tells us how many people brought them",
+            "It identifies which town made the ropes",
+            "It dates the scene to the beginning of the year",
+            "It makes worn-out ropes an unlikely explanation"
+          ],
+          "answer": 3,
+          "explanation": "The ropes seem dependable, so their sudden failure comes as a surprise."
+        },
+        {
+          "prompt": "The Philistines shout when they see Samson bound. What changes the meaning of that moment for the reader?",
+          "options": [
+            "Their shout of apparent victory comes just before the bonds give way",
+            "Their shouting convinces Judah to take Samson home",
+            "Samson thinks they are calling him to a feast",
+            "They celebrate only after they see the ropes on the ground"
+          ],
+          "answer": 0,
+          "explanation": "The order of events overturns the expectation raised by Samson’s arrival as a captive."
+        }
+      ]
+    }
+  },
+  "life-samson-8": {
+    "a": {
+      "picturePrompt": "There is water among the dry rocks. In which story does Samson get the help he needed?",
+      "bonuses": [
+        {
+          "prompt": "Which help would meet thirsty Samson’s need?",
+          "options": [
+            "Showing him a resting spot after a walk",
+            "Showing him where to wash his clothes",
+            "Showing him where to find drinking water"
+          ],
+          "answer": 2,
+          "explanation": "He called for help because he was thirsty, and the spring gave him water to drink."
+        },
+        {
+          "prompt": "Which came first, calling for help or drinking?",
+          "options": [
+            "Samson asked for help and then drank",
+            "Samson drank and then asked for water",
+            "Samson called after he had drunk his fill"
+          ],
+          "answer": 0,
+          "explanation": "He called while he was thirsty. Water appeared and he drank."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What happened after he drank?",
+          "options": [
+            "He became king",
+            "A storm began",
+            "He recovered",
+            "The city emptied"
+          ],
+          "answer": 2,
+          "explanation": "The account describes his strength and vitality returning."
+        },
+        {
+          "prompt": "Samson could break strong ropes. Why did he still ask for help here?",
+          "options": [
+            "He was thirsty and needed a drink",
+            "He wanted to give a wedding feast",
+            "He needed to carry a gate",
+            "He wanted to catch bees"
+          ],
+          "answer": 0,
+          "explanation": "Even someone very strong needs water."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "Which detail explains why Samson did not need to return to town to drink?",
+          "options": [
+            "Someone carried water from town to the site",
+            "He was sent to a spring on the far side of town",
+            "Water came out right where he was at Lehi"
+          ],
+          "answer": 2,
+          "explanation": "In the account, water comes from a hollow at Lehi itself."
+        },
+        {
+          "prompt": "How does what happened after Samson drank answer his request?",
+          "options": [
+            "He feared dying of thirst, and the drink revived him",
+            "He asked to rest, and the drink sent him back into battle",
+            "He asked the way to town, and the water showed it"
+          ],
+          "answer": 0,
+          "explanation": "The water met the very danger Samson had described in his call."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which action is recalled in the name En-hakkore, the spring of the caller?",
+          "options": [
+            "The lion roaring at Samson",
+            "Samson calling for help",
+            "The guests asking a riddle",
+            "The men of Judah making a promise"
+          ],
+          "answer": 1,
+          "explanation": "The word for caller echoes the call Samson made before the water appeared."
+        },
+        {
+          "prompt": "Samson had broken the ropes at Lehi. Why couldn’t he simply use that strength again when he was thirsty?",
+          "options": [
+            "The ropes had been tied again",
+            "Someone had carried away his cup",
+            "He needed his father to show him how to drink",
+            "Strong arms could not give him drinking water"
+          ],
+          "answer": 3,
+          "explanation": "At first he needed to get free. This time he needed water, so he called for help."
+        }
+      ],
+      "picturePrompt": "The hollow in the rock recalls what followed Samson’s exertion at Lehi. Which episode links a call for help there with a drink?"
+    },
+    "c": {
+      "picturePrompt": "Which episode at Lehi do the waters emerging after Samson calls for help suggest?",
+      "bonuses": [
+        {
+          "prompt": "Which feature of Lehi is named as the source of the water?",
+          "options": [
+            "The rock of Etam",
+            "The height called Ramath-lehi",
+            "The hollow there"
+          ],
+          "answer": 2,
+          "explanation": "Judges 15:19 locates the opening in the hollow at Lehi."
+        },
+        {
+          "prompt": "What reversal marks the move from broken ropes to the hollow at Lehi?",
+          "options": [
+            "The one who overcame his captors now needs help to survive",
+            "The one who drank at Lehi now asks to be bound",
+            "The one given water refuses to credit God for the victory"
+          ],
+          "answer": 0,
+          "explanation": "The call in thirst makes his dependence explicit just after a display of strength."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which reading fits the two parts of Samson's prayer when he is thirsty?",
+          "options": [
+            "He fears enemy capture, then asks to avenge what was done to him",
+            "He promises a memorial name, then asks God to give him water",
+            "He credits God with deliverance, then fears falling into enemy hands",
+            "He recalls his vow, then promises to serve if his strength returns"
+          ],
+          "answer": 2,
+          "explanation": "Samson places what God has already granted beside the danger he now faces."
+        },
+        {
+          "prompt": "How do the two place-names Ramath-lehi and En-hakkore mark different moments in the episode?",
+          "options": [
+            "The first follows the discarded jawbone; the second recalls Samson's call for help",
+            "The first recalls Samson's thirst; the second recalls the cry of the Philistines",
+            "The first follows his prayer; the second recalls the jawbone he lifted in battle",
+            "The first recalls the Philistines' cry; the second recalls the death he feared"
+          ],
+          "answer": 0,
+          "explanation": "In Judges 15:17 the naming follows Samson throwing away the jawbone. In verse 19 the spring's name preserves his call."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which named place in Samson’s story is suggested by water welling from a hollow at Lehi?",
+      "bonuses": [
+        {
+          "prompt": "To whom does Samson give credit for his victory as he starts his prayer?",
+          "options": [
+            "To the men of Judah",
+            "To his father",
+            "To God"
+          ],
+          "answer": 2,
+          "explanation": "Before asking for help, Samson recalls who gave him the victory."
+        },
+        {
+          "prompt": "Why does the name En-hakkore preserve more than the memory of water?",
+          "options": [
+            "It links the spring to Samson’s act of calling",
+            "It records only the shape of the hollow in the rock",
+            "It shows that Samson forced the rock open with his arms"
+          ],
+          "answer": 0,
+          "explanation": "The name joins the source of water to the memory of the person who called for help."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does Samson speak about falling into enemy hands immediately after a victory?",
+          "options": [
+            "The earlier victory belonged to the Philistines",
+            "He fears that thirst could undo what he has just achieved",
+            "He has already been taken to Gaza",
+            "He plans to return to the men who bound him"
+          ],
+          "answer": 1,
+          "explanation": "His prayer puts his recent success beside a danger that strength alone cannot solve."
+        },
+        {
+          "prompt": "What part of the story does the name En-hakkore, the caller’s spring, preserve for later visitors?",
+          "options": [
+            "A champion won the place in a contest of strength",
+            "The people who dug the hollow founded a city",
+            "A guard used the spring to call travelers together",
+            "Someone in danger called out and received help there"
+          ],
+          "answer": 3,
+          "explanation": "The name recalls an appeal for help even though the place is also associated with a victory."
+        }
+      ]
+    }
+  },
+  "life-samson-3": {
+    "a": {
+      "picturePrompt": "In town the door blocks the way. In which story does it end up on the hill with Samson?",
+      "bonuses": [
+        {
+          "prompt": "Why was there an opening in the wall that nobody could shut?",
+          "options": [
+            "Samson opened the doors for a moment",
+            "Samson took the doors away",
+            "Samson slid the bar across a door"
+          ],
+          "answer": 1,
+          "explanation": "The doors themselves were gone from the wall."
+        },
+        {
+          "prompt": "The townspeople were waiting for morning. How did Samson leave ahead of them?",
+          "options": [
+            "He stayed until morning",
+            "He came back to town in the morning",
+            "He left in the middle of the night"
+          ],
+          "answer": 2,
+          "explanation": "They were still waiting for daybreak when Samson left."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Where did Samson take the gates after lifting them?",
+          "options": [
+            "Up a hill",
+            "Into a well",
+            "Into a boat",
+            "Down to a spring"
+          ],
+          "answer": 0,
+          "explanation": "The story follows him carrying the gates uphill."
+        },
+        {
+          "prompt": "Why did the people waiting until morning miss Samson's departure?",
+          "options": [
+            "He stayed until noon",
+            "He waited for them to leave",
+            "He left the following evening",
+            "He left while it was still dark"
+          ],
+          "answer": 3,
+          "explanation": "Samson got up in the middle of the night, ahead of their plan."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "Why did leaving at midnight upset the plan of the people of Gaza?",
+          "options": [
+            "They planned to wait on the hill at night",
+            "They planned to wait near the gate until morning",
+            "They planned to carry the gate away at midnight themselves"
+          ],
+          "answer": 1,
+          "explanation": "The townspeople intended to wait for daylight. Samson left during the night."
+        },
+        {
+          "prompt": "Which parts explain why an opening remained in the wall instead of just a broken bar?",
+          "options": [
+            "The bar and hinges, with the doors still in place",
+            "One post and the bar, with the other post still standing",
+            "The doors, both posts and the bar"
+          ],
+          "answer": 2,
+          "explanation": "The account describes the whole assembly being torn out and carried away."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What spoiled the plan to wait for Samson at daybreak?",
+          "options": [
+            "He was given the key in the morning",
+            "Men from Judah untied him",
+            "He left the city at midnight",
+            "The guards went looking for water"
+          ],
+          "answer": 2,
+          "explanation": "His departure came hours before the time chosen by those lying in wait."
+        },
+        {
+          "prompt": "At Lehi the ropes broke, and in Gaza the gate was carried away. How were the ropes and the gate alike?",
+          "options": [
+            "Both were meant to keep Samson from leaving",
+            "Both belonged to Samson’s family",
+            "Both were taken up the same hill",
+            "Both marked the place where he found water"
+          ],
+          "answer": 0,
+          "explanation": "In each place other people expected Samson to stay where he was. In both places he got away."
+        }
+      ],
+      "picturePrompt": "In this picture the bar keeps the door in place. In which story do bar and door end up somewhere else together?"
+    },
+    "c": {
+      "picturePrompt": "Which deed in Judges 16 transforms a gate meant to trap Samson into a load on his shoulders?",
+      "bonuses": [
+        {
+          "prompt": "What does the phrase locating the hill “facing Hebron” establish about the illustrated journey?",
+          "options": [
+            "The destination has to be central Hebron and the distance is given explicitly",
+            "The destination is described in relation to Hebron, but no distance is specified",
+            "The journey begins in Hebron and ends at the gate of Gaza"
+          ],
+          "answer": 1,
+          "explanation": "A relative location is not a measurement of the journey."
+        },
+        {
+          "prompt": "Which part came away together with the doors and gateposts?",
+          "options": [
+            "The city wall",
+            "The outer watchtower",
+            "The crossbar"
+          ],
+          "answer": 2,
+          "explanation": "Judges 16:3 lists the bar along with the doors and their two posts."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which contrast between the ambushers' plan and Samson's action is explicit?",
+          "options": [
+            "They gather at midnight; he reaches the hill at dawn",
+            "They leave by dawn; he lifts the gate after sunrise",
+            "They lock the gate at midnight; he waits until morning",
+            "They plan for dawn; he rises at midnight"
+          ],
+          "answer": 3,
+          "explanation": "The narrative gives the time the men intend to act and the time Samson rises; it leaves the arrival time unstated."
+        },
+        {
+          "prompt": "When explaining how Samson gets free, how do the accounts at Lehi and Gaza differ?",
+          "options": [
+            "At Gaza the spirit comes upon him; at Lehi his actions are narrated without that phrase",
+            "At Lehi the spirit comes upon him; at Gaza his actions are narrated without that phrase",
+            "In both he first prays, and the lifting or breaking follows his prayer",
+            "In both the narrator first invokes the dedication announced before his birth"
+          ],
+          "answer": 1,
+          "explanation": "Judges 15:14 explicitly names the spirit. Judges 16:3 moves from rising at midnight straight to taking hold of the gate."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which event joins the entrance to one city with a hill facing Hebron?",
+      "bonuses": [
+        {
+          "prompt": "What piece of news sets the people of Gaza watching the gate?",
+          "options": [
+            "Their gate is already gone",
+            "Samson is in their city",
+            "The people of Hebron are coming"
+          ],
+          "answer": 1,
+          "explanation": "Word of Samson’s arrival reaches the people of Gaza before the gate is moved."
+        },
+        {
+          "prompt": "How do Samson’s actions answer the plan at Gaza in both time and place?",
+          "options": [
+            "He waits for dawn as they do and uses another gate",
+            "He leaves at night but leaves the exit under their control",
+            "He acts before dawn and takes away the gate where they waited"
+          ],
+          "answer": 2,
+          "explanation": "Midnight precedes the intended attack, and uprooting the gate changes the very place of the ambush."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does the narrator tell us what the people at the gate expect to happen in the morning?",
+          "options": [
+            "It explains why the city has no gate at night",
+            "It tells us that Samson has heard every word they said",
+            "Their expectation makes Samson’s earlier departure a surprise",
+            "It proves that someone in Gaza warned him"
+          ],
+          "answer": 2,
+          "explanation": "We learn the plan before we learn what Samson does. His action overturns the expectation the plan creates."
+        },
+        {
+          "prompt": "What can we say for certain about Samson’s knowledge when he leaves Gaza?",
+          "options": [
+            "The story tells when he acted but leaves open how much he knew about the plan",
+            "The narrator says he overheard the people at the gate",
+            "A friend from Hebron brought him a warning",
+            "God told him exactly when the guards would leave"
+          ],
+          "answer": 0,
+          "explanation": "The people’s plans and Samson’s actions are described. No warning or account of his thoughts is given."
+        }
+      ]
+    }
+  },
+  "life-samson-4": {
+    "a": {
+      "picturePrompt": "This time the clue is long hair beside a loom. In which story does someone try to learn what gives Samson strength?",
+      "bonuses": [
+        {
+          "prompt": "What did Delilah learn by talking that looking at his hair could not tell her?",
+          "options": [
+            "Why the hair mattered to Samson",
+            "What color his hair was",
+            "How long his hair looked"
+          ],
+          "answer": 0,
+          "explanation": "She could see its color and length. Samson had to tell her the secret."
+        },
+        {
+          "prompt": "What had to happen before Delilah called the man over?",
+          "options": [
+            "Samson woke and saw his hair",
+            "Samson told her his secret and fell asleep",
+            "The man had already finished cutting it"
+          ],
+          "answer": 1,
+          "explanation": "Samson told her about his hair, then fell asleep. That was when she called."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "First Samson kept his secret. What did he do after Delilah kept asking?",
+          "options": [
+            "Went to see his parents",
+            "Lifted the city gate",
+            "Carried her to a spring",
+            "Told her his secret"
+          ],
+          "answer": 3,
+          "explanation": "At last he told Delilah about his hair."
+        },
+        {
+          "prompt": "Why did Delilah call someone over while Samson slept?",
+          "options": [
+            "To have a rope untied",
+            "To have his long hair cut",
+            "To have a door opened",
+            "To have some water brought"
+          ],
+          "answer": 1,
+          "explanation": "After learning about his hair, Delilah arranged for it to be cut."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "Why did the leaders offer Delilah silver instead of immediately trying to bind Samson again?",
+          "options": [
+            "Ropes had failed, and they wanted information they lacked",
+            "They already knew his secret and wanted to check his hair color",
+            "They wanted Delilah to pay the men who brought ropes"
+          ],
+          "answer": 0,
+          "explanation": "The leaders wanted to discover the source of his great strength so they could overcome him."
+        },
+        {
+          "prompt": "Which sequence explains how a private conversation led to cutting the hair?",
+          "options": [
+            "The hair was cut first, and only then did Delilah ask for the secret",
+            "Samson told Delilah, she called others, then the hair was cut",
+            "The man told Samson the secret, and Samson called Delilah"
+          ],
+          "answer": 1,
+          "explanation": "The information went from Samson to Delilah before the haircut could take place."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What does Samson's uncut hair represent?",
+          "options": [
+            "A royal crown",
+            "His dedication to God as a Nazirite from birth",
+            "A way to control the weather",
+            "A rule everyone in Gaza followed"
+          ],
+          "answer": 1,
+          "explanation": "Samson connects his uncut hair to being a Nazirite, dedicated to God from birth."
+        },
+        {
+          "prompt": "What does Delilah's behavior have in common with the wedding guests' behavior?",
+          "options": [
+            "They hear the answer from his parents",
+            "They all find honey on the way",
+            "They use pressure to discover a secret",
+            "They all tell Samson their own secret first"
+          ],
+          "answer": 2,
+          "explanation": "At the wedding the guests pressure Samson's wife. Here Delilah keeps pressing Samson himself."
+        }
+      ],
+      "picturePrompt": "The hair and loom point to an attempt that has yet to reveal the secret. In which story will another conversation change Samson’s fate?"
+    },
+    "c": {
+      "picturePrompt": "Which episode sets the failed attempt at weaving hair against the later disclosure of a Nazirite secret?",
+      "bonuses": [
+        {
+          "prompt": "How does the rulers’ offer shape our reading of an apparently intimate exchange?",
+          "options": [
+            "Each ruler promises silver, framing the search for the secret as a collective concern",
+            "Only one ruler makes a pledge, leaving the others uninterested",
+            "The payment is offered to Samson, making this a direct negotiation with him"
+          ],
+          "answer": 0,
+          "explanation": "The pledge by each ruler brings political stakes into a conversation between two people."
+        },
+        {
+          "prompt": "How does weaving the locks prepare for the final disclosure without repeating it?",
+          "options": [
+            "The weaving already reveals his Nazirite status and he later repeats the same words",
+            "Hair enters a misleading answer before Samson links it to his dedication from birth",
+            "The weaving comes after the cutting and explains it retrospectively"
+          ],
+          "answer": 1,
+          "explanation": "The story brings Delilah closer to his hair before Samson discloses its significance."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What information does the narrator give the reader when Samson wakes in Judges 16:20?",
+          "options": [
+            "His hair has begun to grow, and Delilah is unaware of it",
+            "His strength has returned, and his captors are unaware of it",
+            "The Lord has left him, and Samson is unaware of it",
+            "The Philistines have left, and Samson is unaware of it"
+          ],
+          "answer": 2,
+          "explanation": "Samson expects to get free as before while the narrator gives readers the reason this time will be different."
+        },
+        {
+          "prompt": "What does Samson say about his uncut hair that goes beyond the angel's original announcement?",
+          "options": [
+            "He spells out what cutting it would mean for his strength",
+            "He is the first to connect the uncut hair to lifelong dedication",
+            "He identifies the Philistines as the people Israel must be saved from",
+            "He explains which foods his mother was to avoid while pregnant"
+          ],
+          "answer": 0,
+          "explanation": "Judges 13:5 announces the dedication and the uncut hair. In 16:17 Samson makes the consequence of shaving explicit."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "The loom belongs to a failed attempt, and the hair to a secret disclosed later. Which episode brings them together?",
+      "bonuses": [
+        {
+          "prompt": "Why is the apparently personal question between them not purely private?",
+          "options": [
+            "The Philistine rulers initiated it and offered Delilah silver for the information",
+            "Samson asked Delilah to announce every answer publicly",
+            "The rulers already knew the secret and wanted Delilah merely to hear it"
+          ],
+          "answer": 0,
+          "explanation": "A conversation that looks like an exchange between two people serves a plan beyond the room."
+        },
+        {
+          "prompt": "What change explains why Delilah again calls the rulers after failed trials?",
+          "options": [
+            "This time she sees his hair has already been cut before he speaks",
+            "This time she believes Samson has told her his whole heart",
+            "This time Samson freely asks her to summon the rulers"
+          ],
+          "answer": 1,
+          "explanation": "The change in her judgment of his words precedes the cutting of his hair."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "When Delilah questions his love because he keeps a secret, what is she doing?",
+          "options": [
+            "Asking him to give up the reward",
+            "Making disclosure a test of love",
+            "Warning him to flee from the leaders",
+            "Offering to keep his secret from her guests"
+          ],
+          "answer": 1,
+          "explanation": "She ties telling the truth to proving his affection, adding to the pressure on him."
+        },
+        {
+          "prompt": "Why does the reader hear about the Philistine leaders’ offer before hearing Samson confide in Delilah?",
+          "options": [
+            "It proves Samson accepted the same bargain",
+            "It tells us that the leaders already know his secret",
+            "We can see a danger in his trust before he sees its result",
+            "It shows that he and Delilah planned the outcome together"
+          ],
+          "answer": 2,
+          "explanation": "Knowing what the leaders want changes how we hear a conversation that Samson treats as personal."
+        }
+      ]
+    }
+  },
+  "life-samson-9": {
+    "a": {
+      "picturePrompt": "Grain and a grinding stone wait in a room. In which story must the hands that once carried a gate now work inside a prison?",
+      "bonuses": [
+        {
+          "prompt": "How can we tell this room is for working and for keeping Samson inside?",
+          "options": [
+            "It has two grinding stones",
+            "It has grain and a basket",
+            "It has a grinding stone and a barred window"
+          ],
+          "answer": 2,
+          "explanation": "The stone is for work. The bars show that Samson is a prisoner."
+        },
+        {
+          "prompt": "His hair starts growing. What still stays the same?",
+          "options": [
+            "Samson is still working in prison",
+            "All his hair still lies cut on the floor",
+            "He is still sitting beside Delilah"
+          ],
+          "answer": 0,
+          "explanation": "His hair has changed, but he has not left prison."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which happened before Samson's hair started to grow again?",
+          "options": [
+            "His family came to take him home",
+            "He stood by the two pillars",
+            "A boy led him by the hand",
+            "His hair was cut"
+          ],
+          "answer": 3,
+          "explanation": "In the previous story his hair was cut. In prison it began to grow again."
+        },
+        {
+          "prompt": "What changed for Samson in Gaza since his visit with the gates?",
+          "options": [
+            "Then he was thirsty; now he was at a spring",
+            "Then he left; now he had to stay",
+            "Then he walked alone; now he rode a horse",
+            "Then he was a baby; now he was a boy"
+          ],
+          "answer": 1,
+          "explanation": "He once walked out with the gates. This time he was kept in prison there."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "What do we know by the end of the prison episode, and what remains open?",
+          "options": [
+            "His strength has returned, but his hair has not grown",
+            "He has already left, but we do not know his destination",
+            "His hair has started growing, but we have not yet seen what he can do"
+          ],
+          "answer": 2,
+          "explanation": "The narrator mentions hair growth after the prison work. No new feat of strength has yet been told."
+        },
+        {
+          "prompt": "What changes in the use of Samson’s strength between the gate and the grinding stone?",
+          "options": [
+            "At the gate he makes his own choice; in prison others choose his work",
+            "In both places he freely works for the people of Gaza",
+            "In both places someone orders him to carry a heavy load"
+          ],
+          "answer": 0,
+          "explanation": "The arms that once let him escape are now put to forced labor."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "The narrator mentions Samson’s hair again. What did his mother learn about it before he was born?",
+          "options": [
+            "It was to be left uncut",
+            "It would turn white as soon as he grew up",
+            "She had to braid it every morning",
+            "It would stay short all his life"
+          ],
+          "answer": 0,
+          "explanation": "The messenger told his mother that no razor was to touch her son’s head."
+        },
+        {
+          "prompt": "Why does hearing the name Gaza again make the prison scene surprising?",
+          "options": [
+            "His parents named him in that city",
+            "He found honey at that city's gate",
+            "He once left that very city carrying its gates",
+            "The angel first met him in that city"
+          ],
+          "answer": 2,
+          "explanation": "The same city is the setting for his earlier escape and his present captivity."
+        }
+      ],
+      "picturePrompt": "Earlier Samson carried away Gaza’s gate. Which later event in the same city do the stone and grain now suggest?"
+    },
+    "c": {
+      "picturePrompt": "Which reversal in Samson’s fortunes at Gaza do the grinding stone and grain recall?",
+      "bonuses": [
+        {
+          "prompt": "What does the return to Gaza contribute when the uprooted gate is set beside the place of grinding?",
+          "options": [
+            "The same trade of grinding explains the gate-carrying in both episodes",
+            "The narrator explicitly identifies the gate’s lintel with the prison entrance",
+            "The same city first stages a freely chosen breach and later a body confined to labor"
+          ],
+          "answer": 2,
+          "explanation": "Returning to the city reverses the function of strength without identifying the two buildings."
+        },
+        {
+          "prompt": "How does the brief notice of regrowth work between the annunciation in Judges 13 and the prayer still to come?",
+          "options": [
+            "It recalls the sign of dedication while leaving the question of strength open",
+            "It announces complete restoration and renders any further request unnecessary",
+            "It removes hair from the narrative before captivity begins"
+          ],
+          "answer": 0,
+          "explanation": "Regrowth echoes the prohibition on the razor near the start. The narrator makes no announcement of restored strength here."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which contrast does the account build by mentioning Gaza both at the gate and after Samson's capture?",
+          "options": [
+            "He first arrives there under guard; later his captors leave him free to work",
+            "He first rescues someone from the city; later his family comes there to rescue him",
+            "He first reaches Gaza at dawn; later he enters it at the same hour as a captive",
+            "He first controls his departure; later others take him there as a prisoner"
+          ],
+          "answer": 3,
+          "explanation": "The same city frames Samson's chosen movement in 16:3 and his forced movement in 16:21."
+        },
+        {
+          "prompt": "At the end of Judges 16:22, what can a reader infer by remembering the birth announcement?",
+          "options": [
+            "The sign has returned, so the narrator confirms that his full strength has returned",
+            "A sign of his dedication reappears; its consequences are still open",
+            "The sign returns only because he has renewed his vow in prison",
+            "The sign returns only after God has answered the prayer for strength"
+          ],
+          "answer": 1,
+          "explanation": "The birth story gives the growing hair a history. Verse 22 says nothing yet about a vow, a prayer or a recovery of strength."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Which reversal in Samson’s journey links the hair cut in the preceding episode with the grinding stone at Gaza?",
+      "bonuses": [
+        {
+          "prompt": "What tension arises when the account of captivity is immediately followed by the regrowth of hair?",
+          "options": [
+            "Release has been narrated before any regrowth is mentioned",
+            "The precise length of his hair explains when captivity ends",
+            "His body is changing even as his position as a prisoner continues"
+          ],
+          "answer": 2,
+          "explanation": "Regrowth raises a question about the future inside an account of ongoing imprisonment."
+        },
+        {
+          "prompt": "Why does Gaza in particular deepen the contrast between carrying the gate and grinding grain?",
+          "options": [
+            "The same city first sees a freely chosen exit and later his confinement",
+            "Samson enters the city in the same role in both episodes",
+            "The account identifies the gate and prison as the very same room"
+          ],
+          "answer": 0,
+          "explanation": "The repeated city name connects events that reverse Samson’s freedom of action."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Why does the detail about his hair growing again catch the reader’s attention?",
+          "options": [
+            "Its cutting immediately preceded the loss of his strength",
+            "His hair has never been mentioned before",
+            "Grinding at the mill always makes hair grow",
+            "The Philistines have promised him freedom if it grows"
+          ],
+          "answer": 0,
+          "explanation": "A small change takes on meaning because we remember what happened when his hair was cut."
+        },
+        {
+          "prompt": "If the account stopped at the growing hair, which question would remain open?",
+          "options": [
+            "Was he taken to Gaza after his capture?",
+            "Was he made to work at a mill?",
+            "Will this change affect what Samson can do while captive?",
+            "Had his hair been cut before he reached prison?"
+          ],
+          "answer": 2,
+          "explanation": "The narrator has already described his capture and work, but has not yet shown what the new growth will mean."
+        }
+      ]
+    }
+  },
+  "life-samson-5": {
+    "a": {
+      "picturePrompt": "Two pillars stand in a hall. In which story does Samson first find his place and then ask for strength?",
+      "bonuses": [
+        {
+          "prompt": "Who helped with what in the story?",
+          "options": [
+            "He asked the boy for strength and God for guidance to the pillars",
+            "He asked the boy for guidance and God for strength",
+            "He asked the boy for both guidance and strength"
+          ],
+          "answer": 1,
+          "explanation": "The boy led him to the pillars. Once there, Samson himself asked God for strength."
+        },
+        {
+          "prompt": "Samson asked for help at the spring and at the pillars. How did his needs change?",
+          "options": [
+            "At the spring he asked for strength; at the pillars he was thirsty",
+            "Both times he asked to find water",
+            "He was thirsty at the spring; at the pillars he asked for strength"
+          ],
+          "answer": 2,
+          "explanation": "At the spring he needed water to drink. In the hall he asked for strength once more."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "What did Samson ask for in his prayer?",
+          "options": [
+            "For an ark to appear",
+            "For God to remember him and give him strength",
+            "For honey to fall from the sky",
+            "For the gates to grow back"
+          ],
+          "answer": 1,
+          "explanation": "Samson asked God to remember him and give him strength. The ending remains sad; hurting people is not something to celebrate."
+        },
+        {
+          "prompt": "What had Samson also done earlier, when he was very thirsty?",
+          "options": [
+            "Asked God for help",
+            "Asked the boy to guide him",
+            "Lifted the gates",
+            "Told a riddle"
+          ],
+          "answer": 0,
+          "explanation": "At the spring and beside the pillars, Samson turned to God when he needed help."
+        }
+      ]
+    },
+    "b": {
+      "bonuses": [
+        {
+          "prompt": "How do the crowd and the boy treat Samson differently in the same hall?",
+          "options": [
+            "The boy wants entertainment; the crowd guides him to the pillars",
+            "The crowd wants entertainment; the boy helps him reach the pillars",
+            "The crowd and the boy both ask Samson to lead them"
+          ],
+          "answer": 1,
+          "explanation": "The people ask to see their captive. The boy beside him helps him find his way."
+        },
+        {
+          "prompt": "Compare the request at the spring with the one in the hall. What stays the same and what changes?",
+          "options": [
+            "Both are addressed to a boy, once for water and once for guidance",
+            "At the spring he asks God, but in the hall he asks only the crowd",
+            "Both are addressed to God, once out of thirst and once to ask for strength"
+          ],
+          "answer": 2,
+          "explanation": "His need changes. Both times he turns to God for help that he cannot give himself."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which people come for Samson after the crowd’s gathering ends?",
+          "options": [
+            "His brothers and his father’s family",
+            "His wedding guests",
+            "The people who watched Gaza’s gate",
+            "The men who tied the ropes at Lehi"
+          ],
+          "answer": 0,
+          "explanation": "His family comes to take him home for burial."
+        },
+        {
+          "prompt": "At Lehi Samson asked God for water. Beside the pillars he asks for strength. What do the two prayers show?",
+          "options": [
+            "He prayed only when his family was there",
+            "He always asked for the same gift",
+            "He knew he could not manage everything on his own",
+            "He could always leave whenever he chose"
+          ],
+          "answer": 2,
+          "explanation": "Each prayer comes when there is something he cannot accomplish by strength alone."
+        }
+      ],
+      "picturePrompt": "The pillars hold up the hall. Which final episode links what happened to Samson in prison with his request to God?"
+    },
+    "c": {
+      "picturePrompt": "Which scene closing the cycle places the petitioner between two pillars and returns to the question of where his strength comes from?",
+      "bonuses": [
+        {
+          "prompt": "How does the final prayer place Samson’s strength in relation to its source compared with the prayer in thirst?",
+          "options": [
+            "Only at Lehi does he depend on an answer; in the hall regrowth alone suffices",
+            "Both address God; at the spring he seeks to preserve life, here strength for a final deed",
+            "Both prayers ask for a return to life under guard in Gaza"
+          ],
+          "answer": 1,
+          "explanation": "Both prayers express dependence. Their different ends prevent a simple reading of one as a repetition of the other."
+        },
+        {
+          "prompt": "What public frame does the narrator set beside the personal desire for vengeance voiced in the prayer?",
+          "options": [
+            "He closes by counting the rulers who paid Delilah before the cutting",
+            "He closes with the spring named for the first prayer",
+            "After the family burial, he closes by counting Samson’s years as judge"
+          ],
+          "answer": 2,
+          "explanation": "After the final deed and burial, the account records twenty years judging Israel, widening the frame beyond the motive voiced in the prayer."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which two locations link Samson's early stirring by the spirit to his burial?",
+          "options": [
+            "Zorah and Timnah",
+            "Etam and Lehi",
+            "Gaza and Hebron",
+            "Zorah and Eshtaol"
+          ],
+          "answer": 3,
+          "explanation": "At the end of Judges 13 and again at the end of Judges 16, the narrator locates him between Zorah and Eshtaol."
+        },
+        {
+          "prompt": "The angel promised the child would begin to deliver Israel. How does the narrator close Samson's story?",
+          "options": [
+            "He recounts the same blow and closes with a period of peace throughout Israel",
+            "He tells of a blow Samson dies delivering, then sums up the years he judged",
+            "He counts Samson's years as a judge from the fall of the Philistine temple",
+            "He makes Israel's liberation the express object of Samson's last prayer"
+          ],
+          "answer": 1,
+          "explanation": "Judges 16 closes with the deaths, the family burial and the length of his judgeship. It does not announce a period of national peace."
+        }
+      ]
+    },
+    "teen": {
+      "picturePrompt": "Samson calls for help twice. Which episode do the pillars suggest here, setting it apart from the call at the spring?",
+      "bonuses": [
+        {
+          "prompt": "What gap opens between the crowd’s intention in bringing Samson out and his intention in addressing the boy?",
+          "options": [
+            "The crowd asks for a prayer; Samson wants to perform for them",
+            "The crowd expects entertainment; Samson wants to reach a particular spot",
+            "Both the crowd and the boy know in advance what Samson will pray"
+          ],
+          "answer": 1,
+          "explanation": "His appearance before the crowd takes a turn when he asks to feel the pillars."
+        },
+        {
+          "prompt": "Which comparison captures both a similarity and a difference between the prayer in thirst and the final prayer?",
+          "options": [
+            "In both he asks to survive danger and return home immediately",
+            "In the first he addresses a person and in the last he addresses God",
+            "Both depend on an answer; first he seeks life, finally strength for one last deed"
+          ],
+          "answer": 2,
+          "explanation": "His dependence links the prayers, but the ends he seeks differ."
+        }
+      ],
+      "lessons": [
+        {
+          "prompt": "Which part of his prayer points to a personal motive alongside the conflict between two peoples?",
+          "options": [
+            "He speaks of the loss of his sight",
+            "He recalls the vineyards of Timnah",
+            "He mentions his years as judge",
+            "He asks for water as he did at Lehi"
+          ],
+          "answer": 0,
+          "explanation": "By naming the harm he himself suffered, Samson makes his desire for revenge explicit."
+        },
+        {
+          "prompt": "At the gathering, the Philistines credit their god with Samson’s capture. How does Samson’s prayer change the viewpoint?",
+          "options": [
+            "Samson joins the crowd in its thanksgiving",
+            "The Philistine leaders turn to Samson for help",
+            "The same captive they celebrate turns to Israel’s God for strength",
+            "The crowd explains what his mother had been promised"
+          ],
+          "answer": 2,
+          "explanation": "The crowd and Samson interpret power differently. The narrator lets us hear each side before the story ends."
+        }
+      ]
+    }
+  }
+}

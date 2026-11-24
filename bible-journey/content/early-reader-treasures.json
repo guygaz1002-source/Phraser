@@ -1,0 +1,798 @@
+{
+  "he": {
+    "life-moses-6": [
+      {
+        "prompt": "אבא תכנן לחכות עוד הרבה. הבנות כבר בבית! מה קיצר את היום שלהן?",
+        "options": [
+          "הכבשים נשארו בבית",
+          "משה עזר להשקות את הצאן",
+          "הבאר עברה לגור ליד הבית"
+        ],
+        "answer": 1,
+        "explanation": "כשמשה עזר ליד הבאר, הבנות סיימו להשקות מוקדם."
+      },
+      {
+        "prompt": "הבנות מספרות על האיש שעזר להן בבאר. איזה כיסא כדאי להוסיף לשולחן?",
+        "options": [
+          "כיסא למשה, האורח החדש",
+          "כיסא לכבש האחרון",
+          "כיסא לפרעה, מלך מצרים"
+        ],
+        "answer": 0,
+        "explanation": "אביהן הזמין את האיש שעזר להן לאכול איתם."
+      }
+    ],
+    "life-moses-2": [
+      {
+        "prompt": "יש להבות. משה מסתכל שוב. איזה ציור יפתיע אותו?",
+        "options": [
+          "ערמה של אפר",
+          "ענף שרוף על האדמה",
+          "אותו שיח, עדיין שלם"
+        ],
+        "answer": 2,
+        "explanation": "האש בערה, ובכל זאת השיח נשאר שלם. לכן משה התקרב להסתכל."
+      },
+      {
+        "prompt": "מתוך הסנה קוראים בשמו של משה. מיד אחר כך זוג אחד נשאר ליד רגליו. מה יש בזוג?",
+        "options": [
+          "שני טלאים",
+          "שני סנדלים",
+          "שני כדי מים"
+        ],
+        "answer": 1,
+        "explanation": "ליד הסנה שמע משה את שמו וחלץ את סנדליו כי עמד על אדמת קודש."
+      }
+    ],
+    "life-moses-3": [
+      {
+        "prompt": "ילדה פותחת את צרור הבצק בדרך. מה יספר לה שלא היה זמן לחכות?",
+        "options": [
+          "הבצק עדיין שטוח",
+          "הבצק כבר הפך לכיכר גבוהה",
+          "הבצק כבר הפך לפירורים"
+        ],
+        "answer": 0,
+        "explanation": "המשפחות יצאו לפני שהבצק הספיק לתפוח ולעלות."
+      },
+      {
+        "prompt": "יד אחת אוחזת ביד של ילד. השנייה פנויה. איפה בכל זאת נמצאת קערת הבצק?",
+        "options": [
+          "מוכנה על שולחן פרעה",
+          "בתוך הבאר שבמדיין",
+          "עטופה בבגד, על הכתף"
+        ],
+        "answer": 2,
+        "explanation": "ביציאה ממצרים עטפו את קערות הבצק בבגדים ונשאו אותן על הכתפיים."
+      }
+    ],
+    "life-moses-4": [
+      {
+        "prompt": "טיפה מימין, טיפה משמאל. מה יש ביניהן בסיפור של משה בים?",
+        "options": [
+          "גשר שבנו מעצים",
+          "סולם שמטפס לשמים",
+          "שביל שאפשר ללכת בו"
+        ],
+        "answer": 2,
+        "explanation": "המים נבקעו ונשארו משני צדי הדרך היבשה."
+      },
+      {
+        "prompt": "אוזן אחת שומעת סוסים מאחור. העיניים רואות ים מלפנים. מי צריך עכשיו דרך חדשה?",
+        "options": [
+          "המשפחות שיצאו עם משה",
+          "הרועות שליד הבאר",
+          "האורחים בארמון"
+        ],
+        "answer": 0,
+        "explanation": "צבא מצרים התקרב מאחור, והים חסם את הדרך של המשפחות מלפנים."
+      }
+    ],
+    "life-moses-9": [
+      {
+        "prompt": "ענן עבה מסתיר את ההר. עוצמים עיניים. איך עדיין אפשר לזהות את סיני?",
+        "options": [
+          "שומעים דבורים ליד כוורת",
+          "שומעים רעם וקול שופר",
+          "שומעים מים נשאבים מבאר"
+        ],
+        "answer": 1,
+        "explanation": "בסיני היו גם רעמים וגם קול חזק של שופר. אפשר לזהות את הרגע לפי הקולות."
+      },
+      {
+        "prompt": "ילד מצא צעצוע של חבר. איזה מעשה מתאים למה ששמע העם בסיני?",
+        "options": [
+          "להחביא אותו מתחת למיטה",
+          "לקחת אותו בלי לשאול",
+          "להחזיר אותו לחבר"
+        ],
+        "answer": 2,
+        "explanation": "בסיני שמע העם שאסור לגנוב. החזרת הצעצוע שומרת על מה ששייך לחבר."
+      }
+    ],
+    "life-moses-5": [
+      {
+        "prompt": "משה עומד ליד יהושע לפני כולם. איזה סימן אפשר להבין גם בלי לשמוע מילה?",
+        "options": [
+          "משה מניח קערה על הקרקע",
+          "משה מניח ידיים על יהושע",
+          "משה מניח סנדלים ליד שיח"
+        ],
+        "answer": 1,
+        "explanation": "הידיים של משה על יהושע הראו לעם מי יקבל את תפקיד המנהיג."
+      },
+      {
+        "prompt": "אילו משה ויהושע היו נפגשים רק באוהל סגור, מה העם היה מחמיץ?",
+        "options": [
+          "לראות את משה מוסר את התפקיד",
+          "לראות את המים נבקעים",
+          "לשמוע את הרעמים בסיני"
+        ],
+        "answer": 0,
+        "explanation": "משה מינה את יהושע לעיני העם. כך כולם ראו למי נמסרה האחריות."
+      }
+    ],
+    "life-noah-6": [
+      {
+        "prompt": "שק אחד מספיק לארוחה אחת. מה כדאי לנח לעשות אם ההפלגה תימשך הרבה ארוחות?",
+        "options": [
+          "לשמור את השק ריק",
+          "לאסוף עוד אוכל לפני היציאה",
+          "לחכות לשדה באמצע המים"
+        ],
+        "answer": 1,
+        "explanation": "נח אסף מזון מראש. בזמן המבול לא היה שדה שאפשר לעצור בו."
+      },
+      {
+        "prompt": "בסל הדמיוני של נח יש אוכל רק למשפחה. בבטן של מי עוד יישמע קרקור?",
+        "options": [
+          "של החיות שבתיבה",
+          "של הדגים ששוחים בחוץ",
+          "של אנשים בעיר אחרת"
+        ],
+        "answer": 0,
+        "explanation": "נח התבקש להכין גם מזון לחיות שישהו איתו בתיבה."
+      }
+    ],
+    "life-noah-2": [
+      {
+        "prompt": "שתי עיזים צועדות בזו אחר זו. איזו צללית תשלים את הזוג אם אחת תתחבא?",
+        "options": [
+          "צללית של אריה",
+          "צללית של יונה",
+          "צללית של עז"
+        ],
+        "answer": 2,
+        "explanation": "החיות באו בזוגות מאותו מין. עז ועוד עז יוצרות זוג עיזים."
+      },
+      {
+        "prompt": "נח ואשתו בפנים. שלושת הבנים נכנסו. מי חסר כדי שכל המשפחה תהיה בתיבה?",
+        "options": [
+          "שלושה רועים מן השדה",
+          "הנשים של שלושת הבנים",
+          "שלושה שכנים מן הכפר"
+        ],
+        "answer": 1,
+        "explanation": "עם שלושת הבנים נכנסו גם נשותיהם. יחד היו בתיבה שמונה בני משפחה."
+      }
+    ],
+    "life-noah-7": [
+      {
+        "prompt": "נח מסמן בדמיון קו בגובה המים על סלע. מחר הקו מעל המים. מה השתנה?",
+        "options": [
+          "המים ירדו",
+          "המים עלו",
+          "המים נשארו באותו גובה"
+        ],
+        "answer": 0,
+        "explanation": "כשהמים יורדים, נחשף עוד חלק מהסלע והסימן הישן נשאר מעליהם."
+      },
+      {
+        "prompt": "נח כבר לא שומע טיפות על הגג. איזה ציור מתאים לרגע הזה?",
+        "options": [
+          "אדמה יבשה בבת אחת בכל מקום",
+          "מים נעלמים והתיבה עפה",
+          "הגשם פסק ומים עדיין סביב התיבה"
+        ],
+        "answer": 2,
+        "explanation": "תחילה פסק הגשם. למים שכבר היו על הארץ לקח זמן לרדת."
+      }
+    ],
+    "life-noah-8": [
+      {
+        "prompt": "אני נוגע בתחתית התיבה. אין לי ידיים, ואני גבוה מעל העמק. מי אני?",
+        "options": [
+          "ענן בשמים",
+          "עלה של זית",
+          "הר בהרי אררט"
+        ],
+        "answer": 2,
+        "explanation": "התיבה נחה על הרי אררט. ההר נשא אותה גם כשהמים המשיכו לרדת."
+      },
+      {
+        "prompt": "מעל המים מבצבץ קצה של הר. כעבור זמן רואים עוד מההר. איזו חידה פתר נח?",
+        "options": [
+          "המים יורדים וחושפים את ההר",
+          "ההר צומח כמו עץ",
+          "התיבה מוסיפה אבנים להר"
+        ],
+        "answer": 0,
+        "explanation": "כשהמים המשיכו לרדת, פסגות ההרים נגלו. ההרים עמדו שם כל הזמן."
+      }
+    ],
+    "life-noah-9": [
+      {
+        "prompt": "עקבות כף רגל ולידן עקבות פרסה, שתיהן מתרחקות מהתיבה. מה הן מספרות?",
+        "options": [
+          "רק ציפורים עפו החוצה",
+          "גם אנשים וגם חיות יצאו",
+          "המשפחה נשארה בפנים"
+        ],
+        "answer": 1,
+        "explanation": "כשנח קיבל רשות לצאת, גם משפחתו וגם החיות יצאו אל היבשה."
+      },
+      {
+        "prompt": "על היבשה נח שוב בונה משהו. הפעם הוא לא צריך מקום לחיות. מה חסר בציור?",
+        "options": [
+          "תיבה שנייה למבול",
+          "שוקת לכבשים של משה",
+          "מזבח לאלוהים"
+        ],
+        "answer": 2,
+        "explanation": "אחרי היציאה בנה נח מזבח לאלוהים. את התיבה כבר השאיר מאחור."
+      }
+    ],
+    "life-noah-5": [
+      {
+        "prompt": "אני כמו גשר של צבעים. אי אפשר לדרוך עליי. איזו הבטחה אני מזכיר לנח?",
+        "options": [
+          "שלעולם לא יהיו עוד עננים",
+          "שמבול כזה לא ישוב להשמיד את החיים",
+          "שכל הנהרות יהפכו ליבשה"
+        ],
+        "answer": 1,
+        "explanation": "הקשת היא אות להבטחה שניתנה לנח ולכל היצורים החיים."
+      },
+      {
+        "prompt": "נח כבר ירד מהתיבה. נכדה שעדיין לא נולדה תראה פעם קשת. מה מחבר ביניהם?",
+        "options": [
+          "אותה הבטחה ניתנה גם לדורות הבאים",
+          "שניהם היו בתיבה יחד",
+          "שניהם ראו את הגשם הראשון"
+        ],
+        "answer": 0,
+        "explanation": "ההבטחה שבקשת ניתנה גם לילדים שעוד ייוולדו."
+      }
+    ],
+    "life-samson-6": [
+      {
+        "prompt": "שומעים שאגה, ורואים ענבים משני צדי השביל. איפה נמצא שמשון?",
+        "options": [
+          "בבית הכלא, ליד אבן הטחינה",
+          "בדרך לתמנה, ליד הכרמים",
+          "בראש ההר, ליד שער העיר"
+        ],
+        "answer": 1,
+        "explanation": "בדרך לתמנה פגש שמשון אריה צעיר ליד הכרמים, השדות שבהם גדלים ענבים."
+      },
+      {
+        "prompt": "משפחה הולכת יחד, אבל רק לאחד יש סוד על אריה. למה ההורים לא יכולים לספר אותו?",
+        "options": [
+          "שמשון לא סיפר להם על המפגש",
+          "הם שמעו רק חידה על שער",
+          "האריה השאיר להם מכתב"
+        ],
+        "answer": 0,
+        "explanation": "שמשון לא סיפר לאביו ולאמו מה קרה לו בדרך."
+      }
+    ],
+    "life-samson-2": [
+      {
+        "prompt": "ביקור אחד מלא בשאגה. בביקור הבא שומעים זמזום. מי הגיע בינתיים?",
+        "options": [
+          "כבשים שחיפשו מים",
+          "יונים שחיפשו עלה",
+          "דבורים שעשו דבש"
+        ],
+        "answer": 2,
+        "explanation": "כששמשון חזר למקום שבו פגש את האריה, הוא מצא דבורים ודבש."
+      },
+      {
+        "prompt": "אורח בחגיגה מנחש רק ״אריה!״ מה עוד צריך לפצח כדי לפתור את חידת שמשון?",
+        "options": [
+          "איזה שער נשא על כתפיו",
+          "איזה דבר מתוק מצא אצל האריה",
+          "באיזה הר עגנה התיבה"
+        ],
+        "answer": 1,
+        "explanation": "האריה מסביר את הרמז על הכוח. הדבש שמצא שמשון מסביר את הרמז על המתיקות."
+      }
+    ],
+    "life-samson-8": [
+      {
+        "prompt": "שמשון שותה ומרגיש שכוחו חוזר. איזו טיפה תוכל לומר ״אני עזרתי לו״?",
+        "options": [
+          "טיפה שזרמה מהמעיין בלחי",
+          "טיפה מנהר במצרים",
+          "טיפה מן הים שנבקע"
+        ],
+        "answer": 0,
+        "explanation": "בלחי פרצו מים ממקום חלול באדמה, ושמשון שתה מהם."
+      },
+      {
+        "prompt": "למעיין קראו ״עין הקורא״. אם המים היו זוכרים קול אחד, איזה קול זה היה?",
+        "options": [
+          "שאגת אריה ליד הכרם",
+          "קולו של שומר בשער",
+          "קולו של שמשון קורא לעזרה"
+        ],
+        "answer": 2,
+        "explanation": "שמשון קרא לאלוהים כשהיה צמא. השם עין הקורא מזכיר את הקריאה שלו."
+      }
+    ],
+    "life-samson-3": [
+      {
+        "prompt": "בבוקר איש הולך לראש ההר ומוצא שם דלתות כבדות. מה ראו שם בלילה?",
+        "options": [
+          "את השער מטפס בעצמו",
+          "את אנשי העיר בונים חומה על ההר",
+          "את שמשון עולה עם השער על הכתפיים"
+        ],
+        "answer": 2,
+        "explanation": "שמשון נשא בלילה את שער העיר על כתפיו והעלה אותו לראש ההר."
+      },
+      {
+        "prompt": "ביד של השומר יש מפתח. הדלתות כבר על ההר. מה עוד צריך כדי לנעול את העיר?",
+        "options": [
+          "שהשער עצמו יהיה שוב בפתח",
+          "מפתח ארוך יותר",
+          "פנס בהיר יותר"
+        ],
+        "answer": 0,
+        "explanation": "מפתח יכול לנעול דלת רק כשהדלת במקומה. שמשון לקח את כל השער."
+      }
+    ],
+    "life-samson-9": [
+      {
+        "prompt": "גרגרים מגיעים לאבן של שמשון בכלא. מה יכול לצאת משם ולהפוך אחר כך ללחם?",
+        "options": [
+          "סל ענבים",
+          "קמח טחון",
+          "כד דבש"
+        ],
+        "answer": 1,
+        "explanation": "שמשון עבד בטחינת תבואה. האבנים ריסקו את הגרגרים לקמח."
+      },
+      {
+        "prompt": "בשני ציורים של שמשון רואים אותה אבן טחינה. איך תדעו איזה ציור מספר על יום מאוחר יותר?",
+        "options": [
+          "בציור המאוחר יש אריה ליד האבן",
+          "בציור המאוחר שמשון נושא שער",
+          "בציור המאוחר השיער ארוך יותר"
+        ],
+        "answer": 2,
+        "explanation": "גם בכלא השיער של שמשון המשיך לצמוח. האורך שלו יכול לרמוז שעבר זמן."
+      }
+    ],
+    "life-samson-5": [
+      {
+        "prompt": "שמשון מבקש מהנער להוביל אותו. הנער נעצר במקום שבו שמשון יכול להניח יד מכל צד. לאן הגיעו?",
+        "options": [
+          "ליד קצה הגג",
+          "בין שני העמודים",
+          "מול דלת אחת סגורה"
+        ],
+        "answer": 1,
+        "explanation": "הנער הוביל את שמשון אל שני העמודים. שמשון הניח יד על כל אחד מהם."
+      },
+      {
+        "prompt": "בחוץ שומעים המון אנשים. מקרוב שומעים את שמשון אומר ״זכור אותי״. למי הוא פונה ברגע הזה?",
+        "options": [
+          "לאלוהים, בתפילה אישית",
+          "לאורחים, עם חידה חדשה",
+          "לנער, כדי שיראה לו את הדרך"
+        ],
+        "answer": 0,
+        "explanation": "הנער כבר הוביל את שמשון. ברגע השקט הזה הוא מבקש מאלוהים לזכור אותו ולתת לו כוח."
+      }
+    ]
+  },
+  "en": {
+    "life-moses-6": [
+      {
+        "prompt": "Their father expected a long wait. His daughters are home already! What saved them time?",
+        "options": [
+          "The sheep stayed home",
+          "Moses helped water the flock",
+          "The well moved next door"
+        ],
+        "answer": 1,
+        "explanation": "With Moses helping at the well, the sisters finished watering the flock early."
+      },
+      {
+        "prompt": "The sisters tell their father about the man at the well. Who needs an extra seat for supper?",
+        "options": [
+          "Moses, their new guest",
+          "The last sheep in line",
+          "Pharaoh, king of Egypt"
+        ],
+        "answer": 0,
+        "explanation": "Their father invited the man who had helped them to share a meal."
+      }
+    ],
+    "life-moses-2": [
+      {
+        "prompt": "There are flames. Moses looks again. Which picture would surprise him?",
+        "options": [
+          "A pile of ashes",
+          "A burnt twig on the ground",
+          "The same bush, still whole"
+        ],
+        "answer": 2,
+        "explanation": "The fire kept burning, yet the bush stayed whole. That made Moses come closer."
+      },
+      {
+        "prompt": "Moses hears his name from the bush. Soon a pair lies beside his feet. What makes up the pair?",
+        "options": [
+          "Two lambs",
+          "Two sandals",
+          "Two water jars"
+        ],
+        "answer": 1,
+        "explanation": "At the bush, Moses heard his name and took off his sandals on holy ground."
+      }
+    ],
+    "life-moses-3": [
+      {
+        "prompt": "A child peeks at the dough on the road. What tells her there was no time to wait?",
+        "options": [
+          "The dough is still flat",
+          "The dough is already a tall loaf",
+          "The dough is already crumbs"
+        ],
+        "answer": 0,
+        "explanation": "The families left before their dough had time to rise."
+      },
+      {
+        "prompt": "One hand holds a child’s hand. The other is free. How could a traveler still carry a dough bowl?",
+        "options": [
+          "Set on Pharaoh’s table",
+          "Tucked in the well in Midian",
+          "Wrapped in cloth on a shoulder"
+        ],
+        "answer": 2,
+        "explanation": "When they left Egypt, the travelers wrapped their dough bowls in clothes and carried them on their shoulders."
+      }
+    ],
+    "life-moses-4": [
+      {
+        "prompt": "A drop on the right, a drop on the left. What lies between them in Moses’ sea story?",
+        "options": [
+          "A bridge built from wood",
+          "A ladder up to the clouds",
+          "A path people can walk on"
+        ],
+        "answer": 2,
+        "explanation": "The waters parted and stood on both sides of the dry path."
+      },
+      {
+        "prompt": "You hear horses behind you. You see the sea ahead. Who needs a new way through?",
+        "options": [
+          "The families traveling with Moses",
+          "The sisters at the well",
+          "The guests at the palace"
+        ],
+        "answer": 0,
+        "explanation": "Egypt’s army was coming from behind the families, and the sea blocked their way ahead."
+      }
+    ],
+    "life-moses-9": [
+      {
+        "prompt": "A thick cloud hides the mountain. Close your eyes. How could you still recognize Sinai?",
+        "options": [
+          "Hear bees at a hive",
+          "Hear thunder and a horn",
+          "Hear water drawn from a well"
+        ],
+        "answer": 1,
+        "explanation": "At Sinai, the people heard both thunder and the loud call of a horn."
+      },
+      {
+        "prompt": "A child finds a friend’s toy. Which choice fits what the people heard at Sinai?",
+        "options": [
+          "Hide it under the bed",
+          "Take it without asking",
+          "Give it back to the friend"
+        ],
+        "answer": 2,
+        "explanation": "The people heard the command not to steal. Giving the toy back respects what belongs to a friend."
+      }
+    ],
+    "life-moses-5": [
+      {
+        "prompt": "Moses stands beside Joshua in front of everyone. Which sign can the crowd read without a word?",
+        "options": [
+          "Moses places a bowl on the ground",
+          "Moses places his hands on Joshua",
+          "Moses leaves sandals by a bush"
+        ],
+        "answer": 1,
+        "explanation": "Moses’ hands on Joshua showed the people who would take on the work of leading."
+      },
+      {
+        "prompt": "If Moses and Joshua had met alone in a tent, what would the people have missed?",
+        "options": [
+          "Seeing Moses hand over his job",
+          "Seeing the sea open",
+          "Hearing the thunder at Sinai"
+        ],
+        "answer": 0,
+        "explanation": "Moses gave Joshua his new responsibility in front of the people, where everyone could see."
+      }
+    ],
+    "life-noah-6": [
+      {
+        "prompt": "One sack feeds everyone for one meal. What if Noah’s trip lasts many meals?",
+        "options": [
+          "Keep the sack empty",
+          "Gather more food before leaving",
+          "Wait for a field in the water"
+        ],
+        "answer": 1,
+        "explanation": "Noah gathered food ahead of time. During the flood there was no field where he could stop."
+      },
+      {
+        "prompt": "Imagine Noah packs only enough food for his family. Whose tummies would still rumble?",
+        "options": [
+          "The animals aboard",
+          "The fish swimming outside",
+          "People in another town"
+        ],
+        "answer": 0,
+        "explanation": "Noah was asked to store food for the animals that would stay aboard with him."
+      }
+    ],
+    "life-noah-2": [
+      {
+        "prompt": "Two goats walk in line. One hides. Which shadow would complete the pair again?",
+        "options": [
+          "A lion’s shadow",
+          "A dove’s shadow",
+          "A goat’s shadow"
+        ],
+        "answer": 2,
+        "explanation": "The animals came in pairs of their own kind. A second goat makes a pair of goats."
+      },
+      {
+        "prompt": "Noah, his wife and their three sons are inside. Who is still missing from the family?",
+        "options": [
+          "Three shepherds from a field",
+          "The three sons’ wives",
+          "Three neighbors from a village"
+        ],
+        "answer": 1,
+        "explanation": "The sons’ wives went in too. That made eight members of Noah’s family aboard."
+      }
+    ],
+    "life-noah-7": [
+      {
+        "prompt": "Imagine Noah marks the water level on a rock. Tomorrow the mark is above the water. What changed?",
+        "options": [
+          "The water went down",
+          "The water rose",
+          "The water stayed just as high"
+        ],
+        "answer": 0,
+        "explanation": "As the water goes down, more rock shows and the old mark stays above the water."
+      },
+      {
+        "prompt": "Noah can no longer hear drops on the roof. Which picture fits that moment?",
+        "options": [
+          "The whole earth is dry all at once",
+          "The water vanishes and the ark flies",
+          "The rain has stopped, with water still around the ark"
+        ],
+        "answer": 2,
+        "explanation": "First the rain stopped. The water already on the ground took time to go down."
+      }
+    ],
+    "life-noah-8": [
+      {
+        "prompt": "I touch the bottom of the ark. I have no hands and I stand high above the valley. What am I?",
+        "options": [
+          "A cloud in the sky",
+          "An olive leaf",
+          "A mountain of Ararat"
+        ],
+        "answer": 2,
+        "explanation": "The ark rested on the mountains of Ararat while the water kept going down."
+      },
+      {
+        "prompt": "First a mountain tip peeks out. Later you can see more of the mountain. What has Noah discovered?",
+        "options": [
+          "Falling water is uncovering the mountain",
+          "The mountain is growing like a tree",
+          "The ark is piling stones on the mountain"
+        ],
+        "answer": 0,
+        "explanation": "As the water went down, mountain tops came into view. The mountains had been there all along."
+      }
+    ],
+    "life-noah-9": [
+      {
+        "prompt": "A footprint and a hoofprint both lead away from the ark. What story do they tell?",
+        "options": [
+          "Only birds flew out",
+          "Both people and animals came out",
+          "The family stayed inside"
+        ],
+        "answer": 1,
+        "explanation": "When Noah was told to leave, his family and the animals all came out onto dry land."
+      },
+      {
+        "prompt": "Back on land, Noah builds again. This time he needs no room for animals. What is missing from the picture?",
+        "options": [
+          "A second ark for a flood",
+          "A trough for Moses’ sheep",
+          "An altar for God"
+        ],
+        "answer": 2,
+        "explanation": "After leaving the ark, Noah built an altar for God."
+      }
+    ],
+    "life-noah-5": [
+      {
+        "prompt": "I look like a bridge of colors, but nobody can walk on me. What promise do I remind Noah of?",
+        "options": [
+          "There will never be clouds again",
+          "A flood like this will never again destroy life",
+          "Every river will turn to dry ground"
+        ],
+        "answer": 1,
+        "explanation": "The rainbow is the sign of the promise to Noah and all living creatures."
+      },
+      {
+        "prompt": "One day a granddaughter born long after Noah’s voyage sees a rainbow. What connects her to Noah?",
+        "options": [
+          "The same promise is for future children too",
+          "They traveled in the ark together",
+          "They saw the first rain together"
+        ],
+        "answer": 0,
+        "explanation": "The rainbow promise includes the children who would be born in later generations."
+      }
+    ],
+    "life-samson-6": [
+      {
+        "prompt": "You hear a roar and see grapes beside the path. Where is Samson?",
+        "options": [
+          "In prison, by the millstone",
+          "On the way to Timnah, by the vineyards",
+          "On the hill, by the city gate"
+        ],
+        "answer": 1,
+        "explanation": "Samson met a young lion near the vineyards on the way to Timnah. Vineyards are fields where grapes grow."
+      },
+      {
+        "prompt": "A family travels together, but only one has a lion secret. Why can’t the parents tell it?",
+        "options": [
+          "Samson kept his meeting with the lion to himself",
+          "They only heard a riddle about a gate",
+          "The lion left them a letter"
+        ],
+        "answer": 0,
+        "explanation": "Samson did not tell his father or mother what happened to him on the road."
+      }
+    ],
+    "life-samson-2": [
+      {
+        "prompt": "A roar on the first visit. A buzz on the next. Who arrived in between?",
+        "options": [
+          "Sheep looking for water",
+          "Doves looking for leaves",
+          "Bees that made honey"
+        ],
+        "answer": 2,
+        "explanation": "When Samson came back to the place where he had met the lion, he found bees and honey."
+      },
+      {
+        "prompt": "A guest guesses just “a lion!” What part of Samson’s riddle is still missing?",
+        "options": [
+          "The gate he carried on his shoulders",
+          "The sweet thing he found in the lion",
+          "The mountain where the ark stopped"
+        ],
+        "answer": 1,
+        "explanation": "The lion explains the clue about strength. The honey Samson found explains the clue about sweetness."
+      }
+    ],
+    "life-samson-8": [
+      {
+        "prompt": "Samson drinks and feels his strength return. Which drop can say “I helped him”?",
+        "options": [
+          "A drop from the spring at Lehi",
+          "A drop from a river in Egypt",
+          "A drop from the parted sea"
+        ],
+        "answer": 0,
+        "explanation": "Water flowed from a hollow at Lehi, and Samson drank from it."
+      },
+      {
+        "prompt": "The spring was named for someone who called. If the water remembered one voice, whose would it be?",
+        "options": [
+          "A lion roaring near the vines",
+          "A guard calling from a gate",
+          "Samson calling for help"
+        ],
+        "answer": 2,
+        "explanation": "A thirsty Samson called to God. The name En-hakkore remembers his call."
+      }
+    ],
+    "life-samson-3": [
+      {
+        "prompt": "In the morning a traveler finds heavy doors on a hilltop. What happened there in the night?",
+        "options": [
+          "The gate climbed by itself",
+          "The townspeople built a wall on the hill",
+          "Samson climbed with the gate on his shoulders"
+        ],
+        "answer": 2,
+        "explanation": "Samson carried the city gate on his shoulders in the night and brought it up the hill."
+      },
+      {
+        "prompt": "A guard has a key, but the doors are already on the hill. What would it take to lock the city entrance?",
+        "options": [
+          "The gate itself must be back in place",
+          "A longer key",
+          "A brighter lamp"
+        ],
+        "answer": 0,
+        "explanation": "A key can lock a door only if the door is there. Samson had carried away the whole gate."
+      }
+    ],
+    "life-samson-9": [
+      {
+        "prompt": "Grains reach Samson’s millstone in prison. What can come out and later turn into bread?",
+        "options": [
+          "A basket of grapes",
+          "Ground flour",
+          "A jar of honey"
+        ],
+        "answer": 1,
+        "explanation": "Samson had to grind grain. The stones crushed the grains into flour."
+      },
+      {
+        "prompt": "Two pictures of Samson show the same millstone. What would tell you which picture comes later?",
+        "options": [
+          "A lion stands by the stone in the later picture",
+          "He carries a gate in the later picture",
+          "His hair is longer in the later picture"
+        ],
+        "answer": 2,
+        "explanation": "His hair kept growing in prison. A little more hair is a clue that time has passed."
+      }
+    ],
+    "life-samson-5": [
+      {
+        "prompt": "Samson asks a boy to guide him. They stop where he can rest one hand on each side. Where are they?",
+        "options": [
+          "At the edge of the roof",
+          "Between the two pillars",
+          "In front of one closed door"
+        ],
+        "answer": 1,
+        "explanation": "The boy guided Samson to the two pillars. Samson placed a hand on each one."
+      },
+      {
+        "prompt": "You can hear a crowd. Up close you hear Samson say “Remember me.” Who is he speaking to now?",
+        "options": [
+          "God, in a prayer of his own",
+          "The guests, with another riddle",
+          "The boy, to ask for directions"
+        ],
+        "answer": 0,
+        "explanation": "The boy had already guided Samson. Now Samson asked God to remember him and give him strength."
+      }
+    ]
+  }
+}

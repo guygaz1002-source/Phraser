@@ -1,0 +1,3471 @@
+{
+  "id": "samson",
+  "name": "Samson",
+  "epithet": "Nine chapters. A life to discover.",
+  "epithetKids": "Nine picture adventures.",
+  "tilemap": {
+    "width": 20,
+    "height": 15,
+    "tiles": [
+      [
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "rock",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sand",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "rock",
+        "grass",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "sand",
+        "grass",
+        "grass",
+        "rock",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "rock",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "tree"
+      ],
+      [
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree",
+        "tree"
+      ]
+    ]
+  },
+  "stops": [
+    {
+      "id": "life-samson-1",
+      "title": "Chapter 1",
+      "shortTitle": "Chapter 1",
+      "solvedTitle": "Samson's Birth Is Announced",
+      "tile": {
+        "x": 3,
+        "y": 11
+      },
+      "signTile": {
+        "x": 3,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 4,
+          "y": 11
+        },
+        {
+          "x": 5,
+          "y": 11
+        },
+        {
+          "x": 6,
+          "y": 11
+        },
+        {
+          "x": 7,
+          "y": 11
+        },
+        {
+          "x": 8,
+          "y": 11
+        },
+        {
+          "x": 9,
+          "y": 11
+        }
+      ],
+      "passage": {
+        "a": "An angel visits a woman from Zorah with surprising news: she will have a son. She tells her husband, Manoah. They want to learn how to care for their child. Their son will have a special calling, and his hair must not be cut. When he is born, his mother names him Samson. He grows, and God blesses him.",
+        "b": "While the Philistines rule over Israel, an angel tells Manoah's wife that she will have a son. He will be a Nazirite, set apart for God from birth, and his hair must not be cut. He will begin to free Israel from Philistine rule. Manoah asks for guidance in raising him. The child is born and named Samson. The promise at the start of his life comes with responsibility.",
+        "c": "The angel first visits Manoah's wife in Zorah. Her name is not given. Her son will be a Nazirite, dedicated to God from birth, and will begin to deliver Israel from the Philistines. Manoah asks for the messenger to return and teach them how to care for the child. His mother names him Samson. The account describes his growth, God's blessing, and the Spirit stirring him between Zorah and Eshtaol."
+      },
+      "source": "Judges 13",
+      "sensitive": false,
+      "learned": {
+        "a": "An angel visits a woman from Zorah with surprising news: she will have a son. She tells her husband, Manoah. They want to learn how to care for their child. Their son will have a special calling, and his hair must not be cut. When he is born, his mother names him Samson. He grows, and God blesses him.",
+        "b": "While the Philistines rule over Israel, an angel tells Manoah's wife that she will have a son. He will be a Nazirite, set apart for God from birth, and his hair must not be cut. He will begin to free Israel from Philistine rule. Manoah asks for guidance in raising him. The child is born and named Samson. The promise at the start of his life comes with responsibility.",
+        "c": "The angel first visits Manoah's wife in Zorah. Her name is not given. Her son will be a Nazirite, dedicated to God from birth, and will begin to deliver Israel from the Philistines. Manoah asks for the messenger to return and teach them how to care for the child. His mother names him Samson. The account describes his growth, God's blessing, and the Spirit stirring him between Zorah and Eshtaol."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-1",
+          "category": "stories",
+          "answer": "Samson's Birth Is Announced",
+          "aliases": [
+            "Samson's birth",
+            "the birth of Samson",
+            "Samson is born",
+            "announcement of Samson's birth",
+            "an angel announces Samson's birth",
+            "the angel and Manoah",
+            "Manoah and his wife",
+            "Samson's parents and the angel",
+            "the promise of Samson's birth"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "Manoah",
+            "angel",
+            "Samson's mother"
+          ],
+          "textHint": "Notice the visitor and the family receiving unexpected news.",
+          "moral": "When something new is ahead of us, who can help us prepare by listening and offering guidance?",
+          "source": "Judges 13",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0713.htm",
+          "images": {
+            "kids": [
+              "journey-d5aa2fe10218b036.webp",
+              "journey-85756f2e8562f7b6.webp",
+              "journey-aaf28c9fd4993826.webp",
+              "journey-f82f332744c42922.webp"
+            ],
+            "teen": [
+              "journey-82bcadb1bcc8a051.webp",
+              "journey-54e8816da6e207be.webp",
+              "journey-ed029052005ce2b7.webp",
+              "journey-c233c4a381037f79.webp"
+            ],
+            "classic": [
+              "journey-f9a143c566ab8ded.webp",
+              "journey-8b895c289c3ab741.webp",
+              "journey-2376c439e6c60777.webp",
+              "journey-734c4badfdf16e9e.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news."
+            ],
+            "teen": [
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news."
+            ],
+            "classic": [
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news.",
+              "Notice the visitor and the family receiving unexpected news."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Birth Is Announced",
+            "Samson's Riddle",
+            "The Spring of En-hakkore",
+            "Samson and Delilah"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Birth Is Announced",
+            "Samson's Riddle",
+            "The Spring of En-hakkore",
+            "Samson and Delilah"
+          ],
+          "choicePicturesKids": [
+            "journey-f82f332744c42922.webp",
+            "journey-2fb0b5a6f7e05643.webp",
+            "journey-8fcac08eb0b91553.webp",
+            "journey-cbbeb32de5dbb2eb.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "An unusual light in a field hints that someone has come with news.",
+              "A woman listens to a messenger. She will become Samson's mother.",
+              "Manoah joins his wife as they learn about the child who will be born.",
+              "The angel, the parents, and the altar bring together the story of Samson's birth announcement."
+            ],
+            "b": [
+              "A bright presence in the field suggests an unexpected visit.",
+              "The messenger speaks first to the woman who will become Samson's mother.",
+              "Both parents seek guidance about their coming child's life.",
+              "The angel rising in the altar's flame identifies the announcement to Manoah and his wife."
+            ],
+            "c": [
+              "Light in the field introduces the visit that opens Samson's story.",
+              "The woman receives the announcement before Manoah does.",
+              "Manoah and his wife appear together as the promise becomes a call to prepare.",
+              "The ascent in the altar's flame completes the visual clues to Judges 13."
+            ]
+          },
+          "discovery": "Samson's mother hears the announcement first and later gives him his name. Judges 13 never tells us her own name.",
+          "reflection": "When something new is ahead of us, who can help us prepare by listening and offering guidance?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who heard first that the baby would be born?",
+            "options": [
+              "Pharaoh's daughter",
+              "Samson's mother",
+              "Delilah",
+              "Miriam"
+            ],
+            "answer": 1,
+            "explanation": "The angel first visited Samson's mother. She then told Manoah."
+          },
+          {
+            "prompt": "What did his mother name him?",
+            "options": [
+              "Noah",
+              "Moses",
+              "Samson",
+              "Joshua"
+            ],
+            "answer": 2,
+            "explanation": "After her son was born, his mother named him Samson."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did Manoah ask for after hearing the news?",
+            "options": [
+              "Guidance on caring for the child",
+              "A new city gate",
+              "A large ship",
+              "A king's crown"
+            ],
+            "answer": 0,
+            "explanation": "Manoah asked for the messenger to return and teach them how to care for their son."
+          },
+          {
+            "prompt": "What did the angel say Samson would do?",
+            "options": [
+              "Build the ark",
+              "Build a tall tower",
+              "Become king of Egypt",
+              "Begin to free Israel from the Philistines"
+            ],
+            "answer": 3,
+            "explanation": "The announcement says Samson will begin the work. It does not promise that he will finish it alone."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which detail is not given in Judges 13?",
+            "options": [
+              "Manoah's name",
+              "The name of Samson's mother",
+              "The child's name",
+              "Where the family lived"
+            ],
+            "answer": 1,
+            "explanation": "Samson's mother plays a central role, but the chapter does not name her."
+          },
+          {
+            "prompt": "What does the instruction not to cut Samson's hair express?",
+            "options": [
+              "A rule for everyone in Zorah",
+              "Preparation for kingship",
+              "His dedication to God as a Nazirite from birth",
+              "A promise that he will never make a mistake"
+            ],
+            "answer": 2,
+            "explanation": "His uncut hair belongs to the Nazirite calling announced before his birth. It does not guarantee a life without mistakes."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-1-bonus-1",
+          "item": "lamp",
+          "title": "News Before the Birth",
+          "prompt": "Who first heard the angel's news that a son would be born?",
+          "options": [
+            "Samson's mother",
+            "Manoah",
+            "Samson"
+          ],
+          "answer": 0,
+          "explanation": "The angel first told Samson's mother, and she shared the news with Manoah."
+        },
+        {
+          "id": "life-samson-1-bonus-2",
+          "item": "jar",
+          "title": "Samson's Father",
+          "prompt": "What was Samson's father's name?",
+          "options": [
+            "Noah",
+            "Manoah",
+            "Moses"
+          ],
+          "answer": 1,
+          "explanation": "Samson's father was Manoah. He asked for guidance on raising the child."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "בשורת לידת שמשון",
+        "aliases": [
+          "לידת שמשון",
+          "הולדת שמשון",
+          "הבשורה על לידת שמשון",
+          "המלאך ומנוח",
+          "המלאך אצל מנוח ואשתו",
+          "מנוח ואשתו",
+          "בשורת שמשון"
+        ],
+        "passage": {
+          "a": "מלאך הגיע לאישה מצרעה ובישר לה שייוולד לה בן. היא סיפרה למנוח, בעלה, ושניהם רצו ללמוד איך לדאוג לילד. הבן נועד לתפקיד מיוחד, ושערו לא ייגזר. כעבור זמן הוא נולד, ואמו קראה לו שמשון. הוא גדל, ואלוהים בירך אותו.",
+          "b": "בתקופה שבה הפלשתים שלטו בישראל, מלאך בישר לאשת מנוח שייוולד לה בן. הילד יהיה נזיר אלוהים מלידתו, ושערו לא ייגזר; הוא יתחיל להושיע את ישראל. מנוח ביקש הדרכה לגידולו. הבן נולד ונקרא שמשון, גדל והתברך. ההבטחה בתחילת חייו מביאה עמה גם אחריות.",
+          "c": "המלאך פונה תחילה לאשת מנוח מצרעה, ששמה אינו נמסר, ומבשר על בן שיהיה נזיר אלוהים מן הבטן ויחל להושיע את ישראל מיד פלשתים. מנוח מבקש שהשליח ישוב ויורה להם כיצד לנהוג. לאחר לידתו אמו קוראת לו שמשון. הכתוב מספר על גדילתו וברכתו ועל רוח ה׳ המפעמת בו בין צרעה לאשתאול."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי שמעה ראשונה את הבשורה על הבן שייוולד?",
+              "options": [
+                "בת פרעה",
+                "אמו של שמשון",
+                "דלילה",
+                "מרים"
+              ],
+              "answer": 1,
+              "explanation": "המלאך הגיע תחילה לאמו של שמשון, והיא סיפרה למנוח."
+            },
+            {
+              "prompt": "איזה שם נתנה האם לבנה?",
+              "options": [
+                "נח",
+                "משה",
+                "שמשון",
+                "יהושע"
+              ],
+              "answer": 2,
+              "explanation": "לאחר שהבן נולד, אמו קראה לו שמשון."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה ביקש מנוח לאחר ששמע את הבשורה?",
+              "options": [
+                "הדרכה כיצד לנהוג בילד",
+                "שער חדש לעיר",
+                "ספינה גדולה",
+                "כתר למלך"
+              ],
+              "answer": 0,
+              "explanation": "מנוח ביקש שהשליח ישוב וילמד אותם מה לעשות לילד שייוולד."
+            },
+            {
+              "prompt": "מה נאמר על תפקידו העתידי של שמשון?",
+              "options": [
+                "שיבנה את התיבה",
+                "שיקים מגדל גבוה",
+                "שיהיה מלך מצרים",
+                "שיתחיל להושיע את ישראל מיד פלשתים"
+              ],
+              "answer": 3,
+              "explanation": "הבשורה אומרת שהוא יתחיל להושיע; היא אינה מבטיחה שיסיים לבדו את המאבק."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה פרט אינו נמסר בשופטים י״ג?",
+              "options": [
+                "שמו של מנוח",
+                "שמה של אמו של שמשון",
+                "שם הילד",
+                "מקום מגורי המשפחה"
+              ],
+              "answer": 1,
+              "explanation": "האם ממלאת תפקיד מרכזי, אך שמה אינו מצוין בפרק."
+            },
+            {
+              "prompt": "מה מבטא איסור גזירת שיערו של שמשון?",
+              "options": [
+                "חוק לכל תושבי צרעה",
+                "הכשרה למלכות",
+                "את היותו נזיר אלוהים מלידתו",
+                "הבטחה שלא יטעה לעולם"
+              ],
+              "answer": 2,
+              "explanation": "השיער שלא נגזר הוא חלק ממעמד הנזירות המתואר בבשורה, ולא הבטחה לחיים ללא שגיאות."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-6",
+      "title": "Chapter 2",
+      "shortTitle": "Chapter 2",
+      "solvedTitle": "Samson and the Lion",
+      "tile": {
+        "x": 9,
+        "y": 11
+      },
+      "signTile": {
+        "x": 9,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 10,
+          "y": 11
+        },
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 12,
+          "y": 11
+        },
+        {
+          "x": 13,
+          "y": 11
+        },
+        {
+          "x": 14,
+          "y": 11
+        },
+        {
+          "x": 15,
+          "y": 11
+        }
+      ],
+      "passage": {
+        "a": "Samson traveled toward Timnah with his parents. Near the vineyards, a young lion roared at him. God gave Samson strength, and he overcame the lion with nothing in his hands. The lion died. Samson did not tell his parents what happened. In real life, we keep our distance from wild animals and ask an adult for help.",
+        "b": "A young lion roared at Samson near the vineyards of Timnah. The account connects his remarkable strength to the Spirit of the Lord: he overcame the lion without a weapon. He kept the encounter from his parents. Much later, this private experience would help him create a riddle. For now, the story introduces great strength without promising equally good judgment.",
+        "c": "The first encounter near Timnah ends with Samson killing a lion with his bare hands. The narrator attributes his strength to the Spirit of the Lord and notes that Samson tells neither parent what happened. The honey belongs to a later visit, not this initial encounter. Keeping the events distinct helps us follow the contrast between extraordinary physical power and the choices still ahead."
+      },
+      "source": "Judges 14:5–6",
+      "sensitive": false,
+      "learned": {
+        "a": "Samson traveled toward Timnah with his parents. Near the vineyards, a young lion roared at him. God gave Samson strength, and he overcame the lion with nothing in his hands. The lion died. Samson did not tell his parents what happened. In real life, we keep our distance from wild animals and ask an adult for help.",
+        "b": "A young lion roared at Samson near the vineyards of Timnah. The account connects his remarkable strength to the Spirit of the Lord: he overcame the lion without a weapon. He kept the encounter from his parents. Much later, this private experience would help him create a riddle. For now, the story introduces great strength without promising equally good judgment.",
+        "c": "The first encounter near Timnah ends with Samson killing a lion with his bare hands. The narrator attributes his strength to the Spirit of the Lord and notes that Samson tells neither parent what happened. The honey belongs to a later visit, not this initial encounter. Keeping the events distinct helps us follow the contrast between extraordinary physical power and the choices still ahead."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-6",
+          "category": "stories",
+          "answer": "Samson and the Lion",
+          "aliases": [
+            "Samson defeats the lion",
+            "Samson fights a lion",
+            "Samson facing the lion",
+            "the lion near Timnah"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "lion",
+            "Timnah"
+          ],
+          "textHint": "Look at the animal and the traveller on the path.",
+          "moral": "When you face something dangerous, how can distance and asking for help keep you safe?",
+          "source": "Judges 14:5–6",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0714.htm",
+          "images": {
+            "kids": [
+              "journey-cdba3e6ea87b73ac.webp",
+              "journey-46af56e221329976.webp",
+              "journey-bfbd0a4efa2bb232.webp",
+              "journey-d4dfba97ac8dd8fa.webp"
+            ],
+            "teen": [
+              "journey-dd3ce0211cee35a8.webp",
+              "journey-3904d7a7e9b29533.webp",
+              "journey-0d31dcf7a6685085.webp",
+              "journey-c219d219f3e8428f.webp"
+            ],
+            "classic": [
+              "journey-9eb6035e27135716.webp",
+              "journey-0a1172024a752a8a.webp",
+              "journey-4036b8c2ff35b60c.webp",
+              "journey-45c961bd6cf1765d.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path."
+            ],
+            "teen": [
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path."
+            ],
+            "classic": [
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path.",
+              "Look at the animal and the traveller on the path."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Ropes at Lehi",
+            "The Gates of Gaza",
+            "Samson in Prison",
+            "Samson and the Lion"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Ropes at Lehi",
+            "The Gates of Gaza",
+            "Samson in Prison",
+            "Samson and the Lion"
+          ],
+          "choicePicturesKids": [
+            "journey-0096048021fa4d6f.webp",
+            "journey-d1e842ff7ca882a8.webp",
+            "journey-a790c7362b65a1d7.webp",
+            "journey-d4dfba97ac8dd8fa.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Large pawprints cross a path between grapevines.",
+              "A young lion appears in the vineyard, with no person yet in view.",
+              "A long-haired traveler stops as a lion appears across the path.",
+              "Samson faces the lion near Timnah with empty hands. The picture stops before the encounter turns violent."
+            ],
+            "b": [
+              "Large pawprints cross a path between grapevines.",
+              "A young lion appears in the vineyard, with no person yet in view.",
+              "A long-haired traveler stops as a lion appears across the path.",
+              "Samson faces the lion near Timnah with empty hands. The picture stops before the encounter turns violent."
+            ],
+            "c": [
+              "Large pawprints cross a path between grapevines.",
+              "A young lion appears in the vineyard, with no person yet in view.",
+              "A long-haired traveler stops as a lion appears across the path.",
+              "Samson faces the lion near Timnah with empty hands. The picture stops before the encounter turns violent."
+            ]
+          },
+          "discovery": "The lion and the honey belong to two separate visits. Samson finds the honey only when he returns later.",
+          "reflection": "When you face something dangerous, how can distance and asking for help keep you safe?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Where did Samson meet the lion?",
+            "options": [
+              "Near Timnah's vineyards",
+              "Inside the ark",
+              "In Pharaoh's palace",
+              "On Mount Sinai"
+            ],
+            "answer": 0,
+            "explanation": "The encounter happened near the vineyards on the way to Timnah."
+          },
+          {
+            "prompt": "What was Samson holding?",
+            "options": [
+              "A sword",
+              "A bow",
+              "No weapon or tool",
+              "A golden staff"
+            ],
+            "answer": 2,
+            "explanation": "The story specifically says he had nothing in his hand."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "Who did Samson keep the encounter from?",
+            "options": [
+              "Noah",
+              "His parents",
+              "Joshua",
+              "Pharaoh"
+            ],
+            "answer": 1,
+            "explanation": "He did not tell his father or mother what had happened."
+          },
+          {
+            "prompt": "Which event happened on a later visit?",
+            "options": [
+              "Setting out for Timnah",
+              "Hearing the lion roar",
+              "Meeting the live lion",
+              "Finding the honey"
+            ],
+            "answer": 3,
+            "explanation": "The bees and honey appear when Samson returns after some time."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What does the narrator identify as the source of Samson's strength?",
+            "options": [
+              "Heavy armor",
+              "The Spirit of the Lord",
+              "A special sword",
+              "An army's help"
+            ],
+            "answer": 1,
+            "explanation": "The passage connects Samson's strength at this moment to the Spirit of the Lord."
+          },
+          {
+            "prompt": "Which sequence matches the account?",
+            "options": [
+              "Honey, feast, live lion",
+              "Feast, honey, departure",
+              "Lion encounter, return visit, wedding riddle",
+              "Wedding riddle, live lion, birth"
+            ],
+            "answer": 2,
+            "explanation": "Samson first encounters the lion, later finds honey, and then presents his riddle."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-6-bonus-1",
+          "item": "staff",
+          "title": "The Journey's Destination",
+          "prompt": "Where was Samson traveling with his parents when he met the lion?",
+          "options": [
+            "Gaza",
+            "Jerusalem",
+            "Timnah"
+          ],
+          "answer": 2,
+          "explanation": "Samson was traveling to Timnah with his parents. He met the lion near the vineyards."
+        },
+        {
+          "id": "life-samson-6-bonus-2",
+          "item": "jar",
+          "title": "The Vineyard Encounter",
+          "prompt": "What was Samson holding when he overcame the lion?",
+          "options": [
+            "Nothing",
+            "A sword",
+            "A staff"
+          ],
+          "answer": 0,
+          "explanation": "Samson overcame the lion with his bare hands. The account says he had nothing in his hand."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "שמשון והאריה",
+        "aliases": [
+          "שמשון נלחם באריה",
+          "שמשון גובר על האריה",
+          "האריה בכרמי תמנה",
+          "שמשון מול האריה"
+        ],
+        "passage": {
+          "a": "שמשון יצא עם הוריו לכיוון תמנה. ליד הכרמים שאג מולו אריה צעיר. אלוהים נתן לו כוח, והוא גבר על האריה בידיים ריקות. האריה מת. שמשון לא סיפר להוריו מה קרה. זה סיפור על כוח יוצא דופן; בחיים שלנו מתרחקים מחיית בר ופונים למבוגר שיעזור.",
+          "b": "בדרך לתמנה, סמוך לכרמים, אריה צעיר שאג לקראת שמשון. הכתוב מתאר את רוח ה׳ הנחה עליו ואת הכוח שבעזרתו גבר על האריה בלי כלי בידו. הוא לא סיפר להוריו על המפגש. בהמשך, הסוד הזה יהיה חלק מחידה. כאן עוצרים באירוע הראשון: כוח גדול מופיע במפתיע, אבל עדיין אינו מבטיח שיקול דעת.",
+          "c": "בכרמי תמנה מתרחש המפגש הראשון עם האריה. שמשון הורג אותו בידיים ריקות, והמספר מייחס את כוחו לרוח ה׳. אף שהמסע החל עם הוריו, הם אינם מקבלים ממנו דיווח על המעשה. רק בביקור מאוחר יותר ימצא שם דבש; אין לערבב בין שני האירועים. הפרק פותח את הפער בין יכולתו הגופנית של שמשון לבין הבחירות שיעשה בהמשך."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "היכן פגש שמשון את האריה?",
+              "options": [
+                "ליד כרמי תמנה",
+                "בתוך התיבה",
+                "בארמון פרעה",
+                "על הר סיני"
+              ],
+              "answer": 0,
+              "explanation": "המפגש התרחש בדרך לתמנה, ליד הכרמים."
+            },
+            {
+              "prompt": "מה החזיק שמשון בידו?",
+              "options": [
+                "חרב",
+                "קשת",
+                "שום כלי",
+                "מקל זהב"
+              ],
+              "answer": 2,
+              "explanation": "הכתוב מדגיש שלא היה בידו כלי."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "למי שמשון לא סיפר על המפגש?",
+              "options": [
+                "לנח",
+                "להוריו",
+                "ליהושע",
+                "לפרעה"
+              ],
+              "answer": 1,
+              "explanation": "שמשון לא סיפר לאביו ולאמו מה עשה."
+            },
+            {
+              "prompt": "איזה דבר אירע רק בביקור מאוחר יותר?",
+              "options": [
+                "היציאה לתמנה",
+                "שאגת האריה",
+                "המפגש עם האריה החי",
+                "מציאת הדבש"
+              ],
+              "answer": 3,
+              "explanation": "הדבורים והדבש מופיעים כשהוא חוזר למקום אחרי זמן."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "למה מייחס המספר את כוחו של שמשון באירוע?",
+              "options": [
+                "לשריון כבד",
+                "לרוח ה׳",
+                "לחרב מיוחדת",
+                "לעזרה של צבא"
+              ],
+              "answer": 1,
+              "explanation": "רוח ה׳ מתוארת כמקור הכוח באותו רגע."
+            },
+            {
+              "prompt": "איזה רצף שומר על סדר האירועים בפרק?",
+              "options": [
+                "דבש, משתה, אריה חי",
+                "משתה, דבש, יציאה לתמנה",
+                "מפגש עם האריה, חזרה למקום, חידה במשתה",
+                "חידה במשתה, אריה חי, לידה"
+              ],
+              "answer": 2,
+              "explanation": "המפגש הראשון קודם לגילוי הדבש, ושניהם קודמים לחידה במשתה."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-2",
+      "title": "Chapter 3",
+      "shortTitle": "Chapter 3",
+      "solvedTitle": "Samson's Riddle",
+      "tile": {
+        "x": 15,
+        "y": 11
+      },
+      "signTile": {
+        "x": 15,
+        "y": 10
+      },
+      "pathToNext": [
+        {
+          "x": 15,
+          "y": 10
+        },
+        {
+          "x": 15,
+          "y": 9
+        },
+        {
+          "x": 15,
+          "y": 8
+        },
+        {
+          "x": 15,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "On the road to Timnah, Samson meets a dangerous lion and kills it. When he comes back later, he finds bees and honey inside the dead lion. At a feast, he tells a riddle about something strong and something sweet. The answer is a lion and honey! But the riddle leads to pressure and an argument. A good game should help everyone feel safe and included.",
+        "b": "Samson kills a lion on the way to Timnah. On a later visit, he finds bees and honey in its remains. At his wedding feast, he tells a riddle based on that private experience: food comes from an eater, and sweetness from something strong. The guests pressure his wife to find out the answer, and she tells them. The puzzle becomes part of a conflict over trust and control.",
+        "c": "Samson's wedding riddle depends on two separate encounters. First, empowered by the Spirit of God, he kills a lion. Later, he finds bees and honey in its remains. His guests have not witnessed the experience behind the riddle. They threaten his wife to make her obtain the answer, which she passes on. The episode brings physical strength, private knowledge, and coercion into a contest that turns destructive."
+      },
+      "source": "Judges 14:5–18",
+      "sensitive": false,
+      "learned": {
+        "a": "On the road to Timnah, Samson meets a dangerous lion and kills it. When he comes back later, he finds bees and honey inside the dead lion. At a feast, he tells a riddle about something strong and something sweet. The answer is a lion and honey! But the riddle leads to pressure and an argument. A good game should help everyone feel safe and included.",
+        "b": "Samson kills a lion on the way to Timnah. On a later visit, he finds bees and honey in its remains. At his wedding feast, he tells a riddle based on that private experience: food comes from an eater, and sweetness from something strong. The guests pressure his wife to find out the answer, and she tells them. The puzzle becomes part of a conflict over trust and control.",
+        "c": "Samson's wedding riddle depends on two separate encounters. First, empowered by the Spirit of God, he kills a lion. Later, he finds bees and honey in its remains. His guests have not witnessed the experience behind the riddle. They threaten his wife to make her obtain the answer, which she passes on. The episode brings physical strength, private knowledge, and coercion into a contest that turns destructive."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-2",
+          "category": "stories",
+          "answer": "Samson's Riddle",
+          "aliases": [
+            "the riddle of Samson",
+            "Samson and the honey",
+            "the lion and the honey",
+            "lion and honey",
+            "the lion and honey riddle",
+            "Samson's lion and honey riddle",
+            "Samson the lion and the honey"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "lion",
+            "honey",
+            "bees",
+            "Timnah"
+          ],
+          "textHint": "Look for a surprising connection between strength and sweetness.",
+          "moral": "How could you make a puzzle or a competition fun without pressuring or embarrassing anyone?",
+          "source": "Judges 14:5–18",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0714.htm",
+          "images": {
+            "kids": [
+              "journey-93e0e1c2812622d1.webp",
+              "journey-aac1f1847a5342dc.webp",
+              "journey-1b65fffb22f082b1.webp",
+              "journey-2fb0b5a6f7e05643.webp"
+            ],
+            "teen": [
+              "journey-16c5364f869460dd.webp",
+              "journey-f2fa11f4c1f2406c.webp",
+              "journey-9f81558078e0d8d6.webp",
+              "journey-22773c057e9d3a57.webp"
+            ],
+            "classic": [
+              "journey-6830a32d1812f14a.webp",
+              "journey-c9b204bdf95b08f4.webp",
+              "journey-6d45f65fa8695ad9.webp",
+              "journey-d41eaf6a95b82b0d.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness."
+            ],
+            "teen": [
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness."
+            ],
+            "classic": [
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness.",
+              "Look for a surprising connection between strength and sweetness."
+            ]
+          },
+          "choicesKids": [
+            "Samson and Delilah",
+            "Samson's Final Prayer",
+            "Samson's Riddle",
+            "The Spring of En-hakkore"
+          ],
+          "choiceLabelsKids": [
+            "Samson and Delilah",
+            "Samson's Final Prayer",
+            "Samson's Riddle",
+            "The Spring of En-hakkore"
+          ],
+          "choicePicturesKids": [
+            "journey-cbbeb32de5dbb2eb.webp",
+            "journey-f9833d13af1a218e.webp",
+            "journey-2fb0b5a6f7e05643.webp",
+            "journey-8fcac08eb0b91553.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Bees and honey give us the sweet part of a puzzle.",
+              "A lion adds something strong beside the sweet honey.",
+              "Samson and the honey connect these clues to something he found on a journey.",
+              "Samson tells a riddle at a feast. The lion and honey help us name it."
+            ],
+            "b": [
+              "The honey suggests the riddle's sweet half.",
+              "The lion and honey pair strength with sweetness.",
+              "Samson's discovery on the road explains how the two clues connect.",
+              "The feast places the lion and honey clues inside Samson's wedding riddle."
+            ],
+            "c": [
+              "Bees and honey introduce one half of the riddle's contrast.",
+              "Separate lion and honey motifs suggest the strong and the sweet.",
+              "Samson connects the symbols to a private experience near Timnah.",
+              "Samson at the feast identifies the riddle, whose answer the guests obtained under pressure."
+            ]
+          },
+          "discovery": "Samson found the honey in the lion's remains when he returned later. That discovery connected the strong lion and the sweet honey in his riddle.",
+          "reflection": "How could you make a puzzle or a competition fun without pressuring or embarrassing anyone?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "What did Samson find when he returned later?",
+            "options": [
+              "A gold crown",
+              "An olive leaf",
+              "Bees and honey",
+              "A reed basket"
+            ],
+            "answer": 2,
+            "explanation": "He found bees and honey inside the lion that had already died."
+          },
+          {
+            "prompt": "What were the two parts of the riddle's answer?",
+            "options": [
+              "A lion and honey",
+              "A sea and a staff",
+              "A gate and a key",
+              "A dove and a rainbow"
+            ],
+            "answer": 0,
+            "explanation": "The lion was the strong part of the riddle, and the honey was the sweet part."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What was Samson's riddle based on?",
+            "options": [
+              "A dream Pharaoh had",
+              "A story everyone had heard",
+              "Instructions for building an ark",
+              "His own encounter with a lion and honey"
+            ],
+            "answer": 3,
+            "explanation": "Samson knew the experience behind the riddle, but the guests did not."
+          },
+          {
+            "prompt": "How did the guests learn the answer?",
+            "options": [
+              "It was written on the table",
+              "Samson's wife told them after they pressured her",
+              "The lion led them to it",
+              "Manoah read it aloud"
+            ],
+            "answer": 1,
+            "explanation": "The guests pressured Samson's wife to get the answer and pass it on."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which sequence matches the account?",
+            "options": [
+              "The lion encounter, a later discovery of honey, then the wedding riddle",
+              "The riddle, building an ark, then finding honey",
+              "Honey found inside a living lion, then the feast",
+              "The wedding feast, then Samson's birth"
+            ],
+            "answer": 0,
+            "explanation": "Samson finds honey in the lion's remains on a later visit, before presenting his riddle at the feast."
+          },
+          {
+            "prompt": "Why is the guests' solution more than a story about clever guessing?",
+            "options": [
+              "Everyone had witnessed the original event",
+              "No riddle was actually asked",
+              "They obtained the answer by pressuring Samson's wife",
+              "The answer was written on the city gate"
+            ],
+            "answer": 2,
+            "explanation": "The account includes threats and pressure. The solution cannot be treated simply as a triumph of creative thinking."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-2-bonus-1",
+          "item": "seal",
+          "title": "The Second Visit",
+          "prompt": "What sweet food did Samson find when he returned to the place where he had met the lion?",
+          "options": [
+            "Grapes",
+            "Honey",
+            "Dates"
+          ],
+          "answer": 1,
+          "explanation": "On his later visit, Samson found bees and honey. The honey became part of his riddle."
+        },
+        {
+          "id": "life-samson-2-bonus-2",
+          "item": "lamp",
+          "title": "The Riddle and the Guests",
+          "prompt": "Where did Samson tell the guests his riddle?",
+          "options": [
+            "Beside a spring",
+            "At the city gate",
+            "At a feast"
+          ],
+          "answer": 2,
+          "explanation": "Samson told the riddle at his wedding feast in Timnah."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "חידת שמשון",
+        "aliases": [
+          "החידה של שמשון",
+          "שמשון והדבש",
+          "האריה והדבש",
+          "חידת האריה והדבש",
+          "מעז יצא מתוק",
+          "מעז יצא מתוק חידת שמשון",
+          "שמשון האריה והדבש"
+        ],
+        "passage": {
+          "a": "בדרך לתמנה שמשון פגש אריה מסוכן וגבר עליו. כשחזר לשם אחרי זמן, הוא מצא דבורים ודבש בגוף האריה שמת. אחר כך, במשתה, הוא סיפר חידה על משהו חזק ועל משהו מתוק. הפתרון היה אריה ודבש! בהמשך החידה עוררה לחץ וריב, ולכן כדאי לזכור שמשחק טוב צריך לשמור גם על המשתתפים.",
+          "b": "שמשון גבר על אריה בדרך לתמנה. בביקור מאוחר יותר מצא דבורים ודבש בגווייתו. במשתה הנישואים הוא הציג חידה המבוססת על המפגש הפרטי הזה: האוכל שממנו יצא מאכל, והעז שממנו יצא מתוק. האורחים לחצו על אשתו שתברר את הפתרון, והיא מסרה להם אותו. החידה נעשתה חלק ממאבק של לחץ וחוסר אמון.",
+          "c": "החידה במשתה נשענת על שני מפגשים נפרדים: תחילה שמשון הורג אריה בעזרת הכוח המתואר כרוח ה׳, ובהמשך הוא מוצא בגווייה עדת דבורים ודבש. האורחים אינם מכירים את האירוע שעליו בנוי הפתרון. הם מאיימים על אשת שמשון כדי שתברר אותו, והיא מספרת להם. הסיפור מציב זה לצד זה כוח, ידע פרטי ולחץ שהופך תחרות לעימות."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מה מצא שמשון כשחזר אל המקום אחרי זמן?",
+              "options": [
+                "כתר זהב",
+                "עלה זית",
+                "דבורים ודבש",
+                "תיבת גומא"
+              ],
+              "answer": 2,
+              "explanation": "שמשון מצא דבורים ודבש בגוף האריה שכבר מת; זה לא היה אריה חי."
+            },
+            {
+              "prompt": "מה היו שני החלקים של פתרון החידה?",
+              "options": [
+                "אריה ודבש",
+                "ים ומטה",
+                "שער ומפתח",
+                "יונה וקשת"
+              ],
+              "answer": 0,
+              "explanation": "האריה קשור לחלק החזק של החידה, והדבש לחלק המתוק."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "על מה התבססה החידה ששמשון הציג?",
+              "options": [
+                "חלום שחלם פרעה",
+                "סיפור שכולם שמעו",
+                "הוראות לבניית תיבה",
+                "מפגש אישי עם אריה ודבש"
+              ],
+              "answer": 3,
+              "explanation": "החידה נשענה על חוויה ששמשון הכיר והאורחים לא הכירו."
+            },
+            {
+              "prompt": "כיצד הגיע הפתרון אל האורחים?",
+              "options": [
+                "הוא נכתב על השולחן",
+                "אשת שמשון סיפרה להם לאחר שלחצו עליה",
+                "האריה הוביל אותם אליו",
+                "מנוח הקריא אותו לכולם"
+              ],
+              "answer": 1,
+              "explanation": "האורחים הפעילו לחץ על אשת שמשון, והיא ביררה ומסרה להם את הפתרון."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה סדר אירועים מתאים לכתוב?",
+              "options": [
+                "מפגש עם אריה, מציאת דבש לאחר זמן, חידה במשתה",
+                "חידה, בניית תיבה, מציאת דבש",
+                "מציאת דבש בתוך אריה חי, ואז משתה",
+                "משתה ולאחריו לידת שמשון"
+              ],
+              "answer": 0,
+              "explanation": "הדבש נמצא בגוויית האריה בביקור מאוחר יותר, לפני הצגת החידה במשתה."
+            },
+            {
+              "prompt": "מדוע אי אפשר לתאר את פתרון החידה כניחוש חופשי בלבד?",
+              "options": [
+                "כולם ראו את האירוע מראש",
+                "לא הוצגה חידה כלל",
+                "הפתרון הושג באמצעות לחץ על אשת שמשון",
+                "הפתרון היה כתוב על שער העיר"
+              ],
+              "answer": 2,
+              "explanation": "הסיפור מתאר לחץ ואיום, ולכן פתרון החידה אינו רק הישג של חשיבה יצירתית."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-7",
+      "title": "Chapter 4",
+      "shortTitle": "Chapter 4",
+      "solvedTitle": "Samson's Ropes at Lehi",
+      "tile": {
+        "x": 15,
+        "y": 7
+      },
+      "signTile": {
+        "x": 15,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 14,
+          "y": 7
+        },
+        {
+          "x": 13,
+          "y": 7
+        },
+        {
+          "x": 12,
+          "y": 7
+        },
+        {
+          "x": 11,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 7
+        },
+        {
+          "x": 9,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "A dangerous conflict spread around Samson. Men from Judah came to the rocky place where he was staying. They promised not to kill him, tied him with two new ropes, and took him toward the Philistines. At Lehi, God gave Samson strength and the ropes broke away from his hands. He was free of them, but the conflict was not over. Peace would take more than strength.",
+        "b": "After repeated attacks and retaliation, the Philistines entered Judah to capture Samson. Men from Judah found him at the rock of Etam. They promised not to kill him themselves, bound him with two new ropes, and handed him over. At Lehi, the Spirit of the Lord came upon him and the ropes broke. This chapter focuses on that release without celebrating the violence that followed.",
+        "c": "The men of Judah act under Philistine rule and seek to protect their community by surrendering Samson. After promising not to kill him, they bind him with two new ropes and bring him from Etam to Lehi. There, the Spirit of the Lord comes upon him, and his bindings become like burned flax. This comparison conveys their fragility against his strength; it does not require literal flames. His release leaves the cycle of retaliation unresolved."
+      },
+      "source": "Judges 15:9–14",
+      "sensitive": false,
+      "learned": {
+        "a": "A dangerous conflict spread around Samson. Men from Judah came to the rocky place where he was staying. They promised not to kill him, tied him with two new ropes, and took him toward the Philistines. At Lehi, God gave Samson strength and the ropes broke away from his hands. He was free of them, but the conflict was not over. Peace would take more than strength.",
+        "b": "After repeated attacks and retaliation, the Philistines entered Judah to capture Samson. Men from Judah found him at the rock of Etam. They promised not to kill him themselves, bound him with two new ropes, and handed him over. At Lehi, the Spirit of the Lord came upon him and the ropes broke. This chapter focuses on that release without celebrating the violence that followed.",
+        "c": "The men of Judah act under Philistine rule and seek to protect their community by surrendering Samson. After promising not to kill him, they bind him with two new ropes and bring him from Etam to Lehi. There, the Spirit of the Lord comes upon him, and his bindings become like burned flax. This comparison conveys their fragility against his strength; it does not require literal flames. His release leaves the cycle of retaliation unresolved."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-7",
+          "category": "stories",
+          "answer": "Samson's Ropes at Lehi",
+          "aliases": [
+            "Samson breaks the ropes",
+            "Samson breaking free",
+            "Samson and the ropes",
+            "Samson at Lehi",
+            "the ropes at Lehi"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "ropes",
+            "Lehi",
+            "Etam"
+          ],
+          "textHint": "Notice what is wrapped around the man’s arms and what happens to it.",
+          "moral": "Once one obstacle is gone, what else might people need to do to resolve a conflict?",
+          "source": "Judges 15:9–14",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0715.htm",
+          "images": {
+            "kids": [
+              "journey-8c6d747ca0cbec04.webp",
+              "journey-fd7e02a76775a078.webp",
+              "journey-c53b76b4d205d9f4.webp",
+              "journey-0096048021fa4d6f.webp"
+            ],
+            "teen": [
+              "journey-efeed52af24bfa49.webp",
+              "journey-b4b8efe3f380e578.webp",
+              "journey-c3a15f5be0e93faa.webp",
+              "journey-7d3746f715b48866.webp"
+            ],
+            "classic": [
+              "journey-87b485a871e256f0.webp",
+              "journey-73a29278c5318bea.webp",
+              "journey-0cbea4bbaeed6151.webp",
+              "journey-a15269e04016ef1c.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it."
+            ],
+            "teen": [
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it."
+            ],
+            "classic": [
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it.",
+              "Notice what is wrapped around the man’s arms and what happens to it."
+            ]
+          },
+          "choicesKids": [
+            "The Gates of Gaza",
+            "Samson's Ropes at Lehi",
+            "Samson and Delilah",
+            "Samson in Prison"
+          ],
+          "choiceLabelsKids": [
+            "The Gates of Gaza",
+            "Samson's Ropes at Lehi",
+            "Samson and Delilah",
+            "Samson in Prison"
+          ],
+          "choicePicturesKids": [
+            "journey-d1e842ff7ca882a8.webp",
+            "journey-0096048021fa4d6f.webp",
+            "journey-cbbeb32de5dbb2eb.webp",
+            "journey-a790c7362b65a1d7.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Two new ropes lie beside a large rock.",
+              "A frayed rope on a rocky path suggests someone has broken free.",
+              "Samson reaches open ground as rope ends fall from his arms.",
+              "Samson stands at Lehi with broken ropes around him, without flames or a weapon."
+            ],
+            "b": [
+              "Two new ropes lie beside a large rock.",
+              "A frayed rope on a rocky path suggests someone has broken free.",
+              "Samson reaches open ground as rope ends fall from his arms.",
+              "Samson stands at Lehi with broken ropes around him, without flames or a weapon."
+            ],
+            "c": [
+              "Two new ropes lie beside a large rock.",
+              "A frayed rope on a rocky path suggests someone has broken free.",
+              "Samson reaches open ground as rope ends fall from his arms.",
+              "Samson stands at Lehi with broken ropes around him, without flames or a weapon."
+            ]
+          },
+          "discovery": "These are the two new ropes used by the men of Judah. This event comes before the separate attempts involving Delilah.",
+          "reflection": "Once one obstacle is gone, what else might people need to do to resolve a conflict?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "How many new ropes held Samson?",
+            "options": [
+              "One",
+              "Two",
+              "Seven",
+              "Ten"
+            ],
+            "answer": 1,
+            "explanation": "The men of Judah used two new ropes."
+          },
+          {
+            "prompt": "What happened to the ropes at Lehi?",
+            "options": [
+              "They became a bridge",
+              "They grew leaves",
+              "They broke away",
+              "They became a gate"
+            ],
+            "answer": 2,
+            "explanation": "Samson received strength and broke free."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did the men of Judah promise Samson?",
+            "options": [
+              "To make him king",
+              "To build him a house",
+              "To solve his riddle",
+              "Not to kill him themselves"
+            ],
+            "answer": 3,
+            "explanation": "They promised not to kill him before binding him."
+          },
+          {
+            "prompt": "Where did the men of Judah find Samson?",
+            "options": [
+              "At the rock of Etam",
+              "On Mount Nebo",
+              "Inside the ark",
+              "In Egypt's palace"
+            ],
+            "answer": 0,
+            "explanation": "They came to him at the rocky refuge of Etam."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What does the comparison to burned flax emphasize?",
+            "options": [
+              "The ropes' color",
+              "How easily the ropes broke",
+              "An instruction to light a fire",
+              "A local festival"
+            ],
+            "answer": 1,
+            "explanation": "It describes the weakness of the bindings against Samson's strength, not a fire-setting action."
+          },
+          {
+            "prompt": "What tension shapes the men's decision?",
+            "options": [
+              "How to build an ark",
+              "How to choose a king",
+              "Protecting a community by surrendering a person",
+              "Which shepherd owns a flock"
+            ],
+            "answer": 2,
+            "explanation": "They fear the Philistines and decide to surrender Samson to them."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-7-bonus-1",
+          "item": "staff",
+          "title": "Tied at Etam",
+          "prompt": "How many new ropes did the men of Judah use to tie Samson?",
+          "options": [
+            "Two",
+            "One",
+            "Five"
+          ],
+          "answer": 0,
+          "explanation": "The men of Judah tied Samson with two new ropes before taking him to Lehi."
+        },
+        {
+          "id": "life-samson-7-bonus-2",
+          "item": "seal",
+          "title": "Arriving at Lehi",
+          "prompt": "What happened to Samson's ropes when he reached Lehi?",
+          "options": [
+            "They stayed tied",
+            "They broke away from his hands",
+            "They grew tighter"
+          ],
+          "answer": 1,
+          "explanation": "At Lehi, God gave Samson strength, and the ropes broke away from his hands."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "חבלי שמשון בלחי",
+        "aliases": [
+          "שמשון והחבלים",
+          "שמשון קורע את החבלים",
+          "שמשון משתחרר מהחבלים",
+          "החבלים בלחי",
+          "שמשון בלחי"
+        ],
+        "passage": {
+          "a": "ריב גדול התפשט סביב שמשון. אנשים מיהודה באו אל המקום שבו שהה, בסלע עיטם. הם הבטיחו שלא יהרגו אותו, קשרו אותו בשני חבלים חדשים והובילו אותו אל הפלשתים. כשהגיע ללחי, אלוהים נתן לו כוח והחבלים ניתקו מעל ידיו. הוא השתחרר, אבל הסכסוך עדיין לא הסתיים. כוח יכול לשחרר חבל; שלום צריך גם דרך אחרת.",
+          "b": "לאחר מעגל של פגיעות ונקמה, הפלשתים חנו ביהודה וחיפשו את שמשון. אנשי יהודה באו אליו בסלע עיטם. לאחר שהבטיחו שלא יהרגו אותו בעצמם, קשרו אותו בשני חבלים חדשים והסגירו אותו. בלחי נחה עליו רוח ה׳ והחבלים שעל זרועותיו ניתקו. הפרק מתמקד בשחרור מן החבלים, בלי להפוך את העימות האלים שבא אחריו לחגיגה.",
+          "c": "אנשי יהודה פועלים תחת שלטון פלשתי ומנסים לעצור את הסכנה לקהילתם באמצעות הסגרת שמשון. הם נשבעים שלא יהרגו אותו, קושרים אותו בשני חבלים חדשים ומוציאים אותו מסלע עיטם. כשהוא מגיע ללחי, רוח ה׳ צולחת עליו והחבלים מתוארים כפשתים שנשרפו. זהו דימוי לשבריריותם מול כוחו, ולא תיאור של אש ממשית. השחרור אינו פותר את מעגל הנקמה."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "בכמה חבלים חדשים קשרו את שמשון?",
+              "options": [
+                "בחבל אחד",
+                "בשניים",
+                "בשבעה",
+                "בעשרה"
+              ],
+              "answer": 1,
+              "explanation": "אנשי יהודה קשרו אותו בשני חבלים חדשים."
+            },
+            {
+              "prompt": "מה קרה לחבלים כשהגיע ללחי?",
+              "options": [
+                "הפכו לגשר",
+                "צמחו מהם עלים",
+                "ניתקו מעל ידיו",
+                "הפכו לשער"
+              ],
+              "answer": 2,
+              "explanation": "שמשון קיבל כוח והשתחרר מן החבלים."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה הבטיחו אנשי יהודה לשמשון?",
+              "options": [
+                "שיהיה מלך",
+                "שיבנו לו בית",
+                "שיחזירו את החידה",
+                "שלא יהרגו אותו בעצמם"
+              ],
+              "answer": 3,
+              "explanation": "לפני שקשרו אותו, הם הבטיחו שלא יהרגו אותו."
+            },
+            {
+              "prompt": "היכן שהה שמשון כשבאו אליו אנשי יהודה?",
+              "options": [
+                "בסלע עיטם",
+                "על הר נבו",
+                "בתוך התיבה",
+                "בארמון מצרים"
+              ],
+              "answer": 0,
+              "explanation": "אנשי יהודה ירדו אליו לסעיף סלע עיטם."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מה תפקיד ההשוואה לפשתים שנשרפו?",
+              "options": [
+                "לציין את צבע החבלים",
+                "לתאר כמה בקלות החבלים ניתקו",
+                "להורות להדליק אש",
+                "לציין חג מקומי"
+              ],
+              "answer": 1,
+              "explanation": "הדימוי מדגיש שהחבלים נעשו חסרי כוח מול שמשון; אין צורך לצייר אש ממשית."
+            },
+            {
+              "prompt": "איזה מתח עולה מן המפגש עם אנשי יהודה?",
+              "options": [
+                "ויכוח על בניית תיבה",
+                "בחירת מלך חדש",
+                "דאגה לקהילה מול הסגרת אדם",
+                "תחרות בין שני רועים"
+              ],
+              "answer": 2,
+              "explanation": "אנשי יהודה חוששים מהפלשתים ומבקשים למסור להם את שמשון."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-8",
+      "title": "Chapter 5",
+      "shortTitle": "Chapter 5",
+      "solvedTitle": "The Spring of En-hakkore",
+      "tile": {
+        "x": 9,
+        "y": 7
+      },
+      "signTile": {
+        "x": 9,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "passage": {
+        "a": "After a difficult conflict, Samson was very thirsty. Even someone as strong as he was could not go on without water. He called to God for help. Water flowed from a hollow place at Lehi, and Samson drank and felt stronger. He named the spring En-hakkore, remembering his call for help. Everyone needs water, rest, and help sometimes.",
+        "b": "After the battle at Lehi, Samson was dangerously thirsty and called to God. His strength could not keep him alive without water. God opened the hollow place at Lehi, water flowed out, and Samson drank and recovered. He named it En-hakkore, linking the spring to his prayer. In a story about power, thirst exposes a basic human need.",
+        "c": "After the violence at Lehi, Samson fears dying of thirst. He calls to God, acknowledging the deliverance he has received and asking for help. Water emerges from the hollow place at Lehi; he drinks and revives. The name En-hakkore connects the spring with the one who called. Lehi here names a place, so the scene should not be illustrated as water pouring from the jawbone used earlier."
+      },
+      "source": "Judges 15:18–19",
+      "sensitive": false,
+      "learned": {
+        "a": "After a difficult conflict, Samson was very thirsty. Even someone as strong as he was could not go on without water. He called to God for help. Water flowed from a hollow place at Lehi, and Samson drank and felt stronger. He named the spring En-hakkore, remembering his call for help. Everyone needs water, rest, and help sometimes.",
+        "b": "After the battle at Lehi, Samson was dangerously thirsty and called to God. His strength could not keep him alive without water. God opened the hollow place at Lehi, water flowed out, and Samson drank and recovered. He named it En-hakkore, linking the spring to his prayer. In a story about power, thirst exposes a basic human need.",
+        "c": "After the violence at Lehi, Samson fears dying of thirst. He calls to God, acknowledging the deliverance he has received and asking for help. Water emerges from the hollow place at Lehi; he drinks and revives. The name En-hakkore connects the spring with the one who called. Lehi here names a place, so the scene should not be illustrated as water pouring from the jawbone used earlier."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-8",
+          "category": "stories",
+          "answer": "The Spring of En-hakkore",
+          "aliases": [
+            "En-hakkore",
+            "En Hakkore",
+            "Ein Hakore",
+            "Samson and the spring",
+            "Samson asks for water",
+            "the spring at Lehi"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "spring",
+            "water",
+            "Lehi"
+          ],
+          "textHint": "Look for water where the traveller is resting.",
+          "moral": "What tells you it is time to stop, drink some water, or ask for help?",
+          "source": "Judges 15:18–19",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0715.htm",
+          "images": {
+            "kids": [
+              "journey-ba61ca0456d6cd48.webp",
+              "journey-c14e0a1ec6eae2fe.webp",
+              "journey-1042c34719c8eedd.webp",
+              "journey-8fcac08eb0b91553.webp"
+            ],
+            "teen": [
+              "journey-722aedb808bf95ec.webp",
+              "journey-e83480d818395d8c.webp",
+              "journey-4811d7f617bc9d9e.webp",
+              "journey-ae69fe0568d4c1d8.webp"
+            ],
+            "classic": [
+              "journey-0090f7ddd1a3a0ba.webp",
+              "journey-790227e24128a97e.webp",
+              "journey-423a75fa60be7be7.webp",
+              "journey-ad126be07276a43f.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting."
+            ],
+            "teen": [
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting."
+            ],
+            "classic": [
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting.",
+              "Look for water where the traveller is resting."
+            ]
+          },
+          "choicesKids": [
+            "The Spring of En-hakkore",
+            "Samson's Final Prayer",
+            "Samson's Ropes at Lehi",
+            "Samson and the Lion"
+          ],
+          "choiceLabelsKids": [
+            "The Spring of En-hakkore",
+            "Samson's Final Prayer",
+            "Samson's Ropes at Lehi",
+            "Samson and the Lion"
+          ],
+          "choicePicturesKids": [
+            "journey-8fcac08eb0b91553.webp",
+            "journey-f9833d13af1a218e.webp",
+            "journey-0096048021fa4d6f.webp",
+            "journey-d4dfba97ac8dd8fa.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A drop of water glints in a small hollow in dry ground.",
+              "Clear water flows between stones at Lehi.",
+              "A long-haired man kneels and cups his hands to drink.",
+              "Samson drinks from a spring after calling for help. His call gives the place its name."
+            ],
+            "b": [
+              "A drop of water glints in a small hollow in dry ground.",
+              "Clear water flows between stones at Lehi.",
+              "A long-haired man kneels and cups his hands to drink.",
+              "Samson drinks from a spring after calling for help. His call gives the place its name."
+            ],
+            "c": [
+              "A drop of water glints in a small hollow in dry ground.",
+              "Clear water flows between stones at Lehi.",
+              "A long-haired man kneels and cups his hands to drink.",
+              "Samson drinks from a spring after calling for help. His call gives the place its name."
+            ]
+          },
+          "discovery": "The first part of En-hakkore's name means a spring. Its name remembers Samson's call for help.",
+          "reflection": "What tells you it is time to stop, drink some water, or ask for help?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "What did Samson need?",
+            "options": [
+              "A crown",
+              "A gate",
+              "Water",
+              "A boat"
+            ],
+            "answer": 2,
+            "explanation": "He was very thirsty and needed water."
+          },
+          {
+            "prompt": "What did he do before the water appeared?",
+            "options": [
+              "Called to God for help",
+              "Built a palace",
+              "Wrote a riddle",
+              "Planted a vineyard"
+            ],
+            "answer": 0,
+            "explanation": "He called to God because he needed help."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did Samson name the spring?",
+            "options": [
+              "Babel",
+              "En-hakkore",
+              "The Red Sea",
+              "Mount Nebo"
+            ],
+            "answer": 1,
+            "explanation": "En-hakkore recalls his call for help."
+          },
+          {
+            "prompt": "What happened after he drank?",
+            "options": [
+              "He became king",
+              "A storm began",
+              "The city emptied",
+              "He recovered"
+            ],
+            "answer": 3,
+            "explanation": "The account describes his strength and vitality returning."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Where does the passage say the water came from?",
+            "options": [
+              "A jar brought by Manoah",
+              "The city gate",
+              "The hollow place at Lehi",
+              "The Mediterranean Sea"
+            ],
+            "answer": 2,
+            "explanation": "The water comes from the hollow place at Lehi."
+          },
+          {
+            "prompt": "What does Samson's thirst make clear?",
+            "options": [
+              "Unusual strength does not remove the need for help",
+              "Samson never needs anyone",
+              "Water is a prize in a game",
+              "Force solves every problem"
+            ],
+            "answer": 0,
+            "explanation": "Even Samson depends on water and assistance to survive."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-8-bonus-1",
+          "item": "jar",
+          "title": "The Water at Lehi",
+          "prompt": "What happened to Samson after he drank the water at Lehi?",
+          "options": [
+            "He fell asleep",
+            "He grew weaker",
+            "He recovered and felt stronger"
+          ],
+          "answer": 2,
+          "explanation": "Samson was very thirsty. He drank the water that flowed from the ground at Lehi and recovered."
+        },
+        {
+          "id": "life-samson-8-bonus-2",
+          "item": "lamp",
+          "title": "The Call for Help",
+          "prompt": "Before the water appeared, who did Samson call on for help?",
+          "options": [
+            "God",
+            "His parents",
+            "The men of Judah"
+          ],
+          "answer": 0,
+          "explanation": "Samson called to God. The name En-hakkore recalls that call for help."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "עין הקורא",
+        "aliases": [
+          "מעיין עין הקורא",
+          "שמשון ועין הקורא",
+          "שמשון והמעיין",
+          "המעיין בלחי",
+          "שמשון מבקש מים",
+          "המים בלחי"
+        ],
+        "passage": {
+          "a": "אחרי עימות קשה שמשון היה צמא מאוד. גם לו, שהיה חזק כל כך, לא היה כוח להמשיך בלי מים. הוא קרא לאלוהים וביקש עזרה. מים יצאו משקע בקרקע בלחי, ושמשון שתה והתחזק. הוא קרא למקום עין הקורא, לזכר הקריאה שלו לעזרה. גם אנשים חזקים צריכים לשתות, לנוח ולבקש עזרה.",
+          "b": "לאחר הקרב בלחי שמשון חש צמא מסוכן וקרא לאלוהים. הוא הכיר בכך שכוחו אינו מספיק כדי לקיים אותו. אלוהים פתח את המכתש אשר בלחי, מים יצאו ממנו, ושמשון שתה והתאושש. השם עין הקורא שומר את זכר התפילה. בלב סיפור על כוח, הצמא חושף תלות פשוטה וחיונית במים ובעזרה.",
+          "c": "אחרי האלימות בלחי, שמשון עומד בפני סכנת צמא. הוא פונה לאלוהים, מייחס לו את ההצלה ומבטא את פחדו למות. המכתש אשר בלחי נבקע, מים יוצאים ממנו, והוא שותה ושב לאיתנו. שם המעיין, עין הקורא, קושר את המקום לקריאה לעזרה. לחי היא כאן מקום; אין צורך לפרש את המים כנובעים מעצם החמור מן האירוע הקודם."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "למה שמשון היה זקוק?",
+              "options": [
+                "לכתר",
+                "לשער",
+                "למים",
+                "לסירה"
+              ],
+              "answer": 2,
+              "explanation": "הוא היה צמא מאוד והיה זקוק למים."
+            },
+            {
+              "prompt": "מה עשה לפני שהמים הופיעו?",
+              "options": [
+                "קרא לאלוהים לעזרה",
+                "בנה ארמון",
+                "כתב חידה",
+                "נטע כרם"
+              ],
+              "answer": 0,
+              "explanation": "שמשון קרא לאלוהים וביקש עזרה."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "איזה שם נתן למקום?",
+              "options": [
+                "בבל",
+                "עין הקורא",
+                "ים סוף",
+                "הר נבו"
+              ],
+              "answer": 1,
+              "explanation": "השם עין הקורא מזכיר את קריאתו לעזרה."
+            },
+            {
+              "prompt": "מה השתנה אחרי ששתה?",
+              "options": [
+                "הוא הפך למלך",
+                "החלה סערה",
+                "העיר התרוקנה",
+                "הוא התאושש"
+              ],
+              "answer": 3,
+              "explanation": "הכתוב מתאר את רוחו שבה ואת חיותו חוזרת."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "מהו מקור המים בתיאור הפרק?",
+              "options": [
+                "כלי שהביא מנוח",
+                "דלת העיר",
+                "המכתש אשר בלחי",
+                "הים התיכון"
+              ],
+              "answer": 2,
+              "explanation": "המים יוצאים מן המכתש, חלל או שקע במקום שנקרא לחי."
+            },
+            {
+              "prompt": "מה מדגיש הצמא אחרי העימות?",
+              "options": [
+                "גם כוח יוצא דופן אינו מבטל צורך בעזרה",
+                "ששמשון אינו זקוק לאחרים",
+                "שהמים הם פרס במשחק",
+                "שכל מאבק נפתר בכוח"
+              ],
+              "answer": 0,
+              "explanation": "בקשתו של שמשון מזכירה שגם בעל כוח תלוי במים ובסיוע."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-3",
+      "title": "Chapter 6",
+      "shortTitle": "Chapter 6",
+      "solvedTitle": "The Gates of Gaza",
+      "tile": {
+        "x": 3,
+        "y": 7
+      },
+      "signTile": {
+        "x": 3,
+        "y": 6
+      },
+      "pathToNext": [
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "Samson goes to Gaza. People who want to hurt him wait near the city gate. In the middle of the night, he gets up and lifts the gate doors, posts, and heavy bar. He carries them on his shoulders to a hilltop. The story shows his extraordinary strength. It also gives us a chance to think about using our own strengths to help and protect others.",
+        "b": "People in Gaza plan to ambush Samson at the city gate in the morning. At midnight, he pulls up the doors, both gateposts, and the crossbar. He carries them on his shoulders to a hill facing Hebron. The escape shows his unusual strength, but strength alone will not resolve the difficult choices in the rest of his life.",
+        "c": "In Gaza, men wait near the gate to attack Samson at daybreak. At midnight, he removes the gate doors together with both posts and the crossbar. He carries them on his shoulders to the hilltop facing Hebron. The account emphasizes his extraordinary strength without specifying the distance traveled. Escaping an ambush through force is not the same as exercising sound judgment in every part of life."
+      },
+      "source": "Judges 16:1–3",
+      "sensitive": false,
+      "learned": {
+        "a": "Samson goes to Gaza. People who want to hurt him wait near the city gate. In the middle of the night, he gets up and lifts the gate doors, posts, and heavy bar. He carries them on his shoulders to a hilltop. The story shows his extraordinary strength. It also gives us a chance to think about using our own strengths to help and protect others.",
+        "b": "People in Gaza plan to ambush Samson at the city gate in the morning. At midnight, he pulls up the doors, both gateposts, and the crossbar. He carries them on his shoulders to a hill facing Hebron. The escape shows his unusual strength, but strength alone will not resolve the difficult choices in the rest of his life.",
+        "c": "In Gaza, men wait near the gate to attack Samson at daybreak. At midnight, he removes the gate doors together with both posts and the crossbar. He carries them on his shoulders to the hilltop facing Hebron. The account emphasizes his extraordinary strength without specifying the distance traveled. Escaping an ambush through force is not the same as exercising sound judgment in every part of life."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-3",
+          "category": "stories",
+          "answer": "The Gates of Gaza",
+          "aliases": [
+            "Gates of Gaza",
+            "Samson and the gates of Gaza",
+            "Samson carries the gates",
+            "Samson carrying the gates",
+            "Samson carries the gates of Gaza",
+            "Samson lifts the gates",
+            "Samson and the city gates",
+            "the gate of Gaza",
+            "Samson removes Gaza's gates"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "Gaza",
+            "gate",
+            "gates",
+            "Hebron"
+          ],
+          "textHint": "Look at the heavy wooden objects and where they belong.",
+          "moral": "What strength or talent do you have, and what helps you use it responsibly?",
+          "source": "Judges 16:1–3",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0716.htm",
+          "images": {
+            "kids": [
+              "journey-60927dd83db3e135.webp",
+              "journey-ddea4677113612a5.webp",
+              "journey-dbe8fa2e95d2d58e.webp",
+              "journey-d1e842ff7ca882a8.webp"
+            ],
+            "teen": [
+              "journey-e47987aaa5ce96e5.webp",
+              "journey-7988e8831a2bf633.webp",
+              "journey-7489630105ae9a98.webp",
+              "journey-d986770291e5653a.webp"
+            ],
+            "classic": [
+              "journey-309456e01975c1d6.webp",
+              "journey-02a6df6a6aa98d1a.webp",
+              "journey-0b260f83b32b7d3c.webp",
+              "journey-8fc5b8bd8943314c.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong."
+            ],
+            "teen": [
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong."
+            ],
+            "classic": [
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong.",
+              "Look at the heavy wooden objects and where they belong."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Ropes at Lehi",
+            "Samson in Prison",
+            "Samson's Final Prayer",
+            "The Gates of Gaza"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Ropes at Lehi",
+            "Samson in Prison",
+            "Samson's Final Prayer",
+            "The Gates of Gaza"
+          ],
+          "choicePicturesKids": [
+            "journey-0096048021fa4d6f.webp",
+            "journey-a790c7362b65a1d7.webp",
+            "journey-f9833d13af1a218e.webp",
+            "journey-d1e842ff7ca882a8.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "A heavy bar and two posts look like pieces of a gate.",
+              "An empty doorway at night hints that someone has taken the gates away.",
+              "Samson carries the huge gates on his shoulders.",
+              "The gates, the night sky, and the hill point to Samson's escape from Gaza."
+            ],
+            "b": [
+              "The bar and posts suggest a city gate removed from its place.",
+              "The empty gateway at night turns the clue into an unusual departure.",
+              "Samson's burden is the gate itself, not a smaller object from the city.",
+              "Samson carries Gaza's gates toward a hill before the planned morning ambush."
+            ],
+            "c": [
+              "The crossbar and paired posts introduce the parts named in the account.",
+              "An open gateway at night suggests an escape that removes the barrier itself.",
+              "Samson carrying the gate assembly identifies the distinctive feat.",
+              "The nighttime route toward the hill completes the scene of the gates of Gaza."
+            ]
+          },
+          "discovery": "Samson carries more than the doors: the account also names both gateposts and the crossbar. It does not give a measured distance for his journey.",
+          "reflection": "What strength or talent do you have, and what helps you use it responsibly?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "What did Samson carry on his shoulders?",
+            "options": [
+              "The city gates",
+              "A baby in a basket",
+              "Mount Sinai",
+              "A flock of sheep"
+            ],
+            "answer": 0,
+            "explanation": "He carried the gate doors along with their posts and crossbar."
+          },
+          {
+            "prompt": "When did Samson leave with the gates?",
+            "options": [
+              "At noon",
+              "On New Year's Day",
+              "During the wheat harvest",
+              "In the middle of the night"
+            ],
+            "answer": 3,
+            "explanation": "The story says that Samson got up at midnight."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did the men waiting at the gate plan to do?",
+            "options": [
+              "Ask him to build an ark",
+              "Crown him king",
+              "Wait until morning and attack him",
+              "Ask for a riddle about honey"
+            ],
+            "answer": 2,
+            "explanation": "They waited quietly, planning to attack Samson at daybreak."
+          },
+          {
+            "prompt": "Which parts did Samson carry?",
+            "options": [
+              "The doors, both gateposts, and the crossbar",
+              "Only a small key",
+              "The entire city wall",
+              "Every house in the city"
+            ],
+            "answer": 0,
+            "explanation": "The account specifically names the doors, the two gateposts, and the crossbar."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "How does the account describe the place where Samson took the gates?",
+            "options": [
+              "The Mediterranean coast",
+              "Pharaoh's palace",
+              "The top of Mount Sinai",
+              "The hilltop facing Hebron"
+            ],
+            "answer": 3,
+            "explanation": "That is the destination described in the text. It does not supply a measured distance or a complete route."
+          },
+          {
+            "prompt": "Which reflection stays closest to what this episode shows?",
+            "options": [
+              "Physical strength always guarantees good judgment",
+              "Strength can enable an escape but cannot replace good judgment",
+              "Samson rebuilt Gaza afterward",
+              "Samson became king of Hebron"
+            ],
+            "answer": 1,
+            "explanation": "The episode demonstrates great strength. The wider story shows that a person with that strength still needs good judgment."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-3-bonus-1",
+          "item": "lamp",
+          "title": "Leaving Gaza",
+          "prompt": "When did Samson get up and lift Gaza's gates?",
+          "options": [
+            "At noon",
+            "At midnight",
+            "In the morning"
+          ],
+          "answer": 1,
+          "explanation": "Samson got up at midnight and lifted the gate doors with their posts and bar."
+        },
+        {
+          "id": "life-samson-3-bonus-2",
+          "item": "staff",
+          "title": "Carrying the City Gates",
+          "prompt": "How did Samson carry Gaza's gates to the hill?",
+          "options": [
+            "On a cart",
+            "On a donkey",
+            "On his shoulders"
+          ],
+          "answer": 2,
+          "explanation": "Samson put the gate doors, posts, and bar on his shoulders and carried them to the hilltop."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "שערי עזה",
+        "aliases": [
+          "שמשון ושערי עזה",
+          "שערי העיר עזה",
+          "שמשון נושא את שערי עזה",
+          "שמשון נושא שערים",
+          "עקירת שערי עזה",
+          "שער עזה",
+          "שמשון מרים את שערי עזה"
+        ],
+        "passage": {
+          "a": "שמשון הגיע לעזה, ואנשים שחיפשו לפגוע בו חיכו ליד שער העיר. באמצע הלילה הוא קם, הרים את דלתות השער עם העמודים והבריח ונשא אותם על כתפיו אל ראש הר. זהו סיפור על כוח יוצא דופן. אנחנו יכולים לשאול איך משתמשים בכוחות שלנו כדי לעזור ולשמור על אחרים.",
+          "b": "בעזה ארבו לשמשון ליד שער העיר ותכננו להמתין עד הבוקר. הוא קם בחצות, עקר את דלתות השער, שתי המזוזות והבריח ונשא אותם על כתפיו אל ראש ההר שמול חברון. ההימלטות מדגישה את כוחו החריג, אך הכוח הזה אינו פותר את כל הקשיים והבחירות שבהמשך חייו.",
+          "c": "לאחר ששמשון מגיע לעזה, תושבים אורבים לו בשער ומתכננים לפגוע בו בבוקר. בחצות הוא מסיר את דלתות השער יחד עם שתי המזוזות והבריח, נושא אותן על כתפיו ומעלה אותן אל ראש ההר אשר על פני חברון. הכתוב מדגיש את עוצמתו, בלי למסור את אורך המסלול. היכולת להיחלץ ממארב אינה זהה ליכולת לשקול כל החלטה בחייו."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מה נשא שמשון על כתפיו?",
+              "options": [
+                "את שערי העיר",
+                "תינוק בתיבה",
+                "את הר סיני",
+                "עדר כבשים"
+              ],
+              "answer": 0,
+              "explanation": "שמשון נשא את דלתות השער יחד עם העמודים והבריח."
+            },
+            {
+              "prompt": "מתי יצא שמשון עם השערים?",
+              "options": [
+                "באמצע הצוהריים",
+                "בראש השנה",
+                "בזמן קציר החיטה",
+                "באמצע הלילה"
+              ],
+              "answer": 3,
+              "explanation": "הסיפור מתאר ששמשון קם בחצות הלילה."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה תכננו האורבים ליד שער העיר?",
+              "options": [
+                "להציע לו לבנות תיבה",
+                "להכתיר אותו למלך",
+                "להמתין לבוקר ולפגוע בו",
+                "לבקש ממנו חידת דבש"
+              ],
+              "answer": 2,
+              "explanation": "האורבים המתינו בשקט ותכננו לפגוע בו עם אור הבוקר."
+            },
+            {
+              "prompt": "אילו חלקים נשא שמשון לפי הסיפור?",
+              "options": [
+                "הדלתות, שתי המזוזות והבריח",
+                "רק מפתח קטן",
+                "את כל חומת העיר",
+                "את כל בתי העיר"
+              ],
+              "answer": 0,
+              "explanation": "הכתוב מונה שלושה פרטים: דלתות, שתי מזוזות ובריח."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "כיצד מתואר יעד נשיאת השערים?",
+              "options": [
+                "חוף הים התיכון",
+                "ארמון פרעה",
+                "ראש הר סיני",
+                "ראש ההר אשר על פני חברון"
+              ],
+              "answer": 3,
+              "explanation": "זהו תיאור היעד בכתוב; אין בו מרחק מדוד או פירוט מלא של הדרך."
+            },
+            {
+              "prompt": "איזו מסקנה זהירה אפשר להסיק מן הפרק?",
+              "options": [
+                "כוח גופני מבטיח תמיד שיקול דעת",
+                "כוח יכול לאפשר הימלטות, אך אינו מחליף שיקול דעת",
+                "שמשון בנה את עזה מחדש",
+                "שמשון נעשה מלך חברון"
+              ],
+              "answer": 1,
+              "explanation": "הסיפור ממחיש כוח עצום, ובהמשך המסע נראה שגם בעל כוח כזה זקוק לשיקול דעת."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-4",
+      "title": "Chapter 7",
+      "shortTitle": "Chapter 7",
+      "solvedTitle": "Samson and Delilah",
+      "tile": {
+        "x": 3,
+        "y": 3
+      },
+      "signTile": {
+        "x": 3,
+        "y": 2
+      },
+      "pathToNext": [
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 5,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "Samson loves Delilah, but she is trying to find out how he can be overpowered. She keeps pressuring him. At last he tells her that his hair has never been cut, as part of his special calling. While he sleeps, she calls someone to cut it. Samson loses his strength and is captured. His captors hurt him, and he can no longer see. If someone pressures or frightens us, we can tell an adult we trust.",
+        "b": "Philistine leaders offer Delilah money to discover how to overpower Samson. After repeated pressure, he tells her that he is a Nazirite, dedicated to God, and that his hair has never been cut. While he sleeps, she calls a man to shave his locks. Samson loses his strength, is captured, and is blinded by his captors. His hair is a sign of his dedication, not a source of magic that someone can carry away.",
+        "c": "Philistine leaders promise Delilah money for information that will let them overpower Samson. After several misleading answers and sustained pressure, he tells her about his lifelong Nazirite dedication. As he sleeps on her lap, she calls a man to shave his seven locks. The narrator says that the Lord has left him; the loss is not explained by hair alone. The Philistines capture and blind him, then force him to work in prison. The episode concerns betrayal and vulnerability, not a magical substance in his hair."
+      },
+      "source": "Judges 16:4–22",
+      "sensitive": false,
+      "learned": {
+        "a": "Samson loves Delilah, but she is trying to find out how he can be overpowered. She keeps pressuring him. At last he tells her that his hair has never been cut, as part of his special calling. While he sleeps, she calls someone to cut it. Samson loses his strength and is captured. His captors hurt him, and he can no longer see. If someone pressures or frightens us, we can tell an adult we trust.",
+        "b": "Philistine leaders offer Delilah money to discover how to overpower Samson. After repeated pressure, he tells her that he is a Nazirite, dedicated to God, and that his hair has never been cut. While he sleeps, she calls a man to shave his locks. Samson loses his strength, is captured, and is blinded by his captors. His hair is a sign of his dedication, not a source of magic that someone can carry away.",
+        "c": "Philistine leaders promise Delilah money for information that will let them overpower Samson. After several misleading answers and sustained pressure, he tells her about his lifelong Nazirite dedication. As he sleeps on her lap, she calls a man to shave his seven locks. The narrator says that the Lord has left him; the loss is not explained by hair alone. The Philistines capture and blind him, then force him to work in prison. The episode concerns betrayal and vulnerability, not a magical substance in his hair."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-4",
+          "category": "stories",
+          "answer": "Samson and Delilah",
+          "aliases": [
+            "Delilah and Samson",
+            "Samson & Delilah",
+            "Delilah & Samson",
+            "Samson's haircut",
+            "the cutting of Samson's hair",
+            "Samson's hair is cut",
+            "Samson loses his strength",
+            "the secret of Samson's strength",
+            "Samson's hair"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "Delilah",
+            "hair",
+            "Sorek"
+          ],
+          "textHint": "Notice the hair and the people close to the sleeping man.",
+          "moral": "In a safe relationship, you can say no and ask for help. Who could you turn to if a person or a request made you feel unsafe?",
+          "source": "Judges 16:4–22",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0716.htm",
+          "images": {
+            "kids": [
+              "journey-3ceeee857ca82a87.webp",
+              "journey-13d10025955fe236.webp",
+              "journey-b48f304f0eb6a2ad.webp",
+              "journey-cbbeb32de5dbb2eb.webp"
+            ],
+            "teen": [
+              "journey-30c3ddf7cb87a725.webp",
+              "journey-bcbb9db0b0c7d17d.webp",
+              "journey-12240f48cdc55f4b.webp",
+              "journey-c532b9ab7fe8f10b.webp"
+            ],
+            "classic": [
+              "journey-7399ad21a6a1eef4.webp",
+              "journey-96c010f1fc3339f9.webp",
+              "journey-3d37129473e9e5ed.webp",
+              "journey-26b687395a69a204.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man."
+            ],
+            "teen": [
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man."
+            ],
+            "classic": [
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man.",
+              "Notice the hair and the people close to the sleeping man."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Riddle",
+            "Samson in Prison",
+            "Samson and Delilah",
+            "Samson's Ropes at Lehi"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Riddle",
+            "Samson in Prison",
+            "Samson and Delilah",
+            "Samson's Ropes at Lehi"
+          ],
+          "choicePicturesKids": [
+            "journey-2fb0b5a6f7e05643.webp",
+            "journey-a790c7362b65a1d7.webp",
+            "journey-cbbeb32de5dbb2eb.webp",
+            "journey-0096048021fa4d6f.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Long locks of hair and weaving tools hint at a secret someone wants to learn.",
+              "Delilah asks the long-haired Samson about his strength.",
+              "While Samson sleeps, Delilah calls another person to help.",
+              "The cut hair, sleeping Samson, and Delilah reveal this part of his story."
+            ],
+            "b": [
+              "The hair and weaving tools recall attempts to discover Samson's secret.",
+              "Delilah's questions connect his strength with repeated pressure to reveal it.",
+              "Samson sleeps while Delilah calls someone else to cut his hair.",
+              "The haircut brings the clues together: Samson's trust has been betrayed."
+            ],
+            "c": [
+              "Locks of hair and weaving tools suggest the sequence of tests in the Sorek episode.",
+              "Delilah and Samson's conversation points toward the disclosure of his Nazirite calling.",
+              "The man beside the sleeping Samson has been called by Delilah.",
+              "The shaving scene identifies Samson and Delilah; the account links his loss to more than the hair alone."
+            ]
+          },
+          "discovery": "Delilah calls a man to shave Samson's hair. His uncut hair marks his Nazirite dedication. The narrator also says that the Lord has left him, connecting the loss of strength to more than a haircut.",
+          "reflection": "In a safe relationship, you can say no and ask for help. Who could you turn to if a person or a request made you feel unsafe?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who called someone to cut Samson's hair?",
+            "options": [
+              "His mother",
+              "Miriam",
+              "Pharaoh's daughter",
+              "Delilah"
+            ],
+            "answer": 3,
+            "explanation": "Delilah called someone to cut his hair while he was asleep."
+          },
+          {
+            "prompt": "What can we do if someone pressures and frightens us?",
+            "options": [
+              "Keep the fear to ourselves",
+              "Tell an adult we trust",
+              "Promise never to tell anyone",
+              "Try to be the strongest person"
+            ],
+            "answer": 1,
+            "explanation": "This is something we can use in our own lives: we are allowed to ask for help and talk to an adult we trust."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What did the Philistine leaders offer Delilah?",
+            "options": [
+              "An ark they would build for her",
+              "Money if she found out how to overpower Samson",
+              "A chance to become queen of Egypt",
+              "The gates of Gaza"
+            ],
+            "answer": 1,
+            "explanation": "They offered money for information that would help them capture Samson."
+          },
+          {
+            "prompt": "What does Samson's uncut hair represent?",
+            "options": [
+              "A royal crown",
+              "A way to control the weather",
+              "His dedication to God as a Nazirite from birth",
+              "A rule everyone in Gaza followed"
+            ],
+            "answer": 2,
+            "explanation": "Samson connects his uncut hair to being a Nazirite, dedicated to God from birth."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "Which detail about the shaving is explicitly stated?",
+            "options": [
+              "Manoah shaved his son",
+              "Samson shaved himself",
+              "Delilah called a man to shave his locks",
+              "It took place at the city gate"
+            ],
+            "answer": 2,
+            "explanation": "The account says Delilah called a man before Samson's seven locks were shaved."
+          },
+          {
+            "prompt": "What does verse 20 add to the explanation of Samson's loss of strength?",
+            "options": [
+              "The Lord had left him",
+              "His hair had turned to gold",
+              "His strength had passed to Delilah",
+              "He had never been a Nazirite"
+            ],
+            "answer": 0,
+            "explanation": "The narrator says the Lord had left Samson, extending the significance of the event beyond the hair itself."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-4-bonus-1",
+          "item": "seal",
+          "title": "When the Hair Was Cut",
+          "prompt": "What was Samson doing when his hair was cut?",
+          "options": [
+            "Sleeping",
+            "Walking along a road",
+            "Eating at a feast"
+          ],
+          "answer": 0,
+          "explanation": "Samson was asleep when Delilah called a man to cut his hair."
+        },
+        {
+          "id": "life-samson-4-bonus-2",
+          "item": "jar",
+          "title": "The Man Who Cut the Hair",
+          "prompt": "Who called the man who cut Samson's hair?",
+          "options": [
+            "Samson's mother",
+            "Delilah",
+            "Manoah"
+          ],
+          "answer": 1,
+          "explanation": "Delilah called a man, and he cut Samson's hair while Samson slept."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "שמשון ודלילה",
+        "aliases": [
+          "דלילה ושמשון",
+          "גזיזת שיער שמשון",
+          "גזירת השיער של שמשון",
+          "השיער של שמשון",
+          "סוד כוחו של שמשון",
+          "תספורת שמשון",
+          "שמשון מאבד את כוחו"
+        ],
+        "passage": {
+          "a": "שמשון אהב את דלילה, אבל היא ניסתה לברר איך אפשר להתגבר עליו. אחרי שלחצה עליו שוב ושוב, הוא סיפר ששערו לא נגזר מאז שנולד, כחלק מהתפקיד המיוחד שלו. כשישן, היא הזמינה אדם שגזר את שערו. כוחו אבד, והוא נתפס. שוביו פגעו בו, והוא לא יכול היה לראות. אם מישהו לוחץ עלינו או מפחיד אותנו, חשוב לפנות למבוגר שאנחנו סומכים עליו.",
+          "b": "מנהיגי הפלשתים הבטיחו לדלילה כסף אם תגלה כיצד להתגבר על שמשון. לאחר לחץ חוזר הוא סיפר לה שהוא נזיר אלוהים וששערו לא נגזר. בזמן שישן היא הזמינה אדם לגלח את מחלפותיו. שמשון נחלש, נתפס ואיבד את ראייתו בעקבות פגיעת שוביו. השיער מסמן את נזירותו; הסיפור אינו מתאר אותו כקסם שאפשר לשמור בכיס.",
+          "c": "דלילה פועלת בתמורה להבטחת כסף מצד סרני הפלשתים. לאחר כמה תשובות מטעות ולחץ ממושך, שמשון מספר לה על נזירותו מלידה. היא מרדימה אותו על ברכיה וקוראת לאיש לגלח את שבע מחלפותיו. הכתוב מתאר לא רק הסרת שיער אלא גם שה׳ סר מעליו. הפלשתים תופסים אותו, מעוורים אותו ומעבידים אותו בבית האסורים. זהו משבר של אמון ופגיעוּת, לא הוכחה שכוחו היה קסם בשיער."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי הזמינה אדם לגזור את שערו של שמשון?",
+              "options": [
+                "אמו",
+                "מרים",
+                "בת פרעה",
+                "דלילה"
+              ],
+              "answer": 3,
+              "explanation": "דלילה קראה לאדם שגזר את שערו בזמן שישן."
+            },
+            {
+              "prompt": "מה כדאי לעשות כשמישהו לוחץ עלינו ומפחיד אותנו?",
+              "options": [
+                "להישאר לבד עם הפחד",
+                "לספר למבוגר שאנחנו סומכים עליו",
+                "להבטיח שלעולם לא נספר",
+                "לנסות להיות הכי חזקים"
+              ],
+              "answer": 1,
+              "explanation": "זו מחשבה לחיים שלנו: מותר לבקש עזרה ולספר למבוגר שסומכים עליו."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "מה הבטיחו מנהיגי הפלשתים לדלילה?",
+              "options": [
+                "לבנות לה תיבה",
+                "כסף אם תגלה כיצד להתגבר על שמשון",
+                "למנות אותה למלכת מצרים",
+                "לתת לה את שערי עזה"
+              ],
+              "answer": 1,
+              "explanation": "הם הציעו לה כסף בתמורה למידע שיאפשר להם ללכוד את שמשון."
+            },
+            {
+              "prompt": "מה מסמל השיער שלא נגזר בסיפור?",
+              "options": [
+                "כתר מלכות",
+                "דרך לשלוט במזג האוויר",
+                "את נזירותו של שמשון מלידה",
+                "חוק שכל תושבי עזה שמרו"
+              ],
+              "answer": 2,
+              "explanation": "שמשון קושר את שערו שלא נגזר להיותו נזיר אלוהים מן הבטן."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "איזה פרט על הגילוח נאמר במפורש?",
+              "options": [
+                "מנוח גילח את בנו",
+                "שמשון גילח את עצמו",
+                "דלילה קראה לאיש לגלח את מחלפותיו",
+                "הגילוח התרחש בשער העיר"
+              ],
+              "answer": 2,
+              "explanation": "הכתוב מתאר שדלילה קראה לאיש לפני גזיזת שבע מחלפותיו של שמשון."
+            },
+            {
+              "prompt": "מה מוסיף פסוק כ׳ להבנת אובדן כוחו?",
+              "options": [
+                "שה׳ סר מעליו",
+                "ששערו הפך לזהב",
+                "שכוחו עבר אל דלילה",
+                "שהוא מעולם לא היה נזיר"
+              ],
+              "answer": 0,
+              "explanation": "המספר מציין שה׳ סר מעליו, ומרחיב את משמעות האירוע מעבר לשיער עצמו."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-9",
+      "title": "Chapter 8",
+      "shortTitle": "Chapter 8",
+      "solvedTitle": "Samson in Prison",
+      "tile": {
+        "x": 9,
+        "y": 3
+      },
+      "signTile": {
+        "x": 9,
+        "y": 2
+      },
+      "pathToNext": [
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 11,
+          "y": 3
+        },
+        {
+          "x": 12,
+          "y": 3
+        },
+        {
+          "x": 13,
+          "y": 3
+        },
+        {
+          "x": 14,
+          "y": 3
+        },
+        {
+          "x": 15,
+          "y": 3
+        }
+      ],
+      "passage": {
+        "a": "After Samson's hair was cut, the Philistines captured him. He lost his sight and was taken to prison in Gaza, where he had to grind grain. These were hard days, and we do not show pictures of anyone hurting him. Then the story gives one small detail: his hair began to grow again. He was still a prisoner. A person who has been hurt always deserves care and respect.",
+        "b": "After his hair was cut, Samson was captured and taken to Gaza. The Philistines blinded him, put him in chains, and forced him to grind grain in prison. The account then pauses to mention that his hair began growing again. This is not an escape or a complete recovery. It recalls the Nazirite calling from the beginning of his life and prepares the reader for his final chapter.",
+        "c": "In Gaza's prison, Samson is blind, bound in bronze shackles, and forced to grind grain. The man known for physical power is now vulnerable and dependent. The brief notice that his hair begins growing again recalls the sign of the Nazirite calling announced before his birth. At this point, the text does not say that he has escaped, regained his sight, or recovered his full strength."
+      },
+      "source": "Judges 16:21–22",
+      "sensitive": false,
+      "learned": {
+        "a": "After Samson's hair was cut, the Philistines captured him. He lost his sight and was taken to prison in Gaza, where he had to grind grain. These were hard days, and we do not show pictures of anyone hurting him. Then the story gives one small detail: his hair began to grow again. He was still a prisoner. A person who has been hurt always deserves care and respect.",
+        "b": "After his hair was cut, Samson was captured and taken to Gaza. The Philistines blinded him, put him in chains, and forced him to grind grain in prison. The account then pauses to mention that his hair began growing again. This is not an escape or a complete recovery. It recalls the Nazirite calling from the beginning of his life and prepares the reader for his final chapter.",
+        "c": "In Gaza's prison, Samson is blind, bound in bronze shackles, and forced to grind grain. The man known for physical power is now vulnerable and dependent. The brief notice that his hair begins growing again recalls the sign of the Nazirite calling announced before his birth. At this point, the text does not say that he has escaped, regained his sight, or recovered his full strength."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-9",
+          "category": "stories",
+          "answer": "Samson in Prison",
+          "aliases": [
+            "Samson in captivity",
+            "Samson's hair grows back",
+            "Samson's hair growing again",
+            "Samson the prisoner",
+            "Samson held in Gaza"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "prison",
+            "hair",
+            "Gaza"
+          ],
+          "textHint": "Look at the stone wheel, the bindings, and the man’s hair.",
+          "moral": "How can you show respect and offer help during someone's difficult time without pretending everything is already fine?",
+          "source": "Judges 16:21–22",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0716.htm",
+          "images": {
+            "kids": [
+              "journey-7de1d6f5f2fab98e.webp",
+              "journey-dc0f0d819ce37db8.webp",
+              "journey-98ec8aa5c283cfb9.webp",
+              "journey-a790c7362b65a1d7.webp"
+            ],
+            "teen": [
+              "journey-029f4b03107bb944.webp",
+              "journey-91185b75945c1795.webp",
+              "journey-dad650974a108665.webp",
+              "journey-662d6d92f0c57147.webp"
+            ],
+            "classic": [
+              "journey-217b8c62530b96b1.webp",
+              "journey-0e8827a605473bd1.webp",
+              "journey-444464c80845e488.webp",
+              "journey-8268a2a4a61bcd10.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair."
+            ],
+            "teen": [
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair."
+            ],
+            "classic": [
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair.",
+              "Look at the stone wheel, the bindings, and the man’s hair."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Final Prayer",
+            "Samson in Prison",
+            "Samson and Delilah",
+            "Samson's Ropes at Lehi"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Final Prayer",
+            "Samson in Prison",
+            "Samson and Delilah",
+            "Samson's Ropes at Lehi"
+          ],
+          "choicePicturesKids": [
+            "journey-f9833d13af1a218e.webp",
+            "journey-a790c7362b65a1d7.webp",
+            "journey-cbbeb32de5dbb2eb.webp",
+            "journey-0096048021fa4d6f.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Grain and a grinding stone suggest hard work.",
+              "A closed stone room places the grinding work in captivity.",
+              "A familiar figure sits by the stone, seen from behind, with short hair growing on his head.",
+              "Samson is held in Gaza, near the grinding stone, as his hair begins to grow again."
+            ],
+            "b": [
+              "Grain and a grinding stone suggest hard work.",
+              "A closed stone room places the grinding work in captivity.",
+              "A familiar figure sits by the stone, seen from behind, with short hair growing on his head.",
+              "Samson is held in Gaza, near the grinding stone, as his hair begins to grow again."
+            ],
+            "c": [
+              "Grain and a grinding stone suggest hard work.",
+              "A closed stone room places the grinding work in captivity.",
+              "A familiar figure sits by the stone, seen from behind, with short hair growing on his head.",
+              "Samson is held in Gaza, near the grinding stone, as his hair begins to grow again."
+            ]
+          },
+          "discovery": "The narrator notices the growing hair. The verse does not say that Samson's injuries are gone or that his imprisonment is over.",
+          "reflection": "How can you show respect and offer help during someone's difficult time without pretending everything is already fine?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "In which city was Samson held?",
+            "options": [
+              "Zorah",
+              "Jerusalem",
+              "Egypt",
+              "Gaza"
+            ],
+            "answer": 3,
+            "explanation": "He was brought to prison in Gaza."
+          },
+          {
+            "prompt": "What began to grow again?",
+            "options": [
+              "A tree in the yard",
+              "His hair",
+              "A new vineyard",
+              "Grass on the gate"
+            ],
+            "answer": 1,
+            "explanation": "The story mentions that the hair on his head began growing again."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What work was Samson forced to do?",
+            "options": [
+              "Grind grain",
+              "Build an ark",
+              "Herd sheep",
+              "Write riddles"
+            ],
+            "answer": 0,
+            "explanation": "The account says he ground grain in prison."
+          },
+          {
+            "prompt": "What had not happened by the end of this scene?",
+            "options": [
+              "He had reached Gaza",
+              "His hair had been cut",
+              "He had been freed",
+              "His hair had begun to grow"
+            ],
+            "answer": 2,
+            "explanation": "Growing hair does not mean freedom: Samson remained a prisoner."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "What earlier detail does the growing hair recall?",
+            "options": [
+              "Gaza's gates",
+              "The wedding riddle",
+              "The spring at Lehi",
+              "His calling before birth"
+            ],
+            "answer": 3,
+            "explanation": "The hair recalls the Nazirite calling announced before he was born."
+          },
+          {
+            "prompt": "Which claim is not made in these verses?",
+            "options": [
+              "He ground grain in prison",
+              "His sight returned",
+              "He was brought to Gaza",
+              "His hair began to grow"
+            ],
+            "answer": 1,
+            "explanation": "The text does not say that Samson regained his sight."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-9-bonus-1",
+          "item": "lamp",
+          "title": "A Change in Prison",
+          "prompt": "What began to grow again while Samson was in prison?",
+          "options": [
+            "A tree in the yard",
+            "A vine in his room",
+            "His hair"
+          ],
+          "answer": 2,
+          "explanation": "Samson's hair began to grow again. He was still in prison."
+        },
+        {
+          "id": "life-samson-9-bonus-2",
+          "item": "jar",
+          "title": "Work in Prison",
+          "prompt": "What work was Samson forced to do in prison in Gaza?",
+          "options": [
+            "Grind grain",
+            "Build boats",
+            "Tend sheep"
+          ],
+          "answer": 0,
+          "explanation": "In prison in Gaza, Samson was forced to grind grain."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "שמשון בבית האסורים",
+        "aliases": [
+          "שמשון בכלא",
+          "שמשון בשבי",
+          "שמשון בבית הסוהר",
+          "שיער שמשון צומח",
+          "שערו של שמשון צומח",
+          "שמשון האסיר"
+        ],
+        "passage": {
+          "a": "לאחר ששערו נגזז, הפלשתים תפסו את שמשון. הוא איבד את ראייתו ונלקח לבית האסורים בעזה, שם נאלץ לטחון תבואה. אלה היו ימים קשים, ולא מציגים כאן תמונות של הפגיעה. בתוך התיאור העצוב מופיע פרט קטן: שיער ראשו התחיל לצמוח שוב. הוא עדיין היה בשבי. גם אדם שנפגע ראוי תמיד לכבוד ולעזרה.",
+          "b": "הפלשתים לקחו את שמשון לעזה לאחר גזיזת שערו. הם פגעו בראייתו, כבלו אותו והכריחו אותו לטחון בבית האסורים. הכתוב עוצר לרגע ומספר ששיערו החל לצמוח מחדש. אין כאן בריחה או החלמה מלאה. הפרט הקטן מחזיר אל סיפור הנזירות מתחילת חייו ומכין את הקורא לפרק האחרון.",
+          "c": "בבית האסורים בעזה שמשון עיוור, כבול בנחושתיים ועוסק בטחינה כפויה. התיאור מציב את מי שנודע בכוחו במצב של תלות ופגיעה. לאחר מכן מופיעה ההערה על תחילת צמיחת שיערו. היא מהדהדת את סימן הנזירות שנקבע עוד לפני לידתו, אך הכתוב אינו אומר שבשלב הזה השתחרר, חזר לראות או השיב לעצמו את מלוא כוחו."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "באיזו עיר הוחזק שמשון בשבי?",
+              "options": [
+                "צרעה",
+                "ירושלים",
+                "מצרים",
+                "עזה"
+              ],
+              "answer": 3,
+              "explanation": "הפלשתים הביאו אותו לבית האסורים בעזה."
+            },
+            {
+              "prompt": "מה התחיל לצמוח מחדש?",
+              "options": [
+                "עץ בחצר",
+                "שיער ראשו",
+                "כרם חדש",
+                "עשב על השער"
+              ],
+              "answer": 1,
+              "explanation": "בתוך הימים הקשים, הכתוב מספר ששערו החל לצמוח."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "איזו מלאכה הוטלה על שמשון בשבי?",
+              "options": [
+                "טחינת תבואה",
+                "בניית תיבה",
+                "רעיית צאן",
+                "כתיבת חידות"
+              ],
+              "answer": 0,
+              "explanation": "הכתוב אומר שהוא היה טוחן בבית האסורים."
+            },
+            {
+              "prompt": "מה עדיין לא קרה בסוף הפרק הזה?",
+              "options": [
+                "שמשון הגיע לעזה",
+                "שערו נגזז",
+                "הוא השתחרר מן השבי",
+                "שערו התחיל לצמוח"
+              ],
+              "answer": 2,
+              "explanation": "הצמיחה אינה בריחה: שמשון עדיין נשאר אסיר."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "לאיזה פרט קודם מחזירה צמיחת השיער?",
+              "options": [
+                "לשערי עזה",
+                "לחידה במשתה",
+                "למעיין בלחי",
+                "לנזירות שנקבעה לפני לידתו"
+              ],
+              "answer": 3,
+              "explanation": "השיער מזכיר את הבשורה על נזירותו מלידה."
+            },
+            {
+              "prompt": "איזו מסקנה אינה נאמרת בפסוקים כ״א–כ״ב?",
+              "options": [
+                "ששמשון טחן בשבי",
+                "שהוא חזר לראות",
+                "שהוא הובא לעזה",
+                "ששיערו התחיל לצמוח"
+              ],
+              "answer": 1,
+              "explanation": "הפסוקים אינם מספרים שראייתו חזרה; אין להוסיף זאת לסיפור."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "life-samson-5",
+      "title": "Chapter 9",
+      "shortTitle": "Chapter 9",
+      "solvedTitle": "Samson's Final Prayer",
+      "tile": {
+        "x": 15,
+        "y": 3
+      },
+      "signTile": {
+        "x": 15,
+        "y": 2
+      },
+      "pathToNext": [],
+      "passage": {
+        "a": "Samson's hair begins to grow again. He is taken to a large building, where a boy guides him to two pillars. Samson asks God to remember him and give him strength. Then he pushes the pillars down, and the building falls. Samson and people inside die. It is a sad ending, and we say goodbye gently. We can carry forward the importance of asking for help and using our strength to protect life.",
+        "b": "Samson is brought from prison to a temple so the crowd can mock him. A boy guides him to the two central pillars. Samson prays for God to remember him and give him strength, and he asks for revenge for his lost sight. He pushes the pillars, and the building falls, killing him and the people inside. His family brings him for burial. The ending raises difficult questions about revenge and the responsibility that comes with strength.",
+        "c": "Samson is brought before a mocking crowd in Dagon's temple. A young attendant guides him to its two supporting pillars. He asks God to remember and strengthen him, including a plea for revenge for his eyes. He brings down the pillars, and the building falls on him and those inside. His brothers and his father's household bury him in Manoah's tomb between Zorah and Eshtaol. The account closes with his twenty years as a judge. Its force does not require us to treat revenge or death as an example to follow."
+      },
+      "source": "Judges 16:23–31",
+      "sensitive": false,
+      "learned": {
+        "a": "Samson's hair begins to grow again. He is taken to a large building, where a boy guides him to two pillars. Samson asks God to remember him and give him strength. Then he pushes the pillars down, and the building falls. Samson and people inside die. It is a sad ending, and we say goodbye gently. We can carry forward the importance of asking for help and using our strength to protect life.",
+        "b": "Samson is brought from prison to a temple so the crowd can mock him. A boy guides him to the two central pillars. Samson prays for God to remember him and give him strength, and he asks for revenge for his lost sight. He pushes the pillars, and the building falls, killing him and the people inside. His family brings him for burial. The ending raises difficult questions about revenge and the responsibility that comes with strength.",
+        "c": "Samson is brought before a mocking crowd in Dagon's temple. A young attendant guides him to its two supporting pillars. He asks God to remember and strengthen him, including a plea for revenge for his eyes. He brings down the pillars, and the building falls on him and those inside. His brothers and his father's household bury him in Manoah's tomb between Zorah and Eshtaol. The account closes with his twenty years as a judge. Its force does not require us to treat revenge or death as an example to follow."
+      },
+      "puzzles": [
+        {
+          "id": "life-samson-5",
+          "category": "stories",
+          "answer": "Samson's Final Prayer",
+          "aliases": [
+            "Samson's prayer",
+            "the prayer of Samson",
+            "Samson between the pillars",
+            "Samson and the pillars",
+            "Samson at the temple",
+            "Samson's last prayer",
+            "the death of Samson",
+            "Samson's death",
+            "the end of Samson's life"
+          ],
+          "partialAnswers": [
+            "Samson",
+            "Samson",
+            "pillars",
+            "temple",
+            "prayer"
+          ],
+          "textHint": "Look at the columns and the man’s posture between them.",
+          "moral": "When we are hurt or angry, who can help us find a way forward that protects us and other people?",
+          "source": "Judges 16:23–31",
+          "sourceUrl": "https://mechon-mamre.org/p/pt/pt0716.htm",
+          "images": {
+            "kids": [
+              "journey-100f27ee96cf52d5.webp",
+              "journey-e26acd5a0640550c.webp",
+              "journey-4e694bf49af067dc.webp",
+              "journey-f9833d13af1a218e.webp"
+            ],
+            "teen": [
+              "journey-61b02bd5538edd2c.webp",
+              "journey-ee149a352801aa68.webp",
+              "journey-3b88ab729b801c20.webp",
+              "journey-f7aae3e3bfcdcd6a.webp"
+            ],
+            "classic": [
+              "journey-d4ce32e91e4d9a63.webp",
+              "journey-bb150e5252df2081.webp",
+              "journey-d601900588904002.webp",
+              "journey-ea4fe49d428116c5.webp"
+            ]
+          },
+          "descriptions": {
+            "kids": [
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them."
+            ],
+            "teen": [
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them."
+            ],
+            "classic": [
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them.",
+              "Look at the columns and the man’s posture between them."
+            ]
+          },
+          "choicesKids": [
+            "Samson's Final Prayer",
+            "Samson in Prison",
+            "The Spring of En-hakkore",
+            "The Gates of Gaza"
+          ],
+          "choiceLabelsKids": [
+            "Samson's Final Prayer",
+            "Samson in Prison",
+            "The Spring of En-hakkore",
+            "The Gates of Gaza"
+          ],
+          "choicePicturesKids": [
+            "journey-f9833d13af1a218e.webp",
+            "journey-a790c7362b65a1d7.webp",
+            "journey-8fcac08eb0b91553.webp",
+            "journey-d1e842ff7ca882a8.webp"
+          ],
+          "clueNotes": {
+            "a": [
+              "Two large stone pillars hint at the last place in this journey.",
+              "Hands resting on the pillars show that someone is standing between them.",
+              "A boy guides Samson, whose hair has begun to grow again.",
+              "Samson stands between the pillars and asks God for strength."
+            ],
+            "b": [
+              "The paired pillars suggest the setting of Samson's final chapter.",
+              "The hands against the stone connect the building to a person seeking support.",
+              "The young guide and Samson's regrowing hair place the scene after his captivity.",
+              "Samson's prayer beside the intact pillars identifies the moment before the collapse."
+            ],
+            "c": [
+              "Two central supports introduce the architecture of the final episode.",
+              "Hands on the stone shift attention from the building to the person between its pillars.",
+              "A young attendant guides Samson toward the temple's central pillars.",
+              "Samson's prayer between the two supporting pillars identifies the final chapter of his life."
+            ]
+          },
+          "discovery": "Samson's family buries him between Zorah and Eshtaol. The story records twenty years of leadership but does not tell us his age when he dies.",
+          "reflection": "When we are hurt or angry, who can help us find a way forward that protects us and other people?"
+        }
+      ],
+      "questions": {
+        "a": [
+          {
+            "prompt": "Who helped Samson reach the pillars?",
+            "options": [
+              "Pharaoh",
+              "A boy holding his hand",
+              "A dove",
+              "Manoah"
+            ],
+            "answer": 1,
+            "explanation": "A boy held Samson's hand and guided him to the pillars."
+          },
+          {
+            "prompt": "What did Samson ask for in his prayer?",
+            "options": [
+              "For God to remember him and give him strength",
+              "For an ark to appear",
+              "For honey to fall from the sky",
+              "For the gates to grow back"
+            ],
+            "answer": 0,
+            "explanation": "Samson asked God to remember him and give him strength. The ending remains sad; hurting people is not something to celebrate."
+          }
+        ],
+        "b": [
+          {
+            "prompt": "What else does Samson ask for in his prayer?",
+            "options": [
+              "Revenge for the loss of his sight",
+              "A journey to Egypt",
+              "A new vineyard",
+              "A city in the Valley of Sorek"
+            ],
+            "answer": 0,
+            "explanation": "His prayer includes revenge. We can acknowledge that detail without presenting revenge as a way to respond to harm."
+          },
+          {
+            "prompt": "What happens after Samson dies?",
+            "options": [
+              "He returns home alive",
+              "Delilah becomes a judge",
+              "His family brings him for burial",
+              "The gates return to Gaza on their own"
+            ],
+            "answer": 2,
+            "explanation": "His brothers and his father's household bury him in Manoah's tomb, between Zorah and Eshtaol."
+          }
+        ],
+        "c": [
+          {
+            "prompt": "How many years does the closing account say Samson judged Israel?",
+            "options": [
+              "Forty",
+              "Seven",
+              "One hundred fifty",
+              "Twenty"
+            ],
+            "answer": 3,
+            "explanation": "Judges 16:31 gives twenty years as the length of Samson's leadership."
+          },
+          {
+            "prompt": "Which response combines care with an accurate reading?",
+            "options": [
+              "Treating the ending as a celebration without loss",
+              "Acknowledging the prayer and the deaths while examining the cost of revenge",
+              "Saying Samson retired peacefully",
+              "Claiming the building remained standing"
+            ],
+            "answer": 1,
+            "explanation": "The story contains prayer, revenge, and death. A responsible reading recognizes those elements and their human cost."
+          }
+        ]
+      },
+      "bonus": [
+        {
+          "id": "life-samson-5-bonus-1",
+          "item": "staff",
+          "title": "On the Way to the Pillars",
+          "prompt": "Who helped Samson reach the two pillars?",
+          "options": [
+            "Manoah",
+            "A boy holding his hand",
+            "Delilah"
+          ],
+          "answer": 1,
+          "explanation": "A boy holding Samson's hand guided him to the pillars."
+        },
+        {
+          "id": "life-samson-5-bonus-2",
+          "item": "seal",
+          "title": "Beside the Two Pillars",
+          "prompt": "What did Samson ask God for in his prayer beside the pillars?",
+          "options": [
+            "A royal crown",
+            "A new home",
+            "To remember him and give him strength"
+          ],
+          "answer": 2,
+          "explanation": "Samson prayed for God to remember him and give him strength."
+        }
+      ],
+      "originalHebrew": {
+        "answer": "תפילת שמשון",
+        "aliases": [
+          "התפילה של שמשון",
+          "תפילתו האחרונה של שמשון",
+          "שמשון בין העמודים",
+          "שמשון והעמודים",
+          "שמשון במקדש",
+          "מות שמשון",
+          "סוף שמשון",
+          "מותו של שמשון"
+        ],
+        "passage": {
+          "a": "שערו של שמשון החל לצמוח שוב. כשלקחו אותו למבנה גדול, נער עזר לו להגיע אל שני העמודים. שמשון ביקש מאלוהים לזכור אותו ולחזק אותו. אחר כך הוא הפיל את העמודים, והמבנה קרס. שמשון ואנשים שהיו שם מתו. זהו סוף עצוב, ואנחנו נפרדים ממנו בעדינות. מהסיפור אפשר ללמוד כמה חשוב לבקש עזרה ולהשתמש בכוח כדי לשמור על חיים.",
+          "b": "שמשון הובא מן הכלא אל המקדש כדי שהקהל ילעג לו. נער הנחה אותו אל שני העמודים המרכזיים. הוא התפלל שאלוהים יזכור אותו ויחזק אותו, וביקש גם נקמה על הפגיעה בו. לאחר שדחף את העמודים, המבנה קרס והוא והאנשים שבתוכו מתו. משפחתו הביאה אותו לקבורה. הסיום מזמין לחשוב על מחיר הנקמה ועל האחריות שמגיעה עם כוח.",
+          "c": "במקדש דגון מובא שמשון לעיני קהל הלועג לו. הוא נעזר בנער כדי למשש את שני עמודי התווך ומתפלל לזיכרון ולחיזוק, תוך בקשת נקמה על עיניו. הוא מטה את העמודים, והבית נופל עליו ועל יושביו. אחיו ובית אביו קוברים אותו בקבר מנוח בין צרעה לאשתאול; הכתוב מסכם עשרים שנות שיפוט. אפשר להכיר בעוצמת הסיפור בלי להפוך נקמה ומוות לדגם לחיקוי."
+        },
+        "questions": {
+          "a": [
+            {
+              "prompt": "מי עזר לשמשון להגיע אל העמודים?",
+              "options": [
+                "פרעה",
+                "נער שהחזיק בידו",
+                "יונה",
+                "מנוח"
+              ],
+              "answer": 1,
+              "explanation": "נער החזיק בידו של שמשון ועזר לו להגיע אל העמודים."
+            },
+            {
+              "prompt": "מה ביקש שמשון בתפילתו?",
+              "options": [
+                "שאלוהים יזכור אותו ויחזק אותו",
+                "שתופיע תיבה",
+                "שיירד דבש מהשמיים",
+                "שהשערים יצמחו מחדש"
+              ],
+              "answer": 0,
+              "explanation": "שמשון ביקש מאלוהים לזכור ולחזק אותו. סוף הסיפור נשאר עצוב, ולא חוגגים בו פגיעה."
+            }
+          ],
+          "b": [
+            {
+              "prompt": "איזו בקשה נוספת כלולה בתפילת שמשון?",
+              "options": [
+                "נקמה על הפגיעה בעיניו",
+                "לצאת למסע למצרים",
+                "לקבל כרם חדש",
+                "לבנות עיר בנחל שורק"
+              ],
+              "answer": 0,
+              "explanation": "התפילה כוללת גם נקמה. חשוב להכיר בפרט הזה בלי להציע נקמה כדרך לפתרון פגיעה."
+            },
+            {
+              "prompt": "כיצד מסתיים הסיפור לאחר מותו של שמשון?",
+              "options": [
+                "הוא חוזר לביתו",
+                "דלילה ממונה לשופטת",
+                "משפחתו מביאה אותו לקבורה",
+                "השערים חוזרים מעצמם לעזה"
+              ],
+              "answer": 2,
+              "explanation": "אחיו ובית אביו מביאים אותו לקבר מנוח, בין צרעה לאשתאול."
+            }
+          ],
+          "c": [
+            {
+              "prompt": "כמה שנים שפט שמשון את ישראל לפי סיכום הסיפור?",
+              "options": [
+                "ארבעים",
+                "שבע",
+                "מאה וחמישים",
+                "עשרים"
+              ],
+              "answer": 3,
+              "explanation": "שופטים ט״ז, ל״א מסכם ששמשון שפט את ישראל עשרים שנה."
+            },
+            {
+              "prompt": "איזו קריאה שומרת גם על דיוק וגם על אחריות?",
+              "options": [
+                "להציג את הסוף כחגיגה ללא אובדן",
+                "להכיר בתפילה ובמוות ולבחון את מחיר הנקמה",
+                "לומר ששמשון פרש בשלווה",
+                "לטעון שהמבנה נשאר עומד"
+              ],
+              "answer": 1,
+              "explanation": "הסיפור כולל תפילה, נקמה ומוות. הכרה בהם מאפשרת דיון אחראי בלי למחוק את המחיר האנושי."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ending": {
+    "a": "Samson died when the building fell, and other people died too. His family brought him for burial near his home. It is a sad goodbye. We can remember his strength and also learn to ask for help, make careful choices, and protect other people.",
+    "b": "Samson died with the people in the temple. His family buried him in his father's tomb between Zorah and Eshtaol. The story records twenty years of leadership, but it does not give his age at death. His ending invites us to think about the cost of revenge and the responsibility that comes with strength.",
+    "c": "Samson's life ends in the collapse of the temple, with the deaths of those inside. His brothers and his father's household bury him in Manoah's tomb between Zorah and Eshtaol, and the account closes with twenty years as a judge. His calling, his choices, and the harm he suffered leave a complicated legacy. We can acknowledge the human cost and carry forward a commitment to good judgment, seeking help, and protecting life."
+  }
+}
