@@ -19,6 +19,8 @@ const landscape = require("../assets/home/adventure-home-v1.webp");
 const pixels: ImageStyle = { width: "100%", height: "100%", imageRendering: "pixelated" } as ImageStyle;
 const motionDriver = Platform.OS !== "web";
 const copyInk = "#35231D";
+// Kept out of StyleSheet.create: react-native-web rejects "direction" there in development and drops it.
+const ltr = { direction: "ltr" } as const;
 
 function Wordmark({ width, still }: { width: number; still: boolean }) {
   const { language } = useLocale();
@@ -96,7 +98,7 @@ export function BookTitle() {
     }
     setNotice(true);
   };
-  return <SafeAreaView style={styles.scene}>
+  return <SafeAreaView style={[styles.scene, ltr]}>
     <EarthenBackdrop />
     <Image accessible={false} source={landscape} resizeMode="cover" style={[StyleSheet.absoluteFill, {width:"100%",height:"100%",opacity:.13}]} />
     <ScrollView contentContainerStyle={{flexGrow:1, alignItems:"center", justifyContent:"center", paddingVertical:54}}>
@@ -143,7 +145,7 @@ export function BookTitle() {
   </SafeAreaView>;
 }
 const styles = StyleSheet.create({
-  scene:{flex:1,backgroundColor:earthen.background,direction:"ltr"},
+  scene:{flex:1,backgroundColor:earthen.background},
   choice:{justifyContent:"center",alignItems:"center",paddingHorizontal:2,outlineColor:"#8A5730",borderRadius:9},
   skip:{position:"absolute",bottom:12,alignSelf:"center",minHeight:44,justifyContent:"center",paddingHorizontal:18,backgroundColor:"#172220"},
   skipText:{fontSize:15,color:"#FFE6AC"}
