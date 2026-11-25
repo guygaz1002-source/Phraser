@@ -1,0 +1,178 @@
+[
+  {
+    "id": "gen-babel",
+    "rank": 1,
+    "originalImages": {
+      "kids": [
+        "/art/genesis/babel-kids-1-v2.png",
+        "/art/genesis/babel-kids-2-v2.png",
+        "/art/ladder/exec-9e38888d-1cbf-455a-8f67-feef03cdfdb9.png",
+        "/art/ladder/exec-cbb08bde-21dc-4d3d-a2f0-a47c7ce5c4ab.png"
+      ],
+      "teen": [
+        "/art/genesis/babel-teen-1-v2.png",
+        "/art/genesis/babel-teen-2-v2.png",
+        "/art/genesis/babel-teen-2.png",
+        "/art/genesis/babel-teen-4.png"
+      ],
+      "adult": [
+        "/art/genesis/babel-adult-1-v2.png",
+        "/art/genesis/babel-adult-2-v2.png",
+        "/art/genesis/babel-adult-2.png",
+        "/art/genesis/babel-adult-4.png"
+      ]
+    },
+    "deliveredImages": {
+      "kids": [
+        "journey-072e6b825d6592a8.webp",
+        "journey-a47b834706819921.webp",
+        "journey-93f97b062a2bf439.webp",
+        "journey-7ebb82d6b6d1af91.webp"
+      ],
+      "teen": [
+        "journey-741e5ff4c64daa64.webp",
+        "journey-fe680c312d6ae70d.webp",
+        "journey-99e4fb6e2a11baa4.webp",
+        "journey-0e01e6f8e3a91dec.webp"
+      ],
+      "classic": [
+        "journey-f7cf55e52bf6d00e.webp",
+        "journey-6bec4c0e17848434.webp",
+        "journey-fa998355b2c08711.webp",
+        "journey-5996896fe698e8d0.webp"
+      ]
+    }
+  },
+  {
+    "id": "gen-abram",
+    "rank": 3,
+    "originalImages": {
+      "kids": [
+        "/art/genesis/journey-kids-1.png",
+        "/art/genesis/journey-kids-2.png",
+        "/art/genesis/journey-kids-3.png",
+        "/art/genesis/journey-kids-4-v2.png"
+      ],
+      "teen": [
+        "/art/genesis/journey-teen-1.png",
+        "/art/genesis/journey-teen-2.png",
+        "/art/genesis/journey-teen-3.png",
+        "/art/genesis/journey-teen-4-v2.png"
+      ],
+      "adult": [
+        "/art/genesis/journey-adult-1-v2.png",
+        "/art/genesis/journey-adult-2.png",
+        "/art/genesis/journey-adult-3.png",
+        "/art/genesis/journey-adult-4-v2.png"
+      ]
+    },
+    "deliveredImages": {
+      "kids": [
+        "journey-8af22453a6ff8bc3.webp",
+        "journey-010e6311f351d8c2.webp",
+        "journey-2999408a875d7683.webp",
+        "journey-47ec3463b82aec54.webp"
+      ],
+      "teen": [
+        "journey-30f5b7a515cdb2d2.webp",
+        "journey-62280f5383753993.webp",
+        "journey-1cae05a935e5d538.webp",
+        "journey-39969bf9b4fb0eea.webp"
+      ],
+      "classic": [
+        "journey-0f263c1be79e47f9.webp",
+        "journey-70c1c5037d23d013.webp",
+        "journey-3f569af3ac306286.webp",
+        "journey-e2426e16906e6f1a.webp"
+      ]
+    }
+  },
+  {
+    "id": "gen-jacob",
+    "rank": 5,
+    "originalImages": {
+      "kids": [
+        "/art/genesis/jacob-kids-1.png",
+        "/art/genesis/jacob-kids-2.png",
+        "/art/genesis/jacob-kids-3.png",
+        "/art/genesis/jacob-kids-4.png"
+      ],
+      "teen": [
+        "/art/genesis/jacob-teen-1.png",
+        "/art/genesis/jacob-teen-2.png",
+        "/art/genesis/jacob-teen-3.png",
+        "/art/genesis/jacob-teen-4.png"
+      ],
+      "adult": [
+        "/art/genesis/jacob-adult-1.png",
+        "/art/genesis/jacob-adult-2.png",
+        "/art/genesis/jacob-adult-3.png",
+        "/art/genesis/jacob-adult-4.png"
+      ]
+    },
+    "deliveredImages": {
+      "kids": [
+        "journey-5be85dec2ebcb475.webp",
+        "journey-176b68aee5b73b88.webp",
+        "journey-efb33d62884326e9.webp",
+        "journey-c83652fd16c9202d.webp"
+      ],
+      "teen": [
+        "journey-d1d2fb9eb91e0bb5.webp",
+        "journey-fbabd11ed1643119.webp",
+        "journey-129ec35c6e79853c.webp",
+        "journey-8ba4e1dac73abcd1.webp"
+      ],
+      "classic": [
+        "journey-00bb75b4276ecaac.webp",
+        "journey-b6951653fd8642ba.webp",
+        "journey-a905c935a201cc3a.webp",
+        "journey-d3043818917032f5.webp"
+      ]
+    }
+  },
+  {
+    "id": "gen-joseph",
+    "rank": 7,
+    "originalImages": {
+      "kids": [
+        "/art/genesis/joseph-kids-1-v2.png",
+        "/art/genesis/joseph-kids-2.png",
+        "/art/genesis/joseph-kids-3.png",
+        "/art/genesis/joseph-kids-4-v3.png"
+      ],
+      "teen": [
+        "/art/genesis/joseph-teen-1-v2.png",
+        "/art/genesis/joseph-teen-2.png",
+        "/art/genesis/joseph-teen-3.png",
+        "/art/genesis/joseph-teen-4-v3.png"
+      ],
+      "adult": [
+        "/art/genesis/joseph-adult-1-v2.png",
+        "/art/genesis/joseph-adult-2.png",
+        "/art/genesis/joseph-adult-3.png",
+        "/art/genesis/joseph-adult-4-v3.png"
+      ]
+    },
+    "deliveredImages": {
+      "kids": [
+        "journey-0798867de69674f3.webp",
+        "journey-ae6a517759409079.webp",
+        "journey-3f383a7837c060a0.webp",
+        "journey-895bddc8a15c58e7.webp"
+      ],
+      "teen": [
+        "journey-911bacfef97e6a1f.webp",
+        "journey-f7de9c4fc7799087.webp",
+        "journey-814d1e6ed526bfbe.webp",
+        "journey-63eba0ee54b41aa0.webp"
+      ],
+      "classic": [
+        "journey-1cc245cf2dcfc26e.webp",
+        "journey-17833e5d659fb858.webp",
+        "journey-a379eb21009b5b20.webp",
+        "journey-896501356da1f5b0.webp"
+      ]
+    }
+  }
+]

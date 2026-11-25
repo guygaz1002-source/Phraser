@@ -3,6 +3,9 @@ import assert from "node:assert/strict";
 import { catalogFor } from "../src/catalogs";
 import { activeProfile, current, newGame, restore, routeFor, transition } from "../src/game";
 import { BONUS_TIME_MS, expeditionView } from "../src/expedition";
+import { drawExpeditionDeck, questionBank, validateDeck } from "../src/expeditionDeck";
+import { roundArtwork } from "../src/round";
+import { classifyGuess } from "../src/puzzleAnswer";
 import { tierIds, type Action, type Character, type Game, type PlayMode, type TierId } from "../src/types";
 
 const he = catalogFor("he"), en = catalogFor("en");
@@ -40,8 +43,8 @@ function arrive(game: Game, catalog = he) {
   return play(game,{type:"expedition-arrive",key:v.key,now:1000},catalog);
 }
 
-test("every companion plays the same 28 landmarks with five illustrated age-graded cards and one or two hidden treasures per map", () => {
-  const common:string[][]=[];
+test("every companion plays 28 landmarks of age-graded, mixed Bible cards and discovers only their own treasures", () => {
+  const routes = new Map<TierId,string[]>();
   for (const tier of tierIds) for (const hero of he) {
     let game=start(hero.id,tier);
     const ids:string[]=[], perMap=Array(7).fill(0) as number[];
@@ -51,14 +54,16 @@ test("every companion plays the same 28 landmarks with five illustrated age-grad
       let v=view(game);
       assert.equal(v.state.phase,"travel"); assert.equal(v.bonus,undefined); assert.equal(v.map,1+Math.floor(i/4)); assert.equal(v.landmark,i%4+1);
       assert.ok(hero.stops.some(s=>s.id===v.mapStop.id));
-      game=arrive(game);ids.push(v.stop.id);
+      game=arrive(game);
       const pictures=new Set<string>();
       for(let step=0;step<5;step++){
         const catalog=step%2===0?en:he;
         v=view(game,catalog);assert.equal(v.state.phase,"question");assert.equal(v.step,step);assert.equal(v.bonus,undefined);
-        const art=v.puzzle.images.kids[step===4?3:step]!;
-        pictures.add(step===4?v.puzzle.images.teen![3]!:art);
-        if (i===27) assert.ok(v.question, "every finale scene has its own comparison");
+        ids.push(v.cardId);
+        const art=roundArtwork("kids",v.artStep,0);
+        pictures.add((v.puzzle.images[art.set] ?? v.puzzle.images.classic)[art.index]!);
+        if (step > 0) assert.ok(v.question);
+        else if (v.question) assert.ok(questionBank(catalog,tier).byId.get(v.cardId)?.opening);
         game=answer(game,catalog);correct++;
         assert.deepEqual(restore(JSON.stringify(game),catalog===en?he:en),game);
       }
@@ -72,24 +77,28 @@ test("every companion plays the same 28 landmarks with five illustrated age-grad
       }
     }
     assert.ok(perMap.every(n=>n===1||n===2));
-    assert.equal(new Set(ids.slice(0,27)).size,27);
+    assert.equal(new Set(ids).size,140);
     assert.equal(view(game).state.phase,"finished");
     assert.deepEqual(view(game).state.paid,Array(28).fill(5));
-    assert.equal(view(game).completedStops.length,27);
+    const solvedScenes = ids.map(id => questionBank(he,tier).byId.get(id)!.stop.id);
+    assert.deepEqual(new Set(view(game).completedStops.map(stop => stop.id)),new Set(solvedScenes));
     assert.equal(view(game).state.scores[0],correct);
     assert.equal(routeFor(game,he),"/journey");
-    common.push(ids);
+    if (routes.has(tier)) assert.deepEqual(ids,routes.get(tier));
+    else routes.set(tier,ids);
   }
-  for(const ids of common) assert.deepEqual(ids,common[0]);
+  assert.equal(new Set([...routes.values()].map(ids => ids.join("|"))).size,4);
 });
 
 test("a near event name gives the same player another try, even on the last heart", () => {
-  for (const [catalog, near] of [[he, "סיפור נוח"], [en, "Noah's story"]] as const) {
+  for (const catalog of [he, en]) {
     let game = arrive(start("moses", "b", "duo"), catalog);
     game = answer(game, catalog, false);
     game = answer(game, catalog, false);
     const opening = view(game, catalog);
     assert.equal(opening.state.lives, 1);
+    const near = opening.puzzle.partialAnswers?.find(value => classifyGuess(value, opening.puzzle)==="near");
+    assert.ok(near);
     game = play(game, {type:"expedition-draft", key:opening.key, value:near}, catalog);
     const attempt = {type:"expedition-answer", key:opening.key, now:1010, value:near} as const;
     assert.equal(transition(game, attempt, catalog), game);
@@ -163,7 +172,7 @@ test("treasure timeout, pause and penalties are bounded and each type grants its
       game=play(game,ok);assert.equal(transition(game,ok,he),game);
       assert.equal(activeProfile(game).tokens,initial+(item==="jar"?1:0));
       assert.equal(view(game).state.lives,lives+(item==="staff"?1:0));found.add(item);
-      if((item==="lamp"||item==="seal")&&view(game).state.phase==="travel"&&!view(game).finale){
+      if((item==="lamp"||item==="seal")&&view(game).state.phase==="travel"&&!view(game).question){
         game=arrive(game);const before=view(game);
         const n=activeProfile(game).tokens;
         game=play(game,{type:"expedition-buy",key:before.key,clue:item==="lamp"?"hint":"letter"});
@@ -229,5 +238,96 @@ test("migrating a completed companion journey relocates treasures to the remaini
       assert.deepEqual(restore(JSON.stringify(g),he),g);
     }
     assert.ok(tally.every(n=>n===1||n===2));
+  }
+});
+
+
+test("ordinary decks draw without replacement from rising curriculum bands, independent of the guide", () => {
+  const bank = questionBank(he), first = new Set<string>(), routes = new Set<string>();
+  const seen = new Set<string>();
+  for(let seed=0;seed<50;seed++) {
+    const deck=drawExpeditionDeck(bank,seed,new Set());
+    validateDeck(deck,bank);
+    assert.deepEqual(drawExpeditionDeck(questionBank(en),seed,new Set()),deck);
+    first.add(deck[0]!); routes.add(deck.join("|")); deck.forEach(id=>seen.add(id));
+    assert.equal(new Set(deck).size,140);
+    let prior=-1;
+    for(let map=1;map<=7;map++) {
+      const cards=deck.slice((map-1)*20,map*20).map(id=>bank.byId.get(id)!);
+      const difficulty=cards.reduce((n,c)=>n+c.rank,0)/cards.length;
+      assert.ok(difficulty > prior, `difficulty must increase on map ${map}, seed ${seed}`); prior=difficulty;
+      assert.ok(cards.filter(c=>c.map===map).length >= (map===7 ? 4 : map>=5 ? 3 : 2),
+        "later maps add more comparisons across biblical books");
+      for(const card of cards) if(card.map) assert.equal(card.map,map);
+      for(let l=0;l<4;l++){
+        const group=cards.slice(l*5,l*5+5);
+        assert.ok(new Set(group.map(c=>c.stop.id)).size>=2,"different scenes in the same landmark");
+        assert.equal(new Set(group.map(c=>c.stop.id+"/"+c.artStep)).size,5);
+      }
+    }
+  }
+  assert.ok(first.size >= 3);
+  assert.equal(routes.size,50);
+  for(const id of ["gen-abram","gen-babel","gen-jacob","gen-joseph"])
+    assert.ok(seen.has(id+"/0"), `ordinary opening mystery for ${id}`);
+});
+
+test("live fixed-route saves keep the current picture, answer, hints, wallet and timer, but draw later landmarks",()=>{
+  let g=arrive(start("moses","b"));
+  // Reconstitute the exact old shape, where all 5 cards belonged to the same landmark story.
+  let s=current(g,he).journey!.expedition!;
+  delete s.deck; delete s.curriculumTier;
+  s.progress={...s.progress,draft:"תיבת",image:2,hint:true};
+  const first=view(g);
+  assert.equal(first.stop.id,"life-noah-1");assert.equal(first.artStep,0);
+  const upgraded=restore(JSON.stringify(g),en);
+  const v=view(upgraded);
+  assert.deepEqual(v.state.progress,s.progress);
+  assert.equal(v.cardId,first.cardId);assert.equal(v.key,first.key);
+  assert.equal(activeProfile(upgraded).tokens,activeProfile(g).tokens);assert.deepEqual(v.state.paid,s.paid);
+  const bank=questionBank(he);
+  assert.deepEqual(v.state.deck!.slice(0,5),bank.legacy.slice(0,5));
+  assert.notDeepEqual(v.state.deck!.slice(5),bank.legacy.slice(5));
+  assert.deepEqual(restore(JSON.stringify(upgraded),he),upgraded);
+
+  g=nextBonus(g); s=current(g,he).journey!.expedition!;
+  const before=view(g);const migrated=restore(JSON.stringify(g),en);const after=view(migrated);
+  assert.equal(after.bonus?.id,before.bonus?.id);assert.equal(after.state.deadline,s.deadline);
+  const paidEnd=(s.landmark+1)*5;
+  assert.deepEqual(after.state.deck!.slice(0,paidEnd),bank.legacy.slice(0,paidEnd));
+  assert.deepEqual(after.state.encounters,s.encounters);
+  assert.equal(after.state.phase,"bonus");
+  assert.ok(view(answer(migrated,en)).state.landmark>s.landmark);
+});
+
+test("an old comparison-only final landmark still awards one token per card", () => {
+  let game = arrive(start("noah", "c"));
+  delete view(game).state.deck; delete view(game).state.curriculumTier;
+  while (view(game).state.landmark < 27) {
+    const phase = view(game).state.phase;
+    game = phase === "travel" || phase === "discovery" ? arrive(game) : answer(game, he);
+  }
+  game = restore(JSON.stringify(arrive(game)), en);
+  const bank = questionBank(en);
+  assert.deepEqual(view(game).state.deck, bank.legacy);
+  for (let i = 0; i < 5; i++) {
+    const card = view(game, en);
+    assert.equal(card.cardId, "finale/" + i);
+    assert.ok(card.question);
+    const balance = activeProfile(game).tokens;
+    game = answer(game, en);
+    assert.equal(activeProfile(game).tokens, balance + 1);
+    assert.deepEqual(restore(JSON.stringify(game), he), game);
+  }
+});
+
+test("corrupt question identity or order cannot be loaded as a different puzzle",()=>{
+  const g=start("samson"), s=current(g,he).journey!.expedition!, original=s.deck!;
+  for(const replacement of [
+    [...original.slice(1)], ["missing-card",...original.slice(1)],
+    [original[1]!,original[0]!,...original.slice(2)],
+    [original[5]!,...original.slice(1)],
+  ]) {
+    s.deck=replacement;assert.throws(()=>restore(JSON.stringify(g),he));
   }
 });

@@ -1,0 +1,1070 @@
+{
+  "sources": {
+    "tanakh": "https://www.sefaria.org/texts/Tanakh",
+    "psalms": "https://www.sefaria.org/Psalms",
+    "job": "https://www.sefaria.org/Job",
+    "wisdom": "https://www.sefaria.org/Proverbs",
+    "kohelet": "https://www.sefaria.org/Ecclesiastes",
+    "daniel": "https://www.sefaria.org/Daniel",
+    "lamentations": "https://www.sefaria.org/Lamentations",
+    "chronicles": "https://www.sefaria.org/II_Chronicles",
+    "ezekiel": "https://www.sefaria.org/Ezekiel",
+    "isaiah": "https://www.sefaria.org/Isaiah",
+    "nehemiah": "https://www.sefaria.org/Nehemiah"
+  },
+  "groups": [
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 0,
+      "ids": [
+        "life-noah-1/0",
+        "life-noah-1/1",
+        "life-noah-1/2",
+        "life-noah-1/3",
+        "life-noah-1/4",
+        "life-moses-1/0",
+        "life-moses-1/1",
+        "life-moses-1/2",
+        "life-moses-1/3",
+        "life-moses-1/4",
+        "life-samson-1/0",
+        "life-samson-1/1",
+        "life-samson-1/2",
+        "life-samson-1/3",
+        "life-samson-1/4",
+        "connection/bezalel-wood",
+        "connection/midwives-baby",
+        "connection/sarah-message"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 1,
+      "ids": [
+        "life-noah-6/0",
+        "life-noah-6/1",
+        "life-noah-6/2",
+        "life-noah-6/3",
+        "life-noah-6/4",
+        "life-moses-6/0",
+        "life-moses-6/1",
+        "life-moses-6/2",
+        "life-moses-6/3",
+        "life-moses-6/4",
+        "life-samson-6/0",
+        "life-samson-6/1",
+        "life-samson-6/2",
+        "life-samson-6/3",
+        "life-samson-6/4",
+        "gen-babel/0",
+        "gen-babel/1",
+        "gen-babel/2",
+        "gen-babel/3",
+        "gen-babel/4",
+        "connection/abigail-provisions",
+        "connection/rachel-well",
+        "connection/david-lion"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 2,
+      "ids": [
+        "life-noah-2/0",
+        "life-noah-2/1",
+        "life-noah-2/2",
+        "life-noah-2/3",
+        "life-noah-2/4",
+        "life-moses-2/0",
+        "life-moses-2/1",
+        "life-moses-2/2",
+        "life-moses-2/3",
+        "life-moses-2/4",
+        "life-samson-2/0",
+        "life-samson-2/1",
+        "life-samson-2/2",
+        "life-samson-2/3",
+        "life-samson-2/4"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 3,
+      "ids": [
+        "life-noah-3/0",
+        "life-noah-3/1",
+        "life-noah-3/2",
+        "life-noah-3/3",
+        "life-noah-3/4",
+        "life-moses-7/0",
+        "life-moses-7/1",
+        "life-moses-7/2",
+        "life-moses-7/3",
+        "life-moses-7/4",
+        "life-samson-7/0",
+        "life-samson-7/1",
+        "life-samson-7/2",
+        "life-samson-7/3",
+        "life-samson-7/4",
+        "gen-abram/0",
+        "gen-abram/1",
+        "gen-abram/2",
+        "gen-abram/3",
+        "gen-abram/4",
+        "connection/rahab-doorway",
+        "connection/joshua-sandal",
+        "connection/jonathan-honey"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 4,
+      "ids": [
+        "life-noah-7/0",
+        "life-noah-7/1",
+        "life-noah-7/2",
+        "life-noah-7/3",
+        "life-noah-7/4",
+        "life-moses-3/0",
+        "life-moses-3/1",
+        "life-moses-3/2",
+        "life-moses-3/3",
+        "life-moses-3/4",
+        "life-samson-8/0",
+        "life-samson-8/1",
+        "life-samson-8/2",
+        "life-samson-8/3",
+        "life-samson-8/4",
+        "connection/elijah-raincloud",
+        "connection/esther-scepter",
+        "connection/ebed-melech-ropes"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 5,
+      "ids": [
+        "life-noah-8/0",
+        "life-noah-8/1",
+        "life-noah-8/2",
+        "life-noah-8/3",
+        "life-noah-8/4",
+        "life-moses-4/0",
+        "life-moses-4/1",
+        "life-moses-4/2",
+        "life-moses-4/3",
+        "life-moses-4/4",
+        "life-samson-3/0",
+        "life-samson-3/1",
+        "life-samson-3/2",
+        "life-samson-3/3",
+        "life-samson-3/4",
+        "gen-jacob/0",
+        "gen-jacob/1",
+        "gen-jacob/2",
+        "gen-jacob/3",
+        "gen-jacob/4",
+        "connection/gideon-dew",
+        "connection/ruth-road",
+        "connection/hagar-water"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 6,
+      "ids": [
+        "life-noah-4/0",
+        "life-noah-4/1",
+        "life-noah-4/2",
+        "life-noah-4/3",
+        "life-noah-4/4",
+        "life-moses-8/0",
+        "life-moses-8/1",
+        "life-moses-8/2",
+        "life-moses-8/3",
+        "life-moses-8/4",
+        "life-samson-4/0",
+        "life-samson-4/1",
+        "life-samson-4/2",
+        "life-samson-4/3",
+        "life-samson-4/4"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 7,
+      "ids": [
+        "life-noah-9/0",
+        "life-noah-9/1",
+        "life-noah-9/2",
+        "life-noah-9/3",
+        "life-noah-9/4",
+        "life-moses-9/0",
+        "life-moses-9/1",
+        "life-moses-9/2",
+        "life-moses-9/3",
+        "life-moses-9/4",
+        "life-samson-9/0",
+        "life-samson-9/1",
+        "life-samson-9/2",
+        "life-samson-9/3",
+        "life-samson-9/4",
+        "gen-joseph/0",
+        "gen-joseph/1",
+        "gen-joseph/2",
+        "gen-joseph/3",
+        "gen-joseph/4",
+        "connection/elijah-ravens",
+        "connection/elisha-loaves",
+        "connection/joseph-grain"
+      ]
+    },
+    {
+      "source": "tanakh",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "rank": 8,
+      "ids": [
+        "life-noah-5/0",
+        "life-noah-5/1",
+        "life-noah-5/2",
+        "life-noah-5/3",
+        "life-noah-5/4",
+        "life-moses-5/0",
+        "life-moses-5/1",
+        "life-moses-5/2",
+        "life-moses-5/3",
+        "life-moses-5/4",
+        "life-samson-5/0",
+        "life-samson-5/1",
+        "life-samson-5/2",
+        "life-samson-5/3",
+        "life-samson-5/4",
+        "finale/0",
+        "finale/1",
+        "finale/2",
+        "finale/3",
+        "finale/4",
+        "connection/deborah-barak",
+        "connection/jordan-memory",
+        "connection/solomon-pillars"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "psalm-builder",
+      "stopId": "life-noah-1",
+      "artStep": 2,
+      "rank": 0,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ו׳, י״ד–כ״ב; תהילים קכ״ז, א׳",
+        "en": "Genesis 6:14–22 and Psalm 127:1"
+      },
+      "he": {
+        "prompt": "נח בונה לפי הוראה. במזמור קכ״ז ניצבים זה לצד זה בונה בית ושומר עיר. איזה יסוד משותף לשני המשלים?",
+        "options": [
+          "מאמץ אנושי עלול להיות לשווא בלי מעורבות אלוהית",
+          "שתי המלאכות נמדדות רק לפי מראה הבית המוגמר",
+          "הצלחת הבנייה מוטלת כולה על השומר"
+        ],
+        "answer": 0,
+        "explanation": "״שווא״ חוזר לגבי שתי המלאכות. בשתיהן נבחן הגבול של מה שמאמץ אנושי לבדו משיג."
+      },
+      "en": {
+        "prompt": "Noah builds under instruction. Psalm 127 sets a house builder alongside a city guard. What premise unites the two sayings?",
+        "options": [
+          "Human effort may be in vain without divine involvement",
+          "Both tasks are judged only by the finished house’s appearance",
+          "The success of the building is left entirely to the guard"
+        ],
+        "answer": 0,
+        "explanation": "The refrain about labour in vain applies to both jobs and probes the limits of human effort alone."
+      },
+      "opening": true
+    },
+    {
+      "id": "ant-provision",
+      "stopId": "life-noah-6",
+      "artStep": 2,
+      "rank": 0,
+      "source": "wisdom",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ו׳, כ״א–כ״ב; משלי ו׳, ו׳–י״א",
+        "en": "Genesis 6:21–22 and Proverbs 6:6–11"
+      },
+      "he": {
+        "prompt": "נח אוסף מזון על פי צו. החכם במשלי שולח את העצל להתבונן בנמלה. מדוע מוזכר שאין לה קצין או מושל?",
+        "options": [
+          "היעדר פיקוח מסביר מדוע היא מחכה בחורף למזון",
+          "הכנת המזון מדגימה יוזמה גם בלא פיקוח",
+          "אין קצין שיקציב לה את מה שאספה בעונת הקציר"
+        ],
+        "answer": 1,
+        "explanation": "הנמלה מכינה את לחמה בעונתו בלי ממונה שידרבן אותה. מכאן עוקצו של המשל המכוון למי שדוחה את המלאכה."
+      },
+      "en": {
+        "prompt": "Noah stores provisions under orders. Proverbs sends the sluggard to observe the ant. Why mention that it has no officer or ruler?",
+        "options": [
+          "Lack of supervision explains why she waits for winter to find food",
+          "Its preparation shows initiative without supervision",
+          "No officer rations her stores when harvest comes"
+        ],
+        "answer": 1,
+        "explanation": "The ant puts food away in season without an overseer to prompt it. That sharpens the rebuke to someone who puts off work."
+      },
+      "opening": true
+    },
+    {
+      "id": "daniel-food",
+      "stopId": "life-moses-8",
+      "artStep": 2,
+      "rank": 1,
+      "source": "daniel",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות ט״ז, י״ז–י״ח; דניאל א׳, ח׳–ט״ז",
+        "en": "Exodus 16:17–18 and Daniel 1:8–16"
+      },
+      "he": {
+        "prompt": "באיסוף המן מודדים כמויות. דניאל מבקש לקצוב לנערים מזון אחר לעשרה ימים. מה מציע דניאל למדוד בתום הניסיון?",
+        "options": [
+          "את המראה שלהם בהשוואה לאוכלי פת המלך",
+          "את מידת החכמה שכל נער מפגין בשאלות המלך",
+          "את יכולתו של כל נער לשמור על המנה שהוקצבה לו"
+        ],
+        "answer": 0,
+        "explanation": "הניסוי המוצע מסתיים בהסתכלות במראה הנערים ובהשוואתו. רכישת החכמה מופיעה בהמשך בהקשר אחר."
+      },
+      "en": {
+        "prompt": "Quantities are measured in the manna account. Daniel proposes a different diet for ten days. What does he invite the steward to assess afterwards?",
+        "options": [
+          "Their appearance against that of the youths eating the royal food",
+          "The wisdom each youth shows when questioned by the king",
+          "Each youth’s ability to keep to his allotted ration"
+        ],
+        "answer": 0,
+        "explanation": "The proposed trial ends with observation and comparison of appearance. Learning and wisdom feature later, in a different connection."
+      },
+      "opening": true
+    },
+    {
+      "id": "sea-doors",
+      "stopId": "life-noah-3",
+      "artStep": 3,
+      "rank": 2,
+      "source": "job",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ז׳, י״א–י״ב; איוב ל״ח, ח׳–י״א",
+        "en": "Genesis 7:11–12 and Job 38:8–11"
+      },
+      "he": {
+        "prompt": "בסיפור המבול מתבקעים מעיינות תהום. באיוב ל״ח מדומה הים לילוד היוצא מרחם, ואז מוזכרים בריח ודלתיים. מה מדגישה התמונה השנייה?",
+        "options": [
+          "את פתיחת מחסומי המים כדי שישקו ארץ צחיחה",
+          "את השיבה למצב שבו מים מכסים את כל היבשה",
+          "את קביעת הגבול להתפרצות הים"
+        ],
+        "answer": 2,
+        "explanation": "הדלתיים והבריח מכינים את הקביעה שעד כאן רשאים הגלים לבוא. הים עז, אך לגאותו נקבע גבול."
+      },
+      "en": {
+        "prompt": "The deep breaks open in the flood. Job 38 pictures the sea bursting from a womb and then speaks of bolts and doors. What does the second image emphasize?",
+        "options": [
+          "The opening of water barriers to irrigate dry land",
+          "A return to a state where water covers all dry land",
+          "A limit imposed on the sea’s surge"
+        ],
+        "answer": 2,
+        "explanation": "Doors and a bolt lead into the decree that the waves may come only so far. The sea is forceful but bounded."
+      },
+      "opening": true
+    },
+    {
+      "id": "wind-circles",
+      "stopId": "life-noah-7",
+      "artStep": 1,
+      "rank": 2,
+      "source": "kohelet",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ח׳, א׳; קהלת א׳, ד׳–ז׳",
+        "en": "Genesis 8:1 and Ecclesiastes 1:4–7"
+      },
+      "he": {
+        "prompt": "הרוח מעל התיבה מסמנת שלב חדש. בתיאור הרוח בקהלת א׳ נדחסים שוב ושוב פעלים מאותו שורש סב״ב. מה יוצר ריבוי הפעלים?",
+        "options": [
+          "תחושת תנועה מתמדת שיש בה שיבה על המסלול",
+          "תחושת התקדמות רצופה מנקודת מוצא ליעד אחרון",
+          "תחושה שהכיוון מתחלף רק בעקבות מעשה אנושי"
+        ],
+        "answer": 0,
+        "explanation": "מילות הסיבוב מלוות את הרוח בדרכה ובשובה. כך הפרק מתאר פעילות רבה במסגרת מחזורית."
+      },
+      "en": {
+        "prompt": "The wind over the ark marks a new stage. Ecclesiastes 1 repeats words of turning as it describes the wind. What effect does that repetition create?",
+        "options": [
+          "Constant movement that returns to a circuit",
+          "A steady advance from a starting point to a final destination",
+          "A sense that direction changes only through human intervention"
+        ],
+        "answer": 0,
+        "explanation": "Words of circling follow the wind both outward and back. The passage pictures intense activity within a recurring pattern."
+      }
+    },
+    {
+      "id": "not-carriage",
+      "stopId": "life-moses-5",
+      "artStep": 2,
+      "rank": 2,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "במדבר כ״ז, ט״ו–י״ז; תהילים ע״ח, ע׳–ע״ב",
+        "en": "Numbers 27:15–17 and Psalm 78:70–72"
+      },
+      "he": {
+        "prompt": "משה חושש שישראל יישארו כצאן בלי רועה. בסיום תהילים ע״ח דוד נלקח ממכלאות צאן לרעות את ישראל. מה משתנה במילת הרעייה?",
+        "options": [
+          "המזמור משאיר את המיומנות הגופנית מחוץ לתיאור המלך",
+          "עיסוקו הקודם של דוד נעשה דגם למנהיגותו",
+          "הרעייה ממחישה את ויתורו של דוד על האחריות לציבור"
+        ],
+        "answer": 1,
+        "explanation": "המזמור קושר בין עבודה ממשית עם צאן ובין הנהגת עם, ומוסיף את תום הלב ותבונת הכפיים."
+      },
+      "en": {
+        "prompt": "Moses fears Israel may become sheep without a shepherd. Psalm 78 ends with David taken from sheepfolds to shepherd Israel. What shifts in the language of shepherding?",
+        "options": [
+          "The psalm leaves practical skill out of its depiction of the king",
+          "David’s former work becomes a model of leadership",
+          "Shepherding illustrates David’s giving up responsibility for the people"
+        ],
+        "answer": 1,
+        "explanation": "The psalm links actual work with flocks to guiding a people, adding integrity of heart and skilful hands."
+      }
+    },
+    {
+      "id": "feet-beautiful",
+      "stopId": "gen-abram",
+      "artStep": 1,
+      "rank": 3,
+      "source": "isaiah",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית י״ב, ד׳–ה׳; ישעיהו נ״ב, ז׳–ח׳",
+        "en": "Genesis 12:4–5 and Isaiah 52:7–8"
+      },
+      "he": {
+        "prompt": "הדרך ההררית בציור מתאימה להליכת נוסע. בנבואת ישעיהו נאות על ההרים רגלי המבשר. ממה נובע היופי לפי המשך הפסוק?",
+        "options": [
+          "מתוכן הבשורה על שלום, ישועה ומלכות",
+          "מן המסע הארוך כשלעצמו, בלי קשר למה שייאמר בסופו",
+          "מכך שהמבשר הוא שמבצע בעצמו את כל מעשי הישועה"
+        ],
+        "answer": 0,
+        "explanation": "הפסוק מפרט מה המבשר משמיע לציון. יופיין של הרגליים כרוך בתפקידן להביא בשורה זו."
+      },
+      "en": {
+        "prompt": "The mountain road suits a traveller. Isaiah 52 calls the messenger’s feet beautiful on the mountains. What explains the beauty as the verse unfolds?",
+        "options": [
+          "The news of peace, salvation and kingship",
+          "The length of the journey itself, regardless of what is said at its end",
+          "The messenger personally performing all the acts of deliverance"
+        ],
+        "answer": 0,
+        "explanation": "The verse unfolds the message brought to Zion. The feet are beautiful in carrying that news."
+      }
+    },
+    {
+      "id": "raven-speech",
+      "stopId": "life-noah-4",
+      "artStep": 2,
+      "rank": 3,
+      "source": "job",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ח׳, ו׳–ט׳; איוב ל״ח, ל״ט–מ״א",
+        "en": "Genesis 8:6–9 and Job 38:39–41"
+      },
+      "he": {
+        "prompt": "בסיפור נח העורב קודם ליונה. בסוף איוב ל״ח העורב וגוזליו חותמים רצף שאלות על חיות רעבות. את ידיעתו ויכולתו של מי השאלות מעמידות במבחן?",
+        "options": [
+          "של גוזלי העורב, שנדרשים למצוא מזון בלי להיעזר בהוריהם",
+          "של איוב, הנדרש לשקול אם הוא יכול לפרנס את חיות הבר",
+          "של נח, שהכתוב מבקש ממנו להבחין בין שתי הציפורים"
+        ],
+        "answer": 1,
+        "explanation": "הדובר פונה לאיוב ושואל מי מספק מזון ליצורים אלה. צעקת הגוזלים מחדדת את גבולות שליטת האדם."
+      },
+      "en": {
+        "prompt": "The raven precedes the dove in Noah’s account. Job 38 ends a sequence about hungry creatures with the raven and its young. Whose knowledge and ability are being challenged?",
+        "options": [
+          "The ravens’ young, who must learn to find food without their parents",
+          "Job’s, as he considers whether he can provide for wild animals",
+          "Noah’s, as he must distinguish the roles of the two birds"
+        ],
+        "answer": 1,
+        "explanation": "The speaker addresses Job, asking who supplies food for these creatures. The crying young bring the limits of human control into focus."
+      }
+    },
+    {
+      "id": "water-stone",
+      "stopId": "life-samson-8",
+      "artStep": 3,
+      "rank": 3,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שופטים ט״ו, י״ח–י״ט; תהילים קי״ד, ז׳–ח׳",
+        "en": "Judges 15:18–19 and Psalm 114:7–8"
+      },
+      "he": {
+        "prompt": "שמשון שותה לאחר שבוקעים מים בלחי. בתהילים קי״ד הפיכת צור לאגם צמודה לקריאה לארץ לחול. איזה תפקיד יש לתמורה שבסלע במזמור?",
+        "options": [
+          "היא קובעת שהמשורר מספר את סיפור לחי פעם נוספת",
+          "היא מציגה את הארץ כמי ששולטת במוצא המעיינות",
+          "היא ממחישה את הכוח שלפניו הארץ נקראת לרעוד"
+        ],
+        "answer": 2,
+        "explanation": "בסיום המזמור מזוהה האדון שאליו מכוונת הקריאה באמצעות מעשהו בטבע. הסיפור בלחי עוסק בהצלת אדם צמא."
+      },
+      "en": {
+        "prompt": "Samson drinks after water opens up at Lehi. Psalm 114 puts a rock becoming a pool beside a call for the earth to tremble. What role does the rock play in the psalm?",
+        "options": [
+          "It establishes that the psalmist is retelling the incident at Lehi",
+          "It presents the earth as controlling the source of the springs",
+          "It illustrates the power before which the earth is called to tremble"
+        ],
+        "answer": 2,
+        "explanation": "The change in nature identifies the Lord whose presence prompts trembling. At Lehi the narrative concerns a thirsty man’s rescue."
+      }
+    },
+    {
+      "id": "enemies-return",
+      "stopId": "life-moses-3",
+      "artStep": 2,
+      "rank": 4,
+      "source": "lamentations",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות י״ב, ל״ז–ל״ט; איכה א׳, א׳–ג׳",
+        "en": "Exodus 12:37–39 and Lamentations 1:1–3"
+      },
+      "he": {
+        "prompt": "יציאת המשפחות ממצרים מצוירת כתנועה משותפת. בראש איכה העיר מתוארת כיושבת בדד אחרי שגלתה יהודה. איזו בחירה ספרותית מעניקה לעיר קול של אבל אישי?",
+        "options": [
+          "קינה של מנהיג ששמו מזוהה בכותרת ומסביר את חורבן העיר",
+          "האנשת העיר כאישה שאיבדה את מקומה וקשריה",
+          "הצגת האבל מפיו של קהל גולים המדבר כולו בלשון רבים"
+        ],
+        "answer": 1,
+        "explanation": "שינוי המעמד מוצג דרך דימויים אנושיים של בדידות ואלמנות. כך אסון עירוני מופיע כחוויית אובדן."
+      },
+      "en": {
+        "prompt": "The families leaving Egypt move together. At the opening of Lamentations the city sits alone as Judah goes into exile. What gives the city the shape of personal grief?",
+        "options": [
+          "A lament by a leader named in the heading who explains the city’s ruin",
+          "Personifying it as a woman bereft of status and relationships",
+          "Presenting the grief of a whole company of exiles speaking in the first-person plural"
+        ],
+        "answer": 1,
+        "explanation": "Changed status is conveyed through human images of solitude and widowhood. A civic disaster takes the form of personal loss."
+      }
+    },
+    {
+      "id": "job-miners",
+      "stopId": "life-samson-9",
+      "artStep": 1,
+      "rank": 4,
+      "source": "job",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שופטים ט״ז, כ״א; איוב כ״ח, א׳–י״ב",
+        "en": "Judges 16:21 and Job 28:1–12"
+      },
+      "he": {
+        "prompt": "כוח אדם מניע את אבן הטחינה באיור. איוב כ״ח מפרט מה כורים מסוגלים להוציא ממעמקי הארץ, ואז שואל היכן נמצאת החכמה. מה בונה המעבר?",
+        "options": [
+          "מעבר מן השאלה היכן מוצאים חכמה להוכחה שכורים כבר השיגוה",
+          "הנחה שלחכמה ולמתכות יש מחיר הניתן לחישוב באותה שיטה",
+          "ניגוד בין מיומנות להשיג מחצבים ובין הקושי למצוא חכמה"
+        ],
+        "answer": 2,
+        "explanation": "הכורים חודרים למקומות שרגל חיה אינה דורכת בהם. ההישג המרשים דווקא מעצים את השאלה על החכמה."
+      },
+      "en": {
+        "prompt": "Human strength moves the millstone. Job 28 describes what miners can bring from the depths, then asks where wisdom can be found. What does that turn achieve?",
+        "options": [
+          "A move from asking where wisdom is found to proving that miners have obtained it",
+          "An assumption that wisdom and metals can be priced in the same way",
+          "It sets technical mastery in mining against the difficulty of finding wisdom"
+        ],
+        "answer": 2,
+        "explanation": "Miners reach paths untouched by wild creatures. The scale of their achievement intensifies the question about wisdom."
+      }
+    },
+    {
+      "id": "rain-each",
+      "stopId": "life-noah-3",
+      "artStep": 4,
+      "rank": 4,
+      "source": "job",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ז׳, י״ז–כ״ג; איוב ל״ח, כ״ה–כ״ז",
+        "en": "Genesis 7:17–23 and Job 38:25–27"
+      },
+      "he": {
+        "prompt": "המים המציפים את הארץ מאיימים על יושביה. באיוב ל״ח הגשם יורד גם על מדבר שאין בו אדם. מדוע היעדר האדם חשוב לשאלה הרטורית?",
+        "options": [
+          "הגשם מצמיח חיים גם מחוץ למרחב התועלת האנושית",
+          "הוא מלמד שהגשם מגיע למדבר רק לאחר שכל היישובים נענו",
+          "הוא מעביר את האחריות לצמיחת המדבר מן האל אל עובדי האדמה"
+        ],
+        "answer": 0,
+        "explanation": "הפסוקים מקשרים בין הגשם לשביעת שממה ולהצמחת דשא. צורכי האדם אינם המידה היחידה של פעולת הטבע כאן."
+      },
+      "en": {
+        "prompt": "The pictured flood threatens the inhabitants of the land. Job 38 describes rain falling on a desert where no human lives. Why stress the absence of people?",
+        "options": [
+          "Rain sustains growth beyond the sphere of human use",
+          "It shows that desert rainfall waits until every settlement is supplied",
+          "It places responsibility for desert growth on human cultivators"
+        ],
+        "answer": 0,
+        "explanation": "The verses connect rain with satisfying wasteland and bringing grass to growth. Human need is not the sole measure of this process."
+      }
+    },
+    {
+      "id": "ark-ezekiel",
+      "stopId": "life-noah-2",
+      "artStep": 3,
+      "rank": 5,
+      "source": "ezekiel",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ז׳, א׳, ז׳; יחזקאל י״ד, י״ג–כ׳",
+        "en": "Genesis 7:1,7 and Ezekiel 14:13–20"
+      },
+      "he": {
+        "prompt": "משפחת נח נכנסת עימו לתיבה. ביחזקאל י״ד נח נזכר עם דנאל ואיוב בתיאור ארץ שחטאה. איזה גבול מייחס הנביא לצדקת השלושה?",
+        "options": [
+          "הם יוכלו להציל את בני ביתם בלבד כשם שנח יצא עם משפחתו",
+          "הם משמשים עדות לכך שארץ שיש בה שלושה צדיקים פטורה ממשפט",
+          "באותה ארץ צדקתם תציל את נפשם בלבד"
+        ],
+        "answer": 2,
+        "explanation": "יחזקאל חוזר על כך שאפילו הבנים והבנות לא יינצלו בזכותם. השם המוכר משמש לטענה על אחריות אישית."
+      },
+      "en": {
+        "prompt": "Noah’s household enters the ark with him. Ezekiel 14 names Noah alongside Danel and Job in a hypothetical sinful land. What limit does the prophet put on their righteousness?",
+        "options": [
+          "They could deliver their households alone, just as Noah left with his family",
+          "They show that a land with three righteous people is exempt from judgment",
+          "In that land they would save only themselves"
+        ],
+        "answer": 2,
+        "explanation": "Ezekiel insists that even sons and daughters would not be rescued on their account. A familiar name serves a claim about individual responsibility."
+      }
+    },
+    {
+      "id": "what-is-built",
+      "stopId": "gen-babel",
+      "artStep": 2,
+      "rank": 5,
+      "source": "kohelet",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית י״א, ג׳–ח׳; קהלת ב׳, ד׳–י״א",
+        "en": "Genesis 11:3–8 and Ecclesiastes 2:4–11"
+      },
+      "he": {
+        "prompt": "בוני בבל מבקשים להנציח שם. בקהלת ב׳ הדובר מונה בתים, כרמים וברכות שבנה לעצמו ואז פונה להתבונן במעשיו. מה משתנה בין שני חלקי התיאור?",
+        "options": [
+          "מרשימת הישגים לבחינה מחודשת של ערכם",
+          "מדיון במעשי היחיד להוכחה שעושרו כבר עבר ליורש מסוים",
+          "מתיאור ההנאה למסקנה שכל מפעל ציבורי מבטיח יתרון ממושך"
+        ],
+        "answer": 0,
+        "explanation": "תחילה חוזרות פעולות בגוף ראשון. המבט לאחור מעמיד את ההישגים מול השאלה על יתרונם."
+      },
+      "en": {
+        "prompt": "Babel’s builders seek a name. In Ecclesiastes 2 the speaker lists houses, vineyards and pools built for himself, then turns to look at his works. What changes?",
+        "options": [
+          "A catalogue of achievements becomes a reassessment of their value",
+          "From personal accomplishments to proof that a particular heir has already received the estate",
+          "From describing pleasure to concluding that every public project secures lasting gain"
+        ],
+        "answer": 0,
+        "explanation": "First-person actions accumulate. Looking back subjects those achievements to the question of lasting gain."
+      }
+    },
+    {
+      "id": "daniel-kings",
+      "stopId": "life-moses-7",
+      "artStep": 3,
+      "rank": 5,
+      "source": "daniel",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות ה׳, א׳–ב׳; דניאל ב׳, י״ט–כ״ג",
+        "en": "Exodus 5:1–2 and Daniel 2:19–23"
+      },
+      "he": {
+        "prompt": "מול פרעה מתבררת שאלת סמכותו של המלך. דניאל מברך אחרי שנגלה לו רז הלילה ומזכיר גם את החלפת המלכים וגם את גילוי הנסתר. מה מחבר בין שני העניינים?",
+        "options": [
+          "מינוי המלכים משמש משל לידע ששום אדם אינו יכול לקבל",
+          "שלטון מדיני וידע נסתר מוצגים כנתונים לסמכות אלוהית",
+          "שני העניינים מתוארים כיכולות בלעדיות של חכמי החצר"
+        ],
+        "answer": 1,
+        "explanation": "הברכה מייחסת לאל הן הסרת מלכים והקמתם הן גילוי עמוקות. דניאל מכיר במקור יכולתו לפרש."
+      },
+      "en": {
+        "prompt": "The scene before Pharaoh raises the issue of royal authority. After a mystery is disclosed at night, Daniel blesses God for changing kings and revealing hidden things. What links these acts?",
+        "options": [
+          "The setting up of kings is an analogy for knowledge no human can receive",
+          "Both political power and hidden knowledge come under divine authority",
+          "Both acts are assigned exclusively to the court sages"
+        ],
+        "answer": 1,
+        "explanation": "The blessing attributes removing and raising kings and disclosing depths to God. Daniel acknowledges the source of his insight."
+      }
+    },
+    {
+      "id": "psalm-waters-memory",
+      "stopId": "life-moses-4",
+      "artStep": 3,
+      "rank": 6,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב; תהילים ע״ז, י״ז–כ״א",
+        "en": "Exodus 14:21–22 and Psalm 77:17–21 in Hebrew numbering (16–20 in many English editions)"
+      },
+      "he": {
+        "prompt": "בציור רואים את הנתיב שנפער בים. מזמור ע״ז מזכיר דרך במים ומיד אומר שעקבות ההולך לא נודעו. איזה מתח פיוטי נוצר?",
+        "options": [
+          "אפשר לזהות את ההנהגה בתוצאתה גם בלי לראות עקבות",
+          "מראה העקבות הוא המאפשר להבחין בין משה לבין אהרן",
+          "אובדן העקבות משמש ראיה לכך שלא הייתה בים הנהגה כלל"
+        ],
+        "answer": 0,
+        "explanation": "דרך אלוהית נזכרת בתוך המים בלי עקבות נראים. בסיום מתוארת הנהגת העם בידי משה ואהרן."
+      },
+      "en": {
+        "prompt": "A path through the sea is visible in the picture. Psalm 77 speaks of a way through the waters but says the traveller’s footprints were unknown. What poetic tension emerges?",
+        "options": [
+          "Guidance can be recognized by its result even without visible footprints",
+          "The sight of footprints is what distinguishes Moses from Aaron",
+          "The missing tracks serve as evidence that the sea crossing lacked any guide"
+        ],
+        "answer": 0,
+        "explanation": "A divine way is traced through water without visible tracks. The closing line names Moses and Aaron as those through whom the flock was led."
+      }
+    },
+    {
+      "id": "watchman-psalm",
+      "stopId": "life-noah-4",
+      "artStep": 1,
+      "rank": 6,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ח׳, ח׳–י״ב; תהילים ק״ל, ה׳–ז׳",
+        "en": "Genesis 8:8–12 and Psalm 130:5–7"
+      },
+      "he": {
+        "prompt": "נח ממתין ליונה שתשוב. הדובר בתהילים ק״ל משווה את ציפיית נפשו למשמרת הצופה לבוקר, וחוזר על הביטוי ״שומרים לבוקר״. כיצד פועלת החזרה?",
+        "options": [
+          "היא מחליפה את הציפייה בקריאה לנער את השומרים מתפקידם",
+          "היא משהה את הקריאה ומטעימה את עוצמת הציפייה",
+          "היא מבטיחה את מועד הישועה כשם שידועה שעת חילופי המשמר"
+        ],
+        "answer": 1,
+        "explanation": "החזרה משאירה את הקורא עוד רגע עם השומרים. הציפייה האישית עוברת בהמשך לקריאה לישראל לייחל."
+      },
+      "en": {
+        "prompt": "Noah waits for the dove. In Psalm 130 the speaker compares his longing to watchmen awaiting morning and repeats the watchmen’s phrase. What does repeating it do?",
+        "options": [
+          "It replaces expectation with a call to release the guards from duty",
+          "It makes the reader linger and intensifies the expectation",
+          "It fixes the hour of salvation as precisely as a scheduled change of watch"
+        ],
+        "answer": 1,
+        "explanation": "The repeated phrase keeps the reader waiting with the guards. The speaker then turns personal hope into an appeal to Israel."
+      }
+    },
+    {
+      "id": "two-voices-exile",
+      "stopId": "gen-abram",
+      "artStep": 3,
+      "rank": 6,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית י״ב, א׳–ה׳; תהילים קל״ז, א׳–ו׳",
+        "en": "Genesis 12:1–5 and Psalm 137:1–6"
+      },
+      "he": {
+        "prompt": "בית אביו של אברם נותר מאחור. במזמור על נהרות בבל עוברת הלשון מן הרבים היושבים ובוכים לשבועת יחיד לזכור את ירושלים. מה מוסיף שינוי הגוף?",
+        "options": [
+          "הוא מפריד בין קהל המבקש לזכור ליחיד המבקש לשכוח",
+          "הוא מעיד שהקינה של הרבים וסירוב היחיד לשיר שייכים לשתי גלויות שונות",
+          "כל דובר מקבל על עצמו חובת זיכרון בתוך החוויה המשותפת"
+        ],
+        "answer": 2,
+        "explanation": "שבועת ה״אני״ צומחת מתוך זיכרון קהילתי. היחיד מדבר בגופו על מחיר השכחה."
+      },
+      "en": {
+        "prompt": "Abram leaves his father’s house. Psalm 137 moves from exiles sitting and weeping together in Babylon to a singular vow to remember Jerusalem. What does the shift add?",
+        "options": [
+          "It separates a crowd that wishes to remember from an individual who wishes to forget",
+          "It identifies the communal lament and individual refusal to sing as belonging to two separate exiles",
+          "Each speaker takes on a personal obligation within the shared experience"
+        ],
+        "answer": 2,
+        "explanation": "The first-person vow grows out of communal memory. The individual invokes his own body in describing the cost of forgetting."
+      }
+    },
+    {
+      "id": "job-inscription",
+      "stopId": "life-noah-5",
+      "artStep": 1,
+      "rank": 7,
+      "source": "job",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ט׳, י״ב–ט״ז; איוב י״ט, כ״ג–כ״ד",
+        "en": "Genesis 9:12–16 and Job 19:23–24"
+      },
+      "he": {
+        "prompt": "הקשת מלווה ברית לדורות. איוב מבקש שדבריו ייכתבו ואף ייחצבו בצור. איזו תכונה של הכתובת מסבירה את ההחרפה מכתיבה לחציבה?",
+        "options": [
+          "יכולתה לציין בוודאות מי יקרא את הדברים לראשונה",
+          "עמידותה מעבר לרגע הדיבור",
+          "כוחה להפוך כל דבר שנחקק לעדות שכבר הוכרעה"
+        ],
+        "answer": 1,
+        "explanation": "איוב מבקש שדבריו יתקיימו לעד. המעבר אל הצור ואל כלי החריתה מעצים את בקשת השימור."
+      },
+      "en": {
+        "prompt": "The rainbow accompanies a covenant for generations. Job wishes his words written down, then engraved in rock. What property of an inscription explains the intensification?",
+        "options": [
+          "Its ability to specify who will first read the inscription",
+          "Its ability to endure beyond the moment of speaking",
+          "Its power to turn an inscribed claim into a judgment already settled"
+        ],
+        "answer": 1,
+        "explanation": "Job wants his words to last. Rock and engraving tools heighten the wish for a permanent record."
+      }
+    },
+    {
+      "id": "isaiah-noah",
+      "stopId": "life-noah-5",
+      "artStep": 4,
+      "rank": 7,
+      "source": "isaiah",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית ט׳, י״א–ט״ז; ישעיהו נ״ד, ט׳–י׳",
+        "en": "Genesis 9:11–16 and Isaiah 54:9–10"
+      },
+      "he": {
+        "prompt": "נח מקבל הבטחה בעניין המבול. בישעיהו נ״ד זיכרון מי נח מופנה אל נמען אחר. איזה תפקיד רטורי ממלאת ההבטחה הקדומה?",
+        "options": [
+          "היא תנאי לכך שציון תצליח להינצל באותו אמצעי שבו ניצל נח",
+          "היא מעבירה את כל פרטי ברית נח כמצוות המוטלות על ציון",
+          "היא תקדים המחזק את דברי הנחמה לציון"
+        ],
+        "answer": 2,
+        "explanation": "השבועה על המים משמשת בסיס להשוואה לשבועה כלפי הנמענת. כך זיכרון המבול מבסס אמון בנחמה."
+      },
+      "en": {
+        "prompt": "Noah receives a promise concerning the flood. Isaiah 54 invokes the waters of Noah while addressing someone else. What rhetorical work does the earlier promise do?",
+        "options": [
+          "It makes Zion’s safety depend on using Noah’s means of rescue",
+          "It reassigns every detail of Noah’s covenant as a command to Zion",
+          "It supplies a precedent supporting reassurance to Zion"
+        ],
+        "answer": 2,
+        "explanation": "The oath about the waters is compared with an oath to the present addressee. Memory of the flood is used to ground trust."
+      }
+    },
+    {
+      "id": "kohelet-silence",
+      "stopId": "life-moses-7",
+      "artStep": 1,
+      "rank": 7,
+      "source": "kohelet",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות ה׳, א׳–ג׳; קהלת ג׳, א׳–ח׳",
+        "en": "Exodus 5:1–3 and Ecclesiastes 3:1–8"
+      },
+      "he": {
+        "prompt": "משה ואהרן בוחרים לדבר לפני פרעה. בקהלת נכללות עת לחשות ועת לדבר באותה רשימת עתים. איזו מסקנה אפשר להסיק ממבנה הרשימה לבדו?",
+        "options": [
+          "יש מקום לשתי פעולות הפוכות, אך הרשימה אינה קובעת מתי בדיוק לבחור בכל אחת",
+          "זמן הדיבור חל בהכרח מיד אחרי כל שתיקה",
+          "הסדר בזוג מוכיח שלשתיקה תמיד יש יתרון ערכי"
+        ],
+        "answer": 0,
+        "explanation": "הזוג מצטרף לזוגות של ניגודים. אין ברשימה אמת מידה מפורטת להכרעה במקרה מסוים."
+      },
+      "en": {
+        "prompt": "Moses and Aaron choose to speak before Pharaoh. Ecclesiastes includes a time for silence and a time for speech in one catalogue. What follows from its structure alone?",
+        "options": [
+          "Both opposites have a place, though the list does not specify exactly when to choose each",
+          "Speech must begin immediately after every silence",
+          "Order within the pair establishes the moral superiority of silence"
+        ],
+        "answer": 0,
+        "explanation": "The pair belongs to a succession of opposites. The catalogue supplies no detailed rule for deciding an individual case."
+      }
+    },
+    {
+      "id": "nehemiah-building",
+      "stopId": "gen-babel",
+      "artStep": 2,
+      "rank": 7,
+      "source": "nehemiah",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית י״א, ג׳–ט׳; נחמיה ד׳, י׳–י״ב",
+        "en": "Genesis 11:3–9 and Nehemiah 4:10–12 in Hebrew numbering (4:16–18 in many English editions)"
+      },
+      "he": {
+        "prompt": "בוני בבל מקימים עיר ומגדל. בימי נחמיה כלי נשק מלווים את העבודה בחומה. לפי תיאור הבונים והסבלים, מה מונע קריאה של הקטע כתיאור בנייה בלבד?",
+        "options": [
+          "הנשק נזכר רק כזיכרון של קרב שכבר הסתיים",
+          "חלוקת מלאכה הכרוכה בכוננות מפני איום חיצוני",
+          "נחמיה מציג את הנשק כתחליף לפעולת בנייה ממשית"
+        ],
+        "answer": 1,
+        "explanation": "נחמיה מתאר פיקוח, נשיאת נשק ועבודת בנייה באותו זמן. הצורך בהגנה משנה את ארגון העבודה."
+      },
+      "en": {
+        "prompt": "Babel’s builders raise a city and tower. In Nehemiah weapons accompany work on the wall. What prevents reading the scene of builders and carriers as construction alone?",
+        "options": [
+          "Weapons are mentioned solely to remember a battle that has ended",
+          "Work is organized around readiness for an outside threat",
+          "Nehemiah presents weapons as a substitute for actually building"
+        ],
+        "answer": 1,
+        "explanation": "Nehemiah describes supervised building and armed readiness together. The need for defence shapes how the work is done."
+      }
+    },
+    {
+      "id": "psalm-manna-protest",
+      "stopId": "life-moses-8",
+      "artStep": 4,
+      "rank": 8,
+      "source": "psalms",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "שמות ט״ז, ד׳, י״ג–י״ח; תהילים ע״ח, י״ח–כ״ה",
+        "en": "Exodus 16:4,13–18 and Psalm 78:18–25"
+      },
+      "he": {
+        "prompt": "בסיפור המן יש הוראות מעשיות לליקוט. מזמור ע״ח משלב את הלחם מן השמיים אחרי שאלת העם אם אל יוכל לערוך שולחן במדבר. מה תורם מיקומו של המזון ברצף המזמור?",
+        "options": [
+          "המזון משמש מענה לספק שהוצב בדיבור ישיר",
+          "המזון מובא כרקע כרונולוגי ניטרלי, לפני שנוסח במזמור ספק כלשהו",
+          "סמיכות המזון לדיבור מייחסת לדוברים עצמם את כוח ההורדה"
+        ],
+        "answer": 0,
+        "explanation": "השאלה מעמידה את היכולת האלוהית בספק. הורדת המזון ברצף השירי מעמתת את האתגר שהושמע עם מענה במעשה."
+      },
+      "en": {
+        "prompt": "Exodus gives practical instructions for collecting manna. Psalm 78 places bread from heaven after the people ask whether God can spread a table in the wilderness. What does that placement do?",
+        "options": [
+          "The provision answers a doubt voiced in direct speech",
+          "The food is neutral background introduced before any doubt is voiced in the psalm",
+          "The proximity of food to speech attributes the power of provision to the speakers"
+        ],
+        "answer": 0,
+        "explanation": "The question challenges divine ability. The poem sets the spoken challenge beside a response enacted through provision."
+      }
+    },
+    {
+      "id": "chronicles-return",
+      "stopId": "gen-abram",
+      "artStep": 2,
+      "rank": 8,
+      "source": "chronicles",
+      "grade": "מבוגרים – היכרות רחבה עם המקרא",
+      "reference": {
+        "he": "בראשית י״ב, א׳–ה׳; דברי הימים ב׳ ל״ו, כ״ב–כ״ג; עזרא א׳, א׳–ו׳",
+        "en": "Genesis 12:1–5, 2 Chronicles 36:22–23 and Ezra 1:1–6"
+      },
+      "he": {
+        "prompt": "נסיעת אברם מצוירת בעיצומה. נוסח הצהרת כורש מופיע הן בסוף דברי הימים והן בראש עזרא. איזה הבדל יוצר מיקומו בשני הספרים?",
+        "options": [
+          "בדברי הימים מתואר רק ביצוע ההצהרה, ואילו עזרא מסתפק בנוסח ההזמנה",
+          "בדברי הימים ההזמנה לעלות חותמת את הספר, ובעזרא מסופרת אחריה היענות אנשים",
+          "בדברי הימים נמסר שרשימת העולים סופית, ובעזרא היא נפתחת למשא ומתן"
+        ],
+        "answer": 1,
+        "explanation": "דברי הימים מסתיים בקריאה לעלייה. עזרא ממשיך בתיאור הקמים לעלות והתמיכה שהם מקבלים."
+      },
+      "en": {
+        "prompt": "Abram’s journey is shown underway. Cyrus’s proclamation stands at the end of Chronicles and the start of Ezra. What difference does its placement make?",
+        "options": [
+          "Chronicles relates only the fulfilment of the decree while Ezra ends with the invitation",
+          "Chronicles closes on an invitation to go up; Ezra proceeds to describe people responding",
+          "Chronicles declares the list of returnees final while Ezra reopens it for negotiation"
+        ],
+        "answer": 1,
+        "explanation": "Chronicles ends with the summons to go up. Ezra follows it with people preparing to go and receiving support."
+      }
+    }
+  ],
+  "bonusSources": {
+    "moses": [
+      "life-moses-1",
+      "life-moses-6",
+      "life-moses-2",
+      "life-moses-7",
+      "life-moses-3",
+      "life-moses-4",
+      "life-moses-8",
+      "life-moses-9",
+      "life-moses-5"
+    ],
+    "noah": [
+      "life-noah-1",
+      "life-noah-6",
+      "life-noah-2",
+      "life-noah-3",
+      "life-noah-7",
+      "life-noah-8",
+      "life-noah-4",
+      "life-noah-9",
+      "life-noah-5"
+    ],
+    "samson": [
+      "life-samson-1",
+      "life-samson-6",
+      "life-samson-2",
+      "life-samson-7",
+      "life-samson-8",
+      "life-samson-3",
+      "life-samson-4",
+      "life-samson-9",
+      "life-samson-5"
+    ]
+  }
+}

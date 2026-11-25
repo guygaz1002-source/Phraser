@@ -1,0 +1,1022 @@
+{
+  "sources": {
+    "primary": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "abram-lot": "https://edu.929.org.il/unit/אברהם-ולוט/",
+    "joseph-pharaoh": "https://edu.929.org.il/unit/מבית-האסורים-לבית-המלוכה/",
+    "social-laws": "https://edu.929.org.il/unit/מצוות-חברתיות/",
+    "scouts": "https://edu.929.org.il/unit/סיפור-המרגלים/",
+    "succession": "https://edu.929.org.il/unit/בנות-צלפחד-מות-משה-ומינוי-יהושע/",
+    "rahab": "https://edu.929.org.il/unit/רחב-והמרגלים/",
+    "samson": "https://edu.929.org.il/unit/שמשון-נזיר-מבטן/"
+  },
+  "groups": [
+    {
+      "source": "primary",
+      "grade": "ב׳",
+      "rank": 0,
+      "ids": [
+        "life-noah-1/*",
+        "life-noah-2/*",
+        "life-noah-6/0",
+        "life-noah-6/1",
+        "life-noah-6/2",
+        "life-noah-6/3",
+        "gen-babel/*"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ב׳",
+      "rank": 1,
+      "ids": [
+        "life-noah-3/*",
+        "life-noah-7/*",
+        "life-noah-8/0",
+        "life-noah-8/1",
+        "life-noah-8/2",
+        "life-noah-8/3",
+        "gen-abram/*"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ב׳",
+      "rank": 2,
+      "ids": [
+        "life-noah-4/*",
+        "life-noah-9/*",
+        "life-noah-5/*"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ג׳",
+      "rank": 2.5,
+      "ids": [
+        "gen-jacob/*",
+        "gen-joseph/*"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ד׳",
+      "rank": 3,
+      "ids": [
+        "life-moses-1/*",
+        "life-moses-6/*",
+        "life-moses-2/*",
+        "connection/midwives-baby",
+        "connection/rachel-well",
+        "connection/bezalel-wood"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ד׳",
+      "rank": 4,
+      "ids": [
+        "life-moses-7/0",
+        "life-moses-7/1",
+        "life-moses-7/2",
+        "life-moses-7/3",
+        "life-moses-3/*",
+        "life-moses-4/0",
+        "life-moses-4/1",
+        "life-moses-4/2",
+        "life-moses-4/3"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ד׳",
+      "rank": 5,
+      "ids": [
+        "life-moses-8/*",
+        "life-moses-9/0",
+        "life-moses-9/1",
+        "life-moses-9/2",
+        "life-moses-9/3",
+        "finale/0"
+      ]
+    },
+    {
+      "source": "succession",
+      "grade": "ה׳",
+      "rank": 6,
+      "ids": [
+        "life-moses-5/*"
+      ]
+    },
+    {
+      "source": "samson",
+      "grade": "ו׳",
+      "rank": 6.5,
+      "ids": [
+        "life-samson-1/*",
+        "life-samson-6/*",
+        "life-samson-2/*",
+        "connection/sarah-message"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ו׳",
+      "rank": 7,
+      "ids": [
+        "life-samson-7/*",
+        "life-samson-8/*",
+        "life-samson-3/*",
+        "connection/rahab-doorway",
+        "connection/joshua-sandal",
+        "connection/gideon-dew",
+        "connection/hagar-water"
+      ]
+    },
+    {
+      "source": "primary",
+      "grade": "ו׳",
+      "rank": 8,
+      "ids": [
+        "life-samson-4/*",
+        "life-samson-9/*",
+        "life-samson-5/*",
+        "life-moses-4/4",
+        "connection/deborah-barak",
+        "connection/jordan-memory",
+        "connection/joseph-grain",
+        "finale/2",
+        "finale/3"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "ark-pairs",
+      "stopId": "life-noah-2",
+      "artStep": 3,
+      "rank": 0,
+      "source": "primary",
+      "grade": "ב׳",
+      "reference": {
+        "he": "בראשית ו׳, י״ט–כ׳",
+        "en": "Genesis 6:19–20"
+      },
+      "he": {
+        "prompt": "בכבש הכניסה עולות חיות ממינים שונים. למה נח מצרף אליו בעלי חיים בכלל?",
+        "options": [
+          "כדי שיישארו בעלי חיים אחרי המבול",
+          "כדי שיקבעו מתי יתחיל לרדת גשם",
+          "כדי שיראו לו היכן לבנות תיבה"
+        ],
+        "answer": 0,
+        "explanation": "הציווי לנח הוא לשמור בתיבה גם על חייהם של בעלי החיים."
+      },
+      "en": {
+        "prompt": "Different kinds of animals walk up the ramp. Why is Noah taking animals aboard at all?",
+        "options": [
+          "So animals will survive the flood",
+          "So they can decide when the rain should start",
+          "So they can show him where to build an ark"
+        ],
+        "answer": 0,
+        "explanation": "Noah is told to keep animals alive on the ark as well as his family."
+      }
+    },
+    {
+      "id": "bricks-shinar",
+      "stopId": "gen-babel",
+      "artStep": 1,
+      "rank": 1,
+      "source": "primary",
+      "grade": "ב׳",
+      "reference": {
+        "he": "בראשית י״א, א׳–ד׳",
+        "en": "Genesis 11:1–4"
+      },
+      "he": {
+        "prompt": "אילו רצינו לסמן במפה היכן האנשים שבציור מעבירים לבנים מיד ליד, מה היינו מחפשים?",
+        "options": [
+          "הר בארץ כנען",
+          "חוף ליד ארץ מצרים",
+          "בקעה בארץ שנער"
+        ],
+        "answer": 2,
+        "explanation": "הבונים מצאו בקעה בארץ שנער ושם התיישבו והכינו לבנים."
+      },
+      "en": {
+        "prompt": "To mark the place where these workers are passing bricks, what would we look for on a map?",
+        "options": [
+          "A mountain in Canaan",
+          "A shore near Egypt",
+          "A plain in Shinar"
+        ],
+        "answer": 2,
+        "explanation": "The builders settled on a plain in Shinar and started making bricks there."
+      }
+    },
+    {
+      "id": "lot-pasture",
+      "stopId": "gen-abram",
+      "artStep": 2,
+      "rank": 1,
+      "source": "abram-lot",
+      "grade": "ב׳",
+      "reference": {
+        "he": "בראשית י״ג, ה׳–י״א",
+        "en": "Genesis 13:5–11"
+      },
+      "he": {
+        "prompt": "לוט יצא עם אברם ועם העדרים שבתמונה. בהמשך היו להם עדרים גדולים מכדי לשבת יחד. איך אברם הציע להפסיק את הריב?",
+        "options": [
+          "שכל אחד ירעה באזור אחר ולוט יבחר ראשון",
+          "שהרועים של לוט יעברו לעבוד אצל אברם",
+          "ששניהם יחזרו עם העדרים לחרן"
+        ],
+        "answer": 0,
+        "explanation": "אברם הציע שייפרדו ונתן ללוט לבחור את מקומו. כך היה לכל אחד שטח לעדרו."
+      },
+      "en": {
+        "prompt": "Lot traveled with Abram and the herds in the picture. Later their herds grew too large to stay together. How did Abram offer to settle the quarrel?",
+        "options": [
+          "They would graze in different places, and Lot could choose first",
+          "Lot’s shepherds would all work for Abram",
+          "Both families would take their herds back to Haran"
+        ],
+        "answer": 0,
+        "explanation": "Abram offered to separate and let Lot choose his land. Each herd would have its own pasture."
+      }
+    },
+    {
+      "id": "rain-dove-waits",
+      "stopId": "life-noah-4",
+      "artStep": 2,
+      "rank": 2,
+      "source": "primary",
+      "grade": "ב׳",
+      "reference": {
+        "he": "בראשית ח׳, ח׳–י״ב",
+        "en": "Genesis 8:8–12"
+      },
+      "he": {
+        "prompt": "בפעם הראשונה היונה חזרה בלי עלה. למה נח לא יצא מהתיבה כשראה אותה?",
+        "options": [
+          "היא חזרה עם סימן שכל הארץ יבשה",
+          "הוא חיכה שתביא איתה את העורב",
+          "היא לא מצאה מקום לנוח עליו"
+        ],
+        "answer": 2,
+        "explanation": "היונה חזרה כי המים עוד כיסו את הארץ. העלה הופיע רק בשליחות הבאה."
+      },
+      "en": {
+        "prompt": "The first time the dove returned, it had no leaf. Why did Noah stay aboard when he saw it?",
+        "options": [
+          "The bird had brought proof that the whole earth was dry",
+          "He was waiting for the dove to bring back the raven",
+          "The bird had found nowhere to rest"
+        ],
+        "answer": 2,
+        "explanation": "The dove came back because water still covered the ground. The leaf appeared on a later trip."
+      }
+    },
+    {
+      "id": "bethel-on-map",
+      "stopId": "gen-jacob",
+      "artStep": 2,
+      "rank": 2,
+      "source": "primary",
+      "grade": "ג׳",
+      "reference": {
+        "he": "בראשית כ״ח, י״א–י״ט",
+        "en": "Genesis 28:11–19"
+      },
+      "he": {
+        "prompt": "יעקב התעורר מן החלום והרגיש שהמקום שבו ישן מיוחד. איך אפשר לסמן במפה את המקום בשם שנתן לו בבוקר?",
+        "options": [
+          "בית אל",
+          "באר שבע",
+          "חרן"
+        ],
+        "answer": 0,
+        "explanation": "יעקב קרא למקום בית אל לאחר שקם משנתו. באר שבע היא המקום שממנו יצא וחרן היא היעד שלו."
+      },
+      "en": {
+        "prompt": "Jacob wakes from this dream and feels that the place is special. Which name would he use to mark it on a map that morning?",
+        "options": [
+          "Bethel",
+          "Beersheba",
+          "Haran"
+        ],
+        "answer": 0,
+        "explanation": "Jacob named the place Bethel after he woke. Beersheba is where he set out from, and Haran is where he was headed."
+      }
+    },
+    {
+      "id": "long-sleep",
+      "stopId": "gen-jacob",
+      "artStep": 0,
+      "rank": 2,
+      "source": "primary",
+      "grade": "ג׳",
+      "reference": {
+        "he": "בראשית כ״ח, י׳–ט״ו",
+        "en": "Genesis 28:10–15"
+      },
+      "he": {
+        "prompt": "יעקב ישן בדרך לחרן, רחוק מביתו. איזו הבטחה שבחלום עונה על דאגה של נוסע במקום זר?",
+        "options": [
+          "שלא יצטרך לעזוב את המקום שבו נרדם",
+          "שה׳ ישמור עליו בדרך וישיב אותו לארץ",
+          "שהדרך תסתיים עוד באותו לילה"
+        ],
+        "answer": 1,
+        "explanation": "בחלום נאמר ליעקב שה׳ יהיה עמו בכל מקום שאליו ילך ושישיב אותו לארץ."
+      },
+      "en": {
+        "prompt": "Jacob sleeps on the way to Haran, far from home. Which promise in the dream answers a traveller’s worry in an unfamiliar place?",
+        "options": [
+          "That he will never have to leave the place where he fell asleep",
+          "That God will guard him on the journey and bring him back",
+          "That his journey will end that very night"
+        ],
+        "answer": 1,
+        "explanation": "Jacob hears that God will be with him wherever he goes and will bring him back to the land."
+      },
+      "opening": true
+    },
+    {
+      "id": "joseph-grain-dreams",
+      "stopId": "gen-joseph",
+      "artStep": 1,
+      "rank": 3,
+      "source": "joseph-pharaoh",
+      "grade": "ג׳",
+      "reference": {
+        "he": "בראשית ל״ז, ז׳; מ״א, ה׳–ז׳ וכ״ה–ל׳",
+        "en": "Genesis 37:7 and 41:5–7, 25–30"
+      },
+      "he": {
+        "prompt": "בחלום יוסף אלומות משתחוות. גם פרעה חלם על תבואה. איזה פרט שייך דווקא לחלום של פרעה?",
+        "options": [
+          "שיבולים דקות בולעות שיבולים מלאות",
+          "אלומה אחת ניצבת ושאר האלומות משתחוות לה",
+          "אחים קושרים אלומות יחד בשדה"
+        ],
+        "answer": 0,
+        "explanation": "יוסף חלם על אלומות האחים. בחלום פרעה שבע שיבולים דקות בלעו שבע שיבולים בריאות."
+      },
+      "en": {
+        "prompt": "In Joseph’s dream, sheaves bow. Pharaoh also dreamed about grain. Which detail belongs to Pharaoh’s dream?",
+        "options": [
+          "Thin ears of grain swallow full ears",
+          "One sheaf stands while the other sheaves bow",
+          "Brothers bind their sheaves together in a field"
+        ],
+        "answer": 0,
+        "explanation": "Joseph dreamed about his brothers’ sheaves. In Pharaoh’s dream seven thin ears swallowed seven plump ones."
+      }
+    },
+    {
+      "id": "joseph-keeping-dream",
+      "stopId": "gen-joseph",
+      "artStep": 3,
+      "rank": 3,
+      "source": "primary",
+      "grade": "ג׳",
+      "reference": {
+        "he": "בראשית ל״ז, ט׳–י״א",
+        "en": "Genesis 37:9–11"
+      },
+      "he": {
+        "prompt": "אחרי ששמע את החלום על השמש, הירח והכוכבים, האב נזף ביוסף. מה מגלה שגם המשיך לחשוב על דברי בנו?",
+        "options": [
+          "מסופר שהוא ביקש מיוסף לחלום שוב באותו לילה",
+          "מסופר שהוא שמר את הדבר בלבו",
+          "מסופר שהוא מיד ציווה על האחים להשתחוות"
+        ],
+        "answer": 1,
+        "explanation": "לצד התגובה הגלויה נאמר שאביו שמר את הדבר. הוא לא שכח את החלום שסופר לו."
+      },
+      "en": {
+        "prompt": "After hearing the dream about the sun, moon and stars, the father rebukes Joseph. What shows that he also went on thinking about his son’s words?",
+        "options": [
+          "We are told he asked Joseph to dream again that night",
+          "We are told he kept the matter in mind",
+          "We are told he immediately ordered the brothers to bow"
+        ],
+        "answer": 1,
+        "explanation": "The story reports both his rebuke and the fact that he kept the matter in mind."
+      }
+    },
+    {
+      "id": "joseph-stores-by-town",
+      "stopId": "life-noah-6",
+      "artStep": 3,
+      "rank": 3,
+      "source": "joseph-pharaoh",
+      "grade": "ג׳",
+      "reference": {
+        "he": "בראשית מ״א, מ״ז–מ״ט",
+        "en": "Genesis 41:47–49"
+      },
+      "he": {
+        "prompt": "בתיבה שבתמונה מרכזים מזון ליד מי שיזדקקו לו. כשיוסף אסף תבואה במצרים, לאן הביא את תבואת השדות סביב כל עיר?",
+        "options": [
+          "את כולה לארמון פרעה",
+          "את כולה לכנען",
+          "אל אותה עיר"
+        ],
+        "answer": 2,
+        "explanation": "יוסף אסף בכל עיר את תבואת השדות שסביבה. כך נוצרו מאגרים בערים."
+      },
+      "en": {
+        "prompt": "The food aboard this ark is stored near those who will need it. When Joseph collected grain in Egypt, where did he take the grain from the fields around each city?",
+        "options": [
+          "All of it to Pharaoh’s palace",
+          "All of it to Canaan",
+          "Into that city"
+        ],
+        "answer": 2,
+        "explanation": "Joseph gathered the grain from each city’s surrounding fields into that city. The towns became storage places."
+      }
+    },
+    {
+      "id": "sister-nurse",
+      "stopId": "life-moses-1",
+      "artStep": 3,
+      "rank": 3,
+      "source": "primary",
+      "grade": "ד׳",
+      "reference": {
+        "he": "שמות ב׳, ה׳–ט׳",
+        "en": "Exodus 2:5–9"
+      },
+      "he": {
+        "prompt": "בת פרעה גילתה תינוק בוכה בתיבה. איזו הצעה של אחותו אפשרה לאמו לטפל בו שוב?",
+        "options": [
+          "להביא אישה מן העבריות שתיניק אותו",
+          "לקחת את בת פרעה לפגוש את פרעה",
+          "לתת לתינוק שם מצרי מיד על שפת היאור"
+        ],
+        "answer": 0,
+        "explanation": "האחות הציעה לקרוא למינקת ואחר כך קראה לאמו של התינוק."
+      },
+      "en": {
+        "prompt": "Pharaoh’s daughter finds a crying baby in the basket. What did his sister offer that let his mother care for him again?",
+        "options": [
+          "To find a Hebrew woman to nurse him",
+          "To take Pharaoh’s daughter to see Pharaoh",
+          "To give the child an Egyptian name right there by the Nile"
+        ],
+        "answer": 0,
+        "explanation": "The sister offered to find a nurse and then went to call the baby’s own mother."
+      }
+    },
+    {
+      "id": "midian-witness",
+      "stopId": "life-moses-6",
+      "artStep": 3,
+      "rank": 4,
+      "source": "primary",
+      "grade": "ד׳",
+      "reference": {
+        "he": "שמות ב׳, ט״ז–כ׳",
+        "en": "Exodus 2:16–20"
+      },
+      "he": {
+        "prompt": "רואים את הצאן ליד השוקת. באותו ערב האב הופתע שבנותיו חזרו מוקדם. איזה פרט בסיפור מסביר לו את ההקדמה?",
+        "options": [
+          "הן חזרו הביתה לפני שהצאן הספיק לשתות",
+          "הן מצאו שהצאן כבר חזר הביתה בלעדיהן",
+          "משה הגן עליהן וגם השקה את הצאן"
+        ],
+        "answer": 2,
+        "explanation": "הבנות סיפרו שהאיש הציל אותן מיד הרועים ושאב מים בעבורן."
+      },
+      "en": {
+        "prompt": "The flock is at the trough. That evening the father was surprised to see his daughters back early. What explains their early return?",
+        "options": [
+          "They went home before the animals had a drink",
+          "They found the flock had already gone home without them",
+          "Moses defended them and watered their flock"
+        ],
+        "answer": 2,
+        "explanation": "The daughters said that a man rescued them from the shepherds and drew water for them."
+      }
+    },
+    {
+      "id": "pharaoh-straw",
+      "stopId": "life-moses-7",
+      "artStep": 3,
+      "rank": 4,
+      "source": "primary",
+      "grade": "ד׳",
+      "reference": {
+        "he": "שמות ה׳, ו׳–י״א",
+        "en": "Exodus 5:6–11"
+      },
+      "he": {
+        "prompt": "אחרי המפגש שבציור פרעה מכביד את עבודת הלבנים. מה הופך את הצו החדש לקשה במיוחד?",
+        "options": [
+          "צריך למצוא קש לבד ולהכין אותה כמות לבנים",
+          "צריך למצוא קש לבד ולהכין פחות לבנים",
+          "מקבלים יותר קש ומכינים אותה כמות לבנים"
+        ],
+        "answer": 0,
+        "explanation": "פרעה הפסיק לספק קש אך השאיר את מכסת הלבנים כשהייתה."
+      },
+      "en": {
+        "prompt": "After the meeting in the picture, Pharaoh makes the brick work harder. What is especially hard about the new order?",
+        "options": [
+          "Workers must find their own straw and still make the same number of bricks",
+          "Workers must find their own straw but make fewer bricks",
+          "Workers are given more straw for the same number of bricks"
+        ],
+        "answer": 0,
+        "explanation": "Pharaoh stops supplying straw but keeps the brick quota the same."
+      }
+    },
+    {
+      "id": "sixth-day",
+      "stopId": "life-moses-8",
+      "artStep": 2,
+      "rank": 5,
+      "source": "primary",
+      "grade": "ד׳",
+      "reference": {
+        "he": "שמות ט״ז, כ״א–כ״ו",
+        "en": "Exodus 16:21–26"
+      },
+      "he": {
+        "prompt": "איש ליד האוהלים ליקט מנה כפולה של מן ביום השישי. למה דווקא באותו יום?",
+        "options": [
+          "כדי לחלק את המן למטיילים שחזרו ממצרים",
+          "כדי להכין זרעים לזריעה אחרי השבת",
+          "כדי שיהיה מה לאכול בשבת, כשלא יצאו ללקט"
+        ],
+        "answer": 2,
+        "explanation": "ביום השישי ליקטו גם ליום המחרת. בשבת לא נמצא מן בשדה."
+      },
+      "en": {
+        "prompt": "A person near these tents gathers twice as much manna on the sixth day. Why on that day?",
+        "options": [
+          "To feed travellers returning from Egypt",
+          "To save seed for planting after the Sabbath",
+          "To have food on the Sabbath, when there would be no gathering"
+        ],
+        "answer": 2,
+        "explanation": "On the sixth day the people gathered for the following day too. On the Sabbath there was no manna in the field."
+      }
+    },
+    {
+      "id": "cloud-camp",
+      "stopId": "life-moses-9",
+      "artStep": 1,
+      "rank": 5,
+      "source": "primary",
+      "grade": "ה׳",
+      "reference": {
+        "he": "שמות י״ט, ט״ז; במדבר ט׳, ט״ו–כ״ג",
+        "en": "Exodus 19:16 and Numbers 9:15–23"
+      },
+      "he": {
+        "prompt": "בתמונה הענן מכסה את פסגת סיני. בהמשך הענן שוכן מעל המשכן. איזה שינוי בענן הודיע למחנה שהגיע הזמן לצאת?",
+        "options": [
+          "הוא התרומם מעל המשכן",
+          "הוא נשאר מעל המשכן גם בבוקר",
+          "הוא הסתיר את הפסגה של הר סיני"
+        ],
+        "answer": 0,
+        "explanation": "כל עוד הענן נשאר, בני ישראל חנו. כשהענן עלה מעל המשכן, הם נסעו."
+      },
+      "en": {
+        "prompt": "Here the cloud covers the top of Sinai. Later a cloud rests over the tabernacle. Which change told the camp it was time to move?",
+        "options": [
+          "It lifted from above the tabernacle",
+          "It still rested over the tabernacle the next morning",
+          "It hid the top of Mount Sinai"
+        ],
+        "answer": 0,
+        "explanation": "The Israelites stayed in camp while the cloud rested there. When it rose, they set out."
+      }
+    },
+    {
+      "id": "field-edge",
+      "stopId": "gen-joseph",
+      "artStep": 1,
+      "rank": 5,
+      "source": "social-laws",
+      "grade": "ה׳",
+      "reference": {
+        "he": "ויקרא י״ט, ט׳–י׳",
+        "en": "Leviticus 19:9–10"
+      },
+      "he": {
+        "prompt": "דמיינו את השדה שממנו נאספו האלומות שבציור. בעל השדה רוצה לקיים את מצוות פאה. מה יעשה בשיבולים שבקצה שדהו?",
+        "options": [
+          "ישתמש בהן לסמן היכן יעמדו האלומות",
+          "ישאיר אותן לקציר לעניים ולגרים",
+          "יקצור אותן לפני כל שאר השדה"
+        ],
+        "answer": 1,
+        "explanation": "מצוות פאה משאירה חלק מקצה השדה לעני ולגר, כדי שיוכלו לקצור ממנו בעצמם."
+      },
+      "en": {
+        "prompt": "Imagine a strip of uncut grain beside these sheaves. How would a farmer follow the law about the edge of the field?",
+        "options": [
+          "Use the strip to mark where the sheaves must stand",
+          "Leave the grain there for poor people and newcomers to reap",
+          "Cut the edge before reaping the rest of the field"
+        ],
+        "answer": 1,
+        "explanation": "The farmer leaves part of the edge for poor people and newcomers to reap for themselves."
+      }
+    },
+    {
+      "id": "honest-measure",
+      "stopId": "life-noah-6",
+      "artStep": 1,
+      "rank": 5,
+      "source": "social-laws",
+      "grade": "ה׳",
+      "reference": {
+        "he": "ויקרא י״ט, ל״ה–ל״ו",
+        "en": "Leviticus 19:35–36"
+      },
+      "he": {
+        "prompt": "הגרגירים ביד האיש שבציור יכולים להימדד בכלי. סוחר הבטיח מידה שלמה, אך השתמש בכלי קטן ממנה. איזו מצווה תעזור לקונה לקבל את מה ששילם עליו?",
+        "options": [
+          "לא לקצור בקצה השדה",
+          "לקום מפני אדם מבוגר",
+          "להשתמש במידות ישרות"
+        ],
+        "answer": 2,
+        "explanation": "ספר ויקרא דורש דיוק במידות ובמשקולות. כלי קטן מן המידה המובטחת פוגע בקונה."
+      },
+      "en": {
+        "prompt": "The grain in this man’s hand could be measured in a container. A seller promises a full measure but uses a smaller container. Which law would give the buyer what they paid for?",
+        "options": [
+          "Leave the edge of the field uncut",
+          "Stand in the presence of an elder",
+          "Use honest measures"
+        ],
+        "answer": 2,
+        "explanation": "Leviticus calls for accurate weights and measures. Using less than the promised measure cheats the buyer."
+      }
+    },
+    {
+      "id": "scouts-grapes",
+      "stopId": "life-samson-6",
+      "artStep": 1,
+      "rank": 5,
+      "source": "scouts",
+      "grade": "ה׳",
+      "reference": {
+        "he": "במדבר י״ג, י״ז–כ׳ וכ״ג–כ״ז",
+        "en": "Numbers 13:17–20, 23–27"
+      },
+      "he": {
+        "prompt": "גפנים צומחות בכרם שבציור. גם המרגלים ששלח משה הגיעו לכרם. מה הביאו משם כדי שהעם יוכל לראות בעצמו דוגמה לפרי הארץ?",
+        "options": [
+          "אשכול ענבים שנשאו במוט",
+          "זרעי ענבים שעדיין לא נבטו",
+          "גפן צעירה שהעבירו לעציץ"
+        ],
+        "answer": 0,
+        "explanation": "המרגלים כרתו זמורה ובה אשכול ענבים. שניים נשאו אותו במוט."
+      },
+      "en": {
+        "prompt": "Grapevines grow in the vineyard in the picture. The scouts Moses sent also reached a vineyard. What did they bring back so the people could see a sample of the fruit?",
+        "options": [
+          "A bunch of grapes carried on a pole",
+          "Grape seeds that had not yet sprouted",
+          "A young vine planted in a pot"
+        ],
+        "answer": 0,
+        "explanation": "The scouts cut a branch with a cluster of grapes. Two of them carried it on a pole."
+      }
+    },
+    {
+      "id": "two-reports",
+      "stopId": "life-samson-6",
+      "artStep": 1,
+      "rank": 6,
+      "source": "scouts",
+      "grade": "ה׳",
+      "reference": {
+        "he": "במדבר י״ג, כ״ז–ל״א; י״ד, ו׳–ט׳",
+        "en": "Numbers 13:27–31 and 14:6–9"
+      },
+      "he": {
+        "prompt": "חשבו על הענבים בכרם. המרגלים מסכימים שהארץ נותנת פרי טוב. על מה חלקו כלב ויהושע על שאר המרגלים?",
+        "options": [
+          "האם הביאו מן הארץ דוגמה של פרי",
+          "האם באמת נשלחו לראות את הארץ",
+          "האם העם יוכל להיכנס לארץ למרות הקושי"
+        ],
+        "answer": 2,
+        "explanation": "כולם ראו את הארץ. כלב ויהושע עודדו להיכנס אליה והאחרים אמרו שהעם לא יוכל לעלות."
+      },
+      "en": {
+        "prompt": "Think of the grapes in this vineyard. The scouts agreed that the land bore good fruit. Where did Caleb and Joshua disagree with the other scouts?",
+        "options": [
+          "On whether a fruit sample had been brought back",
+          "On whether they were sent to see the land at all",
+          "On whether the people could enter the land despite the obstacles"
+        ],
+        "answer": 2,
+        "explanation": "They had seen the same land. Caleb and Joshua urged the people to enter, while the others said they could not go up."
+      }
+    },
+    {
+      "id": "zelophehad-hearing",
+      "stopId": "life-moses-5",
+      "artStep": 3,
+      "rank": 6,
+      "source": "succession",
+      "grade": "ה׳",
+      "reference": {
+        "he": "במדבר כ״ז, א׳–י״א",
+        "en": "Numbers 27:1–11"
+      },
+      "he": {
+        "prompt": "משה פונה לעדה. בתחילת אותו פרק חמש אחיות באו לפני משה וביקשו נחלה. איזה קושי של משפחתן היה עליו לפתור?",
+        "options": [
+          "אביהן מת בלי בנים, והן ביקשו חלק בנחלתו",
+          "אביהן קיבל שתי נחלות, והן חיפשו למי לתת אחת",
+          "אביהן עוד לא חזר מן המסע, והן חיפשו אותו"
+        ],
+        "answer": 0,
+        "explanation": "בנות צלפחד ביקשו לשמור למשפחה את נחלת אביהן. בעקבות פנייתן נקבע דין ירושה למקרה שאין בן."
+      },
+      "en": {
+        "prompt": "Moses addresses the assembly. Earlier in this chapter five sisters came before him to ask for land. What problem did their family face?",
+        "options": [
+          "Their father died without sons, and they asked to inherit his share",
+          "Their father had received two shares, and they wanted to give one away",
+          "Their father had not returned from a journey, and they were looking for him"
+        ],
+        "answer": 0,
+        "explanation": "The daughters of Zelophehad sought their father’s share of the land. Their request led to a rule for inheritance when there was no son."
+      }
+    },
+    {
+      "id": "shepherd-leader",
+      "stopId": "life-moses-2",
+      "artStep": 1,
+      "rank": 6,
+      "source": "succession",
+      "grade": "ה׳",
+      "reference": {
+        "he": "שמות ג׳, א׳; במדבר כ״ז, ט״ו–י״ז",
+        "en": "Exodus 3:1 and Numbers 27:15–17"
+      },
+      "he": {
+        "prompt": "משה היה רועה, כמו בציור. כשהוא מבקש מנהיג שיחליף אותו, הוא משווה את העם לצאן. איזו יכולת הוא מבקש למנהיג הבא?",
+        "options": [
+          "להשאיר את כל האנשים במקום אחד לתמיד",
+          "להוביל את האנשים ביציאתם ובשובם",
+          "לדעת כמה כבשים נולדו לכל משפחה"
+        ],
+        "answer": 1,
+        "explanation": "משה מבקש אדם שיוציא ויביא את העדה כדי שלא תהיה כצאן שאין לו רועה."
+      },
+      "en": {
+        "prompt": "Moses once tended sheep, as in the picture. When he asks for another leader, he compares the people to a flock. What does he want their leader to be able to do?",
+        "options": [
+          "Keep everyone in the same place forever",
+          "Lead the people out and bring them back",
+          "Count how many lambs each household owns"
+        ],
+        "answer": 1,
+        "explanation": "Moses asks for someone to lead the community out and bring it back, so it will not be like sheep without a shepherd."
+      }
+    },
+    {
+      "id": "rock-instruction",
+      "stopId": "life-samson-8",
+      "artStep": 1,
+      "rank": 6,
+      "source": "primary",
+      "grade": "ה׳",
+      "reference": {
+        "he": "במדבר כ׳, ז׳–י״ב",
+        "en": "Numbers 20:7–12"
+      },
+      "he": {
+        "prompt": "מים נובעים מן הסלע באיור. בסיפור מי מריבה מים יצאו אחרי שמשה הכה בסלע. איזה פרט מראה הבדל בין מה שעשה לבין ההוראה שקיבל?",
+        "options": [
+          "הוא נצטווה לסגור את המעיין עד הלילה",
+          "הוא נצטווה לתת מים רק למי שהביא כד",
+          "הוא נצטווה לדבר אל הסלע לעיני העדה"
+        ],
+        "answer": 2,
+        "explanation": "משה לקח את המטה כפי שנצטווה, אבל במקום לדבר אל הסלע הוא הכה בו פעמיים."
+      },
+      "en": {
+        "prompt": "Water comes from rock in the picture. At Meribah, water came out after Moses struck the rock. What makes his action different from the instruction?",
+        "options": [
+          "He was to keep the spring closed until night",
+          "He was to give water only to people with jars",
+          "He was to speak to the rock in front of the people"
+        ],
+        "answer": 2,
+        "explanation": "Moses took the staff as instructed, but instead of speaking to the rock he struck it twice."
+      }
+    },
+    {
+      "id": "lasting-sign",
+      "stopId": "life-noah-5",
+      "artStep": 2,
+      "rank": 7,
+      "source": "primary",
+      "grade": "ו׳",
+      "reference": {
+        "he": "בראשית ט׳, י״ב–י״ז; יהושע ד׳, ד׳–ח׳ וכ׳–כ״ד",
+        "en": "Genesis 9:12–17 and Joshua 4:4–8, 20–24"
+      },
+      "he": {
+        "prompt": "הקשת שבציור מזכירה הבטחה אחרי המבול. אבני הירדן הוקמו כדי להזכיר את החצייה. מדוע נבחרו דווקא שתים עשרה אבנים?",
+        "options": [
+          "לאורך הנהר עמדו שתים עשרה ערים",
+          "הייתה אבן כנגד כל אחד משבטי ישראל",
+          "העם הלך על קרקעית הירדן שנים עשר ימים"
+        ],
+        "answer": 1,
+        "explanation": "יהושע קרא לאיש אחד מכל שבט לקחת אבן. כך כל השבטים יוצגו בזיכרון המשותף."
+      },
+      "en": {
+        "prompt": "The rainbow recalls a promise after the flood. Stones were set up to remember crossing the Jordan. Why exactly twelve stones?",
+        "options": [
+          "There were twelve cities along the river",
+          "One stone represented each tribe of Israel",
+          "The people walked on the riverbed for twelve days"
+        ],
+        "answer": 1,
+        "explanation": "Joshua called one man from each tribe to take a stone. All the tribes were represented in the memorial."
+      }
+    },
+    {
+      "id": "rahab-family",
+      "stopId": "life-noah-2",
+      "artStep": 3,
+      "rank": 7,
+      "source": "rahab",
+      "grade": "ו׳",
+      "reference": {
+        "he": "בראשית ז׳, ז׳; יהושע ב׳, י״ב–י״ג וי״ח–י״ט",
+        "en": "Genesis 7:7 and Joshua 2:12–13, 18–19"
+      },
+      "he": {
+        "prompt": "הפתח שבתמונה מוביל למקום מוגן. רחב ביקשה מן המרגלים להציל גם את קרוביה ביריחו. מה היה על בני המשפחה לעשות כדי שההבטחה תחול עליהם?",
+        "options": [
+          "להתפצל ולחכות בפתחי בתים שונים",
+          "לצאת מן הבית ברגע שיתחיל המצור",
+          "להיאסף בתוך ביתה של רחב"
+        ],
+        "answer": 2,
+        "explanation": "המרגלים הורו לרחב לאסוף את קרוביה אליה הביתה. הבית המסומן היה מקום ההגנה שהוסכם עליו."
+      },
+      "en": {
+        "prompt": "The doorway in the picture leads to safety. Rahab asked the scouts to save her relatives in Jericho too. What did her family have to do for the promise to cover them?",
+        "options": [
+          "Split up and wait at different doors",
+          "Leave home as soon as the city was surrounded",
+          "Gather inside Rahab’s house"
+        ],
+        "answer": 2,
+        "explanation": "The scouts told Rahab to bring her relatives into her house. The marked house was the agreed place of safety."
+      }
+    },
+    {
+      "id": "jordan-priests",
+      "stopId": "life-moses-4",
+      "artStep": 3,
+      "rank": 7,
+      "source": "primary",
+      "grade": "ו׳",
+      "reference": {
+        "he": "שמות י״ד, כ״ב; יהושע ג׳, י״ד–י״ז",
+        "en": "Exodus 14:22 and Joshua 3:14–17"
+      },
+      "he": {
+        "prompt": "טור אנשים חוצה את הים באיור. בחציית הירדן הלכו נושאי ארון הברית לפני העם. איפה עמדו הכוהנים בזמן שהשאר עברו?",
+        "options": [
+          "בתוך הירדן, עד שכל העם סיים לחצות",
+          "על הגדה שממנה יצאו, בלי להיכנס למים",
+          "במחנה החדש, לפני שהראשונים החלו לחצות"
+        ],
+        "answer": 0,
+        "explanation": "הכוהנים שנשאו את הארון עמדו על היבשה בתוך הירדן בזמן שכל ישראל עברו."
+      },
+      "en": {
+        "prompt": "A line of people crosses the sea in the picture. At the Jordan, the priests carrying the ark went ahead of the people. Where did the priests stand while the others crossed?",
+        "options": [
+          "Inside the Jordan until everyone was across",
+          "On the departure bank without entering the water",
+          "At the new camp before anyone began crossing"
+        ],
+        "answer": 0,
+        "explanation": "The priests carrying the ark stood on dry ground in the Jordan while all Israel crossed."
+      }
+    },
+    {
+      "id": "gideon-drink",
+      "stopId": "life-samson-8",
+      "artStep": 2,
+      "rank": 8,
+      "source": "primary",
+      "grade": "ו׳",
+      "reference": {
+        "he": "שופטים ז׳, ד׳–ז׳; ט״ו, י״ח–י״ט",
+        "en": "Judges 7:4–7 and 15:18–19"
+      },
+      "he": {
+        "prompt": "יד מתקרבת למים שבציור. גם בסיפור גדעון שפת המים היא מקום חשוב. מה היה גדעון יכול לגלות דווקא שם כשהביט באנשיו?",
+        "options": [
+          "למי יש כד חרס ולמי יש קערת עץ",
+          "מי זוכר את שמות השבטים שישבו ליד המים",
+          "מי מעלה מים ביד אל פיו ומי כורע לשתות"
+        ],
+        "answer": 2,
+        "explanation": "גדעון התבונן בדרך השתייה. מן הקבוצה שליקקה ביד אל הפה נבחרו שלוש מאות איש."
+      },
+      "en": {
+        "prompt": "A hand reaches toward water in the picture. The water’s edge also matters in Gideon’s story. What could he find out by watching his men there?",
+        "options": [
+          "Who had a clay jug and who had a wooden bowl",
+          "Who knew the names of the tribes living by the water",
+          "Who brought water to the mouth by hand and who knelt to drink"
+        ],
+        "answer": 2,
+        "explanation": "Gideon watched how the men drank. The three hundred who lapped water with a hand to the mouth were chosen."
+      }
+    },
+    {
+      "id": "gaza-gate-plan",
+      "stopId": "life-samson-3",
+      "artStep": 3,
+      "rank": 8,
+      "source": "primary",
+      "grade": "ו׳",
+      "reference": {
+        "he": "שופטים ט״ז, א׳–ג׳",
+        "en": "Judges 16:1–3"
+      },
+      "he": {
+        "prompt": "מן הגבעה רואים את העיר מאחורי שמשון ואת דלתות השער על כתפיו. התושבים תכננו לחכות לו עד הבוקר. איזה פרט בסיפור קלקל להם את התוכנית?",
+        "options": [
+          "שמשון קם באמצע הלילה ועקר את השער",
+          "שמשון נשאר בעיר גם אחרי הזריחה",
+          "שמשון ביקש משומרי הבוקר לפתוח בשבילו"
+        ],
+        "answer": 0,
+        "explanation": "התושבים חיכו לאור הבוקר. שמשון פעל כבר בחצות ויצא עם דלתות השער."
+      },
+      "en": {
+        "prompt": "From the hill we see the city behind Samson and its gates on his shoulders. The townspeople intended to wait for morning. What upset their plan?",
+        "options": [
+          "Samson rose in the middle of the night and pulled out the gate",
+          "Samson stayed in the city even after sunrise",
+          "Samson asked the morning guards to open up for him"
+        ],
+        "answer": 0,
+        "explanation": "The townspeople waited for daylight, but Samson acted at midnight and carried the gate away."
+      }
+    }
+  ],
+  "bonusSources": {
+    "noah": [
+      "life-noah-1",
+      "life-noah-6",
+      "life-noah-2",
+      "life-noah-3",
+      "life-noah-7",
+      "life-noah-8",
+      "life-noah-4",
+      "life-noah-9",
+      "life-noah-5"
+    ],
+    "moses": [
+      "life-moses-1",
+      "life-moses-6",
+      "life-moses-2",
+      "life-moses-7",
+      "life-moses-3",
+      "life-moses-4",
+      "life-moses-8",
+      "life-moses-9",
+      "life-moses-5"
+    ],
+    "samson": [
+      "life-samson-1",
+      "life-samson-6",
+      "life-samson-2",
+      "life-samson-7",
+      "life-samson-8",
+      "life-samson-3",
+      "life-samson-4",
+      "life-samson-9",
+      "life-samson-5"
+    ]
+  }
+}

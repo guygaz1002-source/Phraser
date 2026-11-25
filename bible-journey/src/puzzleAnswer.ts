@@ -1,4 +1,5 @@
 import { catalogFor } from "./catalogs";
+import { additionalBibleStops } from "./generalBibleStops";
 import type { Puzzle, PuzzleProgress } from "./types";
 
 export const newPuzzle = (): PuzzleProgress => ({
@@ -77,11 +78,10 @@ function isNamedEvent(value: string) {
   // "the Exodus" is its own answer, even though it contextualizes the Red Sea.
   if (!namedEvents) {
     namedEvents = new Set<string>();
-    for (const hero of catalogFor("he")) {
-      for (const stop of hero.stops) {
-        for (const puzzle of stop.puzzles) {
-          for (const name of [puzzle.answer, ...puzzle.aliases]) namedEvents.add(topicKey(name));
-        }
+    const stops = [...catalogFor("he").flatMap(hero => hero.stops), ...additionalBibleStops("he")];
+    for (const stop of stops) {
+      for (const puzzle of stop.puzzles) {
+        for (const name of [puzzle.answer, ...puzzle.aliases]) namedEvents.add(topicKey(name));
       }
     }
   }

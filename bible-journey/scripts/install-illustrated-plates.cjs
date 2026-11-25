@@ -64,7 +64,8 @@ async function installPaintings(root, stories, output=path.join(root,"assets/puz
 if(require.main===module){
  const root=path.resolve(__dirname,"..");
  const manifest=require(path.join(root,"content/FULL_JOURNEYS_IMPORT.json"));
- installPaintings(root,manifest.stories).then(n=>console.log("Installed "+n+" illustrated game frames."))
+ const generalScenes=require(path.join(root,"content/general-bible-illustrations.json"));
+ installPaintings(root,[...manifest.stories,...generalScenes]).then(n=>console.log("Installed "+n+" illustrated game frames."))
   .catch(error=>{console.error(error);process.exitCode=1;});
 }
 module.exports={installPaintings,plateCells,writePlate};

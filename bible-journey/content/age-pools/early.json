@@ -1,0 +1,1972 @@
+{
+  "sources": {
+    "preschool": "https://edu.929.org.il/תכנית-הלימודים/קדם-יסודי/",
+    "first": "https://edu.929.org.il/תכנית-הלימודים/יסודי/"
+  },
+  "groups": [
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 0,
+      "ids": [
+        "life-noah-1/0",
+        "life-noah-1/1",
+        "life-noah-6/1",
+        "gen-babel/0",
+        "gen-jacob/1",
+        "gen-joseph/1"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 1,
+      "ids": [
+        "life-noah-1/2",
+        "life-noah-1/3",
+        "life-noah-6/0",
+        "life-noah-2/0",
+        "life-noah-2/3",
+        "gen-babel/1",
+        "gen-jacob/2"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 2,
+      "ids": [
+        "life-noah-6/2",
+        "life-noah-6/3",
+        "life-noah-2/1",
+        "life-noah-3/1",
+        "life-noah-8/2",
+        "life-noah-4/2"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 3,
+      "ids": [
+        "life-noah-2/2",
+        "life-noah-2/4",
+        "life-noah-3/0",
+        "gen-babel/2",
+        "gen-jacob/0",
+        "gen-joseph/3"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 4,
+      "ids": [
+        "life-noah-1/4",
+        "life-noah-8/1",
+        "gen-jacob/3",
+        "gen-joseph/0"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 5,
+      "ids": [
+        "life-noah-3/2",
+        "life-noah-3/3",
+        "life-noah-3/4",
+        "life-noah-7/1",
+        "life-noah-7/2",
+        "life-noah-9/1",
+        "life-noah-5/1",
+        "gen-babel/4",
+        "gen-joseph/2"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 6,
+      "ids": [
+        "life-noah-7/0",
+        "life-noah-7/3",
+        "life-noah-7/4",
+        "life-noah-8/3",
+        "life-noah-4/0",
+        "life-noah-4/1",
+        "life-noah-4/4",
+        "life-noah-9/2",
+        "life-noah-9/3",
+        "life-noah-5/2",
+        "gen-babel/3",
+        "gen-jacob/4"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 7,
+      "ids": [
+        "life-noah-8/0",
+        "life-noah-4/3",
+        "life-noah-9/0",
+        "life-noah-5/3",
+        "gen-joseph/4"
+      ]
+    },
+    {
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "rank": 8,
+      "ids": [
+        "life-noah-9/4",
+        "life-noah-5/0",
+        "life-noah-5/4"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 0,
+      "ids": [
+        "life-moses-1/0",
+        "life-moses-1/1",
+        "life-moses-1/2",
+        "life-moses-1/3",
+        "life-moses-6/1",
+        "life-moses-6/2",
+        "life-moses-6/3",
+        "life-moses-2/1",
+        "life-moses-2/3",
+        "life-samson-1/1",
+        "life-samson-1/2",
+        "life-samson-6/2",
+        "life-samson-2/2",
+        "gen-abram/0"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 1,
+      "ids": [
+        "life-moses-1/4",
+        "life-moses-6/0",
+        "life-moses-2/2",
+        "life-samson-1/3",
+        "life-samson-6/0",
+        "life-samson-6/3",
+        "life-samson-2/3",
+        "connection/midwives-baby"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 2,
+      "ids": [
+        "life-moses-2/0",
+        "life-moses-4/1",
+        "life-samson-1/0",
+        "life-samson-8/2",
+        "connection/sarah-message"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 3,
+      "ids": [
+        "life-moses-7/0",
+        "life-moses-3/2",
+        "life-moses-4/2",
+        "life-samson-1/4",
+        "life-samson-6/4",
+        "life-samson-8/1",
+        "life-samson-3/1",
+        "gen-abram/1"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 4,
+      "ids": [
+        "life-moses-2/4",
+        "life-moses-7/1",
+        "life-moses-7/3",
+        "life-moses-3/0",
+        "life-moses-3/1",
+        "life-moses-4/3",
+        "life-samson-2/0",
+        "life-samson-8/4",
+        "life-samson-3/2",
+        "connection/rachel-well",
+        "connection/esther-scepter"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 5,
+      "ids": [
+        "life-moses-7/2",
+        "life-moses-3/3",
+        "life-moses-3/4",
+        "life-moses-4/0",
+        "life-moses-8/1",
+        "life-moses-8/3",
+        "life-moses-9/1",
+        "life-samson-8/0",
+        "life-samson-8/3",
+        "life-samson-3/0",
+        "life-samson-3/3",
+        "gen-abram/2",
+        "connection/david-lion"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 6,
+      "ids": [
+        "life-moses-8/2",
+        "life-moses-9/0",
+        "life-moses-9/2"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 7,
+      "ids": [
+        "life-moses-6/4",
+        "life-moses-8/0",
+        "life-moses-8/4",
+        "life-moses-9/3",
+        "connection/ruth-road"
+      ]
+    },
+    {
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "rank": 8,
+      "ids": [
+        "life-samson-3/4"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "timber-gap",
+      "stopId": "life-noah-1",
+      "artStep": 1,
+      "rank": 5,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ו׳, י״ד–כ״ב",
+        "en": "Genesis 6:14–22"
+      },
+      "he": {
+        "prompt": "שלד התיבה עדיין פתוח בין הקורות. מה יקרה למים אם יורידו אותו כך לנהר?",
+        "options": [
+          "הם ייכנסו דרך הרווחים",
+          "הם יישארו רק על הגג",
+          "הם ייצאו דרך חלון סגור"
+        ],
+        "answer": 0,
+        "explanation": "לפני שהתיבה תצוף צריך לסגור את הדפנות בין הקורות."
+      },
+      "en": {
+        "prompt": "The wooden frame still has gaps. What would water do if Noah put it in the river now?",
+        "options": [
+          "Come in through the gaps",
+          "Stay up on the roof",
+          "Flow out of a closed window"
+        ],
+        "answer": 0,
+        "explanation": "Noah needs to close the sides between the beams before the ark can float."
+      }
+    },
+    {
+      "id": "tools-for-two",
+      "stopId": "life-noah-1",
+      "artStep": 2,
+      "rank": 2,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ו׳, י״ד–כ״ב",
+        "en": "Genesis 6:14–22"
+      },
+      "he": {
+        "prompt": "נח מחזיק פטיש. אילו חפצים מהציור כדאי לקרב אליו כדי שיוכל להמשיך לבנות?",
+        "options": [
+          "שיבולים מהשדה",
+          "קורות עץ",
+          "כדים של מי שתייה"
+        ],
+        "answer": 1,
+        "explanation": "הקורות יהפכו לדופן של התיבה."
+      },
+      "en": {
+        "prompt": "Noah has a mallet. What could you pass him so he can keep building the ark?",
+        "options": [
+          "Stalks from the field",
+          "Wooden planks",
+          "Jars of drinking water"
+        ],
+        "answer": 1,
+        "explanation": "The planks will make up the side of the ark."
+      }
+    },
+    {
+      "id": "visitor-sound",
+      "stopId": "life-moses-1",
+      "artStep": 3,
+      "rank": 4,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ב׳, ג׳–ט׳",
+        "en": "Exodus 2:3–9"
+      },
+      "he": {
+        "prompt": "בת פרעה שומעת בכי כשהיא פותחת את התיבה. מי יכול להשמיע את הקול הזה?",
+        "options": [
+          "התינוק שבתיבה",
+          "הקנים שליד הנהר",
+          "המכסה שבידה"
+        ],
+        "answer": 0,
+        "explanation": "בפנים שוכב תינוק. הבכי עוזר לה להבין שהוא צריך עזרה."
+      },
+      "en": {
+        "prompt": "Pharaoh’s daughter hears crying as she opens the basket. Who could be making that sound?",
+        "options": [
+          "The baby inside",
+          "The reeds by the river",
+          "The lid in her hand"
+        ],
+        "answer": 0,
+        "explanation": "A baby is lying inside. His crying tells her he needs care."
+      }
+    },
+    {
+      "id": "basket-name",
+      "stopId": "life-moses-1",
+      "artStep": 1,
+      "rank": 0,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות ב׳, ג׳–ט׳",
+        "en": "Exodus 2:3–9"
+      },
+      "he": {
+        "prompt": "סל קטן צף בין קני הנהר. את מי אמא השכיבה בו בסיפור?",
+        "options": [
+          "את משה התינוק",
+          "את נח הבנאי",
+          "את יעקב החולם"
+        ],
+        "answer": 0,
+        "explanation": "אמא הניחה את משה התינוק בתיבה קטנה ליד גדת הנהר."
+      },
+      "en": {
+        "prompt": "A little basket floats among the reeds. Whom did his mother lay inside in this story?",
+        "options": [
+          "Baby Moses",
+          "Noah the builder",
+          "Jacob the dreamer"
+        ],
+        "answer": 0,
+        "explanation": "Moses’ mother laid her baby in a little basket by the riverbank."
+      }
+    },
+    {
+      "id": "basket-watcher",
+      "stopId": "life-moses-1",
+      "artStep": 4,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ב׳, ג׳–ט׳",
+        "en": "Exodus 2:3–9"
+      },
+      "he": {
+        "prompt": "אחות משה נשארה בקרבת התיבה כדי לראות מה יקרה לו. מה תוכל לספר לאמא כעת?",
+        "options": [
+          "שהתיבה נשארה סגורה",
+          "שמישהי מצאה את התינוק",
+          "שמשה חזר לבדו הביתה"
+        ],
+        "answer": 1,
+        "explanation": "מי שנשארת ומסתכלת יכולה לראות את בת פרעה פותחת את התיבה."
+      },
+      "en": {
+        "prompt": "Moses’ sister stayed near the basket to see what would happen. What news can she take to his mother now?",
+        "options": [
+          "The lid is still shut",
+          "Someone has found the baby",
+          "Moses has walked home by himself"
+        ],
+        "answer": 1,
+        "explanation": "By staying close she can see Pharaoh’s daughter open the basket."
+      }
+    },
+    {
+      "id": "well-reach",
+      "stopId": "life-moses-6",
+      "artStep": 0,
+      "rank": 2,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות ב׳, ט״ז–י״ט",
+        "en": "Exodus 2:16–19"
+      },
+      "he": {
+        "prompt": "הכבשים צמאות והמים עמוק בבאר. מה יעזור למשה להעלות אותם?",
+        "options": [
+          "סנדל מונח על אבן",
+          "מקל שמסמן את הדרך",
+          "דלי קשור לחבל"
+        ],
+        "answer": 2,
+        "explanation": "אפשר להוריד דלי לתוך הבאר ולמשוך אותו חזרה כשהוא מלא."
+      },
+      "en": {
+        "prompt": "The sheep are thirsty and the water lies deep in the well. What would help Moses bring it up?",
+        "options": [
+          "A sandal sitting on a stone",
+          "A stick marking the path",
+          "A bucket tied to a rope"
+        ],
+        "answer": 2,
+        "explanation": "Moses can lower the bucket and pull it back up full of water."
+      }
+    },
+    {
+      "id": "well-turns",
+      "stopId": "life-moses-6",
+      "artStep": 4,
+      "rank": 7,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ב׳, ט״ז–י״ט",
+        "en": "Exodus 2:16–19"
+      },
+      "he": {
+        "prompt": "ליד הבאר יש כבשים רבות. למה נוח יותר להשקות אותן משוקת ארוכה מאשר מתוך כד צר?",
+        "options": [
+          "כמה כבשים יכולות לשתות זו לצד זו",
+          "כד צר מחזיק מים רק בלילה",
+          "שוקת מעלה בעצמה מים מהבאר"
+        ],
+        "answer": 0,
+        "explanation": "לשוקת יש מקום לכמה ראשים ליד המים."
+      },
+      "en": {
+        "prompt": "There are many sheep at the well. Why is a long trough more helpful than a narrow jug?",
+        "options": [
+          "Several sheep can drink side by side",
+          "A narrow jug holds water only at night",
+          "A trough lifts water out of the well by itself"
+        ],
+        "answer": 0,
+        "explanation": "Along a trough there is room for several heads to reach the water."
+      }
+    },
+    {
+      "id": "bush-listen",
+      "stopId": "life-moses-2",
+      "artStep": 2,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ג׳, א׳–ה׳",
+        "en": "Exodus 3:1–5"
+      },
+      "he": {
+        "prompt": "משה שומע שקוראים בשמו מהסנה. מה יעשה כדי לשמוע מה נאמר אחר כך?",
+        "options": [
+          "יעצור ויקשיב",
+          "יתרחק בשביל בריצה",
+          "יקרא בקול לכבשים"
+        ],
+        "answer": 0,
+        "explanation": "משה עוצר ליד הסנה ועונה למי שקורא לו."
+      },
+      "en": {
+        "prompt": "Moses hears his name called from the bush. How can he hear what comes next?",
+        "options": [
+          "Stop and listen",
+          "Run farther along the path",
+          "Call loudly to the sheep"
+        ],
+        "answer": 0,
+        "explanation": "Moses stops by the bush and answers the voice."
+      }
+    },
+    {
+      "id": "bush-difference",
+      "stopId": "life-moses-2",
+      "artStep": 3,
+      "rank": 7,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ג׳, א׳–ה׳",
+        "en": "Exodus 3:1–5"
+      },
+      "he": {
+        "prompt": "כשמדורה כבה נשאר לפעמים אפר. מה מפתיע את משה כשהוא מביט בשיח הבוער?",
+        "options": [
+          "הלהבות נמצאות ליד שיח",
+          "עדיין יש עלים על הענפים",
+          "האדמה ליד השיח יבשה"
+        ],
+        "answer": 1,
+        "explanation": "האש בוערת, והשיח עצמו נשאר שלם."
+      },
+      "en": {
+        "prompt": "A fire can leave a pile of ash. What surprises Moses when he looks at this burning bush?",
+        "options": [
+          "The flames are beside a bush",
+          "There are still leaves on its branches",
+          "The ground nearby is dry"
+        ],
+        "answer": 1,
+        "explanation": "The bush stays whole even though it is on fire."
+      }
+    },
+    {
+      "id": "king-words",
+      "stopId": "life-moses-7",
+      "artStep": 2,
+      "rank": 5,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ה׳, א׳–ד׳",
+        "en": "Exodus 5:1–4"
+      },
+      "he": {
+        "prompt": "משה ואהרן באו לבקש שפרעה ייתן למשפחות לצאת ממצרים. אל מי הם צריכים לדבר בארמון?",
+        "options": [
+          "אל המשפחות שכבר בדרך",
+          "אל המלך",
+          "אל האנשים המכינים לבנים"
+        ],
+        "answer": 1,
+        "explanation": "פרעה הוא המלך שיכול לתת למשפחות רשות לצאת."
+      },
+      "en": {
+        "prompt": "Moses and Aaron have come to ask permission for the families to leave Egypt. Whom must they speak to in the palace?",
+        "options": [
+          "The families already on the road",
+          "The king",
+          "The people making bricks"
+        ],
+        "answer": 1,
+        "explanation": "Pharaoh is the king who can let the families leave."
+      }
+    },
+    {
+      "id": "king-to-family",
+      "stopId": "life-moses-7",
+      "artStep": 4,
+      "rank": 8,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ה׳, א׳; י״ב, ל״א–ל״ז",
+        "en": "Exodus 5:1 and 12:31–37"
+      },
+      "he": {
+        "prompt": "דמיינו שפרעה סוף סוף אומר למשה ״אתם יכולים ללכת״. מה יוכלו המשפחות לעשות עכשיו?",
+        "options": [
+          "לחכות שהמלך ישמע את הבקשה לראשונה",
+          "לארוז ולצאת ממצרים",
+          "להחזיר את כל החבילות למחסן"
+        ],
+        "answer": 1,
+        "explanation": "אחרי שהמלך מסכים, המשפחות יכולות להכין את חפציהן לדרך."
+      },
+      "en": {
+        "prompt": "Imagine Pharaoh finally tells Moses, “You may go.” What can the families do now?",
+        "options": [
+          "Wait for the king to hear their request for the first time",
+          "Pack and leave Egypt",
+          "Put all their bundles back in storage"
+        ],
+        "answer": 1,
+        "explanation": "Once the king agrees, the families can get their things ready to leave."
+      }
+    },
+    {
+      "id": "bundle-bread",
+      "stopId": "life-moses-3",
+      "artStep": 0,
+      "rank": 3,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות י״ב, ל״ד–ל״ט",
+        "en": "Exodus 12:34–39"
+      },
+      "he": {
+        "prompt": "המשפחות לוקחות לדרך בצק שעוד לא נאפה. מה יכול לשמור עליו כשנושאים אותו?",
+        "options": [
+          "סולם שנשען על חומה",
+          "סנדל קשור לרגל",
+          "בד שעוטף אותו"
+        ],
+        "answer": 2,
+        "explanation": "הבצק עטוף כדי שאפשר יהיה לשאת אותו ביציאה ממצרים."
+      },
+      "en": {
+        "prompt": "The families are taking dough that has not been baked yet. What can hold it together on their journey?",
+        "options": [
+          "A ladder against the wall",
+          "A sandal tied to a foot",
+          "A cloth wrapped around it"
+        ],
+        "answer": 2,
+        "explanation": "The dough is wrapped so the families can carry it as they leave Egypt."
+      }
+    },
+    {
+      "id": "travel-small",
+      "stopId": "life-moses-3",
+      "artStep": 3,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות י״ב, ל״ד–ל״ט",
+        "en": "Exodus 12:34–39"
+      },
+      "he": {
+        "prompt": "ילד רוצה לעזור ביציאה ממצרים אבל הכד הגדול כבד לו. איך יוכל בכל זאת לעזור למשפחה?",
+        "options": [
+          "ללכת בחזרה אל העיר לבדו",
+          "לפתוח את כל החבילות בשביל",
+          "לשאת צרור קטן משלו"
+        ],
+        "answer": 2,
+        "explanation": "אם כל אחד נושא מה שהוא יכול, קל יותר ללכת יחד."
+      },
+      "en": {
+        "prompt": "A child wants to help as the family leaves Egypt, but the big jar is too heavy. How else could the child help?",
+        "options": [
+          "Walk back to the city alone",
+          "Unwrap all the bundles on the path",
+          "Carry a small bundle"
+        ],
+        "answer": 2,
+        "explanation": "Sharing the loads lets everyone carry what they can."
+      }
+    },
+    {
+      "id": "sea-where-next",
+      "stopId": "life-moses-4",
+      "artStep": 1,
+      "rank": 3,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב",
+        "en": "Exodus 14:21–22"
+      },
+      "he": {
+        "prompt": "ילדה שמחכה על שפת הים רואה שנפתחה דרך. מה תוכל לעשות עכשיו ברגל?",
+        "options": [
+          "לטפס על המים שבצד",
+          "לחזור לתיבה של נח",
+          "לחצות אל הצד השני"
+        ],
+        "answer": 2,
+        "explanation": "במקום שהיה מכוסה במים יש עכשיו שביל."
+      },
+      "en": {
+        "prompt": "A girl waiting by the sea sees a path open. What can she do now on foot?",
+        "options": [
+          "Climb onto the water at the side",
+          "Return to Noah’s ark",
+          "Cross to the other side"
+        ],
+        "answer": 2,
+        "explanation": "A path has appeared where there was water."
+      }
+    },
+    {
+      "id": "two-waters",
+      "stopId": "life-moses-4",
+      "artStep": 4,
+      "rank": 8,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב",
+        "en": "Exodus 14:21–22"
+      },
+      "he": {
+        "prompt": "ילד מגיע לשפת הים ומחפש סירה. איך המשפחות ממשיכות מכאן גם בלי סירה?",
+        "options": [
+          "הן שטות על גב של כבשה",
+          "הן הולכות בשביל שנפתח",
+          "הן מחכות על גג"
+        ],
+        "answer": 1,
+        "explanation": "בסיפור משה המים נפרדו והמשפחות יכלו לעבור ברגל."
+      },
+      "en": {
+        "prompt": "A child comes to the shore looking for a boat. How do the families go on even without one?",
+        "options": [
+          "They ride across on a swimming sheep",
+          "They walk along a path that opened",
+          "They wait on a rooftop"
+        ],
+        "answer": 1,
+        "explanation": "In Moses’ story, the waters part so the families can cross on foot."
+      }
+    },
+    {
+      "id": "manna-each",
+      "stopId": "life-moses-8",
+      "artStep": 3,
+      "rank": 7,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות ט״ז, י״ד–י״ח",
+        "en": "Exodus 16:14–18"
+      },
+      "he": {
+        "prompt": "ליד אוהל אחד יש משפחה גדולה וליד השני משפחה קטנה. כולם צריכים מנה. למי צריך לאסוף יותר מן?",
+        "options": [
+          "רק למשפחה שהאוהל שלה גבוה יותר",
+          "למשפחה שיש בה יותר פיות להאכיל",
+          "לשתי המשפחות מספיק גרגר אחד"
+        ],
+        "answer": 1,
+        "explanation": "אוספים לפי מספר האנשים שעומדים לאכול."
+      },
+      "en": {
+        "prompt": "One tent holds a large family and the other a small one. Everyone needs a serving. Which family should gather more manna?",
+        "options": [
+          "Whichever has the taller tent",
+          "The one with more mouths to feed",
+          "One grain will feed both families"
+        ],
+        "answer": 1,
+        "explanation": "How much to gather depends on how many people need to eat."
+      }
+    },
+    {
+      "id": "manna-not-grass",
+      "stopId": "life-moses-8",
+      "artStep": 0,
+      "rank": 2,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות ט״ז, י״ד–י״ח",
+        "en": "Exodus 16:14–18"
+      },
+      "he": {
+        "prompt": "בני ישראל ימצאו בבוקר מזון קטן על האדמה. מה כדאי לקחת אל מחוץ לאוהל כדי לאסוף אותו?",
+        "options": [
+          "קערה",
+          "מכסה של אוהל",
+          "סנדל יחיד"
+        ],
+        "answer": 0,
+        "explanation": "קערה יכולה להחזיק את המן בזמן שאוספים עוד."
+      },
+      "en": {
+        "prompt": "The Israelites will find little bits of food on the ground in the morning. What should they take outside the tent to collect them?",
+        "options": [
+          "A bowl",
+          "A tent cover",
+          "One sandal"
+        ],
+        "answer": 0,
+        "explanation": "A bowl can hold the manna while they gather more."
+      }
+    },
+    {
+      "id": "mountain-hearing",
+      "stopId": "life-moses-9",
+      "artStep": 4,
+      "rank": 8,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות י״ט, י״ב–י״ז",
+        "en": "Exodus 19:12–17"
+      },
+      "he": {
+        "prompt": "ליד הר סיני רוצים כולם לשמוע. איזו עזרה יכולה ילדה לתת לחבר שעומד לידה?",
+        "options": [
+          "לקרוא בשמו בכל פעם שנשמע קול",
+          "לחכות בשקט עד שיסיים להקשיב",
+          "להוביל אותו רחוק מן הקהל"
+        ],
+        "answer": 1,
+        "explanation": "כשהם עומדים ומקשיבים יחד, שניהם יכולים לשמוע."
+      },
+      "en": {
+        "prompt": "Everyone at Mount Sinai wants to hear. How can a girl help the friend standing beside her?",
+        "options": [
+          "Call his name each time a voice is heard",
+          "Wait quietly while he listens",
+          "Lead him far away from the gathering"
+        ],
+        "answer": 1,
+        "explanation": "By standing and listening quietly, both can hear."
+      }
+    },
+    {
+      "id": "mountain-cloud-tent",
+      "stopId": "life-moses-9",
+      "artStep": 0,
+      "rank": 1,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שמות י״ט, י״ב–י״ז",
+        "en": "Exodus 19:12–17"
+      },
+      "he": {
+        "prompt": "ענן מונח על ההר. איפה הקימו בני ישראל את האוהלים שלהם?",
+        "options": [
+          "למטה, ליד ההר",
+          "בתוך הענן",
+          "על גג של ארמון"
+        ],
+        "answer": 0,
+        "explanation": "המחנה נמצא לרגלי הר סיני. בני ישראל יכולים להביט ממנו למעלה."
+      },
+      "en": {
+        "prompt": "A cloud rests on the mountain. Where have the Israelites put up their tents?",
+        "options": [
+          "Down below, near the mountain",
+          "Inside the cloud",
+          "On a palace roof"
+        ],
+        "answer": 0,
+        "explanation": "The camp is at the foot of Mount Sinai. From there the people can look up."
+      }
+    },
+    {
+      "id": "message-home",
+      "stopId": "life-samson-1",
+      "artStep": 1,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים י״ג, ג׳–ו׳, י״ט–כ׳",
+        "en": "Judges 13:3–6, 19–20"
+      },
+      "he": {
+        "prompt": "האורח בשדה מבשר לאישה שייוולד לה בן. מה היא יכולה לספר כשתשוב הביתה?",
+        "options": [
+          "שבמשפחה שלהם צפוי תינוק",
+          "שהאריה הגיע לשער",
+          "שהכבשים הלכו לאיבוד"
+        ],
+        "answer": 0,
+        "explanation": "הבשורה היא על התינוק שמשון שעתיד להיוולד."
+      },
+      "en": {
+        "prompt": "The visitor in the field tells the woman she will have a son. What news can she take home?",
+        "options": [
+          "Their family is expecting a baby",
+          "A lion has reached the gate",
+          "The sheep are lost"
+        ],
+        "answer": 0,
+        "explanation": "The news is about the coming birth of Samson."
+      }
+    },
+    {
+      "id": "light-look",
+      "stopId": "life-samson-1",
+      "artStep": 3,
+      "rank": 4,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים י״ג, ג׳–ו׳, י״ט–כ׳",
+        "en": "Judges 13:3–6, 19–20"
+      },
+      "he": {
+        "prompt": "אילו יכולתם לשאול את הורי שמשון מה הם רואים עכשיו, לאן היו אומרים לכם להביט?",
+        "options": [
+          "לעומק הבאר",
+          "למעלה, מעל האבנים",
+          "לתוך סל פירות"
+        ],
+        "answer": 1,
+        "explanation": "המלאך עולה בלהבה והם מביטים אחריו."
+      },
+      "en": {
+        "prompt": "If you asked Samson’s parents where to look right now, where would they point?",
+        "options": [
+          "Deep down into a well",
+          "Up above the stones",
+          "Inside a fruit basket"
+        ],
+        "answer": 1,
+        "explanation": "The angel rises in the flame and they watch him go."
+      }
+    },
+    {
+      "id": "paw-marks",
+      "stopId": "life-samson-6",
+      "artStep": 0,
+      "rank": 2,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "שופטים י״ד, ה׳",
+        "en": "Judges 14:5"
+      },
+      "he": {
+        "prompt": "בשביל יש ציורים קטנים באדמה, כאילו מישהו דרך כאן. מה הם מספרים לשמשון?",
+        "options": [
+          "הענבים נפלו מהגפן",
+          "חיה עברה בשביל",
+          "מישהו בנה כאן גדר"
+        ],
+        "answer": 1,
+        "explanation": "כף הרגל של חיה יכולה להשאיר סימן באדמה."
+      },
+      "en": {
+        "prompt": "There are marks on the path as if someone stepped there. What do they tell Samson?",
+        "options": [
+          "Grapes fell from the vine",
+          "An animal passed this way",
+          "Someone built a fence here"
+        ],
+        "answer": 1,
+        "explanation": "An animal’s paw can leave a print in the earth."
+      }
+    },
+    {
+      "id": "lion-vines",
+      "stopId": "life-samson-6",
+      "artStep": 1,
+      "rank": 1,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים י״ד, ה׳",
+        "en": "Judges 14:5"
+      },
+      "he": {
+        "prompt": "לאריה יש רעמה מסביב לפנים. ליד איזה צמח הוא עומד?",
+        "options": [
+          "גפן עם אשכולות ענבים",
+          "עץ עם תפוחים",
+          "קנים הגדלים במים"
+        ],
+        "answer": 0,
+        "explanation": "שמשון הולך באזור הכרמים, שם גדלים ענבים."
+      },
+      "en": {
+        "prompt": "The lion has a mane around its face. What kind of plant grows beside it?",
+        "options": [
+          "A vine with bunches of grapes",
+          "An apple tree",
+          "Reeds growing in water"
+        ],
+        "answer": 0,
+        "explanation": "Samson is walking through vineyards, where grapes grow."
+      }
+    },
+    {
+      "id": "gate-who-lifts",
+      "stopId": "life-samson-3",
+      "artStep": 2,
+      "rank": 4,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים ט״ז, ג׳",
+        "en": "Judges 16:3"
+      },
+      "he": {
+        "prompt": "בדרך כלל אנשים עוברים דרך שער. מה שמשון עושה לשער עצמו?",
+        "options": [
+          "עובר דרכו ומשאיר אותו בחומה",
+          "נושא אותו על כתפיו",
+          "עומד לידו ומחכה שייפתח"
+        ],
+        "answer": 1,
+        "explanation": "בציור שער העיר כבר התרומם מן הקרקע."
+      },
+      "en": {
+        "prompt": "People usually walk through a gate. What does Samson do with the gate itself?",
+        "options": [
+          "Walks through and leaves it in the wall",
+          "Carries it on his shoulders",
+          "Waits beside it for it to open"
+        ],
+        "answer": 1,
+        "explanation": "The city gate is up off the ground in the picture."
+      }
+    },
+    {
+      "id": "gate-sequence",
+      "stopId": "life-samson-3",
+      "artStep": 4,
+      "rank": 8,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים ט״ז, ג׳",
+        "en": "Judges 16:3"
+      },
+      "he": {
+        "prompt": "בציור השער כבר על כתפיו של שמשון מחוץ לעיר. מה היה חייב לקרות עוד בתוך העיר?",
+        "options": [
+          "שמשון היה צריך להחזיר את השער לחומה",
+          "האנשים היו צריכים לסגור אחריו את אותו השער",
+          "שמשון היה צריך להוציא את השער ממקומו"
+        ],
+        "answer": 2,
+        "explanation": "רק אחרי שהשער יצא ממקומו היה אפשר לשאת אותו משם."
+      },
+      "en": {
+        "prompt": "The gate is on Samson’s shoulders outside the city. What had to happen back in the city first?",
+        "options": [
+          "Samson had to put the gate back in the wall",
+          "The people had to shut that same gate behind him",
+          "Samson had to lift the gate out of its place"
+        ],
+        "answer": 2,
+        "explanation": "Samson could carry the gate away only after lifting it free."
+      }
+    },
+    {
+      "id": "water-fingers",
+      "stopId": "life-samson-8",
+      "artStep": 2,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים ט״ו, י״ח–י״ט",
+        "en": "Judges 15:18–19"
+      },
+      "he": {
+        "prompt": "שמשון ממלא את כפות הידיים במים. מה יקרה אם יפתח את האצבעות לרווחה לפני שישתה?",
+        "options": [
+          "המים יהפכו לחבל",
+          "המים יטפטפו החוצה",
+          "כפות הידיים יתמלאו מעצמן"
+        ],
+        "answer": 1,
+        "explanation": "כשהאצבעות צמודות קל יותר לשמור מעט מים בכפות הידיים."
+      },
+      "en": {
+        "prompt": "Samson cups water in his hands. What will happen if he spreads his fingers wide before drinking?",
+        "options": [
+          "The water will turn into rope",
+          "The water will drip out",
+          "His hands will fill up by themselves"
+        ],
+        "answer": 1,
+        "explanation": "Keeping his fingers close together helps his hands hold a little water."
+      }
+    },
+    {
+      "id": "spring-path",
+      "stopId": "life-samson-8",
+      "artStep": 4,
+      "rank": 6,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שופטים ט״ו, י״ח–י״ט",
+        "en": "Judges 15:18–19"
+      },
+      "he": {
+        "prompt": "אחרי ההליכה שמשון צמא. מה השתנה בשבילו כשמצא מים בין הסלעים?",
+        "options": [
+          "עכשיו הוא צריך לחפש את המים",
+          "עכשיו יש לו ממה לשתות",
+          "עכשיו הדרך נעלמה מתחת לנהר"
+        ],
+        "answer": 1,
+        "explanation": "המים שהוא מעלה לפיו מרווים את צימאונו."
+      },
+      "en": {
+        "prompt": "After his walk Samson is thirsty. What changes when he finds water among the rocks?",
+        "options": [
+          "He now needs to start looking for water",
+          "He finally has something to drink",
+          "The path disappears under a river"
+        ],
+        "answer": 1,
+        "explanation": "The water he brings to his lips quenches his thirst."
+      }
+    },
+    {
+      "id": "supply-future",
+      "stopId": "life-noah-6",
+      "artStep": 1,
+      "rank": 5,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ו׳, כ״א–כ״ב",
+        "en": "Genesis 6:21–22"
+      },
+      "he": {
+        "prompt": "בחוץ עדיין יבש ונח כבר אוסף אוכל. בשביל איזה זמן הוא מכין אותו?",
+        "options": [
+          "רק לרגע שבו יניח את הקורה הראשונה",
+          "רק לבונים שנשארים בחוץ",
+          "לימים שבהם כולם יהיו בתוך התיבה"
+        ],
+        "answer": 2,
+        "explanation": "בזמן המבול אי אפשר יהיה לצאת מן התיבה ולאסוף מזון."
+      },
+      "en": {
+        "prompt": "It is still dry outside and Noah is gathering food already. When will he need it?",
+        "options": [
+          "Only when he lays the first plank",
+          "Only while the builders stay outside",
+          "While everyone is living inside the ark"
+        ],
+        "answer": 2,
+        "explanation": "During the flood the family will not be able to go outside to gather food."
+      }
+    },
+    {
+      "id": "supply-open-basket",
+      "stopId": "life-noah-6",
+      "artStep": 0,
+      "rank": 1,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ו׳, כ״א–כ״ב",
+        "en": "Genesis 6:21–22"
+      },
+      "he": {
+        "prompt": "בין הסלים של נח מונחת קערה עם פירות. למה הוא שומר אותם?",
+        "options": [
+          "כדי לחבר קורות עץ",
+          "כדי לדעת מתי ייגמר הגשם",
+          "כדי שיהיה מה לאכול"
+        ],
+        "answer": 2,
+        "explanation": "נח מכין מזון למשפחה ולחיות לקראת השהייה בתיבה."
+      },
+      "en": {
+        "prompt": "A bowl of fruit sits among Noah's baskets. What is he saving it for?",
+        "options": [
+          "To fasten the wooden planks",
+          "To tell when the rain will stop",
+          "To have something to eat"
+        ],
+        "answer": 2,
+        "explanation": "Noah gathers food for his family and the animals before their stay in the ark."
+      }
+    },
+    {
+      "id": "help-lamb",
+      "stopId": "life-noah-2",
+      "artStep": 1,
+      "rank": 4,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ז׳, ז׳–ט״ז",
+        "en": "Genesis 7:7–16"
+      },
+      "he": {
+        "prompt": "כבשה קטנה נעצרת בתחתית הכבש. איפה כדאי לנח לעמוד אם הוא רוצה להראות לה את הדרך פנימה?",
+        "options": [
+          "מאחורי החיות בשדה הרחוק",
+          "מתחת לתיבה",
+          "ליד הכניסה שאליה החיות עולות"
+        ],
+        "answer": 2,
+        "explanation": "הכבש עולה אל פתח התיבה. משם נח יכול לכוון את הכבשה."
+      },
+      "en": {
+        "prompt": "A little sheep stops at the foot of the ramp. Where could Noah stand to show it the way inside?",
+        "options": [
+          "Far behind the animals in the field",
+          "Under the ark",
+          "By the entrance the animals are heading for"
+        ],
+        "answer": 2,
+        "explanation": "The ramp rises to the ark’s doorway. Noah can guide the sheep from there."
+      }
+    },
+    {
+      "id": "dry-sheep",
+      "stopId": "life-noah-3",
+      "artStep": 2,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ו׳, כ״א; ז׳, י״ז–כ״ג",
+        "en": "Genesis 6:21 and 7:17–23"
+      },
+      "he": {
+        "prompt": "בחוץ יורד גשם. בפנים נח מביא אוכל לכבשים. מה מאפשר לו להאכיל אותן גם כשהשדה מוצף?",
+        "options": [
+          "הכבשים יורדות בכל בוקר לשדה",
+          "הוא הכין אוכל והכניס אותו לתיבה",
+          "הוא מחכה שהמים יביאו אוכל עד הדלת"
+        ],
+        "answer": 1,
+        "explanation": "המזון שנח אסף לפני המבול נמצא עכשיו בהישג יד."
+      },
+      "en": {
+        "prompt": "Rain is falling outside. Inside, Noah brings food to the sheep. How can he feed them when the fields are flooded?",
+        "options": [
+          "The sheep go down to the field each morning",
+          "He gathered food and brought it aboard",
+          "He waits for food to wash up to the door"
+        ],
+        "answer": 1,
+        "explanation": "The food Noah stored before the flood is now within reach."
+      }
+    },
+    {
+      "id": "rain-shelter",
+      "stopId": "life-noah-3",
+      "artStep": 0,
+      "rank": 1,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ז׳, י״ז–כ״ג",
+        "en": "Genesis 7:17–23"
+      },
+      "he": {
+        "prompt": "טיפות יורדות על הדופן של התיבה. איזה חלק שומר על מי שבפנים מפני הגשם שמעל?",
+        "options": [
+          "הגג",
+          "הכבש לכניסה",
+          "החלון הפתוח"
+        ],
+        "answer": 0,
+        "explanation": "הגג נמצא מעל המשפחה והחיות ומכסה אותן."
+      },
+      "en": {
+        "prompt": "Drops run down the side of the ark. Which part keeps the rain off those inside?",
+        "options": [
+          "The roof",
+          "The entrance ramp",
+          "The open window"
+        ],
+        "answer": 0,
+        "explanation": "The roof covers the family and the animals from above."
+      }
+    },
+    {
+      "id": "sky-water",
+      "stopId": "life-noah-7",
+      "artStep": 2,
+      "rank": 6,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ח׳, א׳–ג׳",
+        "en": "Genesis 8:1–3"
+      },
+      "he": {
+        "prompt": "נח רואה אור מחוץ לחלון. אם הוא רוצה לדעת אם כבר אפשר ללכת בחוץ, על מה עוד כדאי לו להסתכל?",
+        "options": [
+          "רק על הצבע של המסגרת",
+          "רק על האור שבשמיים",
+          "על הקרקע, כדי לבדוק אם היא עוד מכוסה מים"
+        ],
+        "answer": 2,
+        "explanation": "יום בהיר אינו מבטיח שיש לנח אדמה יבשה לדרוך עליה."
+      },
+      "en": {
+        "prompt": "Noah sees light outside the window. What else should he look at to see if he can walk outside yet?",
+        "options": [
+          "Just the colour of the window frame",
+          "Just the light in the sky",
+          "Whether the ground is still covered by water"
+        ],
+        "answer": 2,
+        "explanation": "A bright day does not tell Noah whether there is dry ground for his feet."
+      }
+    },
+    {
+      "id": "wind-ribbon",
+      "stopId": "life-noah-7",
+      "artStep": 0,
+      "rank": 5,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ח׳, א׳–ג׳",
+        "en": "Genesis 8:1–3"
+      },
+      "he": {
+        "prompt": "נח לא רואה את הרוח עצמה. איזה רמז בציור מגלה שהיא נושבת?",
+        "options": [
+          "הקרש מחובר לתיבה",
+          "המים נמצאים מתחת לשמיים",
+          "הבד קשור לעץ ומתנופף"
+        ],
+        "answer": 2,
+        "explanation": "רוח יכולה להזיז את הקצה החופשי של הבד."
+      },
+      "en": {
+        "prompt": "Noah cannot see the wind itself. Which clue shows it is blowing?",
+        "options": [
+          "A plank is fixed to the ark",
+          "The water lies below the sky",
+          "A strip of cloth flutters from the wood"
+        ],
+        "answer": 2,
+        "explanation": "Wind can move the loose end of the cloth."
+      }
+    },
+    {
+      "id": "rock-high-first",
+      "stopId": "life-noah-8",
+      "artStep": 0,
+      "rank": 7,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ח׳, ג׳–ה׳",
+        "en": "Genesis 8:3–5"
+      },
+      "he": {
+        "prompt": "המים יורדים לאט. מה יופיע ראשון מעליהם, ראש הר או הקרקעית של עמק עמוק?",
+        "options": [
+          "ראש ההר",
+          "קרקעית העמק",
+          "שניהם יופיעו תמיד יחד"
+        ],
+        "answer": 0,
+        "explanation": "ראש ההר גבוה יותר, ולכן הוא ייחשף בעוד שבעמק יש מים."
+      },
+      "en": {
+        "prompt": "The water is slowly sinking. What will appear first, a mountaintop or the floor of a deep valley?",
+        "options": [
+          "The mountaintop",
+          "The valley floor",
+          "They will always appear together"
+        ],
+        "answer": 0,
+        "explanation": "The higher mountaintop can appear while water still fills the valley."
+      }
+    },
+    {
+      "id": "ark-rock-choose",
+      "stopId": "life-noah-8",
+      "artStep": 2,
+      "rank": 5,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ח׳, ג׳–ה׳",
+        "en": "Genesis 8:3–5"
+      },
+      "he": {
+        "prompt": "חבר אומר שהתיבה כבר הגיעה לעיר. מה בציור מציע מקום אחר?",
+        "options": [
+          "חלונות בבתים מכל הצדדים",
+          "רחוב סלול מתחת לתיבה",
+          "סלעים ומדרונות ממש מתחת לתיבה"
+        ],
+        "answer": 2,
+        "explanation": "הסלעים והמדרונות שייכים להרים שבהם נחה התיבה."
+      },
+      "en": {
+        "prompt": "A friend thinks the ark has reached a town. What in the picture suggests another place?",
+        "options": [
+          "Windows in houses all around",
+          "A paved street below the ark",
+          "Rocks and slopes right beneath the ark"
+        ],
+        "answer": 2,
+        "explanation": "The rocks and slopes belong to the mountains where the ark came to rest."
+      }
+    },
+    {
+      "id": "leaf-story",
+      "stopId": "life-noah-4",
+      "artStep": 0,
+      "rank": 6,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ח׳, ח׳–י״ב",
+        "en": "Genesis 8:8–12"
+      },
+      "he": {
+        "prompt": "על אדן התיבה מונח עלה. איזו חיה יכולה הייתה להביא אותו מעל המים?",
+        "options": [
+          "יונה במקורה",
+          "כבשה ברגליה",
+          "פיל שעולה בכבש"
+        ],
+        "answer": 0,
+        "explanation": "בסיפור נח היונה עפה הלוך ושוב ומביאה עלה זית."
+      },
+      "en": {
+        "prompt": "A leaf lies on the ark’s windowsill. Which animal could bring it back across the water?",
+        "options": [
+          "A dove carrying it in her beak",
+          "A sheep carrying it on its feet",
+          "An elephant climbing the ramp"
+        ],
+        "answer": 0,
+        "explanation": "In Noah’s story the dove flies out and returns with an olive leaf."
+      }
+    },
+    {
+      "id": "dove-return-place",
+      "stopId": "life-noah-4",
+      "artStep": 3,
+      "rank": 7,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ח׳, ח׳–י״ב",
+        "en": "Genesis 8:8–12"
+      },
+      "he": {
+        "prompt": "היונה חזרה לנח עם עלה. מה מסביר איך הגיע העלה אל התיבה?",
+        "options": [
+          "עץ צמח מתוך החלון של התיבה",
+          "היונה מצאה עץ במקום שאליו עפה",
+          "הכבשים הגישו ליונה עלה מתוך הכד"
+        ],
+        "answer": 1,
+        "explanation": "היונה יכולה להגיע לענף ולהביא ממנו עלה אל נח."
+      },
+      "en": {
+        "prompt": "The dove has come back to Noah with a leaf. How did the leaf reach the ark?",
+        "options": [
+          "A tree grew from the ark’s window",
+          "The dove found a tree where she flew",
+          "The sheep gave the dove a leaf from a jar"
+        ],
+        "answer": 1,
+        "explanation": "The dove could reach a branch and carry one of its leaves back to Noah."
+      }
+    },
+    {
+      "id": "two-doors",
+      "stopId": "life-noah-9",
+      "artStep": 2,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ז׳, ז׳–ט׳; ח׳, ט״ו–י״ט",
+        "en": "Genesis 7:7–9 and 8:15–19"
+      },
+      "he": {
+        "prompt": "גם בתחילת סיפור נח וגם בסופו החיות עוברות באותו פתח. מה הן עשו בפתח כשהמבול עוד עמד להתחיל?",
+        "options": [
+          "יצאו ממנה אל היבשה",
+          "נכנסו לתיבה כדי למצוא מחסה",
+          "חיכו ליונה שתחזור עם עלה"
+        ],
+        "answer": 1,
+        "explanation": "לפני המבול נכנסו. כשהארץ יבשה, יצאו מן התיבה."
+      },
+      "en": {
+        "prompt": "The animals pass the same doorway at both ends of Noah’s story. What did they do there just before the flood?",
+        "options": [
+          "Came out of it onto dry land",
+          "Went inside the ark for shelter",
+          "Waited for the dove to bring a leaf"
+        ],
+        "answer": 1,
+        "explanation": "Before the flood they went in. When the land dried, they came out."
+      }
+    },
+    {
+      "id": "dry-steps",
+      "stopId": "life-noah-9",
+      "artStep": 0,
+      "rank": 4,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ח׳, ט״ו–י״ט",
+        "en": "Genesis 8:15–19"
+      },
+      "he": {
+        "prompt": "נח פותח את הדלת ומביט החוצה. איזה סימן אומר שאפשר להניח רגל מחוץ לתיבה?",
+        "options": [
+          "אדמה יבשה ליד הפתח",
+          "מים שמגיעים עד לגג",
+          "גלים שחוסמים את הדלת"
+        ],
+        "answer": 0,
+        "explanation": "דרך יבשה יכולה לשאת את רגלי האנשים והחיות."
+      },
+      "en": {
+        "prompt": "Noah opens the door and looks out. Which sign tells him he can set foot outside?",
+        "options": [
+          "Dry ground by the doorway",
+          "Water up to the roof",
+          "Waves blocking the door"
+        ],
+        "answer": 0,
+        "explanation": "A dry path can carry the people and animals on their feet."
+      }
+    },
+    {
+      "id": "bow-cloud",
+      "stopId": "life-noah-5",
+      "artStep": 2,
+      "rank": 5,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ט׳, י״ב–ט״ז",
+        "en": "Genesis 9:12–16"
+      },
+      "he": {
+        "prompt": "נח רוצה להראות לילד את הקשת. לאן כדאי לילד להביט?",
+        "options": [
+          "לתוך החלון של התיבה",
+          "אל העשב ליד הרגליים",
+          "מעל ההרים, אל השמיים"
+        ],
+        "answer": 2,
+        "explanation": "הקשת נראית גבוה מעל הנוף שאליו נח מצביע."
+      },
+      "en": {
+        "prompt": "Noah wants to show a child the rainbow. Where should the child look?",
+        "options": [
+          "Into the ark’s window",
+          "At the grass by their feet",
+          "Above the hills, into the sky"
+        ],
+        "answer": 2,
+        "explanation": "The rainbow stretches high over the land where Noah points."
+      }
+    },
+    {
+      "id": "bow-watchers",
+      "stopId": "life-noah-5",
+      "artStep": 4,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ח׳, י״ח–י״ט; ט׳, י״ב–ט״ז",
+        "en": "Genesis 8:18–19 and 9:12–16"
+      },
+      "he": {
+        "prompt": "נח רואה את הקשת כשהחיות כבר עומדות לידו בחוץ. מה קרה קודם בקשר לתיבה?",
+        "options": [
+          "כל החיות נכנסו אליה שוב",
+          "נח רק התחיל לבנות אותה",
+          "המשפחה והחיות יצאו ממנה"
+        ],
+        "answer": 2,
+        "explanation": "כדי לעמוד עם נח על היבשה, החיות היו צריכות לצאת מן התיבה."
+      },
+      "en": {
+        "prompt": "Noah sees the rainbow with the animals beside him outdoors. What must have happened at the ark first?",
+        "options": [
+          "All the animals went back inside",
+          "Noah had only just begun building it",
+          "The family and the animals came out of it"
+        ],
+        "answer": 2,
+        "explanation": "The animals had to leave the ark to stand beside Noah on dry ground."
+      }
+    },
+    {
+      "id": "babel-joining",
+      "stopId": "gen-babel",
+      "artStep": 0,
+      "rank": 3,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית י״א, א׳–ט׳",
+        "en": "Genesis 11:1–9"
+      },
+      "he": {
+        "prompt": "בוני המגדל שמים חומר רך בין הלבנים. למה הם עושים זאת?",
+        "options": [
+          "כדי שיהיה קל לספור את האנשים",
+          "כדי שהלבנים יישארו מחוברות",
+          "כדי לסמן מאיפה זורם נהר"
+        ],
+        "answer": 1,
+        "explanation": "החומר מחזיק את הלבנים במקומן והן נעשות לקיר."
+      },
+      "en": {
+        "prompt": "The tower builders put a soft mixture between the bricks. Why?",
+        "options": [
+          "To count the people at work",
+          "To hold the bricks together",
+          "To mark where a river runs"
+        ],
+        "answer": 1,
+        "explanation": "The mixture holds the bricks in place so they can form a wall."
+      }
+    },
+    {
+      "id": "babel-neighbour",
+      "stopId": "gen-babel",
+      "artStep": 3,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית י״א, א׳–ט׳",
+        "en": "Genesis 11:1–9"
+      },
+      "he": {
+        "prompt": "בונה אחד צריך עזרה, אבל חברו כבר לא מבין את מילותיו. מה יכול הבונה לנסות כדי להראות איזו לבנה הוא צריך?",
+        "options": [
+          "להסתיר אותה מאחורי גבו",
+          "לעצום עיניים וללכת",
+          "להצביע על הלבנה"
+        ],
+        "answer": 2,
+        "explanation": "כשקשה להבין את המילים, הצבעה יכולה להראות על מה האיש מדבר."
+      },
+      "en": {
+        "prompt": "One builder needs help, but his friend no longer understands his words. How might he show which brick he needs?",
+        "options": [
+          "Hide it behind his back",
+          "Shut his eyes and walk away",
+          "Point to that brick"
+        ],
+        "answer": 2,
+        "explanation": "When words are hard to understand, pointing can show which thing the builder means."
+      }
+    },
+    {
+      "id": "babel-two-builds",
+      "stopId": "gen-babel",
+      "artStep": 2,
+      "rank": 7,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ו׳, י״ד; י״א, ג׳–ד׳",
+        "en": "Genesis 6:14 and 11:3–4"
+      },
+      "he": {
+        "prompt": "נח בנה תיבה, והאנשים האלה בונים מגדל. לאיזה בניין שייך קיר הלבנים שאתם רואים?",
+        "options": [
+          "לתיבה של נח",
+          "למגדל בבל",
+          "לאוהל של יעקב"
+        ],
+        "answer": 1,
+        "explanation": "בסיפור בבל הכינו לבנים לבנייה. את התיבה עשה נח מעץ."
+      },
+      "en": {
+        "prompt": "Noah built an ark, and these people are building a tower. Which one has the brick wall you can see?",
+        "options": [
+          "Noah’s ark",
+          "The tower of Babel",
+          "Jacob’s tent"
+        ],
+        "answer": 1,
+        "explanation": "The people at Babel made bricks for building. Noah built his ark out of wood."
+      }
+    },
+    {
+      "id": "jacob-sleeping-earth",
+      "stopId": "gen-jacob",
+      "artStep": 0,
+      "rank": 1,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית כ״ח, י׳–י״ט",
+        "en": "Genesis 28:10–19"
+      },
+      "he": {
+        "prompt": "יעקב עוצר לנוח בדרך. איפה הוא ישן הלילה?",
+        "options": [
+          "בחוץ, ליד אבן",
+          "בחדר בראש מגדל",
+          "על סיפון תיבה"
+        ],
+        "answer": 0,
+        "explanation": "בדרך לחרן יעקב נשכב לישון תחת השמיים."
+      },
+      "en": {
+        "prompt": "Jacob stops to rest on his journey. Where is he sleeping tonight?",
+        "options": [
+          "Outside by a stone",
+          "In a room at the top of a tower",
+          "On the deck of an ark"
+        ],
+        "answer": 0,
+        "explanation": "On the road to Haran, Jacob lies down under the sky."
+      }
+    },
+    {
+      "id": "ladder-sides",
+      "stopId": "gen-jacob",
+      "artStep": 2,
+      "rank": 6,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית כ״ח, י׳–י״ט",
+        "en": "Genesis 28:10–19"
+      },
+      "he": {
+        "prompt": "בחלום יעקב מלאך אחד עולה ואחר יורד. לאן פונים שני מלאכים כאלה?",
+        "options": [
+          "שניהם אל קצה הסולם העליון",
+          "שניהם אל האבן שעל הקרקע",
+          "אחד לשמיים ואחד לארץ"
+        ],
+        "answer": 2,
+        "explanation": "בסולם שבחלום יש תנועה גם למעלה וגם למטה."
+      },
+      "en": {
+        "prompt": "In Jacob’s dream one angel goes up and another goes down. Where are these two heading?",
+        "options": [
+          "Both to the top of the ladder",
+          "Both toward the stone below",
+          "One toward the sky and one toward the ground"
+        ],
+        "answer": 2,
+        "explanation": "There is movement both up and down the ladder in the dream."
+      }
+    },
+    {
+      "id": "dream-wake",
+      "stopId": "gen-jacob",
+      "artStep": 4,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית כ״ח, י׳–י״ט",
+        "en": "Genesis 28:10–19"
+      },
+      "he": {
+        "prompt": "בחלום יעקב רואה סולם. בבוקר הוא מעמיד אבן במקום שבו ישן. איזה דבר שייך לזמן שבו יעקב ער?",
+        "options": [
+          "העמדת האבן",
+          "המלאכים שעל הסולם",
+          "הסולם שמגיע לשמיים"
+        ],
+        "answer": 0,
+        "explanation": "הסולם והמלאכים הופיעו בחלום. את האבן יעקב העמיד לאחר שהתעורר."
+      },
+      "en": {
+        "prompt": "Jacob sees a ladder in his dream. In the morning he stands up a stone where he slept. Which belongs to the time when he is awake?",
+        "options": [
+          "Standing up the stone",
+          "The angels on the ladder",
+          "The ladder reaching up to the sky"
+        ],
+        "answer": 0,
+        "explanation": "The ladder and angels appeared in his dream. Jacob set up the stone after waking."
+      }
+    },
+    {
+      "id": "joseph-grain-arms",
+      "stopId": "gen-joseph",
+      "artStep": 0,
+      "rank": 2,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "opening": true,
+      "reference": {
+        "he": "בראשית ל״ז, ה׳–י״א",
+        "en": "Genesis 37:5–11"
+      },
+      "he": {
+        "prompt": "דמיינו שאתם קושרים את השיבולים שבציור לאלומה. מה צריך לעשות לפני שקושרים?",
+        "options": [
+          "לאסוף כמה שיבולים יחד",
+          "לפזר כל שיבולת בשדה אחר",
+          "לטחון את כל השיבולים לקמח"
+        ],
+        "answer": 0,
+        "explanation": "אלומה היא צרור של שיבולים שנאספו יחד."
+      },
+      "en": {
+        "prompt": "Imagine tying the grain stalks in the picture into a sheaf. What comes before tying?",
+        "options": [
+          "Gather several stalks together",
+          "Scatter each stalk in a different field",
+          "Grind all the stalks into flour"
+        ],
+        "answer": 0,
+        "explanation": "A sheaf is a bundle made by gathering stalks together."
+      }
+    },
+    {
+      "id": "joseph-dreamhome",
+      "stopId": "gen-joseph",
+      "artStep": 3,
+      "rank": 6,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית ל״ז, ה׳–י״א",
+        "en": "Genesis 37:5–11"
+      },
+      "he": {
+        "prompt": "יוסף מספר לאחיו על השמש, הירח והכוכבים שמשתחווים. מתי ראה אותם עושים כך?",
+        "options": [
+          "בחלום, בזמן שישן",
+          "כשהאחים קשרו שיבולים בשדה",
+          "כשהמשפחה אפתה לחם"
+        ],
+        "answer": 0,
+        "explanation": "יוסף מתאר מראה מתוך חלום, שבו גם הכוכבים יכולים להשתחוות."
+      },
+      "en": {
+        "prompt": "Joseph tells his brothers that the sun, moon and stars bowed down. When did he see them do that?",
+        "options": [
+          "In a dream while he slept",
+          "While the brothers tied grain in the field",
+          "While the family baked bread"
+        ],
+        "answer": 0,
+        "explanation": "Joseph is describing a dream, where even stars can bow."
+      }
+    },
+    {
+      "id": "two-dreamers",
+      "stopId": "gen-joseph",
+      "artStep": 4,
+      "rank": 8,
+      "source": "first",
+      "grade": "כיתה א׳ – מבחר סיפורים",
+      "reference": {
+        "he": "בראשית כ״ח, י״ב; ל״ז, ה׳–ז׳",
+        "en": "Genesis 28:12 and 37:5–7"
+      },
+      "he": {
+        "prompt": "יעקב חלם על סולם. בנו יוסף חלם גם הוא. איזה דבר בציור שייך לחלום של יוסף?",
+        "options": [
+          "מלאכים על סולם",
+          "אלומות שמשתחוות",
+          "אבן ליד ראשו של נוסע"
+        ],
+        "answer": 1,
+        "explanation": "בחלום יוסף אלומות האחים השתחוו לאלומה שלו. הסולם שייך לחלום של יעקב."
+      },
+      "en": {
+        "prompt": "Jacob dreamed about a ladder. His son Joseph dreamed too. Which part of this picture belongs to Joseph’s dream?",
+        "options": [
+          "Angels on a ladder",
+          "Sheaves of grain bowing down",
+          "A stone beside a traveller’s head"
+        ],
+        "answer": 1,
+        "explanation": "The brothers’ sheaves bowed to Joseph’s sheaf in his dream. The ladder belongs to Jacob’s dream."
+      }
+    },
+    {
+      "id": "crossings-last-child",
+      "stopId": "life-moses-4",
+      "artStep": 4,
+      "rank": 7,
+      "source": "preschool",
+      "grade": "גן – מבחר סיפורים",
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב; יהושע ג׳, י״ז",
+        "en": "Exodus 14:21–22 and Joshua 3:17"
+      },
+      "he": {
+        "prompt": "גם כשחצו את הירדן נשארה דרך פתוחה במים. אם הילד האחרון עוד באמצע, עד מתי דרושה הדרך?",
+        "options": [
+          "עד שגם הוא יגיע לגדה",
+          "רק עד שהראשון יגיע לגדה",
+          "רק עד שכולם ייכנסו למים"
+        ],
+        "answer": 0,
+        "explanation": "גם מי שהולך בסוף צריך מקום יבש עד שהוא מסיים לחצות."
+      },
+      "en": {
+        "prompt": "A path through water stayed open at the Jordan too. If the last child is still halfway across, how long is the path needed?",
+        "options": [
+          "Until that child reaches the bank too",
+          "Only until the first person reaches the bank",
+          "Only until everyone has entered the crossing"
+        ],
+        "answer": 0,
+        "explanation": "Even the last walker needs dry ground until the crossing is finished."
+      }
+    }
+  ],
+  "bonusSources": {
+    "moses": [
+      "life-moses-1",
+      "life-moses-6",
+      "life-moses-2",
+      "life-moses-7",
+      "life-moses-3",
+      "life-moses-4",
+      "life-moses-8",
+      "life-moses-9"
+    ],
+    "noah": [
+      "life-noah-1",
+      "life-noah-6",
+      "life-noah-2",
+      "life-noah-3",
+      "life-noah-7",
+      "life-noah-8",
+      "life-noah-4",
+      "life-noah-9",
+      "life-noah-5"
+    ],
+    "samson": [
+      "life-samson-1",
+      "life-samson-6",
+      "life-samson-2",
+      "life-samson-8",
+      "life-samson-3"
+    ]
+  }
+}
