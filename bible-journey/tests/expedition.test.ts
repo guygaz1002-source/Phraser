@@ -83,6 +83,25 @@ test("every companion plays the same 28 landmarks with five illustrated age-grad
   for(const ids of common) assert.deepEqual(ids,common[0]);
 });
 
+test("a near event name gives the same player another try, even on the last heart", () => {
+  for (const [catalog, near] of [[he, "סיפור נוח"], [en, "Noah's story"]] as const) {
+    let game = arrive(start("moses", "b", "duo"), catalog);
+    game = answer(game, catalog, false);
+    game = answer(game, catalog, false);
+    const opening = view(game, catalog);
+    assert.equal(opening.state.lives, 1);
+    game = play(game, {type:"expedition-draft", key:opening.key, value:near}, catalog);
+    const attempt = {type:"expedition-answer", key:opening.key, now:1010, value:near} as const;
+    assert.equal(transition(game, attempt, catalog), game);
+    assert.deepEqual(restore(JSON.stringify(game), catalog), game);
+    const next = answer(game, catalog);
+    assert.equal(view(next, catalog).step, 1);
+    assert.equal(view(next, catalog).state.lives, 1);
+    assert.notEqual(view(next, catalog).state.turn, opening.state.turn);
+    assert.deepEqual(view(next, catalog).state.scores, [1, 0]);
+  }
+});
+
 test("three misses end a landmark; retry keeps rewards and buys are idempotent",()=>{
   let game=arrive(start("moses"));
   let v=view(game);

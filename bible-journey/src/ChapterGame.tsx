@@ -8,7 +8,8 @@ import { Copy } from "./components";
 import { useGame } from "./GameProvider";
 import { useCharacters } from "./localizedCatalog";
 import { LanguageSwitcher, useLocale } from "./LocaleProvider";
-import { canBuy, current, matches, normalize, spokenPictureAnswer } from "./game";
+import { canBuy, current, normalize, spokenPictureAnswer } from "./game";
+import { classifyGuess } from "./puzzleAnswer";
 import { expeditionView } from "./expedition";
 import { roundArtwork } from "./round";
 import { RouteGate } from "./RouteGate";
@@ -78,6 +79,7 @@ function Stage({live}:{live:Travel}) {
   const buttons=useRef<(ViewHandle|null)[]>([]), busy=useRef(false);
   const scroll=useRef<ComponentRef<typeof ScrollView>>(null), heading=useRef<ComponentRef<typeof View>>(null);
   const [voiceOpen,setVoiceOpen]=useState(false);
+  const [nearAnswerKey,setNearAnswerKey]=useState<string|null>(null);
   const land=useCallback(()=>setLanded(true),[]);
   const view=feedback?.view??live, phase=view.state.phase, bonus=phase==="bonus";
   const showingQuestion=phase==="question"||bonus, onMap=phase==="travel"||phase==="discovery";
@@ -110,7 +112,7 @@ function Stage({live}:{live:Travel}) {
       const tierClue=t.clues.find(c=>c.key===kind);
       if(kind==="letter" && !tierClue && !owned)continue;
       const price=owned?0:kind==="image"?1:kind==="hint"?2:tierClue?.cost??2;
-      const label=kind==="image"?tr("Another illustration","איור נוסף"):kind==="hint"?tr("Written clue","רמז כתוב"):tr("Reveal a letter","חשיפת אות");
+      const label=kind==="image"?tr("See another picture","הצגת איור נוסף"):kind==="hint"?tr("Read a written hint","קריאת רמז כתוב"):tr("Reveal the first letter","גילוי האות הראשונה");
       availableClues.push({kind,label,price,disabled:locked||!canBuy(kind,progress)||profile.tokens<price});
     }
   }
@@ -127,7 +129,13 @@ function Stage({live}:{live:Travel}) {
     if(bonus && deadline!==null && time>=deadline) {
       showFeedback(false,null,undefined,undefined,true); dispatch({type:"expedition-expire",key:live.key,now:time}); return;
     }
-    const correct=question?choice===question.answer:matches(value??"",puzzle);
+    const result=question ? (choice===question.answer ? "correct" : "wrong") : classifyGuess(value??"",puzzle);
+    if(result==="near"){
+      setNearAnswerKey(live.key);
+      return;
+    }
+    setNearAnswerKey(null);
+    const correct=result==="correct";
     showFeedback(correct,origin,choice,value);
     dispatch({type:"expedition-answer",key:live.key,choice,value,now:time});
   };
@@ -239,7 +247,9 @@ function Stage({live}:{live:Travel}) {
             </View>
             <View testID={bonus?"bonus-question":`round-question-${view.step+1}`} style={{flexDirection:wide?"row":"column",alignItems:wide?"center":"stretch",gap:wide?28:10}}>
               <View testID="round-picture" style={{flex:wide?1:undefined,flexDirection:"row",alignItems:"center",justifyContent:"center",gap:9}}>
-                <PuzzleArtwork key={imageKey} puzzle={puzzle} imageSet={art.set} index={art.index} label={questionLabel} hideLadder maxWidth={artSize} onReadyChange={artStatus}/>
+                <View style={{width:artSize,flexShrink:1,minWidth:0}}>
+                  <PuzzleArtwork key={imageKey} puzzle={puzzle} imageSet={art.set} index={art.index} label={questionLabel} hideLadder maxWidth={artSize} onReadyChange={artStatus}/>
+                </View>
                 {availableClues.length>0 && <ClueRail tools={availableClues} onBuy={clue=>dispatch({type:"expedition-buy",key:live.key,clue})}/>}
               </View>
               <View style={{flex:wide?1:undefined,gap:8}}>
@@ -255,7 +265,7 @@ function Stage({live}:{live:Travel}) {
                         <Copy style={short(wide?19:16)}>{option}</Copy></>}
                     </Pressable>;
                   })}
-                </View>:<RoundAnswer puzzle={puzzle} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked}
+                </View>:<RoundAnswer puzzle={puzzle} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked} nearAnswer={nearAnswerKey===view.key}
                   onDraft={value=>dispatch({type:"expedition-draft",key:live.key,value})} onGuess={(value,origin)=>respond(origin,undefined,value)}/>}
                 <View style={{minHeight:24}}>
                   {feedback ? <Copy testID="answer-feedback" accessibilityLiveRegion="polite" style={{...short(16),color:feedback.correct?"#D9E7AE":"#FFCCB2"}}>

@@ -33,17 +33,19 @@ export function TreasureLegend({ lamp, seal }: {lamp:number;seal:number}) {
 export type ClueTool = {kind: Exclude<Clue,"answer">; label: string; price: number; disabled: boolean};
 export function ClueRail({tools,onBuy}:{tools:ClueTool[];onBuy:(kind:ClueTool["kind"])=>void}) {
   const {tr,isHebrew}=useLocale();
-  return <View testID="clue-rail" style={{gap:6}}>{tools.map(tool=>{
+  return <View testID="clue-rail" style={{width:94,gap:8}}>{tools.map(tool=>{
     const cost = tool.price===0 ? tr("free","מתנה") : tool.price===1 ? tr("1 token","אסימון אחד") : tr(`${tool.price} tokens`,`${tool.price} אסימונים`);
     return <Pressable key={tool.kind} testID={`clue-${tool.kind}`} accessibilityRole="button" accessibilityLabel={`${tool.label} · ${cost}`} accessibilityState={{disabled:tool.disabled}} disabled={tool.disabled} onPress={()=>onBuy(tool.kind)}
-      style={{width:48,minHeight:46,alignItems:"center",justifyContent:"center",gap:2,borderRadius:9,opacity:tool.disabled ? .53 : 1}}>
-      {({pressed})=><><CarvedFace pressed={pressed}/>{tool.kind==="letter"?<Copy style={{fontSize:19,lineHeight:21,color:earthen.ink}}>{isHebrew?"א":"A"}</Copy>:
+      style={{width:"100%",alignItems:"center",gap:2,borderRadius:9}}>
+      {({pressed})=><><View style={{width:48,minHeight:46,alignItems:"center",justifyContent:"center",gap:2,opacity:tool.disabled ? .53 : 1}}>
+        <CarvedFace pressed={pressed}/>{tool.kind==="letter"?<Copy style={{fontSize:19,lineHeight:21,color:earthen.ink}}>{isHebrew?"א":"A"}</Copy>:
         <View style={{width:21,height:19}}><Svg width={21} height={19} viewBox="0 0 24 22" aria-hidden>
           <Rect x={2} y={2} width={20} height={17} rx={2} fill="none" stroke="#F6D298" strokeWidth={1.6}/>
           <Path d={tool.kind==="image"?"M4 15l5-5 3 3 4-6 4 7 M6 7h2":"M6 7h12 M6 11h10 M6 15h7"} fill="none" stroke="#F6D298" strokeWidth={1.6}/>
         </Svg></View>}
         <View style={{flexDirection:"row",gap:1,alignItems:"center"}}>{tool.price>0?Array.from({length:tool.price},(_,i)=><Coin key={i} size={11}/>):<Copy style={{fontSize:11,lineHeight:14,color:earthen.gold}}>{tr("Free","מתנה")}</Copy>}</View>
-      </>}
+      </View>
+      <Copy style={{width:"100%",fontSize:14,lineHeight:17,textAlign:"center",color:tool.disabled ? earthen.muted : earthen.ink}}>{tool.label}</Copy></>}
     </Pressable>;
   })}</View>;
 }

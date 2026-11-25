@@ -19,14 +19,18 @@ export function RoundAction({ title, onPress, disabled = false, quiet = false, r
   </Pressable>;
 }
 
-export function RoundAnswer({ puzzle, progress, disabled, onGuess, onDraft }: {
-  puzzle: Puzzle; progress: PuzzleProgress; disabled: boolean;
+export function RoundAnswer({ puzzle, progress, disabled, nearAnswer, onGuess, onDraft }: {
+  puzzle: Puzzle; progress: PuzzleProgress; disabled: boolean; nearAnswer: boolean;
   onGuess: (value: string, origin: ViewHandle | null) => void; onDraft: (value: string) => void;
 }) {
   const t = useTier();
   const { tr, direction, isHebrew, fontFamily } = useLocale();
   const choiceButtons = useRef<(ViewHandle | null)[]>([]);
   const submit = useRef<ViewHandle>(null);
+  const nearHint = nearAnswer && <Copy testID="near-answer-feedback" accessibilityLiveRegion="polite"
+    style={{ color: earthen.gold, fontSize: 17, lineHeight: 23 }}>
+    {tr("Almost! What exactly is happening in the picture?", "כמעט! מה בדיוק קורה בתמונה?")}
+  </Copy>;
   if (t.input === "pictures") return <View style={{ direction, flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
     {puzzle.choicesKids.map((value, index) => <Pressable key={value} ref={node => { choiceButtons.current[index] = node; }} accessibilityRole="button"
       accessibilityLabel={tr(`Choose ${puzzle.choiceLabelsKids[index]}`, `בחירה: ${puzzle.choiceLabelsKids[index]}`)}
@@ -37,6 +41,7 @@ export function RoundAnswer({ puzzle, progress, disabled, onGuess, onDraft }: {
         <Copy style={{ fontSize: 16, lineHeight: 22, textAlign: "center" }}>{puzzle.choiceLabelsKids[index]}</Copy>
       </>}
     </Pressable>)}
+    {nearHint}
   </View>;
   const words = normalize(puzzle.answer).split(" ");
   return <View style={{ gap: 8 }}>
@@ -55,5 +60,6 @@ export function RoundAnswer({ puzzle, progress, disabled, onGuess, onDraft }: {
         direction, writingDirection: direction, textAlign: isHebrew ? "right" : "left", color: t.colors.ink,
         backgroundColor: t.colors.panel, borderWidth: 1, borderColor: t.colors.border, borderRadius: 10, outlineColor: t.colors.accent }} />
     <RoundAction ref={submit} title={tr("Check answer", "בדיקת התשובה")} disabled={disabled || !normalize(progress.draft)} onPress={() => onGuess(progress.draft, submit.current)} />
+    {nearHint}
   </View>;
 }

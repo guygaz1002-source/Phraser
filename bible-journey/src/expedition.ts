@@ -1,5 +1,5 @@
 import { tiers } from "../theme/tiers";
-import { matches, newPuzzle } from "./puzzleAnswer";
+import { classifyGuess, newPuzzle } from "./puzzleAnswer";
 import { routePictureQuestion } from "./expeditionConnections";
 import { surpriseQuestion } from "./expeditionBonus";
 import { finaleCard, finaleSceneIds } from "./expeditionFinale";
@@ -195,7 +195,9 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
         correct = action.choice === question.answer;
       } else {
         if (typeof action.value !== "string" || !action.value.trim()) return;
-        correct = matches(action.value, puzzle);
+        const result = classifyGuess(action.value, puzzle);
+        if (result === "near") return;
+        correct = result === "correct";
       }
       if (!correct) {
         next.lives--;
