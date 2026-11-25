@@ -78,6 +78,11 @@ export type ExpeditionPhase = "travel" | "question" | "discovery" | "bonus" | "g
 export type ExpeditionItem = "jar" | "staff" | "lamp" | "seal";
 export type Expedition = {
   seed: number;
+  /** Saved ordinary card IDs. Absent in the original fixed-route saves. */
+  deck?: string[];
+  curriculumTier?: TierId;
+  /** A previously displayed treasure keeps its question until it closes. */
+  legacyBonusAt?: number;
   landmark: number;
   step: number;
   phase: ExpeditionPhase;

@@ -33,7 +33,7 @@ export default function Characters() {
       dispatch({ type: "restart-journey", id: selected.id }); setRestartId(null); router.replace("/journey");
     }} />
   </MenuFrame>;
-  return <MenuFrame testID="character-menu" image={image} title={tr("Choose your companion", "בחירת דמות למסע")}
+  return <MenuFrame testID="character-menu" image={image} title={tr("Whose journey will you follow?", "עם מי יוצאים למסע?")}
     back={tr("Change play mode", "בחירת מצב משחק אחר")} onBack={() => router.dismissTo(start === "new" ? "/home?start=new" : "/home")}>
     <View style={{ gap: 10 }}>
       {characters.filter(c => c.stops.length).map(c => {

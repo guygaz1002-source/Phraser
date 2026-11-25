@@ -1,0 +1,334 @@
+{
+  "gen-babel": {
+    "aliases": [
+      "מגדל בבל",
+      "The Tower of Babel",
+      "בניית מגדל בבל",
+      "מגדל בבל נבנה",
+      "בניית המגדל",
+      "building the tower of Babel",
+      "Tower of Babel",
+      "בבל",
+      "סיפור מגדל בבל",
+      "המגדל של בבל",
+      "the Tower of Babel",
+      "Babel",
+      "Babel's tower"
+    ],
+    "partialAnswers": [
+      "מגדל",
+      "עיר",
+      "לבנים",
+      "tower",
+      "city",
+      "bricks",
+      "a tower"
+    ],
+    "sourceUrl": "https://mechon-mamre.org/p/pt/pt0111.htm",
+    "he": {
+      "title": "מגדל בבל",
+      "reference": "בראשית י״א, א׳–ט׳",
+      "passage": {
+        "a": "אנשים שמדברים אותה שפה בונים מגדל גבוה מאוד. אז שפתם מתבלבלת, והם כבר לא מבינים זה את זה. הם מפסיקים לבנות ומתפזרים. כדי לעשות משהו יחד, צריך להבין ולהקשיב.",
+        "b": "בני האדם מדברים שפה אחת ומחליטים לבנות עיר ומגדל שראשו בשמים. הם רוצים לעשות לעצמם שם ולהישאר יחד. אלוהים מבלבל את שפתם, הם מפסיקים להבין זה את זה, והבנייה נעצרת. האנשים מתפזרים על פני הארץ.",
+        "c": "בני האדם מדברים שפה אחת ומחליטים לבנות עיר ומגדל שראשו בשמים. הם רוצים לעשות לעצמם שם ולהישאר יחד. אלוהים מבלבל את שפתם, הם מפסיקים להבין זה את זה, והבנייה נעצרת. האנשים מתפזרים על פני הארץ."
+      },
+      "hint": "אנשים רבים ניסו לבנות יחד במקום אחד.",
+      "descriptions": [
+        "שורות של לבנים וחומר כהה",
+        "אנשים מעבירים לבנים ליד קיר",
+        "מגדל רב קומות מתנשא מעל העובדים",
+        "אנשים ליד המגדל מצביעים לכיוונים שונים"
+      ],
+      "picturePrompt": {
+        "a": "לאיזה סיפור שייכות הלבנים שבציור?",
+        "b": "איזה סיפור מתחיל כשאנשים מכינים לבנים כדי לבנות יחד?",
+        "teen": "באיזה סיפור הופך שיתוף הפעולה של הבונים לפיזורם?",
+        "c": "באיזה סיפור מקראי משמשות לבנים במקום אבן, ומה שעתיד להיות עיר מתחיל באתר הבנייה הזה?"
+      }
+    },
+    "en": {
+      "title": "The Tower of Babel",
+      "reference": "Genesis 11:1–9",
+      "passage": {
+        "a": "People who speak the same language start building a city and a very tall tower. Then God confuses their language. They can no longer understand one another, so they stop building and spread out across the earth. The story gives us something to think about: working together takes understanding.",
+        "b": "People who share one language decide to build a city and a tower reaching toward the sky. They want to make a name for themselves and avoid being scattered. God confuses their language, and the builders can no longer understand one another. The work stops, and the people spread across the earth.",
+        "c": "The builders of Babel share a language, a plan, and the wish to make a name for themselves. They build a city and a tower, hoping to remain together. God confuses their language; construction stops, and they are scattered. The account links the name Babel with the confusion of language, inviting questions about ambition, shared purpose, and the limits of unity."
+      },
+      "hint": "Many people tried to build together in one place.",
+      "descriptions": [
+        "Rows of bricks and dark mortar",
+        "Workers passing bricks beside a wall",
+        "A many-tiered tower above the workers",
+        "People gesturing in different directions beside the tower"
+      ],
+      "picturePrompt": {
+        "a": "Which Bible story begins with bricks like these?",
+        "b": "In which story do people make bricks so they can build together?",
+        "teen": "Which story begins with the builders working together and ends with them scattered?",
+        "c": "Which biblical account describes brick taking the place of stone as a city begins to rise?"
+      }
+    }
+  },
+  "gen-abram": {
+    "aliases": [
+      "מסע אברם לכנען",
+      "Abram’s Journey to Canaan",
+      "מסע אברם",
+      "מסעו של אברהם",
+      "יציאת אברם מחרן",
+      "המסע של אברהם",
+      "עליית אברהם לארץ כנען",
+      "אברהם יוצא לכנען",
+      "אברם יוצא לכנען",
+      "מסע אברהם לכנען",
+      "מסע אברהם",
+      "לך לך",
+      "Lech Lecha",
+      "Abram leaves Haran",
+      "Abraham goes to Canaan",
+      "Abram goes to Canaan",
+      "Abram's journey",
+      "Abraham's journey",
+      "Abraham's Journey",
+      "לך־לך",
+      "לך-לך",
+      "לך לך מארצך",
+      "פרשת לך לך",
+      "Abrahams Journey",
+      "Abram's Journey",
+      "Abrams Journey",
+      "Abraham's journey to Canaan",
+      "Abram's journey to Canaan",
+      "Abraham leaves home",
+      "God's Call to Abram",
+      "God's Call to Abraham",
+      "the Call of Abram",
+      "the Call of Abraham",
+      "Lekh Lekha",
+      "Lech-Lecha",
+      "Lekh Lecha",
+      "Lech Lekha"
+    ],
+    "partialAnswers": [
+      "אברהם",
+      "אברם",
+      "שרי",
+      "שרה",
+      "הכוכבים",
+      "כנען",
+      "Abram",
+      "Abraham",
+      "Haran",
+      "Canaan",
+      "stars",
+      "אברהם ושרה",
+      "Abraham and Sarah",
+      "Abram and Sarai"
+    ],
+    "sourceUrl": "https://mechon-mamre.org/p/pt/pt0112.htm",
+    "he": {
+      "title": "מסע אברם לכנען",
+      "reference": "בראשית י״ב, א׳–ה׳; ט״ו, ה׳",
+      "passage": {
+        "a": "אברם, שנקרא בהמשך אברהם, יוצא למסע למקום חדש עם שרי, לוט ובני ביתם. הם מגיעים לארץ כנען. בהמשך פרשת לך־לך אברם מביט בכוכבים ומקבל הבטחה למשפחה גדולה. הדרך והכוכבים שבתמונות הם שני רמזים לאותה פרשה.",
+        "b": "אברם מקבל קריאה לעזוב את ארצו ואת בית אביו ולצאת אל ארץ שאלוהים יראה לו. הוא יוצא מחרן עם שרי, לוט ובני ביתו, והם מגיעים לארץ כנען. בהמשך אותה פרשה הוא מוזמן להביט בכוכבים ומקבל הבטחה שזרעו יהיה רב כמותם. לכן גם הדרך וגם הכוכבים מרמזים על לך־לך. בשלב הזה שמותיהם עדיין אברם ושרי; בהמשך הם יהיו אברהם ושרה.",
+        "c": "אברם מקבל קריאה לעזוב את ארצו ואת בית אביו ולצאת אל ארץ שאלוהים יראה לו. הוא יוצא מחרן עם שרי, לוט ובני ביתו, והם מגיעים לארץ כנען. בהמשך אותה פרשה הוא מוזמן להביט בכוכבים ומקבל הבטחה שזרעו יהיה רב כמותם. לכן גם הדרך וגם הכוכבים מרמזים על לך־לך. בשלב הזה שמותיהם עדיין אברם ושרי; בהמשך הם יהיו אברהם ושרה."
+      },
+      "hint": "משפחה עוזבת את ביתה ובוטחת בהבטחה על ארץ ועל צאצאים.",
+      "descriptions": [
+        "צרורות בפתח יישוב ושביל אל ההרים",
+        "זוג צועד בשביל עם ציוד לדרך",
+        "בני בית ובהמות משא הולכים יחד",
+        "אדם מצביע אל שמי לילה זרועי כוכבים"
+      ],
+      "picturePrompt": {
+        "a": "איזה מסע בתנ״ך מתחיל בצרורות מוכנים לדרך?",
+        "b": "באיזה סיפור יוצאת משפחה מחרן אל ארץ חדשה?",
+        "teen": "איזה מסע מתחיל בקריאה לעזוב את בית האב, עוד לפני שהיעד נודע לנוסע?",
+        "c": "לאיזה מסע שייכת הקריאה ללכת אל הארץ שתתגלה בדרך, עוד לפני הברית בין הבתרים?"
+      }
+    },
+    "en": {
+      "title": "Abram’s Journey to Canaan",
+      "reference": "Genesis 12:1–5; 15:5",
+      "passage": {
+        "a": "Abram, who is later named Abraham, sets out for a new land. His wife Sarai, later named Sarah, travels with him, along with his nephew Lot and their household. They reach Canaan. Later, God tells Abram to look at the stars and promises him many descendants. The journey and the stars are two clues to Abraham's story.",
+        "b": "God calls Abram to leave his homeland and go to a land he will be shown. Abram leaves Haran with Sarai, his nephew Lot, and their household, and they reach Canaan. Later, God points him toward the stars with a promise of countless descendants. These are separate moments in one story. At this stage, Abraham and Sarah are still called Abram and Sarai.",
+        "c": "At seventy-five, Abram leaves Haran in response to God's call, traveling with Sarai, Lot, and their household to Canaan. The departure in Genesis 12 and the promise of descendants pictured through the stars in Genesis 15 are distinct moments. Together they connect an uncertain journey with a promised future. Abram and Sarai receive the names Abraham and Sarah later in the narrative."
+      },
+      "hint": "A family leaves home, trusting a promise of land and descendants.",
+      "descriptions": [
+        "Packed belongings by a settlement and a path into the hills",
+        "A couple on a trail with their belongings",
+        "A household and pack animals travelling together",
+        "A man pointing toward a sky filled with stars"
+      ],
+      "picturePrompt": {
+        "a": "Which Bible journey starts with a family packing to leave home?",
+        "b": "In which story does a family leave Haran for a new land?",
+        "teen": "Which journey begins with a call to leave the traveller’s father’s house before the destination is named?",
+        "c": "Which journey begins with a call to go to a land yet to be shown, before the covenant between the pieces?"
+      }
+    }
+  },
+  "gen-jacob": {
+    "aliases": [
+      "חלום יעקב",
+      "Jacob’s Dream",
+      "סולם יעקב",
+      "יעקב חולם על סולם",
+      "חלום הסולם",
+      "הסולם בחלום יעקב",
+      "חלום יעקב בבית אל",
+      "Jacob's ladder",
+      "Jacob's ladder dream",
+      "Jacob's Dream",
+      "החלום של יעקב",
+      "הסולם של יעקב",
+      "יעקב והמלאכים",
+      "Jacobs Dream",
+      "Jacob's Ladder",
+      "Jacobs Ladder",
+      "Jacob's Stairway",
+      "Jacob and the angels",
+      "the dream of Jacob",
+      "the ladder of Jacob"
+    ],
+    "partialAnswers": [
+      "יעקב",
+      "סולם",
+      "אבן",
+      "מלאכים",
+      "Jacob",
+      "ladder",
+      "stone",
+      "angels"
+    ],
+    "sourceUrl": "https://mechon-mamre.org/p/pt/pt0128.htm",
+    "he": {
+      "title": "חלום יעקב",
+      "reference": "בראשית כ״ח, י׳–י״ט",
+      "passage": {
+        "a": "יעקב הולך בדרך ועוצר לישון ליד אבן. בחלום הוא רואה סולם גבוה שמגיע לשמים ומלאכים שעולים ויורדים בו. בבוקר הוא קורא למקום בית אל.",
+        "b": "יעקב יוצא מבאר שבע לכיוון חרן. בלילה הוא עוצר בדרך, מניח אבן ליד ראשו ונרדם. בחלום הוא רואה סולם מוצב בארץ וראשו מגיע לשמים, ומלאכים עולים ויורדים בו. כשהוא מתעורר הוא קורא למקום בית אל.",
+        "c": "יעקב יוצא מבאר שבע לכיוון חרן. בלילה הוא עוצר בדרך, מניח אבן ליד ראשו ונרדם. בחלום הוא רואה סולם מוצב בארץ וראשו מגיע לשמים, ומלאכים עולים ויורדים בו. כשהוא מתעורר הוא קורא למקום בית אל."
+      },
+      "hint": "נוסע עוצר ללילה ורואה דבר יוצא דופן בשנתו.",
+      "descriptions": [
+        "נוסע ישן בשטח ליד אבן",
+        "סולם מזדקר ליד הנוסע הישן",
+        "דמויות עולות ויורדות בסולם",
+        "קצה הסולם בשמים והנוסע עדיין ישן"
+      ],
+      "picturePrompt": {
+        "a": "באיזה סיפור עוצר נוסע לישון ליד אבן?",
+        "b": "איזה סיפור מתחיל בלילה בדרך, כשנוסע שם אבן ליד ראשו?",
+        "teen": "באיזה סיפור מקבל מקום לינה בדרך מבאר שבע לחרן שם חדש בבוקר?",
+        "c": "לאיזו התגלות בדרך לחרן שייכת האבן שתהפוך בבוקר למצבה?"
+      }
+    },
+    "en": {
+      "title": "Jacob’s Dream",
+      "reference": "Genesis 28:10–19",
+      "passage": {
+        "a": "Jacob stops to sleep while traveling. He places a stone near his head. In a dream, he sees a ladder reaching from the earth toward heaven, with angels going up and down. When he wakes, he gives the place a new name: Bethel.",
+        "b": "On his way from Beersheba to Haran, Jacob stops for the night and places a stone near his head. He dreams of a ladder, or stairway, joining earth and heaven, with angels moving up and down. God promises to be with him. When Jacob wakes, he recognizes new meaning in the place and names it Bethel.",
+        "c": "Traveling from Beersheba toward Haran, Jacob spends the night on the road with a stone near his head. His dream joins earth and heaven through a ladder or stairway, with angels ascending and descending. God's promise of presence turns an ordinary stopping place into a remembered encounter. Jacob names it Bethel; the town had previously been called Luz."
+      },
+      "hint": "A traveller stops for the night and sees something extraordinary in his sleep.",
+      "descriptions": [
+        "A traveller asleep beside a stone",
+        "A ladder rises beside the sleeping traveller",
+        "Figures moving up and down a ladder",
+        "The ladder reaches the sky while the traveller sleeps"
+      ],
+      "picturePrompt": {
+        "a": "In which story does a traveller sleep beside a stone?",
+        "b": "Which story begins when a traveller stops for the night and puts a stone near his head?",
+        "teen": "In which story does a stopping place on the road from Beersheba to Haran receive a new name at daybreak?",
+        "c": "Which encounter on the road to Haran turns a stone from the night’s lodging into a pillar the next morning?"
+      }
+    }
+  },
+  "gen-joseph": {
+    "aliases": [
+      "חלומות יוסף",
+      "Joseph’s Dreams",
+      "חלום האלומות",
+      "חלום השמש הירח והכוכבים",
+      "חלומותיו של יוסף",
+      "חלום יוסף",
+      "האלומות משתחוות ליוסף",
+      "Joseph's dream of sheaves",
+      "Joseph dreams of the sun moon and stars",
+      "Joseph's Dreams",
+      "החלומות של יוסף",
+      "Josephs Dreams",
+      "Joseph's Dream",
+      "the dreams of Joseph"
+    ],
+    "partialAnswers": [
+      "יוסף",
+      "אלומות",
+      "שיבולים",
+      "כתונת פסים",
+      "יוסף וכתונת הפסים",
+      "יוסף בעל החלומות",
+      "Joseph",
+      "sheaves",
+      "stars",
+      "the coat of many colours",
+      "Joseph the Dreamer",
+      "Joseph and his coat",
+      "Joseph's coat of many colors",
+      "coat of many colors",
+      "Joseph's colorful coat"
+    ],
+    "sourceUrl": "https://mechon-mamre.org/p/pt/pt0137.htm",
+    "he": {
+      "title": "חלומות יוסף",
+      "reference": "בראשית ל״ז, א׳–י״א",
+      "passage": {
+        "a": "יוסף חולם חלומות מיוחדים. באחד מהם, צרורות חיטה שנקראים אלומות משתחווים לאלומה שלו. בחלום אחר מופיעים השמש, הירח ואחד עשר כוכבים. האחים שלו שומעים את החלומות ומקנאים בו.",
+        "b": "יוסף מספר למשפחתו על שני חלומות. בראשון, אלומות האחים משתחוות לאלומה שלו. בשני, השמש, הירח ואחד עשר כוכבים משתחווים לו. אחיו מבינים שהוא חולם לשלוט בהם ומקנאים בו. אביו שומע את הדברים וזוכר אותם.",
+        "c": "יוסף מספר למשפחתו על שני חלומות. בראשון, אלומות האחים משתחוות לאלומה שלו. בשני, השמש, הירח ואחד עשר כוכבים משתחווים לו. אחיו מבינים שהוא חולם לשלוט בהם ומקנאים בו. אביו שומע את הדברים וזוכר אותם."
+      },
+      "hint": "בן מספר לאחיו על שני מראות שונים שיש בהם אותה תנועה.",
+      "descriptions": [
+        "שתי אלומות כפופות לצדי אלומה זקופה",
+        "אלומות רבות כפופות סביב אלומה עומדת",
+        "נער בבגד צבעוני ליד אלומות כפופות",
+        "נער ישן ולצדו מראות של שיבולים, שמש, ירח וכוכבים"
+      ],
+      "picturePrompt": {
+        "a": "לאיזה סיפור שייכים צרורות החיטה שנראים כאילו הם משתחווים?",
+        "b": "באיזה סיפור משתחוות האלומות שבשדה לאלומה אחת?",
+        "teen": "איזה אירוע משפחתי נרמז כשהאלומות שבציור כורעות, עוד לפני שמופיעים השמש והירח?",
+        "c": "לאיזה אירוע שייך המראה שמעורר באחים את השאלה אם אחיהם עתיד למשול בהם?"
+      }
+    },
+    "en": {
+      "title": "Joseph’s Dreams",
+      "reference": "Genesis 37:1–11",
+      "passage": {
+        "a": "Joseph tells his family about two dreams. In the first, his brothers' bundles of grain bow down to his bundle. In the second, the sun, moon, and eleven stars bow down to him. His brothers become jealous. Their father questions Joseph about the dream but keeps it in mind.",
+        "b": "Joseph shares two dreams with his family. First, his brothers' bundles of grain bow to his own. Then the sun, moon, and eleven stars bow to him. His brothers hear a claim that he will rule over them, and their resentment grows. His father rebukes him but keeps the matter in mind. The dreams add to an already strained family relationship.",
+        "c": "Joseph's dreams turn familiar images of work and the sky into unsettling pictures of authority. His brothers' sheaves bow to his sheaf; later, the sun, moon, and eleven stars bow to him. The brothers resent the implication of rule and are jealous. Jacob rebukes Joseph while keeping the matter in mind, a response more complicated than either simple approval or dismissal."
+      },
+      "hint": "A son describes two dreams to his brothers, both with the same gesture.",
+      "descriptions": [
+        "Two sheaves bend beside an upright sheaf",
+        "A circle of bent sheaves around one upright sheaf",
+        "A youth in a colourful robe beside the sheaves",
+        "A sleeping youth beside scenes of grain, sun, moon and stars"
+      ],
+      "picturePrompt": {
+        "a": "Which story shows bundles of grain that seem to bow?",
+        "b": "In which story do the bundles in a field bow to one bundle?",
+        "teen": "Which family episode do these bowing sheaves suggest, before the sun and moon appear?",
+        "c": "Which episode gives the brothers an image that prompts them to ask whether their brother will rule over them?"
+      }
+    }
+  }
+}

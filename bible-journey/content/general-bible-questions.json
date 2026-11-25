@@ -1,0 +1,1366 @@
+{
+  "en": {
+    "gen-babel": {
+      "a": [
+        {
+          "prompt": "What are the builders passing along to make the wall higher?",
+          "options": [
+            "Bricks",
+            "Water jars",
+            "Tree branches"
+          ],
+          "answer": 0,
+          "explanation": "Each brick joins the others to make another row in the wall."
+        },
+        {
+          "prompt": "Which part of the tower could they add only after building the lower part?",
+          "options": [
+            "The path to the city",
+            "The ground beneath the wall",
+            "The top floor"
+          ],
+          "answer": 2,
+          "explanation": "The top floor needs the floors below it to hold it up."
+        },
+        {
+          "prompt": "A builder asks for a brick. Why is it hard for the next builder to help at the end of the story?",
+          "options": [
+            "The tower is already finished",
+            "They can no longer understand the words",
+            "They have run out of clay"
+          ],
+          "answer": 1,
+          "explanation": "When their languages change, it becomes hard to tell what someone is asking for."
+        },
+        {
+          "prompt": "The builders wanted to stay together. What happened to them in the end?",
+          "options": [
+            "They scattered to different places",
+            "They all moved into the tower",
+            "They all shared one tent"
+          ],
+          "answer": 0,
+          "explanation": "The people ended up scattered, even though they had planned to stay together."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "What job did the dark material between the bricks do?",
+          "options": [
+            "Hold the bricks together",
+            "Mark the name of the city",
+            "Warm the workers’ hands"
+          ],
+          "answer": 0,
+          "explanation": "The builders used bitumen as mortar between the fired bricks."
+        },
+        {
+          "prompt": "Many people are building one tower. What helped them share the work at first?",
+          "options": [
+            "Tools made of gold",
+            "A single city gate",
+            "A common language"
+          ],
+          "answer": 2,
+          "explanation": "The story describes their shared speech before it tells of their plans to build."
+        },
+        {
+          "prompt": "What suffers first when people working on one wall stop understanding each other?",
+          "options": [
+            "The strength of each brick",
+            "Their ability to coordinate",
+            "The height of the finished wall"
+          ],
+          "answer": 1,
+          "explanation": "Confused speech disrupts the communication needed for the project."
+        },
+        {
+          "prompt": "The tower stays on the building site. What changes for the builders?",
+          "options": [
+            "They spread across the earth",
+            "They speak only in whispers",
+            "They move to the top floor"
+          ],
+          "answer": 0,
+          "explanation": "The story ends by describing the people being scattered across the earth."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "Which building problem did the combination of brick and bitumen solve?",
+          "options": [
+            "Finding substitutes for stone and mortar",
+            "Raising water to the top floor",
+            "Making a road for the people to scatter"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 11 describes bricks serving as stone and bitumen serving as mortar."
+        },
+        {
+          "prompt": "How would the city around the tower serve the builders’ wish to stay together?",
+          "options": [
+            "It would encourage each family to set out separately",
+            "It would require each worker to learn a new language",
+            "It would gather the people in one place"
+          ],
+          "answer": 2,
+          "explanation": "Fear of being scattered is one reason they give for building the city and tower."
+        },
+        {
+          "prompt": "What links the single language at the beginning with the end of construction?",
+          "options": [
+            "The language changes because the tower is complete",
+            "A change in communication breaks up the cooperation",
+            "The workers give up speech to build faster"
+          ],
+          "answer": 1,
+          "explanation": "The ability to agree on a great project at first is exactly what is disrupted later."
+        },
+        {
+          "prompt": "What makes the builders’ wish to avoid scattering ironic?",
+          "options": [
+            "They scatter from the very place where they gathered",
+            "The tower’s measurements are carefully recorded",
+            "The city is named after a kind of stone"
+          ],
+          "answer": 0,
+          "explanation": "The thing they hoped their city would prevent is what eventually happens."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "Why describe the building materials before reporting the builders’ purpose?",
+          "options": [
+            "Their technical means appear before their social ambition",
+            "The materials are given as punishment for their ambition",
+            "The list indicates that the city is already finished"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 11:3–4 moves from making bricks to proposing a city and a name for themselves."
+        },
+        {
+          "prompt": "The tower points skyward. How does the divine movement change the viewpoint?",
+          "options": [
+            "God climbs the stairs the people have finished",
+            "God invites the people to climb up",
+            "God descends to see the builders’ work"
+          ],
+          "answer": 2,
+          "explanation": "The height that the builders envisage is set beside a descent to see the city and tower."
+        },
+        {
+          "prompt": "What parallel connects the human plan and the divine response?",
+          "options": [
+            "Both voices choose the name Babel",
+            "Both voices invite action in the plural",
+            "Both instruct the people to scatter"
+          ],
+          "answer": 1,
+          "explanation": "The invitation to build is echoed in the invitation to descend and confuse the language."
+        },
+        {
+          "prompt": "The builders want to make a name for themselves. Who explains the name that survives?",
+          "options": [
+            "The narrator, linking Babel with confused speech",
+            "The builders, carving their names high on the tower",
+            "The king, announcing the name of his country"
+          ],
+          "answer": 0,
+          "explanation": "The narrator interprets the remembered name in terms of the confusion of speech."
+        }
+      ]
+    },
+    "gen-abram": {
+      "a": [
+        {
+          "prompt": "Two people are walking along the path. What suggests they are on a long journey?",
+          "options": [
+            "They are sitting in their doorway",
+            "They carry supplies",
+            "They are laying a table"
+          ],
+          "answer": 1,
+          "explanation": "The walking stick and supplies suit travellers setting out on a journey."
+        },
+        {
+          "prompt": "Who went to Canaan with Abram?",
+          "options": [
+            "Sarai and members of the household",
+            "The builders of a tower",
+            "Brothers delivering grain"
+          ],
+          "answer": 0,
+          "explanation": "Abram left with Sarai, Lot and their household."
+        },
+        {
+          "prompt": "At night Abram lifts his hand. What is he looking at?",
+          "options": [
+            "A ladder",
+            "A row of grain",
+            "The stars"
+          ],
+          "answer": 2,
+          "explanation": "The stars are a sign of the promise of a great family."
+        },
+        {
+          "prompt": "Why would it be hard for Abram to count what he sees overhead?",
+          "options": [
+            "The stars are in pairs",
+            "There are so many stars",
+            "They are all hiding in a tent"
+          ],
+          "answer": 1,
+          "explanation": "The great number of stars helps him imagine many descendants."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "What change does the road away from the houses suggest?",
+          "options": [
+            "An immediate return home",
+            "Leaving a familiar place",
+            "Building a new city on the spot"
+          ],
+          "answer": 1,
+          "explanation": "The journey begins with a call to leave the familiar."
+        },
+        {
+          "prompt": "Why does the picture include both people and supplies?",
+          "options": [
+            "An entire household is setting out",
+            "Two messengers are delivering one message",
+            "A family is visiting a market for the afternoon"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 12 lists the travellers and the possessions they took along."
+        },
+        {
+          "prompt": "What do the stars illustrate in the promise to Abram?",
+          "options": [
+            "A map showing Haran",
+            "A clock counting the days on the road",
+            "Numerous descendants"
+          ],
+          "answer": 2,
+          "explanation": "In Genesis 15 the many stars are linked to the promise about Abram’s descendants."
+        },
+        {
+          "prompt": "Which picture belongs to the later moment in Abram’s story?",
+          "options": [
+            "Abram preparing to leave Haran",
+            "Abram looking up at the stars",
+            "The household taking its possessions"
+          ],
+          "answer": 1,
+          "explanation": "The departure is told in Genesis 12 and the promise under the stars in Genesis 15."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "What did Abram have to do before the picture offers a glimpse of his family’s future?",
+          "options": [
+            "Choose the number of his descendants",
+            "Leave home and set out",
+            "Count the towns of Canaan"
+          ],
+          "answer": 1,
+          "explanation": "The call to depart comes before the scene of the stars and before the promise is fulfilled."
+        },
+        {
+          "prompt": "Which detail in the account of the departure makes this a household journey?",
+          "options": [
+            "The listing of Sarai, Lot and the household",
+            "The mention of Abram’s name alone",
+            "The description of the ground underfoot"
+          ],
+          "answer": 0,
+          "explanation": "The list widens the account beyond the individual who received the call."
+        },
+        {
+          "prompt": "What concern of Abram’s in Genesis 15 is answered through the stars?",
+          "options": [
+            "Which road leads to Haran",
+            "How many servants the journey needs",
+            "Who will carry on his family"
+          ],
+          "answer": 2,
+          "explanation": "Abram raises the question of his heir and the promise concerns his offspring."
+        },
+        {
+          "prompt": "How does the sky here differ from the ladder in Jacob’s dream?",
+          "options": [
+            "Both scenes show marked maps to follow",
+            "The stars picture a great number, while the ladder is seen in a dream",
+            "Both scenes count the angels in the sky"
+          ],
+          "answer": 1,
+          "explanation": "Abram is invited to look at the stars. Jacob sees a ladder while asleep."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "What changes between the command at the start of Genesis 12 and the account of arrival?",
+          "options": [
+            "The command names Canaan and the arrival leaves the land unnamed",
+            "The land is yet to be shown in the command and is named as Canaan on arrival",
+            "Both passages describe departure and omit arrival"
+          ],
+          "answer": 1,
+          "explanation": "Verse 1 leaves the land to be shown, while verse 5 names Canaan."
+        },
+        {
+          "prompt": "What does the list of household members and possessions add to the brief account of obedience?",
+          "options": [
+            "Practical detail about what the departure involved",
+            "Proof that the call was first addressed to Lot",
+            "Evidence that Sarai remained in Haran"
+          ],
+          "answer": 0,
+          "explanation": "After Abram’s going is reported, Genesis 12 specifies the travellers, possessions and destination."
+        },
+        {
+          "prompt": "Which feature of the stars addresses Abram’s stated concern about having no heir?",
+          "options": [
+            "Their fixed positions mark a boundary",
+            "Their light guarantees that the journey ends that night",
+            "Their apparent abundance illustrates future offspring"
+          ],
+          "answer": 2,
+          "explanation": "Genesis 15 connects the many stars with a promise concerning Abram’s offspring."
+        },
+        {
+          "prompt": "Which sequence follows Genesis 15:5–6?",
+          "options": [
+            "Belief, departure from Haran, counting the stars",
+            "Invitation to look, promise of offspring, belief",
+            "Promise of land, return to Haran, setting up a stone"
+          ],
+          "answer": 1,
+          "explanation": "The promise accompanying the sight of the stars precedes the account of Abram’s belief."
+        }
+      ]
+    },
+    "gen-jacob": {
+      "a": [
+        {
+          "prompt": "A traveller is asleep beside a ladder. Where does the top reach?",
+          "options": [
+            "The bottom of a well",
+            "The door of a house",
+            "The sky"
+          ],
+          "answer": 2,
+          "explanation": "In the dream the ladder reaches from the ground to the sky."
+        },
+        {
+          "prompt": "What are the figures on the ladder doing?",
+          "options": [
+            "Pulling it with ropes",
+            "Going up and down",
+            "Covering it with a tent"
+          ],
+          "answer": 1,
+          "explanation": "Jacob sees angels moving up and down the ladder."
+        },
+        {
+          "prompt": "The ladder is upright, but Jacob is still lying down. How does he see it?",
+          "options": [
+            "In a dream",
+            "Through a window",
+            "By climbing and stopping for a rest"
+          ],
+          "answer": 0,
+          "explanation": "Jacob sees the ladder while he is asleep."
+        },
+        {
+          "prompt": "In the morning Jacob takes something that was near his head. What does he stand up as a marker?",
+          "options": [
+            "A blanket",
+            "A rung from the ladder",
+            "A stone"
+          ],
+          "answer": 2,
+          "explanation": "Jacob sets the stone upright as a pillar."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "Why did Jacob stop for the night before seeing the ladder?",
+          "options": [
+            "He had reached Haran",
+            "He was meeting a friend at a well",
+            "The sun had set"
+          ],
+          "answer": 2,
+          "explanation": "The passage says he stayed there because the sun had gone down."
+        },
+        {
+          "prompt": "The ladder stays in place. Who moves in two directions?",
+          "options": [
+            "Jacob",
+            "The angels",
+            "A flock of sheep"
+          ],
+          "answer": 1,
+          "explanation": "The climbing and descending describe the angels on the ladder."
+        },
+        {
+          "prompt": "What is the picture showing while Jacob lies asleep below the ladder?",
+          "options": [
+            "What he sees in his dream",
+            "What he built that day",
+            "How he climbs back down to earth"
+          ],
+          "answer": 0,
+          "explanation": "The artist shows both the sleeper and the dream he is having."
+        },
+        {
+          "prompt": "Which object connects what Jacob did that night with what he did the next morning?",
+          "options": [
+            "The ladder he brought with him",
+            "The jar he broke on the road",
+            "The stone near his head"
+          ],
+          "answer": 2,
+          "explanation": "In the morning the stone from beside his head becomes a pillar."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "Jacob has left home and is sleeping on the road. Which promise speaks directly to his circumstances?",
+          "options": [
+            "An end to all further travel",
+            "An instruction to stay at the place he slept",
+            "Protection on the journey and a return"
+          ],
+          "answer": 2,
+          "explanation": "The promise of land is accompanied by a promise to keep Jacob and bring him back."
+        },
+        {
+          "prompt": "What links the moving angels with Jacob calling the place a gate of heaven?",
+          "options": [
+            "An actual gate in a city wall",
+            "The visible passage between earth and heaven",
+            "An angel working as a gate builder"
+          ],
+          "answer": 1,
+          "explanation": "After the dream Jacob sees the site as a point of connection between earth and heaven."
+        },
+        {
+          "prompt": "How does Jacob’s understanding of the site change between sleeping and waking?",
+          "options": [
+            "An overnight stop becomes a place of divine presence",
+            "A familiar town becomes a place without a name",
+            "A sacred place becomes a site he wants to forget"
+          ],
+          "answer": 0,
+          "explanation": "Waking, Jacob recognizes something about the place that he had not known when he arrived."
+        },
+        {
+          "prompt": "How does Jacob give his discovery a lasting connection to the site?",
+          "options": [
+            "He takes the ladder with him to Haran",
+            "He builds a town and invites his father there",
+            "He raises a stone and names the place Bethel"
+          ],
+          "answer": 2,
+          "explanation": "The pillar and the name preserve the significance of the experience at this place."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "How does placing the ladder on the earth prepare for Jacob’s response on waking?",
+          "options": [
+            "The ladder becomes equipment Jacob carries on his journey",
+            "The narrator counts the rungs of the ladder",
+            "The heavenly vision is tied to this particular earthly site"
+          ],
+          "answer": 2,
+          "explanation": "Jacob’s response gives particular meaning to the place where he spent the night."
+        },
+        {
+          "prompt": "Which detail distinguishes the biblical description from an illustrator’s choice?",
+          "options": [
+            "The count is explicit, but the direction is unknown",
+            "Movement in both directions is explicit, but the angels are not counted",
+            "Jacob climbs while an angel sets the ladder in place"
+          ],
+          "answer": 1,
+          "explanation": "Genesis 28:12 describes ascent and descent without numbering the angels."
+        },
+        {
+          "prompt": "How does the personal assurance to Jacob relate to the promises of land and offspring?",
+          "options": [
+            "Protection and return address a traveller within a promise spanning generations",
+            "Protection replaces the earlier promise of land",
+            "The promise concerns only his overnight resting place"
+          ],
+          "answer": 0,
+          "explanation": "Promises for future generations accompany a direct assurance to Jacob on the road."
+        },
+        {
+          "prompt": "How does the stone acquire a new role after Jacob wakes?",
+          "options": [
+            "An object seen only in a dream becomes a walking aid",
+            "An altar stone is carried to the top of the ladder",
+            "An object used overnight becomes a sacred marker at the site"
+          ],
+          "answer": 2,
+          "explanation": "The stone introduced at night reappears in the morning as a pillar on which Jacob pours oil."
+        }
+      ]
+    },
+    "gen-joseph": {
+      "a": [
+        {
+          "prompt": "Many stalks of grain are tied together. What is this bundle called?",
+          "options": [
+            "A sheaf",
+            "A ladder",
+            "A basket"
+          ],
+          "answer": 0,
+          "explanation": "A sheaf is a bundle of grain stalks."
+        },
+        {
+          "prompt": "All the sheaves bend except one. What does the middle one do?",
+          "options": [
+            "It floats on water",
+            "It climbs a tree",
+            "It stays upright"
+          ],
+          "answer": 2,
+          "explanation": "Joseph’s sheaf stands upright and the other sheaves bow down to it in the dream."
+        },
+        {
+          "prompt": "What appears in the sky in the second dream instead of grain?",
+          "options": [
+            "Branches and leaves",
+            "The sun, moon and stars",
+            "Tools for harvesting"
+          ],
+          "answer": 1,
+          "explanation": "The second dream uses things Joseph sees in the heavens."
+        },
+        {
+          "prompt": "Which movement happens in both dreams?",
+          "options": [
+            "Bowing down",
+            "Jumping up",
+            "Falling into a well"
+          ],
+          "answer": 0,
+          "explanation": "Sheaves bow in one dream; the sun, moon and stars bow in the other."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "How is Joseph’s sheaf different from the sheaves of his brothers?",
+          "options": [
+            "It stands while the others bow",
+            "It is the only small one",
+            "It alone is outside the field"
+          ],
+          "answer": 0,
+          "explanation": "The way the sheaves are positioned hints at a relationship between the brothers."
+        },
+        {
+          "prompt": "The brothers hear about the sheaves. What do they think the dream is saying?",
+          "options": [
+            "Joseph is teaching them to sow",
+            "Joseph is asking for a new coat",
+            "Joseph expects to rule over them"
+          ],
+          "answer": 2,
+          "explanation": "The brothers hear the bowing as a sign of a ruler and those beneath him."
+        },
+        {
+          "prompt": "Which number in the second dream suggests Joseph’s brothers?",
+          "options": [
+            "Seven sheaves",
+            "Eleven stars",
+            "Three moons"
+          ],
+          "answer": 1,
+          "explanation": "Joseph describes eleven stars together with the sun and the moon."
+        },
+        {
+          "prompt": "What connects the two dreams even when the setting changes?",
+          "options": [
+            "Many bow down to one",
+            "Both happen in a field",
+            "Each includes eleven moons"
+          ],
+          "answer": 0,
+          "explanation": "The image changes from sheaves to heavenly bodies, but the relation of many to one returns."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "Why does the arrangement of the sheaves anger the brothers?",
+          "options": [
+            "They hear a claim to authority by a younger brother",
+            "They lose the grain they have just harvested",
+            "They are ordered to leave the household that day"
+          ],
+          "answer": 0,
+          "explanation": "The brothers interpret bowing as a question of power."
+        },
+        {
+          "prompt": "The robe identifies Joseph in the illustration. What had already strained his brothers’ feelings before he told the dreams?",
+          "options": [
+            "A shortage of grain",
+            "His appointment in Egypt",
+            "Their father’s favouritism"
+          ],
+          "answer": 2,
+          "explanation": "The father’s affection and the robe come before the dreams and the growing hostility."
+        },
+        {
+          "prompt": "According to the father’s response, whom does the sky dream add to the circle suggested by the sheaves?",
+          "options": [
+            "Only the youngest brothers",
+            "The father and mother as well",
+            "Pharaoh together with the brothers"
+          ],
+          "answer": 1,
+          "explanation": "In his rebuke the father asks whether he, the mother and the brothers will bow."
+        },
+        {
+          "prompt": "How does the father’s response differ from that of the brothers after the second dream?",
+          "options": [
+            "He rebukes Joseph yet keeps the matter in mind",
+            "He immediately puts Joseph in charge",
+            "The brothers agree to keep the dream in mind"
+          ],
+          "answer": 0,
+          "explanation": "The brothers’ jealousy stands alongside the father’s more complicated response."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "How does the brothers’ response connect the image of sheaves with kingship?",
+          "options": [
+            "They translate the bowing into terms of rule",
+            "The narrator crowns Joseph in the field",
+            "The sheaves are immediately identified as years of famine"
+          ],
+          "answer": 0,
+          "explanation": "Genesis 37:8 lets the brothers interpret the gesture in their question about rule and dominion."
+        },
+        {
+          "prompt": "Which distinction separates the reported dream from the listeners’ response?",
+          "options": [
+            "Joseph explicitly demands a crown and the brothers describe grain",
+            "The father interprets the first dream before the brothers do",
+            "Joseph describes sheaves and the brothers draw a political conclusion"
+          ],
+          "answer": 2,
+          "explanation": "The dreamer’s speech and the listeners’ comments perform different roles in the story."
+        },
+        {
+          "prompt": "What changes in the object of the bowing from the first dream to the second?",
+          "options": [
+            "First they bow to his father and then to his mother",
+            "First the others bow to his sheaf; in the second dream they bow to Joseph himself",
+            "In both dreams everyone bows to the sun"
+          ],
+          "answer": 1,
+          "explanation": "The shift from Joseph’s sheaf to Joseph himself accompanies the widening of the scene to the heavens."
+        },
+        {
+          "prompt": "How does repetition in Joseph’s own dreams differ from his later explanation of Pharaoh’s two dreams?",
+          "options": [
+            "He explicitly explains the doubling for Pharaoh; Genesis 37 gives no parallel explanation",
+            "In both cases Joseph counts seven years of famine",
+            "Only Pharaoh’s dreams repeat an image pattern"
+          ],
+          "answer": 0,
+          "explanation": "In Genesis 41:32 Joseph interprets the recurrence for Pharaoh. The account of his youth records responses without that kind of explanation."
+        }
+      ]
+    }
+  },
+  "he": {
+    "gen-babel": {
+      "a": [
+        {
+          "prompt": "מה מעבירים הבונים זה לזה כדי להגביה את הקיר?",
+          "options": [
+            "לבנים",
+            "כדי מים",
+            "ענפי עץ"
+          ],
+          "answer": 0,
+          "explanation": "כל לבנה מצטרפת לקודמתה ויוצרת עוד שורה בקיר."
+        },
+        {
+          "prompt": "איזה חלק במגדל יכלו הבונים להוסיף רק אחרי שבנו את החלק התחתון?",
+          "options": [
+            "השביל אל העיר",
+            "הקרקע שמתחת לקיר",
+            "הקומה העליונה"
+          ],
+          "answer": 2,
+          "explanation": "הקומה העליונה נשענת על הקומות שכבר נבנו."
+        },
+        {
+          "prompt": "בונה מבקש לבנה. מדוע החבר שלידו מתקשה לעזור לו בסוף הסיפור?",
+          "options": [
+            "הם כבר סיימו את המגדל",
+            "הוא כבר לא מבין את המילים",
+            "נגמר החומר לבניית לבנים"
+          ],
+          "answer": 1,
+          "explanation": "כשהשפה משתנה קשה להבין מה מבקשים ולהמשיך לעבוד יחד."
+        },
+        {
+          "prompt": "הבונים רצו להישאר כולם במקום אחד. מה קרה להם בסוף?",
+          "options": [
+            "הם התפזרו למקומות שונים",
+            "כולם נכנסו למגדל",
+            "כולם עברו לגור באוהל אחד"
+          ],
+          "answer": 0,
+          "explanation": "התוכנית להישאר יחד הסתיימה בפיזור האנשים."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "החומר הכהה שבין הלבנים מילא תפקיד מסוים. איזה?",
+          "options": [
+            "לחבר את הלבנים",
+            "לסמן את שם העיר",
+            "לחמם את ידי העובדים"
+          ],
+          "answer": 0,
+          "explanation": "החֵמָר שימש חומר מחבר בין הלבנים השרופות."
+        },
+        {
+          "prompt": "בתמונה אנשים רבים בונים מגדל אחד. מה עזר להם לתאם את העבודה בהתחלה?",
+          "options": [
+            "כלים מזהב",
+            "שער אחד לעיר",
+            "שפה משותפת"
+          ],
+          "answer": 2,
+          "explanation": "הכתוב פותח בתיאור שפה משותפת, לפני ההחלטה לבנות יחד."
+        },
+        {
+          "prompt": "מה נפגע ראשון כשאנשים שעובדים על קיר אחד מפסיקים להבין זה את זה?",
+          "options": [
+            "החוזק של כל לבנה",
+            "היכולת לתאם עבודה",
+            "גובהו של הקיר שכבר נבנה"
+          ],
+          "answer": 1,
+          "explanation": "בלבול השפה פוגע בתקשורת הדרושה למיזם המשותף."
+        },
+        {
+          "prompt": "המגדל נשאר באתר הבנייה. מה השתנה אצל הבונים עצמם?",
+          "options": [
+            "הם נפוצו ברחבי הארץ",
+            "הם עברו לדבר בלחש",
+            "הם בחרו לעבור לראש המגדל"
+          ],
+          "answer": 0,
+          "explanation": "הסיפור מסתיים בפיזור האנשים על פני הארץ."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "איזו בעיה של בנייה פתר החיבור בין לבנים שרופות לחֵמָר?",
+          "options": [
+            "מציאת תחליף לאבן ולחומר המחבר",
+            "העלאת מים לראש המגדל",
+            "הכנת דרך לפיזור התושבים"
+          ],
+          "answer": 0,
+          "explanation": "בראשית י״א מתאר את הלבנה במקום האבן ואת החֵמָר כחומר מחבר."
+        },
+        {
+          "prompt": "כיצד בניית עיר סביב המגדל משרתת את רצון הבונים להישאר יחד?",
+          "options": [
+            "העיר מעודדת כל משפחה לצאת בנפרד",
+            "העיר מחייבת כל בונה ללמוד שפה אחרת",
+            "העיר מרכזת את הקבוצה במקום אחד"
+          ],
+          "answer": 2,
+          "explanation": "החשש מפיזור מופיע בנימוק לבניית העיר והמגדל."
+        },
+        {
+          "prompt": "איזה קשר יש בין פתיחת הסיפור בשפה אחת ובין הפסקת הבנייה?",
+          "options": [
+            "השפה משתנה מפני שהמגדל כבר הושלם",
+            "שינוי בתקשורת מפרק את שיתוף הפעולה",
+            "הבונים מוותרים על מילים כדי לבנות מהר יותר"
+          ],
+          "answer": 1,
+          "explanation": "היכולת לתאם מיזם גדול בתחילה היא שנפגעת בהמשך."
+        },
+        {
+          "prompt": "מה בסוף הסיפור הופך את התקווה ״פן נפוץ״ לאירונית?",
+          "options": [
+            "הבונים נפוצים דווקא ממקום ההתכנסות",
+            "המגדל מתואר במידות מדויקות",
+            "העיר מקבלת שם מלשון אבן"
+          ],
+          "answer": 0,
+          "explanation": "הדבר שממנו חששו כאשר יזמו את העיר הוא התוצאה המסופרת."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "מדוע המספר מפרט את חומרי הבנייה לפני דברי הבונים על תכלית העיר?",
+          "options": [
+            "היכולת הטכנית מוצגת לפני השאיפה החברתית",
+            "רשימת החומרים מוצגת כעונש על השאיפה",
+            "הרשימה מציינת שהעיר כבר עמדה גמורה"
+          ],
+          "answer": 0,
+          "explanation": "בראשית י״א 3–4 עובר מייצור הלבנים אל ההצעה לבנות ולעשות שם."
+        },
+        {
+          "prompt": "ראש המגדל פונה לשמים. כיצד התנועה המיוחסת לה׳ משנה את נקודת המבט?",
+          "options": [
+            "ה׳ מטפס במדרגות שהבונים השלימו",
+            "ה׳ מזמין את הבונים לעלות אליו",
+            "ה׳ יורד לראות את מעשה הבונים"
+          ],
+          "answer": 2,
+          "explanation": "הגובה שמדמיינים הבונים מוצג לצד הירידה האלוהית לראות את העיר ואת המגדל."
+        },
+        {
+          "prompt": "איזו הקבלה מחברת בין ההחלטה האנושית ובין המענה האלוהי?",
+          "options": [
+            "שני הקולות בוחרים בשם בבל",
+            "שני הקולות מזמינים לפעולה בלשון רבים",
+            "שני הקולות מצווים לפזר את האנשים"
+          ],
+          "answer": 1,
+          "explanation": "ההצעה האנושית לבנות וההצעה האלוהית לרדת ולבלול מהדהדות זו את זו בלשונן."
+        },
+        {
+          "prompt": "הבונים מבקשים לעשות להם שם. מי נותן את ההסבר לשם שנשאר בסוף?",
+          "options": [
+            "המספר, הקושר את בבל לבלילת השפה",
+            "הבונים, החורתים את שמם בראש המגדל",
+            "מלך העיר, המכריז על שם ממלכתו"
+          ],
+          "answer": 0,
+          "explanation": "השם שנחרת בסיפור מקבל מן המספר פירוש הקשור לבלבול."
+        }
+      ]
+    },
+    "gen-abram": {
+      "a": [
+        {
+          "prompt": "שתי דמויות צועדות על השביל. איזה פרט מרמז שזו דרך ארוכה?",
+          "options": [
+            "הן יושבות בפתח ביתן",
+            "הן נושאות ציוד",
+            "הן מסדרות שולחן"
+          ],
+          "answer": 1,
+          "explanation": "הציוד והמקל מתאימים לאנשים שיוצאים למסע."
+        },
+        {
+          "prompt": "מי מצטרף לאברם בדרך לכנען?",
+          "options": [
+            "שרי ובני הבית",
+            "בוני מגדל",
+            "אחים שמביאים תבואה"
+          ],
+          "answer": 0,
+          "explanation": "אברם יצא עם שרי, לוט ובני ביתם."
+        },
+        {
+          "prompt": "בלילה אברם מרים את ידו. על מה הוא מסתכל?",
+          "options": [
+            "על סולם",
+            "על שורת שיבולים",
+            "על הכוכבים"
+          ],
+          "answer": 2,
+          "explanation": "הכוכבים משמשים בסיפור סימן להבטחה למשפחה גדולה."
+        },
+        {
+          "prompt": "למה קשה לאברם לספור את מה שבשמים?",
+          "options": [
+            "הכוכבים מסודרים בזוגות",
+            "יש המון כוכבים",
+            "כולם מתחבאים בתוך אוהל"
+          ],
+          "answer": 1,
+          "explanation": "ריבוי הכוכבים עוזר לדמיין צאצאים רבים."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "איזה שינוי מבטא השביל המתרחק מן הבית?",
+          "options": [
+            "חזרה מיידית הביתה",
+            "עזיבת מקום מוכר",
+            "בניית עיר חדשה במקום"
+          ],
+          "answer": 1,
+          "explanation": "נקודת המוצא של המסע היא קריאה לעזוב את המקום המוכר."
+        },
+        {
+          "prompt": "מדוע יש בציור גם אנשים וגם מטען?",
+          "options": [
+            "משק בית שלם יוצא לדרך",
+            "רק שני שליחים נושאים הודעה",
+            "משפחה מתכנסת לשוק וחוזרת מיד"
+          ],
+          "answer": 0,
+          "explanation": "בראשית י״ב מתאר את היוצאים ואת הרכוש שלקחו איתם."
+        },
+        {
+          "prompt": "למה משמשים הכוכבים בהבטחה לאברם?",
+          "options": [
+            "מפה שמסמנת את חרן",
+            "שעון שסופר את ימי הדרך",
+            "דימוי לריבוי צאצאים"
+          ],
+          "answer": 2,
+          "explanation": "ההבטחה בפרק ט״ו קושרת את ריבוי הכוכבים לצאצאיו של אברם."
+        },
+        {
+          "prompt": "איזו תמונה שייכת לרגע המאוחר יותר בסיפור?",
+          "options": [
+            "אברם מתכונן לצאת מחרן",
+            "אברם מתבונן בכוכבים",
+            "בני הבית לוקחים את רכושם"
+          ],
+          "answer": 1,
+          "explanation": "היציאה מתוארת בפרק י״ב וההבטחה מול הכוכבים בפרק ט״ו."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "מה נדרש מאברם לעשות לפני שנראה בציור פתרון לשאלת העתיד?",
+          "options": [
+            "לבחור בעצמו את מספר צאצאיו",
+            "לעזוב את מקומו ולצאת לדרך",
+            "למנות את כל ערי כנען"
+          ],
+          "answer": 1,
+          "explanation": "הקריאה לצאת לדרך קודמת לסצנת הכוכבים ולהגשמת ההבטחה."
+        },
+        {
+          "prompt": "איזה פרט בתיאור היציאה מחרן מעניק למסע אופי משפחתי?",
+          "options": [
+            "הפירוט של שרי, לוט ובני הבית",
+            "אזכור שמו של אברם לבדו",
+            "תיאור האדמה שעליה עברו"
+          ],
+          "answer": 0,
+          "explanation": "רשימת הנוסעים מרחיבה את נקודת המבט מעבר לאדם המקבל את הקריאה."
+        },
+        {
+          "prompt": "איזו שאלה שמעסיקה את אברם בפרק ט״ו מקבלת מענה דרך הכוכבים?",
+          "options": [
+            "איזו דרך מובילה לחרן",
+            "כמה עבדים דרושים למסע",
+            "מי ימשיך את משפחתו"
+          ],
+          "answer": 2,
+          "explanation": "אברם מעלה את בעיית היורש וההבטחה עוסקת בצאצאים."
+        },
+        {
+          "prompt": "במה שונה תפקיד השמים כאן מתפקיד הסולם בחלום יעקב?",
+          "options": [
+            "שניהם מפות מנוקדות שמורות דרך",
+            "הכוכבים ממחישים ריבוי, והסולם מופיע בחלום",
+            "שניהם מתארים ספירה של מלאכים"
+          ],
+          "answer": 1,
+          "explanation": "אברם מביט בכוכבים בעקבות הזמנה להביט, ואילו יעקב רואה סולם בתוך חלום."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "איזה הבדל יש בין הצו בתחילת בראשית י״ב לבין תיאור ההגעה בהמשך?",
+          "options": [
+            "הצו נוקב בכנען וההגעה משאירה את הארץ עלומה",
+            "בצו הארץ עוד תיראה לאברם ובהגעה היא מזוהה ככנען",
+            "שני הקטעים מתארים יציאה אך משמיטים הגעה"
+          ],
+          "answer": 1,
+          "explanation": "פסוק 1 משאיר את היעד להצבעה עתידית ופסוק 5 מציין את כנען."
+        },
+        {
+          "prompt": "מה מוסיף פירוט בני הבית והרכוש לתגובה הקצרה של אברם לצו?",
+          "options": [
+            "תיאור מעשי מפורט של היציאה",
+            "הוכחה שהקריאה הופנתה תחילה ללוט",
+            "ראיה ששרי נשארה בחרן"
+          ],
+          "answer": 0,
+          "explanation": "אחרי תיאור ההליכה בפרק י״ב מופיעים המלווים, הרכוש והיעד."
+        },
+        {
+          "prompt": "איזה מרכיב בדימוי הכוכבים עונה לטענת אברם על היעדר יורש?",
+          "options": [
+            "מקומם הקבוע של הכוכבים מסמן את הגבול",
+            "האור מבטיח שהמסע יסתיים באותו לילה",
+            "הריבוי הנראה לעין ממחיש זרע עתידי"
+          ],
+          "answer": 2,
+          "explanation": "בראשית ט״ו קושר את ריבוי הכוכבים להבטחה הנוגעת לזרעו של אברם."
+        },
+        {
+          "prompt": "איזה צירוף משקף את סדר הדברים במפגש המתואר בבראשית ט״ו 5–6?",
+          "options": [
+            "אמונה, יציאה מחרן, מניית כוכבים",
+            "הזמנה להביט, הבטחת זרע, אמונה",
+            "הבטחת ארץ, חזרה לחרן, הצבת אבן"
+          ],
+          "answer": 1,
+          "explanation": "ההבטחה בעקבות ההתבוננות בכוכבים מקדימה את תיאור אמונתו של אברם."
+        }
+      ]
+    },
+    "gen-jacob": {
+      "a": [
+        {
+          "prompt": "הנוסע ישן ולידו סולם. לאן מגיע הקצה העליון?",
+          "options": [
+            "אל תחתית הבאר",
+            "אל דלת של בית",
+            "אל השמים"
+          ],
+          "answer": 2,
+          "explanation": "בחלום הסולם מחבר את הקרקע עם השמים."
+        },
+        {
+          "prompt": "מה עושות הדמויות שעל הסולם?",
+          "options": [
+            "מושכות אותו בחבל",
+            "עולות ויורדות",
+            "מכסות אותו באוהל"
+          ],
+          "answer": 1,
+          "explanation": "יעקב רואה מלאכים עולים ויורדים בסולם."
+        },
+        {
+          "prompt": "הסולם עומד, אבל יעקב נשאר שוכב. איך הוא רואה את הסולם?",
+          "options": [
+            "הוא חולם",
+            "הוא מביט מחלון",
+            "הוא מטפס ועוצר לנוח"
+          ],
+          "answer": 0,
+          "explanation": "יעקב רואה את המראה בזמן השינה."
+        },
+        {
+          "prompt": "בבוקר יעקב לוקח דבר שהיה ליד ראשו. מה הוא מעמיד לזיכרון?",
+          "options": [
+            "שמיכה",
+            "שלב מהסולם",
+            "אבן"
+          ],
+          "answer": 2,
+          "explanation": "יעקב מעמיד את האבן כמצבה."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "למה יעקב עצר ללון בדרך לפני שראה את הסולם?",
+          "options": [
+            "הוא כבר הגיע לחרן",
+            "הוא חיכה לחבר ליד באר",
+            "השמש שקעה"
+          ],
+          "answer": 2,
+          "explanation": "הכתוב מספר שיעקב לן במקום מפני שבא השמש."
+        },
+        {
+          "prompt": "הסולם עצמו נשאר במקומו. מי נע בשני כיוונים?",
+          "options": [
+            "יעקב",
+            "המלאכים",
+            "עדר כבשים"
+          ],
+          "answer": 1,
+          "explanation": "העלייה והירידה מתארות את תנועת המלאכים בסולם."
+        },
+        {
+          "prompt": "מה מראה לנו הציור כשהאדם נשאר ישן מתחת לסולם?",
+          "options": [
+            "מה שהוא רואה בחלום",
+            "מה שהוא בנה ביום",
+            "איך הוא יורד חזרה לארץ"
+          ],
+          "answer": 0,
+          "explanation": "הציור מראה יחד את הישן ואת המראה שהוא חולם."
+        },
+        {
+          "prompt": "איזה חפץ מחבר בין מה שיעקב עשה בלילה למה שעשה בבוקר?",
+          "options": [
+            "הסולם שהביא עמו",
+            "הכד שנשבר בדרך",
+            "האבן שליד ראשו"
+          ],
+          "answer": 2,
+          "explanation": "בבוקר האבן שהונחה למראשותיו נעשית מצבה."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "יעקב עוזב את ביתו ולן בדרך. מה בהבטחה שבחלום עונה למצבו?",
+          "options": [
+            "פטור מן הצורך להמשיך ללכת",
+            "הוראה להישאר במקום הלינה",
+            "שמירה בדרך והבטחת שיבה"
+          ],
+          "answer": 2,
+          "explanation": "אל ההבטחה על הארץ מצטרפת הבטחה לשמור על יעקב ולהשיבו."
+        },
+        {
+          "prompt": "מה מחבר בין מראה המלאכים לבין הכינוי ״שער השמים״ שנותן יעקב למקום?",
+          "options": [
+            "מיקומו של שער עיר ממשי",
+            "המעבר הנראה בין הארץ לשמים",
+            "הדמיון בין מלאך לבונה שערים"
+          ],
+          "answer": 1,
+          "explanation": "לאחר המראה יעקב מתאר את האתר כמקום של קשר בין הארץ לשמים."
+        },
+        {
+          "prompt": "איזה שינוי עובר על תפיסת המקום בין ההירדמות ליקיצה?",
+          "options": [
+            "ממקום לינה מזדמן למקום שיש בו נוכחות אלוהית",
+            "מעיר מוכרת למקום שאין לו שם",
+            "ממקום קדוש לאתר שהוא רוצה לשכוח"
+          ],
+          "answer": 0,
+          "explanation": "ביקיצה יעקב מבין דבר על המקום שלא ידע לפני השינה."
+        },
+        {
+          "prompt": "מה עושה יעקב כדי לקשור את גילויו למקום גם אחרי שיעזוב?",
+          "options": [
+            "נושא את הסולם אתו לחרן",
+            "מקים יישוב ומזמין אליו את אביו",
+            "מציב אבן וקורא למקום בית אל"
+          ],
+          "answer": 2,
+          "explanation": "המצבה והשם משמרים את משמעות האירוע באתר."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "מה תורם הציון שהסולם מוצב ארצה לתגובת יעקב ביקיצה?",
+          "options": [
+            "הסולם הופך לכלי שיעקב לוקח במסעו",
+            "המספר מונה את שלבי הסולם",
+            "המראה השמימי נקשר לאתר הארצי המסוים"
+          ],
+          "answer": 2,
+          "explanation": "תגובת יעקב מעניקה משמעות מיוחדת למקום שבו לן."
+        },
+        {
+          "prompt": "איזה פרט מבדיל בין התיאור המקראי לתוספת אפשרית של מאייר?",
+          "options": [
+            "המספר מפורש, אבל כיוון התנועה אינו ידוע",
+            "התנועה בשני הכיוונים מפורשת, מספר המלאכים אינו נמסר",
+            "יעקב עצמו מטפס, ומלאך מציב את הסולם"
+          ],
+          "answer": 1,
+          "explanation": "בראשית כ״ח 12 מתאר עלייה וירידה בלי למנות את המלאכים."
+        },
+        {
+          "prompt": "איך משתלבת ההבטחה האישית ליעקב בחלום עם הבטחת הארץ והזרע?",
+          "options": [
+            "השמירה והשיבה מלוות נוסע מסוים בתוך הבטחה לדורות",
+            "השמירה מחליפה את ההבטחה הקודמת על הארץ",
+            "ההבטחה נוגעת אך ורק למקום הלינה"
+          ],
+          "answer": 0,
+          "explanation": "ההבטחות לדורות מופיעות לצד פנייה אישית ליעקב ההולך בדרך."
+        },
+        {
+          "prompt": "איזה תפקיד חדש מקבלת האבן כאשר יעקב מקיץ?",
+          "options": [
+            "חפץ הנזכר רק בחלום נהפך לכלי הליכה",
+            "אבן של מזבח נלקחת לראש הסולם",
+            "חפץ של לינת לילה נהפך לסימן מקודש במקום"
+          ],
+          "answer": 2,
+          "explanation": "האבן שבפתיחת הלילה חוזרת בבוקר כמצבה שעליה יוצקים שמן."
+        }
+      ]
+    },
+    "gen-joseph": {
+      "a": [
+        {
+          "prompt": "שיבולים רבות קשורות יחד בשדה. איך קוראים לצרור כזה?",
+          "options": [
+            "אלומה",
+            "סולם",
+            "סל"
+          ],
+          "answer": 0,
+          "explanation": "אלומה היא צרור של גבעולי תבואה."
+        },
+        {
+          "prompt": "כל האלומות כפופות חוץ מאחת. מה עושה האלומה שבאמצע?",
+          "options": [
+            "שטה במים",
+            "מטפסת על עץ",
+            "נשארת זקופה"
+          ],
+          "answer": 2,
+          "explanation": "בחָלום האלומה של יוסף עומדת והאחרות משתחוות לה."
+        },
+        {
+          "prompt": "איזה דבר רואים בחלום השני, בשמים, במקום השיבולים?",
+          "options": [
+            "ענפים ועלים",
+            "שמש, ירח וכוכבים",
+            "כלים של קציר"
+          ],
+          "answer": 1,
+          "explanation": "החלום השני מתרחש בדימוי של גרמי שמים."
+        },
+        {
+          "prompt": "איזו תנועה חוזרת בשני החלומות?",
+          "options": [
+            "השתחוויה",
+            "קפיצה",
+            "נפילה לתוך באר"
+          ],
+          "answer": 0,
+          "explanation": "בחלום אחד האלומות משתחוות ובאחר השמש, הירח והכוכבים."
+        }
+      ],
+      "b": [
+        {
+          "prompt": "מה שונה באלומה של יוסף לעומת אלומות האחים?",
+          "options": [
+            "היא ניצבת והאחרות משתחוות",
+            "היא הקטנה היחידה",
+            "רק היא נמצאת מחוץ לשדה"
+          ],
+          "answer": 0,
+          "explanation": "הכיוון של האלומות הוא חלק מן הרמז על היחסים ביניהם."
+        },
+        {
+          "prompt": "האחים שומעים את יוסף מספר על האלומות. מה הם חושבים שהחלום אומר עליו?",
+          "options": [
+            "שהוא מלמד אותם לזרוע",
+            "שהוא מבקש בגד חדש",
+            "שהוא רוצה למלוך עליהם"
+          ],
+          "answer": 2,
+          "explanation": "האחים מפרשים את ההשתחוויה כיחסים בין מושל לבין מי שכפופים לו."
+        },
+        {
+          "prompt": "איזה מספר בחלום השני מרמז לאחיו של יוסף?",
+          "options": [
+            "שבע אלומות",
+            "אחד עשר כוכבים",
+            "שלושה ירחים"
+          ],
+          "answer": 1,
+          "explanation": "יוסף מזכיר אחד עשר כוכבים לצד השמש והירח."
+        },
+        {
+          "prompt": "איזה פרט מחבר את שני החלומות גם כשהנוף משתנה?",
+          "options": [
+            "רבים משתחווים לאחד",
+            "שניהם מתרחשים בשדה",
+            "בכל אחד רואים אחד עשר ירחים"
+          ],
+          "answer": 0,
+          "explanation": "הדימוי מתחלף מאלומות לגרמי שמים, אבל היחס בין הרבים לאחד חוזר."
+        }
+      ],
+      "teen": [
+        {
+          "prompt": "מדוע היחס בין האלומות מעורר התנגדות אצל האחים?",
+          "options": [
+            "הם שומעים בו רמז לשלטון של אח צעיר",
+            "הם מאבדים את היבול שכבר קצרו",
+            "הם מתבקשים לעזוב את המשפחה מיד"
+          ],
+          "answer": 0,
+          "explanation": "תגובת האחים הופכת את דימוי ההשתחוויה לשאלה על שלטון."
+        },
+        {
+          "prompt": "הכתונת מזהה את יוסף בציור. מה המקרא מציין שכבר פגע ביחס האחים אליו לפני סיפור החלומות?",
+          "options": [
+            "מחסור בתבואה",
+            "מינויו למושל מצרים",
+            "העדפת אביהם"
+          ],
+          "answer": 2,
+          "explanation": "אהבת האב והכתונת מוצגות לפני החלומות ומקדימות את החרפת השנאה."
+        },
+        {
+          "prompt": "מה מוסיף חלום השמים על מעגל הדמויות של חלום האלומות לפי תגובת האב?",
+          "options": [
+            "רק האחים הקטנים משתתפים",
+            "גם האב והאם נכללים בפירוש",
+            "פרעה מצטרף לאחים"
+          ],
+          "answer": 1,
+          "explanation": "בגערת האב הוא שואל אם גם הוא והאם והאחים יבואו להשתחוות."
+        },
+        {
+          "prompt": "כיצד נבדלת תגובת האב מתגובת האחים לאחר החלום השני?",
+          "options": [
+            "האב גוער אך שומר את הדבר",
+            "האב מחליט מיד למנות את יוסף",
+            "האחים שומרים את הדבר בהסכמה"
+          ],
+          "answer": 0,
+          "explanation": "קנאת האחים מתוארת לצד המורכבות של תגובת האב."
+        }
+      ],
+      "c": [
+        {
+          "prompt": "כיצד מחברת תגובת האחים בין תמונת האלומות לבין השאלה על מלוכה?",
+          "options": [
+            "ההשתחוויה מתורגמת בפיהם ליחסי שלטון",
+            "המספר עצמו מכתיר את יוסף בשדה",
+            "האלומות מזוהות מיד עם שנות רעב"
+          ],
+          "answer": 0,
+          "explanation": "בראשית ל״ז 8 נותן לאחים לפרש את המחווה בשאלתם על מלוכה וממשלה."
+        },
+        {
+          "prompt": "איזו הבחנה מסייעת להפריד בין תיאור החלום לבין תגובת השומעים?",
+          "options": [
+            "יוסף דורש בפירוש כתר, והאחים מתארים תבואה",
+            "האב מפרש את החלום הראשון לפני האחים",
+            "יוסף מתאר אלומות, והאחים מנסחים את המסקנה הפוליטית"
+          ],
+          "answer": 2,
+          "explanation": "הדיבור של החולם ודברי השומעים ממלאים תפקידים שונים בסיפור."
+        },
+        {
+          "prompt": "מה משתנה במושא ההשתחוויה מן החלום הראשון לשני?",
+          "options": [
+            "בראשון לאביו ובשני לאמו",
+            "בראשון היא מופנית לאלומתו ובשני ליוסף עצמו",
+            "בשניהם ההשתחוויה מופנית לשמש"
+          ],
+          "answer": 1,
+          "explanation": "המעבר מאלומתו של יוסף אליו עצמו מצטרף להרחבת התמונה לשמים."
+        },
+        {
+          "prompt": "במה שונה תפקיד החזרה בשני חלומות יוסף מן הפירוש שהוא מציע אחר כך לשני חלומות פרעה?",
+          "options": [
+            "אצל פרעה יוסף מסביר במפורש את הכפילות, ובפרק ל״ז אין הסבר מקביל",
+            "בשני המקומות יוסף מונה שבע שנות רעב",
+            "רק אצל פרעה יש שני דימויים חוזרים"
+          ],
+          "answer": 0,
+          "explanation": "בבראשית מ״א 32 יוסף מפרש את הישנות החלום לפרעה. בסיפור נעוריו התגובות מובאות בלי הסבר כזה לכפילות."
+        }
+      ]
+    }
+  }
+}

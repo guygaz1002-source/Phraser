@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "bezalel-wood",
+    "stopId": "life-noah-1",
+    "artStep": 1,
+    "map": 1,
+    "reference": {
+      "he": "שמות ל״ה, ל׳–ל״ה",
+      "en": "Exodus 35:30–35"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "באיור יש קורות עץ. גם בצלאל ידע לגלף. איזה חומר כדאי לתת לו כדי שיגלף קערה?",
+          "options": [
+            "גוש עץ",
+            "כד מים",
+            "חוט צמר"
+          ],
+          "explanation": "אפשר לגלף בעץ. בצלאל ידע לעבוד בעץ וגם בחומרים אחרים."
+        },
+        "en": {
+          "prompt": "Look at the wooden beams. Bezalel knew how to carve. What could he carve a bowl from?",
+          "options": [
+            "A block of wood",
+            "A jar of water",
+            "A strand of wool"
+          ],
+          "explanation": "Wood can be carved. Bezalel worked with wood as well as other materials."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "לקורת העץ באיור צריך לתת צורה. איזו מיומנות של בצלאל תתאים למשימה?",
+          "options": [
+            "גילוף וחיתוך בעץ",
+            "רקמה בחוטי צבע",
+            "שיבוץ אבנים בתכשיט"
+          ],
+          "explanation": "בספר שמות נמנית עבודת העץ בין המלאכות שבצלאל ידע."
+        },
+        "en": {
+          "prompt": "A wooden beam needs shaping. Which of Bezalel’s skills would help?",
+          "options": [
+            "Carving and cutting wood",
+            "Embroidering with colored thread",
+            "Setting stones in jewelry"
+          ],
+          "explanation": "Exodus lists woodworking among Bezalel’s skills."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "קורה באיור דורשת יד מיומנת. מה אפשר לבצלאל ולאהליאב להעביר מלאכה כמו זו לאנשים נוספים?",
+          "options": [
+            "היכולת ללמד שניתנה להם לצד כישרון המלאכה",
+            "זכותם לקבל את כל תרומות העץ לעצמם",
+            "פקודה שעליהם לעשות כל מלאכה לבדם"
+          ],
+          "explanation": "הכתוב מונה גם את היכולת להורות, נוסף על הידע בעשיית המלאכה."
+        },
+        "en": {
+          "prompt": "A beam takes skill to shape. What equipped Bezalel and Oholiab to pass such a skill on?",
+          "options": [
+            "The ability to teach as well as make things",
+            "The right to keep all the donated timber",
+            "A command to do every job themselves"
+          ],
+          "explanation": "The passage names the ability to teach alongside the skills of the craftspeople."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "קורות העץ יכלו להופיע גם בציור של מלאכת המשכן. איזה פרט בלשון שמות ל״ה מוסיף ממד ציבורי לתיאור כישרונו של בצלאל?",
+          "options": [
+            "ייחוס יכולת ההוראה לו ולאהליאב",
+            "רשימת המתכות שבהן ידע לעבוד",
+            "ציון שבטו ושם אביו"
+          ],
+          "explanation": "הוראה מאפשרת להפיץ ידע מקצועי בין העושים במלאכה. תיאור החומרים כשלעצמו מעיד על רוחב הכישרון."
+        },
+        "en": {
+          "prompt": "These beams could also appear in a picture of the tabernacle workshop. Which detail in Exodus 35 makes craftsmanship a skill others can acquire?",
+          "options": [
+            "The gift of teaching given to Bezalel and Oholiab",
+            "The list of metals Bezalel can work",
+            "The names of his father and tribe"
+          ],
+          "explanation": "Teaching makes the skill available to other workers. The list of materials describes the range of the craft."
+        }
+      }
+    }
+  },
+  {
+    "id": "midwives-baby",
+    "stopId": "life-moses-1",
+    "artStep": 3,
+    "map": 1,
+    "reference": {
+      "he": "שמות א׳, ט״ו–כ״א; ב׳, ה׳–ו׳",
+      "en": "Exodus 1:15–21 and 2:5–6"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "בתיבה מצאו תינוק. שפרה ופועה עזרו גם הן לתינוקות. למי מהאנשים האלה היו עוזרות בעבודתן?",
+          "options": [
+            "לאישה שיולדת",
+            "לאיש שמתקן סירה",
+            "לרועה שמחפש שה"
+          ],
+          "explanation": "שפרה ופועה היו מיילדות. הן עזרו לנשים בזמן הלידה."
+        },
+        "en": {
+          "prompt": "There is a baby in the basket. Shiphrah and Puah helped babies too. Who would need them at work?",
+          "options": [
+            "A woman giving birth",
+            "A man mending a boat",
+            "A shepherd looking for a lamb"
+          ],
+          "explanation": "Shiphrah and Puah were midwives. They helped women give birth."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "התינוק שבאיור נמצא ביאור. באיזה שלב עזרו שפרה ופועה לתינוקות בסיפור הקודם?",
+          "options": [
+            "בזמן הלידה",
+            "כשמצאו תיבה ביאור",
+            "כשהילדים עברו לארמון"
+          ],
+          "explanation": "המיילדות שמרו על חיי הבנים שנולדו עוד לפני סיפור התיבה."
+        },
+        "en": {
+          "prompt": "The baby in the picture has reached the Nile. At what stage did Shiphrah and Puah help babies in the preceding story?",
+          "options": [
+            "At birth",
+            "When a basket was found on the Nile",
+            "When the children entered the palace"
+          ],
+          "explanation": "The midwives kept newborn boys alive before the account of the basket."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "בציור רואים תינוק שנשאר בחיים. איזו בחירה של שפרה ופועה מסבירה מדוע קרא להן פרעה לתת דין וחשבון?",
+          "options": [
+            "הן השאירו בחיים את הבנים שעל לידתם הופקדו",
+            "הן החביאו את כל הבנים בארמון",
+            "הן שלחו את בת המלך לבדוק את היאור"
+          ],
+          "explanation": "פרעה שאל מדוע החיו המיילדות את הילדים בניגוד להוראתו."
+        },
+        "en": {
+          "prompt": "The painting shows a baby who survived. What choice brought Shiphrah and Puah before Pharaoh to explain themselves?",
+          "options": [
+            "They let the boys they delivered live",
+            "They hid all the boys in the palace",
+            "They sent the princess to inspect the Nile"
+          ],
+          "explanation": "Pharaoh asked why they had kept the boys alive against his order."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "התינוק בתיבה מזמין להשוות בין המצילות. איזה הבדל במניעיהן המספר מציין במפורש?",
+          "options": [
+            "למיילדות מיוחסת יראת אלוהים ולבת פרעה חמלה",
+            "למיילדות מיוחסת חמלה ולבת פרעה יראת אלוהים",
+            "כל המצילות מספרות לפרעה שפעלו מתוך אותו מניע"
+          ],
+          "explanation": "בשמות א׳ המספר מסביר את מעשה המיילדות ביראתן. בפרק ב׳ הוא מספר שבת פרעה חמלה על הילד."
+        },
+        "en": {
+          "prompt": "The infant invites a comparison between his rescuer and the midwives. Which distinction in motive does the narrator actually make?",
+          "options": [
+            "Fear of God is attributed to the midwives and pity to the princess",
+            "Pity is attributed to the midwives and fear of God to the princess",
+            "All three tell Pharaoh that they acted from the same motive"
+          ],
+          "explanation": "In Exodus 1 the narrator explains the midwives’ action by their fear of God. In chapter 2 the princess takes pity on the child."
+        }
+      }
+    }
+  },
+  {
+    "id": "sarah-message",
+    "stopId": "life-samson-1",
+    "artStep": 1,
+    "map": 1,
+    "reference": {
+      "he": "בראשית י״ח, ט׳–י״ב; שופטים י״ג, ב׳–ג׳",
+      "en": "Genesis 18:9–12 and Judges 13:2–3"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "האישה שבציור פוגשת אורח עם בשורה. ליד האוהל של שרה נאמר שייוולד לה בן. למי כדאי להכין מקום באוהל?",
+          "options": [
+            "לתינוק",
+            "לטלה",
+            "לגמל"
+          ],
+          "explanation": "הבשורה ששמעה שרה הייתה על תינוק שייוולד לה."
+        },
+        "en": {
+          "prompt": "A visitor brings news in the picture. Beside Sarah’s tent a visitor said she would have a son. Who would need room in the tent?",
+          "options": [
+            "A baby",
+            "A lamb",
+            "A camel"
+          ],
+          "explanation": "The news Sarah heard was that she would have a child."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "באיור אישה עומדת מול מבשר. שרה שמעה בשורה על בן ליד האוהל. היכן הייתה כששמעה?",
+          "options": [
+            "בפתח האוהל",
+            "בחצר של מלך",
+            "ליד באר בשדה"
+          ],
+          "explanation": "שרה הקשיבה לשיחה של האורח עם אברהם מפתח האוהל."
+        },
+        "en": {
+          "prompt": "The woman in the picture faces a messenger. Where was Sarah when she heard the news about her own son?",
+          "options": [
+            "At the tent opening",
+            "In a king’s courtyard",
+            "Beside a field well"
+          ],
+          "explanation": "Sarah listened at the entrance while the visitor spoke to Abraham."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "האישה שבציור שומעת בשורה על לידה. איזה פרט מסביר את צחוקה של שרה למשמע בשורה דומה?",
+          "options": [
+            "שרה ואברהם כבר היו זקנים",
+            "האורח טעה בשם הילד",
+            "שרה כבר החזיקה את יצחק בזרועותיה"
+          ],
+          "explanation": "ליד הבשורה על הלידה מציין המספר את גילם של שרה ואברהם."
+        },
+        "en": {
+          "prompt": "News of a birth reaches the woman pictured. What detail helps explain Sarah’s laughter at similar news?",
+          "options": [
+            "Sarah and Abraham were already old",
+            "The visitor got the child’s name wrong",
+            "Sarah already held Isaac in her arms"
+          ],
+          "explanation": "The narrator gives their advanced ages right next to the announcement."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "ציור של מבשר ואישה מתאים לסיפור שמשון. כיצד צריך לשנות את העמדת הדמויות כדי לצייר במדויק את בשורת יצחק בבראשית י״ח?",
+          "options": [
+            "להציב את אברהם בשיחה ואת שרה מאזינה מפתח האוהל",
+            "להציב את שרה בשדה לבדה מול המלאך",
+            "להציב את אברהם באוהל הרחק מטווח שמיעה"
+          ],
+          "explanation": "בסיפור שמשון המלאך נגלה לאישה. בבראשית האורח מדבר עם אברהם ושרה שומעת."
+        },
+        "en": {
+          "prompt": "This meeting suits Samson’s birth story. How should the figures be arranged to paint Isaac’s announcement in Genesis 18?",
+          "options": [
+            "Put Abraham in conversation and Sarah listening at the tent entrance",
+            "Put Sarah alone in a field facing the angel",
+            "Put Abraham in a tent out of earshot"
+          ],
+          "explanation": "Samson’s mother receives the angel directly. In Genesis the visitor speaks to Abraham and Sarah overhears."
+        }
+      }
+    }
+  },
+  {
+    "id": "abigail-provisions",
+    "stopId": "life-noah-6",
+    "artStep": 2,
+    "map": 2,
+    "reference": {
+      "he": "שמואל א׳ כ״ה, י״ח–כ׳, כ״ז",
+      "en": "1 Samuel 25:18–20, 27"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "בציור אנשים נושאים סלים. אביגיל ארזה לחם וצימוקים לדוד ולאנשיו. מה אפשר לעשות במה שארזה?",
+          "options": [
+            "לאכול בדרך",
+            "להדליק בעזרתו פנס",
+            "לתפור בגד"
+          ],
+          "explanation": "אביגיל הביאה מזון. לחם וצימוקים מתאימים לאנשים רעבים."
+        },
+        "en": {
+          "prompt": "People carry baskets in the picture. Abigail packed bread and raisins for David and his men. What could the men do with them?",
+          "options": [
+            "Eat them on the road",
+            "Light a lamp with them",
+            "Sew a coat with them"
+          ],
+          "explanation": "Abigail brought food for hungry people."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "הסלים באיור כבדים. איך העבירה אביגיל את המזון הרב שלקחה לדוד?",
+          "options": [
+            "העמיסה אותו על חמורים",
+            "גלגלה אותו בחביות ריקות",
+            "שלחה אותו ברפסודה"
+          ],
+          "explanation": "אביגיל העמיסה את המצרכים על חמורים ושלחה נערים לפניה."
+        },
+        "en": {
+          "prompt": "The baskets look heavy. How did Abigail transport the large supply she took to David?",
+          "options": [
+            "She loaded it on donkeys",
+            "She rolled it in empty barrels",
+            "She floated it on a raft"
+          ],
+          "explanation": "Abigail put the provisions on donkeys and sent servants ahead."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "הסלים באיור ממחישים הכנה מראש. מה בסדר הפעולות של אביגיל מעיד על הדחיפות שחשה?",
+          "options": [
+            "היא מארגנת מזון ושולחת נערים לפניה לפני הפגישה",
+            "היא ממתינה לשובו של דוד כדי לדעת מה לארוז",
+            "היא מבקשת תחילה מנבל לקבוע את מועד הפגישה"
+          ],
+          "explanation": "אביגיל ממהרת לארוז ולצאת ומודיעה לנערים שתבוא אחריהם."
+        },
+        "en": {
+          "prompt": "The baskets suggest preparations for a journey. Which part of Abigail’s sequence shows her urgency?",
+          "options": [
+            "She organizes food and sends servants ahead before the meeting",
+            "She waits for David’s return to find out what to pack",
+            "She first asks Nabal to arrange the meeting"
+          ],
+          "explanation": "Abigail hurries to pack and tells the servants she will follow them."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "מזון נאסף לתיבה ומזון נישא אל דוד. כיצד מתארת אביגיל את יעד המתנה בפנייתה לדוד בפסוק כ״ז?",
+          "options": [
+            "היא מבקשת שתינתן לנערים ההולכים בעקבותיו",
+            "היא דורשת שיושם באוצר המלך עד החורף",
+            "היא מציגה את המזון כתשלום קבוע לנבל"
+          ],
+          "explanation": "אביגיל מייחדת את המתנה לנערים שבפמליית דוד, כחלק מניסיון הפיוס שלה."
+        },
+        "en": {
+          "prompt": "Food is stored for the ark and carried to David. In verse 27 how does Abigail designate the recipients of her gift?",
+          "options": [
+            "She asks that it be given to the young men who follow David",
+            "She asks for it to be stored in the royal treasury until winter",
+            "She presents it as a regular payment owed to Nabal"
+          ],
+          "explanation": "Abigail directs the gift to David’s followers as part of her appeal for peace."
+        }
+      }
+    }
+  },
+  {
+    "id": "rachel-well",
+    "stopId": "life-moses-6",
+    "artStep": 2,
+    "map": 2,
+    "reference": {
+      "he": "בראשית כ״ט, ב׳–י׳",
+      "en": "Genesis 29:2–10"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "הכבשים בציור שותות. רחל הגיעה עם הצאן שלה לבאר מכוסה באבן. מה צריך להזיז כדי שהכבשים יקבלו מים?",
+          "options": [
+            "את האבן שעל פי הבאר",
+            "את הצמר שעל הכבשים",
+            "את העץ שנותן צל"
+          ],
+          "explanation": "יעקב גלל את האבן, ואז השקה את הצאן של רחל."
+        },
+        "en": {
+          "prompt": "The sheep in the picture are drinking. Rachel brought her flock to a well covered by a stone. What had to move before the sheep could drink?",
+          "options": [
+            "The stone covering the well",
+            "The wool on the sheep",
+            "A tree giving shade"
+          ],
+          "explanation": "Jacob rolled the stone away and watered Rachel’s flock."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "הכבשים שבציור כבר הגיעו למים. מה הפריד בין הצאן של רחל לבין המים כשהגיעה אל יעקב?",
+          "options": [
+            "אבן גדולה על פי הבאר",
+            "גדר סביב השדה",
+            "נהר שהיה צריך לחצות"
+          ],
+          "explanation": "הבאר הייתה מכוסה באבן. יעקב גלל אותה והשקה את הצאן."
+        },
+        "en": {
+          "prompt": "The sheep pictured have reached water. What stood between Rachel’s flock and the water when she reached Jacob?",
+          "options": [
+            "A large stone over the well",
+            "A fence around the field",
+            "A river they had to cross"
+          ],
+          "explanation": "Jacob rolled the covering stone from the well and watered the flock."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "בציור הצאן שותה. איזה הבדל בין מנהג הרועים שבבראשית כ״ט לבין פעולת יעקב יוצר את רגע המפגש עם רחל?",
+          "options": [
+            "הרועים מחכים להיאספות העדרים; יעקב ניגש ופותח את הבאר כשהיא מגיעה",
+            "הרועים משקים רק כבשים; יעקב משקה רק גמלים",
+            "הרועים דולים מים מן הנהר; יעקב חופר באר חדשה"
+          ],
+          "explanation": "הסיפור מסביר תחילה את מנהג ההמתנה. פעולת יעקב עם בואה של רחל מובלטת על הרקע הזה."
+        },
+        "en": {
+          "prompt": "The flock is drinking here. How does the shepherds’ custom in Genesis 29 frame Jacob’s meeting with Rachel?",
+          "options": [
+            "They wait for the flocks to gather; he opens the well when she arrives",
+            "They water only sheep; he waters only camels",
+            "They draw from a river; he digs a new well"
+          ],
+          "explanation": "The narrator explains the customary wait before showing Jacob acting at Rachel’s arrival."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "גם במפגש עם רחל וגם במפגש של משה במדיין מושקה צאן. איזה מכשול ייחודי למפגש עם רחל?",
+          "options": [
+            "אבן על פי הבאר ומנהג להמתין לכל העדרים",
+            "רועים המבריחים את בנות המשפחה מהשוקת",
+            "מחסור בכלי מים לאדם המבקש לשתות"
+          ],
+          "explanation": "בבראשית מצוינים כיסוי הבאר ומנהג הרועים. בשמות ב׳ בנות מדיין נתקלות ברועים שמגרשים אותן."
+        },
+        "en": {
+          "prompt": "Both Jacob’s meeting with Rachel and Moses’ meeting in Midian lead to watering sheep. What obstacle is distinctive to Rachel’s scene?",
+          "options": [
+            "A covering stone and the custom of waiting for all the flocks",
+            "Shepherds driving the family’s daughters from the trough",
+            "A thirsty traveler who has no drinking vessel"
+          ],
+          "explanation": "Genesis emphasizes the covered well and the shepherds’ custom. In Exodus 2 other shepherds drive the daughters away."
+        }
+      }
+    }
+  },
+  {
+    "id": "david-lion",
+    "stopId": "life-samson-6",
+    "artStep": 2,
+    "map": 2,
+    "reference": {
+      "he": "שמואל א׳ י״ז, ל״ד–ל״ז",
+      "en": "1 Samuel 17:34–37"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "אריה עומד בדרך. דוד סיפר שפעם אריה לקח שה מהעדר שלו. אחרי מי היה עליו ללכת כדי להחזיר את השה?",
+          "options": [
+            "אחרי האריה",
+            "אחרי שאר הכבשים",
+            "אחרי החמור"
+          ],
+          "explanation": "האריה לקח את השה. דוד יצא בעקבותיו והציל אותו."
+        },
+        "en": {
+          "prompt": "A lion stands on the path. David told of a lion that took a lamb from his flock. Who must he follow to get the lamb back?",
+          "options": [
+            "The lion",
+            "The rest of the sheep",
+            "The donkey"
+          ],
+          "explanation": "The lion had taken the lamb. David went after it and rescued it."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "בציור אדם פוגש אריה בדרך. באיזו עבודה עסק דוד כשאריה איים על בעל חיים שעליו שמר?",
+          "options": [
+            "רעיית צאן",
+            "שמירה על כרם",
+            "הובלת מים"
+          ],
+          "explanation": "דוד סיפר לשאול שכאשר רעה את צאן אביו היה עליו להציל שה מידי חיות."
+        },
+        "en": {
+          "prompt": "Someone meets a lion on this path. What job was David doing when a lion threatened an animal in his care?",
+          "options": [
+            "Tending sheep",
+            "Watching a vineyard",
+            "Delivering water"
+          ],
+          "explanation": "David told Saul of rescuing a lamb while tending his father’s flock."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "האריה באיור מזכיר את דברי דוד לפני הקרב עם גלית. למה סיפר לשאול על האריה והדוב?",
+          "options": [
+            "כדי להסביר איזה ניסיון כבר יש לו מול סכנה",
+            "כדי לבקש תשלום על כל שה שהציל",
+            "כדי לשכנע את שאול לוותר על הצאן"
+          ],
+          "explanation": "שאול פקפק ביכולתו בגלל גילו. דוד השיב בדוגמה מניסיונו כרועה."
+        },
+        "en": {
+          "prompt": "The lion recalls David’s speech before fighting Goliath. Why did he tell Saul about the lion and the bear?",
+          "options": [
+            "To show how he had already faced danger",
+            "To claim payment for each lamb he saved",
+            "To persuade Saul to abandon the flock"
+          ],
+          "explanation": "Saul questioned his ability because of his youth. David answered with his experience as a shepherd."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "הציור מעמיד אדם מול אריה. מה מוסיף דוד בסוף תשובתו לשאול אחרי שתיאר בפרוטרוט את מעשיו כרועה?",
+          "options": [
+            "הוא מייחס את הצלתו לה׳ ועל כך מבסס את ביטחונו מול גלית",
+            "הוא מייחס את הצלחתו לשריון ששאול השאיל לו",
+            "הוא קובע שמספר החיות קובע מי ראוי למלוכה"
+          ],
+          "explanation": "לאחר תיאור המרדף וההצלה דוד עובר מהמעשה בעבר לתקווה שה׳ יציל אותו גם מיד הפלשתי."
+        },
+        "en": {
+          "prompt": "The painting pits a man against a lion. What does David add after describing his actions as a shepherd to Saul?",
+          "options": [
+            "He credits God with his deliverance and grounds his confidence against Goliath in it",
+            "He credits the armor Saul lent him with his success",
+            "He says the number of animals defeated determines who should be king"
+          ],
+          "explanation": "After recounting the pursuit and rescue, David moves from past deliverance to hope of deliverance from the Philistine."
+        }
+      }
+    }
+  },
+  {
+    "id": "rahab-doorway",
+    "stopId": "life-noah-2",
+    "artStep": 3,
+    "map": 3,
+    "reference": {
+      "he": "יהושע ב׳, י״ח–כ״א",
+      "en": "Joshua 2:18–21"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "הכבשים נכנסות למקום מוגן. רחב אספה את משפחתה הביתה כדי לשמור עליה. איפה היה כדאי למשפחה לחכות?",
+          "options": [
+            "בתוך הבית של רחב",
+            "מחוץ לשער העיר",
+            "ליד הבאר"
+          ],
+          "explanation": "המרגלים ביקשו מרחב לכנס את המשפחה בבית ולהישאר בפנים."
+        },
+        "en": {
+          "prompt": "The sheep enter a shelter. Rahab gathered her family at home to keep them safe. Where should the family wait?",
+          "options": [
+            "Inside Rahab’s house",
+            "Outside the city gate",
+            "Beside the well"
+          ],
+          "explanation": "The spies told Rahab to gather her family in the house and stay inside."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "הכניסה לתיבה בציור מובילה למקום מוגן. איזה סימן בחלון הראה איזה בית ביריחו צריך לשמור?",
+          "options": [
+            "חוט אדום",
+            "ענף זית",
+            "פנס דולק"
+          ],
+          "explanation": "רחב קשרה בחלון חוט שני, חוט בצבע אדום."
+        },
+        "en": {
+          "prompt": "The ark entrance leads to shelter. Which sign in a window identified the house to be spared at Jericho?",
+          "options": [
+            "A scarlet cord",
+            "An olive branch",
+            "A burning lamp"
+          ],
+          "explanation": "Rahab tied a scarlet cord in the window."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "בציור עוברים פנימה דרך פתח. בהסכם של רחב עם המרגלים, מדוע היה חשוב גם להכניס את המשפחה הביתה וגם לקשור חוט בחלון?",
+          "options": [
+            "הכניסה קיבצה את המוגנים; החוט זיהה את הבית מבחוץ",
+            "החוט נועד לספור את הנכנסים; הבית הסתיר אותו לגמרי",
+            "הבית שימש את המרגלים בלבד; החוט הוביל את המשפחה החוצה"
+          ],
+          "explanation": "שני המעשים ממלאים תפקיד שונה בתנאי השבועה."
+        },
+        "en": {
+          "prompt": "The picture shows a passage indoors. Why did Rahab need both to bring her family in and to hang the cord?",
+          "options": [
+            "Gathering identified who was under protection; the cord marked the house from outside",
+            "The cord counted entrants; the house hid it completely",
+            "The house was for the spies alone; the cord led the family out"
+          ],
+          "explanation": "The two actions serve different purposes in the terms of the oath."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "סף הדלת באיור מפריד בין פנים לחוץ. איזו הבחנה משפטית יוצרים המרגלים ביהושע ב׳ ביחס למי שנמצא בבית רחב?",
+          "options": [
+            "הם מקבלים אחריות לפגיעה באדם שבפנים, ואילו היוצא נושא בסיכון בעצמו",
+            "ההבטחה חלה מחוץ לבית רק על הילדים",
+            "הסימן שבחלון מבטל את התנאים הנוגעים למקום"
+          ],
+          "explanation": "בפסוק י״ט השבועה מחלקת אחריות לפי מקום הימצאו של האדם. זהות הבית לבדה אינה מספיקה."
+        },
+        "en": {
+          "prompt": "The threshold separates inside from outside. What distinction do the spies make about responsibility in Joshua 2?",
+          "options": [
+            "They accept responsibility for harm to those inside; anyone leaving bears the risk",
+            "Only children are protected outside the house",
+            "The window sign cancels the condition about location"
+          ],
+          "explanation": "Verse 19 assigns responsibility according to where a person is. Identifying the house alone does not settle the matter."
+        }
+      }
+    }
+  },
+  {
+    "id": "joshua-sandal",
+    "stopId": "life-moses-2",
+    "artStep": 2,
+    "map": 3,
+    "reference": {
+      "he": "שמות ג׳, ה׳; יהושע ה׳, י״ג–ט״ו",
+      "en": "Exodus 3:5 and Joshua 5:13–15"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "האיש בציור מוריד סנדל. גם יהושע התבקש להוריד נעל ליד יריחו. איך תיראה כף הרגל אחרי שיחלוץ אותה?",
+          "options": [
+            "יחפה",
+            "עטופה בכפפה",
+            "נעולה במגף"
+          ],
+          "explanation": "יהושע התבקש לחלוץ את הנעל מעל רגלו."
+        },
+        "en": {
+          "prompt": "The man takes off a sandal. Joshua was also told to remove a shoe near Jericho. How will that foot look afterward?",
+          "options": [
+            "Bare",
+            "Inside a glove",
+            "Inside a boot"
+          ],
+          "explanation": "Joshua was told to take the shoe off his foot."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "משה חולץ סנדל באיור. איזו סיבה ניתנה גם ליהושע כשנצטווה לעשות מעשה דומה?",
+          "options": [
+            "המקום שהוא עומד עליו קדוש",
+            "הוא עומד לחצות נחל עמוק",
+            "צריך למדוד את כף רגלו"
+          ],
+          "explanation": "בשני המפגשים הסיבה קשורה למקום שבו האדם עומד."
+        },
+        "en": {
+          "prompt": "Moses removes a sandal. Why was Joshua told to do something similar?",
+          "options": [
+            "The place where he stood was holy",
+            "He was about to cross a deep stream",
+            "Someone needed to measure his foot"
+          ],
+          "explanation": "In both encounters the reason concerns the place the person is standing."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "שני סיפורים חולקים את מחוות חליצת הנעל. איזה פרט מעביר את ציור המפגש מסצנת משה לסצנת יהושע?",
+          "options": [
+            "איש וחרב שלופה ליד יריחו",
+            "שיח שבוער בעת רעיית הצאן",
+            "הצאן של יתרו ליד ההר"
+          ],
+          "explanation": "יהושע פוגש סמוך ליריחו אדם עם חרב שלופה. הסנה והצאן שייכים לתיאור שבשמות."
+        },
+        "en": {
+          "prompt": "Two stories share the gesture of removing footwear. What detail would shift this scene from Moses to Joshua?",
+          "options": [
+            "A man with a drawn sword near Jericho",
+            "A bush burning while a flock grazes",
+            "Jethro’s flock at the mountain"
+          ],
+          "explanation": "Joshua meets a figure with a drawn sword near Jericho. The bush and flock belong to Exodus."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "מן הסנדל שבציור אפשר לצאת להשוואה בין שמות ג׳ ליהושע ה׳. איזו מסקנה על ההקבלה עומדת בלשון שני הקטעים?",
+          "options": [
+            "אותה מחווה מסמנת קדושת מקום בשתי שליחויות, אף שסצנת ההתגלות שונה",
+            "בשתי הפעמים הדובר מציג את עצמו כשר צבא ה׳",
+            "בשני הקטעים חליצת הנעל מסמלת העברת זכות על חלקת אדמה"
+          ],
+          "explanation": "הטעם המפורש הוא קדושת המקום. ביהושע הדמות מזדהה כשר צבא ה׳, ובשמות הדיבור בא מתוך הסנה."
+        },
+        "en": {
+          "prompt": "What comparison between Exodus 3 and Joshua 5 is supported by the pictured sandal?",
+          "options": [
+            "The same gesture marks holy ground in different encounters connected with leadership",
+            "Both speakers introduce themselves as commander of the Lord’s army",
+            "In both passages the shoe transfers ownership of land"
+          ],
+          "explanation": "The stated reason is holy ground. Joshua’s visitor identifies himself as a commander, while in Exodus the speech comes from the bush."
+        }
+      }
+    }
+  },
+  {
+    "id": "jonathan-honey",
+    "stopId": "life-samson-2",
+    "artStep": 2,
+    "map": 3,
+    "reference": {
+      "he": "שמואל א׳ י״ד, כ״ד–כ״ט",
+      "en": "1 Samuel 14:24–29"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "שמשון מקרב דבש אל פניו. יונתן מצא דבש ביער וטבל בו קצה של מטה. מה עלה עם המטה כשהרים אותו?",
+          "options": [
+            "מעט דבש",
+            "מעט חלב",
+            "מעט קמח"
+          ],
+          "explanation": "יונתן טעם מן הדבש שנדבק לקצה המטה."
+        },
+        "en": {
+          "prompt": "Samson lifts honey toward his face. Jonathan dipped the tip of his staff into honey in the wood. What came up on the staff?",
+          "options": [
+            "A little honey",
+            "A little milk",
+            "A little flour"
+          ],
+          "explanation": "Jonathan tasted the honey on the tip of his staff."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "בתמונה רואים דבש, וגם יונתן טעם דבש. מה עשה לפני שהביא את ידו לפיו?",
+          "options": [
+            "טבל את קצה המטה בדבש",
+            "סחט ענבים לתוך קערה",
+            "חילק כיכרות לחם לחיילים"
+          ],
+          "explanation": "יונתן שלח את קצה מטהו אל הדבש ואז טעם ממנו."
+        },
+        "en": {
+          "prompt": "There is honey in the picture. What did Jonathan do just before bringing his hand to his mouth?",
+          "options": [
+            "Dip the tip of his staff into honey",
+            "Squeeze grapes into a bowl",
+            "Hand out bread to the soldiers"
+          ],
+          "explanation": "Jonathan reached out with his staff and dipped its tip in the honey."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "הדבש באיור מזכיר את יונתן ואת החיילים. איזה פרט מסביר מדוע טעם יונתן דבש בעוד האחרים נמנעו מכך?",
+          "options": [
+            "יונתן לא שמע את השבועה שהשביע שאול",
+            "יונתן חשב שהדבש שייך רק לבן המלך",
+            "שאול ביקש ממנו לבדוק אם הדבש טוב"
+          ],
+          "explanation": "המספר מציין שיונתן לא שמע את השבועה. אדם מן העם הסביר לו אותה אחרי שטעם."
+        },
+        "en": {
+          "prompt": "Why did Jonathan taste the honey while the other soldiers held back?",
+          "options": [
+            "Jonathan had not heard Saul’s oath",
+            "Jonathan thought only the king’s son could eat honey",
+            "Saul had asked him to test its quality"
+          ],
+          "explanation": "The narrator says Jonathan had not heard the oath. A soldier told him about it after he tasted the honey."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "הדבש עומד במרכז חידת שמשון. אצל יונתן הוא משמש גם ראיה בטיעון. כיצד?",
+          "options": [
+            "יונתן מצביע על עיניו שאורו כדי להמחיש מה הפסיד העם בגלל איסור האכילה",
+            "יונתן מצביע על צבע הדבש כדי לזהות מי הטיל את השבועה",
+            "יונתן טוען שטעימת הדבש מוכיחה שהשבועה לא נשבעה כלל"
+          ],
+          "explanation": "השינוי שהרגיש אחרי הטעימה הופך אצל יונתן לטענה נגד תועלת הצום שכפה שאול."
+        },
+        "en": {
+          "prompt": "Honey supplies Samson’s riddle. How does it also become evidence in Jonathan’s argument?",
+          "options": [
+            "He cites his brightened eyes to show what the people lost through the ban on food",
+            "He uses its color to identify who ordered the oath",
+            "He claims tasting it proves nobody ever swore an oath"
+          ],
+          "explanation": "Jonathan makes his response to the honey an argument against Saul’s ban on eating."
+        }
+      }
+    }
+  },
+  {
+    "id": "elijah-raincloud",
+    "stopId": "life-noah-3",
+    "artStep": 1,
+    "map": 4,
+    "reference": {
+      "he": "מלכים א׳ י״ח, מ״א–מ״ה",
+      "en": "1 Kings 18:41–45"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "הגלים בציור מתרוממים. אליהו חיכה לגשם, והנער שלו ראה ענן קטן מעל הים. מאין כדאי לנער להמשיך לבחון את השמיים?",
+          "options": [
+            "ממקום שאפשר לראות ממנו את הים",
+            "מתוך כדי המים הסגורים",
+            "מאחורי דלת נעולה בלי חלון"
+          ],
+          "explanation": "אליהו שלח את הנער להביט לכיוון הים. משם עלה הענן הקטן."
+        },
+        "en": {
+          "prompt": "Waves rise in the picture. Elijah was waiting for rain. His servant saw a little cloud over the sea. Where should the servant stand to keep watch?",
+          "options": [
+            "Where he can see out to sea",
+            "Inside a closed water jar",
+            "Behind a closed door without a window"
+          ],
+          "explanation": "Elijah sent him to look toward the sea, where the little cloud appeared."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "המים סביב התיבה כבר גועשים. אצל אליהו הענן היה קטן בהתחלה. מה ראה הנער לפני שהופיע הגשם הגדול?",
+          "options": [
+            "ענן קטן שעולה מכיוון הים",
+            "קשת מעל תיבה שהגיעה לחוף",
+            "חיילים שמתיזים מים על הסוסים"
+          ],
+          "explanation": "לאחר מבטים חוזרים לעבר הים הנער דיווח על ענן קטן, ובהמשך ירד גשם גדול."
+        },
+        "en": {
+          "prompt": "The water around the ark is already rough. What did Elijah’s servant see before the heavy rain came?",
+          "options": [
+            "A little cloud rising from the sea",
+            "A rainbow above an ark at shore",
+            "Soldiers splashing water on horses"
+          ],
+          "explanation": "After looking toward the sea repeatedly, he reported a small cloud. Heavy rain followed."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "הגלים באיור כבר גבוהים. איזה פרט בסיפור אליהו מראה שהתכוננו לגשם בעוד הסימן בשמיים היה קטן?",
+          "options": [
+            "אליהו שולח לאחאב הוראה להכין את הרכב ולרדת",
+            "אחאב מחכה עד שהדרך נחסמת במים כדי לצאת",
+            "הנער מודד כמה גשם כבר הצטבר בבאר"
+          ],
+          "explanation": "עם הידיעה על הענן הקטן אליהו שולח את הנער להזהיר את אחאב מפני העיכוב הצפוי בגלל הגשם."
+        },
+        "en": {
+          "prompt": "The waves in the picture are already high. Which detail in Elijah’s story shows preparation when the sign was still small?",
+          "options": [
+            "Elijah sends Ahab word to harness his chariot and go down",
+            "Ahab waits until floodwater blocks the road before leaving",
+            "The servant measures rain already collected in a well"
+          ],
+          "explanation": "Hearing of the small cloud, Elijah sends his servant to warn Ahab that rain could delay him."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "באיור הגשם ניכר בתוצאותיו. כיצד מארגן הסיפור בכרמל את מה שאליהו יודע ואת מה שהנער רואה?",
+          "options": [
+            "אליהו מודיע על קול הגשם עוד לפני דיווחי הראייה החוזרים של הנער",
+            "הנער הוא הראשון שמכריז על גשם גדול, ואליהו מסתפק במדידת הענן",
+            "שניהם רואים תחילה שמיים שחורים ורק לאחר מכן נזכר ענן קטן"
+          ],
+          "explanation": "ההודעה על הגשם קודמת לעליות הנער. מן הדיווח על ענן זעיר עובר הסיפור להשחרת השמיים ולגשם גדול."
+        },
+        "en": {
+          "prompt": "How does the Carmel story arrange Elijah’s confidence about rain and his servant’s observations?",
+          "options": [
+            "Elijah announces the sound of rain before the repeated lookout reports",
+            "The servant announces heavy rain first and Elijah merely measures the cloud",
+            "Both see a black sky before either mentions a small cloud"
+          ],
+          "explanation": "The announcement precedes the repeated looks. A report of a tiny cloud is followed by a dark sky and heavy rain."
+        }
+      }
+    }
+  },
+  {
+    "id": "esther-scepter",
+    "stopId": "life-moses-7",
+    "artStep": 3,
+    "map": 4,
+    "reference": {
+      "he": "אסתר ד׳, י״א; ה׳, א׳–ג׳",
+      "en": "Esther 4:11 and 5:1–3"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "פרעה מרים יד מול האורחים. מלך אחר הושיט לאסתר שרביט כדי שתוכל להתקרב. לאן תושיט אסתר את ידה?",
+          "options": [
+            "אל קצה השרביט",
+            "אל מנעול השער",
+            "אל הכיסא הריק"
+          ],
+          "explanation": "אסתר התקרבה ונגעה בראש השרביט."
+        },
+        "en": {
+          "prompt": "Pharaoh raises a hand before his visitors. Another king held out his scepter so Esther could approach. Where should she reach?",
+          "options": [
+            "Toward the tip of the scepter",
+            "Toward the gate lock",
+            "Toward an empty chair"
+          ],
+          "explanation": "Esther approached and touched the tip of the scepter."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "פרעה מרים יד כאילו הוא עוצר את הבאים. איזה סימן מן הסיפור של אסתר היה משנה את הציור להזמנה להתקרב?",
+          "options": [
+            "שרביט הזהב המושט לאסתר",
+            "כתר שמונח על שולחן צדדי",
+            "דלת חצר שנסגרת"
+          ],
+          "explanation": "כשראה המלך את אסתר הוא הושיט לה את השרביט. היא ניגשה ונגעה בקצהו."
+        },
+        "en": {
+          "prompt": "Pharaoh’s raised hand looks like a stop signal. What sign from Esther’s story would change the painting into an invitation to approach?",
+          "options": [
+            "The golden scepter extended to Esther",
+            "A crown resting on a side table",
+            "A courtyard door swinging shut"
+          ],
+          "explanation": "The king extended his scepter to Esther. She came forward and touched its tip."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "לפרעה באיור יש כוח לדחות בקשה. מדוע השרביט שהושיט אחשוורוש היה חשוב לאסתר עוד לפני שביקשה דבר?",
+          "options": [
+            "מי שנכנס לחצר הפנימית בלי שנקרא הסתכן במוות",
+            "אסתר הייתה חייבת להביא שרביט במתנה להמן",
+            "כניסה לגינת הארמון הותרה רק עם מכתב חתום"
+          ],
+          "explanation": "בפרק ד׳ אסתר מסבירה מהו הדין למי שנכנס בלי הזמנה. הושטת השרביט מאפשרת לה לחיות ולדבר."
+        },
+        "en": {
+          "prompt": "The king in the picture can refuse a request. Why did Ahasuerus’s scepter matter before Esther even spoke?",
+          "options": [
+            "Someone entering the inner court uncalled risked death",
+            "Esther had to bring a scepter as a gift for Haman",
+            "Entry to the palace garden required a sealed letter"
+          ],
+          "explanation": "In chapter 4 Esther explains the law about entering uncalled. Extending the scepter permits her to live and speak."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "איזו משמעות מקבלת המחווה המלכותית באיור אם משווים אותה לשרביט באסתר ה׳ וקוראים גם את אסתר ד׳?",
+          "options": [
+            "הסבר החוק המוקדם נותן להושטת השרביט משמעות של ביטול סכנת מוות",
+            "רק אחרי המשתה הראשון נודע לקורא שלהושטת השרביט היה ערך כלשהו",
+            "השרביט מתפרש כסימן שכבר אושרה בקשת אסתר להצלת היהודים"
+          ],
+          "explanation": "המלך מאפשר לאסתר להתקרב לפני שהוא שואל מה בקשתה. הידיעה על הסכנה באה מן הפרק הקודם."
+        },
+        "en": {
+          "prompt": "How does reading Esther 4 affect a comparison between this royal gesture and the scepter in Esther 5?",
+          "options": [
+            "The law explained earlier makes extending the scepter a reprieve from a death threat",
+            "Only after the first banquet does the reader learn that the gesture carried meaning",
+            "The scepter indicates the king has already approved saving the Jews"
+          ],
+          "explanation": "He allows Esther to approach before asking her request. The previous chapter has explained the danger."
+        }
+      }
+    }
+  },
+  {
+    "id": "ebed-melech-ropes",
+    "stopId": "life-samson-7",
+    "artStep": 2,
+    "map": 4,
+    "reference": {
+      "he": "ירמיהו ל״ח, ו׳–י״ג",
+      "en": "Jeremiah 38:6–13"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "קצות החבל בציור נפרדו. עבד־מלך רצה למשוך את ירמיהו למעלה מתוך בור. איזה חבל יבחר?",
+          "options": [
+            "חבל שלם המגיע עד ירמיהו",
+            "חבל קצר מכדי להגיע לבור",
+            "שני קצוות קרועים שלא חוברו"
+          ],
+          "explanation": "חבל שלם יכול לחבר בין ירמיהו לבין האנשים שמושכים מלמעלה."
+        },
+        "en": {
+          "prompt": "The rope ends in this picture have come apart. Ebed-melech wanted to pull Jeremiah out of a pit. Which rope should he choose?",
+          "options": [
+            "An unbroken rope that reaches Jeremiah",
+            "A rope too short to reach the pit",
+            "Two torn ends that have not been joined"
+          ],
+          "explanation": "An unbroken rope can connect Jeremiah to the people pulling above him."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "החבלים של שמשון קושרים. אצל ירמיהו חבלים מצילים. מדוע הוריד עבד־מלך גם פיסות בד ישנות?",
+          "options": [
+            "כדי לרפד את המקום שבו החבלים לוחצים על הגוף",
+            "כדי לכסות את פתח הבור בזמן המשיכה",
+            "כדי להסתיר בתוכן לחם מפני השומרים"
+          ],
+          "explanation": "עבד־מלך אמר לירמיהו לשים את הבדים תחת אצילי ידיו, מתחת לחבלים."
+        },
+        "en": {
+          "prompt": "Samson’s ropes restrain him. Jeremiah’s ropes help rescue him. Why did Ebed-melech also lower old cloths?",
+          "options": [
+            "To pad the places where the ropes pressed against his body",
+            "To cover the mouth of the pit during the rescue",
+            "To hide bread inside them from the guards"
+          ],
+          "explanation": "He told Jeremiah to put the cloths under his arms beneath the ropes."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "בציור קצה חבל יכול להעיד על סכנה שחלפה. אצל ירמיהו, מה מגלה הוראת עבד־מלך לשים בדים תחת החבלים?",
+          "options": [
+            "הוא דואג גם לאופן שבו יעלו את ירמיהו מהבור",
+            "הוא מתכוון להשאיר את ירמיהו שם בתנאים נוחים",
+            "הוא רוצה שירמיהו יטפס בדפנות בלי עזרת המושכים"
+          ],
+          "explanation": "הבדים מעלים את הסיכוי לחילוץ בלי לחץ ישיר של החבלים על הגוף."
+        },
+        "en": {
+          "prompt": "What do Ebed-melech’s instructions about cloth beneath the ropes reveal in the rescue of Jeremiah?",
+          "options": [
+            "He attends to how Jeremiah will be lifted as well as getting him out",
+            "He plans to leave Jeremiah more comfortably in the pit",
+            "He wants Jeremiah to climb the walls without the rescuers’ help"
+          ],
+          "explanation": "Padding reduces direct pressure from the ropes on the body during the lift."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "שמשון משתחרר כשחבל נקרע. כיצד נהפך תפקיד החבלים בתוך סיפור הבור של ירמיהו עצמו?",
+          "options": [
+            "בחבלים מורידים אותו בתחילה לבור ובחבלים מעלים אותו ממנו בסוף",
+            "תחילה ירמיהו יוצר חבל בעצמו ואחר כך משליך אותו למחלציו",
+            "עבד־מלך קורע את החבלים כדי שירמיהו ישחה החוצה"
+          ],
+          "explanation": "אותו סוג חפץ מופיע בהורדה לבור בפסוק ו׳ ובהעלאה ממנו בפסוק י״ג. הכוונה והכיוון התהפכו."
+        },
+        "en": {
+          "prompt": "Samson is freed when a rope breaks. How is the role of ropes reversed within Jeremiah’s pit episode itself?",
+          "options": [
+            "Ropes lower him into the pit and ropes lift him out at the end",
+            "Jeremiah first makes a rope himself and later tosses it to his rescuers",
+            "Ebed-melech tears the ropes so Jeremiah can swim out"
+          ],
+          "explanation": "The same kind of object appears in the lowering in verse 6 and the lifting in verse 13. Direction and purpose are reversed."
+        }
+      }
+    }
+  },
+  {
+    "id": "gideon-dew",
+    "stopId": "life-noah-7",
+    "artStep": 2,
+    "map": 5,
+    "reference": {
+      "he": "שופטים ו׳, ל״ו–מ׳",
+      "en": "Judges 6:36–40"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "נח מחפש אדמה יבשה. אצל גדעון היה בבוקר הראשון צמר רטוב על אדמה יבשה. איפה תישאר כף היד יבשה אם נוגעים רק בדבר אחד?",
+          "options": [
+            "על האדמה סביב הצמר",
+            "בתוך הצמר הרטוב",
+            "בקערה שאליה נסחטו המים"
+          ],
+          "explanation": "בבוקר הראשון הטל הרטיב את גיזת הצמר, והאדמה סביבה הייתה יבשה."
+        },
+        "en": {
+          "prompt": "Noah looks for dry ground. On Gideon’s first morning, wet wool lay on dry ground. What could you touch and still have a dry hand?",
+          "options": [
+            "The ground around the wool",
+            "The wet wool itself",
+            "The water squeezed into the bowl"
+          ],
+          "explanation": "On the first morning dew had wet the fleece and the ground around it was dry."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "נח מתבונן במים כדי להבין מה השתנה. בציור הבוקר הראשון של גדעון הצמר רטוב והאדמה יבשה. מה צריך לשנות כדי לצייר את הבוקר הבא?",
+          "options": [
+            "לייבש את הצמר ולהרטיב את האדמה",
+            "להשאיר גם את הצמר וגם את האדמה רטובים",
+            "לכסות את הצמר בשכבה נוספת של צמר"
+          ],
+          "explanation": "בפעם השנייה ביקש גדעון להפוך את התוצאה. הצמר נותר יבש ועל האדמה ירד טל."
+        },
+        "en": {
+          "prompt": "Noah watches water for signs of change. A drawing of Gideon’s first morning shows wet wool on dry earth. How should the next morning be drawn?",
+          "options": [
+            "Dry wool on wet ground",
+            "Both wool and ground wet",
+            "A second fleece covering the first"
+          ],
+          "explanation": "Gideon asked for the opposite outcome the second time. The fleece stayed dry while dew fell on the ground."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "נח מחכה להבדל בין מים ליבשה. כיצד נבדל הסימן השני שביקש גדעון מן הראשון?",
+          "options": [
+            "אותם שני דברים נבדקים, אך מתחלף המקום שבו מופיע הטל",
+            "אותה תוצאה חוזרת במקום אחר כדי לבדוק את השטח",
+            "גדעון מחליף את גיזת הצמר בקערה מלאה במים"
+          ],
+          "explanation": "הגיזה והאדמה נשארות. מה שמשתנה הוא איזה משני המקומות רטוב ואיזה יבש."
+        },
+        "en": {
+          "prompt": "What changes between Gideon’s two requests about dew?",
+          "options": [
+            "The same two surfaces are tested, but the place where dew appears is reversed",
+            "The same result occurs in another location to test the terrain",
+            "Gideon replaces his fleece with a bowl of water"
+          ],
+          "explanation": "The fleece and the ground remain. What changes is which one is wet and which is dry."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "מים נסוגים מסמנים לנח שינוי בעולם שסביבו. מה מבקש גדעון לברר בעזרת שני מצבי הטל המנוגדים?",
+          "options": [
+            "האם תתקיים הבטחת הישועה לישראל באמצעותו",
+            "האם האדמה ראויה לזריעת הדגן באותה שנה",
+            "האם הזקנים כבר בחרו בו למלך"
+          ],
+          "explanation": "הבקשה נפתחת באזכור ישועת ישראל ביד גדעון. החלפת תנאי הטל מבקשת אישור נוסף לאותה הבטחה."
+        },
+        "en": {
+          "prompt": "Receding water tells Noah about the world outside. What does Gideon seek to establish by the two opposite patterns of dew?",
+          "options": [
+            "Whether the promise to deliver Israel through him will be fulfilled",
+            "Whether the land is ready for planting that year",
+            "Whether the elders have already chosen him as king"
+          ],
+          "explanation": "Gideon frames the request by naming Israel’s deliverance through him. The reversed conditions seek further assurance about the same promise."
+        }
+      }
+    }
+  },
+  {
+    "id": "ruth-road",
+    "stopId": "life-moses-3",
+    "artStep": 3,
+    "map": 5,
+    "reference": {
+      "he": "רות א׳, ז׳–י״ח",
+      "en": "Ruth 1:7–18"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "ילדים נושאים צרורות בדרך עם המשפחה. רות יוצאת לדרך עם נעמי. נעמי אומרת שאפשר לחזור, ורות בוחרת להישאר איתה. לאן תפנה רות בצומת?",
+          "options": [
+            "לאותו כיוון שנעמי הולכת אליו",
+            "בחזרה לביתה בלי נעמי",
+            "בעקבות עדר שהיא מוצאת לבדה"
+          ],
+          "explanation": "רות אמרה לנעמי שברצונה ללכת איתה, והן המשיכו יחד."
+        },
+        "en": {
+          "prompt": "Children carry bundles along the family’s road. Naomi says Ruth may turn back, but Ruth chooses to stay with her. Which way will Ruth turn at a fork?",
+          "options": [
+            "The way Naomi goes",
+            "Back home without Naomi",
+            "After a flock she finds on her own"
+          ],
+          "explanation": "Ruth told Naomi she wanted to go with her, and they continued together."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "הצרורות באיור מספרים על מסע משפחתי. רות וערפה שתיהן התחילו ללכת עם נעמי. מה מראה שרות בחרה להמשיך גם כשהדרך התפצלה?",
+          "options": [
+            "ערפה נפרדה מנעמי ורות דבקה בה",
+            "רות יצאה ראשונה וברחה לבדה",
+            "ערפה חיכתה בבית לחזרת שתיהן"
+          ],
+          "explanation": "אחרי דברי נעמי ערפה נפרדת, ואילו רות מתעקשת להתלוות אליה."
+        },
+        "en": {
+          "prompt": "These bundles suggest a family journey. Both Ruth and Orpah first set out with Naomi. What marks Ruth’s choice when their paths part?",
+          "options": [
+            "Orpah says farewell, while Ruth clings to Naomi",
+            "Ruth runs ahead alone to escape",
+            "Orpah waits at home for both to return"
+          ],
+          "explanation": "After Naomi speaks, Orpah takes leave while Ruth insists on accompanying her."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "המשפחה באיור יוצאת כקבוצה. איך משתמש סיפור רות בשתי הכלות כדי להדגיש את בחירת רות בדרך?",
+          "options": [
+            "שתיהן יוצאות ושתיהן בוכות, ואחר כך תגובותיהן נפרדות",
+            "רק רות זוכה להזמנה מפורשת של נעמי לבוא איתה",
+            "שתיהן חוזרות ומחליטות לשלוח את נעמי לפניהן"
+          ],
+          "explanation": "נקודת המוצא המשותפת מבליטה את התעקשות רות אחרי הבכי והפרידה."
+        },
+        "en": {
+          "prompt": "How do the two daughters-in-law bring Ruth’s choice on the road into focus?",
+          "options": [
+            "Both set out and weep before their responses diverge",
+            "Only Ruth receives an express invitation from Naomi to go with her",
+            "Both turn back and decide to send Naomi ahead"
+          ],
+          "explanation": "Their shared departure and tears give force to Ruth’s persistence after the farewell."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "בציור נישאים חפצים לדרך. מה בדברי רות לנעמי מרחיב את מחויבותה מעבר לליווי עד סוף המסע?",
+          "options": [
+            "היא מזכירה גם השתייכות לעם, לאלוהים ומקום קבורה",
+            "היא מבקשת התחייבות לקבל חלק בשדה בבית לחם",
+            "היא מגבילה את התחייבותה לעונת קציר השעורים"
+          ],
+          "explanation": "רות מדברת על הליכה ולינה וממשיכה בעם, באלוהים, במוות ובקבורה. התחייבותה נוגעת לחיים שלמים."
+        },
+        "en": {
+          "prompt": "People in the picture carry what a journey requires. What in Ruth’s speech extends her commitment beyond reaching a destination?",
+          "options": [
+            "She speaks of belonging to a people and to God, and of where she will be buried",
+            "She asks for a guaranteed share of a Bethlehem field",
+            "She limits her promise to the barley harvest"
+          ],
+          "explanation": "Ruth moves from going and lodging to people, God, death and burial. Her words encompass a lifetime."
+        }
+      }
+    }
+  },
+  {
+    "id": "hagar-water",
+    "stopId": "life-samson-8",
+    "artStep": 3,
+    "map": 5,
+    "reference": {
+      "he": "בראשית כ״א, י״ד–י״ט; שופטים ט״ו, י״ח–י״ט",
+      "en": "Genesis 21:14–19 and Judges 15:18–19"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "שמשון מרים מים אל פיו. להגר יש נאד ריק וילד צמא, ואז היא רואה באר. מה עליה לעשות קודם כדי להביא לו מים?",
+          "options": [
+            "למלא את הנאד מן הבאר",
+            "לקשור את הנאד כשהוא ריק",
+            "להניח את הנאד הריק ליד הילד"
+          ],
+          "explanation": "הגר מילאה את נאד המים ורק אז השקתה את הילד."
+        },
+        "en": {
+          "prompt": "Samson lifts water to his mouth. Hagar has an empty water skin and a thirsty child. Then she sees a well. What must she do first to bring him water?",
+          "options": [
+            "Fill the skin from the well",
+            "Tie the empty skin shut",
+            "Lay the empty skin beside him"
+          ],
+          "explanation": "Hagar filled the water skin before giving the child a drink."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "שמשון שותה בידיו באיור. הגר לא הביאה את הילד אל הבאר. איזה חפץ חיבר בין הבאר לבין המקום שבו שהה הילד?",
+          "options": [
+            "נאד המים שמילאה",
+            "אבן שסגרה את הבאר",
+            "חבל שקשרה אל הילד"
+          ],
+          "explanation": "הגר הלכה אל הבאר, מילאה את הנאד והשקתה את הילד."
+        },
+        "en": {
+          "prompt": "Samson drinks from his hands here. Hagar did not bring the boy to the well. Which object linked the well to where he was?",
+          "options": [
+            "The water skin she filled",
+            "A stone sealing the well",
+            "A rope tied to the boy"
+          ],
+          "explanation": "Hagar went to the well, filled the skin and gave the boy a drink."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "המים שבתמונה נותנים כוח לשמשון. איזה פרט בבראשית כ״א מצביע על מפנה בסיפור הגר עוד לפני שהילד שותה?",
+          "options": [
+            "עיניה נפקחות והיא רואה באר",
+            "הילד כבר נעשה קשת במדבר",
+            "הגר חוזרת עם נאד מים מבית אברהם"
+          ],
+          "explanation": "תחילה הגר רואה את הבאר; אחר כך היא הולכת, ממלאת את הנאד ומשקה."
+        },
+        "en": {
+          "prompt": "What marks a turn in Hagar’s story before the boy actually drinks?",
+          "options": [
+            "Her eyes are opened and she sees a well",
+            "The boy is already an archer in the wilderness",
+            "Hagar has returned from Abraham’s house with more water"
+          ],
+          "explanation": "Seeing the well precedes going to it, filling the skin and giving him a drink."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "בציור שמשון שותה אחרי שזעק בצמא. איזו קביעה על הופעת מקור המים אצל הגר נשענת על נוסח בראשית כ״א?",
+          "options": [
+            "הכתוב מתאר את פקיחת עיניה ואת ראיית הבאר, בלי לתאר חפירת באר חדשה",
+            "הגר חופרת באר בעקבות הוראה מפורשת של המלאך",
+            "הילד מבחין בבאר ונושא ממנה את הנאד להגר"
+          ],
+          "explanation": "הפסוק מספר מה הגר רואה ועושה. בשופטים ט״ו פעולת בקיעה ויציאת המים הן חלק מן התיאור."
+        },
+        "en": {
+          "prompt": "Samson drinks after crying out in thirst. What claim about Hagar’s water source does Genesis 21 actually support?",
+          "options": [
+            "The text describes her eyes being opened and her seeing a well, without describing a new well being dug",
+            "Hagar digs a well at the angel’s express command",
+            "The child spots a well and carries a full skin to Hagar"
+          ],
+          "explanation": "The verse describes what Hagar sees and does. Judges 15 separately describes a splitting and water coming out."
+        }
+      }
+    }
+  },
+  {
+    "id": "elijah-ravens",
+    "stopId": "life-noah-4",
+    "artStep": 3,
+    "map": 6,
+    "reference": {
+      "he": "בראשית ח׳, ח׳–י״ב; מלכים א׳ י״ז, ב׳–ו׳",
+      "en": "Genesis 8:8–12 and 1 Kings 17:2–6"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "נח מושיט יד ליונה שמביאה עלה. עורבים הביאו לאליהו לחם ובשר. אדם מחכה לארוחה ואדם אחר מחכה לסימן על היבשה. מי מהם יחכה לעורבים?",
+          "options": [
+            "האדם שמחכה לארוחה",
+            "האדם שמחכה לעלה מן היבשה",
+            "שניהם, כי העלה הוא לחם"
+          ],
+          "explanation": "העורבים הביאו לאליהו אוכל. העלה של היונה סיפר לנח משהו על המים."
+        },
+        "en": {
+          "prompt": "Noah reaches for a dove bringing a leaf. Ravens brought Elijah bread and meat. One man waits for a meal and another for news about land. Who should watch for ravens?",
+          "options": [
+            "The man waiting for a meal",
+            "The man waiting for a leaf from land",
+            "Both men, because a leaf is bread"
+          ],
+          "explanation": "The ravens brought food to Elijah. The dove’s leaf told Noah something about the water."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "היד של נח מחכה למה שהיונה תביא. אילו החלפנו את היונה בעורבים של אליהו, מה היה צריך לשנות מלבד הציפור?",
+          "options": [
+            "את מה שהיא נושאת ואת הצורך של האדם שמחכה",
+            "רק את מספר הנוצות על הכנף",
+            "רק את השעה שעליה מצביע הצל"
+          ],
+          "explanation": "היונה מביאה עלה הקשור למצב המים; העורבים מביאים מזון לאליהו בנחל כרית."
+        },
+        "en": {
+          "prompt": "If Elijah’s ravens took the place of Noah’s returning dove, what else would the painter need to change?",
+          "options": [
+            "The cargo and the waiting person’s need",
+            "Only the number of wing feathers",
+            "Only the time suggested by the shadows"
+          ],
+          "explanation": "The dove brings a leaf that tells of the water; the ravens bring Elijah food at the brook Cherith."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "איזה פרט בסיפורי היונה והעורבים הופך את התדירות לחלק מן המשמעות?",
+          "options": [
+            "נח ממתין בין שילוחי היונה; אצל אליהו הגעת המזון בבוקר ובערב מקיימת שגרה",
+            "שני הסיפורים קובעים שכל ציפור חזרה אחרי שבוע",
+            "בשניהם הציפור מגיעה פעם אחת ולכן הזמן אינו משנה"
+          ],
+          "explanation": "המרווחים אצל נח מאפשרים לעקוב אחר שינוי. זמני המזון אצל אליהו מדגישים קיום מתמשך."
+        },
+        "en": {
+          "prompt": "How does the timing of the bird visits carry meaning in the two stories?",
+          "options": [
+            "Noah waits between dove flights; Elijah’s morning and evening food deliveries form a routine",
+            "Both stories say each bird returned after a week",
+            "In both, a bird visits only once, making timing irrelevant"
+          ],
+          "explanation": "Waiting gives Noah time to test for change. Elijah’s deliveries sustain him over time."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "היד המושטת שבאיור מזמינה להשוות בין תפקידי הציפורים. מהו ההבדל ביוזמה ובתכלית?",
+          "options": [
+            "נח משלח יונה כדי לברר דבר; אצל אליהו ה׳ מצווה על העורבים לכלכל אותו",
+            "אליהו משלח עורבים כדי לברר אם הנחל כבר התייבש",
+            "בשני הסיפורים האדם מצווה על הציפור להחזיר אות ברית"
+          ],
+          "explanation": "בראשית מדגיש את הבירור של נח, ובמלכים משימת ההזנה נכללת בהוראות ה׳ לנביא."
+        },
+        "en": {
+          "prompt": "What difference in agency and purpose distinguishes the dove in the picture from Elijah’s ravens?",
+          "options": [
+            "Noah dispatches a dove to learn something; God commands the ravens to provide for Elijah",
+            "Elijah dispatches ravens to discover whether the brook has dried up",
+            "In both stories a man orders a bird to fetch a covenant sign"
+          ],
+          "explanation": "Genesis emphasizes Noah’s inquiry. In Kings, provision by the ravens is part of God’s instructions to the prophet."
+        }
+      }
+    }
+  },
+  {
+    "id": "elisha-loaves",
+    "stopId": "life-moses-8",
+    "artStep": 3,
+    "map": 6,
+    "reference": {
+      "he": "שמות ט״ז, ט״ז–י״ח; מלכים ב׳ ד׳, מ״ב–מ״ד",
+      "en": "Exodus 16:16–18 and 2 Kings 4:42–44"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "ילד אוסף אוכל לקערה. בסיפור אלישע הוגש לחם לאנשים רבים. כולם אכלו, ועל השולחן נשאר לחם. מה אפשר לדעת עכשיו?",
+          "options": [
+            "היה מספיק לכולם ונשאר עוד",
+            "מישהו עדיין מחכה לכל הלחם",
+            "לא נגעו באף כיכר"
+          ],
+          "explanation": "בסיום סיפור אלישע העם אכל והשאיר מן הלחם."
+        },
+        "en": {
+          "prompt": "A child is gathering food. In Elisha’s story bread was served to a crowd. Everyone ate, and bread was still left. What can we tell?",
+          "options": [
+            "There was enough for all and more",
+            "Someone is still waiting for all the bread",
+            "Nobody touched a loaf"
+          ],
+          "explanation": "Elisha’s story ends with the people eating and leaving some bread."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "האוכל שבאיור נאסף למשפחה. לפני חלוקת עשרים כיכרות שאל המשרת של אלישע איך ייתן אותן למאה איש. מה היה עליו לבדוק בסוף כדי לדעת אם החשש התממש?",
+          "options": [
+            "האם כולם אכלו והאם נשאר מן הלחם",
+            "האם הכיכרות היו באותו צבע",
+            "האם כל האנשים הגיעו מאותה עיר"
+          ],
+          "explanation": "אלישע חזר על הוראתו לתת לעם. העם אכל ואף הותיר."
+        },
+        "en": {
+          "prompt": "A family gathers food here. Elisha’s servant wondered how twenty loaves could feed a hundred. What would settle his worry at the end?",
+          "options": [
+            "Whether everyone ate and whether bread remained",
+            "Whether the loaves were the same color",
+            "Whether everyone came from the same town"
+          ],
+          "explanation": "Elisha repeated the instruction to feed the people. They ate and left some."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "איך שונה דרך ההוכחה שיש די מזון בשמות ט״ז ובסיפור כיכרות השעורים של אלישע?",
+          "options": [
+            "במדבר מודדים את האיסוף; אצל אלישע המספר מתאר את האכילה ואת השארית",
+            "בשני הסיפורים כל אדם מגיע תחילה עם מספר זהה של כיכרות",
+            "אצל אלישע שוקלים מנת מן לכל אדם; במדבר אין כל מדידה"
+          ],
+          "explanation": "המדידה בעומר מדגימה שכל אחד קיבל לפי צורכו. בסיפור אלישע התוצאה מאשרת את דבר הנביא."
+        },
+        "en": {
+          "prompt": "How is sufficiency demonstrated in Exodus 16 and in the story of Elisha’s barley loaves?",
+          "options": [
+            "The wilderness gathering is measured; Elisha’s narrator reports eating and leftovers",
+            "Both begin with each person bringing the same number of loaves",
+            "Elisha weighs manna for each person; the wilderness food is never measured"
+          ],
+          "explanation": "The omer measure shows provision according to need. At Elisha’s meal the outcome confirms the prophet’s words."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "האיור מניח מנה ליד האוספים. מה תפקיד שאלת המשרת במבנה הסיפור הקצר על אלישע והלחם?",
+          "options": [
+            "היא מציבה את היחס בין כיכרות לסועדים מול דבר ה׳, שהסיום מאשר באמצעות השארית",
+            "היא קובעת שהחלוקה צריכה להיעשות בעומר כפי שנעשה במדבר",
+            "היא מסבירה שהמשרת סירב לתת לחם גם אחרי הוראת אלישע"
+          ],
+          "explanation": "החשבון המעשי מקדים את דבר ה׳ על אכילה והותרה. המעשה האחרון חוזר לאותם שני רכיבים."
+        },
+        "en": {
+          "prompt": "How does the servant’s question function in the brief account of Elisha’s loaves?",
+          "options": [
+            "It sets the ratio of loaves to diners against the divine word, which the leftovers finally confirm",
+            "It requires an omer measurement for portions just as in the wilderness",
+            "It explains that the servant still refused to serve after Elisha spoke"
+          ],
+          "explanation": "The practical calculation comes before the promise of eating and leaving some. The ending returns to both parts."
+        }
+      }
+    }
+  },
+  {
+    "id": "joseph-grain",
+    "stopId": "life-samson-9",
+    "artStep": 3,
+    "map": 6,
+    "reference": {
+      "he": "בראשית מ״א, מ״ז–מ״ט, נ״ג–נ״ז",
+      "en": "Genesis 41:47–49, 53–57"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "באבן הטחינה שבציור אפשר לטחון גרגרים. בימי יוסף היה רעב בשדות אבל היו גרגרים במחסנים. מאיפה ישיגו גרגרים כדי לטחון עכשיו?",
+          "options": [
+            "מהמחסנים שמילאו לפני הרעב",
+            "מהשדה הריק של אותה שנה",
+            "מתוך אבן הטחינה עצמה"
+          ],
+          "explanation": "יוסף שמר מזון בשנות השובע. בזמן הרעב הוא פתח את המחסנים."
+        },
+        "en": {
+          "prompt": "Grain can be ground on the stone pictured. In Joseph’s time fields were bare but stores held grain. Where could people find grain to grind now?",
+          "options": [
+            "In stores filled before the famine",
+            "In that year’s bare field",
+            "Inside the grinding stone itself"
+          ],
+          "explanation": "Joseph stored food during the good years. The stores were opened in the famine."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "בתמונה טוחנים גרגרים. יוסף לא חילק את כל תבואת שנות השובע מיד. איזה סדר מסביר כיצד הגיעה תבואה לטחינה גם בשנות הרעב?",
+          "options": [
+            "אוספים בשובע, שומרים, ואז פותחים את המחסנים ברעב",
+            "פותחים מחסנים ריקים ברעב, ואז זורעים בשנות השובע",
+            "טוחנים את אבני המחסן כשתבואת השדה נגמרת"
+          ],
+          "explanation": "במשך שנות השובע נאסף מזון. רק לאחר שהחל הרעב פתח יוסף את המאגרים."
+        },
+        "en": {
+          "prompt": "What sequence explains how people could still get grain to grind during Joseph’s famine?",
+          "options": [
+            "Gather in plentiful years, store it, then open stores during famine",
+            "Open empty stores in the famine, then sow in the good years",
+            "Grind the stones of the storehouse when the crop runs out"
+          ],
+          "explanation": "Food was gathered through the years of plenty. Joseph opened the stores once the famine came."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "אבן טחינה בעיר זקוקה לאספקה. איזה פרט בבראשית מ״א מראה שיוסף חשב על מקום האחסון, נוסף על כמויות?",
+          "options": [
+            "את יבול השדות שסביב כל עיר אסף בתוכה",
+            "את כל התבואה העביר לעיר אחת בקצה המדבר",
+            "הוא הורה לכל משפחה לטמון בעצמה את תבואתה בבאר"
+          ],
+          "explanation": "הפסוק מדגיש את הקשר בין שדה העיר וסביבותיה לבין האיסוף בעיר עצמה."
+        },
+        "en": {
+          "prompt": "A city’s grinding stones need a supply of grain. What shows that Joseph’s plan addressed location as well as quantity?",
+          "options": [
+            "He stored the crops from the fields around each city in that city",
+            "He moved all grain to one city at the desert’s edge",
+            "He told each family to bury its own crop in a well"
+          ],
+          "explanation": "The account explicitly connects each city’s surrounding fields to the food collected within it."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "מן הגרגרים שבציור אפשר לעקוב אחרי שרשרת אספקה. מדוע אי אפשר להסיק מבראשית מ״א, מ״ט שהתבואה עצמה אזלה עוד בשנות השובע?",
+          "options": [
+            "מה שנפסק הוא הספירה לנוכח הריבוי, ואחר כך נפתחים המאגרים ברעב",
+            "הפסוק מתאר רק קמח ובלתי אפשרי לאחסן אותו",
+            "יוסף טרם החל לאסוף באותו שלב ולכן עוד לא הייתה תבואה לספור"
+          ],
+          "explanation": "תיאור הכמות העצומה מביא להפסקת המניין. פתיחת המחסנים בהמשך מבחינה בין הפסקת מניין לבין כילוי המלאי."
+        },
+        "en": {
+          "prompt": "Why does Genesis 41:49 not imply that Joseph ran out of grain during the good years?",
+          "options": [
+            "Counting ceased because of abundance; the stores were later opened in famine",
+            "The verse mentions only flour, which could not be stored",
+            "Joseph had not begun collecting, so there was nothing yet to count"
+          ],
+          "explanation": "It is the tally that stops at the description of immense quantities. The stores’ later opening distinguishes an end to counting from exhaustion of the stock."
+        }
+      }
+    }
+  },
+  {
+    "id": "deborah-barak",
+    "stopId": "life-moses-5",
+    "artStep": 3,
+    "map": 7,
+    "reference": {
+      "he": "במדבר כ״ז, ט״ו–כ״ג; שופטים ד׳, ד׳–י׳",
+      "en": "Numbers 27:15–23 and Judges 4:4–10"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "משה עומד ליד יהושע, והעם רואה למי יקשיב בהמשך. בסיפור אחר דבורה קוראת לברק ואומרת לו לאסוף אנשים. למי צריכים האנשים להצטרף כשהוא יוצא לדרך?",
+          "options": [
+            "לברק שדבורה קראה לו",
+            "ליהושע שבציור אחר",
+            "לנער ששומר על הכבשים"
+          ],
+          "explanation": "דבורה קראה לברק. הוא אסף את האנשים, ודבורה הלכה איתו."
+        },
+        "en": {
+          "prompt": "Moses stands beside Joshua so the people can see whom to follow. In another story Deborah calls Barak and tells him to gather men. Whom do those men join?",
+          "options": [
+            "Barak, whom Deborah called",
+            "Joshua in the other picture",
+            "A boy looking after sheep"
+          ],
+          "explanation": "Deborah called Barak. He summoned the men and Deborah went with him."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "בעוד העם בתמונה רואה מי ינהיג אחר כך, ברק שומע מדבורה משימה. הוא מוכן לצאת בתנאי מסוים. מה בציור של סוף השיחה יראה שתנאו התקיים?",
+          "options": [
+            "דבורה יוצאת יחד איתו",
+            "דבורה נשארת לשבת לבדה תחת התומר",
+            "יהושע מוסר לו את המטה של משה"
+          ],
+          "explanation": "ברק ביקש שדבורה תלך עמו. היא הסכימה ויצאה איתו."
+        },
+        "en": {
+          "prompt": "In the picture the people see a future leader. In another story Barak hears his task from Deborah but sets a condition. What drawing would show that his condition was met?",
+          "options": [
+            "Deborah setting out with him",
+            "Deborah still alone under the palm",
+            "Joshua giving him Moses’ staff"
+          ],
+          "explanation": "Barak asked Deborah to go with him. She agreed and went."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "משה מציג את יהושע. מדוע ציור שבו דבורה ממנה את ברק לשופט במקומה יטעה את הקורא בשופטים ד׳?",
+          "options": [
+            "ברק נקרא להוביל כוח למשימה, ובסיפור אין העברה של תפקיד השיפוט מדבורה",
+            "ברק נקרא להחליף את משה בהנהגת המדבר",
+            "דבורה מתוארת שם כשופטת רק אחרי שובו של ברק"
+          ],
+          "explanation": "דבורה כבר שופטת ונביאה כשהיא קוראת לברק. השליחות שהיא מוסרת לו נוגעת לגיוס ולמערכה."
+        },
+        "en": {
+          "prompt": "Moses presents Joshua. Why would a drawing of Deborah appointing Barak to succeed her as judge misread Judges 4?",
+          "options": [
+            "Barak is called to lead a force on a mission; Deborah’s judicial role is not transferred",
+            "Barak is called to succeed Moses in the wilderness",
+            "Deborah is described as a judge only after Barak returns"
+          ],
+          "explanation": "Deborah is already a judge and prophet when she summons Barak. The commission she relays concerns mustering troops and the campaign."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "איזו הבחנה בין טקס יהושע שבתמונה לשליחות ברק מסבירה מדוע נוכחותו של קהל ממלאת תפקיד שונה בשני הקטעים?",
+          "options": [
+            "יהושע מוצג לפני העדה כחלק מהסמכתו; דבורה מוסרת לברק את הצו לפני גיוס האנשים",
+            "בחירת יהושע מושהית עד שהעדה מאשרת אותה; ברק מוכרז כשופט לפני גיוס האנשים",
+            "יהושע וברק נקראים שניהם בפני קהל, והמעמד הציבורי מקנה לכל אחד את שליחותו"
+          ],
+          "explanation": "בבמדבר העמדת יהושע לעיני העדה היא רכיב מפורש בהסמכה. בשופטים קריאת הלוחמים באה אחרי חילופי הדברים עם ברק."
+        },
+        "en": {
+          "prompt": "Why does the public play different roles at Joshua’s commissioning and in Barak’s mission?",
+          "options": [
+            "Joshua is presented to the assembly as part of his commissioning; Deborah conveys the command to Barak before the men are mustered",
+            "Joshua’s choice awaits the assembly’s approval; Barak is proclaimed judge before the men are mustered",
+            "Both men are summoned before crowds, and that public act confers each commission"
+          ],
+          "explanation": "In Numbers, standing before the assembly is specified in the commissioning. In Judges the summons to the fighters follows Deborah’s exchange with Barak."
+        }
+      }
+    }
+  },
+  {
+    "id": "jordan-memory",
+    "stopId": "life-noah-5",
+    "artStep": 2,
+    "map": 7,
+    "reference": {
+      "he": "בראשית ט׳, י״ב–ט״ז; יהושע ד׳, א׳–ז׳",
+      "en": "Genesis 9:12–16 and Joshua 4:1–7"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "נח מצביע למעלה על הקשת. אחרי חציית הירדן הניחו בני ישראל אבנים כדי שילדים ישאלו עליהן. איפה תחפשו את שני הסימנים?",
+          "options": [
+            "קשת בשמיים ואבנים על הקרקע",
+            "קשת על הקרקע ואבנים בשמיים",
+            "את שניהם בתוך שק סגור"
+          ],
+          "explanation": "את הקשת רואים בענן; האבנים הובאו מן הנהר והונחו במקום הלינה."
+        },
+        "en": {
+          "prompt": "Noah points up at the rainbow. After the Jordan crossing the Israelites set down stones for children to ask about. Where would you look for the two signs?",
+          "options": [
+            "A bow in the sky and stones on the ground",
+            "A bow on the ground and stones in the sky",
+            "Both inside a closed bag"
+          ],
+          "explanation": "The bow appears in the cloud; the stones were carried from the river and set down at the camp."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "נח מראה למשפחתו קשת. ליד אבני הירדן ילד שואל למה הביאו אותן. איזה סיפור צריך לספר לו בעקבות השאלה?",
+          "options": [
+            "על מי הירדן שפסקו לזרום בזמן המעבר",
+            "על הקשת שנראתה אחרי המבול",
+            "על המים שהגר שאבה לילד שלה"
+          ],
+          "explanation": "יהושע מסביר שהאבנים יעוררו שאלות ויזכירו את מעבר ישראל בירדן."
+        },
+        "en": {
+          "prompt": "Noah shows his family a rainbow. A child at the Jordan stones asks why they were brought there. Which story answers the child’s question?",
+          "options": [
+            "The Jordan’s flow being cut off during the crossing",
+            "The bow appearing after the flood",
+            "The water Hagar drew for her child"
+          ],
+          "explanation": "Joshua explains that the stones will prompt questions and recall Israel’s crossing."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "היד שבאיור מזמינה מישהו אחר להסתכל. מה התפקיד שניתן דווקא לשאלה על אבני הירדן בסיפור יהושע?",
+          "options": [
+            "היא פותחת הזדמנות לספר לדור הבא על חציית הנהר",
+            "היא בוחנת אם הילדים מסוגלים להרים את שתים עשרה האבנים",
+            "היא מחייבת את העם להקים גשר נוסף באותו מקום"
+          ],
+          "explanation": "ביהושע ד׳ נמסרת מראש התשובה לשאלת הילדים העתידית. הזיכרון עובר גם בדיבור."
+        },
+        "en": {
+          "prompt": "The pointing hand invites another person to look. What particular purpose does the question about the Jordan stones have?",
+          "options": [
+            "It opens an occasion to tell the next generation about crossing the river",
+            "It tests whether the children can lift the twelve stones",
+            "It obliges the people to build another bridge there"
+          ],
+          "explanation": "Joshua 4 anticipates the children’s question and gives the answer. The memory is passed on in speech as well."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "באיור בני אדם מתבוננים בקשת. איזה הבדל בין תפקידי הזיכרון בבראשית ט׳ וביהושע ד׳ עלול להיטשטש אם מסתמכים רק על מחוות ההצבעה?",
+          "options": [
+            "בבראשית ה׳ מתאר את ראיית הקשת וזכירת הברית; ביהושע הילדים שואלים ובני ישראל מספרים",
+            "בשניהם נדרש במפורש האב להסביר לבנו בדיבור מה האות מזכיר לה׳",
+            "בשניהם ה׳ רואה את הסימן ונזכר בהבטחה; אין תפקיד מפורש למי שמספר את הסיפור"
+          ],
+          "explanation": "בבראשית ט׳, ט״ז הדובר האלוהי מציג את עצמו כמי שרואה וזוכר. אבני יהושע מזמינות מסירה מפורשת בין הדורות."
+        },
+        "en": {
+          "prompt": "What distinction between Genesis 9 and Joshua 4 might the human pointing gesture in the painting obscure?",
+          "options": [
+            "In Genesis God describes seeing the bow and remembering the covenant; in Joshua children ask and Israelites recount",
+            "Both explicitly require parents to tell children what the sign reminds God of",
+            "In each account God sees a sign and recalls a promise; neither assigns a role to a storyteller"
+          ],
+          "explanation": "In Genesis 9:16 the divine speaker is the one seeing and remembering. Joshua’s stones explicitly prompt transmission between generations."
+        }
+      }
+    }
+  },
+  {
+    "id": "solomon-pillars",
+    "stopId": "life-samson-5",
+    "artStep": 1,
+    "map": 7,
+    "reference": {
+      "he": "שופטים ט״ז, כ״ה–כ״ט; מלכים א׳ ז׳, ט״ו–כ״ב",
+      "en": "Judges 16:25–29 and 1 Kings 7:15–22"
+    },
+    "cards": {
+      "a": {
+        "he": {
+          "prompt": "שמשון מחפש בידיים את שני העמודים. גם בפתח המקדש של שלמה עמדו שני עמודים, ועל ראשם רימוני קישוט. אילו שני פריטים תוסיפו לציור של אותו פתח?",
+          "options": [
+            "עמודים ורימונים למעלה",
+            "עמודים וסל רימונים על הרצפה",
+            "נער המוביל את שמשון ורימונים בידיו"
+          ],
+          "explanation": "הקישוטים היו גבוה על העמודים של מקדש שלמה. הנער שמוביל את שמשון שייך לציור האחר."
+        },
+        "en": {
+          "prompt": "Samson feels for two pillars with his hands. Two stood at Solomon’s temple entrance too, with pomegranate decorations at the top. Which details belong in a drawing of that entrance?",
+          "options": [
+            "Pillars with pomegranates high up",
+            "Pillars with a basket of pomegranates on the floor",
+            "The boy guiding Samson carrying pomegranates"
+          ],
+          "explanation": "The decorations were high up on Solomon’s pillars. The boy who guides Samson belongs to the other scene."
+        }
+      },
+      "b": {
+        "he": {
+          "prompt": "שמשון יכול לגעת בעמודים שבתמונה. בעמודים שבנה חירם למקדש שלמה היו גם קישוטי פרי. מה יוכל צייר להוסיף בראש העמודים ההם?",
+          "options": [
+            "רימונים",
+            "אשכולות תמרים",
+            "צרורות זיתים"
+          ],
+          "explanation": "בתיאור כותרות העמודים שבמלכים מוזכרות שורות של רימונים."
+        },
+        "en": {
+          "prompt": "Samson can touch these pillars. The pillars Hiram made for Solomon’s temple also had fruit decorations. Which should a painter add at the top of those pillars?",
+          "options": [
+            "Pomegranates",
+            "Clusters of dates",
+            "Bunches of olives"
+          ],
+          "explanation": "The account of the capitals in Kings mentions rows of pomegranates."
+        }
+      },
+      "teen": {
+        "he": {
+          "prompt": "שני עמודים מופיעים באיור שמשון ובתיאור מקדש שלמה. אילו פרטים שייכים דווקא לעמודי מקדש שלמה?",
+          "options": [
+            "הם הוצבו באולם ונקראו יכין ובועז",
+            "נער הוביל אליהם אדם שביקש למשש אותם",
+            "המון פלשתי התכנס סביבם לחג"
+          ],
+          "explanation": "המספר במלכים מפרט את מיקום העמודים ואת שמותיהם. הנער והחג שייכים לסיפור שמשון."
+        },
+        "en": {
+          "prompt": "Two pillars appear both here and in the account of Solomon’s temple. Which details belong specifically to Solomon’s pillars?",
+          "options": [
+            "They stood at the vestibule and were named Jachin and Boaz",
+            "A boy led a man to them so he could feel them",
+            "A Philistine crowd gathered around them for a feast"
+          ],
+          "explanation": "Kings gives their location and names. The boy and the feast belong to Samson’s story."
+        }
+      },
+      "c": {
+        "he": {
+          "prompt": "שני עמודים מרכזיים בציור שמשון. מה אפשר לומר על התפקיד שממלא תיאורם בכל אחד משני הסיפורים?",
+          "options": [
+            "בשופטים נאמר שהבית נשען עליהם; במלכים מפורטים יציקת העמודים, עיטורם והעמדתם באולם",
+            "בשני הסיפורים משקל הבניין על העמודים הוא הנימוק המפורש לבחירת מיקומם",
+            "בשופטים הנער קורא לעמודים בשמותיהם כדי להבחין ביניהם; במלכים אין הבחנה בין העמודים"
+          ],
+          "explanation": "בשופטים התפקיד המבני דרוש לעלילה. מלכים א׳ ז׳ מתאר את מלאכת הנחושת, מיקום העמודים ושמותיהם."
+        },
+        "en": {
+          "prompt": "What role does the description of the pair of pillars play in each account?",
+          "options": [
+            "Judges says the building rested on them; Kings details their casting, decoration and placement at the vestibule",
+            "Both accounts explicitly explain the pillars’ position by the building’s weight on them",
+            "In Judges the boy identifies the pillars by name; Kings makes no distinction between the two"
+          ],
+          "explanation": "Their structural role matters directly in Judges. First Kings 7 describes the bronze work, the setting up of the pillars and their names."
+        }
+      }
+    }
+  }
+]

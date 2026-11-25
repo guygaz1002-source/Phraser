@@ -104,6 +104,11 @@ function generate(root) {
       }
     });
   }
+  // The shared Bible bank also has fully illustrated mysteries outside the three companion lives.
+  const generalScenes = JSON.parse(fs.readFileSync(path.join(root, "content/general-bible-illustrations.json"), "utf8"));
+  for (const scene of generalScenes) {
+    for (const files of Object.values(scene.deliveredImages)) files.forEach(asset);
+  }
   // Age-matched drawings of the alternate views used for hints and the fifth riddle.
   for (const name of fs.readdirSync(path.join(root, "assets/puzzles"))) {
     if (/^(?:kids|teen|classic)-journey-[a-f0-9]+\.webp$/.test(name)) asset(name);

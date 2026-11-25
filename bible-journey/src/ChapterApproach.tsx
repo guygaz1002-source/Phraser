@@ -3,35 +3,22 @@ import { Image, View, useWindowDimensions, type ImageStyle } from "react-native"
 import { useReducedMotion } from "react-native-reanimated";
 import Svg, { Circle, Polyline } from "react-native-svg";
 import { worldImages } from "../content/world-images.generated";
-import { useTier } from "../theme/ThemeProvider";
 import { Copy } from "./components";
 import { findExplorePath, worlds } from "./exploration";
 import { LifeSprite, lifeStageDescription } from "./LifeCharacter";
-import { lifeStages, type LifeStageId } from "./lifecycle";
+import { guideStage } from "./companionJourney";
 import { useLocale } from "./LocaleProvider";
 import { RoundAction } from "./RoundAnswer";
 import { QuestItem } from "./WorldIcons";
 import { earthen } from "./EarthenSurface";
 import type { Stop } from "./types";
 
-const stages: Record<string, readonly [number, LifeStageId][]> = {
-  moses: [[0,"moses-baby"],[1,"moses-child"],[3,"moses-young"],[7,"moses-shepherd"],[12,"moses-leader"],[24,"moses-elder"]],
-  samson: [[0,"samson-child"],[4,"samson-adult"],[21,"samson-shorn"],[24,"samson-regrowth"]],
-  noah: [[0,"noah-builder"],[4,"noah-keeper"],[12,"noah-watcher"],[24,"noah-renewed"]],
-};
-export function guideStage(hero: string, stopIndex: number) {
-  const list = stages[hero]!;
-  let selected = list[0]![1];
-  for (const [index, id] of list) if (stopIndex >= index) selected = id;
-  return lifeStages[selected];
-}
-
 type Props = {
-  stop: Stop; previous?: Stop; map: number; landmark: number; hero: string;
+  stop: Stop; line: string; source: string; map: number; landmark: number; hero: string;
   discovery?: string; paused: boolean; onArrival: () => void;
 };
-export function ChapterApproach({ stop, previous, map, landmark, hero, discovery, paused, onArrival }: Props) {
-  const t = useTier(), { tr, direction, isHebrew } = useLocale(), reduced = useReducedMotion();
+export function ChapterApproach({ stop, line, source, map, landmark, hero, discovery, paused, onArrival }: Props) {
+  const { tr, direction, isHebrew } = useLocale(), reduced = useReducedMotion();
   const { height, width: screenWidth } = useWindowDimensions();
   const world = worlds[stop.id]!;
   const path = useMemo(() => [world.start, ...findExplorePath(world, world.start, world.checkpoint)], [world]);
@@ -64,7 +51,6 @@ export function ChapterApproach({ stop, previous, map, landmark, hero, discovery
   const evolving = !discovery && before.id !== after.id, stage = evolving && elapsed<1200 ? before : after;
   const cell = width/world.width, avatar = Math.max(33,Math.min(68,cell*1.9));
   const walking = running && !discovery && !reduced && part < 1;
-  const summary = previous?.learned[t.storyEdition].match(/^.+?[.!?](?=\s|$)/u)?.[0] ?? previous?.learned[t.storyEdition];
   const points = path.map(p => (p.x+0.5)+","+(p.y+0.5)).join(" ");
   const limit = Math.max(205, Math.min(485, height*(screenWidth<750 ? .46 : .52)));
   return <View testID="chapter-approach" style={{gap:9}}>
@@ -78,9 +64,9 @@ export function ChapterApproach({ stop, previous, map, landmark, hero, discovery
           {marks.map((at,i)=><Circle key={i} cx={path[at]!.x+.5} cy={path[at]!.y+.5} r={i+1 === landmark ? .53 : .38}
             stroke="#482819" strokeWidth={.17} fill={i+1<=landmark?"#FFE09C":"#A58765"}/>)}
         </Svg>
-        {summary && !discovery && <View testID="chapter-transition" style={{position:"absolute",top:7,left:9,right:9,alignItems:"center"}}><View style={{direction,maxWidth:550,paddingHorizontal:13,paddingVertical:6,backgroundColor:"#FFF0D5F2",borderColor:"#8A6243",borderWidth:1,borderRadius:13}}>
-          <Copy numberOfLines={3} style={{color:"#392417",fontSize:screenWidth<500?14:17,lineHeight:screenWidth<500?18:23,textAlign:"center"}}>{summary}</Copy>
-          <Copy style={{color:"#75472C",fontSize:12,lineHeight:16,textAlign:"center"}}>{previous?.source}</Copy>
+        {!discovery && <View testID="chapter-transition" style={{position:"absolute",top:7,left:9,right:9,alignItems:"center"}}><View style={{direction,maxWidth:550,paddingHorizontal:13,paddingVertical:6,backgroundColor:"#FFF0D5F2",borderColor:"#8A6243",borderWidth:1,borderRadius:13}}>
+          <Copy numberOfLines={3} style={{color:"#392417",fontSize:screenWidth<500?14:17,lineHeight:screenWidth<500?18:23,textAlign:"center"}}>{line}</Copy>
+          <Copy style={{color:"#75472C",fontSize:12,lineHeight:16,textAlign:"center"}}>{source}</Copy>
         </View></View>}
         <View testID="approach-player" pointerEvents="none" style={{position:"absolute",left:(x+.5)*cell-avatar/2,top:(y+.5)*cell-avatar*1.27,
           transform:[{scaleX:!reduced && to.x<from.x?-1:1}]}}>

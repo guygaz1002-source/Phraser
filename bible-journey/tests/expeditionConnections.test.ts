@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { catalogFor } from "../src/catalogs";
 import { expeditionView } from "../src/expedition";
+import { questionBank } from "../src/expeditionDeck";
 import { activeProfile, newGame, transition } from "../src/game";
 import { visualQuestionsFor } from "../src/round";
 import { tierIds, type Action } from "../src/types";
@@ -12,7 +13,7 @@ const selected = [
   ["life-moses-4", "יהושע", "Joshua"], ["life-moses-9", "נחמיה", "Nehemiah"],
 ] as const;
 
-test("one fifth painting per early map connects to another biblical passage in every band and language", () => {
+test("the saved original timetable retains its six picture-and-passage comparisons across ages and languages", () => {
   const prompts = new Set<string>();
   const answers = new Map<string,number>();
   for (const lang of ["he", "en"] as const) for (const tier of tierIds) {
@@ -22,6 +23,7 @@ test("one fifth painting per early map connects to another biblical passage in e
       { type: "start", categories: ["stories"] }, { type: "expedition-start", seed: 3030 }];
     for (const action of setup) game = transition(game, action, catalog);
     const expedition = activeProfile(game).journeys.noah!.expedition!;
+    expedition.deck = [...questionBank(catalog).legacy];
     const perMap = [0,0,0,0,0,0,0];
     for (let landmark = 0; landmark < 27; landmark++) {
       for (let step = 0; step < 5; step++) {

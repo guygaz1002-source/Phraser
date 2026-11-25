@@ -1,5 +1,5 @@
 import { canExplore, explorePosition, worlds } from "./exploration";
-import { activeProfile, initialExpedition, reduceExpedition, validateExpedition } from "./expedition";
+import { activeProfile, adoptQuestionDeck, initialExpedition, reduceExpedition, validateExpedition } from "./expedition";
 export { activeProfile } from "./expedition";
 import { matches, newPuzzle } from "./puzzleAnswer";
 export { distance, matches, newPuzzle, normalize, spokenPictureAnswer } from "./puzzleAnswer";
@@ -138,7 +138,7 @@ export function transition(
   if (!character || !oldJ || !stop) return game;
   if (action.type === "expedition-start") {
     if (oldJ.expedition || !Number.isSafeInteger(action.seed) || !character.stops[0]?.visualQuestions) return game;
-    const expedition = initialExpedition(action.seed, oldJ, catalog);
+    const expedition = initialExpedition(action.seed, oldJ, catalog, tier);
     return commit({ ...old, journeys: { ...old.journeys, [character.id]: { ...oldJ, expedition } } });
   }
   if ("key" in action) {
@@ -391,7 +391,10 @@ export function restore(raw: string | null, catalog: Character[]): Game {
         (j.walkingFrom !== null && j.walkingFrom !== j.stop - 1)
       )
         throw Error("Invalid journey");
-      if (j.expedition !== undefined) validateExpedition(j.expedition, j, c, catalog);
+      if (j.expedition !== undefined) {
+        validateExpedition(j.expedition, j, c, catalog, id);
+        j.expedition = adoptQuestionDeck(j.expedition, j, catalog, id);
+      }
       if (j.exploring !== undefined && (!c.stops.some(s => s.id === j.exploring) || (j.exploring !== c.stops[j.stop]!.id && j.awards[j.exploring] === undefined))) throw Error("Invalid explored chapter");
       if (j.positions !== undefined) {
         if (!j.positions || typeof j.positions !== "object" || Array.isArray(j.positions)) throw Error("Invalid map positions");

@@ -1,36 +1,18 @@
 import { tiers } from "../theme/tiers";
 import { classifyGuess, newPuzzle } from "./puzzleAnswer";
-import { routePictureQuestion } from "./expeditionConnections";
-import { surpriseQuestion } from "./expeditionBonus";
-import { finaleCard, finaleSceneIds } from "./expeditionFinale";
+import { drawExpeditionDeck, questionBank, validateDeck, randomSequence, MAP_COUNT, LANDMARK_COUNT, LANDMARKS_PER_MAP, QUESTIONS_PER_LANDMARK } from "./expeditionDeck";
+import { curriculumTreasure, surpriseQuestion } from "./expeditionBonus";
 import type { Character, Expedition, ExpeditionItem, Game, Journey, KeyedExpeditionAction, Profile, Stop, TierId } from "./types";
 
-export const MAP_COUNT = 7;
-export const LANDMARKS_PER_MAP = 4;
-export const QUESTIONS_PER_LANDMARK = 5;
+export { MAP_COUNT, LANDMARKS_PER_MAP, QUESTIONS_PER_LANDMARK };
 export const BONUS_TIME_MS = 45_000;
-const TOTAL = MAP_COUNT * LANDMARKS_PER_MAP;
+const TOTAL = LANDMARK_COUNT;
 const STARTING_LIVES = 3;
 // Use the character's first and last landscapes and distinct locations in between.
 const landscapes = [0, 1, 2, 4, 5, 7, 8] as const;
 
 export function activeProfile(game: Game, tier = game.tier ?? "c"): Profile {
   return game.playMode === "duo" ? game.duoProfiles![tier] : game.profiles[tier];
-}
-
-/** Round-robin by educational chapter rank, independent of the chosen companion. */
-function bibleRoute(catalog: Character[]): Stop[] {
-  const heroes = ["noah", "moses", "samson"].map(id => catalog.find(hero => hero.id === id));
-  if (heroes.some(hero => hero?.stops.length !== 9)) throw Error("Missing Bible expedition content");
-  return Array.from({length: 27}, (_, i) => heroes[i % 3]!.stops[Math.floor(i / 3)]!);
-}
-
-function randomSequence(seed: number) {
-  let value = seed | 0;
-  return () => {
-    value = (Math.imul(value, 1664525) + 1013904223) | 0;
-    return (value >>> 0) / 4294967296;
-  };
 }
 
 /** The first one or two shuffled locations hide different treasures. Derive them from the saved seed. */
@@ -68,14 +50,43 @@ function legacyCredit(journey: Journey, stop: Stop | undefined, oldOrdinal: numb
   return Math.min(QUESTIONS_PER_LANDMARK, 1 + (record?.length ?? 0));
 }
 
-export function initialExpedition(seed: number, journey: Journey, catalog: Character[]): Expedition {
-  const route = bibleRoute(catalog);
+// Keep any already visited, credited or purchased puzzle in its original landmark. Only
+// unplayed landmarks participate in the new draw, so loading a save never changes an answer.
+function pinnedLandmarks(journey: Journey, route: Stop[], visitedThrough = -1) {
+  const pinned = new Set<number>();
+  for (let i=0; i<TOTAL; i++) {
+    const stop = route[i];
+    if (i <= visitedThrough || (journey.expedition?.paid[i] ?? 0) > 0 ||
+        (stop && (journey.awards[stop.id] !== undefined || journey.puzzles[stop.id+"/"+stop.puzzles[0]!.id])))
+      pinned.add(i);
+  }
+  return pinned;
+}
+
+function visitedThrough(state: Expedition) {
+  const untouched = state.phase === "travel" && !state.paid[state.landmark] &&
+    !state.progress.image && !state.progress.hint && !state.progress.letter && !state.progress.draft;
+  return state.landmark - (untouched ? 1 : 0);
+}
+
+export function adoptQuestionDeck(state: Expedition, journey: Journey, catalog: Character[], tier: TierId) {
+  if (state.deck && state.curriculumTier === tier) return state;
+  const bank = questionBank(catalog, tier);
+  const pinned = pinnedLandmarks(journey, bank.legacyStops, visitedThrough(state));
+  const deck = drawExpeditionDeck(bank, state.seed, pinned, state.deck ?? bank.legacy);
+  return {...state, curriculumTier:tier, deck,
+    ...(state.phase === "bonus" || state.phase === "discovery" ? {legacyBonusAt:state.landmark} : {})};
+}
+
+export function initialExpedition(seed: number, journey: Journey, catalog: Character[], tier: TierId): Expedition {
+  const bank = questionBank(catalog, tier), route = bank.legacyStops;
+  const deck = drawExpeditionDeck(bank, seed, pinnedLandmarks(journey, route));
   const paid = Array.from({length: TOTAL}, (_, index) => legacyCredit(journey, route[index], Math.floor(index / 3)));
   const landmark = paid.findIndex(count => count < QUESTIONS_PER_LANDMARK);
   return {
-    seed: seed >>> 0, landmark, step: paid[landmark]!, phase: "travel", revision: 0,
+    seed: seed >>> 0, curriculumTier:tier, deck, landmark, step: paid[landmark]!, phase: "travel", revision: 0,
     lives: STARTING_LIVES, turn: 0, scores: [0, 0], inventory: { lamp: 0, seal: 0 },
-    paid, encounters: {}, progress: migratedProgress(journey, route[landmark]), deadline: null, remainingMs: null,
+    paid, encounters: {}, progress: migratedProgress(journey, bank.byId.get(deck[landmark*QUESTIONS_PER_LANDMARK]!)!.stop), deadline: null, remainingMs: null,
   };
 }
 
@@ -87,23 +98,36 @@ export function expeditionView(game: Game, catalog: Character[]) {
   const journey = character && profile.journeys[character.id];
   const state = journey?.expedition;
   if (!state || !character) return undefined;
-  const route = bibleRoute(catalog);
+  const bank = questionBank(catalog, tier);
+  const deck = state.deck ?? bank.legacy;
   const mapIndex = Math.floor(state.landmark / LANDMARKS_PER_MAP);
   const mapStop = character.stops[landscapes[mapIndex]!]!;
-  const finale = state.landmark === TOTAL - 1;
-  const stop = finale ? route.find(s => s.id === finaleSceneIds[state.step])! : route[state.landmark]!;
+  const card = bank.byId.get(deck[state.landmark*QUESTIONS_PER_LANDMARK+state.step]!)!;
+  const stop = card.stop, question = card.question?.(tier);
   const language = /[א-ת]/.test(character.name) ? "he" : "en";
-  const question = finale ? finaleCard(tier, state.step, language) : routePictureQuestion(stop, tier, state.step, language);
   const showingTreasure = state.phase === "discovery" || state.phase === "bonus";
-  const slot = showingTreasure ? encounterSlot(state.seed, state.landmark, journey, route) : undefined;
-  const bonus = slot === undefined ? undefined : surpriseQuestion(mapStop, tier, slot, language);
+  const slot = showingTreasure ? encounterSlot(state.seed, state.landmark, journey, bank.legacyStops) : undefined;
+  const oldTreasure = !state.deck || !state.curriculumTier || state.legacyBonusAt === state.landmark;
+  const treasure = slot === undefined ? undefined : oldTreasure
+    ? {stop:mapStop, question:surpriseQuestion(mapStop, tier, slot, language)}
+    : curriculumTreasure(character, mapIndex, mapStop, tier, slot, language);
+  const bonus = treasure?.question;
   const key = [game.playMode ?? "solo", tier, character.id, state.seed, state.landmark, state.step, state.phase, state.revision].join("/");
+  const completed = new Map<string,Stop>();
+  state.paid.forEach((count,index) => {
+    if (count !== QUESTIONS_PER_LANDMARK) return;
+    for (let step=0; step<count; step++) {
+      const solved = bank.byId.get(deck[index*QUESTIONS_PER_LANDMARK+step]!)!.stop;
+      completed.set(solved.id,solved);
+    }
+  });
   return {
+    cardId: card.id, artStep: card.artStep,
     state, character, journey, stop, puzzle: stop.puzzles[0]!, progress: state.progress, mapStop,
-    previousStop: state.landmark > 0 ? route[state.landmark - 1] : undefined,
+    previousStop: state.landmark > 0 ? bank.byId.get(deck[state.landmark*QUESTIONS_PER_LANDMARK-1]!)!.stop : undefined,
     map: mapIndex + 1, landmark: state.landmark % LANDMARKS_PER_MAP + 1, step: state.step,
-    question, bonus, bonusStop: bonus ? mapStop : undefined, bonusItem: bonus?.item as ExpeditionItem | undefined,
-    completedStops: route.filter((_,index) => state.paid[index] === QUESTIONS_PER_LANDMARK), key, finale,
+    question, bonus, bonusStop: treasure?.stop, bonusItem: bonus?.item as ExpeditionItem | undefined,
+    completedStops:[...completed.values()], key,
   };
 }
 
@@ -111,8 +135,10 @@ function advance(state: Expedition, journey: Journey, catalog: Character[]): Exp
   let index = state.landmark + 1;
   while (index < TOTAL && state.paid[index] === QUESTIONS_PER_LANDMARK) index++;
   if (index >= TOTAL) return { ...state, phase: "finished", deadline: null, remainingMs: null };
+  const bank = questionBank(catalog, state.curriculumTier);
+  const opening = bank.byId.get((state.deck ?? bank.legacy)[index*QUESTIONS_PER_LANDMARK]!)!;
   return { ...state, phase: "travel", landmark: index, step: state.paid[index]!,
-    progress: migratedProgress(journey, bibleRoute(catalog)[index]), deadline: null, remainingMs: null };
+    progress: migratedProgress(journey, opening.stop), deadline: null, remainingMs: null };
 }
 
 function clock(now: number) {
@@ -156,13 +182,13 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
       } else return;
       break;
     case "expedition-draft":
-      if (state.phase !== "question" || state.step !== 0 || view.finale) return;
+      if (state.phase !== "question" || state.step !== 0 || question !== undefined) return;
       if (typeof action.value !== "string") return;
       next.progress = { ...state.progress, draft: action.value.slice(0,160) };
       next.revision = state.revision;
       break;
     case "expedition-buy": {
-      if (state.phase !== "question" || state.step !== 0 || view.finale) return;
+      if (state.phase !== "question" || state.step !== 0 || question !== undefined) return;
       const clue = action.clue;
       if (clue !== "image" && clue !== "hint" && clue !== "letter") return;
       if (clue === "image" ? state.progress.image >= 3 : state.progress[clue]) return;
@@ -209,11 +235,12 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
       const newlyEarned = paid <= state.step;
       passTurn(newlyEarned);
       if (newlyEarned) {
-        tokens += state.step === 0 && !view.finale ? 5 - state.progress.image : 1;
+        const curriculumOpener = state.step === 0 && view.cardId.startsWith("age/");
+        tokens += !question || curriculumOpener ? 5 - state.progress.image : 1;
         next.paid = [...state.paid]; next.paid[state.landmark] = state.step + 1;
       }
       if (state.step < QUESTIONS_PER_LANDMARK - 1) next.step++;
-      else if (encounterSlot(state.seed, state.landmark, journey, bibleRoute(catalog)) !== undefined && !state.encounters[state.landmark]) next.phase = "discovery";
+      else if (encounterSlot(state.seed, state.landmark, journey, questionBank(catalog).legacyStops) !== undefined && !state.encounters[state.landmark]) next.phase = "discovery";
       else next = advance(next, journey, catalog);
       break;
     }
@@ -242,8 +269,9 @@ function validChoice(value: unknown, length: number): value is number {
   return typeof value === "number" && Number.isInteger(value) && value >= 0 && value < length;
 }
 
-export function validateExpedition(state: Expedition, journey: Journey, character: Character, catalog: Character[]) {
-  const route = bibleRoute(catalog);
+export function validateExpedition(state: Expedition, journey: Journey, character: Character, catalog: Character[], tier: TierId) {
+  if (state?.curriculumTier !== undefined && state.curriculumTier !== tier) throw Error("Incorrect curriculum tier");
+  const bank = questionBank(catalog, state?.curriculumTier), route = bank.legacyStops;
   const integer = (n: unknown, min = 0, max = Number.MAX_SAFE_INTEGER) =>
     typeof n === "number" && Number.isSafeInteger(n) && n >= min && n <= max;
   if (!state || !character.stops[0]?.visualQuestions || !integer(state.seed,0,0xffffffff) ||
@@ -258,6 +286,9 @@ export function validateExpedition(state: Expedition, journey: Journey, characte
   if (!p || !integer(p.image,0,3) || typeof p.draft !== "string" ||
     [p.hint,p.letter,p.revealed,p.resolved].some(flag => typeof flag !== "boolean") || !integer(p.earned,0,5))
     throw Error("Invalid expedition clue");
+  if (state.legacyBonusAt !== undefined && !integer(state.legacyBonusAt,0,state.landmark))
+    throw Error("Invalid saved treasure");
+  if (state.deck !== undefined) validateDeck(state.deck, bank, pinnedLandmarks(journey, route, visitedThrough(state)));
   for (const [key,outcome] of Object.entries(state.encounters)) {
     const i = Number(key);
     if (!integer(i,0,TOTAL-1) || String(i) !== key || encounterSlot(state.seed,i,journey,route) === undefined ||

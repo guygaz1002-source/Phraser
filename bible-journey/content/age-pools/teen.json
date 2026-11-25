@@ -1,0 +1,1475 @@
+{
+  "sources": {
+    "7": "https://edu.929.org.il/תכנית-הלימודים/חטב/",
+    "8": "https://edu.929.org.il/תכנית-הלימודים/חטב/",
+    "8esther": "https://edu.929.org.il/תכנית-הלימודים/חטב/",
+    "9": "https://edu.929.org.il/תכנית-הלימודים/חטב/",
+    "9e": "https://edu.929.org.il/תכנית-הלימודים/חטב/",
+    "torah": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "gen2": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "gen3": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "ex4": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "num5": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "judges": "https://edu.929.org.il/תכנית-הלימודים/יסודי/",
+    "11sea": "https://edu.929.org.il/class/על-היראה-ועל-הראייה/",
+    "11sinai": "https://edu.929.org.il/unit/מעמד-הר-סיני-ומתן-תורה/",
+    "11joseph": "https://edu.929.org.il/unit/חלומות-יוסף-2/"
+  },
+  "groups": [
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 0,
+      "ids": [
+        "life-noah-1/0",
+        "life-noah-1/2",
+        "life-noah-1/3",
+        "life-noah-1/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 0,
+      "ids": [
+        "life-moses-1/0",
+        "life-moses-1/1",
+        "life-moses-1/3",
+        "life-moses-1/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 0,
+      "ids": [
+        "life-samson-1/0",
+        "life-samson-1/2",
+        "life-samson-1/3",
+        "life-samson-1/4",
+        "connection/sarah-message"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 1,
+      "ids": [
+        "life-noah-6/0",
+        "life-noah-6/3",
+        "gen-babel/0",
+        "gen-babel/1",
+        "gen-babel/2",
+        "gen-babel/3",
+        "gen-babel/4"
+      ]
+    },
+    {
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "rank": 1,
+      "ids": [
+        "life-noah-6/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 1,
+      "ids": [
+        "life-moses-6/0",
+        "life-moses-6/1",
+        "life-moses-6/2",
+        "life-moses-6/3"
+      ]
+    },
+    {
+      "source": "torah",
+      "grade": "חזרה על חומר מכיתות ב׳–ה׳",
+      "rank": 1,
+      "ids": [
+        "life-moses-6/4",
+        "connection/rachel-well"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 1,
+      "ids": [
+        "life-samson-6/0",
+        "life-samson-6/1",
+        "life-samson-6/2",
+        "life-samson-6/3"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 2,
+      "ids": [
+        "life-noah-2/0",
+        "life-noah-2/1",
+        "life-noah-2/2",
+        "life-noah-2/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 2,
+      "ids": [
+        "life-moses-2/0",
+        "life-moses-2/1",
+        "life-moses-2/2",
+        "life-moses-2/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 2,
+      "ids": [
+        "life-samson-2/0",
+        "life-samson-2/1",
+        "life-samson-2/2",
+        "life-samson-2/3",
+        "life-samson-2/4"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 3,
+      "ids": [
+        "life-noah-3/0",
+        "life-noah-3/1",
+        "life-noah-3/2",
+        "life-noah-3/4",
+        "gen-abram/0",
+        "gen-abram/1",
+        "gen-abram/2",
+        "gen-abram/3",
+        "gen-abram/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 3,
+      "ids": [
+        "life-moses-7/0",
+        "life-moses-7/1",
+        "life-moses-7/2",
+        "life-moses-7/3"
+      ]
+    },
+    {
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "rank": 3,
+      "ids": [
+        "life-moses-7/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 3,
+      "ids": [
+        "life-samson-7/0",
+        "life-samson-7/1",
+        "life-samson-7/2",
+        "life-samson-7/3",
+        "life-samson-7/4",
+        "connection/rahab-doorway",
+        "connection/joshua-sandal"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 4,
+      "ids": [
+        "life-noah-7/0",
+        "life-noah-7/1",
+        "life-noah-7/2",
+        "life-noah-7/3",
+        "life-noah-7/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 4,
+      "ids": [
+        "life-moses-3/0",
+        "life-moses-3/1",
+        "life-moses-3/2",
+        "life-moses-3/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 4,
+      "ids": [
+        "life-samson-8/1",
+        "life-samson-8/2",
+        "life-samson-8/3",
+        "life-samson-8/4"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 5,
+      "ids": [
+        "life-noah-8/0",
+        "life-noah-8/1",
+        "life-noah-8/2",
+        "life-noah-8/3"
+      ]
+    },
+    {
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "rank": 5,
+      "ids": [
+        "life-noah-8/4"
+      ]
+    },
+    {
+      "source": "11sea",
+      "grade": "י״א – שמות י״ד",
+      "rank": 5,
+      "ids": [
+        "life-moses-4/0",
+        "life-moses-4/2",
+        "life-moses-4/3"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 5,
+      "ids": [
+        "life-moses-4/4",
+        "life-samson-3/0",
+        "life-samson-3/1",
+        "life-samson-3/2",
+        "life-samson-3/3",
+        "life-samson-3/4",
+        "connection/gideon-dew",
+        "connection/hagar-water"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 6,
+      "ids": [
+        "life-noah-4/0",
+        "life-noah-4/1",
+        "life-noah-4/2",
+        "life-noah-4/3",
+        "life-noah-4/4"
+      ]
+    },
+    {
+      "source": "ex4",
+      "grade": "חזרה מכיתה ד׳ – שמות",
+      "rank": 6,
+      "ids": [
+        "life-moses-8/0",
+        "life-moses-8/1",
+        "life-moses-8/2",
+        "life-moses-8/3",
+        "life-moses-8/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 6,
+      "ids": [
+        "life-samson-4/0",
+        "life-samson-4/1",
+        "life-samson-4/2",
+        "life-samson-4/3",
+        "life-samson-4/4"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 7,
+      "ids": [
+        "life-noah-9/0",
+        "life-noah-9/1",
+        "life-noah-9/2",
+        "life-noah-9/3",
+        "life-noah-9/4"
+      ]
+    },
+    {
+      "source": "11sinai",
+      "grade": "י״א – שמות י״ט–כ׳",
+      "rank": 7,
+      "ids": [
+        "life-moses-9/0",
+        "life-moses-9/2",
+        "life-moses-9/3"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 7,
+      "ids": [
+        "life-samson-9/0",
+        "life-samson-9/1",
+        "life-samson-9/2",
+        "life-samson-9/4"
+      ]
+    },
+    {
+      "source": "gen2",
+      "grade": "חזרה מכיתה ב׳ – בראשית ו׳–י״ט",
+      "rank": 8,
+      "ids": [
+        "life-noah-5/0",
+        "life-noah-5/1",
+        "life-noah-5/2",
+        "life-noah-5/3",
+        "life-noah-5/4"
+      ]
+    },
+    {
+      "source": "num5",
+      "grade": "חזרה מכיתה ה׳ – מינוי יהושע ופרידת משה",
+      "rank": 8,
+      "ids": [
+        "life-moses-5/0",
+        "life-moses-5/1",
+        "life-moses-5/2",
+        "life-moses-5/3",
+        "life-moses-5/4"
+      ]
+    },
+    {
+      "source": "judges",
+      "grade": "חזרה על יהושע ושופטים מכיתה ו׳",
+      "rank": 8,
+      "ids": [
+        "life-samson-5/0",
+        "life-samson-5/1",
+        "life-samson-5/2",
+        "life-samson-5/3",
+        "life-samson-5/4",
+        "finale/2",
+        "finale/3",
+        "connection/deborah-barak",
+        "connection/jordan-memory"
+      ]
+    },
+    {
+      "source": "gen3",
+      "grade": "חזרה מכיתה ג׳ – יעקב ויוסף",
+      "rank": 5,
+      "ids": [
+        "gen-jacob/0",
+        "gen-jacob/1",
+        "gen-jacob/2",
+        "gen-jacob/3",
+        "gen-jacob/4"
+      ]
+    },
+    {
+      "source": "11joseph",
+      "grade": "י״א – בראשית ל״ז",
+      "rank": 7,
+      "ids": [
+        "gen-joseph/0",
+        "gen-joseph/1",
+        "gen-joseph/2",
+        "gen-joseph/3",
+        "gen-joseph/4"
+      ]
+    },
+    {
+      "source": "torah",
+      "grade": "חזרה על חומר מכיתות ב׳–ה׳",
+      "rank": 8,
+      "ids": [
+        "finale/0"
+      ]
+    },
+    {
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "rank": 8,
+      "ids": [
+        "finale/1",
+        "finale/4"
+      ]
+    },
+    {
+      "source": "torah",
+      "grade": "חזרה על חומר מכיתות ב׳–ה׳",
+      "rank": 0,
+      "ids": [
+        "connection/midwives-baby"
+      ]
+    },
+    {
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "rank": 1,
+      "ids": [
+        "connection/david-lion"
+      ]
+    },
+    {
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "rank": 4,
+      "ids": [
+        "connection/elijah-raincloud"
+      ]
+    },
+    {
+      "source": "8esther",
+      "grade": "ח׳ – מגילת אסתר, בקיאות",
+      "rank": 4,
+      "ids": [
+        "connection/esther-scepter"
+      ]
+    },
+    {
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "rank": 5,
+      "ids": [
+        "connection/ruth-road"
+      ]
+    },
+    {
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "rank": 7,
+      "ids": [
+        "connection/elijah-ravens",
+        "connection/elisha-loaves"
+      ]
+    },
+    {
+      "source": "torah",
+      "grade": "חזרה על חומר מכיתות ב׳–ה׳",
+      "rank": 7,
+      "ids": [
+        "connection/joseph-grain"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "shiloh-voice",
+      "stopId": "life-moses-2",
+      "artStep": 2,
+      "rank": 0,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שמות ג׳, א׳–ו׳; שמואל א׳ ג׳, א׳–י׳",
+        "en": "Exodus 3:1–6 and 1 Samuel 3:1–10"
+      },
+      "he": {
+        "prompt": "משה עוצר ליד הסנה וקוראים לו בשמו. גם שמואל שומע את שמו בלילה, אבל רץ לעלי. מה הוא עדיין צריך לגלות?",
+        "options": [
+          "מי באמת קורא לו",
+          "מדוע עלי עזב את שילה",
+          "כיצד מציתים אש במנורה"
+        ],
+        "answer": 0,
+        "explanation": "בפעמים הראשונות שמואל חושב שעלי קורא לו. עלי מבין את פשר הקריאה ומלמד אותו איך לענות."
+      },
+      "en": {
+        "prompt": "Moses hears his name at the bush. Samuel also hears his name at night but runs to Eli. What has Samuel yet to discover?",
+        "options": [
+          "Who is actually calling him",
+          "Why Eli has left Shiloh",
+          "How to light the lamp"
+        ],
+        "answer": 0,
+        "explanation": "At first Samuel thinks Eli is calling him. Eli recognizes what is happening and tells him how to answer."
+      },
+      "opening": true
+    },
+    {
+      "id": "hannah-lips",
+      "stopId": "life-samson-5",
+      "artStep": 2,
+      "rank": 0,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שופטים ט״ז, כ״ח; שמואל א׳ א׳, י״ב–י״ז",
+        "en": "Judges 16:28 and 1 Samuel 1:12–17"
+      },
+      "he": {
+        "prompt": "אפשר לראות את תנוחת התפילה של שמשון. עלי ראה את שפתיה של חנה נעות בלי לשמוע קול וחשב שהיא שיכורה. מה הבהירה לו חנה?",
+        "options": [
+          "היא מבקשת להיות כוהנת",
+          "היא מתפללת מתוך מצוקה",
+          "היא שרה לפני הקהל"
+        ],
+        "answer": 1,
+        "explanation": "עלי פירש תנועה שראה. דבריה של חנה גילו לו איזו חוויה מסתתרת מאחוריה."
+      },
+      "en": {
+        "prompt": "Samson’s posture suggests prayer. Eli saw Hannah’s lips moving, heard no voice and thought she was drunk. What did Hannah explain?",
+        "options": [
+          "She was seeking to become a priest",
+          "She was praying in distress",
+          "She was singing to an audience"
+        ],
+        "answer": 1,
+        "explanation": "Eli interpreted a movement he saw. Hannah’s own words supplied the reason for it."
+      }
+    },
+    {
+      "id": "david-armour",
+      "stopId": "life-samson-6",
+      "artStep": 3,
+      "rank": 0,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שופטים י״ד, ה׳–ו׳; שמואל א׳ י״ז, ל״ח–מ׳",
+        "en": "Judges 14:5–6 and 1 Samuel 17:38–40"
+      },
+      "he": {
+        "prompt": "שמשון פוגש אריה בידיים ריקות. דוד מקבל משאול שריון לפני פגישתו עם גלית, ואז מסיר אותו. איזה הסבר נותן דוד?",
+        "options": [
+          "שאול אסר עליו להילחם בו",
+          "השריון כבר נלקח מגלית",
+          "הוא אינו רגיל לנוע בשריון"
+        ],
+        "answer": 2,
+        "explanation": "דוד מנסה ללכת בציוד שקיבל. הניסיון עוזר לו להחליט לבחור בכלים שהוא מכיר."
+      },
+      "en": {
+        "prompt": "Samson meets the lion empty-handed. Before facing Goliath, David puts on Saul’s armour, then removes it. What reason does David give?",
+        "options": [
+          "Saul has forbidden him to fight in it",
+          "The armour was taken from Goliath",
+          "He is unused to moving in it"
+        ],
+        "answer": 2,
+        "explanation": "David tries walking in the equipment. The trial helps him decide to use familiar tools."
+      }
+    },
+    {
+      "id": "saul-among-baggage",
+      "stopId": "life-moses-5",
+      "artStep": 3,
+      "rank": 1,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "במדבר כ״ז, י״ט–כ״ג; שמואל א׳ י׳, כ׳–כ״ד",
+        "en": "Numbers 27:19–23 and 1 Samuel 10:20–24"
+      },
+      "he": {
+        "prompt": "יהושע עומד לפני העדה בשעת המינוי. כששאול נבחר בגורל במצפה, מחפשים אותו בין הכלים. מה מתעכב בעקבות היעדרו?",
+        "options": [
+          "בקשת העם הראשונה למלך",
+          "הצגת המלך הנבחר לעיני העם",
+          "הבחירה בשבט שאליו הוא שייך"
+        ],
+        "answer": 1,
+        "explanation": "הגורל כבר הצביע על שאול. רק אחרי שמוציאים אותו ממחבואו יכול העם לראותו."
+      },
+      "en": {
+        "prompt": "Joshua stands before the community at his appointment. At Mizpah Saul is found hiding among the baggage after the lot falls on him. What does his absence delay?",
+        "options": [
+          "The people’s first request for a king",
+          "Showing the chosen king to the people",
+          "Choosing which tribe he belongs to"
+        ],
+        "answer": 1,
+        "explanation": "The lot has already identified Saul. The people see him for themselves only when he is brought out."
+      }
+    },
+    {
+      "id": "samuel-king-takes",
+      "stopId": "life-moses-7",
+      "artStep": 4,
+      "rank": 2,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שמות ה׳, ו׳–ט׳; שמואל א׳ ח׳, י׳–י״ח",
+        "en": "Exodus 5:6–9 and 1 Samuel 8:10–18"
+      },
+      "he": {
+        "prompt": "פרעה מטיל עבודת לבנים. כשישראל מבקשים מלך משלהם, שמואל מתאר מלך שייקח בנים, בנות ושדות. על איזה מחיר של מלוכה הוא מצביע?",
+        "options": [
+          "משאבי המשפחות עלולים לעבור לשירות המלך",
+          "כל משפחה תצטרך לבחור לעצמה מלך",
+          "המלך יצטרך ללוות כלי עבודה מכל משפחה"
+        ],
+        "answer": 0,
+        "explanation": "שמואל מונה תפקידי שירות ורכוש שיגיעו לידי המלך. האזהרה מופנית לעם שעומד לבקש את השלטון הזה."
+      },
+      "en": {
+        "prompt": "Pharaoh demands labour. When Israel asks for its own king, Samuel describes a king taking sons, daughters and fields. What cost of monarchy does he identify?",
+        "options": [
+          "Families may lose control of labour and property to the king",
+          "Each household will have to elect its own king",
+          "The king will have to borrow every tool from a household"
+        ],
+        "answer": 0,
+        "explanation": "Samuel lists people pressed into service and property taken. He warns the very people asking to be ruled."
+      }
+    },
+    {
+      "id": "oil-and-hands",
+      "stopId": "life-moses-5",
+      "artStep": 1,
+      "rank": 1,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "במדבר כ״ז, י״ח–כ״ג; שמואל א׳ ט״ז, ו׳–י״ג",
+        "en": "Numbers 27:18–23 and 1 Samuel 16:6–13"
+      },
+      "he": {
+        "prompt": "משה מניח יד על יהושע. בבית ישי שמואל נושא קרן שמן, אבל כשאליאב עומד לפניו הוא מקבל תיקון. מה הטעה אותו?",
+        "options": [
+          "מראהו וקומתו של האח הבכור",
+          "היעדר שמן בקרן שהביא",
+          "העובדה שאליאב נשאר עם הצאן"
+        ],
+        "answer": 0,
+        "explanation": "שמואל רואה באליאב מועמד מתאים. הכתוב מציג פער בין מה שאדם רואה לבין הבחירה בדוד."
+      },
+      "en": {
+        "prompt": "Moses lays a hand on Joshua. Samuel brings a horn of oil to Jesse’s house but is corrected when he sees Eliab. What has misled him?",
+        "options": [
+          "The oldest brother’s appearance and height",
+          "A lack of oil in the horn",
+          "The fact that Eliab stayed with the sheep"
+        ],
+        "answer": 0,
+        "explanation": "Samuel finds Eliab an obvious candidate. The account sets what a person sees against the choice of David."
+      }
+    },
+    {
+      "id": "nathan-ewe",
+      "stopId": "life-moses-6",
+      "artStep": 3,
+      "rank": 2,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שמות ב׳, ט״ז–י״ט; שמואל ב׳ י״ב, א׳–ז׳",
+        "en": "Exodus 2:16–19 and 2 Samuel 12:1–7"
+      },
+      "he": {
+        "prompt": "ליד הבאר מטפלים בעדר ממשי. במשל נתן, כבשה יחידה גדלה בביתו של עני ״כבת״. מדוע חשוב שדווקא העשיר מצויד בעדרים?",
+        "options": [
+          "רק מי שבבעלותו עדר רשאי לארח אורח",
+          "העני לווה את הכבשה מן העשיר",
+          "הוא יכול לתת משלו ובכל זאת לוקח מן העני"
+        ],
+        "answer": 2,
+        "explanation": "ריבוי המקנה של העשיר מחדד את העוול שבנטילת כבשתו היחידה של אדם אחר."
+      },
+      "en": {
+        "prompt": "The flock at the well needs real care. In Nathan’s parable a poor man’s one lamb grows up like a daughter. Why give the rich man flocks of his own?",
+        "options": [
+          "Only a flock owner is allowed to entertain a guest",
+          "The poor man borrowed the lamb from him",
+          "He has plenty to offer yet takes the poor man’s lamb"
+        ],
+        "answer": 2,
+        "explanation": "The contrast in possessions makes the rich man’s decision to take the single lamb particularly unjust."
+      }
+    },
+    {
+      "id": "david-speaks-to-king",
+      "stopId": "life-moses-7",
+      "artStep": 2,
+      "rank": 1,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שמות ה׳, א׳–ב׳; שמואל א׳ י״ז, ל״ב–ל״ז",
+        "en": "Exodus 5:1–2 and 1 Samuel 17:32–37"
+      },
+      "he": {
+        "prompt": "כאן עומדים דוברים לפני מלך. כאשר דוד מציע לשאול להילחם בגלית, שאול מזכיר את נעוריו. מה דוד מביא בתשובה כהוכחה ליכולתו?",
+        "options": [
+          "מינוי שכבר קיבל למפקד צבא",
+          "עדות של אחיו על קרב עם גלית",
+          "ניסיון קודם בהצלת הצאן"
+        ],
+        "answer": 2,
+        "explanation": "דוד מספר מה אירע כשהגן על הצאן. כך הוא משיב לספק של שאול בעזרת מקרה קודם."
+      },
+      "en": {
+        "prompt": "The picture shows petitioners before a king. When David offers to fight Goliath, Saul points to his youth. What evidence does David offer?",
+        "options": [
+          "His appointment as an army commander",
+          "His brothers’ account of a previous duel with Goliath",
+          "Past experience defending the flock"
+        ],
+        "answer": 2,
+        "explanation": "David recounts protecting the flock. He answers Saul’s doubts by pointing to a previous encounter."
+      }
+    },
+    {
+      "id": "solomon-hearing",
+      "stopId": "gen-jacob",
+      "artStep": 4,
+      "rank": 2,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "בראשית כ״ח, י׳–י״ז; מלכים א׳ ג׳, ה׳–י״ב",
+        "en": "Genesis 28:10–17 and 1 Kings 3:5–12"
+      },
+      "he": {
+        "prompt": "יעקב חולם על סולם בדרך לחרן. בחלום בגבעון שלמה מבקש ״לב שומע״. לאיזו משימה של מלך הוא קושר את בקשתו?",
+        "options": [
+          "לחשב את הוצאות בניית הארמון",
+          "לשפוט את העם ולהבחין בין טוב לרע",
+          "לזכור כל פרט בחלומותיו"
+        ],
+        "answer": 1,
+        "explanation": "שלמה מתאר עם גדול שעליו לשפוט. ההקשר מעניק למילה ״שומע״ משמעות של הבנה ושיקול דעת."
+      },
+      "en": {
+        "prompt": "Jacob dreams of a ladder on the road. In his dream at Gibeon Solomon asks for a listening heart. Which royal task does he name?",
+        "options": [
+          "Calculating the cost of his palace",
+          "Judging the people and discerning good from evil",
+          "Remembering each detail of his dreams"
+        ],
+        "answer": 1,
+        "explanation": "Solomon speaks of the great people he must judge. Listening in this request involves understanding and judgment."
+      },
+      "opening": true
+    },
+    {
+      "id": "rehoboam-advice",
+      "stopId": "life-moses-7",
+      "artStep": 3,
+      "rank": 3,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "שמות ה׳, ו׳–ט׳; מלכים א׳ י״ב, ג׳–י״ד",
+        "en": "Exodus 5:6–9 and 1 Kings 12:3–14"
+      },
+      "he": {
+        "prompt": "בני ישראל פונים אל רחבעם בבקשה להקל את עבודתם. איזה משפט היה מקרב את תשובתו לעצת הזקנים?",
+        "options": [
+          "איענה לבקשתכם ואדבר אליכם בטוב",
+          "אכביד עליכם יותר מאבי",
+          "אדחה אתכם עד שתבחרו מלך אחר"
+        ],
+        "answer": 0,
+        "explanation": "הזקנים המליצו על שירות העם ודיבור טוב. תשובת ההכבדה שנתן רחבעם בפועל הלכה בכיוון ההפוך."
+      },
+      "en": {
+        "prompt": "Israel asks Rehoboam to ease its labour. Which reply would follow the elders’ advice?",
+        "options": [
+          "I will serve you and answer you kindly",
+          "I will make the burden heavier than my father did",
+          "I will postpone answering until you choose another king"
+        ],
+        "answer": 0,
+        "explanation": "The elders urged service and good words. Rehoboam actually answered with a threat of harsher labour."
+      }
+    },
+    {
+      "id": "naboth-vineyard",
+      "stopId": "life-samson-6",
+      "artStep": 1,
+      "rank": 3,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "שופטים י״ד, ה׳; מלכים א׳ כ״א, א׳–ד׳",
+        "en": "Judges 14:5 and 1 Kings 21:1–4"
+      },
+      "he": {
+        "prompt": "הכרם כאן הוא מקום המפגש עם האריה. לנבות מוצע כרם אחר במקום כרמו. מה עומד מאחורי סירובו גם לעסקת החלפה?",
+        "options": [
+          "הבטחתו למכור קודם לאיזבל",
+          "הקשר לנחלת אבותיו",
+          "העדפתו לקבל תשלום בכסף דווקא"
+        ],
+        "answer": 1,
+        "explanation": "נבות מתאר את כרמו כנחלת אבות. כרם אחר עשוי להחליף רכוש, אך אינו מעניק את אותה נחלה משפחתית."
+      },
+      "en": {
+        "prompt": "The vineyard is the setting for Samson’s encounter. Naboth is offered a different vineyard in exchange for his. Why does he still refuse?",
+        "options": [
+          "He has promised to sell to Jezebel first",
+          "His land is his ancestral inheritance",
+          "He insists on payment in silver instead"
+        ],
+        "answer": 1,
+        "explanation": "Naboth names his ancestral inheritance. An exchange can replace property without replacing that particular family holding."
+      }
+    },
+    {
+      "id": "elisha-vessels",
+      "stopId": "life-moses-8",
+      "artStep": 1,
+      "rank": 3,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "שמות ט״ז, ט״ז–י״ח; מלכים ב׳ ד׳, א׳–ז׳",
+        "en": "Exodus 16:16–18 and 2 Kings 4:1–7"
+      },
+      "he": {
+        "prompt": "הכלי להכנת ארוחה מזכיר את כלי השמן של אלמנת בן הנביאים. היא שואלת כלים משכנותיה. מה מפסיק בסיפור את זרימת השמן?",
+        "options": [
+          "הנושה כבר שילם את החוב",
+          "האלמנה יוצאת לקנות שמן נוסף",
+          "אין עוד כלי ריק למלא"
+        ],
+        "answer": 2,
+        "explanation": "כשבנה אומר שאין עוד כלי, השמן נעצר. רק אחר כך אלישע מורה לה למכור אותו ולשלם את החוב."
+      },
+      "en": {
+        "prompt": "A food bowl recalls the vessels in the story of the prophet’s widow. She borrows empty containers from neighbours. What brings the flow of oil to a stop?",
+        "options": [
+          "The creditor has already paid the debt",
+          "The widow goes out to buy more oil",
+          "There is no empty vessel left to fill"
+        ],
+        "answer": 2,
+        "explanation": "When her son reports that there are no vessels left, the oil stops. Elisha then tells her to sell it and pay the debt."
+      }
+    },
+    {
+      "id": "naaman-jordan",
+      "stopId": "life-moses-4",
+      "artStep": 2,
+      "rank": 4,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב; מלכים ב׳ ה׳, ט׳–י״ד",
+        "en": "Exodus 14:21–22 and 2 Kings 5:9–14"
+      },
+      "he": {
+        "prompt": "העם עובר בים. אצל נעמן אלישע שולח הוראה לטבול בנהר. מה משכנע את נעמן לנסות את המעשה שכעס עליו?",
+        "options": [
+          "המלך מציע לו פרס על הטבילה",
+          "עבדיו מזכירים שהיה מוכן לעשות דבר קשה יותר",
+          "אלישע מחליף את הירדן בנהר אחר"
+        ],
+        "answer": 1,
+        "explanation": "העבדים פונים אל שיקול דעתו. דווקא פשטות ההוראה חדלה להיות סיבה לדחות אותה."
+      },
+      "en": {
+        "prompt": "Israel crosses the sea. Elisha sends Naaman instructions to wash in a river. What persuades the angry visitor to try it?",
+        "options": [
+          "The king offers a reward for washing",
+          "His servants point out that he would have attempted a harder task",
+          "Elisha changes the chosen river"
+        ],
+        "answer": 1,
+        "explanation": "The servants appeal to his judgment. The simplicity of the instruction no longer seems a reason to reject it."
+      }
+    },
+    {
+      "id": "ruth-field",
+      "stopId": "gen-joseph",
+      "artStep": 1,
+      "rank": 3,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "בראשית ל״ז, ז׳; רות ב׳, ב׳–י״ז",
+        "en": "Genesis 37:7 and Ruth 2:2–17"
+      },
+      "he": {
+        "prompt": "אלומות מופיעות בחלום יוסף. בשדה של בועז רות מלקטת אחרי הקוצרים. מה מוסיפה בקשת בועז שישמטו בעבורה שיבולים?",
+        "options": [
+          "הוא מבקש שתפסיק ללקט ותקבל שכר קבוע",
+          "הוא מאפשר לה לאסוף יותר בעבודתה",
+          "הוא מצרף אותה לבעלי השדה"
+        ],
+        "answer": 1,
+        "explanation": "בועז מנחה את עובדיו להשאיר לרות שיבולים נגישות. היא עדיין מלקטת בעצמה."
+      },
+      "en": {
+        "prompt": "Sheaves appear in Joseph’s dream. Ruth gleans behind the reapers in Boaz’s field. What changes when he asks them to pull out stalks for her?",
+        "options": [
+          "She stops gleaning and earns a fixed wage",
+          "She can gather more through her own work",
+          "She becomes one of the field’s owners"
+        ],
+        "answer": 1,
+        "explanation": "Boaz instructs the workers to leave accessible grain. Ruth still does the gleaning herself."
+      }
+    },
+    {
+      "id": "elijah-small-cloud",
+      "stopId": "life-noah-5",
+      "artStep": 2,
+      "rank": 3,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "בראשית ט׳, י״ג–ט״ז; מלכים א׳ י״ח, מ״א–מ״ה",
+        "en": "Genesis 9:13–16 and 1 Kings 18:41–45"
+      },
+      "he": {
+        "prompt": "הקשת שבענן היא אות לברית. במעשה אליהו ענן קטן עולה מן הים, ואליהו שולח את אחאב לצאת במרכבתו. מה הענן מסמן שם?",
+        "options": [
+          "ברית חדשה שכרת אחאב עם הים",
+          "עדות שהגשם כבר פסק",
+          "גשם מתקרב שעלול לעכב את הדרך"
+        ],
+        "answer": 2,
+        "explanation": "הנער מבחין בענן הקטן לפני שהשמים מתקדרים. אליהו מפרש אותו כסימן המצריך פעולה מיידית."
+      },
+      "en": {
+        "prompt": "The rainbow in a cloud marks a covenant. When a tiny cloud rises from the sea, Elijah sends Ahab to ride away. What does that cloud signal?",
+        "options": [
+          "A new covenant Ahab has made with the sea",
+          "Proof that the rain has stopped",
+          "Approaching rain that could hinder travel"
+        ],
+        "answer": 2,
+        "explanation": "The servant spots the cloud before the sky grows dark. Elijah reads it as a reason to act immediately."
+      }
+    },
+    {
+      "id": "jonah-sleep",
+      "stopId": "gen-jacob",
+      "artStep": 1,
+      "rank": 3,
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "reference": {
+        "he": "בראשית כ״ח, י׳–י״ב; יונה א׳, ד׳–ו׳",
+        "en": "Genesis 28:10–12 and Jonah 1:4–6"
+      },
+      "he": {
+        "prompt": "הנוסע באיור עוצר לישון בלילה. בספר יונה, המלחים מטילים כלים לים בשעה שיונה ישן בירכתי הספינה. מה הניגוד הזה מדגיש?",
+        "options": [
+          "המלחים פועלים מול הסכנה בטרם יונה מגיב",
+          "יונה הורה למלחים להשמיד את המטען",
+          "המלחים ישנים מפני שיונה אחראי לספינה"
+        ],
+        "answer": 0,
+        "explanation": "המספר עובר ממעשי המלחים אל הנביא הישן. רב החובל צריך לגשת אליו ולעורר אותו."
+      },
+      "en": {
+        "prompt": "The traveller in the picture stops to sleep at night. In Jonah, sailors throw cargo overboard while Jonah sleeps below. What does the contrast bring out?",
+        "options": [
+          "The sailors act on the danger before Jonah responds",
+          "Jonah ordered the sailors to destroy their cargo",
+          "The sailors can sleep because Jonah controls the vessel"
+        ],
+        "answer": 0,
+        "explanation": "The narrator moves from the sailors’ actions to the sleeping prophet. The captain has to go and wake him."
+      },
+      "opening": true
+    },
+    {
+      "id": "jonah-turn",
+      "stopId": "life-noah-3",
+      "artStep": 3,
+      "rank": 4,
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "reference": {
+        "he": "בראשית ז׳, י״ז–י״ט; יונה ג׳, ה׳–י׳",
+        "en": "Genesis 7:17–19 and Jonah 3:5–10"
+      },
+      "he": {
+        "prompt": "בציור המבול כבר מתרחש. בנינוה תושבים לובשים שק בעקבות אזהרת יונה. מה מדגיש המספר שאלוהים ראה לפני ששינה את הגזרה?",
+        "options": [
+          "רק את השק שלבש המלך",
+          "את הגשמים שכבר מילאו את העיר",
+          "את השינוי במעשיהם ואת עזיבת דרכם הרעה"
+        ],
+        "answer": 2,
+        "explanation": "הפסוק המסכם מדבר על מעשי התושבים. תיאור הצום והלבוש קודם לו, אך ההנמקה מציינת שינוי התנהגות."
+      },
+      "en": {
+        "prompt": "The pictured flood is already happening. In Nineveh people put on sackcloth after Jonah’s warning. What does the narrator say God saw before relenting?",
+        "options": [
+          "Only the sackcloth worn by the king",
+          "The rain already filling the city",
+          "Their actions and their turning from evil ways"
+        ],
+        "answer": 2,
+        "explanation": "The closing verse specifies their deeds. Fasting and dress have been described, but the reason given is the change in conduct."
+      }
+    },
+    {
+      "id": "jonah-animals",
+      "stopId": "life-noah-2",
+      "artStep": 3,
+      "rank": 5,
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "reference": {
+        "he": "בראשית ז׳, א׳–ט׳; יונה ד׳, י׳–י״א",
+        "en": "Genesis 7:1–9 and Jonah 4:10–11"
+      },
+      "he": {
+        "prompt": "חיות נכנסות לתיבת נח. בשאלה החותמת את ספר יונה מוזכרת גם הבהמה הרבה בנינוה. מה מוסיפה האזכרה לטיעון על רחמים?",
+        "options": [
+          "הבהמות מייצגות את צבא נינוה",
+          "גם בעלי חיים תלויים בגורל העיר",
+          "בעלי החיים נשפטו משום שלא צמו"
+        ],
+        "answer": 1,
+        "explanation": "השאלה מרחיבה את המבט מעבר ליונה ולקיקיון שלו. גם בעלי החיים נמנים לצד התושבים שגורלם עומד על הפרק."
+      },
+      "en": {
+        "prompt": "Animals enter Noah’s ark. Jonah closes with a question that mentions Nineveh’s many animals. What do they add to the appeal for compassion?",
+        "options": [
+          "The herds stand for Nineveh’s army",
+          "Animals too depend on the city’s fate",
+          "The animals face judgment for failing to fast"
+        ],
+        "answer": 1,
+        "explanation": "The question widens the view beyond Jonah and his plant. Animals as well as people are at stake."
+      }
+    },
+    {
+      "id": "cyrus-exiles",
+      "stopId": "gen-abram",
+      "artStep": 2,
+      "rank": 4,
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "reference": {
+        "he": "בראשית י״ב, ד׳–ה׳; עזרא א׳, א׳–ו׳",
+        "en": "Genesis 12:4–5 and Ezra 1:1–6"
+      },
+      "he": {
+        "prompt": "אברם יוצא עם ביתו. בהצהרת כורש מוזמנים אנשים מן הגולים לעלות לירושלים; הנשארים מתבקשים לעזור בכסף וברכוש. איזו חלוקת תפקידים נוצרת?",
+        "options": [
+          "רק המלך רשאי לסייע לעולים",
+          "אחדים עושים את הדרך ואחרים מאפשרים אותה בתמיכתם",
+          "כל הגולים נדרשים לצאת בלי רכוש"
+        ],
+        "answer": 1,
+        "explanation": "ההצהרה מזמינה לעלות ולבנות ומבקשת סיוע מן הסובבים. חפצים וכסף מאפשרים גם למי שאינו הולך להשתתף."
+      },
+      "en": {
+        "prompt": "Abram travels with his household. Cyrus invites exiles to go to Jerusalem and calls on those around them to give supplies. How is the work shared?",
+        "options": [
+          "Only the king may assist those who go",
+          "Some make the journey and others help equip them",
+          "Every exile must leave without possessions"
+        ],
+        "answer": 1,
+        "explanation": "The proclamation invites people to go and build and calls for support where they live. Those staying behind can therefore help make the return possible."
+      }
+    },
+    {
+      "id": "amos-king",
+      "stopId": "life-moses-7",
+      "artStep": 1,
+      "rank": 5,
+      "source": "9e",
+      "grade": "ט׳ – נביא לבחירה, ההקשר ניתן בשאלה",
+      "reference": {
+        "he": "שמות ה׳, א׳–ג׳; עמוס ז׳, י׳–ט״ו",
+        "en": "Exodus 5:1–3 and Amos 7:10–15"
+      },
+      "he": {
+        "prompt": "כאן השליחים פונים למלך. אמציה כהן בית אל מדווח למלך על עמוס ואז מורה לנביא להסתלק כי זה מקדש המלך. מה עולה מהנימוק שלו?",
+        "options": [
+          "הוא רואה את מקום הנבואה ככפוף לשלטון",
+          "הוא מסכים עם דברי עמוס ורוצה להפיצם",
+          "הוא מתנגד לכל פולחן בירושלים בלבד"
+        ],
+        "answer": 0,
+        "explanation": "אמציה מכנה את בית אל מקום מלכותי. תשובת עמוס מחזירה את הדיון למי ששלח אותו לנבא."
+      },
+      "en": {
+        "prompt": "Picture an approach to a ruler like this one. Amaziah reports Amos to the king and orders him away because Bethel is the king’s sanctuary. What does that reason imply?",
+        "options": [
+          "He treats this place of prophecy as subject to royal control",
+          "He wants to help spread Amos’s message",
+          "His only objection is to worship in Jerusalem"
+        ],
+        "answer": 0,
+        "explanation": "Amaziah calls Bethel royal territory. Amos replies by explaining who commissioned him to prophesy."
+      }
+    },
+    {
+      "id": "isaiah-road",
+      "stopId": "gen-abram",
+      "artStep": 1,
+      "rank": 5,
+      "source": "9e",
+      "grade": "ט׳ – נביא לבחירה, ההקשר ניתן בשאלה",
+      "reference": {
+        "he": "בראשית י״ב, ד׳–ה׳; ישעיהו מ׳, א׳–ה׳",
+        "en": "Genesis 12:4–5 and Isaiah 40:1–5"
+      },
+      "he": {
+        "prompt": "דרך ההרים באיור מובילה נוסעים לארץ חדשה. בנבואת הנחמה של ישעיהו קוראים לפנות דרך במדבר ולהשפיל כל הר. מה עושה הדימוי עבור שומעיו?",
+        "options": [
+          "מזהיר את העם מפני יציאת אברם",
+          "מציג דרך שהמכשולים בה יוסרו",
+          "קובע שיש להקים עיר דווקא על כל פסגה"
+        ],
+        "answer": 1,
+        "explanation": "העמקים וההרים משתנים כדי שהדרך תיפתח. בנבואת הנחמה המראה מבשר התגלות שמתקרבת."
+      },
+      "en": {
+        "prompt": "A mountain road carries travellers in the picture. Isaiah’s poem of comfort calls for a highway in the wilderness and for mountains to be lowered. What does the image offer listeners?",
+        "options": [
+          "A warning against Abram’s departure",
+          "A route whose obstacles will be removed",
+          "An order to build a city on every peak"
+        ],
+        "answer": 1,
+        "explanation": "The valleys and mountains change to make a way. In the poem of comfort this prepares for a coming revelation."
+      },
+      "opening": true
+    },
+    {
+      "id": "jeremiah-calling",
+      "stopId": "life-moses-2",
+      "artStep": 3,
+      "rank": 6,
+      "source": "9e",
+      "grade": "ט׳ – נביא לבחירה, ההקשר ניתן בשאלה",
+      "reference": {
+        "he": "שמות ג׳, י׳–י״ב; ירמיהו א׳, ו׳–ט׳",
+        "en": "Exodus 3:10–12 and Jeremiah 1:6–9"
+      },
+      "he": {
+        "prompt": "משה שואל ״מי אנכי״ כשנשלח אל פרעה. ירמיהו אומר שאינו יודע לדבר כי הוא נער; בתגובה נוגעים בפיו. כיצד עונה המחווה לקושי שלו?",
+        "options": [
+          "היא מסמנת שניתנים לו הדברים שעליו לומר",
+          "היא מעידה שהנבואה תידחה עד שיתבגר",
+          "היא מונעת ממנו לדבר בפני אנשים"
+        ],
+        "answer": 0,
+        "explanation": "הנגיעה מכוונת לאיבר שירמיהו קישר לקושי בדיבור. היא מלווה באמירה שדברי השליחות ניתנו בפיו."
+      },
+      "en": {
+        "prompt": "At the bush Moses asks who he is to go to Pharaoh. Jeremiah objects that he is young and cannot speak; his mouth is then touched. How does the gesture answer his objection?",
+        "options": [
+          "It signals that he is being given words to say",
+          "It postpones his commission until adulthood",
+          "It prevents him from speaking in public"
+        ],
+        "answer": 0,
+        "explanation": "The touch addresses the very part of the body connected to Jeremiah’s objection. It accompanies the granting of words."
+      }
+    },
+    {
+      "id": "isaiah-vineyard",
+      "stopId": "life-samson-6",
+      "artStep": 2,
+      "rank": 6,
+      "source": "9e",
+      "grade": "ט׳ – נביא לבחירה, ההקשר ניתן בשאלה",
+      "reference": {
+        "he": "שופטים י״ד, ה׳; ישעיהו ה׳, א׳–ז׳",
+        "en": "Judges 14:5 and Isaiah 5:1–7"
+      },
+      "he": {
+        "prompt": "בכרם של שמשון מתרחש מפגש ממשי. בשירת הכרם של ישעיהו בעל הכרם משקיע בגפנים ומקבל פרי מקולקל. בסוף מתברר שהכרם מייצג את העם. מה מייצב את הקריאה כמשל?",
+        "options": [
+          "הופעת אריה בכל אחד מסיפורי הכרם",
+          "המעבר מיבול מאכזב לציפייה למשפט וצדקה",
+          "הצורך לקבוע איזה זן ענבים גדל בכרם"
+        ],
+        "answer": 1,
+        "explanation": "הסיום מפרש את דמות הכרם ומציין ציפיות מוסריות. כך הטיפול בגפנים מקבל משמעות אנושית."
+      },
+      "en": {
+        "prompt": "Samson passes a real vineyard. In Isaiah’s song an owner tends vines but gets bad fruit; the vineyard is then identified as the people. What supports reading this as a parable?",
+        "options": [
+          "A lion appearing in both accounts",
+          "The movement from a disappointing harvest to an expectation of justice",
+          "The need to identify the grape variety"
+        ],
+        "answer": 1,
+        "explanation": "The ending interprets the vineyard and names moral expectations. It gives the work of growing grapes a human meaning."
+      }
+    },
+    {
+      "id": "egypt-fear-see",
+      "stopId": "life-moses-4",
+      "artStep": 4,
+      "rank": 6,
+      "source": "11sea",
+      "grade": "י״א – שמות י״ד",
+      "reference": {
+        "he": "שמות י״ד, י׳–י״ג, ל׳–ל״א",
+        "en": "Exodus 14:10–13, 30–31"
+      },
+      "he": {
+        "prompt": "לפני חציית הים רואים בני ישראל את מצרים ומתייראים. לאחר החצייה הם רואים את היד הגדולה ויראים את ה׳. מה חושף השינוי במושא היראה?",
+        "options": [
+          "היעלמות כל פחד מיד בתחילת הפרק",
+          "התחזקות האמון בצבא מצרים",
+          "המעבר מפחד מן הרודפים להכרה בכוח שהושיע"
+        ],
+        "answer": 2,
+        "explanation": "לשון הראייה והיראה חוזרת משני עברי החצייה. דווקא החלפת מי שמעורר יראה מסמנת את השינוי."
+      },
+      "en": {
+        "prompt": "Before the crossing Israel sees Egypt and is afraid. After it the people see the mighty deed and fear the Lord. What does the change in the object of fear reveal?",
+        "options": [
+          "The disappearance of all fear at the start of the chapter",
+          "A growing trust in Egypt’s army",
+          "A movement from dread of the pursuers to awe of the power that rescued them"
+        ],
+        "answer": 2,
+        "explanation": "Seeing and fearing recur on both sides of the crossing. The change in what inspires fear marks the shift."
+      }
+    },
+    {
+      "id": "sinai-boundary",
+      "stopId": "life-moses-9",
+      "artStep": 2,
+      "rank": 6,
+      "source": "11sinai",
+      "grade": "י״א – שמות י״ט–כ׳",
+      "reference": {
+        "he": "שמות י״ט, ט׳–י״ג, ט״ז–כ׳",
+        "en": "Exodus 19:9–13, 16–20"
+      },
+      "he": {
+        "prompt": "ענן מאפשר לעם לשמוע דיבור אל משה, ובאותו פרק מוצב גבול להר. איך שני הפרטים פועלים יחד?",
+        "options": [
+          "העם שותף לשמיעה תוך שמירת מרחק מן ההר",
+          "רק מי שחצה את הגבול הורשה לשמוע",
+          "הענן מבטל את הצורך בגבול מפני שהוא מסתיר הכול"
+        ],
+        "answer": 0,
+        "explanation": "העם יכול להיות עד לדיבור גם בלי לעלות להר. קרבה להתגלות וגבול פיזי מתקיימים באותו מעמד."
+      },
+      "en": {
+        "prompt": "A cloud allows the people to hear speech addressed to Moses, and the mountain also has a boundary. How do these details work together?",
+        "options": [
+          "People can witness through hearing while keeping their distance",
+          "Only those who cross the boundary may hear",
+          "The cloud makes a boundary unnecessary because it hides everything"
+        ],
+        "answer": 0,
+        "explanation": "They can witness speech without ascending. Access to revelation and physical limits coexist."
+      }
+    },
+    {
+      "id": "joseph-father",
+      "stopId": "gen-joseph",
+      "artStep": 3,
+      "rank": 6,
+      "source": "11joseph",
+      "grade": "י״א – בראשית ל״ז",
+      "reference": {
+        "he": "בראשית ל״ז, ח׳–י״א",
+        "en": "Genesis 37:8–11"
+      },
+      "he": {
+        "prompt": "בחלק הראשון של החלום האלומות שייכות לאחים. בהמשך האב עצמו שואל אם גם הוא יבוא להשתחוות. מה מוסיפה תגובתו להבנת החלום השני?",
+        "options": [
+          "היא מפרשת את הדימויים כתחזית מזג אוויר",
+          "היא נותנת לדימויי השמיים פירוש משפחתי מפורש",
+          "היא מאשרת שהמראה כבר התגשם באותו יום"
+        ],
+        "answer": 1,
+        "explanation": "שאלת האב מזהה את בני הבית עם גרמי השמיים. תגובתו כוללת גערה לצד שמירת הדבר."
+      },
+      "en": {
+        "prompt": "The sheaves belong to the brothers in the first dream. In the next, the father asks whether he too will come and bow. What does his question add?",
+        "options": [
+          "A weather forecast based on the stars",
+          "An explicit family reading of the celestial images",
+          "Confirmation that the vision has already come true that day"
+        ],
+        "answer": 1,
+        "explanation": "The father’s question connects members of the household with the heavenly bodies. He rebukes Joseph yet keeps the matter in mind."
+      }
+    },
+    {
+      "id": "david-prophet-verdict",
+      "stopId": "life-moses-7",
+      "artStep": 3,
+      "rank": 7,
+      "source": "7",
+      "grade": "ז׳ – שמואל",
+      "reference": {
+        "he": "שמות ה׳, א׳–ג׳; שמואל ב׳ י״ב, א׳–י״ג",
+        "en": "Exodus 5:1–3 and 2 Samuel 12:1–13"
+      },
+      "he": {
+        "prompt": "דרישת משה מפרעה נשמעת בגלוי. נתן מספר לדוד סיפור כביכול על שני אנשים ומניח לדוד לשפוט, ורק אז חושף את הנמשל. מי מחויב עתה גם לעיקרון שהשמיע במו פיו?",
+        "options": [
+          "דוד, ששפט את העשיר בטרם זיהה את עצמו בסיפור",
+          "נתן, מפני שהוא בעל הכבשה במשל",
+          "שאול, מפני שהוא המלך הקודם"
+        ],
+        "answer": 0,
+        "explanation": "דוד קבע אמת מידה כשחשב שהוא דן באדם אחר. דברי נתן מחילים אותה על התנהגותו שלו."
+      },
+      "en": {
+        "prompt": "Moses addresses Pharaoh directly. Nathan tells David about two men, lets him judge, then discloses the application. Who must now face a standard he himself has voiced?",
+        "options": [
+          "David, who judged the rich man before recognizing himself in the story",
+          "Nathan, because he owns the lamb in the parable",
+          "Saul, because he is the previous king"
+        ],
+        "answer": 0,
+        "explanation": "David set a standard while he thought he was judging someone else. Nathan applies it to David’s own behaviour."
+      }
+    },
+    {
+      "id": "jonah-ending",
+      "stopId": "life-noah-5",
+      "artStep": 4,
+      "rank": 7,
+      "source": "9",
+      "grade": "ט׳ – יונה, גלות ושיבת ציון",
+      "reference": {
+        "he": "בראשית ט׳, י״ג–י״ז; יונה ד׳, י׳–י״א",
+        "en": "Genesis 9:13–17 and Jonah 4:10–11"
+      },
+      "he": {
+        "prompt": "לאחר המבול מוצע לנח אות וההבטחה מוסברת. ספר יונה מסתיים בשאלה המעמידה את רחמי יונה על הקיקיון מול רחמי ה׳ על העיר. מה השאלה משאירה פתוח?",
+        "options": [
+          "את השאלה אם יונה הגיע לנינוה",
+          "את תגובת יונה לטענה האחרונה",
+          "את השאלה אם הקיקיון כבר יבש"
+        ],
+        "answer": 1,
+        "explanation": "אין אחריה תשובת יונה. הסיום מאפשר לקורא לשקול את הטענה שהנביא שמע."
+      },
+      "en": {
+        "prompt": "After the flood Noah receives a sign with its meaning explained. Jonah ends with a question comparing Jonah’s concern for the plant and God’s for the city. What remains open?",
+        "options": [
+          "Whether Jonah reached Nineveh",
+          "Jonah’s response to the final argument",
+          "Whether the plant has already withered"
+        ],
+        "answer": 1,
+        "explanation": "No reply from Jonah follows. The ending leaves the reader to consider the argument addressed to him."
+      }
+    },
+    {
+      "id": "ruth-naming",
+      "stopId": "gen-jacob",
+      "artStep": 2,
+      "rank": 7,
+      "source": "8",
+      "grade": "ח׳ – מלכים ומגילת רות",
+      "reference": {
+        "he": "בראשית כ״ח, ט״ז–י״ט; רות א׳, י״ט–כ״א",
+        "en": "Genesis 28:16–19 and Ruth 1:19–21"
+      },
+      "he": {
+        "prompt": "יעקב נותן למקום שם בעקבות מפגש. בשובה לבית לחם נעמי מבקשת להיקרא מרא ומנגידה בין יציאה מלאה לשיבה ריקה. מה היא מביעה בשינוי השם?",
+        "options": [
+          "צו לשנות את שמה של העיר בית לחם",
+          "קביעה שאיש אינו חוזר איתה בדרך",
+          "הערכה שלה למה שאירע לה ולמשפחתה"
+        ],
+        "answer": 2,
+        "explanation": "נעמי מפרשת את אובדן בעלה ובניה באמצעות לשון מרירות. רות נמצאת עימה, ולכן אין לקרוא את ״ריקם״ כספירה של השבים."
+      },
+      "en": {
+        "prompt": "Jacob names a place after an encounter. Returning to Bethlehem, Naomi asks to be called Mara and contrasts leaving full with returning empty. What does the proposed name convey?",
+        "options": [
+          "An order to rename Bethlehem",
+          "A claim that nobody travelled back with her",
+          "Her assessment of what has happened to her family"
+        ],
+        "answer": 2,
+        "explanation": "Naomi voices grief at losing her husband and sons. Ruth is with her, so emptiness is not a count of returning travellers."
+      }
+    },
+    {
+      "id": "sea-witness",
+      "stopId": "life-moses-4",
+      "artStep": 3,
+      "rank": 8,
+      "source": "11sea",
+      "grade": "י״א – שמות י״ד",
+      "reference": {
+        "he": "שמות י״ד, כ״א–כ״ב, כ״ו–ל״א",
+        "en": "Exodus 14:21–22, 26–31"
+      },
+      "he": {
+        "prompt": "בתמונת החצייה אפשר לצייר בו בזמן מטה מורם, יבשה ומשפחות הולכות. המספר מפריד בין מעבר ישראל לטביעת הרודפים. איזה טיעון דורש דווקא את סיום הפרק?",
+        "options": [
+          "שהחצייה כללה יותר מאדם אחד",
+          "שההצלה הולידה אצל העם אמון בה׳ ובמשה",
+          "שבתוך הים הייתה דרך לעוברים"
+        ],
+        "answer": 1,
+        "explanation": "אמונת העם מתוארת בתגובה למראה הסופי. מראה הדרך והעוברים לבדו אינו מבסס אותה."
+      },
+      "en": {
+        "prompt": "A single crossing picture can show a raised staff, dry land and walking families together. The narrator puts Israel’s passage before the pursuers’ defeat. Which claim needs the end of the chapter?",
+        "options": [
+          "That more than one person crossed",
+          "That the rescue led the people to trust the Lord and Moses",
+          "That a path opened within the sea"
+        ],
+        "answer": 1,
+        "explanation": "The text describes trust in response to the final sight. The path and the walkers alone cannot establish it."
+      }
+    }
+  ],
+  "bonusSources": {
+    "moses": [
+      "life-moses-1",
+      "life-moses-6",
+      "life-moses-2",
+      "life-moses-7",
+      "life-moses-3",
+      "life-moses-4",
+      "life-moses-8",
+      "life-moses-9",
+      "life-moses-5"
+    ],
+    "noah": [
+      "life-noah-1",
+      "life-noah-6",
+      "life-noah-2",
+      "life-noah-3",
+      "life-noah-7",
+      "life-noah-8",
+      "life-noah-4",
+      "life-noah-9",
+      "life-noah-5"
+    ],
+    "samson": [
+      "life-samson-1",
+      "life-samson-6",
+      "life-samson-2",
+      "life-samson-7",
+      "life-samson-3",
+      "life-samson-4",
+      "life-samson-9",
+      "life-samson-5"
+    ]
+  }
+}

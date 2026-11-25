@@ -16,7 +16,8 @@ import { RouteGate } from "./RouteGate";
 import { RoundAction, RoundAnswer } from "./RoundAnswer";
 import { Coin } from "./RoundEffects";
 import { CoinFlight, measureFlight, type ViewHandle } from "./CoinFlight";
-import { ChapterApproach, guideStage } from "./ChapterApproach";
+import { ChapterApproach } from "./ChapterApproach";
+import { companionChapter, companionPassages, guideStage } from "./companionJourney";
 import { PuzzleArtwork } from "./PuzzleArtwork";
 import { illustrationFile } from "./illustrationFile";
 import { LifeSprite } from "./LifeCharacter";
@@ -32,7 +33,7 @@ import { playSound, setSoundScene, vibrate } from "./sound";
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
 type Feedback = { view: Travel; choice?: number; draft?: string; correct: boolean; timedOut?: boolean;
   before: number; flight: ReturnType<typeof measureFlight> };
-type Panel = "pause"|"legend"|"story"|"journal"|null;
+type Panel = "pause"|"legend"|"story"|"journal"|"picture-stories"|null;
 const nativeDriver = Platform.OS !== "web";
 // Brief swell and settle, used for the heart that was lost and the wallet that was paid.
 const bump=(value:Animated.Value)=>Animated.sequence([
@@ -99,16 +100,19 @@ function Stage({live}:{live:Travel}) {
   const showingQuestion=phase==="question"||bonus, onMap=phase==="travel"||phase==="discovery";
   const story=(bonus?view.bonusStop:undefined)??view.stop, puzzle=bonus?story.puzzles[0]!:view.puzzle;
   const progress=view.progress, question=bonus?view.bonus:view.question;
-  const art=roundArtwork(t.imageSet,bonus?4:view.step,progress.image);
+  const art=roundArtwork(t.imageSet,bonus?4:view.artStep,question?0:progress.image);
   const file=illustrationFile(puzzle,t.imageSet,art.set,art.index);
   const imageKey=`${t.imageSet}/${file}`;
   const artworkReady=showingQuestion && loadedFile===imageKey;
   const artStatus=useCallback((ok:boolean)=>setLoadedFile(prev=>ok?imageKey:prev===imageKey?undefined:prev),[imageKey]);
   // Start preparing the incoming question as soon as the answer is saved, including during discovery.
-  useStopImages(live.bonusStop ?? live.stop);
+  useStopImages(live.bonusStop ?? live.stop, live.bonusStop ? 4 : live.question ? live.artStep : undefined);
   const canRun=active && !panel && !error;
   const locked=!canRun || !!feedback || !artworkReady || (bonus && live.state.deadline===null);
   const duo=game.playMode==="duo", stageIndex=(view.map-1)*4+view.landmark-1;
+  const chapter=companionChapter(view.character,stageIndex,language);
+  const passages=companionPassages(live.character,live.state.paid);
+  const journeyTitle=tr(`Journey with ${view.character.name}`,`המסע של ${view.character.name}`);
   const item=view.bonusItem as Treasure|undefined;
   const treasure=item?treasureText(item,isHebrew):undefined;
   const earned=feedback?profile.tokens-feedback.before:0;
@@ -126,7 +130,9 @@ function Stage({live}:{live:Travel}) {
     else if(phase==="discovery")playSound("treasure");
   },[phase,stageIndex]);
   const detailed=question?.explanation ?? story.learned[t.storyEdition].split(/(?<=[.!?])\s/u)[0] ?? puzzle.answer;
-  const questionLabel=bonus?tr("Surprise challenge","אתגר הפתעה"):tr(`Picture riddle ${view.step+1} of 5`,`חידת תמונה ${view.step+1} מתוך 5`);
+  const questionLabel=bonus
+    ? tr(`Surprise challenge · ${view.character.name}`,`אתגר ההפתעה של ${view.character.name}`)
+    : tr(`Bible picture riddle ${view.step+1} of 5`,`חידת תנ״ך בתמונות ${view.step+1} מתוך 5`);
   const prompt=question?.prompt??view.stop.picturePrompt?.[t.id]??tr("Which event is pictured?","איזה אירוע מסתתר בתמונה?");
   const availableClues: ClueTool[]=[];
   if (phase==="question" && !question && view.step===0) {
@@ -229,16 +235,18 @@ function Stage({live}:{live:Travel}) {
       <ScrollView ref={scroll} testID="question-scroll" style={{flex:1}} keyboardShouldPersistTaps="handled" contentContainerStyle={{flexGrow:1}}>
         <View style={{width:"100%",maxWidth:1120,alignSelf:"center",paddingHorizontal:wide?28:13,paddingVertical:wide?20:10,gap:wide?15:9}}>
           <View style={{gap:5}}>
-            <Copy style={{...short(15),color:earthen.muted}}>{tr(`${view.character.name} · Map ${view.map} of 7 · Landmark ${view.landmark} of 4`,`${view.character.name} · מפה ${view.map} מתוך 7 · נקודת ציון ${view.landmark} מתוך 4`)}</Copy>
+            <Copy testID="companion-chapter" style={{...short(wide?21:18),color:earthen.gold}}>{journeyTitle} · {chapter.title}</Copy>
+            <Copy style={{...short(15),color:earthen.muted}}>{tr(`Map ${view.map} of 7 · Landmark ${view.landmark} of 4`,`מפה ${view.map} מתוך 7 · נקודת ציון ${view.landmark} מתוך 4`)}</Copy>
             {duo && <Copy testID="current-player" accessibilityLiveRegion="polite" style={{...short(17),color:earthen.gold}}>
               {tr(`Player ${turn}’s turn · Score ${view.state.scores[0]} – ${view.state.scores[1]}`,`תור שחקן ${turn} · ניקוד ${view.state.scores[0]} – ${view.state.scores[1]}`)}
             </Copy>}
-            {phase==="question" && <View testID="round-progress" accessibilityLabel={questionLabel} style={{flexDirection:"row",gap:5}}>
+            {phase==="question" && <View testID="round-progress" style={{flexDirection:"row",alignItems:"center",gap:5}}>
+              <Copy style={{...short(14),color:earthen.muted}}>{questionLabel}</Copy>
               {[0,1,2,3,4].map(i=><View key={i} style={{flex:1,height:4,borderRadius:2,backgroundColor:i<view.step?earthen.gold:i===view.step?earthen.ink:"#77523B"}}/>)}
             </View>}
           </View>
           {onMap && <View style={panel?{display:"none"}:undefined}>
-            <ChapterApproach key={`${phase}/${view.map}/${view.landmark}`} stop={view.mapStop} previous={phase==="discovery"?view.stop:view.previousStop} map={view.map} landmark={view.landmark} hero={view.character.id}
+            <ChapterApproach key={`${phase}/${view.map}/${view.landmark}`} stop={view.mapStop} line={chapter.line} source={chapter.stop.source} map={view.map} landmark={view.landmark} hero={view.character.id}
               discovery={phase==="discovery"?view.bonusItem:undefined} paused={!canRun} onArrival={approachDone}/>
           </View>}
           {panel ? <>
@@ -247,7 +255,8 @@ function Stage({live}:{live:Travel}) {
             {panel==="pause" && <>
               <Copy accessibilityRole="header" style={short(26)}>{tr("Paused","המשחק בהשהיה")}</Copy>
               <RoundAction quiet title={tr("Treasure guide","מקרא האוצרות")} onPress={()=>setPanel("legend")}/>
-              {live.completedStops.length>0 && <RoundAction quiet title={tr("Journey book","ספר המסע")} onPress={()=>setPanel("journal")}/>}
+              {passages.length>0 && <RoundAction quiet title={tr("Journey book","ספר המסע")} onPress={()=>setPanel("journal")}/>}
+              {live.completedStops.length>0 && <RoundAction quiet title={tr("Picture stories","סיפורי חידות התמונה")} onPress={()=>setPanel("picture-stories")}/>}
               <RoundAction quiet title={tr("Choose a character","בחירת דמות")} onPress={()=>router.replace("/characters")}/>
             </>}
             {panel==="story" && <View testID="round-story" style={{gap:8}}>
@@ -256,9 +265,9 @@ function Stage({live}:{live:Travel}) {
               <Copy style={{...short(15),color:earthen.muted}}>{story.source}</Copy>
               {puzzle.sourceUrl && <RoundAction quiet title={tr("Read the biblical passage","קריאת המקור המקראי")} onPress={()=>void Linking.openURL(puzzle.sourceUrl!)}/>}
             </View>}
-            {panel==="journal" && <View testID="collected-storybook" style={{gap:16}}>
-              <Copy accessibilityRole="header" style={short(26)}>{tr("Journey book","ספר המסע")}</Copy>
-              {live.completedStops.map(s=><View key={s.id} style={{gap:5,padding:14,borderRadius:9,backgroundColor:earthen.panel}}>
+            {(panel==="journal" || panel==="picture-stories") && <View testID={panel==="journal"?"collected-storybook":"picture-stories"} style={{gap:16}}>
+              <Copy accessibilityRole="header" style={short(26)}>{panel==="journal" ? tr(`The journey of ${live.character.name}`,`ספר המסע של ${live.character.name}`) : tr("Picture stories","סיפורי חידות התמונה")}</Copy>
+              {(panel==="journal"?passages:live.completedStops).map(s=><View key={s.id} style={{gap:5,padding:14,borderRadius:9,backgroundColor:earthen.panel}}>
                 <Copy style={short(21)}>{s.solvedTitle??s.title}</Copy><Copy style={short(17)}>{s.passage[t.storyEdition]}</Copy><Copy style={{...short(14),color:earthen.muted}}>{s.source}</Copy>
               </View>)}
             </View>}
@@ -303,12 +312,12 @@ function Stage({live}:{live:Travel}) {
                 <View style={{minHeight:24}}>
                   {feedback ? <Copy testID="answer-feedback" accessibilityLiveRegion="polite" style={{...short(16),color:feedback.correct?"#D9E7AE":"#FFCCB2"}}>
                     {helper}{feedback.correct||bonus ? ` ${detailed}`:""}
-                  </Copy>:<Copy style={{...short(14),color:earthen.muted}}>{questionLabel}{bonus ? tr(` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)}s`,` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)} שניות`):""}</Copy>}
+                  </Copy>:bonus && <Copy style={{...short(14),color:earthen.muted}}>{questionLabel}{tr(` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)}s`,` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)} שניות`)}</Copy>}
                 </View>
               </Animated.View>
             </View>
             {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:44,justifyContent:"center",alignSelf:"flex-start"}}>
-              <Copy style={{...short(14),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story","קריאת הסיפור")}</Copy>
+              <Copy style={{...short(14),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story in this picture","הסיפור שבאיור")}</Copy>
             </Pressable>:<View ref={voice} collapsable={false} style={{alignSelf:"flex-start"}}>
               {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:44,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
             </View>)}
