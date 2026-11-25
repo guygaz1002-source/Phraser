@@ -7,6 +7,7 @@ import { useGame } from "./GameProvider";
 import { LanguageSwitcher, useLocale } from "./LocaleProvider";
 import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { TitleDuck } from "./TitleDuck";
+import { SoundToggle } from "./SoundToggle";
 import { tierIds } from "./types";
 
 const cover = require("../assets/title/cover.png");
@@ -141,6 +142,7 @@ export function BookTitle() {
       </Animated.View>
     </ScrollView>
     <View style={{position:"absolute",top:9,right:12}}><LanguageSwitcher light compact /></View>
+    <View style={{position:"absolute",top:12,left:12}}><SoundToggle /></View>
     {!open && <Pressable accessibilityRole="button" onPress={finish} style={styles.skip}><Text style={[styles.skipText, { fontFamily }]}>{tr("Skip intro","דילוג על הפתיח")}</Text></Pressable>}
   </SafeAreaView>;
 }

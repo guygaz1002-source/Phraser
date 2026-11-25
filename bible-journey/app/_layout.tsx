@@ -12,6 +12,7 @@ import { gameFonts } from "../src/locale";
 import { LocaleProvider, useLocale } from "../src/LocaleProvider";
 import { AgeGate } from "../src/AgeGate";
 import { StorageRecovery } from "../src/StorageRecovery";
+import "../src/sound";
 function AppStatusBar() {
   return <StatusBar style="light" />;
 }

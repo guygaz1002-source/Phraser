@@ -25,6 +25,7 @@ import { VoiceAnswer } from "./VoiceAnswer";
 import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { ClueRail, TreasureLegend, treasureText, type ClueTool, type Treasure } from "./TravelTools";
 import { QuestItem } from "./WorldIcons";
+import { SoundToggle } from "./SoundToggle";
 
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
 type Feedback = { view: Travel; choice?: number; draft?: string; correct: boolean; timedOut?: boolean;
@@ -183,7 +184,7 @@ function Stage({live}:{live:Travel}) {
     <EarthenBackdrop/>
     <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==="ios"?"padding":undefined}>
       <View style={{alignSelf:"center",width:"100%",maxWidth:1120,paddingHorizontal:wide?28:12,paddingTop:8,flexDirection:"row",alignItems:"center",justifyContent:"space-between",gap:6}}>
-        <LanguageSwitcher light compact/>
+        <View style={{flexDirection:"row",alignItems:"center",gap:6}}><LanguageSwitcher light compact/><SoundToggle/></View>
         <View style={{flexDirection:"row",alignItems:"center",gap:13}}>
           <View testID="life-balance" accessible accessibilityLiveRegion="polite" accessibilityLabel={live.state.lives===1?tr("1 life","לב אחד"):tr(`${live.state.lives} lives`,`${live.state.lives} לבבות`)} style={{flexDirection:"row",alignItems:"center",gap:4}}>
             <Copy style={{...short(20),color:"#FA997F"}}>♥</Copy><Copy style={short(21)}>{live.state.lives}</Copy>
