@@ -26,6 +26,7 @@ import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { ClueRail, TreasureLegend, treasureText, type ClueTool, type Treasure } from "./TravelTools";
 import { QuestItem } from "./WorldIcons";
 import { SoundToggle } from "./SoundToggle";
+import { LandmarkBurst } from "./LandmarkBurst";
 import { playSound, setSoundScene, vibrate } from "./sound";
 
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
@@ -115,13 +116,13 @@ function Stage({live}:{live:Travel}) {
   const balance=flying?feedback!.before:profile.tokens;
   const turn=view.state.turn+1;
   // Sound cues for what the player now sees: a finished landmark, a treasure, the end of the journey.
-  const shown=useRef({phase,stageIndex});
+  const shown=useRef({phase,stageIndex}), [bursts,setBursts]=useState(0);
   useEffect(()=>{
     const before=shown.current; shown.current={phase,stageIndex};
     if(phase===before.phase && stageIndex===before.stageIndex)return;
     if(phase==="finished")playSound("fanfare");
     else if(phase==="game-over")playSound("gameOver");
-    else if(stageIndex>before.stageIndex){playSound("levelUp");vibrate([30,40,30,40,60]);}
+    else if(stageIndex>before.stageIndex){playSound("levelUp");vibrate([30,40,30,40,60]);setBursts(n=>n+1);}
     else if(phase==="discovery")playSound("treasure");
   },[phase,stageIndex]);
   const detailed=question?.explanation ?? story.learned[t.storyEdition].split(/(?<=[.!?])\s/u)[0] ?? puzzle.answer;
@@ -324,6 +325,7 @@ function Stage({live}:{live:Travel}) {
     </KeyboardAvoidingView>
     <View ref={layer} collapsable={false} pointerEvents="none" aria-hidden accessibilityElementsHidden importantForAccessibility="no-hide-descendants" style={[StyleSheet.absoluteFill,{direction:"ltr",overflow:"hidden"}]}>
       {flying && feedback?.flight && <CoinFlight path={feedback.flight} onLand={landCoin}/>}
+      {bursts>0 && !reduced && <LandmarkBurst key={bursts}/>}
     </View>
   </SafeAreaView>;
 }
