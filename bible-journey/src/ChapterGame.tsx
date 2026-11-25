@@ -307,10 +307,10 @@ function Stage({live}:{live:Travel}) {
                 </View>
               </Animated.View>
             </View>
-            {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:40,justifyContent:"center",alignSelf:"flex-start"}}>
+            {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:44,justifyContent:"center",alignSelf:"flex-start"}}>
               <Copy style={{...short(14),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story","קריאת הסיפור")}</Copy>
             </Pressable>:<View ref={voice} collapsable={false} style={{alignSelf:"flex-start"}}>
-              {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:40,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
+              {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:44,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
             </View>)}
           </>}
         </View>
