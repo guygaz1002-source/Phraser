@@ -26,6 +26,7 @@ import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { ClueRail, TreasureLegend, treasureText, type ClueTool, type Treasure } from "./TravelTools";
 import { QuestItem } from "./WorldIcons";
 import { SoundToggle } from "./SoundToggle";
+import { playSound, setSoundScene, vibrate } from "./sound";
 
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
 type Feedback = { view: Travel; choice?: number; draft?: string; correct: boolean; timedOut?: boolean;
@@ -82,6 +83,9 @@ function Stage({live}:{live:Travel}) {
   const [voiceOpen,setVoiceOpen]=useState(false);
   const [nearAnswerKey,setNearAnswerKey]=useState<string|null>(null);
   const land=useCallback(()=>setLanded(true),[]);
+  const landCoin=useCallback(()=>{playSound("coin");setLanded(true);},[]);
+  // The theme plays more quietly while a riddle is on screen.
+  useFocusEffect(useCallback(()=>{setSoundScene("game");return ()=>setSoundScene("menu");},[]));
   const view=feedback?.view??live, phase=view.state.phase, bonus=phase==="bonus";
   const showingQuestion=phase==="question"||bonus, onMap=phase==="travel"||phase==="discovery";
   const story=(bonus?view.bonusStop:undefined)??view.stop, puzzle=bonus?story.puzzles[0]!:view.puzzle;
@@ -102,6 +106,16 @@ function Stage({live}:{live:Travel}) {
   const flying=!!feedback?.flight && earned>0 && !landed && canRun && !reduced;
   const balance=flying?feedback!.before:profile.tokens;
   const turn=view.state.turn+1;
+  // Sound cues for what the player now sees: a finished landmark, a treasure, the end of the journey.
+  const shown=useRef({phase,stageIndex});
+  useEffect(()=>{
+    const before=shown.current; shown.current={phase,stageIndex};
+    if(phase===before.phase && stageIndex===before.stageIndex)return;
+    if(phase==="finished")playSound("fanfare");
+    else if(phase==="game-over")playSound("gameOver");
+    else if(stageIndex>before.stageIndex){playSound("levelUp");vibrate([30,40,30,40,60]);}
+    else if(phase==="discovery")playSound("treasure");
+  },[phase,stageIndex]);
   const detailed=question?.explanation ?? story.learned[t.storyEdition].split(/(?<=[.!?])\s/u)[0] ?? puzzle.answer;
   const questionLabel=bonus?tr("Surprise challenge","אתגר הפתעה"):tr(`Picture riddle ${view.step+1} of 5`,`חידת תמונה ${view.step+1} מתוך 5`);
   const prompt=question?.prompt??view.stop.picturePrompt?.[t.id]??tr("Which event is pictured?","איזה אירוע מסתתר בתמונה?");
@@ -119,6 +133,7 @@ function Stage({live}:{live:Travel}) {
   }
   const showFeedback=(correct:boolean,origin:ViewHandle|null,choice?:number,draft?:string,timedOut=false)=>{
     busy.current=true; setLanded(false);
+    playSound(correct?"correct":"wrong"); vibrate(correct?25:[45,55,45]);
     setFeedback({view:live,before:profile.tokens,correct,timedOut,choice,draft,
       flight:correct && origin && !reduced?measureFlight(origin,wallet.current,layer.current):null});
     Keyboard.dismiss();
@@ -292,7 +307,7 @@ function Stage({live}:{live:Travel}) {
       </View>
     </KeyboardAvoidingView>
     <View ref={layer} collapsable={false} pointerEvents="none" aria-hidden accessibilityElementsHidden importantForAccessibility="no-hide-descendants" style={[StyleSheet.absoluteFill,{direction:"ltr",overflow:"hidden"}]}>
-      {flying && feedback?.flight && <CoinFlight path={feedback.flight} onLand={land}/>}
+      {flying && feedback?.flight && <CoinFlight path={feedback.flight} onLand={landCoin}/>}
     </View>
   </SafeAreaView>;
 }
