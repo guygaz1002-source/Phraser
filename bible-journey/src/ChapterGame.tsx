@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ComponentRef } from "react";
 import { router, useFocusEffect } from "expo-router";
-import { AppState, Keyboard, KeyboardAvoidingView, Linking, Platform, Pressable, ScrollView, StyleSheet, View, useWindowDimensions } from "react-native";
+import { Animated, AppState, Easing, Keyboard, KeyboardAvoidingView, Linking, Platform, Pressable, ScrollView, StyleSheet, View, useWindowDimensions } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useReducedMotion } from "react-native-reanimated";
 import { ThemePreview, useTier } from "../theme/ThemeProvider";
@@ -27,11 +27,21 @@ import { VoiceAnswer } from "./VoiceAnswer";
 import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { ClueRail, TreasureLegend, treasureText, type ClueTool, type Treasure } from "./TravelTools";
 import { QuestItem } from "./WorldIcons";
+import { SoundToggle } from "./SoundToggle";
+import { LandmarkBurst } from "./LandmarkBurst";
+import { playSound, setSoundScene, vibrate } from "./sound";
 
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
 type Feedback = { view: Travel; choice?: number; draft?: string; correct: boolean; timedOut?: boolean;
   before: number; flight: ReturnType<typeof measureFlight> };
 type Panel = "pause"|"legend"|"story"|"journal"|"picture-stories"|null;
+const nativeDriver = Platform.OS !== "web";
+// Brief swell and settle, used for the heart that was lost and the wallet that was paid.
+const bump=(value:Animated.Value)=>Animated.sequence([
+  Animated.timing(value,{toValue:1,duration:130,easing:Easing.out(Easing.quad),useNativeDriver:nativeDriver}),
+  Animated.timing(value,{toValue:0,duration:260,easing:Easing.inOut(Easing.quad),useNativeDriver:nativeDriver}),
+]).start();
+const swell=(value:Animated.Value)=>[{scale:value.interpolate({inputRange:[0,1],outputRange:[1,1.35]})}];
 
 function useActiveStage() {
   const [focused,setFocused] = useState(false), [foreground,setForeground] = useState(true);
@@ -82,7 +92,11 @@ function Stage({live}:{live:Travel}) {
   const scroll=useRef<ComponentRef<typeof ScrollView>>(null), heading=useRef<ComponentRef<typeof View>>(null);
   const [voiceOpen,setVoiceOpen]=useState(false);
   const [nearAnswerKey,setNearAnswerKey]=useState<string|null>(null);
+  const shake=useRef(new Animated.Value(0)).current, heartBeat=useRef(new Animated.Value(0)).current, walletBeat=useRef(new Animated.Value(0)).current;
   const land=useCallback(()=>setLanded(true),[]);
+  const landCoin=useCallback(()=>{playSound("coin");bump(walletBeat);setLanded(true);},[walletBeat]);
+  // The theme plays more quietly while a riddle is on screen.
+  useFocusEffect(useCallback(()=>{setSoundScene("game");return ()=>setSoundScene("menu");},[]));
   const view=feedback?.view??live, phase=view.state.phase, bonus=phase==="bonus";
   const showingQuestion=phase==="question"||bonus, onMap=phase==="travel"||phase==="discovery";
   const story=(bonus?view.bonusStop:undefined)??view.stop, puzzle=bonus?story.puzzles[0]!:view.puzzle;
@@ -110,6 +124,16 @@ function Stage({live}:{live:Travel}) {
   const flying=!!feedback?.flight && earned>0 && !landed && canRun && !reduced;
   const balance=flying?feedback!.before:profile.tokens;
   const turn=view.state.turn+1;
+  // Sound cues for what the player now sees: a finished landmark, a treasure, the end of the journey.
+  const shown=useRef({phase,stageIndex}), [bursts,setBursts]=useState(0);
+  useEffect(()=>{
+    const before=shown.current; shown.current={phase,stageIndex};
+    if(phase===before.phase && stageIndex===before.stageIndex)return;
+    if(phase==="finished")playSound("fanfare");
+    else if(phase==="game-over")playSound("gameOver");
+    else if(stageIndex>before.stageIndex){playSound("levelUp");vibrate([30,40,30,40,60]);setBursts(n=>n+1);}
+    else if(phase==="discovery")playSound("treasure");
+  },[phase,stageIndex]);
   const detailed=question?.explanation ?? story.learned[t.storyEdition].split(/(?<=[.!?])\s/u)[0] ?? puzzle.answer;
   const questionLabel=bonus
     ? tr(`Surprise challenge · ${view.character.name}`,`אתגר ההפתעה של ${view.character.name}`)
@@ -129,6 +153,13 @@ function Stage({live}:{live:Travel}) {
   }
   const showFeedback=(correct:boolean,origin:ViewHandle|null,choice?:number,draft?:string,timedOut=false)=>{
     busy.current=true; setLanded(false);
+    playSound(correct?"correct":"wrong"); vibrate(correct?25:[45,55,45]);
+    if(!correct && !reduced){
+      // A wrong answer shakes the answer area; an ordinary miss also costs the heart that pulses.
+      shake.setValue(0);
+      Animated.sequence([1,-1,.6,-.6,0].map(toValue=>Animated.timing(shake,{toValue,duration:55,easing:Easing.linear,useNativeDriver:nativeDriver}))).start();
+      if(!bonus)bump(heartBeat);
+    }
     setFeedback({view:live,before:profile.tokens,correct,timedOut,choice,draft,
       flight:correct && origin && !reduced?measureFlight(origin,wallet.current,layer.current):null});
     Keyboard.dismiss();
@@ -161,6 +192,8 @@ function Stage({live}:{live:Travel}) {
     scroll.current?.scrollTo({y:0,animated:false});setVoiceOpen(false);
     if(active&&Platform.OS==="web")(heading.current as unknown as HTMLElement|null)?.focus?.({preventScroll:true});
   },[live.map,live.landmark,view.step,phase,active]);
+  // Never leave the answer area off-centre if a shake is cut short (hidden tab, language change).
+  useEffect(()=>{if(!feedback){shake.stopAnimation();shake.setValue(0);}},[feedback,shake]);
   const lang=useRef(language);
   useEffect(()=>{if(lang.current!==language){lang.current=language;setFeedback(null);busy.current=false;}},[language]);
   // Hold the bonus clock while its artwork, pause overlay or app is unavailable.
@@ -194,13 +227,13 @@ function Stage({live}:{live:Travel}) {
     <EarthenBackdrop/>
     <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==="ios"?"padding":undefined}>
       <View style={{alignSelf:"center",width:"100%",maxWidth:1120,paddingHorizontal:wide?28:12,paddingTop:8,flexDirection:"row",alignItems:"center",justifyContent:"space-between",gap:6}}>
-        <LanguageSwitcher light compact/>
+        <View style={{flexDirection:"row",alignItems:"center",gap:6}}><LanguageSwitcher light compact/><SoundToggle/></View>
         <View style={{flexDirection:"row",alignItems:"center",gap:13}}>
           <View testID="life-balance" accessible accessibilityLiveRegion="polite" accessibilityLabel={live.state.lives===1?tr("1 life","לב אחד"):tr(`${live.state.lives} lives`,`${live.state.lives} לבבות`)} style={{flexDirection:"row",alignItems:"center",gap:4}}>
-            <Copy style={{...short(20),color:"#FA997F"}}>♥</Copy><Copy style={short(21)}>{live.state.lives}</Copy>
+            <Animated.View style={{transform:swell(heartBeat)}}><Copy style={{...short(20),color:"#FA997F"}}>♥</Copy></Animated.View><Copy style={short(21)}>{live.state.lives}</Copy>
           </View>
           <View testID="token-balance" accessible accessibilityLiveRegion="polite" accessibilityLabel={balance===1?tr("1 token","אסימון אחד"):tr(`${balance} tokens`,`${balance} אסימונים`)} style={{flexDirection:"row",alignItems:"center",gap:5}}>
-            <View ref={wallet} collapsable={false} testID="wallet-icon"><Coin/></View><Copy style={{...short(21),fontVariant:["tabular-nums"]}}>{balance}</Copy>
+            <View ref={wallet} collapsable={false} testID="wallet-icon"><Animated.View style={{transform:swell(walletBeat)}}><Coin/></Animated.View></View><Copy style={{...short(21),fontVariant:["tabular-nums"]}}>{balance}</Copy>
           </View>
         </View>
       </View>
@@ -266,7 +299,7 @@ function Stage({live}:{live:Travel}) {
                 </View>
                 {availableClues.length>0 && <ClueRail tools={availableClues} onBuy={clue=>dispatch({type:"expedition-buy",key:live.key,clue})}/>}
               </View>
-              <View style={{flex:wide?1:undefined,gap:8}}>
+              <Animated.View testID="answer-area" style={{flex:wide?1:undefined,gap:8,transform:[{translateX:shake.interpolate({inputRange:[-1,1],outputRange:[-9,9]})}]}}>
                 {availableClues.length>0&&progress.hint&&<Copy style={{...short(16),color:earthen.gold}}>{puzzle.textHint}</Copy>}
                 {availableClues.length>0&&progress.letter&&<Copy style={{...short(16),color:earthen.gold}}>{tr("First letter","אות ראשונה")} · {normalize(puzzle.answer)[0]}</Copy>}
                 {question ? <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
@@ -287,12 +320,12 @@ function Stage({live}:{live:Travel}) {
                     {helper}{feedback.correct||bonus ? ` ${detailed}`:""}
                   </Copy>:bonus && <Copy style={{...short(14),color:earthen.muted}}>{questionLabel}{tr(` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)}s`,` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)} שניות`)}</Copy>}
                 </View>
-              </View>
+              </Animated.View>
             </View>
-            {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:40,justifyContent:"center",alignSelf:"flex-start"}}>
+            {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:44,justifyContent:"center",alignSelf:"flex-start"}}>
               <Copy style={{...short(14),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story in this picture","הסיפור שבאיור")}</Copy>
             </Pressable>:<View ref={voice} collapsable={false} style={{alignSelf:"flex-start"}}>
-              {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:40,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
+              {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:44,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
             </View>)}
           </>}
         </View>
@@ -306,7 +339,8 @@ function Stage({live}:{live:Travel}) {
       </View>
     </KeyboardAvoidingView>
     <View ref={layer} collapsable={false} pointerEvents="none" aria-hidden accessibilityElementsHidden importantForAccessibility="no-hide-descendants" style={[StyleSheet.absoluteFill,{direction:"ltr",overflow:"hidden"}]}>
-      {flying && feedback?.flight && <CoinFlight path={feedback.flight} onLand={land}/>}
+      {flying && feedback?.flight && <CoinFlight path={feedback.flight} onLand={landCoin}/>}
+      {bursts>0 && !reduced && <LandmarkBurst key={bursts}/>}
     </View>
   </SafeAreaView>;
 }

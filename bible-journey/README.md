@@ -20,6 +20,14 @@ npm run export
 
 For native development, use `npx expo start --ios` with Xcode and an installed simulator, or `npx expo start --android` with an emulator/device. Shared routes live in `app/`. The full web game is available at [Play Phraser](https://bible-journey-noah.vercel.app).
 
+## Sound, demo reset and phone preview (web)
+
+The web build plays an original chiptune theme and short effects, all synthesised in [src/sound.ts](src/sound.ts) with the Web Audio API; there are no audio files. The values to tune sit at the top of that file: `SOUND_ENABLED` (set to `false` to remove all sound, the speaker button and the tap-to-begin prompt), `HAPTICS_ENABLED`, `MASTER_VOLUME`, `MUSIC_VOLUME`, `SFX_VOLUME`, `MUSIC_IN_GAME`, `TEMPO_BPM`, the `MELODY`, `BASS` and `DRUMS` patterns and the `SFX` table. Browsers only start audio after a tap, so the title screen waits for one. The speaker button beside the language switcher mutes everything and remembers the choice. An iPhone with its silent switch on stays silent. Native builds have no sound yet.
+
+Open the game at `/?reset=1` to clear saved progress before a demo. Language and sound choices are kept.
+
+To try the production build on a phone on the same Wi-Fi, run `npm run preview:web` and open the address it prints. The page head, loading splash and icons live in `public/`.
+
 ## The expedition
 
 Choose an age group, a play mode and a duck companion. Single-player and two-player pass-and-play have separate saves. The companion travels for about 3.5 seconds before the first question. Each of seven maps has four landmarks with five illustrated Bible questions apiece. The companion follows their own story across seven named maps. Each new expedition shuffles 140 distinct ordinary cards from the bank for the selected age group. Each bank selects passages and illustrated cards independently, including stories and questions specific to that age. Companion treasures follow the same age scope. A landmark can feature Moses, Noah, Samson or other Bible figures regardless of the companion. Comparisons across passages grow more frequent on the later maps. The landscape, travel narration, growth stages and surprise treasure questions follow the chosen companion. Resuming a game preserves its question order. When upgrading a save from the shared bank, the current question, opened landmark and paid progress are preserved. The remaining unplayed landmarks draw from the selected age group.

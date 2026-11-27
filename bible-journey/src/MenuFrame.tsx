@@ -4,6 +4,7 @@ import { Image, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensio
 import { SafeAreaView } from "react-native-safe-area-context";
 import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { LanguageSwitcher, useLocale } from "./LocaleProvider";
+import { SoundToggle } from "./SoundToggle";
 
 export const trailArt = require("../assets/home/adventure-home-v1.webp") as number;
 export const storyArt = require("../assets/home/storybook-home-v1.webp") as number;
@@ -47,7 +48,7 @@ export function MenuFrame({ title, image = trailArt, children, back, onBack, tes
             <Image source={book} accessible={false} resizeMode="contain" style={{ width: 29, height: 37 }} />
             <MenuText size={26} color={earthen.gold}>{tr("Phraser", "פרייזר")}</MenuText>
           </View>
-          <LanguageSwitcher light compact />
+          <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}><SoundToggle /><LanguageSwitcher light compact /></View>
         </View>
         <View style={{ flexGrow: 1, justifyContent: "center", paddingTop: wide ? 30 : 14, paddingBottom: wide ? 30 : 10 }}>
           <View style={{ flexDirection: wide ? "row-reverse" : "column", alignItems: wide ? "center" : "stretch", gap: wide ? 50 : 14 }}>

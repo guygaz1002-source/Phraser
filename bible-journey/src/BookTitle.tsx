@@ -7,6 +7,8 @@ import { useGame } from "./GameProvider";
 import { LanguageSwitcher, useLocale } from "./LocaleProvider";
 import { CarvedFace, EarthenBackdrop, earthen } from "./EarthenSurface";
 import { TitleDuck } from "./TitleDuck";
+import { SoundToggle } from "./SoundToggle";
+import { soundAvailable, unlockSound } from "./sound";
 import { tierIds } from "./types";
 
 const cover = require("../assets/title/cover.png");
@@ -19,6 +21,10 @@ const landscape = require("../assets/home/adventure-home-v1.webp");
 const pixels: ImageStyle = { width: "100%", height: "100%", imageRendering: "pixelated" } as ImageStyle;
 const motionDriver = Platform.OS !== "web";
 const copyInk = "#35231D";
+// Browsers only let music start inside a tap, so the web intro waits for one.
+const waitsForTap = Platform.OS === "web" && soundAvailable;
+// Kept out of StyleSheet.create: react-native-web rejects "direction" there in development and drops it.
+const ltr = { direction: "ltr" } as const;
 
 function Wordmark({ width, still }: { width: number; still: boolean }) {
   const { language } = useLocale();
@@ -42,6 +48,25 @@ function Wordmark({ width, still }: { width: number; still: boolean }) {
   </View>;
 }
 
+function TapToBegin({ still, onPress }: { still: boolean; onPress: () => void }) {
+  const { tr, fontFamily } = useLocale();
+  const glow = useRef(new Animated.Value(1)).current;
+  useEffect(() => {
+    if (still) return;
+    const pulse = Animated.loop(Animated.sequence([
+      Animated.timing(glow, { toValue: .45, duration: 900, easing: Easing.inOut(Easing.quad), useNativeDriver: motionDriver }),
+      Animated.timing(glow, { toValue: 1, duration: 900, easing: Easing.inOut(Easing.quad), useNativeDriver: motionDriver }),
+    ]));
+    pulse.start();
+    return () => pulse.stop();
+  }, [still, glow]);
+  const label = tr("Tap to begin", "הקישו כדי להתחיל");
+  return <Pressable testID="tap-to-begin" accessibilityRole="button" accessibilityLabel={label} onPress={onPress}
+    style={[StyleSheet.absoluteFill, { alignItems: "center", justifyContent: "flex-end", paddingBottom: "34%", outlineWidth: 0 }]}>
+    <Animated.View style={[styles.begin, { opacity: glow }]}><Text style={[styles.beginText, { fontFamily }]}>{label}</Text></Animated.View>
+  </Pressable>;
+}
+
 function BookChoice({ label, first = false, small, onPress }: { label: string; first?: boolean; small: boolean; onPress: () => void }) {
   const { fontFamily } = useLocale();
   return <Pressable accessibilityRole="button" accessibilityLabel={label} onPress={onPress}
@@ -61,16 +86,17 @@ export function BookTitle() {
   const reduced = useReducedMotion();
   const [open, setOpen] = useState(reduced);
   const [ready, setReady] = useState(false);
+  const [started, setStarted] = useState(!waitsForTap || reduced);
   const [notice, setNotice] = useState(false);
   const timeline = useRef(new Animated.Value(reduced ? 1 : 0)).current;
   const finish = useCallback(() => { timeline.stopAnimation(); timeline.setValue(1); setOpen(true); }, [timeline]);
   useEffect(() => {
     if (reduced) { finish(); return; }
-    if (open || !ready) return;
+    if (open || !ready || !started) return;
     const run = Animated.timing(timeline, { toValue: 1, duration: 3400, easing: Easing.linear, useNativeDriver: motionDriver });
     run.start(({finished}) => { if (finished) setOpen(true); });
     return () => run.stop();
-  }, [timeline, ready, open, reduced, finish]);
+  }, [timeline, ready, started, open, reduced, finish]);
 
   const compact = width < 620;
   const bookWidth = Math.min(width * (compact ? 0.985 : 0.91), 950, Math.max(540,(height-110)*1.63));
@@ -96,7 +122,7 @@ export function BookTitle() {
     }
     setNotice(true);
   };
-  return <SafeAreaView style={styles.scene}>
+  return <SafeAreaView style={[styles.scene, ltr]}>
     <EarthenBackdrop />
     <Image accessible={false} source={landscape} resizeMode="cover" style={[StyleSheet.absoluteFill, {width:"100%",height:"100%",opacity:.13}]} />
     <ScrollView contentContainerStyle={{flexGrow:1, alignItems:"center", justifyContent:"center", paddingVertical:54}}>
@@ -138,13 +164,17 @@ export function BookTitle() {
         </>}
       </Animated.View>
     </ScrollView>
+    {!open && !started && <TapToBegin still={reduced} onPress={() => { unlockSound(); setStarted(true); }} />}
     <View style={{position:"absolute",top:9,right:12}}><LanguageSwitcher light compact /></View>
-    {!open && <Pressable accessibilityRole="button" onPress={finish} style={styles.skip}><Text style={[styles.skipText, { fontFamily }]}>{tr("Skip intro","דילוג על הפתיח")}</Text></Pressable>}
+    <View style={{position:"absolute",top:12,left:12}}><SoundToggle /></View>
+    {!open && started && <Pressable accessibilityRole="button" onPress={finish} style={styles.skip}><Text style={[styles.skipText, { fontFamily }]}>{tr("Skip intro","דילוג על הפתיח")}</Text></Pressable>}
   </SafeAreaView>;
 }
 const styles = StyleSheet.create({
-  scene:{flex:1,backgroundColor:earthen.background,direction:"ltr"},
+  scene:{flex:1,backgroundColor:earthen.background},
   choice:{justifyContent:"center",alignItems:"center",paddingHorizontal:2,outlineColor:"#8A5730",borderRadius:9},
   skip:{position:"absolute",bottom:12,alignSelf:"center",minHeight:44,justifyContent:"center",paddingHorizontal:18,backgroundColor:"#172220"},
-  skipText:{fontSize:15,color:"#FFE6AC"}
+  skipText:{fontSize:15,color:"#FFE6AC"},
+  begin:{minHeight:48,justifyContent:"center",paddingHorizontal:24,borderRadius:24,borderWidth:1,borderColor:"#E8BC7699",backgroundColor:"#1B1510D9"},
+  beginText:{fontSize:22,lineHeight:30,color:"#FFE6AC",textAlign:"center"}
 });

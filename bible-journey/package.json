@@ -12,6 +12,7 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "content": "node scripts/build-content.cjs",
     "export": "expo export --platform all",
+    "preview:web": "expo export --platform web && node scripts/serve-web.cjs dist 8090",
     "assets:install": "node scripts/install-visual-assets.cjs",
     "assets:legacy-placeholders": "node scripts/make-placeholders.cjs"
   },
