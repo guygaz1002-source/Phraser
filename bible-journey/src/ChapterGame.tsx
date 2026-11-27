@@ -205,6 +205,11 @@ function Stage({live}:{live:Travel}) {
     document.addEventListener("keydown",key);return ()=>document.removeEventListener("keydown",key);
   },[settled,summary,panel,proceed]);
   useEffect(()=>{
+    if(Platform.OS!=="web"||!panel)return;
+    const key=(event:KeyboardEvent)=>{if(event.key==="Escape")setPanel(null);};
+    document.addEventListener("keydown",key);return ()=>document.removeEventListener("keydown",key);
+  },[panel]);
+  useEffect(()=>{
     scroll.current?.scrollTo({y:0,animated:false});setVoiceOpen(false);
     if(active&&Platform.OS==="web")(heading.current as unknown as HTMLElement|null)?.focus?.({preventScroll:true});
   },[live.map,live.landmark,view.step,phase,active]);
@@ -259,6 +264,8 @@ function Stage({live}:{live:Travel}) {
   const mapDone=summary!==null&&summary%4===3;
   const mapStars=summary===null?0:[0,1,2,3].reduce((sum,i)=>sum+landmarkStars(live.state.misses?.[summary-3+i]),0);
   const totals=expeditionStars(live.state);
+  const close=()=>setPanel(null);
+  const backLabel=showingQuestion?tr("Back to the riddle","חזרה לחידה"):tr("Back to the game","חזרה למשחק");
   return <SafeAreaView testID="game-stage" style={{flex:1,direction,backgroundColor:earthen.background}}>
     <EarthenBackdrop/>
     <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==="ios"?"padding":undefined}>
@@ -294,7 +301,11 @@ function Stage({live}:{live:Travel}) {
               discovery={phase==="discovery"?view.bonusItem:undefined} paused={!canRun} onArrival={approachDone}/>
           </View>}
           {panel ? <>
-
+            <Pressable testID="panel-back" accessibilityRole="button" accessibilityLabel={backLabel} onPress={close}
+              style={{minHeight:44,flexDirection:"row",alignItems:"center",gap:6,alignSelf:"flex-start"}}>
+              <Copy style={{...short(20),color:earthen.gold,writingDirection:"ltr"}}>{isHebrew?"›":"‹"}</Copy>
+              <Copy style={{...short(17),color:earthen.gold,textDecorationLine:"underline"}}>{backLabel}</Copy>
+            </Pressable>
             {panel==="legend" && <TreasureLegend lamp={live.state.inventory.lamp} seal={live.state.inventory.seal}/>}
             {panel==="pause" && <>
               <Copy accessibilityRole="header" style={short(26)}>{tr("Paused","המשחק בהשהיה")}</Copy>
@@ -315,6 +326,7 @@ function Stage({live}:{live:Travel}) {
                 <Copy style={short(21)}>{s.solvedTitle??s.title}</Copy><Copy style={short(17)}>{s.passage[t.storyEdition]}</Copy><Copy style={{...short(14),color:earthen.muted}}>{s.source}</Copy>
               </View>)}
             </View>}
+            <RoundAction title={backLabel} onPress={close}/>
           </>:summary!==null&&!feedback ? <View testID="landmark-summary" style={{alignItems:"center",gap:14,paddingVertical:22,paddingHorizontal:18,borderRadius:14,borderWidth:1,borderColor:earthen.border,backgroundColor:earthen.panel}}>
             <Copy accessibilityRole="header" style={{...short(wide?30:26),textAlign:"center",color:earthen.gold}}>{mapDone?tr(`Map ${Math.floor(summary/4)+1} complete!`,`מפה ${Math.floor(summary/4)+1} הושלמה!`):tr("Landmark complete!","נקודת הציון הושלמה!")}</Copy>
             <View accessible accessibilityLabel={tr(`${summaryStars} of 3 stars`,`${summaryStars} מתוך 3 כוכבים`)}><StarRow key={summary} earned={summaryStars} size={wide?62:54}/></View>
