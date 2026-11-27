@@ -285,17 +285,27 @@ function Stage({live}:{live:Travel}) {
       </View>
       <ScrollView ref={scroll} testID="question-scroll" style={{flex:1}} keyboardShouldPersistTaps="handled" contentContainerStyle={{flexGrow:1}}>
         <View style={{width:"100%",maxWidth:1120,alignSelf:"center",paddingHorizontal:wide?28:13,paddingVertical:wide?20:10,gap:wide?15:9}}>
-          <View style={{gap:5}}>
+          {onMap ? <View style={{gap:3}}>
+            {/* On the road the companion's chapter matters; during a riddle only the place in the journey does. */}
             <Copy testID="companion-chapter" style={{...short(wide?21:18),color:earthen.gold}}>{journeyTitle} · {chapter.title}</Copy>
-            <Copy style={{...short(15),color:earthen.muted}}>{tr(`Map ${view.map} of 7 · Landmark ${view.landmark} of 4`,`מפה ${view.map} מתוך 7 · נקודת ציון ${view.landmark} מתוך 4`)}</Copy>
-            {duo && <Copy testID="current-player" accessibilityLiveRegion="polite" style={{...short(17),color:earthen.gold}}>
-              {tr(`Player ${turn}’s turn · Score ${view.state.scores[0]} – ${view.state.scores[1]}`,`תור שחקן ${turn} · ניקוד ${view.state.scores[0]} – ${view.state.scores[1]}`)}
-            </Copy>}
-            {phase==="question" && <View testID="round-progress" style={{flexDirection:"row",alignItems:"center",gap:5}}>
-              <Copy style={{...short(14),color:earthen.muted}}>{questionLabel}</Copy>
-              {[0,1,2,3,4].map(i=><View key={i} style={{flex:1,height:4,borderRadius:2,backgroundColor:i<view.step?earthen.gold:i===view.step?earthen.ink:"#77523B"}}/>)}
+            <Copy style={{...short(15),color:earthen.muted}}>{tr(`Map ${view.map} of 7`,`מפה ${view.map} מתוך 7`)}</Copy>
+          </View> : <View style={{gap:7}}>
+            <View style={{flexDirection:"row",flexWrap:"wrap",alignItems:"center",justifyContent:"space-between",columnGap:10,rowGap:5}}>
+              <Copy testID="journey-place" style={{...short(15),color:earthen.muted}}>{tr(`Map ${view.map} · Landmark ${view.landmark} of 4`,`מפה ${view.map} · נקודת ציון ${view.landmark} מתוך 4`)}</Copy>
+              {duo && <View testID="current-player" accessible accessibilityLiveRegion="polite" style={{flexDirection:"row",gap:6}}
+                accessibilityLabel={tr(`Player ${turn}’s turn. Score ${view.state.scores[0]} to ${view.state.scores[1]}`,`תור שחקן ${turn}. ניקוד ${view.state.scores[0]} מול ${view.state.scores[1]}`)}>
+                {[0,1].map(i=>{const active=view.state.turn===i; return <View key={i} style={{flexDirection:"row",alignItems:"center",gap:5,paddingHorizontal:10,paddingVertical:2,borderRadius:13,borderWidth:1,
+                  borderColor:active?earthen.gold:"#6B4A36",backgroundColor:active?"#5E3B22":"transparent"}}>
+                  <Copy style={{...short(14),color:active?earthen.gold:earthen.muted}}>{tr(`Player ${i+1}`,`שחקן ${i+1}`)}</Copy>
+                  <Copy style={{...short(15),color:active?earthen.ink:earthen.muted,fontVariant:["tabular-nums"]}}>{view.state.scores[i]}</Copy>
+                </View>;})}
+              </View>}
+            </View>
+            {phase==="question" && <View testID="round-progress" accessible accessibilityRole="progressbar" accessibilityLabel={questionLabel}
+              accessibilityValue={{min:0,max:5,now:view.step+1}} style={{flexDirection:"row",alignItems:"center",gap:5}}>
+              {[0,1,2,3,4].map(i=><View key={i} style={{flex:1,height:5,borderRadius:3,backgroundColor:i<view.step?earthen.gold:i===view.step?earthen.ink:"#77523B"}}/>)}
             </View>}
-          </View>
+          </View>}
           {onMap && <View style={panel||summary!==null?{display:"none"}:undefined}>
             <ChapterApproach key={`${phase}/${view.map}/${view.landmark}`} stop={view.mapStop} line={chapter.line} source={chapter.stop.source} map={view.map} landmark={view.landmark} hero={view.character.id}
               discovery={phase==="discovery"?view.bonusItem:undefined} paused={!canRun} onArrival={approachDone}/>
