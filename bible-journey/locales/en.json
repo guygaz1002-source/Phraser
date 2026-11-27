@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "Phraser",
+  "NSMicrophoneUsageDescription": "Allow Phraser to hear your spoken answer when you tap the microphone.",
+  "NSSpeechRecognitionUsageDescription": "Allow Phraser to turn your spoken answer into text."
+}

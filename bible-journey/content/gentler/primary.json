@@ -1,7 +1,7 @@
 {
   "age/b/ark-pairs": {
     "he": {
-      "prompt": "למה פתח נח את התיבה גם לחיות?",
+      "prompt": "למה הכניס נח לתיבה גם חיות?",
       "options": [
         "כדי שהחיות ישרדו את המבול",
         "כדי שהחיות יבנו את התיבה",
@@ -31,7 +31,7 @@
         "יריחו"
       ],
       "answer": 0,
-      "explanation": "יעקב קרא למקום בית אל לאחר שקם משנתו. באר שבע היא המקום שממנו יצא וחרן היא היעד שלו. (בראשית כ״ח, י״א–י״ט)"
+      "explanation": "יעקב קרא למקום בית אל לאחר שקם משנתו. (בראשית כ״ח, י״א–י״ט)"
     },
     "en": {
       "prompt": "Jacob dreamed of a ladder. What did he name the place where he slept?",
@@ -41,12 +41,12 @@
         "Jericho"
       ],
       "answer": 0,
-      "explanation": "Jacob named the place Bethel after he woke. Beersheba is where he set out from, and Haran is where he was headed. (Genesis 28:11–19)"
+      "explanation": "Jacob named the place Bethel after he woke. (Genesis 28:11–19)"
     }
   },
   "age/b/bricks-shinar": {
     "he": {
-      "prompt": "בוני מגדל בבל חיפשו מקום שטוח בשנער. איפה החליטו לבנות?",
+      "prompt": "בני האדם נסעו מקדם והגיעו לארץ שנער. איפה התיישבו והתחילו לבנות?",
       "options": [
         "על פסגת הר",
         "על צוק מעל הים",
@@ -56,7 +56,7 @@
       "explanation": "הבונים מצאו בקעה בארץ שנער ושם התיישבו והכינו לבנים. (בראשית י״א, א׳–ד׳)"
     },
     "en": {
-      "prompt": "Babel’s builders looked for level ground in Shinar. Where did they decide to build?",
+      "prompt": "People travelled from the east and came to the land of Shinar. Where did they settle and begin to build?",
       "options": [
         "On a mountain peak",
         "On a cliff above the sea",
@@ -135,24 +135,24 @@
   },
   "age/b/gideon-drink": {
     "he": {
-      "prompt": "גדעון הביא את אנשיו למים. על איזה הבדל הסתכל?",
+      "prompt": "גדעון הוריד את אנשיו אל המים. לפי מה נבחרו הלוחמים שנשארו איתו?",
       "options": [
-        "מי הגיע עם כד",
-        "מי ידע לשחות",
-        "איך כל אחד שתה"
+        "לפי הכד שהביאו",
+        "לפי השחייה שלהם",
+        "לפי הדרך שבה שתו"
       ],
       "answer": 2,
-      "explanation": "גדעון התבונן בדרך השתייה. מן הקבוצה שליקקה ביד אל הפה נבחרו שלוש מאות איש. (שופטים ז׳, ד׳–ז׳; ט״ו, י״ח–י״ט)"
+      "explanation": "שלוש מאות האנשים שליקקו את המים מכף ידם הם שנשארו עם גדעון. (שופטים ז׳, ד׳–ז׳; ט״ו, י״ח–י״ט)"
     },
     "en": {
-      "prompt": "Gideon led his men to the water. What difference did he watch for?",
+      "prompt": "Gideon brought his men down to the water. How were the fighters who stayed with him chosen?",
       "options": [
-        "Who brought a jar",
-        "Who could swim",
-        "How each man drank"
+        "By the jar they brought",
+        "By how well they swam",
+        "By the way they drank"
       ],
       "answer": 2,
-      "explanation": "Gideon watched how the men drank. The three hundred who lapped water with a hand to the mouth were chosen. (Judges 7:4–7 and 15:18–19)"
+      "explanation": "The three hundred men who lapped water from their hands were the ones who stayed with Gideon. (Judges 7:4–7 and 15:18–19)"
     }
   },
   "age/b/honest-measure": {
@@ -223,7 +223,7 @@
   },
   "age/b/joseph-keeping-dream": {
     "he": {
-      "prompt": "יעקב גער ביוסף כשסיפר את חלומו. מה עשה אחר כך?",
+      "prompt": "יוסף סיפר את חלומו השני, ויעקב אביו גער בו. מה עשה יעקב אחר כך?",
       "options": [
         "כתב את החלום על אבן",
         "המשיך לחשוב על החלום",
@@ -335,7 +335,7 @@
   },
   "age/b/midian-witness": {
     "he": {
-      "prompt": "בנות מדיין חזרו מוקדם מן הבאר. איך משה עזר להן לחזור בזמן?",
+      "prompt": "בנות כוהן מדיין חזרו מן הבאר מוקדם מהרגיל. מה עשה משה שעזר להן לסיים מהר?",
       "options": [
         "בנה באר חדשה",
         "לקח את הכבשים לשוק",
@@ -692,21 +692,21 @@
       "prompt": "בשנות השובע יוסף שמר חלק מהיבול. מה יכול היה לעשות כשהגיע הרעב?",
       "options": [
         "לבנות עוד מחסנים ריקים",
-        "לפתוח את המחסנים ולתת אוכל",
+        "לפתוח את המחסנים ולמכור תבואה",
         "לזרוע את כל הגרגירים בבת אחת"
       ],
       "answer": 1,
-      "explanation": "במשך שנות השובע נאסף מזון. רק לאחר שהחל הרעב פתח יוסף את המאגרים. (בראשית מ״א, מ״ז–מ״ט, נ״ג–נ״ז)"
+      "explanation": "במשך שנות השובע נאסף מזון. כשהחל הרעב פתח יוסף את המחסנים ומכר תבואה למצרים. (בראשית מ״א, מ״ז–מ״ט, נ״ג–נ״ז)"
     },
     "en": {
       "prompt": "Joseph saved part of the harvest in the good years. What could he do when famine came?",
       "options": [
         "Build more empty stores",
-        "Open the stores and provide food",
+        "Open the stores and sell grain",
         "Plant every grain at once"
       ],
       "answer": 1,
-      "explanation": "Food was gathered through the years of plenty. Joseph opened the stores once the famine came. (Genesis 41:47–49, 53–57)"
+      "explanation": "Food was gathered through the years of plenty. When the famine came, Joseph opened the stores and sold grain to the Egyptians. (Genesis 41:47–49, 53–57)"
     }
   },
   "connection/joshua-sandal": {
@@ -1020,7 +1020,7 @@
         "כולם דיברו שפה אחת"
       ],
       "answer": 2,
-      "explanation": "הכתוב פותח בתיאור שפה משותפת, לפני ההחלטה לבנות יחד."
+      "explanation": "הסיפור מתחיל במילים ״ויהי כל הארץ שפה אחת״."
     },
     "en": {
       "prompt": "When building began, everyone understood each other. What made talking easy?",
@@ -1042,7 +1042,7 @@
         "להרים לבנה"
       ],
       "answer": 1,
-      "explanation": "בלבול השפה פוגע בתקשורת הדרושה למיזם המשותף."
+      "explanation": "כשהבונים כבר לא הבינו זה את זה, היה קשה לבנות יחד."
     },
     "en": {
       "prompt": "One builder asks for a brick and his friend can’t understand him. What gets harder?",
@@ -1079,7 +1079,7 @@
   },
   "gen-jacob/0": {
     "he": {
-      "prompt": "נוסע ישן ליד אבן וחולם על סולם לשמיים. איזה סיפור זה?"
+      "prompt": "איש בדרך ישן ליד אבן וחולם על סולם לשמיים. איזה סיפור זה?"
     },
     "en": {
       "prompt": "A traveler sleeps beside a stone and dreams of a ladder to heaven. Which story is this?"
@@ -2145,12 +2145,12 @@
     "he": {
       "prompt": "איך יוכלו לעלות לפתח התיבה כשהדפנות כבר סגורות?",
       "options": [
-        "יעלו בכבש המשופע",
+        "יעלו ברמפה המשופעת",
         "יטפסו בחבל מן המים",
         "יקפצו מראש עץ"
       ],
       "answer": 0,
-      "explanation": "התיבה סגורה בדפנות וכבש מוביל פנימה."
+      "explanation": "התיבה סגורה בדפנות ורמפה מובילה פנימה."
     },
     "en": {
       "prompt": "How will people reach the ark’s doorway once the sides are closed?",
@@ -2168,7 +2168,7 @@
       "prompt": "מה אספו ליד התיבה כדי שיהיה מה לאכול בדרך?",
       "options": [
         "קורות לדלת",
-        "אבנים לכבש",
+        "אבנים לרמפה",
         "צידה לדרך"
       ],
       "answer": 2,
@@ -2187,7 +2187,7 @@
   },
   "life-noah-2/0": {
     "he": {
-      "prompt": "עקבות החיות מובילים במעלה הכבש לתיבה. מה קורה בסיפור של נח?"
+      "prompt": "עקבות החיות מובילים במעלה הרמפה אל התיבה. מה קורה בסיפור של נח?"
     },
     "en": {
       "prompt": "Animal tracks lead up the ramp to the ark. What is happening in Noah’s story?"
@@ -2195,14 +2195,14 @@
   },
   "life-noah-2/1": {
     "he": {
-      "prompt": "מי עולה בכבש ממש לפני הכבשים?",
+      "prompt": "מי עולה ברמפה ממש לפני הכבשים?",
       "options": [
         "הפילים",
         "הגמלים",
         "האריות"
       ],
       "answer": 0,
-      "explanation": "הפילים נמצאים במעלה הכבש, קרוב יותר לפתח."
+      "explanation": "הפילים נמצאים במעלה הרמפה, קרוב יותר לפתח."
     },
     "en": {
       "prompt": "Which animals are walking up the ramp just ahead of the sheep?",
@@ -2219,8 +2219,8 @@
     "he": {
       "prompt": "למה נח מצביע לעבר פתח התיבה?",
       "options": [
-        "כדי לשלוח אותן ליער",
-        "כדי להראות להן את הירח",
+        "כדי לשלוח את החיות ליער",
+        "כדי להראות לחיות את הירח",
         "כדי לכוון את החיות פנימה"
       ],
       "answer": 2,
@@ -2295,7 +2295,7 @@
       "options": [
         "עשב צומח מתחתיה",
         "הגלים נוגעים בדפנות",
-        "הכבש מונח על חול יבש"
+        "הרמפה מונחת על חול יבש"
       ],
       "answer": 1,
       "explanation": "גוף התיבה נמצא בתוך המים הנעים."
@@ -2490,7 +2490,7 @@
         "ענן שחור"
       ],
       "answer": 0,
-      "explanation": "המים והעננים מתאימים לאות של הבטחה הנוגעת למבול הרסני. ההבטחה עוסקת במבול, גם כשגשם עוד יורד."
+      "explanation": "אחרי הגשם מופיעה בענן קשת צבעונית. היא האות להבטחה שלא יהיה עוד מבול על הארץ."
     },
     "en": {
       "prompt": "There are still puddles in the field. What in the sky adds color to the scene?",
@@ -2603,12 +2603,12 @@
     "he": {
       "prompt": "איזה שביל מוביל את נושאי הסלים אל פתח התיבה?",
       "options": [
-        "הכבש המשופע",
+        "הרמפה המשופעת",
         "גשר מעל נהר",
         "מדרגות בארמון"
       ],
       "answer": 0,
-      "explanation": "האנשים ניגשים עם הסלים אל הכבש שבפתח התיבה."
+      "explanation": "האנשים ניגשים עם הסלים אל הרמפה שבפתח התיבה."
     },
     "en": {
       "prompt": "What leads the people carrying baskets up to the ark’s door?",
@@ -2719,11 +2719,11 @@
   },
   "life-noah-7/4": {
     "he": {
-      "prompt": "יש שמש, אבל התיבה עדיין מוקפת מים. מה התבהר קודם?",
+      "prompt": "יש שמש, אבל התיבה עדיין מוקפת מים. מה קרה קודם?",
       "options": [
-        "האדמה, לפני שהתבהרו השמיים",
-        "האדמה והשמיים בדיוק יחד",
-        "השמיים, לפני שהאדמה התייבשה"
+        "האדמה התייבשה לפני שהשמיים התבהרו",
+        "שני הדברים קרו בדיוק יחד",
+        "השמיים התבהרו לפני שהאדמה התייבשה"
       ],
       "answer": 2,
       "explanation": "שמיים מוארים ומים מסביב לתיבה נראים באותה תמונה."
@@ -3229,14 +3229,14 @@
   },
   "life-samson-4/2": {
     "he": {
-      "prompt": "למה שמשון מחמיץ את הסימן שדלילה נותנת לאיש בפתח?",
+      "prompt": "למה שמשון לא רואה את הסימן שדלילה נותנת לאיש שבפתח?",
       "options": [
         "הוא מביט מהחלון",
         "עיניו עצומות",
         "הוא עומד מחוץ לחדר"
       ],
       "answer": 1,
-      "explanation": "כיוון היד ועיניו העצומות של שמשון מחלקים את הידע בין הדמויות."
+      "explanation": "דלילה יישנה את שמשון על ברכיה ורק אז קראה לאיש. שמשון ישן ולא ראה דבר."
     },
     "en": {
       "prompt": "Why does Samson miss the signal Delilah gives the man in the doorway?",

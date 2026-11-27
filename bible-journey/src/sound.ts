@@ -1,73 +1,15 @@
-// Retro sound for the web build, synthesised with the Web Audio API. No audio files.
+// Retro sound for the web build, synthesised with the Web Audio API. No audio files here;
+// the native builds play rendered copies of the same score (sound.native.ts).
 // Everything here is optional: if the browser has no AudioContext, or anything throws,
 // every function quietly does nothing and the game carries on in silence.
 import { useSyncExternalStore } from "react";
 
-// ───────────────────────── Tweak here ─────────────────────────
-/** Master switch. `false` removes all sound, the mute button and the tap-to-start prompt. */
-export const SOUND_ENABLED = true;
-/** Short vibration on answers (Android browsers only; iOS ignores it). */
-export const HAPTICS_ENABLED = true;
-
-const MASTER_VOLUME = 0.5; // everything, 0–1
-const MUSIC_VOLUME = 0.16; // the theme, relative to master
-const SFX_VOLUME = 0.3; // effects, relative to master
-const MUSIC_IN_GAME = 0.4; // theme level while a riddle is on screen (0 = menus only)
-const TEMPO_BPM = 112; // 12 bars of 4/4 → about 26 seconds per loop at 112
-
-// The theme: D Hijaz (Phrygian dominant) — D Eb F# G A Bb C.
-// One string per bar, eight eighth-notes per bar. "D5:2" lasts two eighths, "-" is a rest.
-const MELODY = [
-  "D5:2 Eb5 D5 C5 Bb4 A4:2",
-  "Bb4 A4 G4 F#4 G4:2 A4:2",
-  "F#4 G4 A4 Bb4 A4:2 G4 F#4",
-  "Eb4 F#4 Eb4 D4 D4:3 -",
-  "D5:2 Eb5 D5 C5 Bb4 A4:2",
-  "Bb4 C5 D5 Eb5 D5:2 C5 Bb4",
-  "A4 Bb4 A4 G4 F#4:2 Eb4 F#4",
-  "G4 F#4 Eb4 F#4 D4:3 -",
-  "A4 A4 Bb4 C5 D5:2 D5 Eb5",
-  "F#5:2 Eb5 D5 Eb5 D5 C5 Bb4",
-  "A4 Bb4 C5 Bb4 A4 G4 F#4 G4",
-  "A4:2 F#4 Eb4 D4:2 A4 C5",
-];
-// Bass root for the first and second half of each bar (triangle wave).
-const BASS = [
-  "D3 D3", "G3 G3", "D3 D3", "Eb3 D3",
-  "D3 D3", "G3 G3", "D3 D3", "Eb3 D3",
-  "D3 D3", "D3 D3", "G3 G3", "D3 D3",
-];
-// Hand-drum pattern per bar: D = low "dum", T = high "tek", - = rest.
-const DRUMS = "D T - T D - T -";
-const DRUMS_LIFT = "D T - T D - T T"; // used for the last four bars
-
-type Wave = "square" | "triangle";
-type Note = [name: string, start: number, length: number]; // seconds
-const SFX: Record<string, { wave: Wave; level: number; notes: Note[] }> = {
-  tap: { wave: "square", level: 0.35, notes: [["A5", 0, 0.035]] },
-  correct: { wave: "square", level: 0.8, notes: [["D5", 0, 0.07], ["F#5", 0.07, 0.07], ["A5", 0.14, 0.07], ["D6", 0.21, 0.2]] },
-  wrong: { wave: "square", level: 0.7, notes: [["A3", 0, 0.1], ["Eb3", 0.11, 0.22]] },
-  coin: { wave: "square", level: 0.55, notes: [["A5", 0, 0.05], ["D6", 0.05, 0.18]] },
-  treasure: { wave: "triangle", level: 1, notes: [["A5", 0, 0.05], ["D6", 0.05, 0.05], ["F#6", 0.1, 0.05], ["A6", 0.15, 0.22]] },
-  levelUp: { wave: "square", level: 0.8, notes: [["D5", 0, 0.09], ["D5", 0.11, 0.09], ["F#5", 0.22, 0.09], ["A5", 0.33, 0.09], ["D6", 0.44, 0.34], ["A5", 0.44, 0.34]] },
-  gameOver: { wave: "square", level: 0.7, notes: [["A4", 0, 0.13], ["G4", 0.14, 0.13], ["F#4", 0.28, 0.13], ["Eb4", 0.42, 0.13], ["D4", 0.56, 0.42]] },
-  fanfare: { wave: "square", level: 0.8, notes: [["D5", 0, 0.1], ["F#5", 0.12, 0.1], ["A5", 0.24, 0.1], ["D6", 0.36, 0.2], ["C6", 0.6, 0.1], ["D6", 0.72, 0.5], ["A5", 0.72, 0.5], ["F#5", 0.72, 0.5]] },
-};
-export type SoundEffect = "tap" | "correct" | "wrong" | "coin" | "treasure" | "levelUp" | "gameOver" | "fanfare";
-// ──────────────────────────────────────────────────────────────
+import { BASS, DRUMS, DRUMS_LIFT, HAPTICS_ENABLED, MASTER_VOLUME, MELODY, MUSIC_IN_GAME, MUSIC_VOLUME, SFX, SFX_VOLUME, SOUND_ENABLED, TEMPO_BPM, frequency, type SoundEffect, type Wave } from "./soundScore";
+export { HAPTICS_ENABLED, SOUND_ENABLED, type SoundEffect } from "./soundScore";
 
 const MUTE_KEY = "bible-journey:sound-muted:v1";
 const STEPS_PER_BAR = 8;
 const LOOKAHEAD = 0.25; // seconds of music scheduled ahead of the clock
-const semitones: Record<string, number> = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
-
-function frequency(name: string) {
-  const match = /^([A-G])([#b]?)(\d)$/.exec(name);
-  if (!match) return 0;
-  const midi = 12 * (Number(match[3]) + 1) + semitones[match[1]!]! + (match[2] === "#" ? 1 : match[2] === "b" ? -1 : 0);
-  return 440 * 2 ** ((midi - 69) / 12);
-}
-
 // Lay the melody out on the eighth-note grid once.
 const lead = new Map<number, { hz: number; steps: number }>();
 MELODY.forEach((bar, index) => {
@@ -242,6 +184,10 @@ export function vibrate(pattern: number | number[]) {
   if (!HAPTICS_ENABLED) return;
   try { (globalThis.navigator as Navigator | undefined)?.vibrate?.(pattern); } catch { /* unsupported */ }
 }
+export type HapticCue = "tap" | "correct" | "wrong" | "levelUp";
+const patterns: Record<HapticCue, number | number[]> = { tap: 12, correct: 25, wrong: [45, 55, 45], levelUp: [30, 40, 30, 40, 60] };
+/** A short vibration for a game moment. The native builds map the same cues to the phone's haptic engine. */
+export function haptic(cue: HapticCue) { vibrate(patterns[cue]); }
 
 export function isSoundMuted() { return muted; }
 export function setSoundMuted(next: boolean) {

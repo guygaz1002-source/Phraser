@@ -33,12 +33,12 @@
     "he": {
       "prompt": "מה בתמונה יקל להעלות ציוד לתיבה?",
       "options": [
-        "הדפנות מכוסות והכבש במקומו",
+        "הדפנות מכוסות והרמפה במקומה",
         "רק שלד התיבה עומד",
         "הלוחות עדיין מונחים בערמה"
       ],
       "answer": 0,
-      "explanation": "התיבה סגורה בדפנות וכבש מוביל פנימה."
+      "explanation": "התיבה סגורה בדפנות ורמפה מובילה פנימה."
     },
     "en": {
       "prompt": "What in the picture will make it easier to load the ark?",
@@ -109,7 +109,7 @@
       "options": [
         "היא מתבוננת בעקבות בחול",
         "היא מביטה אל הארמון",
-        "היא מביטה לתיבה הפתוחה"
+        "היא מביטה אל התיבה הפתוחה"
       ],
       "answer": 2,
       "explanation": "המכסה מורם ופניה פונות אל התינוק."
@@ -149,10 +149,10 @@
   },
   "life-samson-1/0": {
     "he": {
-      "prompt": "שליח מבטיח לאישה שייוולד לה בן חזק. איזו בשורה זו?"
+      "prompt": "שליח מבשר לאישה עקרה שתלד בן, נזיר מבטן, שיתחיל להושיע את ישראל. איזו בשורה זו?"
     },
     "en": {
-      "prompt": "A visitor tells a woman she will have a strong son. Which birth is being announced?"
+      "prompt": "A messenger tells a childless woman she will bear a son, a Nazirite from birth, who will begin to save Israel. Which birth is being announced?"
     }
   },
   "life-samson-1/2": {
@@ -260,7 +260,7 @@
         "כדי ללקט שיבולים שנשארו בשדה"
       ],
       "answer": 2,
-      "explanation": "בועז ביקש מהקוצרים להשאיר לרות שיבולים. כך היה לה מה להביא לנעמי. (בראשית ו׳, כ״א; רות ב׳, ט״ו–י״ח)"
+      "explanation": "רות ליקטה שיבולים שנשרו מידי הקוצרים, כזכות העני והגר. כששמע עליה בועז, הורה לנעריו להשאיר לה שיבולים בכוונה. (בראשית ו׳, כ״א; רות ב׳, ט״ו–י״ח)"
     },
     "en": {
       "prompt": "Ruth also needs food. Why does she walk behind the reapers?",
@@ -270,7 +270,7 @@
         "To gather stalks left in the field"
       ],
       "answer": 2,
-      "explanation": "Boaz had the reapers leave stalks for Ruth so she would have grain to take to Naomi. (Genesis 6:21 and Ruth 2:15–18)"
+      "explanation": "Ruth gleaned stalks the reapers dropped, the right of the poor and the stranger. When Boaz heard about her, he told his men to leave stalks for her on purpose. (Genesis 6:21 and Ruth 2:15–18)"
     }
   },
   "life-moses-6/0": {
@@ -556,7 +556,7 @@
         "אווזים"
       ],
       "answer": 0,
-      "explanation": "הפילים נמצאים במעלה הכבש, קרוב יותר לפתח."
+      "explanation": "הפילים נמצאים במעלה הרמפה, קרוב יותר לפתח."
     },
     "en": {
       "prompt": "Which large animals are ahead of the sheep in line?",
@@ -573,7 +573,7 @@
     "he": {
       "prompt": "איך נח מראה לחיות לאן ללכת?",
       "options": [
-        "ידו חוסמת את הכבש",
+        "ידו חוסמת את הרמפה",
         "הוא נושא אחת מהן",
         "הוא מצביע לכיוון הליכתן"
       ],
@@ -818,7 +818,7 @@
       "prompt": "למה הכבשים צריכות שיביאו להן אוכל בתיבה?",
       "options": [
         "החיות אינן יכולות להגיע למרעה כשהתיבה צפה",
-        "החיות זקוקות לדרך שתעלה אותן בכבש",
+        "החיות זקוקות לדרך שתעלה אותן ברמפה",
         "הכבשים צריכות למצוא דרך לרדת ליבשה"
       ],
       "answer": 0,
@@ -1243,10 +1243,10 @@
   },
   "life-moses-3/0": {
     "he": {
-      "prompt": "משפחות נושאות צרורות ועוזבות את מצרים בלילה. איזה סיפור זה?"
+      "prompt": "משפחות נושאות צרורות ועוזבות את מצרים בחיפזון. איזה סיפור זה?"
     },
     "en": {
-      "prompt": "Families carry bundles as they leave Egypt at night. Which story is this?"
+      "prompt": "Families carry bundles as they leave Egypt in haste. Which story is this?"
     }
   },
   "life-moses-3/1": {
@@ -1479,7 +1479,7 @@
   },
   "life-noah-8/4": {
     "he": {
-      "prompt": "יונה יוצא מהדג ליבשה. למה נח ממשיך לחכות גם כשהתיבה על ההר?",
+      "prompt": "הנביא יונה נפלט מן הדג היישר אל היבשה. נח, לעומתו, נשאר בתיבה גם אחרי שנחה על ההר. למה?",
       "options": [
         "נח צריך לצאת מיד ולבדוק ברגל אם הארץ יבשה",
         "תחילה צריך לשחרר את כל בעלי החיים לבדם",
@@ -1511,9 +1511,9 @@
     "he": {
       "prompt": "איך נושאות המשפחות את הציוד דרך הים?",
       "options": [
-        "נושאות אותם על הגב",
-        "מורידות אותם בחבלים",
-        "מציפות אותם על רפסודות"
+        "נושאות אותו על הגב",
+        "מורידות אותו בחבלים",
+        "משיטות אותו על רפסודות"
       ],
       "answer": 0,
       "explanation": "על גב ההולכים נראים צרורות לדרך."
@@ -2114,7 +2114,7 @@
         "כאן האנשים עומדים בחוץ, ועל ההר הם עוד חיכו בתיבה"
       ],
       "answer": 2,
-      "explanation": "תיבה שנחה הייתה שלב קודם. הקבוצה שעומדת לפני התיבה מייצגת את היציאה לאחר ייבוש הקרקע."
+      "explanation": "תיבה שנחה הייתה שלב קודם. הקבוצה שעומדת לפני התיבה מייצגת את היציאה לאחר שיבשה הארץ."
     },
     "en": {
       "prompt": "What are the people doing here that they did not do when the ark first came to rest?",
@@ -2292,7 +2292,7 @@
         "רק היא נמצאת מחוץ לשדה"
       ],
       "answer": 0,
-      "explanation": "הכיוון של האלומות הוא חלק מן הרמז על היחסים ביניהם."
+      "explanation": "הכיוון של האלומות הוא חלק מן הרמז על היחסים ביניהן."
     },
     "en": {
       "prompt": "How can we recognize the sheaf that stands for Joseph in the dream?",
@@ -2388,7 +2388,7 @@
         "האות פירושו שהתיבה שוב צפה"
       ],
       "answer": 0,
-      "explanation": "המים והעננים מתאימים לאות של הבטחה הנוגעת למבול הרסני. ההבטחה עוסקת במבול, גם כשגשם עוד יורד."
+      "explanation": "לפי הכתוב הקשת נראית דווקא כשיש עננים. ההבטחה היא שלא יהיה עוד מבול, לא שלא יירד גשם."
     },
     "en": {
       "prompt": "How can there be both a rainbow and puddles in the picture?",
@@ -2502,8 +2502,8 @@
       "prompt": "מה עושה כל אחד מהשניים ברגע סמיכת הידיים?",
       "options": [
         "שניהם במרכז וגם הכוהן עומד קרוב",
-        "משה שולח את ידיו ויהושע מרכין את ראשו",
-        "לקהל וליהושע יש מבט לכיוון משה"
+        "משה סומך את ידיו ויהושע מרכין את ראשו",
+        "הקהל ויהושע מביטים אל משה"
       ],
       "answer": 1,
       "explanation": "הידיים עוברות מן הממנה אל ראש האיש שמתמנה."
@@ -2993,7 +2993,7 @@
     "he": {
       "prompt": "אחות משה משגיחה מרחוק וחנה מביאה לשמואל מעיל. איזו דאגה משותפת לשתיהן?",
       "options": [
-        "קרוב משפחה ממשיך לדאוג לילד גם אחרי שנמסר להשגחת אחרים",
+        "קרובת משפחה ממשיכה לדאוג לילד גם אחרי שנמסר להשגחת אחרים",
         "בשני הסיפורים הילד נמצא בין קנים",
         "בשניהם המשפחה פוגשת את הילד רק פעם בשנה"
       ],
@@ -3154,7 +3154,7 @@
         "שרה לילד"
       ],
       "answer": 1,
-      "explanation": "חנה מספרת לעלי ששפכה את לבה בתפילה. לכן שפתיה נעו בלי קול."
+      "explanation": "חנה מספרת לעלי ששפכה את נפשה לפני ה׳. לכן שפתיה נעו בלי קול."
     },
     "en": {
       "prompt": "Eli sees Hannah’s lips move but hears no voice. What is Hannah doing?",
@@ -3444,7 +3444,7 @@
         "גשם חזק עלול לעכב את הנסיעה"
       ],
       "answer": 2,
-      "explanation": "אליהו רואה בענן הקטן סימן לכך שגשם גדול עומד להגיע."
+      "explanation": "אליהו שולח לומר לאחאב: ״אסור ורד ולא יעצרך הגשם״. הענן הקטן מבשר גשם גדול שיקשה על הנסיעה."
     },
     "en": {
       "prompt": "After a drought, a small cloud appears over the sea. Why does Elijah urge Ahab to set off?",
@@ -3642,7 +3642,7 @@
         "כלפי אלוהים שהציל אותו"
       ],
       "answer": 2,
-      "explanation": "אותה מילה מקשרת בין הפחד מהרודפים לבין היראה והאמון שבאים בעקבות ההצלה."
+      "explanation": "השורש יר״א חוזר: תחילה ״וייראו מאוד״ מפני מצרים, ובסוף ״וייראו העם את ה׳ ויאמינו בה׳ ובמשה עבדו״."
     },
     "en": {
       "prompt": "Before the sea crossing the people fear Egypt’s army. After their rescue, whom do they stand in awe of?",
@@ -3657,7 +3657,7 @@
   },
   "age/teen/sinai-boundary": {
     "he": {
-      "prompt": "העם נשאר מאחורי הגבול בסיני. איך אנשיו בכל זאת יכולים להיות עדים לדיבור אל משה?",
+      "prompt": "העם נשאר מאחורי הגבול בסיני. איך בכל זאת יכול העם להיות עד לדיבור אל משה?",
       "options": [
         "הם יכולים לשמוע ממקומם",
         "הם עולים בחשאי לפסגה",

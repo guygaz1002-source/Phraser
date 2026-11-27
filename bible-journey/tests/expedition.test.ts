@@ -316,7 +316,9 @@ test("an old comparison-only final landmark still awards one token per card", ()
     assert.ok(card.question);
     const balance = activeProfile(game).tokens;
     game = answer(game, en);
-    assert.equal(activeProfile(game).tokens, balance + 1);
+    // Every fifth first-try answer in a row adds the streak token.
+    const streakToken = (view(game, en).state.streak ?? 0) % 5 === 0 ? 1 : 0;
+    assert.equal(activeProfile(game).tokens, balance + 1 + streakToken);
     assert.deepEqual(restore(JSON.stringify(game), he), game);
   }
 });
@@ -329,5 +331,85 @@ test("corrupt question identity or order cannot be loaded as a different puzzle"
     [original[5]!,...original.slice(1)],
   ]) {
     s.deck=replacement;assert.throws(()=>restore(JSON.stringify(g),he));
+  }
+});
+
+test("stars, streaks, struck-out options and paid help follow the answers", async () => {
+  const { landmarkStars, expeditionStars, REVIVE_COST, ELIMINATE_COST, STREAK_BONUS_EVERY } = await import("../src/expedition");
+  assert.deepEqual([0,1,2,3,7].map(n => landmarkStars(n)), [3,2,2,1,1]);
+  let game = arrive(start("moses","b"));
+  // A clean landmark: five first-try answers, a streak of five and one bonus token.
+  const before = activeProfile(game).tokens;
+  let earned = 0;
+  for (let step=0; step<5; step++) {
+    const v = view(game);
+    earned += step === 0 ? 5 : 1;
+    game = answer(game, he);
+    assert.equal(view(game).state.removed, undefined);
+    assert.equal(view(game).state.tries, undefined);
+    assert.equal(view(game).state.streak, step + 1, "streak after step " + v.step);
+  }
+  assert.equal(STREAK_BONUS_EVERY, 5);
+  assert.equal(activeProfile(game).tokens, before + earned + 1, "the fifth answer in a row pays a bonus token");
+  assert.deepEqual(expeditionStars(view(game).state), { earned: 3, possible: 3, landmarks: 1 });
+
+  // The next landmark: a wrong quiz choice is struck out, ends the streak and costs a star.
+  if (view(game).state.phase === "discovery") { game = arrive(game); game = answer(game, he); }
+  game = arrive(game); game = answer(game, he);
+  let v = view(game);
+  assert.ok(v.question);
+  const wrong = (v.question.answer + 1) % v.question.options.length, other = (v.question.answer + 2) % v.question.options.length;
+  game = answer(game, he, false);
+  v = view(game);
+  assert.deepEqual(v.state.removed, [wrong]);
+  assert.equal(v.state.streak, 0); assert.equal(v.state.bestStreak, 6); assert.equal(v.state.tries, 1);
+  assert.equal(v.state.misses?.[1], 1);
+  // The same wrong option cannot be removed again; removing the last distractor would leave no choice.
+  assert.equal(transition(game,{type:"expedition-eliminate",key:v.key,choice:wrong},he), game);
+  assert.equal(transition(game,{type:"expedition-eliminate",key:v.key,choice:v.question!.answer},he), game);
+  assert.equal(transition(game,{type:"expedition-eliminate",key:v.key,choice:other},he), game, "two options must remain");
+  game = answer(game, he);
+  v = view(game);
+  assert.equal(v.state.streak, 0, "a second-try answer does not start a streak");
+  assert.equal(v.state.removed, undefined);
+  // On a fresh question a token-paid lifeline strikes out one distractor.
+  const wallet = activeProfile(game).tokens;
+  const distractor = (v.question!.answer + 1) % v.question!.options.length;
+  game = play(game,{type:"expedition-eliminate",key:v.key,choice:distractor},he);
+  assert.equal(activeProfile(game).tokens, wallet - ELIMINATE_COST);
+  assert.deepEqual(view(game).state.removed, [distractor]);
+  assert.equal(view(game).state.lives, 2, "paid help costs no heart");
+  game = answer(game, he);
+  assert.equal(view(game).state.streak, 1);
+
+  // Out of hearts: tokens buy one heart and the same question; the save round-trips.
+  game = answer(game, he, false);
+  v = view(game);
+  assert.equal(v.state.lives, 1);
+  const stuck = v.cardId;
+  // Another miss on a fresh choice ends the landmark.
+  const second = [0,1,2].find(i => i !== v.question!.answer && !v.state.removed!.includes(i))!;
+  game = play(game,{type:"expedition-answer",key:v.key,now:1010,choice:second},he);
+  v = view(game);
+  assert.equal(v.state.phase, "game-over");
+  assert.ok(activeProfile(game).tokens >= REVIVE_COST);
+  const rich = activeProfile(game).tokens;
+  const revived = play(game,{type:"expedition-revive",key:v.key},he);
+  const r = view(revived);
+  assert.equal(r.state.phase, "question"); assert.equal(r.state.lives, 1); assert.equal(r.cardId, stuck);
+  assert.equal(activeProfile(revived).tokens, rich - REVIVE_COST);
+  assert.equal(r.state.removed?.length, 2, "tried options stay struck out");
+  assert.deepEqual(restore(JSON.stringify(revived), he), revived);
+  assert.equal(landmarkStars(r.state.misses?.[1]), 1);
+  // Retrying instead restarts the landmark with clean options but keeps the misses.
+  const retried = play(game,{type:"expedition-retry",key:v.key},he);
+  assert.equal(view(retried).state.removed, undefined); assert.equal(view(retried).state.misses?.[1], 3);
+  // A poor player cannot revive.
+  const poor = structuredClone(game); activeProfile(poor).tokens = REVIVE_COST - 1;
+  assert.equal(transition(poor,{type:"expedition-revive",key:view(poor).key},he), poor);
+  // Corrupt extras are rejected.
+  for (const edit of [(e: any) => { e.misses = [1]; }, (e: any) => { e.streak = 9; e.bestStreak = 2; }, (e: any) => { e.removed = [1,1]; }]) {
+    const bad = structuredClone(revived); edit(activeProfile(bad).journeys.moses!.expedition);
+    assert.throws(() => restore(JSON.stringify(bad), he));
   }
 });

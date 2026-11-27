@@ -1,0 +1,11 @@
+{
+  "theme": 0.527,
+  "tap": 2.543,
+  "correct": 1.112,
+  "wrong": 1.271,
+  "coin": 1.618,
+  "treasure": 0.89,
+  "levelUp": 0.556,
+  "gameOver": 1.271,
+  "fanfare": 0.371
+}

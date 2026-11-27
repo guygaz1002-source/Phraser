@@ -20,9 +20,9 @@ npm run export
 
 For native development, use `npx expo start --ios` with Xcode and an installed simulator, or `npx expo start --android` with an emulator/device. Shared routes live in `app/`. The full web game is available at [Play Phraser](https://bible-journey-noah.vercel.app).
 
-## Sound, demo reset and phone preview (web)
+## Sound, demo reset and phone preview
 
-The web build plays an original chiptune theme and short effects, all synthesised in [src/sound.ts](src/sound.ts) with the Web Audio API; there are no audio files. The values to tune sit at the top of that file: `SOUND_ENABLED` (set to `false` to remove all sound, the speaker button and the tap-to-begin prompt), `HAPTICS_ENABLED`, `MASTER_VOLUME`, `MUSIC_VOLUME`, `SFX_VOLUME`, `MUSIC_IN_GAME`, `TEMPO_BPM`, the `MELODY`, `BASS` and `DRUMS` patterns and the `SFX` table. Browsers only start audio after a tap, so the title screen waits for one. The speaker button beside the language switcher mutes everything and remembers the choice. An iPhone with its silent switch on stays silent. Native builds have no sound yet.
+The game plays an original chiptune theme and short effects. The score, the effects and every level sit in [src/soundScore.ts](src/soundScore.ts): `SOUND_ENABLED` (set to `false` to remove all sound, the speaker button and the tap-to-begin prompt), `HAPTICS_ENABLED`, `MASTER_VOLUME`, `MUSIC_VOLUME`, `SFX_VOLUME`, `MUSIC_IN_GAME`, `TEMPO_BPM`, the `MELODY`, `BASS` and `DRUMS` patterns and the `SFX` table. The web build synthesises them live with the Web Audio API in [src/sound.ts](src/sound.ts). The iOS and Android builds play rendered copies from `assets/sound/` through [src/sound.native.ts](src/sound.native.ts), with the phone's haptic engine for answers and completed landmarks. After changing the score run `npm run sound` to render those files again. Browsers only start audio after a tap, so the web title screen waits for one; the apps start the theme on their own. The speaker button mutes everything and remembers the choice. An iPhone with its silent switch on stays silent.
 
 Open the game at `/?reset=1` to clear saved progress before a demo. Language and sound choices are kept.
 
@@ -39,6 +39,10 @@ The four question sets serve ages 4–7, 8–12, 13–17 and 18+. The first map 
 The map is an automatic interlude. The current companion walks between four visible landmarks. After a completed story, a short fact appears above the map. Players can open the treasure guide at any time. The illustrated story album unlocks after the first four landmarks.
 
 One or two hidden encounters appear during each map. The companion’s 45-second treasure question begins when the picture loads. A clay jar awards a token, a staff awards an extra heart, an oil lamp pays for a written clue and a bronze seal pays for a letter. The expedition continues after a correct answer, a miss or a timeout. Ordinary questions award tokens once; an incorrect ordinary answer costs a heart. After losing all three starting hearts, players can retry the current landmark while keeping previous progress. In two-player mode the players take turns, keep individual scores and share the party’s hearts and wallet.
+
+## Answers, stars and paid help
+
+A correct answer opens a result card with the answer, the explanation and the tokens earned; the game waits there for Continue (or Enter). A wrong answer costs a heart, strikes that option out and returns to the same question. Consecutive first-try answers build a streak shown beside the hearts, and every fifth in a row pays one more token. Each landmark ends with a summary: three stars for no mistakes, two for one or two, one otherwise, with the map and journey totals. Tokens also buy help: striking out one wrong option (3 tokens, while three options remain) and, when the hearts run out, carrying on from the same question with one heart (12 tokens) instead of restarting the landmark. The prices and thresholds are constants at the top of [src/expedition.ts](src/expedition.ts).
 
 ## Progress and storage
 
@@ -65,3 +69,7 @@ Character JSON lives in `content/characters/`; the generator validates assets an
 “Say your answer” starts English recognition only after a tap and any required permission. Storybook submits a final transcript; older tiers put it in the editable answer field for review. Recognition stops on leaving the puzzle or backgrounding the app. The app does not persist recordings. Unsupported recognition leaves picture and typed controls available.
 
 Native voice requires a development or production build containing the speech module, plus device permissions. Real microphone capture, native device runtime and screen-reader sessions have not been verified. No accounts, backend, payments or analytics are included.
+
+## App Store and Google Play
+
+`app.json` carries the icon, splash screen, Hebrew and English names and permission texts (`locales/`), and `eas.json` has `simulator`, `preview` and `production` build profiles. The steps, the store listing text and the open decisions are in [docs/app-store.md](docs/app-store.md). The iOS bundle is checked with `npx expo export --platform ios`; it has not yet been run on a simulator or a phone.

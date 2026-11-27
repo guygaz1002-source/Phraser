@@ -1,7 +1,7 @@
 import "react-native-reanimated";
 import { useEffect, useState, type PropsWithChildren } from "react";
 import { Stack, useGlobalSearchParams, usePathname } from "expo-router";
-import { ActivityIndicator, Modal, Text, View } from "react-native";
+import { ActivityIndicator, I18nManager, Modal, Platform, Text, View } from "react-native";
 import { FontDisplay, useFonts } from "expo-font";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
@@ -14,6 +14,11 @@ import { AgeGate } from "../src/AgeGate";
 import { StorageRecovery } from "../src/StorageRecovery";
 import "../src/demoReset";
 import "../src/sound";
+// Every screen sets its own text direction from the chosen language, exactly as on the web.
+// Keep the phone's system direction from mirroring those layouts a second time.
+if (Platform.OS !== "web") {
+  try { I18nManager.allowRTL(false); I18nManager.swapLeftAndRightInRTL(false); } catch { /* keep the system default */ }
+}
 function AppStatusBar() {
   return <StatusBar style="light" />;
 }

@@ -3,15 +3,32 @@
     "name": "Phraser",
     "slug": "bible-journey",
     "scheme": "biblejourney",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./assets/app/icon.png",
+    "backgroundColor": "#291912",
+    "locales": {
+      "he": "./locales/he.json",
+      "en": "./locales/en.json"
+    },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.phraser.biblejourney"
+      "bundleIdentifier": "com.phraser.biblejourney",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleAllowMixedLocalizations": true,
+        "CFBundleDevelopmentRegion": "he"
+      }
     },
     "android": {
-      "package": "com.phraser.biblejourney"
+      "package": "com.phraser.biblejourney",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/adaptive-foreground.png",
+        "backgroundColor": "#291912"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -30,11 +47,26 @@
           "microphonePermission": "Allow Phraser to hear your spoken answer when you tap the microphone.",
           "speechRecognitionPermission": "Allow Phraser to turn your spoken answer into text."
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Phraser to hear your spoken answer when you tap the microphone.",
+          "enableBackgroundPlayback": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/app/splash-book.png",
+          "imageWidth": 150,
+          "resizeMode": "contain",
+          "backgroundColor": "#291912"
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "backgroundColor": "#EFE6D4"
+    }
   }
 }

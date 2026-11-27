@@ -10,7 +10,7 @@ import { useCharacters } from "./localizedCatalog";
 import { LanguageSwitcher, useLocale } from "./LocaleProvider";
 import { canBuy, current, normalize, spokenPictureAnswer } from "./game";
 import { classifyGuess } from "./puzzleAnswer";
-import { expeditionView } from "./expedition";
+import { ELIMINATE_COST, REVIVE_COST, STREAK_BONUS_EVERY, expeditionStars, expeditionView, landmarkStars } from "./expedition";
 import { roundArtwork } from "./round";
 import { RouteGate } from "./RouteGate";
 import { guidedChoices } from "./questionDifficulty";
@@ -29,7 +29,8 @@ import { ClueRail, TreasureLegend, treasureText, type ClueTool, type Treasure } 
 import { QuestItem } from "./WorldIcons";
 import { SoundToggle } from "./SoundToggle";
 import { LandmarkBurst } from "./LandmarkBurst";
-import { playSound, setSoundScene, vibrate } from "./sound";
+import { Flame, Star, StarRow } from "./Stars";
+import { haptic, playSound, setSoundScene } from "./sound";
 
 type Travel = NonNullable<ReturnType<typeof expeditionView>>;
 type Feedback = { view: Travel; choice?: number; draft?: string; correct: boolean; timedOut?: boolean;
@@ -42,6 +43,10 @@ const bump=(value:Animated.Value)=>Animated.sequence([
   Animated.timing(value,{toValue:0,duration:260,easing:Easing.inOut(Easing.quad),useNativeDriver:nativeDriver}),
 ]).start();
 const swell=(value:Animated.Value)=>[{scale:value.interpolate({inputRange:[0,1],outputRange:[1,1.35]})}];
+
+function SummaryChip({children,testID}:{children:React.ReactNode;testID?:string}) {
+  return <View testID={testID} style={{flexDirection:"row",alignItems:"center",gap:5,paddingHorizontal:11,paddingVertical:5,borderRadius:16,borderWidth:1,borderColor:"#7A5740",backgroundColor:"#3A2219"}}>{children}</View>;
+}
 
 function useActiveStage() {
   const [focused,setFocused] = useState(false), [foreground,setForeground] = useState(true);
@@ -91,6 +96,8 @@ function Stage({live}:{live:Travel}) {
   const buttons=useRef<(ViewHandle|null)[]>([]), busy=useRef(false);
   const scroll=useRef<ComponentRef<typeof ScrollView>>(null), heading=useRef<ComponentRef<typeof View>>(null);
   const [voiceOpen,setVoiceOpen]=useState(false);
+  // The landmark just completed, shown as a short summary before the companion walks on.
+  const [summary,setSummary]=useState<number|null>(null);
   const [nearAnswerKey,setNearAnswerKey]=useState<string|null>(null);
   const shake=useRef(new Animated.Value(0)).current, heartBeat=useRef(new Animated.Value(0)).current, walletBeat=useRef(new Animated.Value(0)).current;
   const land=useCallback(()=>setLanded(true),[]);
@@ -112,7 +119,7 @@ function Stage({live}:{live:Travel}) {
   const artStatus=useCallback((ok:boolean)=>setLoadedFile(prev=>ok?imageKey:prev===imageKey?undefined:prev),[imageKey]);
   // Start preparing the incoming question as soon as the answer is saved, including during discovery.
   useStopImages(live.bonusStop ?? live.stop, live.bonusStop ? 4 : live.question ? live.artStep : undefined);
-  const canRun=active && !panel && !error;
+  const canRun=active && !panel && !error && summary===null;
   const locked=!canRun || !!feedback || !artworkReady || (bonus && live.state.deadline===null);
   const duo=game.playMode==="duo", stageIndex=(view.map-1)*4+view.landmark-1;
   const chapter=companionChapter(view.character,stageIndex,language);
@@ -131,7 +138,7 @@ function Stage({live}:{live:Travel}) {
     if(phase===before.phase && stageIndex===before.stageIndex)return;
     if(phase==="finished")playSound("fanfare");
     else if(phase==="game-over")playSound("gameOver");
-    else if(stageIndex>before.stageIndex){playSound("levelUp");vibrate([30,40,30,40,60]);setBursts(n=>n+1);}
+    else if(stageIndex>before.stageIndex){playSound("levelUp");haptic("levelUp");setBursts(n=>n+1);setSummary(before.stageIndex);}
     else if(phase==="discovery")playSound("treasure");
   },[phase,stageIndex]);
   const detailed=question?.explanation ?? story.learned[t.storyEdition].split(/(?<=[.!?])\s/u)[0] ?? puzzle.answer;
@@ -153,7 +160,7 @@ function Stage({live}:{live:Travel}) {
   }
   const showFeedback=(correct:boolean,origin:ViewHandle|null,choice?:number,draft?:string,timedOut=false)=>{
     busy.current=true; setLanded(false);
-    playSound(correct?"correct":"wrong"); vibrate(correct?25:[45,55,45]);
+    playSound(correct?"correct":"wrong"); haptic(correct?"correct":"wrong");
     if(!correct && !reduced){
       // A wrong answer shakes the answer area; an ordinary miss also costs the heart that pulses.
       shake.setValue(0);
@@ -185,9 +192,18 @@ function Stage({live}:{live:Travel}) {
     if(!feedback)return;
     if(!canRun||reduced)land();
     if(!canRun)return;
-    const timer=setTimeout(()=>{setFeedback(null);busy.current=false;},feedback.correct||feedback.view.state.phase==="bonus"?1250:850);
+    // A finished question waits for the player to read the explanation; a miss returns to the same question.
+    if(feedback.correct||feedback.view.state.phase==="bonus")return;
+    const timer=setTimeout(()=>{setFeedback(null);busy.current=false;},1000);
     return ()=>clearTimeout(timer);
   },[feedback,canRun,reduced,land]);
+  const proceed=useCallback(()=>{setFeedback(null);busy.current=false;},[]);
+  const settled=!!feedback && (feedback.correct||feedback.view.state.phase==="bonus");
+  useEffect(()=>{
+    if(Platform.OS!=="web"||(!settled&&summary===null)||panel)return;
+    const key=(event:KeyboardEvent)=>{if(event.key==="Enter"){event.preventDefault();if(settled)proceed();else setSummary(null);}};
+    document.addEventListener("keydown",key);return ()=>document.removeEventListener("keydown",key);
+  },[settled,summary,panel,proceed]);
   useEffect(()=>{
     scroll.current?.scrollTo({y:0,animated:false});setVoiceOpen(false);
     if(active&&Platform.OS==="web")(heading.current as unknown as HTMLElement|null)?.focus?.({preventScroll:true});
@@ -219,16 +235,39 @@ function Stage({live}:{live:Travel}) {
     tick();const timer=setInterval(tick,200);return ()=>clearInterval(timer);
   },[live.key,live.state.phase,live.state.deadline,clockActive,dispatch]);
   const approachDone=()=>dispatch({type:"expedition-arrive",key:live.key,now:Date.now()});
-  const artSize=wide?Math.max(225,Math.min(485,height*.54)):Math.min(295,Math.max(157,height*.29),width-(availableClues.length?110:48));
+  const artSize=wide?Math.max(225,Math.min(485,height*.54)):Math.min(330,Math.max(157,height*.33),width-(availableClues.length?110:48));
   const helper=feedback?(feedback.correct?tr("Correct!","נכון!"):feedback.timedOut?tr("Time is up.","הזמן נגמר."):bonus?tr("The treasure slips away.","האוצר חמק."):live.state.phase==="game-over"?tr("That was the last heart.","זה היה הלב האחרון."):tr("Look again and try another answer.","התבוננו שוב ונסו תשובה אחרת.")):"";
   const short=(n:number)=>({fontSize:n,lineHeight:Math.ceil(n*1.38)});
-  const close=()=>setPanel(null);
+  // The run shown in the header only grows once the coin of the answer has been counted.
+  const run=settled&&feedback?.correct&&!bonus?(live.state.streak??0):(view.state.streak??0);
+  const removed=view.state.removed??[];
+  const open=choices?choices.filter(i=>!removed.includes(i)):[];
+  const canEliminate=phase==="question"&&!!question&&!feedback&&open.length>=3&&question.options.length-removed.length>=3;
+  const eliminate=()=>{
+    if(locked||!question||!canEliminate)return;
+    const distractors=open.filter(i=>i!==question.answer);
+    const choice=distractors[(choiceSeed>>>3)%distractors.length]!;
+    playSound("tap");haptic("tap");
+    dispatch({type:"expedition-eliminate",key:live.key,choice});
+  };
+  const rightAnswer=question?question.options[question.answer]!:puzzle.answer;
+  const streakBonus=settled&&!!feedback?.correct&&!bonus&&run>0&&run%STREAK_BONUS_EVERY===0&&earned>0;
+  const resultTitle=!feedback?"":feedback.correct?(bonus&&treasure?tr(`Correct! ${treasure.reward}`,`נכון! ${treasure.reward}`):tr("Correct!","נכון!"))
+    :feedback.timedOut?tr("Time is up","הזמן נגמר"):tr("The treasure slips away","האוצר חמק");
+  const summaryStars=summary===null?0:landmarkStars(live.state.misses?.[summary]);
+  const summaryMisses=summary===null?0:live.state.misses?.[summary]??0;
+  const mapDone=summary!==null&&summary%4===3;
+  const mapStars=summary===null?0:[0,1,2,3].reduce((sum,i)=>sum+landmarkStars(live.state.misses?.[summary-3+i]),0);
+  const totals=expeditionStars(live.state);
   return <SafeAreaView testID="game-stage" style={{flex:1,direction,backgroundColor:earthen.background}}>
     <EarthenBackdrop/>
     <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==="ios"?"padding":undefined}>
       <View style={{alignSelf:"center",width:"100%",maxWidth:1120,paddingHorizontal:wide?28:12,paddingTop:8,flexDirection:"row",alignItems:"center",justifyContent:"space-between",gap:6}}>
         <View style={{flexDirection:"row",alignItems:"center",gap:6}}><LanguageSwitcher light compact/><SoundToggle/></View>
         <View style={{flexDirection:"row",alignItems:"center",gap:13}}>
+          {run>=2 && <View testID="answer-streak" accessible accessibilityLabel={tr(`${run} correct in a row`,`${run} תשובות נכונות ברצף`)} style={{flexDirection:"row",alignItems:"center",gap:3}}>
+            <Flame size={20}/><Copy style={{...short(21),color:"#F6B37E",fontVariant:["tabular-nums"]}}>{run}</Copy>
+          </View>}
           <View testID="life-balance" accessible accessibilityLiveRegion="polite" accessibilityLabel={live.state.lives===1?tr("1 life","לב אחד"):tr(`${live.state.lives} lives`,`${live.state.lives} לבבות`)} style={{flexDirection:"row",alignItems:"center",gap:4}}>
             <Animated.View style={{transform:swell(heartBeat)}}><Copy style={{...short(20),color:"#FA997F"}}>♥</Copy></Animated.View><Copy style={short(21)}>{live.state.lives}</Copy>
           </View>
@@ -250,7 +289,7 @@ function Stage({live}:{live:Travel}) {
               {[0,1,2,3,4].map(i=><View key={i} style={{flex:1,height:4,borderRadius:2,backgroundColor:i<view.step?earthen.gold:i===view.step?earthen.ink:"#77523B"}}/>)}
             </View>}
           </View>
-          {onMap && <View style={panel?{display:"none"}:undefined}>
+          {onMap && <View style={panel||summary!==null?{display:"none"}:undefined}>
             <ChapterApproach key={`${phase}/${view.map}/${view.landmark}`} stop={view.mapStop} line={chapter.line} source={chapter.stop.source} map={view.map} landmark={view.landmark} hero={view.character.id}
               discovery={phase==="discovery"?view.bonusItem:undefined} paused={!canRun} onArrival={approachDone}/>
           </View>}
@@ -276,14 +315,35 @@ function Stage({live}:{live:Travel}) {
                 <Copy style={short(21)}>{s.solvedTitle??s.title}</Copy><Copy style={short(17)}>{s.passage[t.storyEdition]}</Copy><Copy style={{...short(14),color:earthen.muted}}>{s.source}</Copy>
               </View>)}
             </View>}
-          </>:onMap ? null :phase==="game-over"||phase==="finished"?<View testID={phase} style={{alignItems:"center",gap:15,padding:18,borderRadius:12,borderWidth:1,borderColor:earthen.border,backgroundColor:earthen.panel}}>
+          </>:summary!==null&&!feedback ? <View testID="landmark-summary" style={{alignItems:"center",gap:14,paddingVertical:22,paddingHorizontal:18,borderRadius:14,borderWidth:1,borderColor:earthen.border,backgroundColor:earthen.panel}}>
+            <Copy accessibilityRole="header" style={{...short(wide?30:26),textAlign:"center",color:earthen.gold}}>{mapDone?tr(`Map ${Math.floor(summary/4)+1} complete!`,`מפה ${Math.floor(summary/4)+1} הושלמה!`):tr("Landmark complete!","נקודת הציון הושלמה!")}</Copy>
+            <View accessible accessibilityLabel={tr(`${summaryStars} of 3 stars`,`${summaryStars} מתוך 3 כוכבים`)}><StarRow key={summary} earned={summaryStars} size={wide?62:54}/></View>
+            <Copy style={{...short(18),textAlign:"center"}}>{summaryMisses===0?tr("Five answers, no mistakes.","חמש תשובות בלי אף טעות.")
+              :summaryMisses===1?tr("One mistake along the way.","טעות אחת בדרך."):tr(`${summaryMisses} mistakes along the way.`,`${summaryMisses} טעויות בדרך.`)}</Copy>
+            <View style={{flexDirection:"row",flexWrap:"wrap",justifyContent:"center",gap:8}}>
+              {mapDone && <SummaryChip testID="map-stars"><Star size={17}/><Copy style={short(16)}>{tr(`${mapStars} of 12 on this map`,`${mapStars} מתוך 12 במפה`)}</Copy></SummaryChip>}
+              <SummaryChip testID="total-stars"><Star size={17}/><Copy style={short(16)}>{tr(`${totals.earned} stars so far`,`${totals.earned} כוכבים עד כה`)}</Copy></SummaryChip>
+              {(live.state.streak??0)>=2 && <SummaryChip><Flame size={17}/><Copy style={short(16)}>{tr(`${live.state.streak} in a row`,`${live.state.streak} ברצף`)}</Copy></SummaryChip>}
+            </View>
+            <LifeSprite stage={guideStage(live.character.id,(live.map-1)*4+live.landmark-1)} size={64} frame={0}/>
+            <View style={{alignSelf:"stretch"}}><RoundAction title={tr("Continue the journey","ממשיכים במסע")} onPress={()=>setSummary(null)}/></View>
+          </View>:onMap ? null :phase==="game-over"||phase==="finished"?<View testID={phase} style={{alignItems:"center",gap:15,padding:18,borderRadius:12,borderWidth:1,borderColor:earthen.border,backgroundColor:earthen.panel}}>
             <LifeSprite stage={guideStage(view.character.id,stageIndex)} size={84} frame={0}/>
             <Copy accessibilityRole="header" style={{...short(29),textAlign:"center"}}>{phase==="game-over"?tr("Out of hearts","הלבבות אזלו"):tr("Journey complete","המסע הושלם")}</Copy>
             {duo && <Copy style={short(19)}>{tr(`Player 1: ${live.state.scores[0]}   ·   Player 2: ${live.state.scores[1]}`,`שחקן 1 · ${live.state.scores[0]}     שחקן 2 · ${live.state.scores[1]}`)}</Copy>}
             {phase==="game-over"?<>
               <Copy style={{...short(16),textAlign:"center"}}>{tr("Try this landmark again with three hearts. Earlier landmarks are saved.","אפשר לנסות שוב את נקודת הציון עם שלושה לבבות. נקודות הציון הקודמות שמורות.")}</Copy>
-              <RoundAction title={tr("Retry this landmark","ניסיון נוסף בנקודת הציון")} onPress={()=>dispatch({type:"expedition-retry",key:live.key})}/>
-            </>:<RoundAction title={tr("Open journey book","פתיחת ספר המסע")} onPress={()=>setPanel("journal")}/>}
+              {profile.tokens>=REVIVE_COST && <View style={{alignSelf:"stretch",gap:4}}>
+                <RoundAction title={tr(`Carry on with one heart · ${REVIVE_COST} tokens`,`ממשיכים מכאן עם לב אחד · ${REVIVE_COST} אסימונים`)} onPress={()=>dispatch({type:"expedition-revive",key:live.key})}/>
+              </View>}
+              <View style={{alignSelf:"stretch"}}><RoundAction quiet={profile.tokens>=REVIVE_COST} title={tr("Retry this landmark","ניסיון נוסף בנקודת הציון")} onPress={()=>dispatch({type:"expedition-retry",key:live.key})}/></View>
+            </>:<>
+              <View testID="journey-stars" accessible accessibilityLabel={tr(`${totals.earned} of ${totals.possible} stars`,`${totals.earned} מתוך ${totals.possible} כוכבים`)} style={{flexDirection:"row",alignItems:"center",gap:7}}>
+                <Star size={26}/><Copy style={{...short(22),fontVariant:["tabular-nums"]}}>{totals.earned} / {totals.possible}</Copy>
+              </View>
+              {(live.state.bestStreak??0)>=2 && <Copy style={{...short(17),textAlign:"center"}}>{tr(`Longest run: ${live.state.bestStreak} correct in a row`,`הרצף הארוך ביותר: ${live.state.bestStreak} תשובות נכונות`)}</Copy>}
+              <RoundAction title={tr("Open journey book","פתיחת ספר המסע")} onPress={()=>setPanel("journal")}/>
+            </>}
             <RoundAction quiet title={tr("Choose a character","בחירת דמות")} onPress={()=>router.replace("/characters")}/>
           </View>:<>
             {bonus && treasure && item && <View testID="surprise-challenge" style={{flexDirection:"row",alignItems:"center",gap:9}}>
@@ -302,29 +362,47 @@ function Stage({live}:{live:Travel}) {
               <Animated.View testID="answer-area" style={{flex:wide?1:undefined,gap:8,transform:[{translateX:shake.interpolate({inputRange:[-1,1],outputRange:[-9,9]})}]}}>
                 {availableClues.length>0&&progress.hint&&<Copy style={{...short(16),color:earthen.gold}}>{puzzle.textHint}</Copy>}
                 {availableClues.length>0&&progress.letter&&<Copy style={{...short(16),color:earthen.gold}}>{tr("First letter","אות ראשונה")} · {normalize(puzzle.answer)[0]}</Copy>}
-                {question ? <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
+                {settled ? <View testID="answer-result" accessibilityLiveRegion="polite" style={{gap:9,padding:14,borderRadius:12,borderWidth:1.5,
+                  borderColor:feedback!.correct?"#A8C997":"#F0AD8D",backgroundColor:feedback!.correct?"#22382A":"#4A211A"}}>
+                  <View style={{flexDirection:"row",alignItems:"center",justifyContent:"space-between",gap:10}}>
+                    <Copy testID="answer-feedback" accessibilityRole="header" style={{...short(wide?26:23),color:feedback!.correct?"#D9E7AE":"#FFCCB2",flexShrink:1}}>{resultTitle}</Copy>
+                    {earned>0 && <View style={{flexDirection:"row",alignItems:"center",gap:4}}><Copy style={{...short(19),color:earthen.gold,fontVariant:["tabular-nums"],writingDirection:"ltr"}}>{"\u2066+"+earned+"\u2069"}</Copy><Coin size={20}/></View>}
+                  </View>
+                  <Copy testID="right-answer" style={{...short(wide?21:19),color:earthen.ink}}>{rightAnswer}</Copy>
+                  <Copy testID="answer-explanation" style={{...short(wide?18:17),color:"#EAD9BD"}}>{detailed}</Copy>
+                  {streakBonus && <View testID="streak-bonus" style={{flexDirection:"row",alignItems:"center",gap:5}}><Flame size={18}/><Copy style={{...short(16),color:"#F6B37E"}}>{tr(`${run} in a row! A bonus token.`,`${run} ברצף! אסימון בונוס.`)}</Copy></View>}
+                  <RoundAction title={tr("Continue","המשך")} onPress={proceed}/>
+                </View> : question ? <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
                   {choices!.map(i=>{
                     const option=question.options[i]!;
-                    const selected=feedback?.choice===i;
+                    const selected=feedback?.choice===i, struck=removed.includes(i);
                     return <Pressable key={i} ref={n=>{buttons.current[i]=n;}} testID={`option-${i}`} accessibilityRole="button" accessibilityLabel={option}
-                      accessibilityState={{disabled:locked,selected}} disabled={locked} onPress={()=>respond(buttons.current[i]??null,i)}
-                      style={{width:"46%",flexGrow:1,minHeight:wide?86:59,padding:12,justifyContent:"center",borderRadius:9}}>
+                      accessibilityState={{disabled:locked||struck,selected}} disabled={locked||struck} onPress={()=>respond(buttons.current[i]??null,i)}
+                      style={{width:"46%",flexGrow:1,minHeight:wide?86:62,padding:12,justifyContent:"center",borderRadius:9,opacity:struck?.42:1}}>
                       {({pressed})=><><CarvedFace pressed={pressed}/>{selected&&<View style={[StyleSheet.absoluteFill,{backgroundColor:feedback.correct?"#294B32":"#732F23",borderColor:feedback.correct?"#A8C997":"#F0AD8D",borderWidth:1.5,borderRadius:9}]}/>}
-                        <Copy style={short(wide?19:16)}>{option}</Copy></>}
+                        <Copy style={{...short(wide?19:17),textDecorationLine:struck?"line-through":"none"}}>{option}</Copy></>}
                     </Pressable>;
                   })}
-                </View>:<RoundAnswer key={view.cardId} puzzle={puzzle} map={view.map} previousWording={view.previousQuestion} choiceSeed={choiceSeed} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked} nearAnswer={nearAnswerKey===view.key}
+                </View>:<RoundAnswer key={view.cardId} puzzle={puzzle} map={view.map} previousWording={view.previousQuestion} choiceSeed={choiceSeed} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked} removed={removed} nearAnswer={nearAnswerKey===view.key}
                   onDraft={value=>dispatch({type:"expedition-draft",key:live.key,value})} onGuess={(value,origin)=>respond(origin,undefined,value)}/>}
                 <View style={{minHeight:24}}>
-                  {feedback ? <Copy testID="answer-feedback" accessibilityLiveRegion="polite" style={{...short(16),color:feedback.correct?"#D9E7AE":"#FFCCB2"}}>
-                    {helper}{feedback.correct||bonus ? ` ${detailed}`:""}
+                  {settled ? null : feedback ? <Copy testID="answer-feedback" accessibilityLiveRegion="polite" style={{...short(17),color:"#FFCCB2"}}>
+                    {helper}
                   </Copy>:bonus && <Copy style={{...short(14),color:earthen.muted}}>{questionLabel}{tr(` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)}s`,` · ${Math.ceil(Math.max(0,live.state.deadline===null?live.state.remainingMs??45000:live.state.deadline-now)/1000)} שניות`)}</Copy>}
                 </View>
               </Animated.View>
             </View>
-            {showingQuestion && !feedback && (question ? <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:44,justifyContent:"center",alignSelf:"flex-start"}}>
-              <Copy style={{...short(14),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story in this picture","הסיפור שבאיור")}</Copy>
-            </Pressable>:<View ref={voice} collapsable={false} style={{alignSelf:"flex-start"}}>
+            {showingQuestion && !feedback && (question ? <View style={{flexDirection:"row",flexWrap:"wrap",alignItems:"center",justifyContent:"space-between",gap:8}}>
+              <Pressable accessibilityRole="button" onPress={()=>setPanel("story")} style={{minHeight:44,justifyContent:"center"}}>
+                <Copy style={{...short(15),color:earthen.muted,textDecorationLine:"underline"}}>{tr("Read the story in this picture","הסיפור שבאיור")}</Copy>
+              </Pressable>
+              {canEliminate && <Pressable testID="eliminate-option" accessibilityRole="button" disabled={locked||profile.tokens<ELIMINATE_COST} onPress={eliminate}
+                accessibilityLabel={tr(`Remove a wrong answer for ${ELIMINATE_COST} tokens`,`הסרת תשובה שגויה תמורת ${ELIMINATE_COST} אסימונים`)} accessibilityState={{disabled:locked||profile.tokens<ELIMINATE_COST}}
+                style={{minHeight:44,flexDirection:"row",alignItems:"center",gap:5,paddingHorizontal:12,borderRadius:9,opacity:profile.tokens<ELIMINATE_COST?.45:1}}>
+                {({pressed})=><><CarvedFace pressed={pressed}/><Copy style={{...short(15),color:earthen.ink}}>{tr("Remove a wrong answer","הסרת תשובה שגויה")}</Copy>
+                  {Array.from({length:ELIMINATE_COST},(_,i)=><Coin key={i} size={13}/>)}</>}
+              </Pressable>}
+            </View>:<View ref={voice} collapsable={false} style={{alignSelf:"flex-start"}}>
               {voiceOpen?<VoiceAnswer disabled={locked} onResult={value=>t.input==="pictures"?respond(voice.current,undefined,spokenPictureAnswer(value,puzzle)):dispatch({type:"expedition-draft",key:live.key,value})}/>:<Pressable onPress={()=>setVoiceOpen(true)} accessibilityRole="button" style={{minHeight:44,justifyContent:"center"}}><Copy style={{...short(14),color:earthen.muted}}>{tr("Voice answer","תשובה בקול")}</Copy></Pressable>}
             </View>)}
           </>}

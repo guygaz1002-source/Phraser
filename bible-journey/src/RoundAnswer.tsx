@@ -20,8 +20,8 @@ export function RoundAction({ title, onPress, disabled = false, quiet = false, r
   </Pressable>;
 }
 
-export function RoundAnswer({ puzzle, progress, disabled, nearAnswer, map, previousWording, choiceSeed, onGuess, onDraft }: {
-  map: number; previousWording: boolean; choiceSeed: number;
+export function RoundAnswer({ puzzle, progress, disabled, nearAnswer, map, previousWording, choiceSeed, removed = [], onGuess, onDraft }: {
+  map: number; previousWording: boolean; choiceSeed: number; removed?: number[];
   puzzle: Puzzle; progress: PuzzleProgress; disabled: boolean; nearAnswer: boolean;
   onGuess: (value: string, origin: ViewHandle | null) => void; onDraft: (value: string) => void;
 }) {
@@ -42,15 +42,15 @@ export function RoundAnswer({ puzzle, progress, disabled, nearAnswer, map, previ
     const indices = guidedChoices(puzzle.choicesKids.length,correct,limit,choiceSeed);
     return <View style={{gap:8}}>
       <View testID="opening-choices" style={{ direction, flexDirection:"row", flexWrap:"wrap", gap:8 }}>
-      {indices.map(index => <Pressable key={index} testID={`picture-choice-${index}`} ref={node => { choiceButtons.current[index] = node; }} accessibilityRole="button"
+      {indices.map(index => { const struck = removed.includes(index); return <Pressable key={index} testID={`picture-choice-${index}`} ref={node => { choiceButtons.current[index] = node; }} accessibilityRole="button"
         accessibilityLabel={tr(`Choose ${puzzle.choiceLabelsKids[index]}`, `בחירה: ${puzzle.choiceLabelsKids[index]}`)}
-        accessibilityState={{ disabled }} disabled={disabled} onPress={() => onGuess(puzzle.choicesKids[index]!, choiceButtons.current[index] ?? null)}
-        style={{ width: "46%", flexGrow: 1, padding: 9, minHeight: 68, alignItems: "center", justifyContent: "center", borderRadius: 9 }}>
+        accessibilityState={{ disabled: disabled || struck }} disabled={disabled || struck} onPress={() => onGuess(puzzle.choicesKids[index]!, choiceButtons.current[index] ?? null)}
+        style={{ width: "46%", flexGrow: 1, padding: 9, minHeight: 68, alignItems: "center", justifyContent: "center", borderRadius: 9, opacity: struck ? .42 : 1 }}>
         {({pressed}) => <><CarvedFace pressed={pressed}/>
           {youngest && <Image source={puzzleImages[puzzle.choicePicturesKids[index]!]} style={{ width: 41, height: 37, borderRadius: 5 }} contentFit="cover" accessible={false}/>}
-          <Copy style={{ fontSize: 16, lineHeight: 22, textAlign: "center" }}>{puzzle.choiceLabelsKids[index]}</Copy>
+          <Copy style={{ fontSize: 17, lineHeight: 23, textAlign: "center", textDecorationLine: struck ? "line-through" : "none" }}>{puzzle.choiceLabelsKids[index]}</Copy>
         </>}
-      </Pressable>)}
+      </Pressable>; })}
       </View>
       {!youngest && <RoundAction quiet title={tr("Type an answer","הקלדת תשובה")} disabled={disabled} onPress={() => setPreferTyping(true)}/>}
       {nearHint}

@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "פרייזר",
+  "NSMicrophoneUsageDescription": "פרייזר מקשיב לתשובה שלך רק אחרי הקשה על המיקרופון.",
+  "NSSpeechRecognitionUsageDescription": "פרייזר הופך את התשובה שאמרת לטקסט."
+}

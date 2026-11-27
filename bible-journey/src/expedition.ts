@@ -8,6 +8,29 @@ export { MAP_COUNT, LANDMARKS_PER_MAP, QUESTIONS_PER_LANDMARK };
 export const BONUS_TIME_MS = 45_000;
 const TOTAL = LANDMARK_COUNT;
 const STARTING_LIVES = 3;
+export const REVIVE_COST = 12;
+export const ELIMINATE_COST = 3;
+export const STREAK_BONUS_EVERY = 5;
+
+/** Three stars for a clean landmark, two after one or two misses, one otherwise. */
+export function landmarkStars(misses = 0): 1 | 2 | 3 {
+  return misses === 0 ? 3 : misses <= 2 ? 2 : 1;
+}
+
+export function expeditionStars(state: Expedition) {
+  let earned = 0, landmarks = 0;
+  state.paid.forEach((count, index) => {
+    if (count !== QUESTIONS_PER_LANDMARK) return;
+    landmarks++;
+    earned += landmarkStars(state.misses?.[index]);
+  });
+  return { earned, possible: landmarks * 3, landmarks };
+}
+
+function fresh(state: Expedition): Expedition {
+  const { tries, removed, ...rest } = state;
+  return rest;
+}
 // Use the character's first and last landscapes and distinct locations in between.
 const landscapes = [0, 1, 2, 4, 5, 7, 8] as const;
 
@@ -141,6 +164,7 @@ export function expeditionView(game: Game, catalog: Character[]) {
 function advance(state: Expedition, journey: Journey, catalog: Character[]): Expedition {
   let index = state.landmark + 1;
   while (index < TOTAL && state.paid[index] === QUESTIONS_PER_LANDMARK) index++;
+  state = fresh(state);
   if (index >= TOTAL) return { ...state, phase: "finished", deadline: null, remainingMs: null };
   const bank = questionBank(catalog, state.curriculumTier);
   const opening = bank.byId.get((state.deck ?? bank.legacy)[index*QUESTIONS_PER_LANDMARK]!)!;
@@ -235,6 +259,12 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
       }
       if (!correct) {
         next.lives--;
+        next.misses = Array.from({length: TOTAL}, (_, i) => (state.misses?.[i] ?? 0) + (i === state.landmark ? 1 : 0));
+        next.streak = 0;
+        next.tries = (state.tries ?? 0) + 1;
+        // Strike out the option that was tried, whether a quiz choice or an illustrated event choice.
+        const tried = question ? action.choice! : puzzle.choicesKids.indexOf(action.value!.trim());
+        if (tried >= 0 && !state.removed?.includes(tried)) next.removed = [...(state.removed ?? []), tried];
         passTurn(false);
         if (!next.lives) next.phase = "game-over";
         break;
@@ -247,7 +277,14 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
         const curriculumOpener = state.step === 0 && view.cardId.startsWith("age/");
         tokens += !question || curriculumOpener ? 5 - state.progress.image : 1;
         next.paid = [...state.paid]; next.paid[state.landmark] = state.step + 1;
+        // Only a first-try answer extends the run; every fifth in a row pays one more token.
+        if (!state.tries) {
+          next.streak = (state.streak ?? 0) + 1;
+          next.bestStreak = Math.max(state.bestStreak ?? 0, next.streak);
+          if (next.streak % STREAK_BONUS_EVERY === 0) tokens++;
+        }
       }
+      next = fresh(next);
       if (state.step < QUESTIONS_PER_LANDMARK - 1) next.step++;
       else if (encounterSlot(state.seed, state.landmark, journey, questionBank(catalog).legacyStops) !== undefined && !state.encounters[state.landmark]) next.phase = "discovery";
       else next = advance(next, journey, catalog);
@@ -265,9 +302,26 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
       if (state.phase !== "bonus" || state.remainingMs === null || !clock(action.now)) return;
       next.deadline = action.now + state.remainingMs; next.remainingMs = null;
       break;
+    case "expedition-eliminate": {
+      // Pay to strike out one wrong option, while at least two choices would remain.
+      if (state.phase !== "question" || !question || !validChoice(action.choice, question.options.length)) return;
+      const removed = state.removed ?? [];
+      if (action.choice === question.answer || removed.includes(action.choice) ||
+          question.options.length - removed.length < 3 || tokens < ELIMINATE_COST) return;
+      tokens -= ELIMINATE_COST;
+      next.removed = [...removed, action.choice];
+      break;
+    }
+    case "expedition-revive":
+      // Spend tokens to carry on from the same question with one heart.
+      if (state.phase !== "game-over" || tokens < REVIVE_COST) return;
+      tokens -= REVIVE_COST;
+      next.lives = 1; next.phase = "question";
+      break;
     case "expedition-retry":
       if (state.phase !== "game-over") return;
       delete next.previousQuestionAt;
+      next = fresh(next);
       next.lives = STARTING_LIVES; next.phase = "travel"; next.step = 0;
       next.progress = { ...state.progress, draft: "", resolved: false, revealed: false, earned: 0 };
       break;
@@ -292,6 +346,14 @@ export function validateExpedition(state: Expedition, journey: Journey, characte
     !state.inventory || !integer(state.inventory.lamp,0,TOTAL) || !integer(state.inventory.seal,0,TOTAL) ||
     !Array.isArray(state.paid) || state.paid.length !== TOTAL || state.paid.some(n => !integer(n,0,5)) ||
     !state.encounters || typeof state.encounters !== "object" || Array.isArray(state.encounters)) throw Error("Invalid expedition");
+  if (state.misses !== undefined && (!Array.isArray(state.misses) || state.misses.length !== TOTAL || state.misses.some(n => !integer(n))))
+    throw Error("Invalid landmark misses");
+  if ((state.streak !== undefined && !integer(state.streak)) || (state.bestStreak !== undefined && !integer(state.bestStreak)) ||
+      (state.streak ?? 0) > (state.bestStreak ?? state.streak ?? 0) || (state.tries !== undefined && !integer(state.tries)))
+    throw Error("Invalid answer streak");
+  if (state.removed !== undefined && (!Array.isArray(state.removed) || state.removed.length > 8 ||
+      new Set(state.removed).size !== state.removed.length || state.removed.some(n => !integer(n,0,9))))
+    throw Error("Invalid removed options");
   const p = state.progress;
   if (!p || !integer(p.image,0,3) || typeof p.draft !== "string" ||
     [p.hint,p.letter,p.revealed,p.resolved].some(flag => typeof flag !== "boolean") || !integer(p.earned,0,5))

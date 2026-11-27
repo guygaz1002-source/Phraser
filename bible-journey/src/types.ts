@@ -99,13 +99,23 @@ export type Expedition = {
   progress: PuzzleProgress;
   deadline: number | null;
   remainingMs: number | null;
+  /** Wrong answers per landmark; a clean landmark earns three stars. Absent in saves from before stars. */
+  misses?: number[];
+  /** Consecutive ordinary questions answered correctly on the first try. */
+  streak?: number;
+  bestStreak?: number;
+  /** Wrong attempts at the current question. */
+  tries?: number;
+  /** Options of the current question that were tried or removed with a token. */
+  removed?: number[];
 };
 export type KeyedExpeditionAction =
   | { type: "expedition-arrive" | "expedition-expire" | "expedition-pause" | "expedition-resume"; key: string; now: number }
   | { type: "expedition-answer"; key: string; choice?: number; value?: string; now: number }
   | { type: "expedition-buy"; key: string; clue: Exclude<Clue, "answer"> }
   | { type: "expedition-draft"; key: string; value: string }
-  | { type: "expedition-retry"; key: string };
+  | { type: "expedition-retry" | "expedition-revive"; key: string }
+  | { type: "expedition-eliminate"; key: string; choice: number };
 export type Journey = {
   expedition?: Expedition;
   positions?: Record<string, Tile>;
