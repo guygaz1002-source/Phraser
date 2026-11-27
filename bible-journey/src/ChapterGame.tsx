@@ -13,6 +13,7 @@ import { classifyGuess } from "./puzzleAnswer";
 import { expeditionView } from "./expedition";
 import { roundArtwork } from "./round";
 import { RouteGate } from "./RouteGate";
+import { guidedChoices } from "./questionDifficulty";
 import { RoundAction, RoundAnswer } from "./RoundAnswer";
 import { Coin } from "./RoundEffects";
 import { CoinFlight, measureFlight, type ViewHandle } from "./CoinFlight";
@@ -86,6 +87,10 @@ function Stage({live}:{live:Travel}) {
   const showingQuestion=phase==="question"||bonus, onMap=phase==="travel"||phase==="discovery";
   const story=(bonus?view.bonusStop:undefined)??view.stop, puzzle=bonus?story.puzzles[0]!:view.puzzle;
   const progress=view.progress, question=bonus?view.bonus:view.question;
+  const choiceSeed = view.state.seed ^ Math.imul(1 + view.state.landmark * 6 + (bonus ? 5 : view.step),0x9e3779b9);
+  const keepBonusChoices = bonus && (view.state.legacyBonusAt === view.state.landmark || view.state.previousBonusAt === view.state.landmark);
+  const choices = question && guidedChoices(question.options.length,question.answer,
+    view.map === 1 && !view.previousQuestion && !keepBonusChoices ? 2 : question.options.length,choiceSeed);
   const art=roundArtwork(t.imageSet,bonus?4:view.artStep,question?0:progress.image);
   const file=illustrationFile(puzzle,t.imageSet,art.set,art.index);
   const imageKey=`${t.imageSet}/${file}`;
@@ -265,7 +270,8 @@ function Stage({live}:{live:Travel}) {
                 {availableClues.length>0&&progress.hint&&<Copy style={{...short(16),color:earthen.gold}}>{puzzle.textHint}</Copy>}
                 {availableClues.length>0&&progress.letter&&<Copy style={{...short(16),color:earthen.gold}}>{tr("First letter","אות ראשונה")} · {normalize(puzzle.answer)[0]}</Copy>}
                 {question ? <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
-                  {question.options.map((option,i)=>{
+                  {choices!.map(i=>{
+                    const option=question.options[i]!;
                     const selected=feedback?.choice===i;
                     return <Pressable key={i} ref={n=>{buttons.current[i]=n;}} testID={`option-${i}`} accessibilityRole="button" accessibilityLabel={option}
                       accessibilityState={{disabled:locked,selected}} disabled={locked} onPress={()=>respond(buttons.current[i]??null,i)}
@@ -274,7 +280,7 @@ function Stage({live}:{live:Travel}) {
                         <Copy style={short(wide?19:16)}>{option}</Copy></>}
                     </Pressable>;
                   })}
-                </View>:<RoundAnswer puzzle={puzzle} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked} nearAnswer={nearAnswerKey===view.key}
+                </View>:<RoundAnswer key={view.cardId} puzzle={puzzle} map={view.map} previousWording={view.previousQuestion} choiceSeed={choiceSeed} progress={feedback?.draft?{...progress,draft:feedback.draft}:progress} disabled={locked} nearAnswer={nearAnswerKey===view.key}
                   onDraft={value=>dispatch({type:"expedition-draft",key:live.key,value})} onGuess={(value,origin)=>respond(origin,undefined,value)}/>}
                 <View style={{minHeight:24}}>
                   {feedback ? <Copy testID="answer-feedback" accessibilityLiveRegion="polite" style={{...short(16),color:feedback.correct?"#D9E7AE":"#FFCCB2"}}>

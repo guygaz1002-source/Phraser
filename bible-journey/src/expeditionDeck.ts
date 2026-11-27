@@ -1,6 +1,7 @@
+import { gentlerQuestions, retainPassageReference } from "./gentlerQuestions";
 import { ageCurricula, expandedIds } from "./ageCurriculum";
 import { bibleConnectionQuestion, bibleConnections } from "./bibleConnections";
-import { routePictureQuestion } from "./expeditionConnections";
+import { isPassageComparison, routePictureQuestion } from "./expeditionConnections";
 import { finaleCard, finaleSceneIds } from "./expeditionFinale";
 import { additionalBibleStops, generalBibleRank } from "./generalBibleStops";
 import type { Language } from "./locale";
@@ -16,6 +17,7 @@ type Card = {
   stop: Stop;
   artStep: number;
   rank: number;
+  afterFirstMap?: boolean;
   opening?: boolean; // Some age-specific picture riddles open with illustrated multiple choice.
   map?: number; // Cross-story comparisons are authored for a particular difficulty map.
   question?: (tier: TierId) => Question;
@@ -62,8 +64,7 @@ function originalBank(catalog: Character[]): Bank {
   return bank;
 }
 
-// The youngest players answer the opening riddle by choosing a picture. Its
-// distractors must also be stories they could have met in this age group.
+// Every suggested answer should be an event in the player’s age-specific curriculum.
 function scopePictureChoices(cards: Card[]) {
   const known = cards.filter(card => !card.question).map(card => card.stop);
   const names = new Set(known.map(stop => stop.puzzles[0]!.answer));
@@ -89,12 +90,38 @@ function scopePictureChoices(cards: Card[]) {
   }
 }
 
+function applyGentlerQuestions(cards: Card[], tier: TierId, language: Language) {
+  const manuscript = gentlerQuestions[tier];
+  const revisedStops = new Map<string,Stop>();
+  for (const card of cards) {
+    const row = manuscript[card.id];
+    const wording = row?.[language];
+    const crossStory = card.id.startsWith("age/") || card.id.startsWith("connection/")
+      || card.id.startsWith("finale/") || isPassageComparison(card.stop.id,card.artStep);
+    card.afterFirstMap = crossStory && !row?.introductory;
+    if (!wording) throw Error("Missing " + tier + " wording for " + card.id);
+    if (card.question && "options" in wording) {
+      const question = retainPassageReference(wording,card.question(tier));
+      card.question = () => question;
+    } else if (!card.question && !("options" in wording)) {
+      const stop = card.stop;
+      revisedStops.set(stop.id, {...stop,picturePrompt:{...stop.picturePrompt,[tier]:wording.prompt}});
+    } else {
+      throw Error("Incompatible wording for picture card " + card.id);
+    }
+  }
+  for (const card of cards) card.stop = revisedStops.get(card.stop.id) ?? card.stop;
+}
+
 const ageBanks = new WeakMap<Character[], Partial<Record<TierId, Bank>>>();
 
-export function questionBank(catalog: Character[], tier?: TierId): Bank {
+const previousAgeBanks = new WeakMap<Character[], Partial<Record<TierId, Bank>>>();
+
+export function questionBank(catalog: Character[], tier?: TierId, previousWording = false): Bank {
   const original = originalBank(catalog);
   if (!tier) return original; // Unversioned saves contain the shared question IDs.
-  const cached = ageBanks.get(catalog) ?? {};
+  const cache = previousWording ? previousAgeBanks : ageBanks;
+  const cached = cache.get(catalog) ?? {};
   if (cached[tier]) return cached[tier];
   const language = /[א-ת]/.test(catalog[0]!.name) ? "he" : "en";
   const syllabus = ageCurricula[tier];
@@ -116,13 +143,14 @@ export function questionBank(catalog: Character[], tier?: TierId): Bank {
     cards.push({id:"age/" + tier + "/" + reading.id, stop, artStep:reading.artStep,
       rank:reading.rank, opening:reading.opening, question:() => question});
   }
-  if (tier === "a") scopePictureChoices(cards);
+  if (!previousWording) applyGentlerQuestions(cards, tier, language);
+  if (!previousWording || tier === "a") scopePictureChoices(cards);
   const eligible = new Set(cards.map(card => card.id));
   if (eligible.size !== cards.length) throw Error("Duplicate curriculum question in " + tier);
   const bank = {...original, cards, byId:new Map(original.byId), tier, eligible};
   for (const card of cards) bank.byId.set(card.id,card);
   cached[tier] = bank;
-  ageBanks.set(catalog,cached);
+  cache.set(catalog,cached);
   return bank;
 }
 
@@ -148,7 +176,10 @@ function shuffle<T>(items: T[], next: () => number) {
 // story at a boundary eligible on either map. A map draws only a subset of its cards.
 function preferredMaps(cards: Card[], next: () => number) {
   const ordered = shuffle([...cards],next).sort((a,b) => a.rank-b.rank);
-  return new Map(ordered.map((card,i) => [card.id,1+Math.floor(i * MAP_COUNT / ordered.length)]));
+  return new Map(ordered.map((card,i) => {
+    const map = 1 + Math.floor(i * MAP_COUNT / ordered.length);
+    return [card.id, card.afterFirstMap ? Math.max(2,map) : map];
+  }));
 }
 
 export function drawExpeditionDeck(bank: Bank, seed: number, pinned: ReadonlySet<number>, previous = bank.legacy): string[] {
@@ -198,6 +229,8 @@ export function drawExpeditionDeck(bank: Bank, seed: number, pinned: ReadonlySet
         }
         let best: Card | undefined, bestScore = Infinity;
         for (const card of pool) {
+          const laterReading = map === 1 && card.afterFirstMap;
+          if (laterReading && !pinned.size) continue;
           if (used.has(card.id) || opensLandmark(card) !== (step===0) || (card.map && card.map!==map)) continue;
           if (seenPictures.has(pictureId(card.stop,card.artStep))) continue;
           const bandDistance = card.map ? 0 : Math.abs(bands.get(card.id)!-map);
@@ -207,7 +240,7 @@ export function drawExpeditionDeck(bank: Bank, seed: number, pinned: ReadonlySet
           // difficulty band give the readings written specifically for this age a turn.
           const firstRiddle = slot === 0 && card.question ? 100 : 0;
           const ageReading = featured.has(card.id) ? -0.5 : 0;
-          const score = firstRiddle + bandDistance*8 + (card.map ? 4 : 0)
+          const score = (laterReading ? 1000 : 0) + firstRiddle + bandDistance*8 + (card.map ? 4 : 0)
             + (seenScenes.has(card.stop.id) ? 1 : 0) + ageReading;
           if (score < bestScore) {best=card;bestScore=score;}
         }
@@ -215,6 +248,17 @@ export function drawExpeditionDeck(bank: Bank, seed: number, pinned: ReadonlySet
         deck[slot]=best.id; used.add(best.id); seenScenes.add(best.stop.id);
         seenPictures.add(pictureId(best.stop,best.artStep));
       }
+    }
+  }
+  // Let players build up to the more demanding follow-ups within a landmark.
+  // Keep the opening and any sequence already seen in an older save in place.
+  if (bank.tier) {
+    for (let landmark=0; landmark<LANDMARK_COUNT; landmark++) {
+      if (pinned.has(landmark)) continue;
+      const start = landmark * QUESTIONS_PER_LANDMARK + 1;
+      const followups = deck.slice(start,start + QUESTIONS_PER_LANDMARK - 1);
+      followups.sort((a,b) => bank.byId.get(a)!.rank - bank.byId.get(b)!.rank);
+      deck.splice(start,followups.length,...followups);
     }
   }
   return deck;

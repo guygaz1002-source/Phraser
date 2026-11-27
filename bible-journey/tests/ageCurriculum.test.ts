@@ -60,13 +60,16 @@ test("at every age the seven maps draw 140 distinct allowed cards and increase d
       for (let map=0; map<7; map++) {
         const cards = deck.slice(map*20,(map+1)*20).map(id=>bank.byId.get(id)!);
         assert.ok(cards.every(c=>bank.eligible!.has(c.id)));
+        if (map === 0) assert.ok(cards.every(c=>!c.afterFirstMap));
         const difficulty = cards.reduce((sum,c)=>sum+c.rank,0)/20;
         assert.ok(difficulty > previous, tier+" seed "+seed+" map "+map+" ranks "+previous+" -> "+difficulty);
         previous = difficulty;
         for (let l=0;l<4;l++) {
           const group=cards.slice(l*5,l*5+5);
           assert.equal(new Set(group.map(c=>c.stop.id+"/"+c.artStep)).size,5);
-          if (tier==="a" && !group[0]!.question) {
+          const ranks = group.slice(1).map(card => card.rank);
+          assert.deepEqual(ranks,[...ranks].sort((a,b)=>a-b));
+          if (!group[0]!.question) {
             for (const label of group[0]!.stop.puzzles[0]!.choicesKids) assert.ok(selectable.has(label),label);
           }
         }

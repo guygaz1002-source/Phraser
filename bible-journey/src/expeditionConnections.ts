@@ -136,6 +136,10 @@ const connections: Partial<Record<string, Connection>> = {
   },
 };
 
+export function isPassageComparison(stopId: string, step: number) {
+  return step === 4 && Boolean(connections[stopId]);
+}
+
 export function routePictureQuestion(stop: Stop, tier: TierId, step: number, language: Language): Question | undefined {
   const connection = step === 4 ? connections[stop.id] : undefined;
   if (!connection) return visualQuestionsFor(stop, tier)[step - 1];

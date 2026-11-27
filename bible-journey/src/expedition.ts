@@ -70,12 +70,16 @@ function visitedThrough(state: Expedition) {
 }
 
 export function adoptQuestionDeck(state: Expedition, journey: Journey, catalog: Character[], tier: TierId) {
-  if (state.deck && state.curriculumTier === tier) return state;
+  const ageScoped = Boolean(state.deck) && state.curriculumTier === tier;
+  if (ageScoped && state.questionEdition === 1) return state;
   const bank = questionBank(catalog, tier);
   const pinned = pinnedLandmarks(journey, bank.legacyStops, visitedThrough(state));
   const deck = drawExpeditionDeck(bank, state.seed, pinned, state.deck ?? bank.legacy);
-  return {...state, curriculumTier:tier, deck,
-    ...(state.phase === "bonus" || state.phase === "discovery" ? {legacyBonusAt:state.landmark} : {})};
+  const inTreasure = state.phase === "bonus" || state.phase === "discovery";
+  return {...state, curriculumTier:tier, questionEdition:1 as const, deck,
+    ...(state.phase === "question" ? {previousQuestionAt:state.landmark * QUESTIONS_PER_LANDMARK + state.step} : {}),
+    ...(inTreasure && !ageScoped ? {legacyBonusAt:state.landmark} : {}),
+    ...(state.phase === "bonus" && ageScoped ? {previousBonusAt:state.landmark} : {})};
 }
 
 export function initialExpedition(seed: number, journey: Journey, catalog: Character[], tier: TierId): Expedition {
@@ -84,7 +88,7 @@ export function initialExpedition(seed: number, journey: Journey, catalog: Chara
   const paid = Array.from({length: TOTAL}, (_, index) => legacyCredit(journey, route[index], Math.floor(index / 3)));
   const landmark = paid.findIndex(count => count < QUESTIONS_PER_LANDMARK);
   return {
-    seed: seed >>> 0, curriculumTier:tier, deck, landmark, step: paid[landmark]!, phase: "travel", revision: 0,
+    seed: seed >>> 0, curriculumTier:tier, questionEdition:1, deck, landmark, step: paid[landmark]!, phase: "travel", revision: 0,
     lives: STARTING_LIVES, turn: 0, scores: [0, 0], inventory: { lamp: 0, seal: 0 },
     paid, encounters: {}, progress: migratedProgress(journey, bank.byId.get(deck[landmark*QUESTIONS_PER_LANDMARK]!)!.stop), deadline: null, remainingMs: null,
   };
@@ -98,11 +102,14 @@ export function expeditionView(game: Game, catalog: Character[]) {
   const journey = character && profile.journeys[character.id];
   const state = journey?.expedition;
   if (!state || !character) return undefined;
-  const bank = questionBank(catalog, tier);
+  const bank = questionBank(catalog, state.deck ? tier : undefined);
   const deck = state.deck ?? bank.legacy;
   const mapIndex = Math.floor(state.landmark / LANDMARKS_PER_MAP);
   const mapStop = character.stops[landscapes[mapIndex]!]!;
-  const card = bank.byId.get(deck[state.landmark*QUESTIONS_PER_LANDMARK+state.step]!)!;
+  const position = state.landmark * QUESTIONS_PER_LANDMARK + state.step;
+  const previousQuestion = state.phase === "question" && state.previousQuestionAt === position;
+  const wordingBank = previousQuestion ? questionBank(catalog,tier,true) : bank;
+  const card = wordingBank.byId.get(deck[position]!)!;
   const stop = card.stop, question = card.question?.(tier);
   const language = /[א-ת]/.test(character.name) ? "he" : "en";
   const showingTreasure = state.phase === "discovery" || state.phase === "bonus";
@@ -110,7 +117,7 @@ export function expeditionView(game: Game, catalog: Character[]) {
   const oldTreasure = !state.deck || !state.curriculumTier || state.legacyBonusAt === state.landmark;
   const treasure = slot === undefined ? undefined : oldTreasure
     ? {stop:mapStop, question:surpriseQuestion(mapStop, tier, slot, language)}
-    : curriculumTreasure(character, mapIndex, mapStop, tier, slot, language);
+    : curriculumTreasure(character, mapIndex, mapStop, tier, slot, language, state.previousBonusAt === state.landmark);
   const bonus = treasure?.question;
   const key = [game.playMode ?? "solo", tier, character.id, state.seed, state.landmark, state.step, state.phase, state.revision].join("/");
   const completed = new Map<string,Stop>();
@@ -122,7 +129,7 @@ export function expeditionView(game: Game, catalog: Character[]) {
     }
   });
   return {
-    cardId: card.id, artStep: card.artStep,
+    cardId: card.id, artStep: card.artStep, previousQuestion,
     state, character, journey, stop, puzzle: stop.puzzles[0]!, progress: state.progress, mapStop,
     previousStop: state.landmark > 0 ? bank.byId.get(deck[state.landmark*QUESTIONS_PER_LANDMARK-1]!)!.stop : undefined,
     map: mapIndex + 1, landmark: state.landmark % LANDMARKS_PER_MAP + 1, step: state.step,
@@ -161,6 +168,7 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
   };
   const completeBonus = (result: "correct" | "wrong" | "expired") => {
     next.encounters = { ...state.encounters, [state.landmark]: result };
+    delete next.previousBonusAt;
     // Expedition treasures are new companion trials, distinct from the old chapter quiz with the same item art.
     // The saved encounter at this landmark, not an old quiz ID, owns its single payout.
     passTurn(result === "correct");
@@ -231,6 +239,7 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
         if (!next.lives) next.phase = "game-over";
         break;
       }
+      delete next.previousQuestionAt;
       const paid = state.paid[state.landmark]!;
       const newlyEarned = paid <= state.step;
       passTurn(newlyEarned);
@@ -258,6 +267,7 @@ export function reduceExpedition(game: Game, catalog: Character[], action: Keyed
       break;
     case "expedition-retry":
       if (state.phase !== "game-over") return;
+      delete next.previousQuestionAt;
       next.lives = STARTING_LIVES; next.phase = "travel"; next.step = 0;
       next.progress = { ...state.progress, draft: "", resolved: false, revealed: false, earned: 0 };
       break;
@@ -286,6 +296,9 @@ export function validateExpedition(state: Expedition, journey: Journey, characte
   if (!p || !integer(p.image,0,3) || typeof p.draft !== "string" ||
     [p.hint,p.letter,p.revealed,p.resolved].some(flag => typeof flag !== "boolean") || !integer(p.earned,0,5))
     throw Error("Invalid expedition clue");
+  if (state.questionEdition !== undefined && state.questionEdition !== 1) throw Error("Unknown wording edition");
+  if (state.previousQuestionAt !== undefined && !integer(state.previousQuestionAt,0,TOTAL * QUESTIONS_PER_LANDMARK - 1)) throw Error("Invalid saved question wording");
+  if (state.previousBonusAt !== undefined && !integer(state.previousBonusAt,0,state.landmark)) throw Error("Invalid saved bonus wording");
   if (state.legacyBonusAt !== undefined && !integer(state.legacyBonusAt,0,state.landmark))
     throw Error("Invalid saved treasure");
   if (state.deck !== undefined) validateDeck(state.deck, bank, pinnedLandmarks(journey, route, visitedThrough(state)));

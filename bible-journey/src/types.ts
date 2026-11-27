@@ -81,6 +81,9 @@ export type Expedition = {
   /** Saved ordinary card IDs. Absent in the original fixed-route saves. */
   deck?: string[];
   curriculumTier?: TierId;
+  questionEdition?: 1;
+  previousBonusAt?: number;
+  previousQuestionAt?: number;
   /** A previously displayed treasure keeps its question until it closes. */
   legacyBonusAt?: number;
   landmark: number;
